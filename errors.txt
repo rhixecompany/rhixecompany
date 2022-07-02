@@ -1,0 +1,38 @@
+Watching for file changes with StatReloader
+[02/Jul/2022 18:28:20] [m"GET / HTTP/1.1" 200 7214[0m
+[02/Jul/2022 18:28:21] [36m"GET /static/css/default.css HTTP/1.1" 304 0[0m
+[02/Jul/2022 18:28:21] [36m"GET /static/js/script.js HTTP/1.1" 304 0[0m
+[02/Jul/2022 18:28:21] [36m"GET /static/images/menu.png HTTP/1.1" 304 0[0m
+[02/Jul/2022 18:28:21] [36m"GET /static/images/Aei.jpg HTTP/1.1" 304 0[0m
+[02/Jul/2022 18:28:21] [36m"GET /static/images/Logo.jpg HTTP/1.1" 304 0[0m
+[02/Jul/2022 18:28:21] [36m"GET /static/images/favicon.ico HTTP/1.1" 304 0[0m
+Internal Server Error: /send_email/
+Traceback (most recent call last):
+  File "/home/bot/dev/python/rhixecompany/env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/bot/dev/python/rhixecompany/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/bot/dev/python/rhixecompany/env/lib/python3.10/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/bot/dev/python/rhixecompany/base/views.py", line 128, in sendEmail
+    email.send()
+  File "/home/bot/dev/python/rhixecompany/env/lib/python3.10/site-packages/django/core/mail/message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/bot/dev/python/rhixecompany/env/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "/home/bot/dev/python/rhixecompany/env/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 62, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+[02/Jul/2022 18:28:46] [35;1m"POST /send_email/ HTTP/1.1" 500 107965[0m
+Not Found: /favicon.ico
+[02/Jul/2022 18:28:46] [33m"GET /favicon.ico HTTP/1.1" 404 5245[0m
