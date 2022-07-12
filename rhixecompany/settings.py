@@ -1,6 +1,4 @@
 import os
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -83,7 +81,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'rhixecompany',
-        'USER': 'bot',
+        'USER': 'root',
         'PASSWORD': '20010709',
         'HOST': 'localhost',
         'PORT': ''
@@ -137,16 +135,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-SERVICE_ACCOUNT_FILE = 'rhixe-company-1b579c2391ef.json'
-credentials = service_account.Credentials.from_service_account_file(
-    filename=SERVICE_ACCOUNT_FILE,
-    scopes=['https://mail.google.com/'],
-    subject='admin@rhixe.company'
-)
-
-service_gmail = build('gmail', 'v1', credentials=credentials)
-service_gmail.users().getProfile(userId='me').execute()
-
+EMAIL_HOST_USER = "YOU_EMAIL"
+EMAIL_HOST_PASSWORD = 'YOU_EMAIL_PASSWORD'
 
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 

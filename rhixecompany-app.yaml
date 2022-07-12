@@ -1,13 +1,13 @@
 runtime: python
-env: flex
-entrypoint: gunicorn -b :$PORT main:app
+env: env
+entrypoint: gunicorn -b :$PORT rhixecompany:application
 
 runtime_config:
-  python_version: 3
+  python_version: 3.10.4
 
 manual_scaling:
   instances: 1
 resources:
-  cpu: 1
-  memory_gb: 0.5
-  disk_size_gb: 10
+  cpu: 2
+  memory_gb: 1.0
+  disk_size_gb: 30
