@@ -121,7 +121,7 @@ def sendEmail(request):
 			request.POST['subject'],
 			template,
 			settings.EMAIL_HOST_USER,
-			['admin@rhixe.company']
+			['rhixecompany@gmail.com']
 			)
 
 		email.fail_silently=False
