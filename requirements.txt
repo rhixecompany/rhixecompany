@@ -8,7 +8,6 @@ django-nose
 django-storages
 docutils
 gunicorn
-mysqlclient
 nose
 nosedjango
 Pillow
@@ -17,3 +16,7 @@ python-decouple
 requests
 slugify
 whitenoise
+gunicorn
+psycopg2-binary
+django-storages[google]
+django-environ

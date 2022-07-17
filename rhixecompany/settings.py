@@ -1,161 +1,44 @@
+import io
 import os
+from urllib.parse import urlparse
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import environ
 
+# Import the original settings from each template
+from .basesettings import *
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
+# Load the settings from the environment variable
+env = environ.Env()
+env.read_env(io.StringIO(os.environ.get("APPLICATION_SETTINGS", None)))
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'hrj48*mobkzo)s6q+2wfqcg=_=@5c38n&sb4_vlp#bb^zyp_pi'
+# Setting this value from django-environ
+SECRET_KEY = env("SECRET_KEY")
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# If defined, add service URL to Django security settings
+CLOUDRUN_SERVICE_URL = env("CLOUDRUN_SERVICE_URL", default=None)
+if CLOUDRUN_SERVICE_URL:
+    ALLOWED_HOSTS = [urlparse(CLOUDRUN_SERVICE_URL).netloc]
+    CSRF_TRUSTED_ORIGINS = [CLOUDRUN_SERVICE_URL]
+else:
+    ALLOWED_HOSTS = ["*"]
 
-ALLOWED_HOSTS = ['*']
+# Default false. True allows default landing pages to be visible
+DEBUG = env("DEBUG", default=False)
 
+# Set this value from django-environ
+DATABASES = {"default": env.db()}
 
-# Application definition
+# Change database settings if using the Cloud SQL Auth Proxy
+if os.getenv("USE_CLOUD_SQL_AUTH_PROXY", None):
+    DATABASES["default"]["HOST"] = "127.0.0.1"
+    DATABASES["default"]["PORT"] = 5432
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+if "myproject" not in INSTALLED_APPS:
+     INSTALLED_APPS += ["myproject"] # for custom data migration
 
-    'base.apps.BaseConfig',
-
-    'crispy_forms',
-    'django_filters',
-    'ckeditor',
-    'ckeditor_uploader',
-    'storages',
-]
-
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-MIDDLEWARE = [
-     'whitenoise.middleware.WhiteNoiseMiddleware',
-
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
-
-ROOT_URLCONF = 'rhixecompany.urls'
-
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            os.path.join(BASE_DIR, 'templates'),
-        ],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
-
-WSGI_APPLICATION = 'rhixecompany.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'rhixecompany',
-        'USER': 'root',
-        'PASSWORD': '20010709',
-        'HOST': 'localhost',
-        'PORT': ''
-    }
-}
-
-# Password validation
-# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
-
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
-]
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/3.0/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_L10N = True
-
-USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
-
-STATIC_URL = '/static/'
-MEDIA_URL = '/images/'
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
-
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "YOU_EMAIL"
-EMAIL_HOST_PASSWORD = 'YOU_EMAIL_PASSWORD'
-
-CKEDITOR_UPLOAD_PATH = 'uploads/'
-
-CKEDITOR_CONFIGS = {
-    'default': {
-        'toolbar': 'full',
-        'height': 300,
-        'width': '100%',
-    },
-}
-
-AWS_QUERYSTRING_AUTH = False
-
-#STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-#AWS_ACCESS_KEY_ID = 'YOUR-AWS-ACCESS-KEY-ID'
-#AWS_SECRET_ACCESS_KEY = 'YOUR_AWS-SECRET-ACCESS-KEY'
-#AWS_STORAGE_BUCKET_NAME = 'YOU_BUCKET_NAME'
-
-#AWS_S3_FILE_OVERWRITE = False
-#AWS_DEFAULT_ACL = None
+# Define static storage via django-storages[google]
+GS_BUCKET_NAME = env("GS_BUCKET_NAME")
+STATICFILES_DIRS = []
+DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+GS_DEFAULT_ACL = "publicRead"
