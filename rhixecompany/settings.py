@@ -33,8 +33,8 @@ if os.getenv("USE_CLOUD_SQL_AUTH_PROXY", None):
     DATABASES["default"]["HOST"] = "127.0.0.1"
     DATABASES["default"]["PORT"] = 5432
 
-if "myproject" not in INSTALLED_APPS:
-     INSTALLED_APPS += ["myproject"] # for custom data migration
+if "rhixecompany" not in INSTALLED_APPS:
+     INSTALLED_APPS += ["rhixecompany"] # for custom data migration
 
 # Define static storage via django-storages[google]
 GS_BUCKET_NAME = env("GS_BUCKET_NAME")
