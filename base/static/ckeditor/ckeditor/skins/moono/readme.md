@@ -10,6 +10,7 @@ documentation.
 
 Features
 -------------------
+
 "Moono" is a monochromatic skin, which offers a modern look coupled with gradients and transparency.
 It comes with the following features:
 
@@ -21,6 +22,7 @@ Directory Structure
 -------------------
 
 CSS parts:
+
 - **editor.css**: the main CSS file. It's simply loading several other files, for easier maintenance,
 - **mainui.css**: the file contains styles of entire editor outline structures,
 - **toolbar.css**: the file contains styles of the editor toolbar space (top),
@@ -36,6 +38,7 @@ it's not loaded until the first menu open up,
 - **editor_XYZ.css** and **dialog_XYZ.css**: browser specific CSS hacks.
 
 Other parts:
+
 - **skin.js**: the only JavaScript part of the skin that registers the skin, its browser specific files and its icons and defines the Chameleon feature,
 - **icons/**: contains all skin defined icons,
 - **images/**: contains a fill general used images,

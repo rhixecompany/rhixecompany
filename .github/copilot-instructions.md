@@ -38,4 +38,3 @@ gunicorn profile.wsgi:application --bind 0.0.0.0:8000
 - Prefer class-based views and app-level URL namespaces.
 - Sanitize CKEditor HTML input carefully.
 - Keep secrets in environment variables and never in code.
-

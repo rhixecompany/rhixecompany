@@ -8,6 +8,7 @@ documentation.
 
 Features
 -------------------
+
 "Moono-lisa" is a monochromatic skin, which offers a modern, flat and minimalistic look which blends very well in modern design.
 It comes with the following features:
 
@@ -19,6 +20,7 @@ Directory Structure
 -------------------
 
 CSS parts:
+
 - **editor.css**: the main CSS file. It's simply loading several other files, for easier maintenance,
 - **mainui.css**: the file contains styles of entire editor outline structures,
 - **toolbar.css**: the file contains styles of the editor toolbar space (top),
@@ -34,6 +36,7 @@ it's not loaded until the first menu open up,
 - **editor_XYZ.css** and **dialog_XYZ.css**: browser specific CSS hacks.
 
 Other parts:
+
 - **skin.js**: the only JavaScript part of the skin that registers the skin, its browser specific files and its icons and defines the Chameleon feature,
 - **images/**: contains a fill general used images,
 - **dev/**: contains SVG and PNG source of the skin icons.

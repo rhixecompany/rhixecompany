@@ -15,7 +15,8 @@ To lift the limitations and get rid of the banner, [obtain a license](https://we
 
 Demo
 ------------
-WSC Dialog plugin for CKEditor 4: https://webspellchecker.com/wsc-dialog-ckeditor4/
+
+WSC Dialog plugin for CKEditor 4: <https://webspellchecker.com/wsc-dialog-ckeditor4/>
 
 Supported Languages
 ------------
@@ -51,10 +52,10 @@ Note: All browsers are to be supported for web pages that work in Standards Mode
 Resources
 -------
 
-* Demo: https://webspellchecker.com/wsc-dialog-ckeditor4/
-* Documentation: https://docs.webspellchecker.net/
-* YouTube video: https://youtu.be/bkVPZ-5T22Q
-* Term of Service: https://webspellchecker.com/terms-of-service/
+* Demo: <https://webspellchecker.com/wsc-dialog-ckeditor4/>
+* Documentation: <https://docs.webspellchecker.net/>
+* YouTube video: <https://youtu.be/bkVPZ-5T22Q>
+* Term of Service: <https://webspellchecker.com/terms-of-service/>
 
 Technical Support or Questions
 -------

@@ -14,7 +14,8 @@ To lift the limitations and get rid of the banner, [obtain a license](https://we
 
 Demo
 ------------
-SCAYT plugin for CKEditor 4: https://webspellchecker.com/wsc-scayt-ckeditor4/
+
+SCAYT plugin for CKEditor 4: <https://webspellchecker.com/wsc-scayt-ckeditor4/>
 
 Supported Languages
 ------------
@@ -50,12 +51,12 @@ Note: All browsers are to be supported for web pages that work in Standards Mode
 Resources
 -------
 
-* Demo: https://webspellchecker.com/wsc-scayt-ckeditor4/
-* Documentation: https://docs.webspellchecker.net/
-* YouTube video “How to Configure CKEditor 4 and SpellCheckAsYouType Plugin”: https://youtu.be/D0ahmVjYBq8
-* Term of Service: https://webspellchecker.com/terms-of-service/
-* CKEditor’s How-Tos for SCAYT: https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_scayt.html
-* CKEditor’s example of SCAYT: https://ckeditor.com/docs/ckeditor4/latest/examples/spellchecker.html
+* Demo: <https://webspellchecker.com/wsc-scayt-ckeditor4/>
+* Documentation: <https://docs.webspellchecker.net/>
+* YouTube video “How to Configure CKEditor 4 and SpellCheckAsYouType Plugin”: <https://youtu.be/D0ahmVjYBq8>
+* Term of Service: <https://webspellchecker.com/terms-of-service/>
+* CKEditor’s How-Tos for SCAYT: <https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_scayt.html>
+* CKEditor’s example of SCAYT: <https://ckeditor.com/docs/ckeditor4/latest/examples/spellchecker.html>
 
 Technical Support or Questions
 -------
