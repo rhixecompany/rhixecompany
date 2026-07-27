@@ -1,6 +1,6 @@
 # RESEARCH_REPORT — profile
 
-> **Type:** Project research report | **Updated:** 2026-07-16
+> **Type:** Project research report | **Updated:** 2026-07-28
 
 **Type:** Django blog/CMS with cloud media storage
 **Tech Stack:** Django 4.x, GCS, CKEditor 5, PostgreSQL, Docker, GCP, bleach/nh3
@@ -21,23 +21,19 @@
 ## Key Findings
 
 ### Django STORAGES Configuration
-- Unified `STORAGES` config dict introduced in Django 4.2 — replaces `DEFAULT_FILE_STORAGE`
-- `django-storages[google]` for GCS; separate static vs media buckets recommended
-- Django ≥ 4.2: `STORAGES = {"default": {"BACKEND": "storages.backends.gcloud.GoogleCloudStorage", ...}, "staticfiles": {...}}`
-- Use IAM service accounts (not user accounts) for GCS access
+- Unified `STORAGES` dict (Django 4.2+) replaces legacy `DEFAULT_FILE_STORAGE`
+- `django-storages[google]` for GCS; separate media vs static buckets recommended
+- IAM service accounts preferred over user accounts for GCS access
 
 ### CKEditor 5 Integration
-- Complete rewrite from CKEditor 4 — different MVC architecture
-- `django-ckeditor-5` (hvlads) provides `CKEditor5Field`, `CKEditor5Widget`, GCS image upload
-- **Client-side sanitization only** — must sanitize server-side with `bleach` or `nh3`
-- `CKEDITOR_5_FILE_STORAGE` points to GCS for media uploads
-- `CKEDITOR_5_CONFIGS` for toolbar, plugins, image styles
+- Complete rewrite from CKEditor 4 — different MVC, not a drop-in replacement
+- `django-ckeditor-5` provides `CKEditor5Field`, `CKEditor5Widget`, GCS image upload
+- **Must sanitize server-side** with `bleach` or `nh3` (client-side only is insufficient)
+- `CKEDITOR_5_FILE_STORAGE` → GCS; `CKEDITOR_5_CONFIGS` for toolbar/plugins
 
 ### GCS + GCP Deployment
-- `GS_BUCKET_NAME` + `GS_CREDENTIALS` + `STORAGES` dict configuration
-- Signed URLs require IAM Sign Blob API — `GS_IAM_SIGN_BLOB=True` on Cloud Run
-- `GS_DEFAULT_ACL` + `GS_QUERYSTRING_AUTH` for access control
-- Docker + Cloud Run deployment: multi-stage Dockerfile, `PORT` env for Cloud Run
+- `GS_BUCKET_NAME` + `GS_CREDENTIALS` + `STORAGES` dict; signed URLs need IAM Sign Blob API
+- Docker + Cloud Run: multi-stage Dockerfile, `PORT` env for Cloud Run
 
 ---
 
@@ -53,8 +49,8 @@
 
 ## Best Practices
 
-1. **Separate media/static buckets** — different ACL and caching policies per bucket
-2. **Server-side HTML sanitization** — `bleach` or `nh3` for CKEditor 5 output
+1. **Separate media/static buckets** — different ACL and caching policies
+2. **Server-side HTML sanitization** — `bleach`/`nh3` for all CKEditor output
 3. **IAM service accounts** — not user accounts; least-privilege GCS roles
 4. **Signed URLs for private media** — time-limited access to paywalled content
 5. **Multi-stage Docker** — separate build vs runtime for smaller images
@@ -65,7 +61,7 @@
 
 | Pitfall | Impact | Avoidance |
 |---------|--------|-----------|
-| Client-only sanitization | XSS via CKEditor | Server-side `bleach`/`nh3` sanitization |
+| Client-only sanitization | XSS via CKEditor | Server-side `bleach`/`nh3` |
 | CKEditor 4 → 5 migration | Broken config | Different MVC; rewrite, not drop-in |
 | Missing IAM Sign Blob API | Signed URLs fail | `GS_IAM_SIGN_BLOB=True` on Cloud Run |
 | Shared media/static bucket | ACL conflicts | Separate buckets per purpose |
@@ -88,7 +84,17 @@
 2. **Signed GCS URLs** — time-limited access for private media
 3. **CSP headers** — restrict script sources; allow only CKEditor CDN
 4. **HSTS + secure cookies** — `SECURE_HSTS_SECONDS`, `SESSION_COOKIE_SECURE`
-5. **Input validation** — Zod or Django forms for all user-submitted content
+5. **Input validation** — Django forms for all user-submitted content; search for `|safe` and `@csrf_exempt`
+
+---
+
+## Testing & Quality Assurance
+
+1. **pytest + pytest-django** — DB-backed tests for models, views, and CKEditor output
+2. **bleach/nh3 sanitization tests** — verify XSS vectors are stripped from rich text
+3. **GCS mock integration** — `mock.patch` for storage backends in CI (no real GCS credentials)
+4. **CI coverage enforcement** — `--cov-fail-under=80` with branch coverage
+5. **Django `check --deploy`** — automated in CI pipeline before every deployment
 
 ---
 
@@ -96,7 +102,7 @@
 
 - **cookiecutter-django-tailwind** — shared Django + PostgreSQL + Docker patterns
 - **ecom** — shared Django + DRF conventions
-- **rhixecompany-comics** — shared Django + Docker + Celery patterns
+- **Django-Scrapy-Selenium** — shared Django architecture
 
 ---
 
@@ -109,7 +115,7 @@
 | GCS Django | <https://django-storages.readthedocs.io/en/latest/backends/gcloud.html> | Google Cloud Storage |
 
 ### Research Methodology
-- **Web search:** web_search (2026 Django CMS patterns)
+- **Web search:** web_search (2026 Django CMS patterns, GCS storage)
 - **Documentation:** web_extract (Django STORAGES, CKEditor 5 docs)
 - **Cloud storage:** GCS + Django patterns research
-- **Last verified:** 2026-07-16
+- **Last verified:** 2026-07-28

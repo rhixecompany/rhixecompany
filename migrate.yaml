@@ -5,23 +5,23 @@ steps:
     entrypoint: bash
     args:
       - "-c"
-      - "echo \"FROM ${_IMAGE_NAME}\nCOPY --from=gcr.io/cloudsql-docker/gce-proxy /cloud_sql_proxy /cloudsql/cloud_sql_proxy\" > Dockerfile-proxy && docker build -f Dockerfile-proxy -t ${_IMAGE_NAME}-proxy ."
+      - "echo \"FROM ${_IMAGE_NAME}\nCOPY --from=gcr.io/cloudsql-docker/gce-proxy /cloud_sql_proxy /cloudsql/cloud_sql_proxy\" > Df-proxy && docker build -f Df-proxy -t ${_IMAGE_NAME}-proxy ."
 
   # This step runs the Django migration commands using the image built in the previous step
   # It starts the Cloud SQL Auth Proxy as a background process, then runs the Django commands.
   - id: "migrate"
     name: "${_IMAGE_NAME}-proxy"
-    env: 
+    env:
       - USE_CLOUD_SQL_AUTH_PROXY=true
     secretEnv:
       - APPLICATION_SETTINGS
       - ADMIN_PASSWORD
     entrypoint: launcher
-    args: 
+    args:
       - "bash"
       - "-c"
-      - "(/cloudsql/cloud_sql_proxy -instances=${_INSTANCE_CONNECTION_NAME}=tcp:5432 & sleep 2) && 
-          python3 manage.py makemigrations && 
+      - "(/cloudsql/cloud_sql_proxy -instances=${_INSTANCE_CONNECTION_NAME}=tcp:5432 & sleep 2) &&
+          python3 manage.py makemigrations &&
           python3 manage.py migrate"
 
 substitutions:
