@@ -4,25 +4,24 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('base', '0009_postcomment_created'),
+        ("base", "0009_postcomment_created"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='profile',
-            name='first_name',
+            model_name="profile",
+            name="first_name",
             field=models.CharField(blank=True, max_length=200, null=True),
         ),
         migrations.AlterField(
-            model_name='profile',
-            name='last_name',
+            model_name="profile",
+            name="last_name",
             field=models.CharField(blank=True, max_length=200, null=True),
         ),
         migrations.AlterField(
-            model_name='profile',
-            name='profile_pic',
-            field=models.ImageField(blank=True, default='/placeholder.png', null=True, upload_to='images'),
+            model_name="profile",
+            name="profile_pic",
+            field=models.ImageField(blank=True, default="/placeholder.png", null=True, upload_to="images"),
         ),
     ]

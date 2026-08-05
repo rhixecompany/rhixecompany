@@ -1,0 +1,55 @@
+target-version = "py311"
+line-length = 120
+exclude = [
+  "node_modules/",
+  "myvenv/",
+  ".venv/",
+  ".git/",
+  "__pycache__/",
+  "**/build/",
+  "**/dist/",
+]
+
+[lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "SIM", "ARG", "RUF"]
+ignore = ["E501", "N818"]
+
+# Django framework conventions:
+# - RUF012: class attrs (Model/Form/Admin fields, error_messages dicts) are Django API
+# - ARG001/ARG002: framework-required callback args (signals sender/instance, view request/pk,
+#   admin actions, management commands self)
+# - N802/N815/N806: camelCase names are the JSON/API contract (serializers expose camelCase keys
+#   matching the JS frontend); get_FOO_display() is Django-generated
+# - F403/F405: settings star-imports and admin model star-imports are standard Django layout
+# - migrations: auto-generated code
+[lint.per-file-ignores]
+"**/admin.py" = ["RUF012", "ARG001", "ARG002", "F403", "F405"]
+"**/models.py" = ["RUF012", "N802", "N815"]
+"**/forms.py" = ["RUF012", "ARG001", "ARG002"]
+"**/views.py" = ["ARG001", "ARG002", "N802", "N806"]
+"**/views/*.py" = ["ARG001", "ARG002", "N802", "N806"]
+"**/serializers.py" = ["ARG001", "ARG002", "RUF012", "N802", "N815", "N806"]
+"**/signals.py" = ["ARG001", "ARG002", "N802", "N815", "N806"]
+"**/apps.py" = ["ARG001", "ARG002"]
+"**/urls.py" = ["ARG001", "ARG002"]
+"**/decorators.py" = ["ARG001", "ARG002", "N802"]
+"**/management/commands/*.py" = ["ARG001", "ARG002", "RUF012"]
+"**/adapters.py" = ["ARG001", "ARG002"]
+"**/widgets.py" = ["ARG001", "ARG002"]
+"**/factories.py" = ["ARG001", "ARG002"]
+"**/middlewares/*.py" = ["ARG001", "ARG002"]
+"**/middleware.py" = ["ARG001", "ARG002"]
+"**/pipelines/**/*.py" = ["ARG001", "ARG002"]
+"**/extensions.py" = ["ARG001", "ARG002"]
+"**/utils.py" = ["ARG001", "ARG002"]
+"**/settings/*.py" = ["F403", "F405"]
+"**/settings.py" = ["F403", "F405"]
+"**/migrations/*.py" = ["N802", "N815", "ARG001", "ARG002", "E501", "RUF012"]
+"**/tests.py" = ["ARG001", "ARG002", "N802"]
+"**/test_*.py" = ["ARG001", "ARG002", "N802"]
+"**/scripts/*.py" = ["ARG001", "ARG002"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"

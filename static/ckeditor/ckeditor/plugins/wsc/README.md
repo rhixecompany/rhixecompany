@@ -40,22 +40,22 @@ Supported Browsers
 
 This is the list of officially supported browsers for the WSC Dialog plugin for CKEditor 4. WSC Dialog may also work in other browsers and environments but we unable to check all of them and guarantee proper work.
 
-* Chrome (the latest)
-* Firefox (the latest)
-* Safari (the latest)
-* MS Edge (the latest)
-* Internet Explorer 8.0 (limited support)
-* Internet Explorer 9.0+ (close to full support)
+- Chrome (the latest)
+- Firefox (the latest)
+- Safari (the latest)
+- MS Edge (the latest)
+- Internet Explorer 8.0 (limited support)
+- Internet Explorer 9.0+ (close to full support)
 
 Note: All browsers are to be supported for web pages that work in Standards Mode.
 
 Resources
 -------
 
-* Demo: <https://webspellchecker.com/wsc-dialog-ckeditor4/>
-* Documentation: <https://docs.webspellchecker.net/>
-* YouTube video: <https://youtu.be/bkVPZ-5T22Q>
-* Term of Service: <https://webspellchecker.com/terms-of-service/>
+- Demo: <https://webspellchecker.com/wsc-dialog-ckeditor4/>
+- Documentation: <https://docs.webspellchecker.net/>
+- YouTube video: <https://youtu.be/bkVPZ-5T22Q>
+- Term of Service: <https://webspellchecker.com/terms-of-service/>
 
 Technical Support or Questions
 -------

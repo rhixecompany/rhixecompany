@@ -1,6 +1,6 @@
 # The Story of Profile
 
-*The Django blog that learned to love the cloud*
+_The Django blog that learned to love the cloud_
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Then the traffic came.** A post hit Hacker News. The VPS disk filled. The site went down.
 
-**Lesson 1:** *Local media storage doesn't scale.*
+**Lesson 1:** _Local media storage doesn't scale._
 
 ---
 
@@ -27,6 +27,7 @@ GS_CREDENTIALS = json.loads(os.environ['GCS_CREDENTIALS'])
 ```
 
 **What changed:**
+
 - `collectstatic` → uploads to GCS bucket
 - `FileField.save()` → streams to GCS
 - Template `{{ post.image.url }}` → serves from `https://storage.googleapis.com/...`
@@ -90,7 +91,7 @@ CMD ["gunicorn", "profile.wsgi:application", "--bind", "0.0.0.0:8000"]
 
 ```yaml
 # docker-compose.yml
-version: '3.8'
+version: "3.8"
 services:
   web:
     build: .
@@ -104,6 +105,7 @@ services:
 ```
 
 **Deploy to GCP Cloud Run:**
+
 ```bash
 gcloud builds submit --tag gcr.io/profile-project/profile
 gcloud run deploy profile --image gcr.io/profile-project/profile --platform managed
@@ -115,14 +117,14 @@ gcloud run deploy profile --image gcr.io/profile-project/profile --platform mana
 
 ## Chapter 4: The Missing Pieces
 
-| Feature | Status | Notes |
-|---------|--------|-------|
-| CI/CD | ❌ | No GitHub Actions |
-| Tests | ⚠️ | Only `python manage.py test` |
-| Monitoring | ❌ | No Sentry, no logging aggregation |
-| Backups | ⚠️ | Manual `pg_dump` |
-| SEO | ⚠️ | Basic meta tags only |
-| Analytics | ❌ | No GA/Plausible |
+| Feature    | Status | Notes                             |
+| ---------- | ------ | --------------------------------- |
+| CI/CD      | ❌     | No GitHub Actions                 |
+| Tests      | ⚠️     | Only `python manage.py test`      |
+| Monitoring | ❌     | No Sentry, no logging aggregation |
+| Backups    | ⚠️     | Manual `pg_dump`                  |
+| SEO        | ⚠️     | Basic meta tags only              |
+| Analytics  | ❌     | No GA/Plausible                   |
 
 **Why?** "It's just a blog. We'll add it later."
 
@@ -134,11 +136,11 @@ gcloud run deploy profile --image gcr.io/profile-project/profile --platform mana
 
 July 2025. Workspace has 17 projects. `profile` is one of two pure-Django projects (other: `ecom`).
 
-| Project | Stack | Status |
-|---------|-------|--------|
-| `profile` | Django + GCS | Maintenance |
-| `ecom` | Django 3.1 + React | Archive candidate |
-| `rhixecompany-comics` | Django + Next.js | **Survivor** |
+| Project               | Stack              | Status            |
+| --------------------- | ------------------ | ----------------- |
+| `profile`             | Django + GCS       | Maintenance       |
+| `ecom`                | Django 3.1 + React | Archive candidate |
+| `rhixecompany-comics` | Django + Next.js   | **Survivor**      |
 
 **Profile's fate:** Not a consolidation target. It's a standalone blog. Different purpose than the comic platforms.
 
@@ -154,9 +156,9 @@ No Kubernetes. No microservices. No message queues. No service mesh.
 
 **Just Django. Just working.**
 
-*Sometimes the best architecture is the one you don't have to think about.*
+_Sometimes the best architecture is the one you don't have to think about._
 
 ---
 
-*Written by the workspace chronicler, July 25, 2025.  
-Filed at `projects/profile/THE_STORY_OF_THIS_REPO.md`.*
+_Written by the workspace chronicler, July 25, 2025.  
+Filed at `projects/profile/THE_STORY_OF_THIS_REPO.md`._

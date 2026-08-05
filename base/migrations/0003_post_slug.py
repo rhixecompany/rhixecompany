@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('base', '0002_post_thumbnail'),
+        ("base", "0002_post_thumbnail"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='post',
-            name='slug',
+            model_name="post",
+            name="slug",
             field=models.SlugField(null=True),
         ),
     ]

@@ -26,10 +26,10 @@ CSS parts:
 - **toolbar.css**: the file contains styles of the editor toolbar space (top),
 - **richcombo.css**: the file contains styles of the rich combo ui elements on toolbar,
 - **panel.css**: the file contains styles of the rich combo drop-down, it's not loaded
-until the first panel open up,
+  until the first panel open up,
 - **elementspath.css**: the file contains styles of the editor elements path bar (bottom),
 - **menu.css**: the file contains styles of all editor menus including context menu and button drop-down,
-it's not loaded until the first menu open up,
+  it's not loaded until the first menu open up,
 - **dialog.css**: the CSS files for the dialog UI, it's not loaded until the first dialog open,
 - **reset.css**: the file defines the basis of style resets among all editor UI spaces,
 - **preset.css**: the file defines the default styles of some UI elements reflecting the skin preference,

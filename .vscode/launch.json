@@ -1,16 +1,38 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Django: Runserver",
-      "type": "debugpy",
-      "request": "launch",
-      "program": "${workspaceFolder}/manage.py",
-      "args": [
-        "runserver"
-      ],
-      "django": true,
-      "justMyCode": true
-    }
-  ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Bun: Current File",
+			"type": "node",
+			"request": "launch",
+			"runtimeExecutable": "bun",
+			"program": "${file}",
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "Bun: Run All Tests",
+			"type": "node",
+			"request": "launch",
+			"runtimeExecutable": "bun",
+			"runtimeArgs": ["test"],
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "Python: Current File",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "${file}",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"python": "${workspaceFolder}/.venv/Scripts/python.exe",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"name": "Node.js: Current File",
+			"type": "node",
+			"request": "launch",
+			"program": "${file}",
+			"console": "integratedTerminal"
+		}
+	]
 }

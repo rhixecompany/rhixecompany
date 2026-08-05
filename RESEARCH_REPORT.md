@@ -10,28 +10,31 @@
 
 ## Similar Projects
 
-| Project | URL | Why Relevant |
-|---------|-----|--------------|
-| Wagtail CMS | <https://github.com/wagtail/wagtail> | Leading Django CMS with StreamField |
-| django-cms | <https://github.com/django-cms/django-cms> | Enterprise Django CMS ecosystem |
-| djangocms-text-ckeditor5 | <https://github.com/django-cms/djangocms-text-ckeditor5> | CKEditor 5 for django-cms |
+| Project                  | URL                                                      | Why Relevant                        |
+| ------------------------ | -------------------------------------------------------- | ----------------------------------- |
+| Wagtail CMS              | <https://github.com/wagtail/wagtail>                     | Leading Django CMS with StreamField |
+| django-cms               | <https://github.com/django-cms/django-cms>               | Enterprise Django CMS ecosystem     |
+| djangocms-text-ckeditor5 | <https://github.com/django-cms/djangocms-text-ckeditor5> | CKEditor 5 for django-cms           |
 
 ---
 
 ## Key Findings
 
 ### Django STORAGES Configuration
+
 - Unified `STORAGES` dict (Django 4.2+) replaces legacy `DEFAULT_FILE_STORAGE`
 - `django-storages[google]` for GCS; separate media vs static buckets recommended
 - IAM service accounts preferred over user accounts for GCS access
 
 ### CKEditor 5 Integration
+
 - Complete rewrite from CKEditor 4 — different MVC, not a drop-in replacement
 - `django-ckeditor-5` provides `CKEditor5Field`, `CKEditor5Widget`, GCS image upload
 - **Must sanitize server-side** with `bleach` or `nh3` (client-side only is insufficient)
 - `CKEDITOR_5_FILE_STORAGE` → GCS; `CKEDITOR_5_CONFIGS` for toolbar/plugins
 
 ### GCS + GCP Deployment
+
 - `GS_BUCKET_NAME` + `GS_CREDENTIALS` + `STORAGES` dict; signed URLs need IAM Sign Blob API
 - Docker + Cloud Run: multi-stage Dockerfile, `PORT` env for Cloud Run
 
@@ -39,11 +42,11 @@
 
 ## Cheatsheets & Quick Reference
 
-| Topic | Resource | Type |
-|-------|----------|------|
-| Django STORAGES | <https://docs.djangoproject.com/en/4.2/ref/settings/#storages> | Docs |
-| django-ckeditor-5 | <https://github.com/hvlads/django-ckeditor-5> | Package |
-| GCS + Django | <https://django-storages.readthedocs.io/en/latest/backends/gcloud.html> | Guide |
+| Topic             | Resource                                                                | Type    |
+| ----------------- | ----------------------------------------------------------------------- | ------- |
+| Django STORAGES   | <https://docs.djangoproject.com/en/4.2/ref/settings/#storages>          | Docs    |
+| django-ckeditor-5 | <https://github.com/hvlads/django-ckeditor-5>                           | Package |
+| GCS + Django      | <https://django-storages.readthedocs.io/en/latest/backends/gcloud.html> | Guide   |
 
 ---
 
@@ -59,12 +62,12 @@
 
 ## Common Pitfalls
 
-| Pitfall | Impact | Avoidance |
-|---------|--------|-----------|
-| Client-only sanitization | XSS via CKEditor | Server-side `bleach`/`nh3` |
-| CKEditor 4 → 5 migration | Broken config | Different MVC; rewrite, not drop-in |
-| Missing IAM Sign Blob API | Signed URLs fail | `GS_IAM_SIGN_BLOB=True` on Cloud Run |
-| Shared media/static bucket | ACL conflicts | Separate buckets per purpose |
+| Pitfall                    | Impact           | Avoidance                            |
+| -------------------------- | ---------------- | ------------------------------------ |
+| Client-only sanitization   | XSS via CKEditor | Server-side `bleach`/`nh3`           |
+| CKEditor 4 → 5 migration   | Broken config    | Different MVC; rewrite, not drop-in  |
+| Missing IAM Sign Blob API  | Signed URLs fail | `GS_IAM_SIGN_BLOB=True` on Cloud Run |
+| Shared media/static bucket | ACL conflicts    | Separate buckets per purpose         |
 
 ---
 
@@ -108,13 +111,14 @@
 
 ## Resources
 
-| Resource | URL | Description |
-|----------|-----|-------------|
-| Django STORAGES | <https://docs.djangoproject.com/en/4.2/ref/settings/#storages> | Storage backend config |
-| django-ckeditor-5 | <https://github.com/hvlads/django-ckeditor-5> | CKEditor 5 Django integration |
-| GCS Django | <https://django-storages.readthedocs.io/en/latest/backends/gcloud.html> | Google Cloud Storage |
+| Resource          | URL                                                                     | Description                   |
+| ----------------- | ----------------------------------------------------------------------- | ----------------------------- |
+| Django STORAGES   | <https://docs.djangoproject.com/en/4.2/ref/settings/#storages>          | Storage backend config        |
+| django-ckeditor-5 | <https://github.com/hvlads/django-ckeditor-5>                           | CKEditor 5 Django integration |
+| GCS Django        | <https://django-storages.readthedocs.io/en/latest/backends/gcloud.html> | Google Cloud Storage          |
 
 ### Research Methodology
+
 - **Web search:** web_search (2026 Django CMS patterns, GCS storage)
 - **Documentation:** web_extract (Django STORAGES, CKEditor 5 docs)
 - **Cloud storage:** GCS + Django patterns research

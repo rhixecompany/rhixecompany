@@ -1,11 +1,102 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "command": "python manage.py runserver",
-      "label": "Runserver",
-      "type": "shell",
-      "group": "build"
-    }
-  ]
+	"version": "2.0.0",
+	"options": {
+		"cwd": "${workspaceFolder}"
+	},
+	"tasks": [
+		{
+			"command": "python -m pytest",
+			"label": "Python: Test All",
+			"type": "shell",
+			"group": "test",
+			"problemMatcher": "$python.pytest",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "ruff check .",
+			"label": "Python: Lint (ruff)",
+			"type": "shell",
+			"group": "build",
+			"problemMatcher": "$ruff",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "ruff format .",
+			"label": "Python: Format (ruff)",
+			"type": "shell",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "mypy .",
+			"label": "Python: Typecheck (mypy)",
+			"type": "shell",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "eslint .",
+			"label": "JS/TS: Lint (eslint)",
+			"type": "shell",
+			"group": "build",
+			"problemMatcher": "$eslint-stylish",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "prettier --check .",
+			"label": "Format: Check (prettier)",
+			"type": "shell",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "markdownlint-cli2 --config .markdownlint-cli2.jsonc \"**/*.md\"",
+			"label": "Docs: Lint (markdownlint)",
+			"type": "shell",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "cspell lint \"**/*\"",
+			"label": "Spell: Check (cspell)",
+			"type": "shell",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"command": "tsc --noEmit",
+			"label": "TS: Typecheck (tsc)",
+			"type": "shell",
+			"group": "build",
+			"problemMatcher": "$tsc",
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		}
+	]
 }

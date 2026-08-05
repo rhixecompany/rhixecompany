@@ -1,0 +1,22 @@
+{
+  "include": ["."],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.git",
+    "**/myvenv",
+    "**/.venv",
+    "**/build",
+    "**/dist",
+    "**/*.pyc",
+    "**/migrations"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportMissingTypeStubs": "none",
+  "pythonVersion": "3.11",
+  "pythonPlatform": "Windows",
+  "strictListInference": true,
+  "strictDictionaryInference": true,
+  "strictSetInference": true
+}

@@ -10,10 +10,10 @@
 
 ## Architecture
 
-| Property | Value |
-|----------|-------|
-| **Type** | Django blog/CMS with cloud media storage |
-| **Pattern** | Standard Django monolith with CBVs, GCS for media |
+| Property      | Value                                                                  |
+| ------------- | ---------------------------------------------------------------------- |
+| **Type**      | Django blog/CMS with cloud media storage                               |
+| **Pattern**   | Standard Django monolith with CBVs, GCS for media                      |
 | **Reference** | [Workflow Analysis](../docs/Project_Architecture/Workflow_Analysis.md) |
 
 Django 4.x + Google Cloud Storage + CKEditor 5. Blog/CMS with rich text editing, cloud-hosted media, and Docker/GCP deployment.
@@ -22,13 +22,13 @@ Django 4.x + Google Cloud Storage + CKEditor 5. Blog/CMS with rich text editing,
 
 ## Technology Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Backend** | Django 4.x, Python 3.11+ |
-| **Database** | PostgreSQL |
+| Layer             | Technology                 |
+| ----------------- | -------------------------- |
+| **Backend**       | Django 4.x, Python 3.11+   |
+| **Database**      | PostgreSQL                 |
 | **Media Storage** | Google Cloud Storage (GCS) |
-| **Editor** | CKEditor 5 |
-| **Infra** | Docker + GCP |
+| **Editor**        | CKEditor 5                 |
+| **Infra**         | Docker + GCP               |
 
 ---
 

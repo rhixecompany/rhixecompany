@@ -18,3 +18,8 @@ urllib3
 whitenoise
 django-storages[google]
 django-environ
+
+mypy
+types-requests
+types-PyYAML
+pre-commit

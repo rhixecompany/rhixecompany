@@ -39,24 +39,24 @@ Supported Browsers
 
 This is the list of officially supported browsers for the SCAYT plugin for CKEditor 4. SCAYT may also work in other browsers and environments but we unable to check all of them and guarantee proper work.
 
-* Chrome (the latest)
-* Firefox (the latest)
-* Safari (the latest)
-* MS Edge (the latest)
-* Internet Explorer 8.0 (limited support)
-* Internet Explorer 9.0+ (close to full support)
+- Chrome (the latest)
+- Firefox (the latest)
+- Safari (the latest)
+- MS Edge (the latest)
+- Internet Explorer 8.0 (limited support)
+- Internet Explorer 9.0+ (close to full support)
 
 Note: All browsers are to be supported for web pages that work in Standards Mode.
 
 Resources
 -------
 
-* Demo: <https://webspellchecker.com/wsc-scayt-ckeditor4/>
-* Documentation: <https://docs.webspellchecker.net/>
-* YouTube video “How to Configure CKEditor 4 and SpellCheckAsYouType Plugin”: <https://youtu.be/D0ahmVjYBq8>
-* Term of Service: <https://webspellchecker.com/terms-of-service/>
-* CKEditor’s How-Tos for SCAYT: <https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_scayt.html>
-* CKEditor’s example of SCAYT: <https://ckeditor.com/docs/ckeditor4/latest/examples/spellchecker.html>
+- Demo: <https://webspellchecker.com/wsc-scayt-ckeditor4/>
+- Documentation: <https://docs.webspellchecker.net/>
+- YouTube video “How to Configure CKEditor 4 and SpellCheckAsYouType Plugin”: <https://youtu.be/D0ahmVjYBq8>
+- Term of Service: <https://webspellchecker.com/terms-of-service/>
+- CKEditor’s How-Tos for SCAYT: <https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_scayt.html>
+- CKEditor’s example of SCAYT: <https://ckeditor.com/docs/ckeditor4/latest/examples/spellchecker.html>
 
 Technical Support or Questions
 -------

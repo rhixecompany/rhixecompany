@@ -1,51 +1,55 @@
 {
-  "editor.defaultFormatter": "ms-python.python",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "python.languageServer": "Pylance",
-  "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.autoImportCompletions": true,
-  "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
-  "python-envs.alwaysUseUv": true,
-  "python-envs.autoActivate": true,
-  "python-envs.venvFolders": [
-    ".venv",
-    "env",
-    "venv",
-    ".env",
-    "envs",
-    "venvs"
-  ],
-  "files.associations": {
-    "**/*.{txt,in}": "django-txt",
-    "**/requirements/**/*.{txt,in}": "pip-requirements"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[django-html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  }
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.inlineSuggest.enabled": true,
+	"editor.codeLens": true,
+	"errorLens.enabled": true,
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.scss": "tailwindcss",
+		"**/*.{txt,in}": "django-txt",
+		"**/requirements/**/*.{txt,in}": "pip-requirements"
+	},
+	"files.exclude": {
+		"**/.venv": true,
+		"**/__pycache__": true,
+		"**/.pytest_cache": true
+	},
+	"search.exclude": {
+		"**/.venv": true,
+		"**/node_modules": true,
+		"**/dist": true
+	},
+	"python-envs.alwaysUseUv": true,
+	"python-envs.autoActivate": true,
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.autoImportCompletions": true,
+	"python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+	"ruff.lineLength": 120,
+	"ruff.lint.select": ["E", "F", "I", "N", "W", "UP", "B", "SIM", "ARG", "RUF"],
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.profiles.windows": {
+		"Command Prompt": { "icon": "terminal-cmd", "path": "cmd.exe" },
+		"Git Bash": { "icon": "terminal-bash", "source": "Git Bash" },
+		"PowerShell": { "icon": "terminal-powershell", "source": "PowerShell" }
+	},
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.ruff": "explicit",
+			"source.organizeImports.ruff": "explicit"
+		}
+	},
+	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+	"[jsonc]": { "editor.defaultFormatter": "vscode.json-language-features" },
+	"[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode", "editor.wordWrap": "on" },
+	"[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+	"[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[toml]": { "editor.defaultFormatter": "tamasfe.even-better-toml" }
 }
