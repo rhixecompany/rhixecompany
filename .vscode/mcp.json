@@ -1,0 +1,104 @@
+{
+	"inputs": [
+		{
+			"default": "${workspaceFolder}",
+			"description": "Workspace root path",
+			"id": "workspaceFolder",
+			"type": "promptString"
+		}
+	],
+	"servers": {
+		"ast-grep": {
+			"args": [
+				"-y",
+				"@notprolands/ast-grep-mcp"
+			],
+			"command": "bunx"
+		},
+		"code-sandbox": {
+			"args": [
+				"-y",
+				"node-code-sandbox-mcp"
+			],
+			"command": "bunx"
+		},
+		"context7": {
+			"type": "http",
+			"url": "https://mcp.context7.com/mcp"
+		},
+		"fetch": {
+			"args": [
+				"-y",
+				"mcp-server-fetch-typescript"
+			],
+			"command": "bunx"
+		},
+		"filesystem": {
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-filesystem",
+				"C:/Users/Alexa",
+				"C:/Users/Alexa/AppData/Local/hermes",
+				"${workspaceFolder}"
+			],
+			"command": "bunx"
+		},
+		"github": {
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-github"
+			],
+			"command": "bunx",
+			"env": {
+				"GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_TOKEN}"
+			}
+		},
+		"mcp-docker": {
+			"args": [
+				"mcp",
+				"gateway",
+				"run",
+				"--profile",
+				"adminbot"
+			],
+			"command": "docker"
+		},
+		"memory": {
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-memory"
+			],
+			"command": "bunx"
+		},
+		"neon": {
+			"type": "http",
+			"url": "https://mcp.neon.tech/mcp"
+		},
+		"playwright": {
+			"args": [
+				"-y",
+				"@playwright/mcp@0.0.78"
+			],
+			"command": "bunx"
+		},
+		"sentry": {
+			"type": "http",
+			"url": "https://mcp.sentry.dev/mcp"
+		},
+		"sequential-thinking": {
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-sequential-thinking"
+			],
+			"command": "bunx"
+		},
+		"smithery": {
+			"type": "http",
+			"url": "https://mcp.smithery.ai/alexanderrhixe30"
+		},
+		"tavily": {
+			"type": "http",
+			"url": "https://mcp.tavily.com/mcp/?tavilyApiKey=${env:TAVILY_API_KEY}"
+		}
+	}
+}
