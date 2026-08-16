@@ -1,0 +1,12 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "Django blog/CMS with Google Cloud Storage",
+  "type": "module",
+  "packageManager": "bun@1.3.14",
+  "scripts": {
+    "check": "echo 'Django blog — Python-only, no JS tooling'",
+    "lint": "ruff check .",
+    "typecheck": "pyright ."
+  }
+}
