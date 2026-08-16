@@ -1,0 +1,7 @@
+# profile — Bun configuration
+# Django blog/CMS (Python primary; Bun metadata only)
+
+[install]
+optional = true
+dev = true
+peer = true
