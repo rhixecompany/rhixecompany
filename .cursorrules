@@ -1,0 +1,8 @@
+# .cursorrules — profile
+
+Cursor IDE rules. All workspace rules in `../../AGENTS.md`.
+
+- Code style: 2-space TS, 4-space Python, single-quotes TS, double-quotes Python
+- No `any`, no backup files, no `.env` writes
+- All toolchain, routing, and conventions: see `../../AGENTS.md`
+- Multi-file protocol (≥5 files): see `../../SOUL.md` canonical block

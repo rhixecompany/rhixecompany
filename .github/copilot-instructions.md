@@ -1,40 +1,13 @@
-# Copilot Instructions
+# Copilot Instructions — profile
 
-Project-wide guidance for the profile/blog platform.
+**Canonical reference:** See `../../AGENTS.md` (general agent guidance), `../../.hermes.md` (Hermes-specific), `../../CLAUDE.md` (Claude-specific).
 
-## Source of truth
-
-- `projects/profile/AGENTS.md`
-- `README.md`
-- Django app files
-
-## Commands
-
-Run from the project root:
+## Quick Start
 
 ```bash
-python -m venv .venv
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-python manage.py makemigrations
-python manage.py collectstatic
-python manage.py check --deploy
-python manage.py test
-pytest
-gunicorn profile.wsgi:application --bind 0.0.0.0:8000
+# Subproject setup
+cd C:/Users/Alexa/Desktop/SandBox/projects/profile
+# See project's package.json or README.md for specific commands
 ```
 
-## Architecture
-
-- Django blog/profile app with posts, tags, comments, and admin editing.
-- Rich text content uses CKEditor and template-based rendering.
-- Media storage can use Google Cloud Storage or Amazon S3.
-
-## Conventions
-
-- Use Django model conventions (`__str__`, `Meta`, `get_absolute_url`).
-- Prefer class-based views and app-level URL namespaces.
-- Sanitize CKEditor HTML input carefully.
-- Keep secrets in environment variables and never in code.
+*All conventions, workflows, and rules are in `../../AGENTS.md`.*
