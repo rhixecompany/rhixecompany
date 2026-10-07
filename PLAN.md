@@ -48,5 +48,5 @@ tags: [plan, repo]
 - [ ] Verification recorded
 
 ## Status
-Tracked in SPEC.md acceptance criteria. See `.hermes/plans/2026-08-01_async-script-tooling-master.md`
+Tracked in SPEC.md acceptance criteria. See `./plans/2026-08-01_async-script-tooling-master.md`
 for the master plan.
