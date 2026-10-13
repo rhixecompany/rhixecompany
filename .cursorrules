@@ -1,8 +1,87 @@
-# .cursorrules — profile
+# .cursorrules — profile workspace (Updated 2026-10-13)
 
-Cursor IDE rules. All workspace rules in `../../AGENTS.md`.
+**Workspace identity:** `profile` (Hermes agent profile management repo)  
+**Agent profile:** `default` (workspace-linked; verify with `hermes profile list`)  
+**Highest precedence identity file:** `.hermes.md` (workspace agent identity — Hermes-specific overrides).  
+**Broader workspace agent rules:** `AGENTS.md` (workspace agent identity + rules; enhanced 2026-10-13).  
+**Agent framework reference:** `~/hermes-agent/nousresearch/docs/project-context-files.md` or load `hermes-agent` skill (`~/.hermes/skills/autonomous-ai-agents/hermes-agent/`).  
+**Global identity reference:** `~/.hermes/SOUL.md` (verified — Hermes Agent framework identity).
 
-- Code style: 2-space TS, 4-space Python, single-quotes TS, double-quotes Python
-- No `any`, no backup files, no `.env` writes
-- All toolchain, routing, and conventions: see `../../AGENTS.md`
-- Multi-file protocol (≥5 files): see `../../SOUL.md` canonical block
+---
+
+## Cursor IDE Rules — Workspace Agent Identity
+
+These rules are derived from the workspace agent identity file (`.hermes.md`) and workspace agent rules (`AGENTS.md`). They apply specifically to agent identity/config updates, Django sub-project work (`base/`, `rhixecompany/`), documentation updates (`docs/`), and initialization plan updates (`.omo/plans/`).
+
+### Agent Identity / Config Rules
+- Agent identity updates must reference `.hermes.md` (highest precedence identity file) first, then `AGENTS.md` (broader rules).
+- Agent identity file synchronization is mandatory: `.hermes.md`, `AGENTS.md`, `.cursorrules`, `copilot-instructions.md`, `base/AGENTS.md`, `.omo/plans/*.md`, and `docs/ai-agents-inventory.md` must remain consistent. If a discrepancy is found (e.g., `.hermes.md` profile reference differs from `AGENTS.md` profile reference), report it immediately and do not proceed with identity/config changes.
+- Profile linkage (`default`) must be confirmed before agent identity/config updates (`hermes profile list`). If `default` is not active, verify profile linkage rules in `.hermes.md` and `AGENTS.md` and confirm the target profile matches workspace identity.
+- Agent skills must be loaded before identity/config updates (`hermes-agent` framework reference; `development` structural placeholder — verified; `audit` / `verify` for identity verification).
+- Agent identity/config changes must include a verification report (either in `.omo/plans/init-deep.md` or a dedicated verification file) describing what changed, what's verified, what's missing, and any identity synchronization discrepancies or profile linkage issues.
+
+---
+
+## Code Style (Workspace)
+
+### Python (Django sub-project: `base/`, `rhixecompany/`)
+- 4 spaces indentation (`.editorconfig` enforced; verified: `.editorconfig` exists, `ruff` line length 120 configured in `.ruff.toml`).
+- `snake_case` for fields / variables / functions; `PascalCase` for Django model classes (`base/models.py` verified).
+- Double quotes preferred (`AGENTS.md` conventions verified; `.ruff.toml` enforces ruff lint rules `E`, `F`, `I`, `N`, `W`, `UP`, `B`, `SIM`, `ARG`, `RUF`).
+- Line length: 120 chars (`.ruff.toml` verified; `ruff check .` runs in `.github/workflows/ci.yml`).
+- No `any` type annotations (if using Python type hints; `mypy` optional — see `.vscode/tasks.json` for `mypy .` task).
+- No backup files (`.bak`, `.worktrees/` artifacts not committed; `.gitignore` covers these).
+- No `.env` writes (secrets belong in `~/.hermes/.env` or workspace `.env` which is `.gitignore`-protected; verify `.gitignore` covers `.env`).
+
+### TypeScript / JavaScript (Not applicable for Django sub-project)
+- 2-space indentation (only if JS files exist in workspace; currently `package.json` has no JS tooling; no build scripts; no JS dependencies — `.vscode/settings.json` references TypeScript/JavaScript formatting rules but these are not actively used for Django project).
+- Single quotes preferred (`.cursorrules` convention; `.vscode/settings.json` references prettier and ESLint settings but these are not actively used for Django project).
+
+---
+
+## Agent Identity / Config Multi-File Protocol
+
+When making agent identity/config updates that touch 5 or more files (`.hermes.md`, `AGENTS.md`, `.cursorrules`, `copilot-instructions.md`, `base/AGENTS.md`, `.omo/plans/*.md`, `docs/ai-agents-inventory.md`, `.github/workflows/ci.yml` if CI references identity verification, `.vscode/settings.json` if VS Code agent settings change):
+
+1. Load `hermes-agent` skill (`~/.hermes/skills/autonomous-ai-agents/hermes-agent/`) for agent framework rules, identity file hierarchy (`references/project-context-files.md`), and identity verification conventions.
+2. Confirm workspace profile linkage (`hermes profile list` → `default` linked to `profile` workspace).
+3. Confirm `.hermes.md` exists and aligns with `AGENTS.md` (if discrepancy found → report and fix before proceeding).
+4. Confirm `.cursorrules` references `.hermes.md` + `AGENTS.md` correctly (enhanced 2026-10-13; verify `.cursorrules` content matches identity rules in `.hermes.md` and `AGENTS.md`).
+5. Confirm `copilot-instructions.md` references workspace identity files (`.hermes.md`, `AGENTS.md`, planned `CLAUDE.md`; enhanced 2026-10-13).
+6. Confirm `docs/ai-agents-inventory.md` is current (inventory reflects workspace agent identity files; re-verify if identity files change).
+7. Confirm `.omo/plans/*.md` aligns with identity updates (update `init-deep.md` or add verification notes).
+8. Confirm sub-app identity (`base/AGENTS.md`) aligns with workspace identity updates (if Django domain identity rules change).
+9. Confirm CI pipeline (`.github/workflows/ci.yml`) does not break due to identity/config updates (CI verifies code lint/test only; identity verification is manual/skill-assisted).
+10. Confirm memory (`~/.hermes/memories/`) is initialized/updated with workspace identity context (if memory updates are part of identity/config work).
+11. Write/update verification report (`.omo/plans/init-deep.md` or dedicated verification file) documenting identity changes, verification results, discrepancies, profile linkage status, and remaining tasks.
+
+---
+
+## Anti-Patterns (Agent Identity / Workspace Rules)
+
+- Never commit secrets (`.env`, tokens, GCS credentials, API keys, `auth.json`, `.hermes/.env`).
+- Never use the README as a source of truth for agent architecture or identity rules (`.hermes.md` and `AGENTS.md` are canonical for agent identity; `TECHNOLOGY_STACK.md`, `SPEC.md`, `PLAN.md`, `.omo/plans/init-deep.md` are canonical for architecture).
+- Never add npm dependencies (`package.json` has no JS tooling — verified: no `scripts`, no `dependencies`, no `devDependencies`).
+- Never edit `.env` directly or commit it (`.gitignore` protects `.env`; verify `.gitignore` includes `.env`, `.worktrees/`, `.bak`).
+- Never overwrite agent identity files (`.hermes.md`, `AGENTS.md`, `.cursorrules`, `copilot-instructions.md`) without verifying synchronization with profile settings (`hermes profile list`) and identity file hierarchy (`.hermes.md` > `AGENTS.md` > `.cursorrules` > `copilot-instructions.md` > sub-app identity).
+- Never overwrite Django settings (`rhixecompany/settings.py`) without checking override (`rhixecompany/setting.py` — verified: `setting.py` is the override file; `settings.py` is canonical; verify before editing settings).
+- Never move original JS vendor files in `base/static/admin/` or `base/static/ckeditor/` (clone them instead; verify `.gitignore` does not accidentally ignore vendor files that should be tracked).
+- Never skip verification after agent identity/config changes (`ruff check .` for lint; identity sync verification for `.hermes.md` vs `AGENTS.md`; `python manage.py test` for Django domain; profile linkage verification with `hermes profile list`).
+- Never modify `.vscode/settings.json` agent-related settings without confirming workspace identity rules (`ruff` settings, `python-envs` settings, file associations for Django files) remain consistent with agent identity/config conventions.
+- Never update `base/AGENTS.md` or `.omo/plans/*.md` without confirming sub-app identity rules align with workspace identity (`.hermes.md` + `AGENTS.md`).
+- Never modify `.github/workflows/ci.yml` without confirming CI pipeline continues to verify agent identity changes indirectly (lint + tests) and does not break identity/config updates.
+
+---
+
+## Workspace Agent Tools / References
+
+- Agent framework reference: `~/.hermes/skills/autonomous-ai-agents/hermes-agent/` (load `SKILL.md` and `references/project-context-files.md` for identity file rules and verification conventions).
+- Workspace identity file hierarchy: `.hermes.md` (highest precedence) → `AGENTS.md` → `.cursorrules` → `copilot-instructions.md` → sub-app identity (`base/AGENTS.md`) → init plans (`.omo/plans/*.md`) → inventory (`docs/ai-agents-inventory.md`).
+- Workspace agent identity rules: `.hermes.md` (Hermes-specific identity + profile linkage + session startup sequence reference) + `AGENTS.md` (broader workspace agent rules + profile definitions + conventions + anti-patterns + verification status).
+- Workspace identity verification: Confirm `.hermes.md` exists, aligns with `AGENTS.md`, references profile linkage (`default`), includes session startup sequence reference, includes anti-patterns, includes file hierarchy reference, includes identity file synchronization rules, includes agent skills reference (`hermes-agent`, `development`, `audit`, `verify`), and includes verification checklist status.
+- Workspace agent profile linkage: Confirm `default` profile is linked to `profile` workspace (`hermes profile list`); confirm `.hermes.md` references `default` profile; confirm `AGENTS.md` references `default` profile; confirm `.cursorrules` and `copilot-instructions.md` reference profile linkage rules.
+- Workspace agent identity updates: Update `.hermes.md` first; verify `.hermes.md` content matches identity rules in `.hermes.md` (self-consistency) and aligns with `AGENTS.md`; verify `.cursorrules` references `.hermes.md` + `AGENTS.md`; verify `copilot-instructions.md` references workspace identity files; verify sub-app identity (`base/AGENTS.md`) aligns; verify init plans (`.omo/plans/*.md`) align; verify inventory (`docs/ai-agents-inventory.md`) is current; verify memory (`~/.hermes/memories/`) is updated; verify CI (`.github/workflows/ci.yml`) continues to work; verify `.vscode/settings.json` agent settings remain consistent; write/update verification report.
+
+---
+
+*These `.cursorrules` are derived from the workspace agent identity file (`.hermes.md` — updated/enhanced 2026-10-13) and workspace agent rules (`AGENTS.md` — enhanced 2026-10-13). They are verified against workspace identity conventions: profile linkage (`default`), agent framework (`hermes-agent`), agent skills (`development` verified structural placeholder; `audit` / `verify` for identity verification), file hierarchy (`.hermes.md` > `AGENTS.md` > `.cursorrules`), anti-patterns (secrets, README misuse, npm, identity sync, settings override, vendor files, verification skip), and identity synchronization rules. Any discrepancy between `.cursorrules` and workspace identity files (`.hermes.md`, `AGENTS.md`) should be reported as an identity synchronization failure and resolved before making agent identity/config changes.*
