@@ -1,0 +1,499 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/SKILL.md",
+    "relative_path": "development/spring-boot-testing/SKILL.md",
+    "name": "spring-boot-testing",
+    "frontmatter": {
+      "name": "spring-boot-testing",
+      "category": "agentic-coder",
+      "title": "Spring Boot Testing",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Expert Spring Boot 4 testing specialist that selects the best Spring Boot testing techniques for your situation with Junit 6 and AssertJ."
+    },
+    "has_frontmatter": true,
+    "lines": 228,
+    "chars": 7638,
+    "sha256": "54ee65714f9fc2a06c1eb71e37e99645b1cec2509cce575b21323f2cd8271730",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/assertj-basics.md",
+        "lines": 207,
+        "chars": 4384,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/assertj-basics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/assertj-collections.md",
+        "lines": 183,
+        "chars": 5003,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/assertj-collections.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/context-caching.md",
+        "lines": 115,
+        "chars": 2467,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/context-caching.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/datajpatest.md",
+        "lines": 197,
+        "chars": 4953,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/datajpatest.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/instancio.md",
+        "lines": 230,
+        "chars": 4886,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/instancio.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/mockitobean.md",
+        "lines": 232,
+        "chars": 4613,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/mockitobean.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/mockmvc-classic.md",
+        "lines": 206,
+        "chars": 5921,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/mockmvc-classic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/mockmvc-tester.md",
+        "lines": 311,
+        "chars": 7696,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/mockmvc-tester.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/restclienttest.md",
+        "lines": 227,
+        "chars": 4736,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/restclienttest.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/resttestclient.md",
+        "lines": 278,
+        "chars": 5042,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/resttestclient.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/sb4-migration.md",
+        "lines": 181,
+        "chars": 3359,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/sb4-migration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/test-slices-overview.md",
+        "lines": 203,
+        "chars": 5492,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/test-slices-overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/testcontainers-jdbc.md",
+        "lines": 234,
+        "chars": 5451,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/testcontainers-jdbc.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/webmvctest.md",
+        "lines": 177,
+        "chars": 3652,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/spring-boot-testing/references/webmvctest.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sql-code-review/SKILL.md",
+    "relative_path": "development/sql-code-review/SKILL.md",
+    "name": "sql-code-review",
+    "frontmatter": {
+      "name": "sql-code-review",
+      "category": "agentic-coder",
+      "title": "Sql Code Review",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage."
+    },
+    "has_frontmatter": true,
+    "lines": 340,
+    "chars": 9846,
+    "sha256": "1dd765a5d1d2a649b880c05b2b5e0c7b7ca6d67a3f319ce990a8da5e34fca5c8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sql-optimization/SKILL.md",
+    "relative_path": "development/sql-optimization/SKILL.md",
+    "name": "sql-optimization",
+    "frontmatter": {
+      "name": "sql-optimization",
+      "category": "agentic-coder",
+      "title": "Sql Optimization",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance."
+    },
+    "has_frontmatter": true,
+    "lines": 335,
+    "chars": 10159,
+    "sha256": "31a0dbb8eb516b0a1086612fb535ad0ba177c75684e3bc8b5a86e3c25f2c72bb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sql-server-table-reconciliation/SKILL.md",
+    "relative_path": "development/sql-server-table-reconciliation/SKILL.md",
+    "name": "sql-server-table-reconciliation",
+    "frontmatter": {
+      "name": "sql-server-table-reconciliation",
+      "category": "agentic-coder",
+      "title": "Sql Server Table Reconciliation",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use when: comparing SQL Server tables across instances, data migration validation, ETL verification, row mismatch detection, schema drift, reconciliation report, production vs staging comparison. Uses mssql-python driver with Apache Arrow for fast columnar data transfer and comparison."
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 6418,
+    "sha256": "4e18814338233fc0e26084e59205609dde00f852bac129987f0cb5a2430e26a1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/sql-server-table-reconciliation/scripts/reconcile.py",
+        "lines": 380,
+        "chars": 13204,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/sql-server-table-reconciliation/scripts/reconcile.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ssma-console/SKILL.md",
+    "relative_path": "development/ssma-console/SKILL.md",
+    "name": "ssma-console",
+    "frontmatter": {
+      "name": "ssma-console",
+      "category": "agentic-coder",
+      "title": "Ssma Console",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use when: SSMA console operations — create project, generate assessment report, convert schema, migrate data, Oracle to SQL Server migration, schema conversion, data migration"
+    },
+    "has_frontmatter": true,
+    "lines": 191,
+    "chars": 8104,
+    "sha256": "6ef323b616eeb4af8bcd1feae1825b957abbf94f788513439b9da7db164b0a42",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/structured-autonomy-generate/SKILL.md",
+    "relative_path": "development/structured-autonomy-generate/SKILL.md",
+    "name": "structured-autonomy-generate",
+    "frontmatter": {
+      "name": "structured-autonomy-generate",
+      "category": "agentic-coder",
+      "title": "Structured Autonomy Generate",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Structured Autonomy Implementation Generator Prompt"
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 5129,
+    "sha256": "d4ff36f19715dfb196ca11bc43d895fdd5cd178194b64a3eeac4ff87b499f4e3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/suggest-awesome-github-copilot-agents/SKILL.md",
+    "relative_path": "development/suggest-awesome-github-copilot-agents/SKILL.md",
+    "name": "suggest-awesome-github-copilot-agents",
+    "frontmatter": {
+      "name": "suggest-awesome-github-copilot-agents",
+      "category": "agentic-coder",
+      "title": "Suggest Awesome Github Copilot Agents",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates."
+    },
+    "has_frontmatter": true,
+    "lines": 145,
+    "chars": 8929,
+    "sha256": "01fafec63467af3b1b65e807c98eb5a3bc402630eaf5f3ff1426a613b43301a4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase4-verify/SKILL.md",
+    "relative_path": "development/phase4-verify/SKILL.md",
+    "name": "phase4-verify",
+    "frontmatter": {
+      "name": "phase4-verify",
+      "category": "agentic-coder",
+      "title": "Phase4 Verify",
+      "description": "Script for Phase4 Verify operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2540,
+    "sha256": "f0b2924bdd84b9fc8269123ab9519576022e126503850fe52bfd795405db4d1c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase5-postapply/SKILL.md",
+    "relative_path": "development/phase5-postapply/SKILL.md",
+    "name": "phase5-postapply",
+    "frontmatter": {
+      "name": "phase5-postapply",
+      "category": "agentic-coder",
+      "title": "Phase5 Postapply",
+      "description": "Script for Phase5 Postapply operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2555,
+    "sha256": "45aacf7c73d138283a631bcdad118ff5c67bdf10740c467aed2671ec365b09c6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/php-mcp-server-generator/SKILL.md",
+    "relative_path": "development/php-mcp-server-generator/SKILL.md",
+    "name": "php-mcp-server-generator",
+    "frontmatter": {
+      "name": "php-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Php Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK"
+    },
+    "has_frontmatter": true,
+    "lines": 561,
+    "chars": 11777,
+    "sha256": "efae378c9ceadf039c5153dae18294cd17463c7fef5ec2d27d1d792114af1790",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/planning-oracle-to-postgres-migration-integration-testing/SKILL.md",
+    "relative_path": "development/planning-oracle-to-postgres-migration-integration-testing/SKILL.md",
+    "name": "planning-oracle-to-postgres-migration-integration-testing",
+    "frontmatter": {
+      "name": "planning-oracle-to-postgres-migration-integration-testing",
+      "category": "documentation",
+      "title": "Planning Oracle To Postgres Migration Integration Testing",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Analyzes a single project to identify repositories, DAOs, and service layers that interact with the database, then produces a structured testing plan. Use when planning integration test coverage for a migrated project, identifying which data access methods need tests, or preparing for Oracle-to-PostgreSQL migration validation."
+    },
+    "has_frontmatter": true,
+    "lines": 72,
+    "chars": 3348,
+    "sha256": "d7f562d2835fff76a46c0e765077da3daf2a8db714d0eac09c55eb0e7934db5c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/plugin-health-check/SKILL.md",
+    "relative_path": "development/plugin-health-check/SKILL.md",
+    "name": "plugin-health-check",
+    "frontmatter": {
+      "name": "plugin-health-check",
+      "category": "agentic-coder",
+      "title": "Plugin Health Check",
+      "description": "Verify Hermes plugins are enabled and functional.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[health, plugins, verification]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 50,
+    "chars": 3170,
+    "sha256": "83e5b616670de6d6a5c266a2ba73863fc14ee5c6e5ff39c96392cb466e04156e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/postgresql-optimization/SKILL.md",
+    "relative_path": "development/postgresql-optimization/SKILL.md",
+    "name": "postgresql-optimization",
+    "frontmatter": {
+      "name": "postgresql-optimization",
+      "category": "agentic-coder",
+      "title": "Postgresql Optimization",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem."
+    },
+    "has_frontmatter": true,
+    "lines": 443,
+    "chars": 12318,
+    "sha256": "51194e3188a74e38a4b315c070cb5651f637bd934fb18316e89148a8baacf0da",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prime-factors/SKILL.md",
+    "relative_path": "development/prime-factors/SKILL.md",
+    "name": "prime-factors",
+    "frontmatter": {
+      "name": "prime-factors",
+      "category": "agentic-coder",
+      "title": "Prime Factors",
+      "description": "Script for Prime Factors operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2525,
+    "sha256": "468448ff4038744fa5814fcaeb9e14c9099ed8ff5824ae0a35695e7ff44f31cb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

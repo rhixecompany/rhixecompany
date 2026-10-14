@@ -1,0 +1,425 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/qa/playwright-generate-e2e-test/SKILL.md",
+    "relative_path": "qa/playwright-generate-e2e-test/SKILL.md",
+    "name": "playwright-generate-e2e-test",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Playwright Generate E2E Test.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "playwright-generate-e2e-test",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Playwright Generate E2E Test",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 3011,
+    "sha256": "24a42759dff7b5bd2bdb4fbe74d7843e7d6c42b0dab81ebd36bb13a6b7a133db",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/playwright-generate-test/SKILL.md",
+    "relative_path": "qa/playwright-generate-test/SKILL.md",
+    "name": "playwright-generate-test",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Playwright Generate Test.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "playwright-generate-test",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Playwright Generate Test",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 3767,
+    "sha256": "03d7299e69504cac5e374bfb346d19cb62753609461d7d4a3a6067a2fb6d7949",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/playwright-mcp/SKILL.md",
+    "relative_path": "qa/playwright-mcp/SKILL.md",
+    "name": "playwright-mcp",
+    "frontmatter": {
+      "name": "playwright-mcp",
+      "category": "agentic-coder",
+      "title": "Playwright MCP Server",
+      "description": "Use Playwright MCP for browser automation and web testing",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[mcp, playwright, browser, automation]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1443,
+    "sha256": "a59885f7bede9d67d0d1f290b13fce1b922161505d74cb1f473a6528502c1552",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/plugins-judge/SKILL.md",
+    "relative_path": "qa/plugins-judge/SKILL.md",
+    "name": "plugins-judge",
+    "frontmatter": {
+      "name": "plugins-judge",
+      "category": "agentic-coder",
+      "title": "Plugins Judge",
+      "description": "Audit Hermes plugins. Scores 0-100.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, judge, plugins, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 3625,
+    "sha256": "7808c2ac265cc7f894b0b224cb88fda74b5648a855f1a5589c2035a4b8ad8ae4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plugins-judge/references/rubric.md",
+        "lines": 60,
+        "chars": 1127,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plugins-judge/references/rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plugins-judge/scripts/judge.py",
+        "lines": 210,
+        "chars": 7301,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plugins-judge/scripts/judge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/polyglot-test-agent/SKILL.md",
+    "relative_path": "qa/polyglot-test-agent/SKILL.md",
+    "name": "polyglot-test-agent",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Generates comprehensive, workable unit tests for any programming language",
+      "license": "MIT",
+      "name": "polyglot-test-agent",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Polyglot Test Agent",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 240,
+    "chars": 8588,
+    "sha256": "9d56bfb42f47f2afcb8bacee8f64e78a86d9c7822c682e547cb4739db4825713",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/polyglot-test-agent/references/overview.md",
+        "lines": 11,
+        "chars": 185,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/polyglot-test-agent/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/postgresql-code-review/SKILL.md",
+    "relative_path": "qa/postgresql-code-review/SKILL.md",
+    "name": "postgresql-code-review",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Postgresql Code Review.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "postgresql-code-review",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Postgresql Code Review",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 330,
+    "chars": 10084,
+    "sha256": "c14b4cb516d664f71b893dd2f3137a22838fb1729c049aaad5b5561a4e46df24",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 86,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/prompts-judge/SKILL.md",
+    "relative_path": "qa/prompts-judge/SKILL.md",
+    "name": "prompts-judge",
+    "frontmatter": {
+      "name": "prompts-judge",
+      "category": "agentic-coder",
+      "title": "Prompts Judge",
+      "description": "Use when auditing .github/prompts/**/*.prompt.md. Scores 0-100.",
+      "version": "2.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, judge, prompts, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 205,
+    "chars": 7480,
+    "sha256": "5dac4c91f3a47ea650b6ae49b35cb2a7f395f9fe2f99e9b205dd0773da5ac51b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/references/operations-pattern.md",
+        "lines": 60,
+        "chars": 5593,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/references/operations-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/references/rubric.md",
+        "lines": 177,
+        "chars": 4791,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/references/rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/scripts/__pycache__/judge.cpython-313.pyc",
+        "lines": 830,
+        "chars": 25717,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/scripts/__pycache__/judge.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/scripts/judge.py",
+        "lines": 557,
+        "chars": 21351,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/scripts/judge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/scripts/migrate_templates.py",
+        "lines": 346,
+        "chars": 14048,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/prompts-judge/scripts/migrate_templates.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: non-standard trigger field",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  }
+]

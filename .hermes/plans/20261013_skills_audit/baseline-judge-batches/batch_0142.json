@@ -1,0 +1,302 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/deploy-to-vercel/SKILL.md",
+    "relative_path": "oh-my-hermes/deploy-to-vercel/SKILL.md",
+    "name": "deploy-to-vercel",
+    "frontmatter": {
+      "name": "deploy-to-vercel",
+      "category": "agentic-coder",
+      "title": "Deploy To Vercel",
+      "description": "Use when implementation is complete and the project needs to be deployed or redeployed to Vercel",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[deployment, vercel, ops]"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 3209,
+    "sha256": "c2f6db29753b1bd28f21cac1ae51f682afe49e0c1ca7170eb3a29c7a55fc47c8",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/design-handoff/SKILL.md",
+    "relative_path": "oh-my-hermes/design-handoff/SKILL.md",
+    "name": "design-handoff",
+    "frontmatter": {
+      "name": "design-handoff",
+      "category": "architecture",
+      "title": "Design Handoff",
+      "description": "Use when a product or feature has user-facing behavior that should be designed and made testable before implementation",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[design, ux, responsive, implementation, verification]"
+    },
+    "has_frontmatter": true,
+    "lines": 104,
+    "chars": 3744,
+    "sha256": "0f4f45a779367937c479ac8b1947bf5dec5efe8076664d5e85ba7b96030f230c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/failure-recovery/SKILL.md",
+    "relative_path": "oh-my-hermes/failure-recovery/SKILL.md",
+    "name": "failure-recovery",
+    "frontmatter": {
+      "name": "failure-recovery",
+      "category": "agentic-coder",
+      "title": "Failure Recovery",
+      "description": "Use when cron, gateway, deploy, log scanning, or agent work fails and the founder needs a saved error with recovery steps",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[cron, failure, recovery, dead-letter, operations]"
+    },
+    "has_frontmatter": true,
+    "lines": 92,
+    "chars": 2888,
+    "sha256": "659164b4cdff1b6a5e0f10ed804bd6f798703a5dc02c7acbb493a6d4cc749c70",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/generate-with-seedance/SKILL.md",
+    "relative_path": "oh-my-hermes/generate-with-seedance/SKILL.md",
+    "name": "generate-with-seedance",
+    "frontmatter": {
+      "name": "generate-with-seedance",
+      "category": "agentic-coder",
+      "title": "Generate With Seedance",
+      "description": "Use when an approved storyboard needs paid Seedance video generation through the official Volcengine Ark API",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[design, video, seedance, volcengine, generation]"
+    },
+    "has_frontmatter": true,
+    "lines": 112,
+    "chars": 4271,
+    "sha256": "c74af26d7a330aa8c80216f5eab51d8f6a1280452b75cf367078da954d2d5ccf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/implement-with-claude-code/SKILL.md",
+    "relative_path": "oh-my-hermes/implement-with-claude-code/SKILL.md",
+    "name": "implement-with-claude-code",
+    "frontmatter": {
+      "name": "implement-with-claude-code",
+      "category": "agentic-coder",
+      "title": "Implement With Claude Code",
+      "description": "Use when choose-engine has routed to Claude Code for complex multi-file implementation",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[implementation, claude-code, coding]"
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 4224,
+    "sha256": "423ddba3ddf8d6c0ee8c59a0a8d9fb371462c5b8e72985768467d43c5b86dd0d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/implement-with-codex/SKILL.md",
+    "relative_path": "oh-my-hermes/implement-with-codex/SKILL.md",
+    "name": "implement-with-codex",
+    "frontmatter": {
+      "name": "implement-with-codex",
+      "category": "agentic-coder",
+      "title": "Implement With Codex",
+      "description": "Use when choose-engine has routed to Codex for a targeted single-file or quick-fix task",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[implementation, codex, coding]"
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 3465,
+    "sha256": "416c1afb0d6406d4f7477ab5ae2aae4417718654f19909c462a80022c908c0a7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/kanban-task/SKILL.md",
+    "relative_path": "oh-my-hermes/kanban-task/SKILL.md",
+    "name": "kanban-task",
+    "frontmatter": {
+      "name": "kanban-task",
+      "category": "agentic-coder",
+      "title": "Kanban Task",
+      "description": "Use when any agent starts, updates, or completes a unit of work that should be visible on the Hermes kanban board",
+      "version": "1.1.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[kanban, task, tracking, ops, autonomous]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 171,
+    "chars": 6490,
+    "sha256": "1f08333b6ee29831126fe2f0c68f92ecf9a84072bc296f5555ef68bdd5b836ce",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 9
+  }
+]

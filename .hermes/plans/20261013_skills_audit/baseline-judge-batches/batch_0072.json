@@ -1,0 +1,480 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-builder/SKILL.md",
+    "relative_path": "development/prompt-builder/SKILL.md",
+    "name": "prompt-builder",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Scaffold, generate, and build structured prompt files and prompt libraries from specifications. Works with the 9-section and 11-section templates from enforce-markdown, supports Hermes/Copilot/OpenCode cross-platform formats, and produces ready-to-use prompt artifacts.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "prompt-builder",
+      "category": "agentic-coder",
+      "tags": [
+        "scaffolding",
+        "templates",
+        "library",
+        "prompt-engineering",
+        "scripts"
+      ],
+      "title": "Prompt Builder",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 205,
+    "chars": 8549,
+    "sha256": "a26d730e5eb360f2bbe9d63325a56aee4fd135e9782e3bec7c0f53a4de89fe83",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-builder/references/prompt-templates.md",
+        "lines": 8,
+        "chars": 628,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-builder/references/prompt-templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-builder/templates/workflow.md",
+        "lines": 15,
+        "chars": 136,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-builder/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-engineering/SKILL.md",
+    "relative_path": "development/prompt-engineering/SKILL.md",
+    "name": "prompt-engineering",
+    "frontmatter": {
+      "name": "prompt-engineering",
+      "category": "agentic-coder",
+      "title": "Prompt Engineering",
+      "description": "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 237,
+    "chars": 8051,
+    "sha256": "521c1dc52cfb3d7be9809c15e84b05b01f6f122f9bf7888510b77a77569f40d1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-engineering/writing-prompt/SKILL.md",
+    "relative_path": "development/prompt-engineering/writing-prompt/SKILL.md",
+    "name": "writing-prompt",
+    "frontmatter": {
+      "name": "writing-prompt",
+      "category": "documentation",
+      "description": "Use when writing an agent prompt. Create a verified prompt.",
+      "version": "1.0.0",
+      "title": "Writing Prompt",
+      "author": "Alexa"
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 6350,
+    "sha256": "5fedecaa18d39057d7cfa5dc8a4d84c59002f636c737e3cbea1b7e9b6d7ffc1c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-engineering/writing-prompt/references/overview.md",
+        "lines": 15,
+        "chars": 829,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-engineering/writing-prompt/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-engineering/writing-prompt/templates/template.prompt.md",
+        "lines": 80,
+        "chars": 1358,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-engineering/writing-prompt/templates/template.prompt.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 45,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 12,
+      "structure": 4,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "frontmatter: non-standard trigger field",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-engineering-patterns/SKILL.md",
+    "relative_path": "development/prompt-engineering-patterns/SKILL.md",
+    "name": "prompt-engineering-patterns",
+    "frontmatter": {
+      "name": "prompt-engineering-patterns",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "title": "Prompt Engineering Patterns",
+      "author": "Hermes Skills Team",
+      "description": ">-",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 195,
+    "chars": 6804,
+    "sha256": "6943ec4dff39437f9b45de636e5e9a68fc4e4b8de689026aa61beb36672ea9a3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-engineering-patterns/references/details.md",
+        "lines": 338,
+        "chars": 9177,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-engineering-patterns/references/details.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-fix-metadata/SKILL.md",
+    "relative_path": "development/prompt-fix-metadata/SKILL.md",
+    "name": "prompt-fix-metadata",
+    "frontmatter": {
+      "name": "prompt-fix-metadata",
+      "category": "agentic-coder",
+      "title": "Prompt Fix Metadata",
+      "description": "Performs fix metadata on prompt files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2609,
+    "sha256": "96af61051926459ccc4a09f665934319091d57664a964912c0574a7e5dac08e0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-fix-metadata/references/overview.md",
+        "lines": 29,
+        "chars": 550,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-fix-metadata/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-fix-metadata/templates/template.md",
+        "lines": 18,
+        "chars": 155,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-fix-metadata/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-inventory/SKILL.md",
+    "relative_path": "development/prompt-inventory/SKILL.md",
+    "name": "prompt-inventory",
+    "frontmatter": {
+      "name": "prompt-inventory",
+      "category": "agentic-coder",
+      "title": "Prompt Inventory",
+      "description": "Performs inventory on prompts",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2572,
+    "sha256": "fddb578d5a82182f4af526c47f8f571a7a284761e9944bbef2f06014e27a670e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-inventory/references/overview.md",
+        "lines": 29,
+        "chars": 535,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-inventory/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-inventory/templates/template.md",
+        "lines": 18,
+        "chars": 152,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-inventory/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-library-consolidation/SKILL.md",
+    "relative_path": "development/prompt-library-consolidation/SKILL.md",
+    "name": "prompt-library-consolidation",
+    "frontmatter": {
+      "name": "prompt-library-consolidation",
+      "category": "agentic-coder",
+      "title": "Prompt Library Consolidation",
+      "description": "Canonicalize prompt/template libraries, migrate legacy template trees, deduplicate conflicts, and validate references across prompts, docs, scripts, and tool declarations.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "prompts",
+        "templates",
+        "consolidation",
+        "validation",
+        "refactoring"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 4202,
+    "sha256": "fd1331025cf71f7b6ca04420ef83ebc0e1cddc33cede59e1952cd2b30395f655",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-library-consolidation/references/prompt-migration-notes.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-library-consolidation/references/prompt-migration-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  }
+]

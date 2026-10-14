@@ -1,0 +1,461 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-yaml-frontmatter/SKILL.md",
+    "relative_path": "development/fix-yaml-frontmatter/SKILL.md",
+    "name": "fix-yaml-frontmatter",
+    "frontmatter": {
+      "name": "fix-yaml-frontmatter",
+      "category": "agentic-coder",
+      "title": "Fix Yaml Frontmatter",
+      "description": "Fixes yaml frontmatter issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2627,
+    "sha256": "2a637d1b17f21e5a9b59f3b2b427d0b961eaf901896e1460454d610e9cf9b480",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-yaml-frontmatter/references/overview.md",
+        "lines": 31,
+        "chars": 710,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-yaml-frontmatter/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-debug/SKILL.md",
+    "relative_path": "development/flowstudio-power-automate-debug/SKILL.md",
+    "name": "flowstudio-power-automate-debug",
+    "frontmatter": {
+      "name": "flowstudio-power-automate-debug",
+      "category": "agentic-coder",
+      "title": "Flowstudio Power Automate Debug",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-"
+    },
+    "has_frontmatter": true,
+    "lines": 533,
+    "chars": 20919,
+    "sha256": "99c7ac109bf673327fc689347f02f8bd63b9178bace4c162cf397481aa9fe97e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-debug/references/common-errors.md",
+        "lines": 223,
+        "chars": 7301,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-debug/references/common-errors.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-debug/references/debug-workflow.md",
+        "lines": 163,
+        "chars": 5214,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-debug/references/debug-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-governance/SKILL.md",
+    "relative_path": "development/flowstudio-power-automate-governance/SKILL.md",
+    "name": "flowstudio-power-automate-governance",
+    "frontmatter": {
+      "name": "flowstudio-power-automate-governance",
+      "category": "agentic-coder",
+      "title": "Flowstudio Power Automate Governance",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-"
+    },
+    "has_frontmatter": true,
+    "lines": 371,
+    "chars": 15324,
+    "sha256": "67a3a8668c42543c387844fab00bb8586d124b17cf78c7eeaf31d388453b6a73",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/flowstudio-power-automate-monitoring/SKILL.md",
+    "relative_path": "development/flowstudio-power-automate-monitoring/SKILL.md",
+    "name": "flowstudio-power-automate-monitoring",
+    "frontmatter": {
+      "name": "flowstudio-power-automate-monitoring",
+      "category": "agentic-coder",
+      "title": "Flowstudio Power Automate Monitoring",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-"
+    },
+    "has_frontmatter": true,
+    "lines": 412,
+    "chars": 14142,
+    "sha256": "e43e84b6cd65d53666708de4b5c4303d5fad982f6d146377b6899d423d4f9cc8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/flutterwave-transfers-api/SKILL.md",
+    "relative_path": "development/flutterwave-transfers-api/SKILL.md",
+    "name": "flutterwave-transfers-api",
+    "frontmatter": {
+      "name": "flutterwave-transfers-api",
+      "category": "agentic-coder",
+      "title": "Flutterwave Transfers API Introduction",
+      "description": "Use when integrating Flutterwave Transfers for global fund transfers — covers authentication, account validation, transfer initiation, status querying, and required headers.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[flutterwave, transfers, api, payments, africa, global, fintech]"
+    },
+    "has_frontmatter": true,
+    "lines": 219,
+    "chars": 7414,
+    "sha256": "a9dd1e142d64e5101034f3a0430b0f33a8d2368fbe0a59d7462db74026e62e38",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/flutterwave-transfers-api/references/flutterwave-patterns.md",
+        "lines": 87,
+        "chars": 2366,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/flutterwave-transfers-api/references/flutterwave-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/flutterwave-transfers-api/scripts/flutterwave-test-transfers.py",
+        "lines": 74,
+        "chars": 2401,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/flutterwave-transfers-api/scripts/flutterwave-test-transfers.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/foundry-agent-sync/SKILL.md",
+    "relative_path": "development/foundry-agent-sync/SKILL.md",
+    "name": "foundry-agent-sync",
+    "frontmatter": {
+      "name": "foundry-agent-sync",
+      "category": "agentic-coder",
+      "title": "Foundry Agent Sync",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create and synchronize prompt-based AI agents directly within Azure AI Foundry via REST API, from a local JSON manifest. Unlike scaffolding skills that only generate local code, this skill registers agents in the Foundry service itself — making them immediately available for invocation. Use when the user asks to create agents in Foundry, sync, deploy, register, or push agents to Foundry, update agent instructions, or scaffold the manifest and sync script for a new repository. Triggers: 'create agent in foundry', 'sync foundry agents', 'deploy agents to foundry', 'register agents in foundry', 'push agents', 'create foundry agent manifest', 'scaffold agent sync'."
+    },
+    "has_frontmatter": true,
+    "lines": 227,
+    "chars": 8834,
+    "sha256": "1e3401aaec6a6c70421103dba48d702b5275541b247cc5af2e8b031c3b91be0e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/SKILL.md",
+    "relative_path": "development/foundry-hosted-agent-copilotkit/SKILL.md",
+    "name": "foundry-hosted-agent-copilotkit",
+    "frontmatter": {
+      "name": "foundry-hosted-agent-copilotkit",
+      "category": "agentic-coder",
+      "title": "Foundry Hosted Agent Copilotkit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Ongoing development guidance for agentic web apps that pair a CopilotKit frontend with Microsoft Agent Framework agents on Azure AI Foundry hosted agents over the AG-UI protocol - add and gate agent tools, wire human-in-the-loop approvals, build generative UI and shared state, debug the event stream, upgrade pre-1.0 packages safely, and deploy hosted agent updates."
+    },
+    "has_frontmatter": true,
+    "lines": 122,
+    "chars": 9709,
+    "sha256": "fdfe1630e2b9f0144999ac59b797a94a189b71fd4821ebff0cb0d9a29bdc75e3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/architecture.md",
+        "lines": 86,
+        "chars": 6949,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/deploy-loop.md",
+        "lines": 41,
+        "chars": 4390,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/deploy-loop.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/hitl.md",
+        "lines": 132,
+        "chars": 10389,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/hitl.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/patterns.md",
+        "lines": 31,
+        "chars": 4983,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/troubleshooting.md",
+        "lines": 53,
+        "chars": 6938,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/upgrading.md",
+        "lines": 40,
+        "chars": 5107,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/foundry-hosted-agent-copilotkit/references/upgrading.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 2
+  }
+]

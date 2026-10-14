@@ -1,0 +1,621 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/workshop-create/SKILL.md",
+    "relative_path": "development/workshop-create/SKILL.md",
+    "name": "workshop-create",
+    "frontmatter": {
+      "name": "workshop-create",
+      "category": "agentic-coder",
+      "title": "Workshop Create",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local directory the operator points at, or (B) create a new private GitHub repo in the signed-in account. Never creates a repo inside another repo."
+    },
+    "has_frontmatter": true,
+    "lines": 172,
+    "chars": 5809,
+    "sha256": "bf3d7309ae0952fb85ffec222f51807dd898d6b80825f6bd4f0542f80a958997",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/write-coding-standards-from-file/SKILL.md",
+    "relative_path": "development/write-coding-standards-from-file/SKILL.md",
+    "name": "write-coding-standards-from-file",
+    "frontmatter": {
+      "name": "write-coding-standards-from-file",
+      "category": "agentic-coder",
+      "title": "Write Coding Standards From File",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt."
+    },
+    "has_frontmatter": true,
+    "lines": 355,
+    "chars": 16386,
+    "sha256": "97dda3c836e06c7a4593b9438f6c2ed412fcb2ef42b9619a4e2dfe2b85d0b503",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 36
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/writing-plan/SKILL.md",
+    "relative_path": "development/writing-plan/SKILL.md",
+    "name": "writing-plan",
+    "frontmatter": {
+      "name": "writing-plan",
+      "category": "documentation",
+      "title": "Writing Plan (Project / Implementation Plans)",
+      "description": "Author, verify, and execute planning artifacts at $HERMES_HOME/plans/<slug>/. Enforces steps, goals, subgoals, todos, phases, tasks, subtasks, gates, checklists, actions, timelines, milestones, resource allocation.",
+      "version": "1.0.0",
+      "author": "Hermes Agent / Alexa",
+      "license": "MIT",
+      "tags": "[plan, planning, project-management, artifacts, milestones, gates]",
+      "related_skills": "[multi-file-change-protocol, multi-file-crud-protocol, identity-context-protocol, writing-spec, writing-prompt, plan, plan-mode, plans-and-specs]"
+    },
+    "has_frontmatter": true,
+    "lines": 60,
+    "chars": 2490,
+    "sha256": "717ac18a38d376396e3ddbba16f0a852e82cbba64074f6d634d5ccc17812a5d5",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/writing-prompt/SKILL.md",
+    "relative_path": "development/writing-prompt/SKILL.md",
+    "name": "writing-prompt",
+    "frontmatter": {
+      "name": "writing-prompt",
+      "category": "documentation",
+      "title": "Writing Prompt (Prompt Engineering & Templates)",
+      "description": "Author, verify, and enhance prompt artifacts at $HERMES_HOME/prompts/{category}/{trigger}/. Enforces plans, formatters, rules, skills, best-practices, dependencies, skeleton sections, milestones, personas, profiles, personalities, models.",
+      "version": "1.0.0",
+      "author": "Hermes Agent / Alexa",
+      "license": "MIT",
+      "tags": "[prompt, prompt-engineering, templates, artifacts, formatters, rules, skills]",
+      "related_skills": "[multi-file-change-protocol, multi-file-crud-protocol, identity-context-protocol, writing-spec, writing-plan, plan, plan-mode, plans-and-specs]"
+    },
+    "has_frontmatter": true,
+    "lines": 75,
+    "chars": 3459,
+    "sha256": "b63d0bf0d93b4d1132d227e773709d4034ef3d1923db509a218efdd43743d05f",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/writing-skills/SKILL.md",
+    "relative_path": "development/writing-skills/SKILL.md",
+    "name": "writing-skills",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment. Applies TDD methodology to skill authoring: write failing test scenarios first, then write skill to pass them.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "writing-skills",
+      "category": "documentation",
+      "tags": [
+        "imported",
+        "skill-authoring",
+        "tdd",
+        "documentation",
+        "quality",
+        "scripts"
+      ],
+      "title": "Writing Skills",
+      "version": "1.8.0"
+    },
+    "has_frontmatter": true,
+    "lines": 466,
+    "chars": 16693,
+    "sha256": "2339f6cede8c2af31e49e7439597772afebc218cbf65f3a9e97f6e15b690743e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/batch-script-wrapper-enhancement.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/batch-script-wrapper-enhancement.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/bulletproofing.md",
+        "lines": 54,
+        "chars": 1674,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/bulletproofing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/code-examples.md",
+        "lines": 14,
+        "chars": 468,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/code-examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/cso-guidelines.md",
+        "lines": 130,
+        "chars": 5357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/cso-guidelines.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/cso.md",
+        "lines": 114,
+        "chars": 3986,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/cso.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/directory-structure.md",
+        "lines": 19,
+        "chars": 450,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/directory-structure.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/file-organization.md",
+        "lines": 23,
+        "chars": 451,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/file-organization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/flowcharts.md",
+        "lines": 20,
+        "chars": 672,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/flowcharts.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/graphviz-conventions.md",
+        "lines": 79,
+        "chars": 2386,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/graphviz-conventions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/iron-law.md",
+        "lines": 14,
+        "chars": 470,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/iron-law.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/overview.md",
+        "lines": 29,
+        "chars": 752,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/persuasion-principles.md",
+        "lines": 85,
+        "chars": 2757,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/persuasion-principles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-audit-lessons.md",
+        "lines": 70,
+        "chars": 3210,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-audit-lessons.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-structure.md",
+        "lines": 46,
+        "chars": 1351,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-structure.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-testing-patterns.md",
+        "lines": 123,
+        "chars": 3642,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-testing-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-testing.md",
+        "lines": 73,
+        "chars": 2725,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-testing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-types.md",
+        "lines": 10,
+        "chars": 264,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skill-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skills-library-auditing.md",
+        "lines": 158,
+        "chars": 5417,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/skills-library-auditing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/tdd-mapping.md",
+        "lines": 11,
+        "chars": 459,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/references/tdd-mapping.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/reference-skill-template.md",
+        "lines": 60,
+        "chars": 1058,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/reference-skill-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/skill-template.md",
+        "lines": 59,
+        "chars": 1087,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/skill-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/technique-skill-template.md",
+        "lines": 65,
+        "chars": 1099,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/technique-skill-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/workflow.md",
+        "lines": 15,
+        "chars": 136,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-skills/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 51
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/writing-spec/SKILL.md",
+    "relative_path": "development/writing-spec/SKILL.md",
+    "name": "writing-spec",
+    "frontmatter": {
+      "name": "writing-spec",
+      "category": "documentation",
+      "title": "Writing Specification (Technical Specs)",
+      "description": "Author, verify, and execute specification artifacts at $HERMES_HOME/specs/<slug>/. Enforces valid code-blocks, custom Python/TypeScript scripts, powershell/bash scripts, verification gates.",
+      "version": "1.0.0",
+      "author": "Hermes Agent / Alexa",
+      "license": "MIT",
+      "tags": "[spec, specification, technical-writing, artifacts, verification]",
+      "related_skills": "[multi-file-change-protocol, multi-file-crud-protocol, identity-context-protocol, writing-plan, writing-prompt, plan, plans-and-specs]"
+    },
+    "has_frontmatter": true,
+    "lines": 66,
+    "chars": 2908,
+    "sha256": "9f1a555fbed411384271b11df51c39385aa29d7afb8de4a496db23efe947f2a5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-spec/templates/template.md",
+        "lines": 39,
+        "chars": 598,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/writing-spec/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 58,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/x-twitter-scraper/SKILL.md",
+    "relative_path": "development/x-twitter-scraper/SKILL.md",
+    "name": "x-twitter-scraper",
+    "frontmatter": {
+      "name": "x-twitter-scraper",
+      "category": "agentic-coder",
+      "title": "X Twitter Scraper",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Build GitHub Copilot workflows with Xquik X API SDKs, REST endpoints, hosted Apify Actor runs, MCP tools, TweetClaw OpenClaw plugin installs, signed webhooks, tweet search, user lookup, follower exports, media actions, and agent automation."
+    },
+    "has_frontmatter": true,
+    "lines": 185,
+    "chars": 9714,
+    "sha256": "a10ad905961370dac244ec405e2e4e030812792482bbb9dde66c3b7acfb61777",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/SKILL.md",
+    "relative_path": "devops/hermes-health-sweep/SKILL.md",
+    "name": "hermes-health-sweep",
+    "frontmatter": {
+      "name": "hermes-health-sweep",
+      "category": "agentic-coder",
+      "title": "Hermes Health Sweep",
+      "description": "Audit and remediate all Hermes-managed assets (desktop, desktop-plugins, plugins, hooks, scripts, agents) in one pipeline. Use when a comprehensive health check is needed across the entire Hermes install.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (Alexa)",
+      "license": "MIT",
+      "platforms": "[windows, macos, linux]",
+      "tags": "[devops, audit, hermes, health, sweep, remediation]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 146,
+    "chars": 5857,
+    "sha256": "9ca184eb568fbf179618eb4a4d5288b299ab22baed4377da9a09acf59e8c2019",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/references/agents-audit.md",
+        "lines": 64,
+        "chars": 1219,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/references/agents-audit.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/references/desktop-plugin-audit.md",
+        "lines": 41,
+        "chars": 1333,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/references/desktop-plugin-audit.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/references/sweep-output-schema.md",
+        "lines": 131,
+        "chars": 2397,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/references/sweep-output-schema.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/__pycache__/desktop_plugins_audit.cpython-314.pyc",
+        "lines": 418,
+        "chars": 9592,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/__pycache__/desktop_plugins_audit.cpython-314.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/agents_audit.py",
+        "lines": 92,
+        "chars": 2913,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/agents_audit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/desktop_plugins_audit.py",
+        "lines": 164,
+        "chars": 6193,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/desktop_plugins_audit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/summarize.py",
+        "lines": 114,
+        "chars": 3590,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/summarize.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/sweep.sh",
+        "lines": 103,
+        "chars": 3249,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/sweep.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/verify.sh",
+        "lines": 48,
+        "chars": 1868,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-health-sweep/scripts/verify.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/SKILL.md",
+    "relative_path": "devops/hermes-hooks/SKILL.md",
+    "name": "hermes-hooks",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "'Full lifecycle management of Hermes hooks: session-logger, session-auto-commit,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "hermes-hooks",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Hermes Hooks",
+      "version": "2.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 296,
+    "chars": 12803,
+    "sha256": "d7fe7744eb692b34d247a36d15b5253807836b71d6d693a858b4457ea10dd0c9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/audit-remediation.md",
+        "lines": 15,
+        "chars": 862,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/audit-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/commands.md",
+        "lines": 49,
+        "chars": 1289,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/config-registration-gotcha.md",
+        "lines": 72,
+        "chars": 2176,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/config-registration-gotcha.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/event-payloads.md",
+        "lines": 95,
+        "chars": 3205,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/event-payloads.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/hook-template.md",
+        "lines": 64,
+        "chars": 1659,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/hook-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/windows-hook-consent.md",
+        "lines": 11,
+        "chars": 1114,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-hooks/references/windows-hook-consent.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-memory-sync/SKILL.md",
+    "relative_path": "devops/hermes-memory-sync/SKILL.md",
+    "name": "hermes-memory-sync",
+    "frontmatter": {
+      "name": "hermes-memory-sync",
+      "category": "agentic-coder",
+      "title": "Profile Memory Sync — Root → Profiles",
+      "description": "Use after compacting or updating root USER.md or MEMORY.md — sync the same content to all Hermes profile copies so validation passes everywhere.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[hermes, profiles, memory, maintenance]"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 4640,
+    "sha256": "35b57a0cd5681f36e0b043594671ff406a3d1d6a08112c05325459a088486d93",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-personality-soul/SKILL.md",
+    "relative_path": "devops/hermes-personality-soul/SKILL.md",
+    "name": "hermes-personality-soul",
+    "frontmatter": {
+      "name": "hermes-personality-soul",
+      "title": "Hermes Personality & SOUL.md (Official Docs)",
+      "description": "Use when customizing Hermes agent personality — covers SOUL.md as primary identity, built-in /personality presets, custom personalities in config, SOUL.md vs AGENTS.md distinction, and prompt stack order.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, personality, soul-md, agents-md, prompt-stack, custom-personalities]"
+    },
+    "has_frontmatter": true,
+    "lines": 181,
+    "chars": 6146,
+    "sha256": "5bba1369785b1494be395eac8f37a5bcab3db3a04b4ba32ebd0586a369b86e66",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 6,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/SKILL.md",
+    "relative_path": "devops/hermes-profiles/SKILL.md",
+    "name": "hermes-profiles",
+    "frontmatter": {
+      "name": "hermes-profiles",
+      "category": "agentic-coder",
+      "title": "Hermes Profiles",
+      "description": "Profile identity & state: USER.md, SOUL.md, MEMORY.md. Provider enumeration, system maintenance, toolsets, operator policies, personality, context files. Single source of truth via DRY.",
+      "version": "2.2.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "imported"
+      ],
+      "metadata": [
+        "imported"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 3485,
+    "sha256": "13051aa48e44f6a0bb248459c433cd9d3d36323821909b27c95b96d4be8f3c08",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/batch-profile-operations.py",
+        "lines": 119,
+        "chars": 3671,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/batch-profile-operations.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/profile-docs.md",
+        "lines": 948,
+        "chars": 41355,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/profile-docs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/profile-migration-path-updates.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/profile-migration-path-updates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/profile-soul-minimal-template.md",
+        "lines": 112,
+        "chars": 3244,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-profiles/references/profile-soul-minimal-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-s6-container-supervision/SKILL.md",
+    "relative_path": "devops/hermes-s6-container-supervision/SKILL.md",
+    "name": "hermes-s6-container-supervision",
+    "frontmatter": {
+      "name": "hermes-s6-container-supervision",
+      "category": "agentic-coder",
+      "title": "Hermes S6 Container Supervision",
+      "description": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux]",
+      "environments": "[s6]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 232,
+    "chars": 13356,
+    "sha256": "20e6fc422ee84ecf9ad427dc806475c9e1ab8a2c7cb6db7cf1457c4aa09bca93",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-script-audit-prompts/SKILL.md",
+    "relative_path": "devops/hermes-script-audit-prompts/SKILL.md",
+    "name": "hermes-script-audit-prompts",
+    "frontmatter": {
+      "name": "hermes-script-audit-prompts",
+      "category": "audit",
+      "title": "Prompt Library Verification",
+      "description": "Verify prompts (no mutation); separate from fixers.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, scripts, devops, prompts, verification, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 89,
+    "chars": 2589,
+    "sha256": "77f6f75aba704ee43cb83fb8cf38166de3b456100b3823588ed5e372c85a73ab",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

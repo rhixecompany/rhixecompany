@@ -1,0 +1,486 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/planning/devops-rollout-plan/SKILL.md",
+    "relative_path": "planning/devops-rollout-plan/SKILL.md",
+    "name": "devops-rollout-plan",
+    "frontmatter": {
+      "name": "devops-rollout-plan",
+      "category": "dev-tools",
+      "title": "Devops Rollout Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infrastructure and application changes"
+    },
+    "has_frontmatter": true,
+    "lines": 156,
+    "chars": 4972,
+    "sha256": "adcc70e1c38612828b2bcad0c1ddc7ef68cb0c253aa8e6fa6df396a1da7a2707",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/from-the-other-side-wiggins/SKILL.md",
+    "relative_path": "planning/from-the-other-side-wiggins/SKILL.md",
+    "name": "from-the-other-side-wiggins",
+    "frontmatter": {
+      "name": "from-the-other-side-wiggins",
+      "category": "agentic-coder",
+      "title": "From The Other Side Wiggins",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Narrative and synthesis profile for Wiggins: framing, explanation, and audience-aware communication patterns for Ember sessions."
+    },
+    "has_frontmatter": true,
+    "lines": 162,
+    "chars": 4919,
+    "sha256": "545a6b39b56bfa2ca18f6d8199ecbdcc5172a7662baff40eb9445e4ef158f480",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/implementation-plan/SKILL.md",
+    "relative_path": "planning/implementation-plan/SKILL.md",
+    "name": "implementation-plan",
+    "frontmatter": {
+      "name": "implementation-plan",
+      "tags": "[]",
+      "title": "Implementation Plan",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "description": "Create detailed implementation plans for software projects — break down features into steps, files, tasks, and executable code.",
+      "category": "documentation",
+      "metadata": "{\"clawdbot\":{\"emoji\":\"📋\",\"tags\":[\"planning\",\"architecture\",\"development\"]}}",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 239,
+    "chars": 6682,
+    "sha256": "295ee0d2cdb86c31748b024371853a2b8d2ff7b1d649af07e5c6aef701182814",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 7,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/notion-spec-to-implementation/SKILL.md",
+    "relative_path": "planning/notion-spec-to-implementation/SKILL.md",
+    "name": "notion-spec-to-implementation",
+    "frontmatter": {
+      "name": "notion-spec-to-implementation",
+      "tags": "[]",
+      "version": "1.0.0",
+      "title": "Notion Spec To Implementation",
+      "author": "Hermes Skills Team",
+      "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+      "category": "documentation",
+      "metadata": [],
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 94,
+    "chars": 4826,
+    "sha256": "5b87828eae3f597782ec38842c7a1d45eccdda9d767c49061ca22f5b5c3a72db",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/plan/SKILL.md",
+    "relative_path": "planning/plan/SKILL.md",
+    "name": "plan",
+    "frontmatter": {
+      "name": "plan",
+      "category": "documentation",
+      "title": "Plan Writing and Management",
+      "description": "Use when creating or updating Hermes plan artifacts.",
+      "version": "1.0.0",
+      "author": "Alexander E Iseghohi; Hermes Agent",
+      "license": "MIT",
+      "tags": "[plan, workflow, multi-file, protocol, verification]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 92,
+    "chars": 4434,
+    "sha256": "b642cc3b7c3d680ba0ca5b6c9862739c907ccca480b0813c23c521c2e8f2a8de",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/SKILL.md",
+    "relative_path": "planning/plans-and-specs/SKILL.md",
+    "name": "plans-and-specs",
+    "frontmatter": {
+      "name": "plans-and-specs",
+      "category": "documentation",
+      "title": "Plans And Specs",
+      "description": "Use when drafting plans, specs, or feature decomposition.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[planning, specs, decomposition]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 8716,
+    "sha256": "6ac19fb7680524f3eada09a8afb30452e8ac6cc6d1ae8fa3fea1b9b757acc6d9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/agents-cross-reference-worked-example.md",
+        "lines": 142,
+        "chars": 6329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/agents-cross-reference-worked-example.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/cross-platform-agent-inventory.md",
+        "lines": 43,
+        "chars": 2929,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/cross-platform-agent-inventory.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/cross-platform-asset-sync.md",
+        "lines": 108,
+        "chars": 4634,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/cross-platform-asset-sync.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/dev-imp-pattern.md",
+        "lines": 161,
+        "chars": 7033,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/dev-imp-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/multi-language-script-projects.md",
+        "lines": 25,
+        "chars": 1161,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/multi-language-script-projects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/multi-target-execution-pattern.md",
+        "lines": 31,
+        "chars": 1597,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/multi-target-execution-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/prompt-file-conventions.md",
+        "lines": 110,
+        "chars": 3520,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/prompt-file-conventions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/prompt-file-conversion.md",
+        "lines": 35,
+        "chars": 1883,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/prompt-file-conversion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/repo-management-workflow.md",
+        "lines": 16,
+        "chars": 865,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/repo-management-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/sandbox-bash-worked-example.md",
+        "lines": 344,
+        "chars": 9287,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/sandbox-bash-worked-example.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/skill-library-consolidation.md",
+        "lines": 22,
+        "chars": 1224,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/skill-library-consolidation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/workflow-phase-maintenance.md",
+        "lines": 24,
+        "chars": 1204,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/workflow-phase-maintenance.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/workflow-prompt-phase-maintenance.md",
+        "lines": 82,
+        "chars": 3413,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/plans-and-specs/references/workflow-prompt-phase-maintenance.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/prompt-planning-orchestration/SKILL.md",
+    "relative_path": "planning/prompt-planning-orchestration/SKILL.md",
+    "name": "prompt-planning-orchestration",
+    "frontmatter": {
+      "name": "prompt-planning-orchestration",
+      "category": "documentation",
+      "title": "Prompt Planning Orchestration",
+      "description": "Design, specify, and execute complex prompt workflows with safety-first gates, comprehensive documentation, and profile-optimized phase orchestration. Don't stop until complete.",
+      "version": "1.1.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 6932,
+    "sha256": "e2715166e3e0c34c776ebc50ec84462fb0f1e415330bd00a05ef977724eecd52",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/planning/prompt-planning-orchestration/references/deliverable-shapes.md",
+        "lines": 59,
+        "chars": 2284,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/prompt-planning-orchestration/references/deliverable-shapes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 23
+  }
+]

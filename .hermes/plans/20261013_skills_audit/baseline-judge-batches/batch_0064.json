@@ -1,0 +1,431 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/merge-config/SKILL.md",
+    "relative_path": "development/merge-config/SKILL.md",
+    "name": "merge-config",
+    "frontmatter": {
+      "name": "merge-config",
+      "category": "agentic-coder",
+      "title": "Merge Config",
+      "description": "Merges config files or configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "configuration",
+        "merge",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2546,
+    "sha256": "5f2bcd4593c358040924a76d2b45225daddf6638a34bd38d04f3b48bd6f004db",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-config/references/overview.md",
+        "lines": 29,
+        "chars": 515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-config/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-config/templates/template.md",
+        "lines": 18,
+        "chars": 148,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-config/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/merge-skill/SKILL.md",
+    "relative_path": "development/merge-skill/SKILL.md",
+    "name": "merge-skill",
+    "frontmatter": {
+      "name": "merge-skill",
+      "category": "agentic-coder",
+      "title": "Merge Skill",
+      "description": "Merges skill files or configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "merge",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2529,
+    "sha256": "25a3fc4b6b64c05001c6f2ce81fdfd53e63da6cd0bce13c341de50bd07b4ea0b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-skill/references/overview.md",
+        "lines": 29,
+        "chars": 510,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-skill/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-skill/templates/template.md",
+        "lines": 18,
+        "chars": 147,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/merge-skill/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/microsoft-agent-framework/SKILL.md",
+    "relative_path": "development/microsoft-agent-framework/SKILL.md",
+    "name": "microsoft-agent-framework",
+    "frontmatter": {
+      "name": "microsoft-agent-framework",
+      "category": "agentic-coder",
+      "title": "Microsoft Agent Framework",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create, update, refactor, explain, or review Microsoft Agent Framework solutions using shared guidance plus language-specific references for .NET and Python."
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 4773,
+    "sha256": "75dc347dab384f20d7ac6a626715c810c868a4231b021c2ff4b6b23230f76959",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-agent-framework/references/dotnet.md",
+        "lines": 24,
+        "chars": 912,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-agent-framework/references/dotnet.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-agent-framework/references/python.md",
+        "lines": 24,
+        "chars": 848,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-agent-framework/references/python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/SKILL.md",
+    "relative_path": "development/microsoft-skill-creator/SKILL.md",
+    "name": "microsoft-skill-creator",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, library, framework, or service (Azure, .NET, M365, VS Code, Bicep, etc.). Investigates topics deeply, then generates a hybrid skill storing essential knowledge locally while enabling dynamic deeper investigation.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "microsoft-skill-creator",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "microsoft",
+        "azure",
+        "dotnet",
+        "mcp",
+        "skill-authoring",
+        "learn",
+        "scripts"
+      ],
+      "title": "Microsoft Skill Creator",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 336,
+    "chars": 10863,
+    "sha256": "ac1c0bb6316527a828dfe1270e59b829ecdff338326267259db0b6ef79dd4b24",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/references/skill-templates.md",
+        "lines": 360,
+        "chars": 7313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/references/skill-templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/templates/workflow.md",
+        "lines": 15,
+        "chars": 145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 38
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/microsoft-code-reference/SKILL.md",
+    "relative_path": "development/microsoft-skill-creator/microsoft-code-reference/SKILL.md",
+    "name": "microsoft-code-reference",
+    "frontmatter": {
+      "name": "microsoft-code-reference",
+      "category": "agentic-coder",
+      "title": "Microsoft Code Reference",
+      "description": "Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs—to find the right method, check parameters, get working examples, or troubleshoot errors. Catches hallucinated methods, wrong signatures, and deprecated patterns by querying official docs.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 175,
+    "chars": 6221,
+    "sha256": "d56ee13553441b773479fe3dbb67e7bec2ec1e52c81550d71f2a2610c3f4ea6f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/microsoft-skill-creator/microsoft-docs/SKILL.md",
+    "relative_path": "development/microsoft-skill-creator/microsoft-docs/SKILL.md",
+    "name": "microsoft-docs",
+    "frontmatter": {
+      "name": "microsoft-docs",
+      "category": "documentation",
+      "title": "Microsoft Docs",
+      "description": "Use when working with Microsoft Docs.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[tools]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 241,
+    "chars": 8237,
+    "sha256": "0a5e317800f5c71c2b53c8a1dc377005f31b8b199eb955025f85630684178f92",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/migrating-oracle-to-postgres-stored-procedures/SKILL.md",
+    "relative_path": "development/migrating-oracle-to-postgres-stored-procedures/SKILL.md",
+    "name": "migrating-oracle-to-postgres-stored-procedures",
+    "frontmatter": {
+      "name": "migrating-oracle-to-postgres-stored-procedures",
+      "category": "agentic-coder",
+      "title": "Migrating Oracle To Postgres Stored Procedures",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Migrates Oracle PL/SQL stored procedures to PostgreSQL PL/pgSQL. Translates Oracle-specific syntax, preserves method signatures and type-anchored parameters, leverages orafce where appropriate, and applies explicit collation mapping (`COLLATE \"C\"` only when appropriate, locale collations when required). Use when converting Oracle stored procedures or functions to PostgreSQL equivalents during a database migration."
+    },
+    "has_frontmatter": true,
+    "lines": 70,
+    "chars": 3802,
+    "sha256": "4db2e51466775f0f8c8871a78c60ba779f7dfa498318d96bee8b9c40316c954d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 5
+  }
+]

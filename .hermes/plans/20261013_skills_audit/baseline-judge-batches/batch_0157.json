@@ -1,0 +1,337 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/yuanbao/SKILL.md",
+    "relative_path": "productivity/yuanbao/SKILL.md",
+    "name": "yuanbao",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Yuanbao (元宝) groups: @mention users, query info/members.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "yuanbao",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Yuanbao",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 182,
+    "chars": 5626,
+    "sha256": "401e96c6cc9c88a4e8a26955f23a7ca9cca172e4aa8dd0af6f4f6d868e23323e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/yuanbao/references/overview.md",
+        "lines": 11,
+        "chars": 149,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/yuanbao/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/profiles/SKILL.md",
+    "relative_path": "profiles/SKILL.md",
+    "name": "profiles",
+    "frontmatter": {
+      "name": "profiles",
+      "category": "agentic-coder",
+      "title": "Profiles Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for profiles — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1451,
+    "sha256": "027686eaaabaafa7a967074ef2b8691e862211448ac13b4810e55b040e2ac5d2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/profiles/create-missing-memories/SKILL.md",
+    "relative_path": "profiles/create-missing-memories/SKILL.md",
+    "name": "create-missing-memories",
+    "frontmatter": {
+      "name": "create-missing-memories",
+      "category": "agentic-coder",
+      "title": "Create Missing Profile Memory Files",
+      "description": "Discover profiles missing USER.md/MEMORY.md. Create from root canonical templates. Validate schema and size limits.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[hermes, profiles, memory, create, user, memories]"
+    },
+    "has_frontmatter": true,
+    "lines": 176,
+    "chars": 6331,
+    "sha256": "63d2073ebca0d9c1f78bbc9a3567136a1b90daa7f50a7630d6a290709c146a62",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/profiles/create-missing-souls/SKILL.md",
+    "relative_path": "profiles/create-missing-souls/SKILL.md",
+    "name": "create-missing-souls",
+    "frontmatter": {
+      "name": "create-missing-souls",
+      "category": "agentic-coder",
+      "title": "Create Missing Profile SOUL.md Files",
+      "description": "Discover profiles missing SOUL.md or with stub SOUL.md. Apply minimal template with identity from hermes-personality-soul. Cross-reference personality skill.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[hermes, profiles, soul, create, identity]"
+    },
+    "has_frontmatter": true,
+    "lines": 127,
+    "chars": 5226,
+    "sha256": "842a6ae6fa92b10ebcd18f763c107291f5bf94bcb9d3444e916c83393748bd22",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/profiles/setup-my-iq/SKILL.md",
+    "relative_path": "profiles/setup-my-iq/SKILL.md",
+    "name": "setup-my-iq",
+    "frontmatter": {
+      "name": "setup-my-iq",
+      "category": "agentic-coder",
+      "title": "Setup My Iq",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 805,
+    "chars": 35048,
+    "sha256": "9595ad7f82d4037aaf71bdefe53e2acc89e8efdbf217097473bcec933a03a68e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 31
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/prototype/SKILL.md",
+    "relative_path": "prototype/SKILL.md",
+    "name": "prototype",
+    "frontmatter": {
+      "name": "prototype",
+      "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like."
+    },
+    "has_frontmatter": true,
+    "lines": 26,
+    "chars": 2923,
+    "sha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/audit/SKILL.md",
+    "relative_path": "qa/audit/SKILL.md",
+    "name": "audit",
+    "frontmatter": {
+      "name": "audit",
+      "category": "audit",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion",
+      "description": "Use when project context or AGENTS.md is missing or stale.",
+      "title": "Audit",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[audit, context, agents-md, evidence]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 147,
+    "chars": 14447,
+    "sha256": "7a78d140be9f47fc2b074beb11ef9d1ee00a7499cebd129725bdf6af4a8a8878",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  }
+]

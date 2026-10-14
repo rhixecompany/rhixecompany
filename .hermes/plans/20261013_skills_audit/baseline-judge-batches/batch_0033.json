@@ -1,0 +1,371 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/bigquery-pipeline-audit/SKILL.md",
+    "relative_path": "development/bigquery-pipeline-audit/SKILL.md",
+    "name": "bigquery-pipeline-audit",
+    "frontmatter": {
+      "name": "bigquery-pipeline-audit",
+      "category": "audit",
+      "title": "Bigquery Pipeline Audit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured report with exact patch locations."
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 5985,
+    "sha256": "87b38fddc7745ec6e6b6a5b199fdffb803010bfafd6483a79f5641456f173f5d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/binance-api-reference/SKILL.md",
+    "relative_path": "development/binance-api-reference/SKILL.md",
+    "name": "binance-api-reference",
+    "frontmatter": {
+      "name": "binance-api-reference",
+      "category": "agentic-coder",
+      "title": "Binance Spot API Reference",
+      "description": "Use when needing official Binance Spot API endpoint specifications — REST API, WebSocket streams, authentication, rate limits, error codes, and enums.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[binance, api, reference, trading, cryptocurrency, rest, websocket]"
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 5352,
+    "sha256": "5285842337c747ffc61745ae3cad0531422c9c48b4021aef8478c7935670b9dc",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/binance-api-reference/references/binance-api-patterns.md",
+        "lines": 74,
+        "chars": 1718,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/binance-api-reference/references/binance-api-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/binance-api-reference/templates/binance-integration-checklist.md",
+        "lines": 29,
+        "chars": 883,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/binance-api-reference/templates/binance-integration-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/binance-api-reference/scripts/binance-api-test.py",
+        "lines": 82,
+        "chars": 2631,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/binance-api-reference/scripts/binance-api-test.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/binance-python-api-tutorial/SKILL.md",
+    "relative_path": "development/binance-python-api-tutorial/SKILL.md",
+    "name": "binance-python-api-tutorial",
+    "frontmatter": {
+      "name": "binance-python-api-tutorial",
+      "category": "agentic-coder",
+      "title": "Binance Python API Tutorial",
+      "description": "Use when learning Binance Spot API with python-binance library — covers authentication, REST endpoints, WebSocket streaming, testnet usage, and security best practices.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[binance, python, api, trading, cryptocurrency, tutorial]"
+    },
+    "has_frontmatter": true,
+    "lines": 166,
+    "chars": 5177,
+    "sha256": "4ad5cc96201bb3cd5a39d353f555bbe62612f61d8dfbeab508b73a99fce02a9e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/boost-near-pass-refs/SKILL.md",
+    "relative_path": "development/boost-near-pass-refs/SKILL.md",
+    "name": "boost-near-pass-refs",
+    "frontmatter": {
+      "name": "boost-near-pass-refs",
+      "category": "agentic-coder",
+      "title": "Boost Near Pass Refs",
+      "description": "Boosts quality scores for near-passing skill references",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2608,
+    "sha256": "88761a5a653632eabafa12af9c10c3aea0cbf0d8f949d2a4f73c521db30b55e9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/boost-near-pass-refs/references/overview.md",
+        "lines": 31,
+        "chars": 710,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/boost-near-pass-refs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/boost-prompt/SKILL.md",
+    "relative_path": "development/boost-prompt/SKILL.md",
+    "name": "boost-prompt",
+    "frontmatter": {
+      "name": "boost-prompt",
+      "category": "agentic-coder",
+      "description": "Interactive prompt refinement workflow that interrogates scope, deliverables, and constraints, then produces a final polished prompt. Use when a prompt needs iterative improvement through structured questioning.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "prompt",
+        "refinement",
+        "workflow",
+        "optimization"
+      ],
+      "title": "Boost Prompt",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 2452,
+    "sha256": "b63eac49bad7c4a86af77a0190234bd366eaa34dd2b3cd81a44a02ff6228bfdc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/bootstrap/SKILL.md",
+    "relative_path": "development/bootstrap/SKILL.md",
+    "name": "bootstrap",
+    "frontmatter": {
+      "name": "bootstrap",
+      "category": "agentic-coder",
+      "title": "Bootstrap",
+      "description": "Script for Bootstrap operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2475,
+    "sha256": "5c0378f8075eb3586c808baea180b9f675c9cf2326e9e1605dd65f9f98386877",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/breakdown-feature-implementation/SKILL.md",
+    "relative_path": "development/breakdown-feature-implementation/SKILL.md",
+    "name": "breakdown-feature-implementation",
+    "frontmatter": {
+      "name": "breakdown-feature-implementation",
+      "category": "agentic-coder",
+      "title": "Breakdown Feature Implementation",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prompt for creating detailed feature implementation plans, following Epoch monorepo structure."
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 5683,
+    "sha256": "300ec3764ac52857be966964367b950adf5f2641a2c01208236caa297bb76f73",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  }
+]

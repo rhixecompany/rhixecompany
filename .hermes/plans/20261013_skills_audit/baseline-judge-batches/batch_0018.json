@@ -1,0 +1,347 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/generate-image/SKILL.md",
+    "relative_path": "creative/generate-image/SKILL.md",
+    "name": "generate-image",
+    "frontmatter": {
+      "name": "generate-image",
+      "category": "agentic-coder",
+      "title": "Generate Image",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": ">-",
+      "argument-hint": "[description of the image to generate]",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 120,
+    "chars": 4390,
+    "sha256": "25b91d3dad0ea95a0e17fca3954b0c6eb0da4d7aeab6c35894c3da5237617ba0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gh-attach/SKILL.md",
+    "relative_path": "creative/gh-attach/SKILL.md",
+    "name": "gh-attach",
+    "frontmatter": {
+      "name": "gh-attach",
+      "category": "agentic-coder",
+      "title": "Gh Attach",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Uploads a local file (screenshot, image, PDF, zip, video) to GitHub user-attachments, downloads GitHub user-attachments, and embeds local files in a PR, issue, or comment. Use when asked to \"attach a screenshot to the PR\", \"add an image to the issue\", \"embed before/after screenshots\", \"attach this file\", or \"download this GitHub attachment\". Powered by `gh-attach`."
+    },
+    "has_frontmatter": true,
+    "lines": 81,
+    "chars": 3077,
+    "sha256": "0ec45a9f74cc642be6d62473ed8362e372f163bbc620745800cc7930096d90ec",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gsap-framer-scroll-animation/SKILL.md",
+    "relative_path": "creative/gsap-framer-scroll-animation/SKILL.md",
+    "name": "gsap-framer-scroll-animation",
+    "frontmatter": {
+      "name": "gsap-framer-scroll-animation",
+      "category": "agentic-coder",
+      "title": "Gsap Framer Scroll Animation",
+      "version": "1.0.0",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 171,
+    "chars": 6967,
+    "sha256": "0a5418b022d6d49be6e0d83f195ac4b1059bfa3ac6dc8eb7b3aef7c4391dc6f6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gsap-framer-scroll-animation/references/framer.md",
+        "lines": 675,
+        "chars": 19330,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gsap-framer-scroll-animation/references/framer.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gsap-framer-scroll-animation/references/gsap.md",
+        "lines": 684,
+        "chars": 16926,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gsap-framer-scroll-animation/references/gsap.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gtm-developer-ecosystem/SKILL.md",
+    "relative_path": "creative/gtm-developer-ecosystem/SKILL.md",
+    "name": "gtm-developer-ecosystem",
+    "frontmatter": {
+      "name": "gtm-developer-ecosystem",
+      "category": "dev-tools",
+      "title": "Gtm Developer Ecosystem",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Build and scale developer-led adoption through ecosystem programs. Use when deciding open vs curated ecosystems, building developer programs, scaling platform adoption, or designing student program pipelines.",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 330,
+    "chars": 9815,
+    "sha256": "b94a3ae9e88d4246d460a5c4877f3803a8a3138971312a5a8263ac6feeda01bc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gtm-operating-cadence/SKILL.md",
+    "relative_path": "creative/gtm-operating-cadence/SKILL.md",
+    "name": "gtm-operating-cadence",
+    "frontmatter": {
+      "name": "gtm-operating-cadence",
+      "category": "agentic-coder",
+      "title": "Gtm Operating Cadence",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Design meeting rhythms, metric reporting, quarterly planning, and decision-making velocity for scaling companies. Use when decisions are slow, planning is broken, the company is growing but alignment is worse, or leadership meetings consume all time without producing decisions.",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 440,
+    "chars": 16587,
+    "sha256": "7390af7547d1206f566587d8bb73cec624df14d744067e5bb3a68d883e159c6b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: platform fallback is unclear",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gtm-positioning-strategy/SKILL.md",
+    "relative_path": "creative/gtm-positioning-strategy/SKILL.md",
+    "name": "gtm-positioning-strategy",
+    "frontmatter": {
+      "name": "gtm-positioning-strategy",
+      "category": "agentic-coder",
+      "title": "Gtm Positioning Strategy",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Find and own a defensible market position. Use when messaging sounds like competitors, conversion is weak despite awareness, repositioning a product, or testing positioning claims. Includes Crawl-Walk-Run rollout methodology and the word change that improved enterprise deal progression.",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 458,
+    "chars": 14760,
+    "sha256": "5128837023d95ffddf8f95b01aa47c02eb9e8f560eab7a5fc7257d3871e2175d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gtm-technical-product-pricing/SKILL.md",
+    "relative_path": "creative/gtm-technical-product-pricing/SKILL.md",
+    "name": "gtm-technical-product-pricing",
+    "frontmatter": {
+      "name": "gtm-technical-product-pricing",
+      "category": "agentic-coder",
+      "title": "Gtm Technical Product Pricing",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Pricing strategy for technical products. Use when choosing usage-based vs seat-based, designing freemium thresholds, structuring enterprise pricing conversations, deciding when to raise prices, or using price as a positioning signal.",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 390,
+    "chars": 13851,
+    "sha256": "92a40c045af244c9683ed0ebde1eb6d9e0832f5922642915ef2017694bcc0275",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  }
+]

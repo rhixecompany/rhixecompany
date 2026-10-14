@@ -1,0 +1,359 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/gitmoji/SKILL.md",
+    "relative_path": "development/gitmoji/SKILL.md",
+    "name": "gitmoji",
+    "frontmatter": {
+      "name": "gitmoji",
+      "category": "agentic-coder",
+      "title": "Gitmoji",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Generates commit messages following the gitmoji convention (https://gitmoji.dev) — picks the right emoji for the intent of the change and writes a well-formed message. Use when asked to \"write a gitmoji commit\", \"add an emoji to my commit message\", \"which gitmoji should I use\", \"gitmoji this change\", or when a project uses gitmoji-style commit messages. Works from a git diff, staged changes, or a plain description of the change. Generates the message only — does not run git commands.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 7635,
+    "sha256": "e81ca2b4550749f33abb18aeec372bc0b4b3b34744d2d5b3b558092fea8c680f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/gitmoji/references/gitmoji-reference.md",
+        "lines": 83,
+        "chars": 4437,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/gitmoji/references/gitmoji-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/go-mcp-server-generator/SKILL.md",
+    "relative_path": "development/go-mcp-server-generator/SKILL.md",
+    "name": "go-mcp-server-generator",
+    "frontmatter": {
+      "name": "go-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Go Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk."
+    },
+    "has_frontmatter": true,
+    "lines": 373,
+    "chars": 8025,
+    "sha256": "06757918a67e7f8e180088b37c2f05477240ba81ef896d04b45f1178a63ee3f1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gtm-ai-gtm/SKILL.md",
+    "relative_path": "development/gtm-ai-gtm/SKILL.md",
+    "name": "gtm-ai-gtm",
+    "frontmatter": {
+      "name": "gtm-ai-gtm",
+      "category": "agentic-coder",
+      "title": "Gtm Ai Gtm",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Go-to-market strategy for AI products. Use when positioning AI products, handling \"who is responsible when it breaks\" objections, pricing variable-cost AI, choosing between copilot/agent/teammate framing, or selling autonomous tools into enterprises.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 589,
+    "chars": 21774,
+    "sha256": "c48c5bd9fe5fceaa11391ec0e21875b47e5d19ebc1ff0453cdc6ff7f5f38e3cc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gtm-product-led-growth/SKILL.md",
+    "relative_path": "development/gtm-product-led-growth/SKILL.md",
+    "name": "gtm-product-led-growth",
+    "frontmatter": {
+      "name": "gtm-product-led-growth",
+      "category": "agentic-coder",
+      "title": "Gtm Product Led Growth",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Build self-serve acquisition and expansion motions. Use when deciding PLG vs sales-led, optimizing activation, driving freemium conversion, building growth equations, or recognizing when product complexity demands human touch. Includes the parallel test where sales-led won 10x on revenue.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 359,
+    "chars": 13105,
+    "sha256": "d30c4328cc431604b78ceb19bc4b588c0fcc3dddfaa109a4e4df1b9c1700fd69",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/harness-engineering/SKILL.md",
+    "relative_path": "development/harness-engineering/SKILL.md",
+    "name": "harness-engineering",
+    "frontmatter": {
+      "name": "harness-engineering",
+      "category": "agentic-coder",
+      "title": "Harness Engineering",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated AI coding-agent mistakes by turning failures into durable instructions, drift checks, regression tests, failure memory, and adoption reports tailored to the target repository."
+    },
+    "has_frontmatter": true,
+    "lines": 266,
+    "chars": 8866,
+    "sha256": "403d1dab0bf2b6e450f40f9bec510d8a1ec0f021fed24a52202e6a98c5516a4e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/health-check/SKILL.md",
+    "relative_path": "development/health-check/SKILL.md",
+    "name": "health-check",
+    "frontmatter": {
+      "name": "health-check",
+      "category": "agentic-coder",
+      "title": "Health Check",
+      "description": "Script for Health Check operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 2696,
+    "sha256": "6e165b3a34617e72e79e04852f15b541650fb6c6e342d52dc9fa6d58dabd80d9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hello/SKILL.md",
+    "relative_path": "development/hello/SKILL.md",
+    "name": "hello",
+    "frontmatter": {
+      "name": "hello",
+      "category": "agentic-coder",
+      "title": "Hello",
+      "description": "Simple example script for testing purposes",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "example",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2472,
+    "sha256": "627814bae2bf2c2ca26f09dc100de29af0ed2a7db7229356854318f2463b9560",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello/references/overview.md",
+        "lines": 58,
+        "chars": 1937,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello/templates/template.md",
+        "lines": 18,
+        "chars": 141,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,644 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/executing-prompt-workflows/SKILL.md",
+    "relative_path": "software-development/executing-prompt-workflows/SKILL.md",
+    "name": "executing-prompt-workflows",
+    "frontmatter": {
+      "name": "executing-prompt-workflows",
+      "category": "agentic-coder",
+      "license": "MIT",
+      "description": "Executing Prompt Workflows",
+      "title": "Executing Prompt Workflows",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[prompts, workflow, agents, sync, dedup, artifact, hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 6821,
+    "sha256": "f2a900bc4eea1ba7ca0a1ba84ca655f73ceb3564f65ceaf7e66c9cb3c93247d1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/SKILL.md",
+    "relative_path": "software-development/fluentui-blazor/SKILL.md",
+    "name": "fluentui-blazor",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Build Fluent UI Blazor applications: components, theming, layout patterns.",
+      "license": "MIT",
+      "name": "fluentui-blazor",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Fluentui Blazor",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 288,
+    "chars": 8794,
+    "sha256": "1ea46da17c4b81bbe33580df71685ec8ff5252b4c976901bd7c9b619351436da",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/DATAGRID.md",
+        "lines": 162,
+        "chars": 4698,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/DATAGRID.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md",
+        "lines": 174,
+        "chars": 5068,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/LAYOUT-AND-NAVIGATION.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/SETUP.md",
+        "lines": 130,
+        "chars": 5096,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/SETUP.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/THEMING.md",
+        "lines": 103,
+        "chars": 3440,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/fluentui-blazor/references/THEMING.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/generator-first-doc-workflow/SKILL.md",
+    "relative_path": "software-development/generator-first-doc-workflow/SKILL.md",
+    "name": "generator-first-doc-workflow",
+    "frontmatter": {
+      "name": "generator-first-doc-workflow",
+      "category": "documentation",
+      "title": "Generator First Doc Workflow",
+      "description": "Use when a project's own generator/CLI should be used to produce Markdown/PDF artifacts from structured JSON. Keeps user data in project-local inputs and avoids hand-written output files when a generator exists.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[generator, docs, resume, cli, workflow]"
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 3705,
+    "sha256": "7657495672b0ca6cd1ab78f050f28de01ff359ec01e5203eb4cd65f50722cc5a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/generator-first-doc-workflow/references/resume-maker-workflow.md",
+        "lines": 54,
+        "chars": 2106,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/generator-first-doc-workflow/references/resume-maker-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/github/SKILL.md",
+    "relative_path": "software-development/github/SKILL.md",
+    "name": "github",
+    "frontmatter": {
+      "name": "github",
+      "category": "dev-tools",
+      "title": "Github",
+      "description": "GitHub via gh CLI: PRs, issues, reviews, repos, auth.",
+      "version": "2.0.0",
+      "author": "Ben Barclay (benbarclay), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 317,
+    "chars": 9908,
+    "sha256": "2bed900cc0740b9127831cb571fa639e9d79f0b9443761e7f6dd3bead6aaccb2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/auth.md",
+        "lines": 303,
+        "chars": 11536,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/auth.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/ci-troubleshooting.md",
+        "lines": 183,
+        "chars": 4791,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/ci-troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/code-review.md",
+        "lines": 468,
+        "chars": 13211,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/code-review.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/conventional-commits.md",
+        "lines": 71,
+        "chars": 2395,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/conventional-commits.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/github-api-cheatsheet.md",
+        "lines": 161,
+        "chars": 6092,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/github-api-cheatsheet.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/issue-to-pr.md",
+        "lines": 64,
+        "chars": 5622,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/issue-to-pr.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/issues.md",
+        "lines": 357,
+        "chars": 8977,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/issues.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/pr-workflow.md",
+        "lines": 354,
+        "chars": 9684,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/pr-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/repo-management.md",
+        "lines": 503,
+        "chars": 13368,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/repo-management.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/review-output-template.md",
+        "lines": 74,
+        "chars": 2393,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/references/review-output-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/bug-report.md",
+        "lines": 35,
+        "chars": 469,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/bug-report.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/feature-request.md",
+        "lines": 31,
+        "chars": 596,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/feature-request.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/pr-body-bugfix.md",
+        "lines": 35,
+        "chars": 511,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/pr-body-bugfix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/pr-body-feature.md",
+        "lines": 33,
+        "chars": 580,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/templates/pr-body-feature.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/scripts/gh-env.sh",
+        "lines": 66,
+        "chars": 2552,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/scripts/gh-env.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/scripts/git-credential-token.py",
+        "lines": 65,
+        "chars": 1788,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/github/scripts/git-credential-token.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/SKILL.md",
+    "relative_path": "software-development/hermes-agent-skill-authoring/SKILL.md",
+    "name": "hermes-agent-skill-authoring",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Author in-repo SKILL.md: frontmatter, validator, structure.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "hermes-agent-skill-authoring",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Hermes Agent Skill Authoring",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 8080,
+    "sha256": "699ab75b22641e710635d2b1363cb54dbbb74551f79cd22bfda285d474716ef6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/references/bulk-frontmatter-generation.md",
+        "lines": 223,
+        "chars": 8126,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/references/bulk-frontmatter-generation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/references/skills-audit-and-fix.md",
+        "lines": 67,
+        "chars": 3398,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/references/skills-audit-and-fix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/references/skills-migration-playbook.md",
+        "lines": 49,
+        "chars": 2667,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/hermes-agent-skill-authoring/references/skills-migration-playbook.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/httpie/SKILL.md",
+    "relative_path": "software-development/httpie/SKILL.md",
+    "name": "httpie",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when testing REST APIs, debugging HTTP services, making authenticated",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "httpie",
+      "category": "agentic-coder",
+      "tags": [
+        "http",
+        "api",
+        "debugging",
+        "rest",
+        "httpie"
+      ],
+      "title": "HTTPie",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 203,
+    "chars": 5515,
+    "sha256": "88486f5063f207dafd2b59e99ea04b5826e55c3f8f858b65ea68a6d10e415728",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/httpie/references/overview.md",
+        "lines": 19,
+        "chars": 335,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/httpie/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/identity-context-protocol/SKILL.md",
+    "relative_path": "software-development/identity-context-protocol/SKILL.md",
+    "name": "identity-context-protocol",
+    "frontmatter": {
+      "name": "identity-context-protocol",
+      "category": "software-development",
+      "title": "Identity Context Protocol",
+      "description": "Use when maintaining canonical Hermes identity files.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[identity, profiles, memory, dry, safety]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 5311,
+    "sha256": "09e3d2f20d627696f649041c7973c8169fb1533d085b22f8f2bbeef695dc89ac",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  }
+]

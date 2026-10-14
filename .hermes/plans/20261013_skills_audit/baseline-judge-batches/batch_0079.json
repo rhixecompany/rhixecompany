@@ -1,0 +1,574 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/repair-yaml-v2/SKILL.md",
+    "relative_path": "development/repair-yaml-v2/SKILL.md",
+    "name": "repair-yaml-v2",
+    "frontmatter": {
+      "name": "repair-yaml-v2",
+      "category": "agentic-coder",
+      "title": "Repair Yaml V2",
+      "description": "Script for Repair Yaml V2 operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2567,
+    "sha256": "371bc8609c6d91bff070a8420a0acc4fc4fa017f407c138edced11dde793c739",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repo-plan-spec/SKILL.md",
+    "relative_path": "development/repo-plan-spec/SKILL.md",
+    "name": "repo-plan-spec",
+    "frontmatter": {
+      "name": "repo-plan-spec",
+      "category": "documentation",
+      "title": "Repo Plan Spec",
+      "description": "Script for Repo Plan Spec operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2535,
+    "sha256": "19449f77cbba4399ac726af1bbaa9e5d733c06d872ffd9949bb7b815bda593bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repo-planning-quick-commands/SKILL.md",
+    "relative_path": "development/repo-planning-quick-commands/SKILL.md",
+    "name": "repo-planning-quick-commands",
+    "frontmatter": {
+      "name": "repo-planning-quick-commands",
+      "category": "documentation",
+      "title": "Repo Planning Quick Commands",
+      "description": "Script for Repo Planning Quick Commands operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2665,
+    "sha256": "5188c99abb838e862d8087d9a0edf1d960184a880f63167ac020d0de06bc4837",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repo-standardizer/SKILL.md",
+    "relative_path": "development/repo-standardizer/SKILL.md",
+    "name": "repo-standardizer",
+    "frontmatter": {
+      "name": "repo-standardizer",
+      "category": "agentic-coder",
+      "title": "Repo Standardizer",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Polish any GitHub repository's surface — labels (emoji rating tiers, P0–P3 priority, impact severity), issue forms, PR template, CI workflows, CODEOWNERS, rulesets, docs. Repo meta & config only — no code logic touched. Use when creating a new repo or polishing an existing one."
+    },
+    "has_frontmatter": true,
+    "lines": 504,
+    "chars": 25958,
+    "sha256": "c8cfe47d1d0f5119fd1b591d0516e791ce5d5015699b7a60f93be857f8376ec9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/AGENTS.md",
+        "lines": 32,
+        "chars": 1422,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/AGENTS.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CHANGELOG.md",
+        "lines": 12,
+        "chars": 256,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CHANGELOG.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CLAUDE.md",
+        "lines": 31,
+        "chars": 1317,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CLAUDE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CODEOWNERS",
+        "lines": 3,
+        "chars": 96,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CODEOWNERS:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CODE_OF_CONDUCT.md",
+        "lines": 12,
+        "chars": 428,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CODE_OF_CONDUCT.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CONTRIBUTING.md",
+        "lines": 55,
+        "chars": 1484,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/CONTRIBUTING.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/LABELS.md",
+        "lines": 47,
+        "chars": 1586,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/LABELS.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/PR_TEMPLATE.md",
+        "lines": 22,
+        "chars": 449,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/PR_TEMPLATE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/README.md",
+        "lines": 62,
+        "chars": 1189,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/README.zh.md",
+        "lines": 62,
+        "chars": 962,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/README.zh.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/SECURITY.md",
+        "lines": 28,
+        "chars": 722,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/SECURITY.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/VISION.md",
+        "lines": 32,
+        "chars": 451,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/VISION.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-go.yml",
+        "lines": 21,
+        "chars": 398,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-go.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-node.yml",
+        "lines": 28,
+        "chars": 746,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-node.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-python.yml",
+        "lines": 21,
+        "chars": 414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-python.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-rust.yml",
+        "lines": 16,
+        "chars": 297,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/ci-rust.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/config.yml",
+        "lines": 8,
+        "chars": 291,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/config.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/issue-form-bug.yml",
+        "lines": 53,
+        "chars": 1438,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/issue-form-bug.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/issue-form-feature.yml",
+        "lines": 43,
+        "chars": 1153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/issue-form-feature.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/issue-form-question.yml",
+        "lines": 23,
+        "chars": 570,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/issue-form-question.yml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/labels.json",
+        "lines": 22,
+        "chars": 1863,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repo-standardizer/templates/labels.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repo-story-time/SKILL.md",
+    "relative_path": "development/repo-story-time/SKILL.md",
+    "name": "repo-story-time",
+    "frontmatter": {
+      "name": "repo-story-time",
+      "category": "agentic-coder",
+      "title": "Repo Story Time",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a comprehensive repository summary and narrative story from commit history"
+    },
+    "has_frontmatter": true,
+    "lines": 189,
+    "chars": 7490,
+    "sha256": "4ffed8f5b5b63dd95dfdd7573033e55cb5040313f25b47f451a2b4d7c48fa0ea",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 7,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repository-operations/SKILL.md",
+    "relative_path": "development/repository-operations/SKILL.md",
+    "name": "repository-operations",
+    "frontmatter": {
+      "name": "repository-operations",
+      "category": "agentic-coder",
+      "title": "Repository Operations",
+      "description": "Use when maintaining repositories and CI.",
+      "version": "1.0.0",
+      "author": "Hermes Curator",
+      "license": "MIT",
+      "tags": "[git, github, ci, repositories, monorepo, migration]"
+    },
+    "has_frontmatter": true,
+    "lines": 60,
+    "chars": 2599,
+    "sha256": "00797b7c54c1cfe9cc2a7093d493d527501da23a5b860e59823e4600e19bf8a3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/reset-runtime/SKILL.md",
+    "relative_path": "development/reset-runtime/SKILL.md",
+    "name": "reset-runtime",
+    "frontmatter": {
+      "name": "reset-runtime",
+      "category": "agentic-coder",
+      "title": "Reset Runtime",
+      "description": "Script for Reset Runtime operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 2698,
+    "sha256": "4f1adb065d3b10b1d1bff9a00cc80cd90299f34ff9006bdc5a10e1fd76467fba",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

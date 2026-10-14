@@ -1,0 +1,319 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/tdd/SKILL.md",
+    "relative_path": "tdd/SKILL.md",
+    "name": "tdd",
+    "frontmatter": {
+      "name": "tdd",
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "title": "Tdd",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 73,
+    "chars": 4516,
+    "sha256": "feb5ebab3264b7ce89568e682defcc988a7599f574bc384350bf2c5f0eae0bf7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/teach/SKILL.md",
+    "relative_path": "teach/SKILL.md",
+    "name": "teach",
+    "frontmatter": {
+      "name": "teach",
+      "description": "Teach the user a new skill or concept, within this workspace.",
+      "disable-model-invocation": "true",
+      "argument-hint": "What would you like to learn about?",
+      "title": "Teach",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 175,
+    "chars": 10632,
+    "sha256": "d9919045b7a09168b3d5fdfdeb8001e4fdfd49a093511cf7cc3a77ffa3990a62",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/testing/unit-test-vue-pinia/SKILL.md",
+    "relative_path": "testing/unit-test-vue-pinia/SKILL.md",
+    "name": "unit-test-vue-pinia",
+    "frontmatter": {
+      "name": "unit-test-vue-pinia",
+      "title": "Unit Test Vue Pinia",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "category": "agentic-coder",
+      "description": "Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases. Use when creating or updating tests for components, composables, and stores; mocking Pinia with createTestingPinia; applying Vue Test Utils patterns; and enforcing black-box assertions over implementation details."
+    },
+    "has_frontmatter": true,
+    "lines": 219,
+    "chars": 7689,
+    "sha256": "c6b5efb01cb75188cbacc868dac6c8aafea49e37ee8ef67ff797a32659a0a509",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/testing/unit-test-vue-pinia/references/pinia-patterns.md",
+        "lines": 95,
+        "chars": 1817,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/testing/unit-test-vue-pinia/references/pinia-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/to-questionnaire/SKILL.md",
+    "relative_path": "to-questionnaire/SKILL.md",
+    "name": "to-questionnaire",
+    "frontmatter": {
+      "name": "to-questionnaire",
+      "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+      "disable-model-invocation": "true",
+      "title": "To Questionnaire",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 89,
+    "chars": 3823,
+    "sha256": "b7e849ad35e2ba7a3cf0e02d365f15ddbb51a18ca83bf5b31efc1c2c71f3a99a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/to-spec/SKILL.md",
+    "relative_path": "to-spec/SKILL.md",
+    "name": "to-spec",
+    "frontmatter": {
+      "name": "to-spec",
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+      "disable-model-invocation": "true",
+      "title": "To Spec",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 3946,
+    "sha256": "417c94cc33a750e97f37475073855e8a7c25f586f0fe6b13c1e3d7653c446225",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/to-tickets/SKILL.md",
+    "relative_path": "to-tickets/SKILL.md",
+    "name": "to-tickets",
+    "frontmatter": {
+      "name": "to-tickets",
+      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+      "disable-model-invocation": "true",
+      "title": "To Tickets",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 140,
+    "chars": 6713,
+    "sha256": "89c22d0b6c33ede3f21aa71d2dc64d81b32e2bdea3cbeed9416940229826280f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/triage/SKILL.md",
+    "relative_path": "triage/SKILL.md",
+    "name": "triage",
+    "frontmatter": {
+      "name": "triage",
+      "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+      "disable-model-invocation": "true",
+      "title": "Triage",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 147,
+    "chars": 7459,
+    "sha256": "8986592ffa4df66343677c609f03ee60d77446a33621a41202d1f5f79f7180db",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  }
+]

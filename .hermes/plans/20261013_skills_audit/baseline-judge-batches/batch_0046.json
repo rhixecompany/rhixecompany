@@ -1,0 +1,367 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/env-sync/SKILL.md",
+    "relative_path": "development/env-sync/SKILL.md",
+    "name": "env-sync",
+    "frontmatter": {
+      "name": "env-sync",
+      "category": "agentic-coder",
+      "title": "Env Sync",
+      "description": "Script for Env Sync operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2475,
+    "sha256": "d6010156e3444c552e568c14ef2955b3ae190c30b27647f7c0706acb8cf10f61",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/eslint-count/SKILL.md",
+    "relative_path": "development/eslint-count/SKILL.md",
+    "name": "eslint-count",
+    "frontmatter": {
+      "name": "eslint-count",
+      "category": "agentic-coder",
+      "title": "Eslint Count",
+      "description": "Script for Eslint Count operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2515,
+    "sha256": "4540a5e820e73e4c3d02f497dcbef833213cdd58a26b4c0f277949934a4c6e39",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/execute-all-prompts/SKILL.md",
+    "relative_path": "development/execute-all-prompts/SKILL.md",
+    "name": "execute-all-prompts",
+    "frontmatter": {
+      "name": "execute-all-prompts",
+      "category": "agentic-coder",
+      "title": "Execute All Prompts",
+      "description": "Script for Execute All Prompts operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2597,
+    "sha256": "609a28cca7e1abf7d3cc38f7024b4c9ae049257320140d3e70a5094c8ae54039",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/execute-workflow/SKILL.md",
+    "relative_path": "development/execute-workflow/SKILL.md",
+    "name": "execute-workflow",
+    "frontmatter": {
+      "name": "execute-workflow",
+      "category": "agentic-coder",
+      "title": "Execute Workflow",
+      "description": "Script for Execute Workflow operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2555,
+    "sha256": "4a757eb6083db379bc66100609dac80a15e4d88f74f52730a3ce1ded65cd6f6d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/face-detection-uv4l-pi/SKILL.md",
+    "relative_path": "development/face-detection-uv4l-pi/SKILL.md",
+    "name": "face-detection-uv4l-pi",
+    "frontmatter": {
+      "name": "face-detection-uv4l-pi",
+      "category": "agentic-coder",
+      "title": "Face Detection on Raspberry Pi with UV4L",
+      "description": "Use when building real-time face detection web apps on Raspberry Pi using UV4L Streaming Server with WebRTC and OpenCV.js — covers installation, configuration, and custom web app development.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[raspberry-pi, uv4l, webrtc, face-detection, opencv-js, computer-vision, iot]"
+    },
+    "has_frontmatter": true,
+    "lines": 194,
+    "chars": 6354,
+    "sha256": "05f2eb6d829cb7993ec022f3b9d4e6d355e369e191a7986cfbcff4436eda5431",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/face-detection-uv4l-pi/references/uv4l-face-detection.md",
+        "lines": 54,
+        "chars": 1460,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/face-detection-uv4l-pi/references/uv4l-face-detection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 8,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fence-check/SKILL.md",
+    "relative_path": "development/fence-check/SKILL.md",
+    "name": "fence-check",
+    "frontmatter": {
+      "name": "fence-check",
+      "category": "agentic-coder",
+      "title": "Fence Check",
+      "description": "Script for Fence Check operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2505,
+    "sha256": "c444f75dd48b445af16d31a611c6b0535ef44f06d179f7bd82e20d269fc525ac",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/find-lock/SKILL.md",
+    "relative_path": "development/find-lock/SKILL.md",
+    "name": "find-lock",
+    "frontmatter": {
+      "name": "find-lock",
+      "category": "agentic-coder",
+      "title": "Find Lock",
+      "description": "Finds lock in the system",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "powershell",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2515,
+    "sha256": "4b3368f42fb027c93ad48643d62cb46aa21b5765394e833a40f0d918a4cf5fa8",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-lock/references/overview.md",
+        "lines": 38,
+        "chars": 936,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-lock/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-lock/templates/template.md",
+        "lines": 13,
+        "chars": 130,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-lock/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

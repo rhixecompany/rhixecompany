@@ -1,0 +1,376 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/copilot-usage-metrics/SKILL.md",
+    "relative_path": "agent-development/copilot-usage-metrics/SKILL.md",
+    "name": "copilot-usage-metrics",
+    "frontmatter": {
+      "name": "copilot-usage-metrics",
+      "category": "agentic-coder",
+      "title": "Copilot Usage Metrics",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API."
+    },
+    "has_frontmatter": true,
+    "lines": 91,
+    "chars": 3419,
+    "sha256": "1b45fcc17dc8cb46a208f5766d12f6043af3a1ad8abf061d0ca3114459b967f4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/create-github-issue-feature-from-specification/SKILL.md",
+    "relative_path": "agent-development/create-github-issue-feature-from-specification/SKILL.md",
+    "name": "create-github-issue-feature-from-specification",
+    "frontmatter": {
+      "name": "create-github-issue-feature-from-specification",
+      "category": "documentation",
+      "title": "Create Github Issue Feature From Specification",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create GitHub Issue for feature request from specification file using feature_request.yml template."
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 1948,
+    "sha256": "4f039810b905a9f286b6d28ca32394c8598ba7678c5e5a5d7aeb9af9f059238a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/create-github-issues-feature-from-implementation-plan/SKILL.md",
+    "relative_path": "agent-development/create-github-issues-feature-from-implementation-plan/SKILL.md",
+    "name": "create-github-issues-feature-from-implementation-plan",
+    "frontmatter": {
+      "name": "create-github-issues-feature-from-implementation-plan",
+      "category": "documentation",
+      "title": "Create Github Issues Feature From Implementation Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates."
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 1995,
+    "sha256": "7185289a90e132e2bad3c2bcd2bd82c8be6177a4b17ca131d44540beb20db91e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/create-github-issues-for-unmet-specification-requirements/SKILL.md",
+    "relative_path": "agent-development/create-github-issues-for-unmet-specification-requirements/SKILL.md",
+    "name": "create-github-issues-for-unmet-specification-requirements",
+    "frontmatter": {
+      "name": "create-github-issues-for-unmet-specification-requirements",
+      "category": "documentation",
+      "title": "Create Github Issues For Unmet Specification Requirements",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template."
+    },
+    "has_frontmatter": true,
+    "lines": 74,
+    "chars": 2333,
+    "sha256": "d82702b3f18040bc89cbfae04a77c860e3602efc381b1777517a537e9e43fb10",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/daily-prep/SKILL.md",
+    "relative_path": "agent-development/daily-prep/SKILL.md",
+    "name": "daily-prep",
+    "frontmatter": {
+      "name": "daily-prep",
+      "category": "agentic-coder",
+      "title": "Daily Prep",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prepare for tomorrow''s meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations."
+    },
+    "has_frontmatter": true,
+    "lines": 177,
+    "chars": 9092,
+    "sha256": "8f851b1cdd8d13f0336e92e5f088cb407e1d9377f697b81b6d5e52853122c783",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/SKILL.md",
+    "relative_path": "agent-development/datanalysis-credit-risk/SKILL.md",
+    "name": "datanalysis-credit-risk",
+    "frontmatter": {
+      "name": "datanalysis-credit-risk",
+      "category": "agentic-coder",
+      "title": "Datanalysis Credit Risk",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing value analysis, or variable selection before modeling. it covers data loading and formatting, abnormal period filtering, missing rate calculation, high-missing variable removal,low-IV variable filtering, high-PSI variable removal, Null Importance denoising, high-correlation variable removal, and cleaning report generation. Applicable scenarios arecredit risk data cleaning, variable screening, pre-loan modeling preprocessing."
+    },
+    "has_frontmatter": true,
+    "lines": 152,
+    "chars": 7171,
+    "sha256": "2a1c4c6ed661021db157392f8eef21a11d87f87c69d3783511a08457d56d49eb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/references/analysis.py",
+        "lines": 1223,
+        "chars": 51971,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/references/analysis.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/references/func.py",
+        "lines": 228,
+        "chars": 8477,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/references/func.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/scripts/example.py",
+        "lines": 391,
+        "chars": 17403,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/datanalysis-credit-risk/scripts/example.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/drawio/SKILL.md",
+    "relative_path": "agent-development/drawio/SKILL.md",
+    "name": "drawio",
+    "frontmatter": {
+      "name": "drawio",
+      "category": "agentic-coder",
+      "title": "Drawio",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate draw.io diagrams as .drawio files and export to PNG/SVG/PDF with embedded XML"
+    },
+    "has_frontmatter": true,
+    "lines": 135,
+    "chars": 4176,
+    "sha256": "fd019ea57c36cf7211a1fd8f5e0f68398486f440db97bd73f05d0c91352dce71",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio/scripts/drawio-to-png.mjs",
+        "lines": 361,
+        "chars": 12024,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio/scripts/drawio-to-png.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio/scripts/package.json",
+        "lines": 8,
+        "chars": 170,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio/scripts/package.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  }
+]

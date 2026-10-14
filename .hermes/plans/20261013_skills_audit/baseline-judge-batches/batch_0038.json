@@ -1,0 +1,400 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/configure-hermes/SKILL.md",
+    "relative_path": "development/configure-hermes/SKILL.md",
+    "name": "configure-hermes",
+    "frontmatter": {
+      "name": "configure-hermes",
+      "category": "agentic-coder",
+      "title": "Configure Hermes",
+      "description": "Configures Hermes settings and provider integrations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "configuration",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2587,
+    "sha256": "cee23e2d0e48290b81ad193e798b4b24c314d7f1b6841be80248bb535cdd75f3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/configure-hermes/references/overview.md",
+        "lines": 31,
+        "chars": 682,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/configure-hermes/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/consolidate-skills/SKILL.md",
+    "relative_path": "development/consolidate-skills/SKILL.md",
+    "name": "consolidate-skills",
+    "frontmatter": {
+      "name": "consolidate-skills",
+      "category": "agentic-coder",
+      "title": "Consolidate Skills",
+      "description": "Consolidates duplicate or overlapping skills",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "organization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2607,
+    "sha256": "e598ca7e4cf6bf1312faf045fb99a1ff56218b8560998f53d6d5fa10f6faded1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/consolidate-skills/references/flat-duplicate-removal.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/consolidate-skills/references/flat-duplicate-removal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/consolidate-skills/references/overview.md",
+        "lines": 31,
+        "chars": 696,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/consolidate-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/containerize-aspnet-framework/SKILL.md",
+    "relative_path": "development/containerize-aspnet-framework/SKILL.md",
+    "name": "containerize-aspnet-framework",
+    "frontmatter": {
+      "name": "containerize-aspnet-framework",
+      "category": "agentic-coder",
+      "title": "Containerize Aspnet Framework",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project."
+    },
+    "has_frontmatter": true,
+    "lines": 486,
+    "chars": 21580,
+    "sha256": "7758e255a55511c878202a2bdccab57d42a9948b8333d8681882e67d42e04d78",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 84
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/containerize-aspnetcore/SKILL.md",
+    "relative_path": "development/containerize-aspnetcore/SKILL.md",
+    "name": "containerize-aspnetcore",
+    "frontmatter": {
+      "name": "containerize-aspnetcore",
+      "category": "agentic-coder",
+      "title": "Containerize Aspnetcore",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project."
+    },
+    "has_frontmatter": true,
+    "lines": 424,
+    "chars": 16713,
+    "sha256": "2f02057d23754b982ada1439a7fbcf8bdb73bd396ba9d27ab9889abf8db0685b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 83
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/content-management-systems/SKILL.md",
+    "relative_path": "development/content-management-systems/SKILL.md",
+    "name": "content-management-systems",
+    "frontmatter": {
+      "name": "content-management-systems",
+      "category": "agentic-coder",
+      "title": "Content Management Systems",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Workflow for building and modifying content management systems across WordPress, Shopify, Wix, Squarespace, Drupal, WooCommerce, Joomla, HubSpot CMS Hub, Webflow, Adobe Experience Manager, and similar platforms. Use when working on CMS themes, plugins, apps, modules, admin panels, media uploads, content models, editors, markdown pipelines, or static export workflows."
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 5911,
+    "sha256": "ae9cc7b63c7df9e5e1d3db7f242efaf7581f5acb31569c861577076fd5cfe366",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/context-map/SKILL.md",
+    "relative_path": "development/context-map/SKILL.md",
+    "name": "context-map",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when analyzing and documenting the context boundaries, dependencies, and data flows between components in a complex system. Use during architecture review, onboarding to unfamiliar codebases, or debugging cross-component issues.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "context-map",
+      "category": "agentic-coder",
+      "tags": [
+        "architecture",
+        "documentation",
+        "context-mapping",
+        "onboarding",
+        "scripts"
+      ],
+      "title": "Context Map",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 235,
+    "chars": 7191,
+    "sha256": "9ba804b21c4a8ef2c22c6305c8565dcaff0941954cb41f9567caa198d2bbd2b2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/context-map/references/overview.md",
+        "lines": 19,
+        "chars": 350,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/context-map/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/context-map/templates/workflow.md",
+        "lines": 15,
+        "chars": 133,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/context-map/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/conventional-commit/SKILL.md",
+    "relative_path": "development/conventional-commit/SKILL.md",
+    "name": "conventional-commit",
+    "frontmatter": {
+      "name": "conventional-commit",
+      "category": "agentic-coder",
+      "title": "Conventional Commit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation."
+    },
+    "has_frontmatter": true,
+    "lines": 94,
+    "chars": 3247,
+    "sha256": "6c9bfcb0459488ea76a8ad441bdddf632763a54239f4a884f7b4ef254fb806d6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  }
+]

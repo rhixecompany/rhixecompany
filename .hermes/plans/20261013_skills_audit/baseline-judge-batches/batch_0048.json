@@ -1,0 +1,412 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-concatenated-headings/SKILL.md",
+    "relative_path": "development/fix-concatenated-headings/SKILL.md",
+    "name": "fix-concatenated-headings",
+    "frontmatter": {
+      "name": "fix-concatenated-headings",
+      "category": "agentic-coder",
+      "title": "Fix Concatenated Headings",
+      "description": "Fixes concatenated headings issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2661,
+    "sha256": "06bf247c1ca3646fdf6a199bed405c46fce9685af753dee8b6027028bd403c0d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-copilot-frontmatter/SKILL.md",
+    "relative_path": "development/fix-copilot-frontmatter/SKILL.md",
+    "name": "fix-copilot-frontmatter",
+    "frontmatter": {
+      "name": "fix-copilot-frontmatter",
+      "category": "agentic-coder",
+      "title": "Fix Copilot Frontmatter",
+      "description": "Fixes copilot frontmatter issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "copilot",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2669,
+    "sha256": "26112c501a969690ef070c839b0ce2a941c2cfd371276afe0ac75fbf0c0f4009",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-crlf-frontmatter/SKILL.md",
+    "relative_path": "development/fix-crlf-frontmatter/SKILL.md",
+    "name": "fix-crlf-frontmatter",
+    "frontmatter": {
+      "name": "fix-crlf-frontmatter",
+      "category": "agentic-coder",
+      "title": "Fix Crlf Frontmatter",
+      "description": "Fixes crlf frontmatter issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2627,
+    "sha256": "aad3a9320da45f4ed33d5d1e763110721bf539bfd615a4a183d4621876cf04bf",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-crlf-frontmatter/references/overview.md",
+        "lines": 31,
+        "chars": 710,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-crlf-frontmatter/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-duplicate-hooks/SKILL.md",
+    "relative_path": "development/fix-duplicate-hooks/SKILL.md",
+    "name": "fix-duplicate-hooks",
+    "frontmatter": {
+      "name": "fix-duplicate-hooks",
+      "category": "agentic-coder",
+      "title": "Fix Duplicate Hooks",
+      "description": "Fixes duplicate hooks issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "hooks",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2611,
+    "sha256": "52d8946f97a69e66dd6ddc1348c3307d5efdd54bde9624edcc438991f612fceb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-duplicate-hooks/references/overview.md",
+        "lines": 29,
+        "chars": 550,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-duplicate-hooks/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-duplicate-hooks/templates/template.md",
+        "lines": 18,
+        "chars": 155,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-duplicate-hooks/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-eslint-mismatches/SKILL.md",
+    "relative_path": "development/fix-eslint-mismatches/SKILL.md",
+    "name": "fix-eslint-mismatches",
+    "frontmatter": {
+      "name": "fix-eslint-mismatches",
+      "category": "agentic-coder",
+      "title": "Fix Eslint Mismatches",
+      "description": "Fixes eslint mismatches issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2621,
+    "sha256": "548d1ac3933c9687e062a3d6078fd697e8f5955a6c161a318f817722829d6e35",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-eslint-mismatches/references/overview.md",
+        "lines": 31,
+        "chars": 717,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-eslint-mismatches/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-fail-skills/SKILL.md",
+    "relative_path": "development/fix-fail-skills/SKILL.md",
+    "name": "fix-fail-skills",
+    "frontmatter": {
+      "name": "fix-fail-skills",
+      "category": "agentic-coder",
+      "title": "Fix Fail Skills",
+      "description": "Fixes fail skills issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2572,
+    "sha256": "1a47d225293e6fc5b8eee0795fc5218ce83ed3e530c273ed2910de2b5a7ee1d7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-fail-skills/references/overview.md",
+        "lines": 31,
+        "chars": 675,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-fail-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-fence-glue/SKILL.md",
+    "relative_path": "development/fix-fence-glue/SKILL.md",
+    "name": "fix-fence-glue",
+    "frontmatter": {
+      "name": "fix-fence-glue",
+      "category": "agentic-coder",
+      "title": "Fix Fence Glue",
+      "description": "Fixes fence glue issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2551,
+    "sha256": "3c40f22ec42c11a68d0b9e927ad9d52059528f034a8c8f6eb7b7a2f4588c02aa",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

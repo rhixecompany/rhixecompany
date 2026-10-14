@@ -1,0 +1,1142 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/SKILL.md",
+    "relative_path": "agent-development/drawio-skill/SKILL.md",
+    "name": "drawio-skill",
+    "frontmatter": {
+      "name": "drawio-skill",
+      "category": "agentic-coder",
+      "title": "Drawio Skill",
+      "author": "Alexa",
+      "tags": "[]",
+      "version": "2.1.0",
+      "description": "Use when the user requests diagrams, flowcharts, architecture diagrams, ER diagrams, UML / sequence / class diagrams, SysML / MBSE diagrams (block definition, internal block, requirement, parametric), BPMN business process diagrams, swimlane / cross-functional flowcharts, network topology, cloud architecture from Terraform or Kubernetes manifests, ML/DL model figures (Transformer/CNN/LSTM), mind maps, or any visualization. Also use proactively when explaining systems with 3+ components, complex data flows, or relationships that benefit from visual representation. Best suited when the diagram needs custom styling, rich shape vocabulary, swimlanes, or exportable images (PNG/SVG/PDF/JPG). Generates .drawio XML and exports locally via the native draw.io desktop CLI.",
+      "license": "MIT",
+      "homepage": "https://github.com/Agents365-ai/drawio-skill",
+      "compatibility": "Requires draw.io desktop app CLI on PATH (macOS/Linux/Windows). Self-check step requires a vision-enabled model (e.g., Claude Sonnet/Opus); gracefully skipped if unavailable. Optional auto-layout (scripts/autolayout.py) needs Graphviz (dot).",
+      "platforms": "[macos, linux, windows]",
+      "metadata": "{\"openclaw\":{\"requires\":{\"anyBins\":[\"draw.io\",\"drawio\"]},\"emoji\":\"📐\",\"os\":[\"darwin\",\"linux\",\"win32\"],\"install\":[{\"id\":\"brew-drawio\",\"kind\":\"brew\",\"formula\":\"drawio\",\"bins\":[\"drawio\"],\"label\":\"Install draw.io via Homebrew\",\"os\":[\"darwin\"]},{\"id\":\"brew-graphviz\",\"kind\":\"brew\",\"formula\":\"graphviz\",\"bins\":[\"dot\"],\"label\":\"Install Graphviz for optional autolayout.py\",\"os\":[\"darwin\"],\"optional\":true}]},\"hermes\":{\"tags\":[\"drawio\",\"diagram\",\"flowchart\",\"architecture\",\"visualization\",\"uml\"],\"category\":\"design\",\"requires_tools\":[\"drawio\",\"draw.io\"],\"related_skills\":[\"mermaid\",\"excalidraw\",\"plantuml\"]},\"author\":\"Agents365-ai\",\"version\":\"2.1.0\"}"
+    },
+    "has_frontmatter": true,
+    "lines": 397,
+    "chars": 44053,
+    "sha256": "e976faeca438da5e20adb0d9f2ca4c143ced98968a975a99920e8245d2dacfca",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/autolayout.md",
+        "lines": 177,
+        "chars": 19184,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/autolayout.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/derasterize.md",
+        "lines": 54,
+        "chars": 2504,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/derasterize.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/diagram-types.md",
+        "lines": 205,
+        "chars": 16629,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/diagram-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/live-infra.md",
+        "lines": 71,
+        "chars": 3628,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/live-infra.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/mermaid-authoring.md",
+        "lines": 58,
+        "chars": 4924,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/mermaid-authoring.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/pr-bot.md",
+        "lines": 73,
+        "chars": 3510,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/pr-bot.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/shapes.md",
+        "lines": 151,
+        "chars": 7126,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/shapes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/style-extraction.md",
+        "lines": 255,
+        "chars": 17378,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/style-extraction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/style-presets.md",
+        "lines": 115,
+        "chars": 11003,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/style-presets.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/toolbox.md",
+        "lines": 107,
+        "chars": 8901,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/toolbox.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/troubleshooting.md",
+        "lines": 63,
+        "chars": 5246,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/tubemap.md",
+        "lines": 67,
+        "chars": 3248,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/tubemap.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/xml-authoring.md",
+        "lines": 208,
+        "chars": 12568,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/references/xml-authoring.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/aiicons.py",
+        "lines": 204,
+        "chars": 7979,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/aiicons.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/autolayout.py",
+        "lines": 410,
+        "chars": 18282,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/autolayout.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/buildup.py",
+        "lines": 331,
+        "chars": 14352,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/buildup.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/c4.py",
+        "lines": 163,
+        "chars": 6666,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/c4.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/ciimports.py",
+        "lines": 182,
+        "chars": 7771,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/ciimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/composeimports.py",
+        "lines": 118,
+        "chars": 4738,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/composeimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/compress.py",
+        "lines": 257,
+        "chars": 10574,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/compress.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/dockerimports.py",
+        "lines": 144,
+        "chars": 6329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/dockerimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawio2mermaid.py",
+        "lines": 153,
+        "chars": 5955,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawio2mermaid.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawio2pptx.py",
+        "lines": 112,
+        "chars": 4512,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawio2pptx.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawiodiff.py",
+        "lines": 164,
+        "chars": 7154,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawiodiff.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawiohtml.py",
+        "lines": 229,
+        "chars": 10476,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/drawiohtml.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/edgeports.py",
+        "lines": 211,
+        "chars": 9275,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/edgeports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/encode_drawio_url.py",
+        "lines": 58,
+        "chars": 2246,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/encode_drawio_url.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/explain.py",
+        "lines": 156,
+        "chars": 6088,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/explain.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/goimports.py",
+        "lines": 141,
+        "chars": 5557,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/goimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/heatmap.py",
+        "lines": 226,
+        "chars": 9172,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/heatmap.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/jsimports.py",
+        "lines": 162,
+        "chars": 6314,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/jsimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/k8simports.py",
+        "lines": 242,
+        "chars": 9801,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/k8simports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/openapiimports.py",
+        "lines": 165,
+        "chars": 6780,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/openapiimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/prdiff.py",
+        "lines": 191,
+        "chars": 7987,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/prdiff.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/pyclasses.py",
+        "lines": 156,
+        "chars": 6219,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/pyclasses.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/pyimports.py",
+        "lines": 153,
+        "chars": 6351,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/pyimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/raster2drawio.py",
+        "lines": 196,
+        "chars": 7463,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/raster2drawio.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/relabel.py",
+        "lines": 102,
+        "chars": 4241,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/relabel.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/repair_png.py",
+        "lines": 37,
+        "chars": 1097,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/repair_png.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/restyle.py",
+        "lines": 161,
+        "chars": 7239,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/restyle.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/runbook.py",
+        "lines": 241,
+        "chars": 10187,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/runbook.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/rustimports.py",
+        "lines": 203,
+        "chars": 7610,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/rustimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/seqlayout.py",
+        "lines": 222,
+        "chars": 9911,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/seqlayout.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/shapesearch.py",
+        "lines": 162,
+        "chars": 5965,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/shapesearch.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/sqlerd.py",
+        "lines": 167,
+        "chars": 6739,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/sqlerd.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/svgflow.py",
+        "lines": 85,
+        "chars": 3729,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/svgflow.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/tfimports.py",
+        "lines": 262,
+        "chars": 11900,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/tfimports.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/tfstate.py",
+        "lines": 128,
+        "chars": 5525,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/tfstate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/timelapse.py",
+        "lines": 251,
+        "chars": 11168,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/timelapse.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/tubemap.py",
+        "lines": 177,
+        "chars": 6887,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/tubemap.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/validate.py",
+        "lines": 340,
+        "chars": 13325,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/drawio-skill/scripts/validate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 20,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "dry: body/reference overlap is high",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/eyeball/SKILL.md",
+    "relative_path": "agent-development/eyeball/SKILL.md",
+    "name": "eyeball",
+    "frontmatter": {
+      "name": "eyeball",
+      "category": "agentic-coder",
+      "title": "Eyeball",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Document analysis with inline source screenshots. When you ask Copilot to analyze a document, Eyeball generates a Word doc where every factual claim includes a highlighted screenshot from the source material so you can verify it with your own eyes."
+    },
+    "has_frontmatter": true,
+    "lines": 192,
+    "chars": 7122,
+    "sha256": "24558aec4734bbe15b5a07d1840e1e3c379620ccf8b51410979f3cb6262c5076",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/finalize-agent-prompt/SKILL.md",
+    "relative_path": "agent-development/finalize-agent-prompt/SKILL.md",
+    "name": "finalize-agent-prompt",
+    "frontmatter": {
+      "name": "finalize-agent-prompt",
+      "category": "agentic-coder",
+      "title": "Finalize Agent Prompt",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Finalize prompt file using the role of an AI agent to polish the prompt for the end user."
+    },
+    "has_frontmatter": true,
+    "lines": 65,
+    "chars": 1881,
+    "sha256": "ae0c62b3e2d6bf664fb2ed819a8ac9d650a109978f34d018280136eb32955683",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/git-flow-branch-creator/SKILL.md",
+    "relative_path": "agent-development/git-flow-branch-creator/SKILL.md",
+    "name": "git-flow-branch-creator",
+    "frontmatter": {
+      "name": "git-flow-branch-creator",
+      "category": "agentic-coder",
+      "title": "Git Flow Branch Creator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model."
+    },
+    "has_frontmatter": true,
+    "lines": 314,
+    "chars": 11024,
+    "sha256": "452f4b89c096ae707c288de0d08840718506e579d94b4ec033686c591a4eb353",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/gtm-board-and-investor-communication/SKILL.md",
+    "relative_path": "agent-development/gtm-board-and-investor-communication/SKILL.md",
+    "name": "gtm-board-and-investor-communication",
+    "frontmatter": {
+      "name": "gtm-board-and-investor-communication",
+      "category": "agentic-coder",
+      "title": "Gtm Board And Investor Communication",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Board meeting preparation, investor updates, and executive communication. Use when preparing board decks, writing investor updates, handling bad news with the board, structuring QBRs, or building board-level metric discipline. Includes the \"Three Things\" narrative model, the 4-tier metric hierarchy, and the pre-brief pattern that prevents board surprises.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 476,
+    "chars": 19251,
+    "sha256": "758efeb31a1820482631df9b533bbb1da94ceb00eadfc2acf2a119d1ff8ce75f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/introspection-only-general/SKILL.md",
+    "relative_path": "agent-development/introspection-only-general/SKILL.md",
+    "name": "introspection-only-general",
+    "frontmatter": {
+      "name": "introspection-only-general",
+      "category": "documentation",
+      "description": "Constraint flag: restrict agent to introspection-only mode. Read and search files but never create, edit, or delete any files or configuration. Use as a safety constraint during discovery phases.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "constraint",
+        "safety",
+        "introspection",
+        "read-only"
+      ],
+      "title": "Introspection Only General"
+    },
+    "has_frontmatter": true,
+    "lines": 94,
+    "chars": 2839,
+    "sha256": "1d39e26dcab706cc3978f7adfdda08d02571a9da68e9f2101026bdd920a252e2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/SKILL.md",
+    "relative_path": "agent-development/multi-agent-fanout/SKILL.md",
+    "name": "multi-agent-fanout",
+    "frontmatter": {
+      "name": "multi-agent-fanout",
+      "category": "agentic-coder",
+      "title": "Multi-Agent / Multi-Provider Fanout",
+      "description": "Use when you need to enumerate authorized LLM providers, inspect installed SDK packages, and run a prompt non-interactively across the (provider × agent) matrix. Returns structured per-cell results with provider, model, context, max_output, capabilities, status, latency, output.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[mcp, providers, agents, fanout, devops, hermes]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 177,
+    "chars": 6578,
+    "sha256": "5671cd3c59b1913176a3619812318bd1217d531cd3342fefdef8b024ddb7ec77",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/references/agent-adapters.md",
+        "lines": 93,
+        "chars": 2427,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/references/agent-adapters.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/references/output-schema.md",
+        "lines": 104,
+        "chars": 2543,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/references/output-schema.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/references/provider-matrix.md",
+        "lines": 53,
+        "chars": 3559,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/references/provider-matrix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/templates/capability-table.json",
+        "lines": 17,
+        "chars": 639,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/templates/capability-table.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/templates/fanout-config.json",
+        "lines": 28,
+        "chars": 736,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/templates/fanout-config.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/auth_inventory.py",
+        "lines": 288,
+        "chars": 9273,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/auth_inventory.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/__init__.py",
+        "lines": 1,
+        "chars": 65,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/__init__.py",
+        "lines": 1,
+        "chars": 29,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/codex.py",
+        "lines": 46,
+        "chars": 1446,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/codex.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/copilot.py",
+        "lines": 43,
+        "chars": 1407,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/copilot.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/hermes.py",
+        "lines": 52,
+        "chars": 1704,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/hermes.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/opencode.py",
+        "lines": 43,
+        "chars": 1379,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/agents/opencode.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/providers/__init__.py",
+        "lines": 1,
+        "chars": 32,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/providers/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/providers/openai_compat.py",
+        "lines": 143,
+        "chars": 4910,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/providers/openai_compat.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/providers/openrouter.py",
+        "lines": 107,
+        "chars": 3796,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout/providers/openrouter.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout.py",
+        "lines": 337,
+        "chars": 12542,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/fanout.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/package_inspector.py",
+        "lines": 219,
+        "chars": 8179,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/multi-agent-fanout/scripts/package_inspector.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  }
+]

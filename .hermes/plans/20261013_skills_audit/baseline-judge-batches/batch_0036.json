@@ -1,0 +1,360 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/chrome-devtools/SKILL.md",
+    "relative_path": "development/chrome-devtools/SKILL.md",
+    "name": "chrome-devtools",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Expert-level browser automation, debugging, and performance analysis using Chrome DevTools Protocol. Use when you need to automate browser interactions, debug complex UI issues, profile performance, or capture network activity programmatically.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "chrome-devtools",
+      "category": "dev-tools",
+      "tags": [
+        "imported",
+        "browser",
+        "debugging",
+        "performance",
+        "automation",
+        "devtools",
+        "scripts"
+      ],
+      "title": "Chrome DevTools Protocol",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 264,
+    "chars": 8739,
+    "sha256": "6324afd0439194499da5e50d7191cccddcf86ec4fdee38f4bab90632f9d74ae2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/chrome-devtools/references/overview.md",
+        "lines": 9,
+        "chars": 1360,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/chrome-devtools/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/chrome-devtools/templates/template.md",
+        "lines": 44,
+        "chars": 720,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/chrome-devtools/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/classify-fences/SKILL.md",
+    "relative_path": "development/classify-fences/SKILL.md",
+    "name": "classify-fences",
+    "frontmatter": {
+      "name": "classify-fences",
+      "category": "agentic-coder",
+      "title": "Classify Fences",
+      "description": "Script for Classify Fences operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2545,
+    "sha256": "ab50860af5a6529f9c2afe426b7e47b29301901fc0440e101b9482ab405fd09e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/cleanup-disk/SKILL.md",
+    "relative_path": "development/cleanup-disk/SKILL.md",
+    "name": "cleanup-disk",
+    "frontmatter": {
+      "name": "cleanup-disk",
+      "category": "agentic-coder",
+      "title": "Cleanup Disk",
+      "description": "Script for Cleanup Disk operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 4204,
+    "sha256": "5ba8c5caaf56a9fab547db84f61f42cfa3f3e792ca7492a50fcf96b93d9c582a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/cleanup-inventory/SKILL.md",
+    "relative_path": "development/cleanup-inventory/SKILL.md",
+    "name": "cleanup-inventory",
+    "frontmatter": {
+      "name": "cleanup-inventory",
+      "category": "agentic-coder",
+      "title": "Cleanup Inventory",
+      "description": "Script for Cleanup Inventory operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2579,
+    "sha256": "1b3484e5999c865e09bbab141c3f52ef4d9961675bdfab0836cd462fd4f13b90",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/cleanup-placeholder-stubs/SKILL.md",
+    "relative_path": "development/cleanup-placeholder-stubs/SKILL.md",
+    "name": "cleanup-placeholder-stubs",
+    "frontmatter": {
+      "name": "cleanup-placeholder-stubs",
+      "category": "agentic-coder",
+      "title": "Cleanup Placeholder Stubs",
+      "description": "Script for Cleanup Placeholder Stubs operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2645,
+    "sha256": "99dc41f2da1a273ab963726bd2ad4bc9996f5582140bec2d97a38776c79b9fca",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/code-exemplars-blueprint-generator/SKILL.md",
+    "relative_path": "development/code-exemplars-blueprint-generator/SKILL.md",
+    "name": "code-exemplars-blueprint-generator",
+    "frontmatter": {
+      "name": "code-exemplars-blueprint-generator",
+      "category": "agentic-coder",
+      "title": "Code Exemplars Blueprint Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams."
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 7722,
+    "sha256": "a3495457542214875085a8587e3e7162167427b79a20218ed634f0211328af90",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/code-rabbit-mcp-setup/SKILL.md",
+    "relative_path": "development/code-rabbit-mcp-setup/SKILL.md",
+    "name": "code-rabbit-mcp-setup",
+    "frontmatter": {
+      "name": "code-rabbit-mcp-setup",
+      "category": "agentic-coder",
+      "title": "Code Rabbit MCP Setup",
+      "description": "Install code-rabbit and create MCP servers.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[code-rabbit, mcp, webhooks]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 42,
+    "chars": 1113,
+    "sha256": "ffa376115ad00eb4d5858d325241b502cb63c203331628c914ff4d279e72cb60",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 5
+  }
+]

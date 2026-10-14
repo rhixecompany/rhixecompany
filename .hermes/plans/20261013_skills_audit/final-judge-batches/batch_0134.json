@@ -1,0 +1,565 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/clip/SKILL.md",
+    "relative_path": "mlops/clip/SKILL.md",
+    "name": "clip",
+    "frontmatter": {
+      "name": "clip",
+      "category": "agentic-coder",
+      "title": "Clip",
+      "description": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[transformers, torch, pillow]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 309,
+    "chars": 8890,
+    "sha256": "0eff327c4395f4dea4c04b469d21da924b6f99b8717eca4e5800eb5d5eebe4be",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/clip/references/applications.md",
+        "lines": 207,
+        "chars": 5359,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/clip/references/applications.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/dspy/SKILL.md",
+    "relative_path": "mlops/dspy/SKILL.md",
+    "name": "dspy",
+    "frontmatter": {
+      "name": "dspy",
+      "category": "mlops",
+      "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[dspy, openai, anthropic]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "title": "Dspy",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 624,
+    "chars": 16073,
+    "sha256": "e160f021cc8e177b2c6a11600f38751579fedc34c2216f51fd04d568bc37a7b8",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/dspy/references/examples.md",
+        "lines": 663,
+        "chars": 18983,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/dspy/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/dspy/references/modules.md",
+        "lines": 475,
+        "chars": 12363,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/dspy/references/modules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/dspy/references/optimizers.md",
+        "lines": 566,
+        "chars": 14917,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/dspy/references/optimizers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 49
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/SKILL.md",
+    "relative_path": "mlops/evaluating-llms-harness/SKILL.md",
+    "name": "evaluating-llms-harness",
+    "frontmatter": {
+      "name": "evaluating-llms-harness",
+      "category": "mlops",
+      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "version": "1.0.1",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[lm-eval, transformers, vllm]",
+      "platforms": "[linux, macos]",
+      "metadata": [],
+      "title": "Evaluating Llms Harness",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 528,
+    "chars": 13110,
+    "sha256": "00cfb71c5fdf224529611041085c170b44a2b3d20ac626d7751045b6600f7f9c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/api-evaluation.md",
+        "lines": 490,
+        "chars": 11094,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/api-evaluation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/benchmark-guide.md",
+        "lines": 488,
+        "chars": 10768,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/benchmark-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/custom-tasks.md",
+        "lines": 602,
+        "chars": 13125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/custom-tasks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/distributed-eval.md",
+        "lines": 519,
+        "chars": 11341,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluating-llms-harness/references/distributed-eval.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/SKILL.md",
+    "relative_path": "mlops/evaluation/evaluating-llms-harness/SKILL.md",
+    "name": "evaluating-llms-harness",
+    "frontmatter": {
+      "name": "evaluating-llms-harness",
+      "category": "agentic-coder",
+      "title": "Evaluating Llms Harness",
+      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "version": "1.0.1",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 540,
+    "chars": 13781,
+    "sha256": "4fe6862b3a3228bf352327d928d4285b34f94372d6181d744063b5e0766d13c2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/api-evaluation.md",
+        "lines": 490,
+        "chars": 11094,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/api-evaluation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/benchmark-guide.md",
+        "lines": 488,
+        "chars": 10768,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/benchmark-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/custom-tasks.md",
+        "lines": 602,
+        "chars": 13125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/custom-tasks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/distributed-eval.md",
+        "lines": 519,
+        "chars": 11333,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/evaluating-llms-harness/references/distributed-eval.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/SKILL.md",
+    "relative_path": "mlops/evaluation/weights-and-biases/SKILL.md",
+    "name": "weights-and-biases",
+    "frontmatter": {
+      "name": "weights-and-biases",
+      "category": "agentic-coder",
+      "title": "Weights And Biases",
+      "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[wandb]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 631,
+    "chars": 13767,
+    "sha256": "d4d5f9601fb9420ae4fb276e6cfc50d7539877af749f575053c70aeb91d9caed",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/references/artifacts.md",
+        "lines": 584,
+        "chars": 13407,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/references/artifacts.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/references/integrations.md",
+        "lines": 700,
+        "chars": 16219,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/references/integrations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/references/sweeps.md",
+        "lines": 847,
+        "chars": 17669,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/evaluation/weights-and-biases/references/sweeps.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 46
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/faiss/SKILL.md",
+    "relative_path": "mlops/faiss/SKILL.md",
+    "name": "faiss",
+    "frontmatter": {
+      "name": "faiss",
+      "category": "agentic-coder",
+      "title": "Faiss",
+      "description": "Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best for high-performance applications.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[faiss-cpu, faiss-gpu, numpy]",
+      "platforms": "[linux, macos]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 277,
+    "chars": 7054,
+    "sha256": "36662510fe146ce4c00915e256be103fc42b791fbe066d9a02c91ffb47461195",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/faiss/references/index_types.md",
+        "lines": 280,
+        "chars": 6173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/faiss/references/index_types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/flash-attention/SKILL.md",
+    "relative_path": "mlops/flash-attention/SKILL.md",
+    "name": "optimizing-attention-flash",
+    "frontmatter": {
+      "name": "optimizing-attention-flash",
+      "category": "agentic-coder",
+      "title": "Optimizing Attention Flash",
+      "description": "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attention, or need faster inference. Supports PyTorch native SDPA, flash-attn library, H100 FP8, and sliding window attention.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[flash-attn, torch, transformers]",
+      "platforms": "[linux, macos]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 411,
+    "chars": 11778,
+    "sha256": "20a57cbbf6eb6574001422baabac1e2d9b3511b01a090bb13925ad06f8abe790",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/flash-attention/references/benchmarks.md",
+        "lines": 215,
+        "chars": 7079,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/flash-attention/references/benchmarks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/flash-attention/references/transformers-integration.md",
+        "lines": 293,
+        "chars": 7427,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/flash-attention/references/transformers-integration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 20
+  }
+]

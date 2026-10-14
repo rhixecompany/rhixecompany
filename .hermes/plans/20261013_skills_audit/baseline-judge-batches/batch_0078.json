@@ -1,0 +1,360 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/register-instruction-personalities/SKILL.md",
+    "relative_path": "development/register-instruction-personalities/SKILL.md",
+    "name": "register-instruction-personalities",
+    "frontmatter": {
+      "name": "register-instruction-personalities",
+      "category": "agentic-coder",
+      "title": "Register Instruction Personalities",
+      "description": "Script for Register Instruction Personalities operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2735,
+    "sha256": "d3c3e24e4600995ee8bfe6bc3aade54d1589dad2d50751bfddcb2cb37654d789",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/remediate-skills/SKILL.md",
+    "relative_path": "development/remediate-skills/SKILL.md",
+    "name": "remediate-skills",
+    "frontmatter": {
+      "name": "remediate-skills",
+      "category": "agentic-coder",
+      "title": "Remediate Skills",
+      "description": "Script for Remediate Skills operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2566,
+    "sha256": "aeee2f0d851d92b3d644ebe5a60f47c8a05a7b5477ab8c8f0e458a3304dfc0f1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/remove-flat-duplicates/SKILL.md",
+    "relative_path": "development/remove-flat-duplicates/SKILL.md",
+    "name": "remove-flat-duplicates",
+    "frontmatter": {
+      "name": "remove-flat-duplicates",
+      "category": "agentic-coder",
+      "title": "Remove Flat Duplicates",
+      "description": "Script for Remove Flat Duplicates operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2615,
+    "sha256": "3ceb8de6370fbeed58f029ead4775458cf5f56d7e2fbb6769fa11f065bb31b83",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repair-codex-skills/SKILL.md",
+    "relative_path": "development/repair-codex-skills/SKILL.md",
+    "name": "repair-codex-skills",
+    "frontmatter": {
+      "name": "repair-codex-skills",
+      "category": "agentic-coder",
+      "title": "Repair Codex Skills",
+      "description": "Script for Repair Codex Skills operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2612,
+    "sha256": "f3737d6cc1edfb93860bf0e340b5af873d3e4c9bbc72b3c2923d4c53bf2a653c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repair-doubled-pipes/SKILL.md",
+    "relative_path": "development/repair-doubled-pipes/SKILL.md",
+    "name": "repair-doubled-pipes",
+    "frontmatter": {
+      "name": "repair-doubled-pipes",
+      "category": "agentic-coder",
+      "title": "Repair Doubled Pipes",
+      "description": "Script for Repair Doubled Pipes operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2611,
+    "sha256": "fe6b46d00c33532225b51f0153b5dc44cd8905eb6607ce69f596c2e3851f74f6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repair-frontmatter-closes/SKILL.md",
+    "relative_path": "development/repair-frontmatter-closes/SKILL.md",
+    "name": "repair-frontmatter-closes",
+    "frontmatter": {
+      "name": "repair-frontmatter-closes",
+      "category": "agentic-coder",
+      "title": "Repair Frontmatter Closes",
+      "description": "Repairs frontmatter closure issues in YAML",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2672,
+    "sha256": "58d4c102de401e93dce4e45b1d654c47bc7bce75c73e3c26f5587191007ba4f6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/repair-frontmatter-closes/references/overview.md",
+        "lines": 29,
+        "chars": 580,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repair-frontmatter-closes/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repair-frontmatter-closes/templates/template.md",
+        "lines": 18,
+        "chars": 161,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/repair-frontmatter-closes/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/repair-yaml/SKILL.md",
+    "relative_path": "development/repair-yaml/SKILL.md",
+    "name": "repair-yaml",
+    "frontmatter": {
+      "name": "repair-yaml",
+      "category": "agentic-coder",
+      "title": "Repair Yaml",
+      "description": "Script for Repair Yaml operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2537,
+    "sha256": "3715f9b2f27381f174ffc4cd2dbdcb5eca4665371ef63a1fff0ca38b325ecb67",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

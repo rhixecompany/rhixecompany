@@ -1,0 +1,708 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/vscode-ext-commands/SKILL.md",
+    "relative_path": "development/vscode-ext-commands/SKILL.md",
+    "name": "vscode-ext-commands",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when adding, updating, or refactoring commands in VS Code extension development. Covers command registration, naming conventions, visibility, and menu contributions.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "vscode-ext-commands",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "vscode",
+        "extension",
+        "commands",
+        "ide",
+        "scripts"
+      ],
+      "title": "VS Code Extension Commands",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 263,
+    "chars": 8508,
+    "sha256": "abab522728125052308fd3bb9c9d0b06538961c1b5f7b7eec35cf2b46d8bc9a0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-commands/references/overview.md",
+        "lines": 9,
+        "chars": 1509,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-commands/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-commands/templates/template.md",
+        "lines": 52,
+        "chars": 1051,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-commands/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 56,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vscode-ext-localization/SKILL.md",
+    "relative_path": "development/vscode-ext-localization/SKILL.md",
+    "name": "vscode-ext-localization",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Localize VS Code extension commands, walkthroughs, configuration, and in-code strings for international users. Covers package.nls.json, walkthrough translations, bundle.l10n.json, and the @vscode/l10n API.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "vscode-ext-localization",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "vscode",
+        "extension",
+        "i18n",
+        "localization",
+        "l10n",
+        "scripts"
+      ],
+      "title": "VS Code Extension Localization",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 277,
+    "chars": 9117,
+    "sha256": "ee9169b1d0406f0efd811402807a2835f1745a8fa949610bd4212b3d1aa31beb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-localization/references/overview.md",
+        "lines": 16,
+        "chars": 402,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-localization/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-localization/templates/workflow.md",
+        "lines": 15,
+        "chars": 145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-ext-localization/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 52,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/SKILL.md",
+    "relative_path": "development/vscode-extension-playbook/SKILL.md",
+    "name": "vscode-extension-playbook",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when inventorying installed VS Code Insiders extensions, pairing them with Hermes workflows, and validating extension-specific editor behavior.",
+      "license": "MIT",
+      "metadata": [
+        "imported",
+        "development",
+        "vscode",
+        "extensions",
+        "audit",
+        "configuration"
+      ],
+      "name": "vscode-extension-playbook",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "development",
+        "vscode",
+        "extensions",
+        "audit",
+        "configuration",
+        "scripts"
+      ],
+      "title": "VS Code Extension Playbook",
+      "version": "1.3.0"
+    },
+    "has_frontmatter": true,
+    "lines": 257,
+    "chars": 12978,
+    "sha256": "25365b61c08c865ffad783df4361a1a4635b87c5da4f699ed62f22e86cc3f196",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/references/extension-mapping.md",
+        "lines": 51,
+        "chars": 4182,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/references/extension-mapping.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/references/overview.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/references/settings-generation-workflow.md",
+        "lines": 34,
+        "chars": 1457,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/references/settings-generation-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/templates/template.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-extension-playbook/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 9,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/SKILL.md",
+    "relative_path": "development/vscode-workspace-configurator/SKILL.md",
+    "name": "vscode-workspace-configurator",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when auditing, creating, debugging, updating, and verifying .vscode/*.json configurations across a monorepo root and all sub-repositories using VS Code Insiders. Ensure every sub-repo has a properly configured .vscode/ folder with settings.json, launch.json, tasks.json, extensions.json, and mcp.json tailored to its tech stack. Detects project type from package.json, requirements.txt, manage.py, and directory structure.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "vscode-workspace-configurator",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "vscode",
+        "workspace",
+        "configuration",
+        "monorepo",
+        "json",
+        "settings",
+        "scripts"
+      ],
+      "title": "VS Code Workspace Configurator",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 389,
+    "chars": 16581,
+    "sha256": "5211f4bd31990c62df134d6aef1da79fafdcf8dfb09a333e345ab4dbb27a716b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/references/audit-scripts.md",
+        "lines": 82,
+        "chars": 2568,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/references/audit-scripts.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/references/cross-file-conflict-detection.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/references/cross-file-conflict-detection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/references/vscode-config-templates.md",
+        "lines": 78,
+        "chars": 3940,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/references/vscode-config-templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-bun.json",
+        "lines": 27,
+        "chars": 731,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-bun.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-django.json",
+        "lines": 44,
+        "chars": 1371,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-django.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-nextjs.json",
+        "lines": 42,
+        "chars": 1087,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-nextjs.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-node.json",
+        "lines": 21,
+        "chars": 574,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-node.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-python.json",
+        "lines": 25,
+        "chars": 836,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-workspace-configurator/templates/settings-python.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/webhook/SKILL.md",
+    "relative_path": "development/webhook/SKILL.md",
+    "name": "webhook",
+    "frontmatter": {
+      "name": "webhook",
+      "category": "agentic-coder",
+      "description": "MCP server for webhook. Use when you need webhook via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Webhook",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1118,
+    "sha256": "030b7d51d6f3136252f71cfe32194ef7c3580ca60eced0d983bbd37612516f83",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/webmcpify/SKILL.md",
+    "relative_path": "development/webmcpify/SKILL.md",
+    "name": "webmcpify",
+    "frontmatter": {
+      "name": "webmcpify",
+      "category": "agentic-coder",
+      "title": "Webmcpify",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Make a web app agent-ready — propose a WebMCP tool manifest, integrate, verify in a real browser, heal; unrelated code stays untouched. Use for \"webmcpify\", \"add WebMCP\", or \"expose app actions to AI agents\".",
+      "argument-hint": "[inventory|integrate|verify|status|full] [scope notes]",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 369,
+    "chars": 20502,
+    "sha256": "1fedc26ca785e49d2ee50c92ed90fc9f1a2146a9a70425e5f2ac8512e9054d08",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/heal.md",
+        "lines": 69,
+        "chars": 6520,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/heal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/integrate.md",
+        "lines": 141,
+        "chars": 6507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/integrate.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/inventory.md",
+        "lines": 120,
+        "chars": 6515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/inventory.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/runtime.md",
+        "lines": 129,
+        "chars": 7307,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/runtime.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/security.md",
+        "lines": 73,
+        "chars": 3909,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/security.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/verify.md",
+        "lines": 132,
+        "chars": 6989,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/references/verify.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcp-jsx.d.ts",
+        "lines": 59,
+        "chars": 2357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcp-jsx.d.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcp.d.ts",
+        "lines": 110,
+        "chars": 4263,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcp.d.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcp.spec.ts",
+        "lines": 248,
+        "chars": 11515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcp.spec.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcpify.js",
+        "lines": 251,
+        "chars": 9974,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcpify.js:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcpify.ts",
+        "lines": 266,
+        "chars": 10563,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/webmcpify/templates/webmcpify.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/win-ocr/SKILL.md",
+    "relative_path": "development/win-ocr/SKILL.md",
+    "name": "win-ocr",
+    "frontmatter": {
+      "name": "win-ocr",
+      "category": "agentic-coder",
+      "title": "Win Ocr",
+      "description": "Script for Win Ocr operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "powershell",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2502,
+    "sha256": "cfe49714fd9ae56503a702312bc8da619d66f49e929fe4a53526bdadf572aa89",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

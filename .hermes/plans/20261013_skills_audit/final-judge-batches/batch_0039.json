@@ -1,0 +1,456 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/convert-groq-docs/SKILL.md",
+    "relative_path": "development/convert-groq-docs/SKILL.md",
+    "name": "convert-groq-docs",
+    "frontmatter": {
+      "name": "convert-groq-docs",
+      "category": "documentation",
+      "title": "Convert Groq Docs",
+      "description": "Script for Convert Groq Docs operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2565,
+    "sha256": "53404d798c0690678d4ebe87222b642c267351f2e7657a3a8e714a65d9fc33c6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/convert-pdf-to-md/SKILL.md",
+    "relative_path": "development/convert-pdf-to-md/SKILL.md",
+    "name": "convert-pdf-to-md",
+    "frontmatter": {
+      "name": "convert-pdf-to-md",
+      "category": "agentic-coder",
+      "title": "Convert Pdf To Md",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Converts PDF (.pdf) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .pdf file — even if they don''t say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a PDF report, paper, invoice, form, contract, or scanned document. Always run the bundled conversion script to produce Markdown first; do not attempt to parse PDF content directly or write ad-hoc extraction code. Also use this skill for batch requests involving a whole folder of PDF documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is silently skipped."
+    },
+    "has_frontmatter": true,
+    "lines": 169,
+    "chars": 7838,
+    "sha256": "5f3f423e1059d93413146fd02bb775f4d3724084958601a052d3c48606bd5221",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/SKILL.md",
+    "relative_path": "development/convert-plaintext-to-md/SKILL.md",
+    "name": "convert-plaintext-to-md",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Convert plain text files, notes, or unstructured content into well-formatted Markdown with proper headings, lists, code blocks, and structure",
+      "license": "MIT",
+      "metadata": [],
+      "name": "convert-plaintext-to-md",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Convert Plaintext to Markdown",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 601,
+    "chars": 19969,
+    "sha256": "2b968c7600d0dd4a54e10eb294864544dec9e3329fd216fb8a53e32f08eeb37a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/code-block-detection.md",
+        "lines": 58,
+        "chars": 1643,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/code-block-detection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/conversion-patterns.md",
+        "lines": 93,
+        "chars": 3354,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/conversion-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/heading-hierarchy.md",
+        "lines": 52,
+        "chars": 1727,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/heading-hierarchy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/verification-patterns.md",
+        "lines": 89,
+        "chars": 2831,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/references/verification-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/templates/workflow.md",
+        "lines": 15,
+        "chars": 145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/convert-plaintext-to-md/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/copilot-mcp-server/SKILL.md",
+    "relative_path": "development/copilot-mcp-server/SKILL.md",
+    "name": "copilot-mcp-server",
+    "frontmatter": {
+      "name": "copilot-mcp-server",
+      "category": "agentic-coder",
+      "title": "Copilot Mcp Server",
+      "description": "Sets up Copilot MCP server integration",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "copilot",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2585,
+    "sha256": "f1d7a413748dcdcfa9d81736ebaff9b9c60b8bb22ad5235fee51ae9bc21e5776",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/create-agentsmd/SKILL.md",
+    "relative_path": "development/create-agentsmd/SKILL.md",
+    "name": "create-agentsmd",
+    "frontmatter": {
+      "name": "create-agentsmd",
+      "category": "agentic-coder",
+      "title": "Create Agentsmd",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prompt for generating an AGENTS.md file for a repository"
+    },
+    "has_frontmatter": true,
+    "lines": 288,
+    "chars": 8829,
+    "sha256": "05f55733ff30342bf824ca6b8da538f519820731fc9beec09a6a0ecf41958e43",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/references/codebase-agents-md-method.md",
+        "lines": 49,
+        "chars": 2685,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/references/codebase-agents-md-method.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/references/overview.md",
+        "lines": 38,
+        "chars": 948,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/templates/agents-md-template.md",
+        "lines": 44,
+        "chars": 1625,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/templates/agents-md-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/templates/template.md",
+        "lines": 13,
+        "chars": 136,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-agentsmd/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/create-llms/SKILL.md",
+    "relative_path": "development/create-llms/SKILL.md",
+    "name": "create-llms",
+    "frontmatter": {
+      "name": "create-llms",
+      "category": "agentic-coder",
+      "title": "Create Llms",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/"
+    },
+    "has_frontmatter": true,
+    "lines": 249,
+    "chars": 8259,
+    "sha256": "9b5990084a730a8817c66f5b810e0ca7f202ca97bfe3e51ad8156ef849e643bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/create-readme/SKILL.md",
+    "relative_path": "development/create-readme/SKILL.md",
+    "name": "create-readme",
+    "frontmatter": {
+      "name": "create-readme",
+      "category": "agentic-coder",
+      "title": "Create Readme",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a README.md file for the project"
+    },
+    "has_frontmatter": true,
+    "lines": 60,
+    "chars": 2301,
+    "sha256": "3152ece431bd97796bc898a3dc6cb5e12e4ae527b5dc187ae8a33db52539819a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-readme/references/overview.md",
+        "lines": 19,
+        "chars": 356,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-readme/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-readme/templates/workflow.md",
+        "lines": 15,
+        "chars": 135,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/create-readme/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  }
+]

@@ -1,0 +1,409 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/server-bootstrap/SKILL.md",
+    "relative_path": "development/server-bootstrap/SKILL.md",
+    "name": "server-bootstrap",
+    "frontmatter": {
+      "name": "server-bootstrap",
+      "category": "agentic-coder",
+      "title": "Server Bootstrap",
+      "description": "Script for Server Bootstrap operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 2728,
+    "sha256": "2c246b9a65373eb7f35687caf8ef6375e36b9bd3e293b6e6e6bf16b8e4a98be8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/session-audit-227-cjs/SKILL.md",
+    "relative_path": "development/session-audit-227-cjs/SKILL.md",
+    "name": "session-audit-227-cjs",
+    "frontmatter": {
+      "name": "session-audit-227-cjs",
+      "category": "audit",
+      "title": "Session Audit 227",
+      "description": "Session audit script for Hermes sessions",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "audit",
+        "sessions",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 3049,
+    "sha256": "05c46854386f7e677b55aaf10c065ef9887383774f71d2e079d41827b4808471",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/session-audit-227-cjs/references/overview.md",
+        "lines": 16,
+        "chars": 400,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/session-audit-227-cjs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/session-audit-227-cjs/templates/template.md",
+        "lines": 18,
+        "chars": 157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/session-audit-227-cjs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/setup-cto/SKILL.md",
+    "relative_path": "development/setup-cto/SKILL.md",
+    "name": "setup-cto",
+    "frontmatter": {
+      "name": "setup-cto",
+      "category": "agentic-coder",
+      "title": "Setup Cto",
+      "description": "Script for Setup Cto operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2475,
+    "sha256": "1c9af0ad3867d8100ce3948ed3e87d64fb99e11edb35d89771926bbf76464d1d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/setup-integrations/SKILL.md",
+    "relative_path": "development/setup-integrations/SKILL.md",
+    "name": "setup-integrations",
+    "frontmatter": {
+      "name": "setup-integrations",
+      "category": "agentic-coder",
+      "title": "Setup Integrations",
+      "description": "Script for Setup Integrations operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2565,
+    "sha256": "33aaa8bd734b98b0061eb770471ff3bc98c22bf57ab3d91f63c6818c297e6156",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ship-this-idea/SKILL.md",
+    "relative_path": "development/ship-this-idea/SKILL.md",
+    "name": "ship-this-idea",
+    "frontmatter": {
+      "name": "ship-this-idea",
+      "category": "agentic-coder",
+      "title": "Ship This Idea",
+      "description": "Script for Ship This Idea operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 2708,
+    "sha256": "39b4baedf4ae992710a523394a223a37cb169785cf829f367e8b6f9cd36b4fac",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/simplify/SKILL.md",
+    "relative_path": "development/simplify/SKILL.md",
+    "name": "simplify",
+    "frontmatter": {
+      "name": "simplify",
+      "description": "Remove duplicate agent definitions, prompt definitions, and consolidate workspace structure. Use during cleanup phases to deduplicate and compact configuration.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "deduplication",
+        "cleanup",
+        "consolidation",
+        "simplify"
+      ],
+      "title": "Simplify"
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 4298,
+    "sha256": "ba01d9369f8433c3652e35d4e547b3573bdee45304012edacab7d7d7cc64c502",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/simplify/references/deduplication-pattern.md",
+        "lines": 56,
+        "chars": 1530,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/simplify/references/deduplication-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/simplify/references/hermes-artifact-dedup.md",
+        "lines": 47,
+        "chars": 2550,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/simplify/references/hermes-artifact-dedup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/skill-audit/SKILL.md",
+    "relative_path": "development/skill-audit/SKILL.md",
+    "name": "skill-audit",
+    "frontmatter": {
+      "name": "skill-audit",
+      "category": "audit",
+      "title": "Skill Audit",
+      "description": "Script for skill audit",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2507,
+    "sha256": "f53d82e0ea63ce4721edeedaf923822535dcbe6d0167ec7dbc6c2b9c1baf1e59",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-audit/references/overview.md",
+        "lines": 29,
+        "chars": 510,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-audit/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-audit/templates/template.md",
+        "lines": 18,
+        "chars": 147,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-audit/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

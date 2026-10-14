@@ -1,0 +1,393 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-library-de-dup-and-backup-archive/SKILL.md",
+    "relative_path": "development/prompt-library-de-dup-and-backup-archive/SKILL.md",
+    "name": "prompt-library-de-dup-and-backup-archive",
+    "frontmatter": {
+      "name": "prompt-library-de-dup-and-backup-archive",
+      "category": "architecture",
+      "title": "Prompt Library De-Dup and Backup Archive",
+      "version": "1.0.0",
+      "date": "2026-09-13",
+      "author": "default (Alexa) / Hermes Agent",
+      "license": "MIT",
+      "tags": "[audit, de-dup, destructive, archive, prompts, multi-file-change-protocol]",
+      "related_skills": [],
+      "metadata": [],
+      "hermes": [],
+      "subgoal": "prompt-library-de-dup-and-backup-archive",
+      "artifacts": "[plan, spec, script, prompt, audit-md, audit-json, action-log]",
+      "destructive": "true (deletes .github/prompts_backup after audit verification)",
+      "description": "Use when running the prompt-library-de-dup-and-backup-archive workflow described in this skill."
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 3257,
+    "sha256": "fc82f6e061c9cbc473ab3f8e98f87569ef0aa539e755e39c7b8fbde4b838f6fe",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-optimizer/SKILL.md",
+    "relative_path": "development/prompt-optimizer/SKILL.md",
+    "name": "prompt-optimizer",
+    "frontmatter": {
+      "name": "prompt-optimizer",
+      "category": "agentic-coder",
+      "title": "Prompt Optimizer",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Turn any rough prompt, half-formed idea, or task description into a finished, ready-to-send prompt optimized for any LLM model inside a chat interface — NOT the API. Use this skill whenever the user wants to write, rewrite, optimize, improve, sharpen, or polish a prompt for chat. Trigger phrases include \"rewrite this prompt\", \"make this a better prompt\", \"optimize this prompt\", \"turn this into a prompt\", \"help me prompt this\", \"draft a prompt that...\", \"I want to ask...\", or whenever the user pastes a draft prompt and asks for improvements. Also trigger when the user describes a task they plan to send to an LLM model and clearly wants a reusable, well-structured prompt rather than a direct answer. The output is always a single, copy-pasteable prompt in a code block that the user sends as-is — never a template with placeholders."
+    },
+    "has_frontmatter": true,
+    "lines": 352,
+    "chars": 21229,
+    "sha256": "31b645da39e40bea2b2cf7cc12f5eb020119da8ac95853bbbb2e7e6487f1feee",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 36
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-repair-frontmatter/SKILL.md",
+    "relative_path": "development/prompt-repair-frontmatter/SKILL.md",
+    "name": "prompt-repair-frontmatter",
+    "frontmatter": {
+      "name": "prompt-repair-frontmatter",
+      "category": "agentic-coder",
+      "title": "Prompt Repair Frontmatter",
+      "description": "Performs repair-frontmatter on prompts",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2680,
+    "sha256": "0163699dccfb2209d6cfd8f6dcb9aa02d10c568d33d17da9b910cadd6daaf27d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-repair-frontmatter/references/overview.md",
+        "lines": 29,
+        "chars": 580,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-repair-frontmatter/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-repair-frontmatter/templates/template.md",
+        "lines": 18,
+        "chars": 161,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-repair-frontmatter/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/provider-executor-skill/SKILL.md",
+    "relative_path": "development/provider-executor-skill/SKILL.md",
+    "name": "provider-executor",
+    "frontmatter": {
+      "name": "provider-executor",
+      "category": "agentic-coder",
+      "title": "Provider Executor",
+      "description": "Run user requests against all authorized LLM providers non-interactively. Outputs results + provider metadata (context, max_output, capabilities).",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[providers, execution, noninteractive, hermes]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 68,
+    "chars": 1871,
+    "sha256": "45784161d51faf6bc5d9768fe7d52e14cb2dd92a9c2308f534c0aa5e8421015b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/publish-to-pages/SKILL.md",
+    "relative_path": "development/publish-to-pages/SKILL.md",
+    "name": "publish-to-pages",
+    "frontmatter": {
+      "name": "publish-to-pages",
+      "category": "agentic-coder",
+      "title": "Publish To Pages",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the live URL. Use when the user wants to publish, deploy, or share a presentation or HTML file via GitHub Pages."
+    },
+    "has_frontmatter": true,
+    "lines": 146,
+    "chars": 5506,
+    "sha256": "87460e3252433d2db275b4ec36fccaf5a1e3284b21dab2cd3c491be016a2ff5e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/publish-to-pages/scripts/convert-pdf.py",
+        "lines": 176,
+        "chars": 6759,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/publish-to-pages/scripts/convert-pdf.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/publish-to-pages/scripts/convert-pptx.py",
+        "lines": 376,
+        "chars": 13391,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/publish-to-pages/scripts/convert-pptx.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/publish-to-pages/scripts/publish.sh",
+        "lines": 51,
+        "chars": 1412,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/publish-to-pages/scripts/publish.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/purge-dead-keys/SKILL.md",
+    "relative_path": "development/purge-dead-keys/SKILL.md",
+    "name": "purge-dead-keys",
+    "frontmatter": {
+      "name": "purge-dead-keys",
+      "category": "agentic-coder",
+      "title": "Purge Dead Keys",
+      "description": "Script for Purge Dead Keys operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2545,
+    "sha256": "6bffc77f6ee12e3715bd734c8c71232d16d49ab2c2183f9ca752cb01c8a5755e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/pytest-coverage/SKILL.md",
+    "relative_path": "development/pytest-coverage/SKILL.md",
+    "name": "pytest-coverage",
+    "frontmatter": {
+      "name": "pytest-coverage",
+      "category": "agentic-coder",
+      "title": "Pytest Coverage",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%."
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 2100,
+    "sha256": "d97e610a78f1cff0191ffa6bb4cf7a4e5635c5fe19d8fc2b455e3a24233d4f17",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  }
+]

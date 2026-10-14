@@ -1,0 +1,737 @@
+[
+  {
+    "name": "AI Toolkit Inference Agent",
+    "id": "MSIX\\AIToolkit.Inference.Agent_1.1.0.0_x64__8wekyb3d8bbwe",
+    "version": "1.1.0.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "AnyDesk",
+    "id": "AnyDesk.AnyDesk",
+    "version": "ad 9.8.1",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "App Installer",
+    "id": "Microsoft.AppInstaller",
+    "version": "1.29.380.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "BatteryInfoView",
+    "id": "NirSoft.BatteryInfoView",
+    "version": "1.27",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "BleachBit",
+    "id": "BleachBit.BleachBit",
+    "version": "6.0.4.310",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Bonjour",
+    "id": "Apple.Bonjour",
+    "version": "3.1.0.1",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Brave",
+    "id": "ARP\\User\\X64\\BraveSoftware Brave-Browser",
+    "version": "155.1.97.56",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Bun",
+    "id": "ARP\\User\\X64\\Bun",
+    "version": "Unknown",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Command Palette",
+    "id": "MSIX\\Microsoft.CommandPalette_0.12.12365.0_x64__8wekyb3d8bbwe",
+    "version": "0.12.12365.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "direnv",
+    "id": "direnv.direnv",
+    "version": "2.37.1",
+    "available": "2.38.2",
+    "source": "winget"
+  },
+  {
+    "name": "ezwinports: make",
+    "id": "ezwinports.make",
+    "version": "4.4.1",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "FFmpeg",
+    "id": "ARP\\User\\X64\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe",
+    "version": "9.0.2",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "fzf",
+    "id": "junegunn.fzf",
+    "version": "0.74.4",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Git",
+    "id": "Git.Git",
+    "version": "2.55.0.5",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "GitHub",
+    "id": "ARP\\User\\X64\\47e9cf45a4d7303a3ea89ef0633f3ce3",
+    "version": "1.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "GitHub CLI",
+    "id": "GitHub.cli",
+    "version": "2.102.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "GNU Nano",
+    "id": "GNU.Nano",
+    "version": "2.7.5",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Google Chrome",
+    "id": "ARP\\Machine\\X86\\Google Chrome",
+    "version": "155.0.8059.40",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Google Drive",
+    "id": "Google.GoogleDrive",
+    "version": "132.0.0.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "HP Support Solutions Framework",
+    "id": "ARP\\Machine\\X86\\{A7E517B8-9FC5-4F3E-BFF5-EE5B2D38FCE1}",
+    "version": "13.0.1.131",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Ink.Handwriting.en-US.1.0",
+    "id": "MSIX\\Microsoft.Ink.Handwriting.en-US.1.0_0.1377.316.0_x64__8wekyb3d8bbwe",
+    "version": "0.1377.316.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Ink.Handwriting.en-US.1.0",
+    "id": "MSIX\\Microsoft.Ink.Handwriting.en-US.1.0_0.1377.316.0_x86__8wekyb3d8bbwe",
+    "version": "0.1377.316.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Intel(R) Graphics Software & Drivers",
+    "id": "ARP\\Machine\\X64\\Intel(R) Graphics Software & Drivers",
+    "version": "1.0.1315.7",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Intel(R) Wireless Bluetooth(R)",
+    "id": "ARP\\Machine\\X86\\{00000040-0230-1033-84C8-B8D95FA3C8C3}",
+    "version": "23.40.0.2",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Intel\u00ae Driver & Support Assistant",
+    "id": "Intel.IntelDriverAndSupportAssistant",
+    "version": "26.2.0.7",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "jq",
+    "id": "jqlang.jq",
+    "version": "1.8.2",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft .NET Runtime - 8.0.31 (x64)",
+    "id": "Microsoft.DotNet.Runtime.8",
+    "version": "8.0.31",
+    "available": "8.0.32",
+    "source": "winget"
+  },
+  {
+    "name": "Microsoft ASP.NET Core 8.0.31 - Shared Framework (x64)",
+    "id": "Microsoft.DotNet.AspNetCore.8",
+    "version": "8.0.31",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft ASP.NET Core 8.0.31 - Shared Framework (x86)",
+    "id": "Microsoft.DotNet.AspNetCore.8",
+    "version": "8.0.31",
+    "available": "8.0.32",
+    "source": "winget"
+  },
+  {
+    "name": "Microsoft Edge",
+    "id": "Microsoft.Edge",
+    "version": "155.0.4283.45",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Edge",
+    "id": "MSIX\\Microsoft.MicrosoftEdge.Stable_152.0.4191.53_neutral__8wekyb3d8bbwe",
+    "version": "152.0.4191.53",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Ink Handwriting Recognition (en-US)",
+    "id": "MSIX\\Microsoft.Ink.Handwriting.Main.en-US.1.0.1_0.1377.316.0_x64__8wekyb3d8bbwe",
+    "version": "0.1377.316.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Store",
+    "id": "MSIX\\Microsoft.WindowsStore_22608.1401.6.0_x64__8wekyb3d8bbwe",
+    "version": "22608.1401.6.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual C++ 2010",
+    "id": "x86 Redistributable - 10.0.40219",
+    "version": "Microsoft.VCRedist.2010.x86",
+    "available": "10.0.40219",
+    "source": "winget"
+  },
+  {
+    "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+    "id": "Microsoft.VCLibs.Desktop.14",
+    "version": "14.0.33728.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+    "id": "Microsoft.VCLibs.Desktop.14",
+    "version": "14.0.33728.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+    "id": "Microsoft.VCLibs.14",
+    "version": "14.0.33519.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+    "id": "Microsoft.VCLibs.14",
+    "version": "14.0.33519.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual C++ v14 Redistributable (x64) - 14.51.36247 Microsoft.VCRedist.2015+.x64",
+    "id": "14.51.36247.0",
+    "version": "winget",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual C++ v14 Redistributable (x86) - 14.51.36247 Microsoft.VCRedist.2015+.x86",
+    "id": "14.51.36247.0",
+    "version": "winget",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual Studio Code Insiders (User)",
+    "id": "Microsoft.VisualStudioCode.Insiders",
+    "version": "1.142.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Visual Studio Code Insiders CLI",
+    "id": "Microsoft.VisualStudioCode.Insiders.CLI",
+    "version": "1.127.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Windows Application Compatibility Fix Database",
+    "id": "ARP\\Machine\\X64\\{22221111-1111-1111-1111-111111111111}.sdb",
+    "version": "Unknown",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.31 (x64)",
+    "id": "Microsoft.DotNet.DesktopRuntime.8",
+    "version": "8.0.31",
+    "available": "8.0.32",
+    "source": "winget"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 8.0.31 (x86)",
+    "id": "Microsoft.DotNet.DesktopRuntime.8",
+    "version": "8.0.31",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime - 9.0.20 (x64)",
+    "id": "Microsoft.DotNet.DesktopRuntime.9",
+    "version": "9.0.20",
+    "available": "9.0.21",
+    "source": "winget"
+  },
+  {
+    "name": "Microsoft Windows Desktop Runtime 10.0.12 (x64)",
+    "id": "Microsoft.DotNet.DesktopRuntime.10",
+    "version": "10.0.12",
+    "available": "10.0.13",
+    "source": "winget"
+  },
+  {
+    "name": "Microsoft.UI.Xaml.2.8",
+    "id": "Microsoft.UI.Xaml.2.8",
+    "version": "8.2511.26001.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Microsoft.UI.Xaml.2.8",
+    "id": "Microsoft.UI.Xaml.2.8",
+    "version": "8.2501.31001.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "NVM for Windows 1.2.2",
+    "id": "CoreyButler.NVMforWindows",
+    "version": "1.2.2",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Outlook for Windows",
+    "id": "Microsoft.Outlook",
+    "version": "1.2026.915.300",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "PC Manager",
+    "id": "MSIX\\Microsoft.MicrosoftPCManager_3.22.4.0_x64__8wekyb3d8bbwe",
+    "version": "3.22.4.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "PowerShell 7-x64",
+    "id": "Microsoft.PowerShell",
+    "version": "7.6.6.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "PowerToys (Preview) x64",
+    "id": "Microsoft.PowerToys",
+    "version": "0.101.2362.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "PowerToys FileLocksmith Context Menu",
+    "id": "MSIX\\Microsoft.PowerToys.FileLocksmithContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe",
+    "version": "0.101.2362.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "PowerToys ImageResizer Context Menu",
+    "id": "MSIX\\Microsoft.PowerToys.ImageResizerContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe",
+    "version": "0.101.2362.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "PowerToys PowerRename Context Menu",
+    "id": "MSIX\\Microsoft.PowerToys.PowerRenameContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe",
+    "version": "0.101.2362.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "PowerToys.SparseApp",
+    "id": "MSIX\\Microsoft.PowerToys.SparseApp_0.101.2362.0_neutral__8wekyb3d8bbwe",
+    "version": "0.101.2362.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Python 3.14.7 (64-bit)",
+    "id": "Python.Python.3.14",
+    "version": "3.14.7",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Python Install Manager",
+    "id": "MSIX\\PythonSoftwareFoundation.PythonManager_26.4.240.0_x64__qbz5n2kfra8p0",
+    "version": "26.4.240.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Python Launcher",
+    "id": "Python.Launcher",
+    "version": "3.14.7",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "RipGrep MSVC",
+    "id": "BurntSushi.ripgrep.MSVC",
+    "version": "15.2.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "ShellCheck",
+    "id": "koalaman.shellcheck",
+    "version": "0.11.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Tailscale",
+    "id": "Tailscale.Tailscale",
+    "version": "1.102.4",
+    "available": "1.104.1",
+    "source": "winget"
+  },
+  {
+    "name": "TypeScript SDK 5.9.2.0",
+    "id": "Microsoft.VisualStudio.Extensions.TypeScript",
+    "version": "> 4.3",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "uv",
+    "id": "astral-sh.uv",
+    "version": "0.12.23",
+    "available": "0.13.0",
+    "source": "winget"
+  },
+  {
+    "name": "Visual Studio Code - Insiders",
+    "id": "MSIX\\Microsoft.VisualStudioCodeInsiders_1.0.142.0_neutral__8wekyb3d8bbwe",
+    "version": "1.0.142.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "VLC media player",
+    "id": "VideoLAN.VLC",
+    "version": "3.0.24",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "VP9 Video Extensions",
+    "id": "MSIX\\Microsoft.VP9VideoExtensions_1.2.20.0_x64__8wekyb3d8bbwe",
+    "version": "1.2.20.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "which",
+    "id": "allankoechke.which",
+    "version": "1.0.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WinAppRuntime.Main.1.8",
+    "id": "MSIX\\MicrosoftCorporationII.WinAppRuntime.Main.1.8_8000.994.2142.0_x64__8wekyb3d8bbwe",
+    "version": "8000.994.2142.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "WinAppRuntime.Singleton",
+    "id": "MSIX\\MicrosoftCorporationII.WinAppRuntime.Singleton_8002.5.1.0_x64__8wekyb3d8bbwe",
+    "version": "8002.5.1.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows App Runtime DDLM 8000.675.1142.0-x6",
+    "id": "MSIX\\Microsoft.WinAppRuntime.DDLM.8000.675.1142.0-x6_8000.675.1142.0_x64__8wekyb3d8bbwe 8000.675.1142.0",
+    "version": "",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows App Runtime DDLM 8000.675.1142.0-x8",
+    "id": "MSIX\\Microsoft.WinAppRuntime.DDLM.8000.675.1142.0-x8_8000.675.1142.0_x86__8wekyb3d8bbwe 8000.675.1142.0",
+    "version": "",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows App Runtime DDLM 8000.770.947.0-x6",
+    "id": "MSIX\\Microsoft.WinAppRuntime.DDLM.8000.770.947.0-x6_8000.770.947.0_x64__8wekyb3d8bbwe",
+    "version": "8000.770.947.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows App Runtime DDLM 8000.770.947.0-x8",
+    "id": "MSIX\\Microsoft.WinAppRuntime.DDLM.8000.770.947.0-x8_8000.770.947.0_x86__8wekyb3d8bbwe",
+    "version": "8000.770.947.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows Application Compatibility Enhancements",
+    "id": "MSIX\\Microsoft.ApplicationCompatibilityEnhancements_1.2511.9.0_x64__8wekyb3d8bbwe",
+    "version": "1.2511.9.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows ML Runtime Intel OpenVINO Execution Provider 1.8",
+    "id": "MSIX\\MicrosoftCorporationII.WinML.Intel.OpenVINO.EP.1.8_1.8.95.0_x64__8wekyb3d8bbwe",
+    "version": "1.8.95.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows Package Manager Source (winget) V2",
+    "id": "MSIX\\Microsoft.Winget.Source_2026.1013.2208.33_neutral__8wekyb3d8bbwe",
+    "version": "2026.1013.2208.33",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows Package Manager Source (winget-font) V2",
+    "id": "MSIX\\Microsoft.Winget.Fonts.Source_2025.1016.311.49_neutral__8wekyb3d8bbwe",
+    "version": "2025.1016.311.49",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows Security",
+    "id": "MSIX\\Microsoft.SecHealthUI_1000.29628.1000.0_x64__8wekyb3d8bbwe",
+    "version": "1000.29628.1000.0",
+    "available": "",
+    "source": ""
+  },
+  {
+    "name": "Windows Subsystem for Linux",
+    "id": "Microsoft.WSL",
+    "version": "2.7.13.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "Windows Terminal",
+    "id": "Microsoft.WindowsTerminal",
+    "version": "1.25.2733.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.5",
+    "id": "Microsoft.WindowsAppRuntime.1.5",
+    "version": "1.5.9",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.5",
+    "id": "Microsoft.WindowsAppRuntime.1.5",
+    "version": "1.5.9",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.7",
+    "id": "Microsoft.WindowsAppRuntime.1.7",
+    "version": "1.7.9",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.7",
+    "id": "Microsoft.WindowsAppRuntime.1.7",
+    "version": "1.7.9",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.7",
+    "id": "Microsoft.WindowsAppRuntime.1.7",
+    "version": "1.7.8",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.7",
+    "id": "Microsoft.WindowsAppRuntime.1.7",
+    "version": "1.7.7",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "> 1.8.10",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "> 1.8.10",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "> 1.8.10",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "> 1.8.10",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "1.8.10",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "1.8.9",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "1.8.8",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "1.8.7",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "1.8.6",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.1.8",
+    "id": "Microsoft.WindowsAppRuntime.1.8",
+    "version": "1.8.5",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.2",
+    "id": "Microsoft.WindowsAppRuntime.2",
+    "version": "2.5.1.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.2",
+    "id": "Microsoft.WindowsAppRuntime.2",
+    "version": "2.5.1.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.2",
+    "id": "Microsoft.WindowsAppRuntime.2",
+    "version": "2.4.0.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.2",
+    "id": "Microsoft.WindowsAppRuntime.2",
+    "version": "2.3.1.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.2",
+    "id": "Microsoft.WindowsAppRuntime.2",
+    "version": "2.3.0.0",
+    "available": "winget",
+    "source": ""
+  },
+  {
+    "name": "WindowsAppRuntime.2",
+    "id": "Microsoft.WindowsAppRuntime.2",
+    "version": "2.2.0.0",
+    "available": "winget",
+    "source": ""
+  }
+]

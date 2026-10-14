@@ -1,0 +1,415 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/update-avm-modules-in-bicep/SKILL.md",
+    "relative_path": "development/update-avm-modules-in-bicep/SKILL.md",
+    "name": "update-avm-modules-in-bicep",
+    "frontmatter": {
+      "name": "update-avm-modules-in-bicep",
+      "category": "agentic-coder",
+      "title": "Update Avm Modules In Bicep",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files."
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 3248,
+    "sha256": "00d7c4a41fc4dab86317990370d9f81ae1a862d0306b9b1af475d26ff2b317c1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/update-specification/SKILL.md",
+    "relative_path": "development/update-specification/SKILL.md",
+    "name": "update-specification",
+    "frontmatter": {
+      "name": "update-specification",
+      "category": "documentation",
+      "title": "Update Specification",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code."
+    },
+    "has_frontmatter": true,
+    "lines": 173,
+    "chars": 7046,
+    "sha256": "a1ceeb909f2e09dbf3509e10f22f1bea4c730e5a4e4371630c31f5b4f34feed1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/user-precompact/SKILL.md",
+    "relative_path": "development/user-precompact/SKILL.md",
+    "name": "user-precompact",
+    "frontmatter": {
+      "name": "user-precompact",
+      "category": "agentic-coder",
+      "title": "User Precompact",
+      "description": "Script for User Precompact operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2558,
+    "sha256": "10f78665055726382499b93e7cf870a0edf1802869db8c5dc6546bce4cd8abae",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/using-git-worktrees/SKILL.md",
+    "relative_path": "development/using-git-worktrees/SKILL.md",
+    "name": "using-git-worktrees",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "license": "MIT",
+      "metadata": [],
+      "name": "using-git-worktrees",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "git",
+        "worktrees",
+        "isolation",
+        "workspace",
+        "scripts"
+      ],
+      "title": "Using Git Worktrees",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 307,
+    "chars": 10766,
+    "sha256": "734b795f0bb484f1bf97b6d53c3f78b11bd9064d244e1e3b6c177711b75b72ce",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/using-git-worktrees/references/diverged-repo-merge.md",
+        "lines": 64,
+        "chars": 2510,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/using-git-worktrees/references/diverged-repo-merge.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/using-git-worktrees/templates/workflow.md",
+        "lines": 15,
+        "chars": 141,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/using-git-worktrees/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-prompt-inventory/SKILL.md",
+    "relative_path": "development/validate-prompt-inventory/SKILL.md",
+    "name": "validate-prompt-inventory",
+    "frontmatter": {
+      "name": "validate-prompt-inventory",
+      "category": "agentic-coder",
+      "title": "Validate Prompt Inventory",
+      "description": "Validates prompt inventory for correctness",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "validation",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2681,
+    "sha256": "e54ddb73280931ebdb1e30e8b4c998a424617d5be7caaf484a072ad5054334ef",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompt-inventory/references/overview.md",
+        "lines": 29,
+        "chars": 580,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompt-inventory/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-prompts/SKILL.md",
+    "relative_path": "development/validate-prompts/SKILL.md",
+    "name": "validate-prompts",
+    "frontmatter": {
+      "name": "validate-prompts",
+      "category": "agentic-coder",
+      "title": "Validate Prompts",
+      "description": "Validates prompts for correctness",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2577,
+    "sha256": "681251b26b34676d2f6d1d7d8fdb6c56119c0847e0227d0ee83d9551f1524e9b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompts/references/orphan-tag-fix.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompts/references/orphan-tag-fix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompts/references/overview.md",
+        "lines": 38,
+        "chars": 951,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompts/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompts/templates/template.md",
+        "lines": 13,
+        "chars": 137,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-prompts/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-services/SKILL.md",
+    "relative_path": "development/validate-services/SKILL.md",
+    "name": "validate-services",
+    "frontmatter": {
+      "name": "validate-services",
+      "category": "agentic-coder",
+      "title": "Validate Services",
+      "description": "Validates services for correctness",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2575,
+    "sha256": "8b72088e0016dbf3bb082addd3d426d75bd1b2f52e6703cebcb5ed2a99692794",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/breakdown-plan/SKILL.md",
+    "relative_path": "development/breakdown-plan/SKILL.md",
+    "name": "breakdown-plan",
+    "frontmatter": {
+      "name": "breakdown-plan",
+      "category": "documentation",
+      "title": "Breakdown Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking."
+    },
+    "has_frontmatter": true,
+    "lines": 548,
+    "chars": 16022,
+    "sha256": "38b754d1afb574c91811c658fa5d06b2ae755ddbb15fba71384e1c9c0e0cf2bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 36
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/breakdown-test/SKILL.md",
+    "relative_path": "development/breakdown-test/SKILL.md",
+    "name": "breakdown-test",
+    "frontmatter": {
+      "name": "breakdown-test",
+      "category": "agentic-coder",
+      "title": "Breakdown Test",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects."
+    },
+    "has_frontmatter": true,
+    "lines": 404,
+    "chars": 15934,
+    "sha256": "ae4ef5b915f10d458fb08d4eab5d248ace5424ed1e345f4561e5581be1896431",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 45
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/bug-reproduction-brief/SKILL.md",
+    "relative_path": "development/bug-reproduction-brief/SKILL.md",
+    "name": "bug-reproduction-brief",
+    "frontmatter": {
+      "name": "bug-reproduction-brief",
+      "category": "agentic-coder",
+      "title": "Bug Reproduction Brief",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Turn a vague, intermittent, or environment-specific bug report into a minimal evidence-backed reproduction before proposing a fix."
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 3946,
+    "sha256": "cfe1026bdd3d75c59b96e0fbaf6bcedb4d6ab056eee312a918fe1785f13bed6e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: platform fallback is unclear",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/build-env/SKILL.md",
+    "relative_path": "development/build-env/SKILL.md",
+    "name": "build-env",
+    "frontmatter": {
+      "name": "build-env",
+      "category": "agentic-coder",
+      "title": "Build Env",
+      "description": "Builds path mappings between script and skill locations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2509,
+    "sha256": "10e6ddec5656a0a4570b04b7f5adef9776d98dcbc65e30442b89a2801a064964",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/build-evidence-map/SKILL.md",
+    "relative_path": "development/build-evidence-map/SKILL.md",
+    "name": "build-evidence-map",
+    "frontmatter": {
+      "name": "build-evidence-map",
+      "category": "agentic-coder",
+      "title": "Build Evidence Map",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Build an auditable evidence map for a contested technical choice, research synthesis, proposal review, or consequential decision. Use when Copilot must preserve supporting, contradicting, qualifying, and missing evidence with exact source regions instead of collapsing disagreement into prose."
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 5677,
+    "sha256": "e716292d4fb76a8c6226fb63d0d12bb405d3497452f0dc7808890bad7820e6b7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 2
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/build-path-mapping/SKILL.md",
+    "relative_path": "development/build-path-mapping/SKILL.md",
+    "name": "build-path-mapping",
+    "frontmatter": {
+      "name": "build-path-mapping",
+      "category": "agentic-coder",
+      "title": "Build Path Mapping",
+      "description": "Builds path mappings between script and skill locations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2590,
+    "sha256": "86b7ffdc62872fd4a69dd5415bbb4a92e4ccbdd6550d85c0a33a0ee635de52d4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/build-path-mapping/references/overview.md",
+        "lines": 29,
+        "chars": 545,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/build-path-mapping/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/build-path-mapping/templates/template.md",
+        "lines": 18,
+        "chars": 154,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/build-path-mapping/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/build-registry/SKILL.md",
+    "relative_path": "development/build-registry/SKILL.md",
+    "name": "build-registry",
+    "frontmatter": {
+      "name": "build-registry",
+      "category": "agentic-coder",
+      "title": "Build Registry",
+      "description": "Builds path mappings between script and skill locations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2554,
+    "sha256": "a69dd0096802d2838473f00b38335ecaf9672a46e95be033c5b71d82fe6dcc32",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

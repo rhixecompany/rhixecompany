@@ -1,0 +1,343 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/inspecting-hermes-desktop-dom/SKILL.md",
+    "relative_path": "software-development/inspecting-hermes-desktop-dom/SKILL.md",
+    "name": "inspecting-hermes-desktop-dom",
+    "frontmatter": {
+      "name": "inspecting-hermes-desktop-dom",
+      "category": "documentation",
+      "title": "Inspecting Hermes Desktop DOM",
+      "description": "Read the live Hermes desktop DOM/CSS over CDP.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 195,
+    "chars": 7476,
+    "sha256": "e09781da14b733bb0b2d8f54bdc031bebe129a6388096e3adc7487bd6daec4b6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 81,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/mindstudio-wrapper/SKILL.md",
+    "relative_path": "software-development/mindstudio-wrapper/SKILL.md",
+    "name": "mindstudio-wrapper",
+    "frontmatter": {
+      "author": "Hermes Assistant",
+      "description": "Composable wrapper skill for common MindStudio action patterns — text",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "mindstudio-wrapper",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Mindstudio Wrapper",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 330,
+    "chars": 11212,
+    "sha256": "d93acbb7cdee3f89892a65f7db2d8aa473d6dffc582e24742a9fa6fab3b0c760",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/mindstudio-wrapper/references/quick-reference.md",
+        "lines": 12,
+        "chars": 359,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/mindstudio-wrapper/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/multi-file-change-protocol/SKILL.md",
+    "relative_path": "software-development/multi-file-change-protocol/SKILL.md",
+    "name": "multi-file-change-protocol",
+    "frontmatter": {
+      "name": "multi-file-change-protocol",
+      "category": "software-development",
+      "title": "Multi-File Change Protocol Adapter",
+      "description": "Use when a legacy caller resolves the change protocol.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[workflow, multi-file, protocol, adapter]",
+      "status": "Deprecated",
+      "superseded_by": "development/multi-file-change-protocol",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 52,
+    "chars": 1747,
+    "sha256": "838ddb154f87c533d4ddca951f52a007b4afb8e974f3f7fe30c9240f800cd6c5",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/multi-file-crud-protocol/SKILL.md",
+    "relative_path": "software-development/multi-file-crud-protocol/SKILL.md",
+    "name": "multi-file-crud-protocol",
+    "frontmatter": {
+      "name": "multi-file-crud-protocol",
+      "category": "software-development",
+      "title": "Multi-File CRUD Protocol Adapter",
+      "description": "Use when a legacy caller resolves the CRUD protocol.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[workflow, multi-file, crud, protocol, adapter]",
+      "status": "Deprecated",
+      "superseded_by": "development/multi-file-crud-protocol",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 52,
+    "chars": 1770,
+    "sha256": "ab5273ab30fcd4acb269814fce364d26381dde5c0255bff0c875752e5c1bcdfb",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/node-inspect-debugger/SKILL.md",
+    "relative_path": "software-development/node-inspect-debugger/SKILL.md",
+    "name": "node-inspect-debugger",
+    "frontmatter": {
+      "name": "node-inspect-debugger",
+      "category": "software-development",
+      "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 320,
+    "chars": 11076,
+    "sha256": "b24f593178d02094399c22d4b63c15891c23d1adc9661faf075cbf5cdfac822c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no error-handling guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/nuget-manager/SKILL.md",
+    "relative_path": "software-development/nuget-manager/SKILL.md",
+    "name": "nuget-manager",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Nuget Manager.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "nuget-manager",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Nuget Manager",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 5805,
+    "sha256": "08651582790cd82be5ca3b89144788334f09d0cce9d4021d6fe27c051fb5eb1f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/opencode-driven-development/SKILL.md",
+    "relative_path": "software-development/opencode-driven-development/SKILL.md",
+    "name": "opencode-driven-development",
+    "frontmatter": {
+      "name": "opencode-driven-development",
+      "category": "dev-tools",
+      "title": "Opencode Driven Development",
+      "description": "Use OpenCode as a meta-subagent for heavy coding work. Offload engineering tasks to OMO's multi-agent harness so Hermes stays focused on planning, memory, and orchestration.",
+      "version": "2.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 316,
+    "chars": 11740,
+    "sha256": "312e713d0dccc2f7199797fef61b8c1b735f64bbdf46a22e6e0dd323fa29a792",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 34
+  }
+]

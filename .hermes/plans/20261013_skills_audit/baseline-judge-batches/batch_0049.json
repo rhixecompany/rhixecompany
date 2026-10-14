@@ -1,0 +1,408 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-fence-lang/SKILL.md",
+    "relative_path": "development/fix-fence-lang/SKILL.md",
+    "name": "fix-fence-lang",
+    "frontmatter": {
+      "name": "fix-fence-lang",
+      "category": "agentic-coder",
+      "title": "Fix Fence Lang",
+      "description": "Fixes fence lang issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2551,
+    "sha256": "deec4dfc54d738296c8dbfe757b3c06ddf3a92bd2ba57bf731606efdadf5a3f3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-frontmatter/SKILL.md",
+    "relative_path": "development/fix-frontmatter/SKILL.md",
+    "name": "fix-frontmatter",
+    "frontmatter": {
+      "name": "fix-frontmatter",
+      "category": "agentic-coder",
+      "title": "Fix Frontmatter",
+      "description": "Fixes frontmatter issues",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2564,
+    "sha256": "faeb63777c657b09079c4e399039012515ceb481771304e7095bdad072c6909a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter/references/overview.md",
+        "lines": 31,
+        "chars": 675,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-plan/SKILL.md",
+    "relative_path": "development/fix-frontmatter-plan/SKILL.md",
+    "name": "fix-frontmatter-plan",
+    "frontmatter": {
+      "name": "fix-frontmatter-plan",
+      "category": "documentation",
+      "title": "Fix Frontmatter Plan",
+      "description": "Fixes frontmatter plan issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2627,
+    "sha256": "f7037a13fe47df70f0e069b75a89b5cc699672c8e26d31b8dd52c159b17b9339",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml/SKILL.md",
+    "relative_path": "development/fix-frontmatter-yaml/SKILL.md",
+    "name": "fix-frontmatter-yaml",
+    "frontmatter": {
+      "name": "fix-frontmatter-yaml",
+      "category": "agentic-coder",
+      "title": "Fix Frontmatter Yaml",
+      "description": "Fixes frontmatter-yaml issues",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2637,
+    "sha256": "defe14217049d7f81b3300b2a8ba7182c6d45d2252d5c0cefd74341ee6ce91b6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml/references/overview.md",
+        "lines": 38,
+        "chars": 986,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml/templates/template.md",
+        "lines": 13,
+        "chars": 141,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml-cjs/SKILL.md",
+    "relative_path": "development/fix-frontmatter-yaml-cjs/SKILL.md",
+    "name": "fix-frontmatter-yaml-cjs",
+    "frontmatter": {
+      "name": "fix-frontmatter-yaml-cjs",
+      "category": "agentic-coder",
+      "title": "Fix Frontmatter Yaml",
+      "description": "Fixes frontmatter-yaml issues",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "remediation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 3082,
+    "sha256": "4ab28e4f98c82c187aa2668ec44fb71108fefde1b94343a92354aed0c58c2acc",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml-cjs/references/overview.md",
+        "lines": 16,
+        "chars": 403,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml-cjs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml-cjs/templates/template.md",
+        "lines": 18,
+        "chars": 160,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-frontmatter-yaml-cjs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-github-prompts/SKILL.md",
+    "relative_path": "development/fix-github-prompts/SKILL.md",
+    "name": "fix-github-prompts",
+    "frontmatter": {
+      "name": "fix-github-prompts",
+      "category": "agentic-coder",
+      "title": "Fix Github Prompts",
+      "description": "Fixes github prompts issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2603,
+    "sha256": "e38bc7f4f47e0a14ae88732a02b535c687606c60d0a47d29a3d1bf072bf40d85",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-github-prompts-inline-lists/SKILL.md",
+    "relative_path": "development/fix-github-prompts-inline-lists/SKILL.md",
+    "name": "fix-github-prompts-inline-lists",
+    "frontmatter": {
+      "name": "fix-github-prompts-inline-lists",
+      "category": "agentic-coder",
+      "title": "Fix Github Prompts Inline Lists",
+      "description": "Fixes github prompts inline lists issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2733,
+    "sha256": "08c7b60e79d0187e3036e598aebedc8c7f04a08dc52360351ecc435e826f5265",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

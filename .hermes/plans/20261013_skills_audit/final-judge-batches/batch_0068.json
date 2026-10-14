@@ -1,0 +1,509 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/package/SKILL.md",
+    "relative_path": "development/package/SKILL.md",
+    "name": "package",
+    "frontmatter": {
+      "name": "package",
+      "category": "agentic-coder",
+      "title": "Package",
+      "description": "Script for Package operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2476,
+    "sha256": "07a59428c46847dcc510d701f442a423d05cf44a849489396f95f6838c8937eb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/package-lock/SKILL.md",
+    "relative_path": "development/package-lock/SKILL.md",
+    "name": "package-lock",
+    "frontmatter": {
+      "name": "package-lock",
+      "category": "agentic-coder",
+      "title": "Package Lock",
+      "description": "Script for Package Lock operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2536,
+    "sha256": "02e88a8c04743d82ef09ea255354cd40e462d56ddc09f65a07822c9edc0a6099",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/patch-all-fail-sections/SKILL.md",
+    "relative_path": "development/patch-all-fail-sections/SKILL.md",
+    "name": "patch-all-fail-sections",
+    "frontmatter": {
+      "name": "patch-all-fail-sections",
+      "category": "agentic-coder",
+      "title": "Patch All Fail Sections",
+      "description": "Patches all fail sections in skill files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2636,
+    "sha256": "4fa76c0d2beafcf58e12fa436cfc829483264228c40d832cbbf256d8172ee3ac",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-all-fail-sections/references/overview.md",
+        "lines": 29,
+        "chars": 570,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-all-fail-sections/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-all-fail-sections/templates/template.md",
+        "lines": 18,
+        "chars": 159,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-all-fail-sections/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/patch-fail-structure/SKILL.md",
+    "relative_path": "development/patch-fail-structure/SKILL.md",
+    "name": "patch-fail-structure",
+    "frontmatter": {
+      "name": "patch-fail-structure",
+      "category": "agentic-coder",
+      "title": "Patch Fail Structure",
+      "description": "Patches fail structure in skill files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2606,
+    "sha256": "fac2a2ea000d3c5bd533ab6dedd0ba896b47f90d246cc490cf6b182d51b72360",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-fail-structure/references/overview.md",
+        "lines": 29,
+        "chars": 555,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-fail-structure/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-fail-structure/templates/template.md",
+        "lines": 18,
+        "chars": 156,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/patch-fail-structure/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/paypal-getting-started/SKILL.md",
+    "relative_path": "development/paypal-getting-started/SKILL.md",
+    "name": "paypal-getting-started",
+    "frontmatter": {
+      "name": "paypal-getting-started",
+      "category": "agentic-coder",
+      "title": "How to Get Started with PayPal",
+      "description": "Use when guiding users through PayPal sign-up and first use — covers account type selection, login creation, personal info, card linking, email/mobile verification, and key benefits.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[paypal, getting-started, signup, onboarding, payments, digital-wallet]"
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 4849,
+    "sha256": "458deba85e59ea49e7a2bea8a1f4a8b53bb4d339fd41f33dab26b4c6fd8eedda",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/paypal-getting-started/references/paypal-getting-started-patterns.md",
+        "lines": 58,
+        "chars": 1146,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paypal-getting-started/references/paypal-getting-started-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paypal-getting-started/references/paypal-sdk-patterns.md",
+        "lines": 62,
+        "chars": 1354,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paypal-getting-started/references/paypal-sdk-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/paystack-dev-docs/SKILL.md",
+    "relative_path": "development/paystack-dev-docs/SKILL.md",
+    "name": "paystack-dev-docs",
+    "frontmatter": {
+      "name": "paystack-dev-docs",
+      "category": "dev-tools",
+      "title": "Paystack Developer Documentation",
+      "description": "Use when integrating Paystack API — covers quick start (initialize transaction, verify payment), transfer recipients, transfers, identity verification, developer tools (libraries, no-code), webhooks, and demo projects.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[paystack, api, payments, transfers, identity, webhooks, sdk, developer, africa]"
+    },
+    "has_frontmatter": true,
+    "lines": 220,
+    "chars": 6902,
+    "sha256": "4d1030874ec9b69591de9379a3a765275507fa822e9890c2f26e20954d82d452",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-dev-docs/references/paystack-patterns.md",
+        "lines": 77,
+        "chars": 1966,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-dev-docs/references/paystack-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 10,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/SKILL.md",
+    "relative_path": "development/paystack-getting-started/SKILL.md",
+    "name": "paystack-getting-started",
+    "frontmatter": {
+      "name": "paystack-getting-started",
+      "category": "agentic-coder",
+      "title": "Getting Started with Paystack",
+      "description": "Use when onboarding to Paystack for accepting payments — covers account creation, KYB compliance, integration options (no-code, low-code, pro-code), and features.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[paystack, payments, africa, onboarding, kyb, integration, invoices, recurring]"
+    },
+    "has_frontmatter": true,
+    "lines": 120,
+    "chars": 3382,
+    "sha256": "988dba9ab782dcbea20be4c7d8b34d417ada3bcb337484f199785bd8bb3d21c9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-compliance.md",
+        "lines": 40,
+        "chars": 1283,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-compliance.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-dashboard-guide.md",
+        "lines": 41,
+        "chars": 1109,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-dashboard-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-error-handling.md",
+        "lines": 108,
+        "chars": 2775,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-error-handling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-integration-patterns.md",
+        "lines": 48,
+        "chars": 1317,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-integration-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-patterns.md",
+        "lines": 96,
+        "chars": 2989,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-webhooks.md",
+        "lines": 51,
+        "chars": 1521,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/references/paystack-webhooks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/templates/paystack-integration-checklist.md",
+        "lines": 37,
+        "chars": 1134,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/templates/paystack-integration-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/scripts/paystack-test-transaction.py",
+        "lines": 56,
+        "chars": 1800,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/paystack-getting-started/scripts/paystack-test-transaction.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-frontmatter-normalization/SKILL.md",
+    "relative_path": "development/verify-frontmatter-normalization/SKILL.md",
+    "name": "verify-frontmatter-normalization",
+    "frontmatter": {
+      "name": "verify-frontmatter-normalization",
+      "category": "agentic-coder",
+      "title": "Verify Frontmatter Normalization",
+      "description": "Verifies frontmatter correctness across skill files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2743,
+    "sha256": "3a4dc5aaf9a8ec38a6269d7131ce39977276b0a6604ccede2e3ca0bef2571773",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-phase3/SKILL.md",
+    "relative_path": "development/verify-phase3/SKILL.md",
+    "name": "verify-phase3",
+    "frontmatter": {
+      "name": "verify-phase3",
+      "category": "agentic-coder",
+      "title": "Verify Phase3",
+      "description": "Script for Verify Phase3 operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2540,
+    "sha256": "fc92d3886760edd4987a2dff2c194654025a0a62c46d84b00ee59f6930213db2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-prompt-library/SKILL.md",
+    "relative_path": "development/verify-prompt-library/SKILL.md",
+    "name": "verify-prompt-library",
+    "frontmatter": {
+      "name": "verify-prompt-library",
+      "category": "agentic-coder",
+      "title": "Verify Prompt Library",
+      "description": "Script for Verify Prompt Library operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2632,
+    "sha256": "fd6065c4edce48690fdd73cc3dfe49de4cd1daa167348636b8d7fced420b0e69",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-sync/SKILL.md",
+    "relative_path": "development/verify-sync/SKILL.md",
+    "name": "verify-sync",
+    "frontmatter": {
+      "name": "verify-sync",
+      "category": "agentic-coder",
+      "title": "Verify Sync",
+      "description": "Script for Verify Sync operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2520,
+    "sha256": "75d49a0d493e0c1d18642a1c22a6bffddc061356fd2613c6bc76eda0ec7e5fe5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-templates-after-create/SKILL.md",
+    "relative_path": "development/verify-templates-after-create/SKILL.md",
+    "name": "verify-templates-after-create",
+    "frontmatter": {
+      "name": "verify-templates-after-create",
+      "category": "agentic-coder",
+      "title": "Verify Templates After Create",
+      "description": "Script for Verify Templates After Create operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2700,
+    "sha256": "0de4ad5af7f4b3eae8a568344a4798b8b7f4faca040aa279ce6211747ad43dcc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vision-fallback/SKILL.md",
+    "relative_path": "development/vision-fallback/SKILL.md",
+    "name": "vision-fallback",
+    "frontmatter": {
+      "name": "vision-fallback",
+      "category": "agentic-coder",
+      "title": "Vision Fallback",
+      "description": "Script for Vision Fallback operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2545,
+    "sha256": "2cb5d5beccc2dfc341f08fe9f883034244bde2610c0070dc076ab182611a4a11",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vscode-cli/SKILL.md",
+    "relative_path": "development/vscode-cli/SKILL.md",
+    "name": "vscode-cli",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when controlling Visual Studio Code Insiders from the `code-insiders` (or `code` where installed) command: launching, installing extensions, managing settings, debugging, and configuring the editor environment.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "vscode-cli",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "vscode",
+        "cli",
+        "editor",
+        "debugging",
+        "extensions",
+        "configuration",
+        "scripts"
+      ],
+      "title": "VS Code CLI",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 227,
+    "chars": 7006,
+    "sha256": "5d5eb3f03aec6d288bc7ec0e95514321b1bc460e090c96868205d53b266aa3b6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-cli/references/overview.md",
+        "lines": 10,
+        "chars": 1579,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-cli/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-cli/templates/template.md",
+        "lines": 32,
+        "chars": 689,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vscode-cli/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 28
+  }
+]

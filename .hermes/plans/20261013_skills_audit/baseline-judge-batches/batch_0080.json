@@ -1,0 +1,563 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/restore-repo-tables/SKILL.md",
+    "relative_path": "development/restore-repo-tables/SKILL.md",
+    "name": "restore-repo-tables",
+    "frontmatter": {
+      "name": "restore-repo-tables",
+      "category": "agentic-coder",
+      "title": "Restore Repo Tables",
+      "description": "Script for Restore Repo Tables operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2585,
+    "sha256": "3a49251d96a39e46340afa88e22fbc8acc4409ac0f84c2a796915122e6a95d28",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/review-and-refactor/SKILL.md",
+    "relative_path": "development/review-and-refactor/SKILL.md",
+    "name": "review-and-refactor",
+    "frontmatter": {
+      "name": "review-and-refactor",
+      "category": "agentic-coder",
+      "title": "Review And Refactor",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Review and refactor code in your project according to defined instructions"
+    },
+    "has_frontmatter": true,
+    "lines": 54,
+    "chars": 1752,
+    "sha256": "47c37b8b1c9cf1da7adc9a2c149e4b33329a96778ffc84249efefe5e4ac49f3d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/review-pending-skills/SKILL.md",
+    "relative_path": "development/review-pending-skills/SKILL.md",
+    "name": "review-pending-skills",
+    "frontmatter": {
+      "name": "review-pending-skills",
+      "category": "agentic-coder",
+      "title": "Review Pending Skills",
+      "description": "Script for Review Pending Skills operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2616,
+    "sha256": "4a4d087a9326726267d60c11f69713d49c50696cc1f4e57b50b2b85f936430a3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/SKILL.md",
+    "relative_path": "development/reviewing-oracle-to-postgres-migration/SKILL.md",
+    "name": "reviewing-oracle-to-postgres-migration",
+    "frontmatter": {
+      "name": "reviewing-oracle-to-postgres-migration",
+      "category": "agentic-coder",
+      "title": "Reviewing Oracle To Postgres Migration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences (empty strings, refcursors, type coercion, sorting/collations, UNION ALL planner risks, materialized-view refresh requirements, timestamps, concurrent transactions, etc.). Use when planning a database migration, reviewing migration artifacts, or validating that integration tests cover Oracle/PostgreSQL differences."
+    },
+    "has_frontmatter": true,
+    "lines": 89,
+    "chars": 3827,
+    "sha256": "e6e49810284bbffdaac2f73cb688cc80bb61d83bf86e96f6eafc98c1513f62e4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/REFERENCE.md",
+        "lines": 18,
+        "chars": 2808,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/REFERENCE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/empty-strings-handling.md",
+        "lines": 69,
+        "chars": 2058,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/empty-strings-handling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/no-data-found-exceptions.md",
+        "lines": 99,
+        "chars": 2671,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/no-data-found-exceptions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-nvl-decode-functions.md",
+        "lines": 79,
+        "chars": 2398,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-nvl-decode-functions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-parentheses-from-clause.md",
+        "lines": 190,
+        "chars": 4948,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-parentheses-from-clause.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-rownum-pagination.md",
+        "lines": 75,
+        "chars": 2157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-rownum-pagination.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-sysdate-sequences-dual.md",
+        "lines": 86,
+        "chars": 3246,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-sysdate-sequences-dual.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-sorting.md",
+        "lines": 70,
+        "chars": 2719,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-sorting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-timestamp-timezone.md",
+        "lines": 187,
+        "chars": 8602,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-timestamp-timezone.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-to-char-numeric.md",
+        "lines": 145,
+        "chars": 4274,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-to-char-numeric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-type-coercion.md",
+        "lines": 182,
+        "chars": 5023,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/oracle-to-postgres-type-coercion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-concurrent-transactions.md",
+        "lines": 259,
+        "chars": 9608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-concurrent-transactions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-materialized-view-refresh.md",
+        "lines": 35,
+        "chars": 1406,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-materialized-view-refresh.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-refcursor-handling.md",
+        "lines": 148,
+        "chars": 5784,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-refcursor-handling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-union-all-planner.md",
+        "lines": 31,
+        "chars": 1626,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/reviewing-oracle-to-postgres-migration/references/postgres-union-all-planner.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/SKILL.md",
+    "relative_path": "development/rhino3d-scripts/SKILL.md",
+    "name": "rhino3d-scripts",
+    "frontmatter": {
+      "name": "rhino3d-scripts",
+      "category": "agentic-coder",
+      "title": "Rhino3D Scripts",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later). Use when asked to write RhinoScript (VBScript / .rvb / .vbs), RhinoPython, or RhinoCommon-based scripts; automate Rhino modeling tasks; build command macros; manipulate Rhino geometry, layers, blocks, or document objects; pick objects from the viewport; control redraw and undo; or load and run scripts from the Rhino Script Editor. Covers `rhinoscriptsyntax`, `scriptcontext`, the `Rhino.*` RhinoCommon namespaces (`Rhino.Geometry`, `Rhino.DocObjects`, `Rhino.Input`, `Rhino.UI`, `Rhino.Display`, `Rhino.FileIO`), and the Rhino 8 unified Script Editor."
+    },
+    "has_frontmatter": true,
+    "lines": 198,
+    "chars": 12513,
+    "sha256": "dc3d75b1d341f1a2f318cf9be2187f292a7825395ffe071c0def784e93293275",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/macros-and-loading.md",
+        "lines": 148,
+        "chars": 5093,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/macros-and-loading.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/rhinocommon-map.md",
+        "lines": 90,
+        "chars": 3832,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/rhinocommon-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/rhinoscriptsyntax-cheatsheet.md",
+        "lines": 108,
+        "chars": 3402,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/rhinoscriptsyntax-cheatsheet.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/vbscript-quirks.md",
+        "lines": 112,
+        "chars": 3306,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/rhino3d-scripts/references/vbscript-quirks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/roundup-setup/SKILL.md",
+    "relative_path": "development/roundup-setup/SKILL.md",
+    "name": "roundup-setup",
+    "frontmatter": {
+      "name": "roundup-setup",
+      "category": "agentic-coder",
+      "title": "Roundup Setup",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of updates you already write, answer a few questions, and roundup calibrates itself to your workflow."
+    },
+    "has_frontmatter": true,
+    "lines": 277,
+    "chars": 15644,
+    "sha256": "19ed9a5d4f6947258de6f98f1ed5073207912423af159e2cc77af4e9ce9985bb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/roundup-setup/references/config-template.md",
+        "lines": 145,
+        "chars": 4864,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/roundup-setup/references/config-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 12,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ruby-mcp-server-generator/SKILL.md",
+    "relative_path": "development/ruby-mcp-server-generator/SKILL.md",
+    "name": "ruby-mcp-server-generator",
+    "frontmatter": {
+      "name": "ruby-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Ruby Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem."
+    },
+    "has_frontmatter": true,
+    "lines": 699,
+    "chars": 15518,
+    "sha256": "88798f0de6b5f56dbf86fc35086f8a3ebc9205c94dfcebb29ec9b50cc91120bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/qa/audit-integrity/SKILL.md",
+    "relative_path": "qa/audit-integrity/SKILL.md",
+    "name": "audit-integrity",
+    "frontmatter": {
+      "name": "audit-integrity",
+      "category": "audit",
+      "title": "Audit Integrity",
+      "description": "Shared audit integrity framework for all AppSec agents — enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.",
+      "compatibility": "Cross-platform. Works with any language or framework analyzed by AppSec agents.",
+      "metadata": [],
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 73,
+    "chars": 4183,
+    "sha256": "dfc7e0a3080f3283e3d03e0ee5a0ece9cfd92c0c5da26933f3336dcbff11ec4e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/audit-judges-and-apply-rubric-fixes/SKILL.md",
+    "relative_path": "qa/audit-judges-and-apply-rubric-fixes/SKILL.md",
+    "name": "audit-judges-and-apply-rubric-fixes",
+    "frontmatter": {
+      "name": "audit-judges-and-apply-rubric-fixes",
+      "category": "audit",
+      "title": "Audit Hermes Judges and Apply Rubric Fixes",
+      "description": "Use when a judge score disagrees with manual review.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[qa, judge, audit, rubric]"
+    },
+    "has_frontmatter": true,
+    "lines": 104,
+    "chars": 3594,
+    "sha256": "1741e8abefc03bc00de03e35054e452a45fdbac4f67e1166b50cf5338de01ec2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/SKILL.md",
+    "relative_path": "qa/audit-skills-judge-fix/SKILL.md",
+    "name": "audit-skills-judge-fix",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "'Use for running the full skills audit pipeline: inventory, categorize,",
+      "license": "MIT",
+      "metadata": [
+        "skills",
+        "audit",
+        "judge",
+        "remediation",
+        "pipeline",
+        "dedup"
+      ],
+      "name": "audit-skills-judge-fix",
+      "tags": [],
+      "title": "Audit Skills Judge Fix",
+      "version": "2.1.0",
+      "category": "audit"
+    },
+    "has_frontmatter": true,
+    "lines": 291,
+    "chars": 13982,
+    "sha256": "4284287ef0e3470ee3bc9da2c84f0d668c886638614141668daf1371c0acaac6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/references/repair-official-workflow.md",
+        "lines": 35,
+        "chars": 1667,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/references/repair-official-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/scripts/boost_near_pass_refs.py",
+        "lines": 85,
+        "chars": 3908,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/scripts/boost_near_pass_refs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/scripts/patch_all_fail_sections.py",
+        "lines": 139,
+        "chars": 4243,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/scripts/patch_all_fail_sections.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/scripts/patch_fail_structure.py",
+        "lines": 86,
+        "chars": 3131,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/audit-skills-judge-fix/scripts/patch_fail_structure.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 11,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/batch-skills-audit/SKILL.md",
+    "relative_path": "qa/batch-skills-audit/SKILL.md",
+    "name": "batch-skills-audit",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Batch skill quality audit pipeline. Runs skill-judge on all local skills, generates aggregate report with scores, identifies failing skills, and optionally runs auto-remediation.",
+      "license": "MIT",
+      "metadata": [
+        "skill-judge",
+        "skill-creator",
+        "skills",
+        "batch-skills-remediation",
+        "skills",
+        "audit",
+        "batch",
+        "quality",
+        "pipeline"
+      ],
+      "name": "batch-skills-audit",
+      "category": "audit",
+      "tags": [],
+      "title": "Batch Skills Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 135,
+    "chars": 3802,
+    "sha256": "6cd64b95ecf02837f5595fc6d6f66fff671b6dae59c08a2f1e8865c6445bfb37",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/SKILL.md",
+    "relative_path": "qa/batch-skills-remediation/SKILL.md",
+    "name": "batch-skills-remediation",
+    "frontmatter": {
+      "name": "batch-skills-remediation",
+      "category": "agentic-coder",
+      "title": "Batch Skills Remediation",
+      "description": "Run the full skills audit-judge-remediate-rejudge pipeline on all Hermes skills. Use when improving skill quality scores across many skills at once.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, skills, audit, remediation, batch]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 266,
+    "chars": 14918,
+    "sha256": "c22809554ce4f94df3e099b71e6086a82f2a53a9b661bc6b49583e6aecbf302c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/execute-all-prompts-run.md",
+        "lines": 27,
+        "chars": 1437,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/execute-all-prompts-run.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/manual-deep-remediation.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/manual-deep-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/remediation-log.md",
+        "lines": 35,
+        "chars": 1704,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/remediation-log.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/script-wrapper-creation.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/script-wrapper-creation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/stub-detection-and-uninstall.md",
+        "lines": 71,
+        "chars": 3104,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/batch-skills-remediation/references/stub-detection-and-uninstall.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/boilerplate-stripper/SKILL.md",
+    "relative_path": "qa/boilerplate-stripper/SKILL.md",
+    "name": "boilerplate-stripper",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "'Strip known template boilerplate from SKILL.md, .prompts.md, or any",
+      "license": "MIT",
+      "name": "boilerplate-stripper",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Markdown Boilerplate Stripper",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 173,
+    "chars": 5711,
+    "sha256": "08ca18c1df7b3d1511f30e9df3c500a906412238b34e947d4efeb2fef5371520",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/boilerplate-stripper/references/boilerplate-patterns.md",
+        "lines": 86,
+        "chars": 2230,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/boilerplate-stripper/references/boilerplate-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/boilerplate-stripper/scripts/strip-boilerplate.py",
+        "lines": 231,
+        "chars": 8170,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/boilerplate-stripper/scripts/strip-boilerplate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/check/SKILL.md",
+    "relative_path": "qa/check/SKILL.md",
+    "name": "check",
+    "frontmatter": {
+      "name": "check",
+      "category": "agentic-coder",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Agent",
+      "argument-hint": "[verify | review]",
+      "description": "Use when verifying or reviewing a change before merge.",
+      "title": "Check",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[verification, review, acceptance, merge]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 93,
+    "chars": 5674,
+    "sha256": "502cb865b5ec446d68bf50aa812d0ad5b0a070b63bf2ee66d17a5457ec263243",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  }
+]

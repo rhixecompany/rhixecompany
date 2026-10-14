@@ -1,0 +1,387 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/8-bit-orbit-video-template/SKILL.md",
+    "relative_path": "creative/8-bit-orbit-video-template/SKILL.md",
+    "name": "8-bit-orbit-video-template",
+    "frontmatter": {
+      "name": "8-bit-orbit-video-template",
+      "category": "agentic-coder",
+      "title": "8 Bit Orbit Video Template",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|",
+      "triggers": [
+        "hyperframes video template",
+        "video template",
+        "pixel motion deck",
+        "retro presentation video",
+        "Hyperframes 模板",
+        "视频模板",
+        "像素风动效"
+      ],
+      "od": [
+        "template.html",
+        "example.html",
+        "file_write"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 97,
+    "chars": 2894,
+    "sha256": "0e3d2f2908ec178b3cafa1f4e0ec6b7cd41d734e745b55ce52995fa02f068e8f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/SKILL.md",
+    "relative_path": "creative/SKILL.md",
+    "name": "creative",
+    "frontmatter": {
+      "name": "creative",
+      "category": "agentic-coder",
+      "title": "Creative Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for creative — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1451,
+    "sha256": "6a24e1e28165dfeb3fb039832f78b3cf9eba85d97ddc97f29d8a9d296631f261",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/adobe-illustrator-scripting/SKILL.md",
+    "relative_path": "creative/adobe-illustrator-scripting/SKILL.md",
+    "name": "adobe-illustrator-scripting",
+    "frontmatter": {
+      "name": "adobe-illustrator-scripting",
+      "category": "agentic-coder",
+      "title": "Adobe Illustrator Scripting",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices."
+    },
+    "has_frontmatter": true,
+    "lines": 1043,
+    "chars": 35646,
+    "sha256": "038d264c8683b334896ee02fe3229e00db49d307e3519847490e34e4bf3a9095",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 79
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/SKILL.md",
+    "relative_path": "creative/algorithmic-art/SKILL.md",
+    "name": "algorithmic-art",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when creating algorithmic art with p5.js, generating flow fields,",
+      "license": "MIT",
+      "name": "algorithmic-art",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Algorithmic Art",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 114,
+    "chars": 3019,
+    "sha256": "1ab76951e2cec9916ece95b846e1d1e1b3db68801fc989ef3eb6eb75949b362f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/references/overview.md",
+        "lines": 19,
+        "chars": 362,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/templates/generator_template.js",
+        "lines": 223,
+        "chars": 7226,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/templates/generator_template.js:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/templates/viewer.html",
+        "lines": 675,
+        "chars": 18506,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/algorithmic-art/templates/viewer.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 8,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/anti-ui-slop/SKILL.md",
+    "relative_path": "creative/anti-ui-slop/SKILL.md",
+    "name": "anti-ui-slop",
+    "frontmatter": {
+      "name": "anti-ui-slop",
+      "category": "agentic-coder",
+      "title": "Anti Ui Slop",
+      "description": "Stop coding agents from shipping generic UI. Use UIZZE''s 800,000+ real web and iOS screens to build product-specific interfaces, define a design contract, cover required states, and run a hard finish gate. Use when designing, implementing, redesigning, critiquing, or pre-ship reviewing a web or iOS interface in Codex, Claude Code, Cursor, Copilot, or another coding agent. Trigger with \"anti-ui-slop\", \"stop UI slop\", \"ground this UI in real screens\", or \"run the UI finish gate\".",
+      "license": "MIT",
+      "metadata": [],
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 91,
+    "chars": 4052,
+    "sha256": "27c6e11a0313d257f42e34dae57a96144e24e968408e8768ab7346a4a8609589",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/architect/SKILL.md",
+    "relative_path": "creative/architect/SKILL.md",
+    "name": "architect",
+    "frontmatter": {
+      "name": "architect",
+      "category": "architecture",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion",
+      "description": "Use when a load bearing technical decision is unmade.",
+      "title": "Architect",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[architecture, trade-offs, specifications]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 246,
+    "chars": 29874,
+    "sha256": "b2fc5b710be157b7abc971f77062705d3a9c8a4236a60398f4ffbc4a617178cc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/architecture-diagram/SKILL.md",
+    "relative_path": "creative/architecture-diagram/SKILL.md",
+    "name": "architecture-diagram",
+    "frontmatter": {
+      "author": "Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent",
+      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "architecture-diagram",
+      "category": "architecture",
+      "tags": [],
+      "title": "Architecture Diagram",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 182,
+    "chars": 7116,
+    "sha256": "f0a2405776cca5ab4299ab07cc25c1a6474e414499429330b3aa9cdd32b3061e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/architecture-diagram/templates/template.html",
+        "lines": 319,
+        "chars": 12451,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/architecture-diagram/templates/template.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  }
+]

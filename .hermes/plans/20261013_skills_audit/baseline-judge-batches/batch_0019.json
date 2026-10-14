@@ -1,0 +1,979 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/html-artifact/SKILL.md",
+    "relative_path": "creative/html-artifact/SKILL.md",
+    "name": "html-artifact",
+    "frontmatter": {
+      "name": "html-artifact",
+      "category": "agentic-coder",
+      "author": "Anthropic (html-effectiveness gallery, MIT), adapted for Hermes Agent",
+      "description": "Build self-contained HTML files to explain, plan, or review.",
+      "license": "MIT",
+      "metadata": [
+        "claude-design",
+        "popular-web-designs",
+        "design-md",
+        "excalidraw",
+        "p5js",
+        "html",
+        "artifact",
+        "explainer",
+        "plan",
+        "report",
+        "code-review",
+        "diagram",
+        "svg",
+        "design",
+        "prototype",
+        "editor"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "title": "Html Artifact",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 232,
+    "chars": 12927,
+    "sha256": "d357ad138e95576b922cd357b3e9bde6794fda093473c42e35f36b5fdc159b0b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/.gitignore",
+        "lines": 3,
+        "chars": 152,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/.gitignore:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/concept-archetypes.md",
+        "lines": 94,
+        "chars": 4596,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/concept-archetypes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/dark-tech.md",
+        "lines": 92,
+        "chars": 3694,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/dark-tech.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/examples.md",
+        "lines": 64,
+        "chars": 4218,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/fidelity-and-verify.md",
+        "lines": 78,
+        "chars": 4302,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/fidelity-and-verify.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/house-style.md",
+        "lines": 179,
+        "chars": 7165,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/house-style.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/svg-diagrams.md",
+        "lines": 123,
+        "chars": 5111,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/svg-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/throwaway-editors.md",
+        "lines": 114,
+        "chars": 5508,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/references/throwaway-editors.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/templates/base.html",
+        "lines": 104,
+        "chars": 5608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/templates/base.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/templates/diagram.html",
+        "lines": 127,
+        "chars": 9056,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/templates/diagram.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/templates/editor.html",
+        "lines": 120,
+        "chars": 5045,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/templates/editor.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/scripts/fetch-examples.sh",
+        "lines": 43,
+        "chars": 1604,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/html-artifact/scripts/fetch-examples.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 77,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/humanizer/SKILL.md",
+    "relative_path": "creative/humanizer/SKILL.md",
+    "name": "humanizer",
+    "frontmatter": {
+      "author": "Siqi Chen (@blader, https://github.com/blader/humanizer), ported by Hermes",
+      "description": "Humanize text: strip AI-isms and add real voice.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "humanizer",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Humanizer",
+      "version": "2.5.1"
+    },
+    "has_frontmatter": true,
+    "lines": 635,
+    "chars": 31793,
+    "sha256": "b4fcaa56ed5e4388fa2003dfddb40b1036c312b5d739ca83ce6217aec7bc32b1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/humanizer/references/anti-patterns.md",
+        "lines": 107,
+        "chars": 6617,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/humanizer/references/anti-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/humanizer/references/patterns-reference.md",
+        "lines": 507,
+        "chars": 22251,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/humanizer/references/patterns-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 60
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/hyperframes/SKILL.md",
+    "relative_path": "creative/hyperframes/SKILL.md",
+    "name": "hyperframes",
+    "frontmatter": {
+      "name": "hyperframes",
+      "category": "agentic-coder",
+      "title": "Hyperframes",
+      "description": "Create HTML-based video compositions, animated title cards, social overlays, captioned talking-head videos, audio-reactive visuals, and shader transitions using HyperFrames. HTML is the source of truth for video. Use when the user wants a rendered MP4/WebM from an HTML composition, wants to animate text/logos/charts over media, needs captions synced to audio, wants TTS narration, or wants to convert a website into a video.",
+      "version": "1.0.0",
+      "author": "heygen-com",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "prerequisites": [],
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 230,
+    "chars": 15842,
+    "sha256": "99ac710cdcf69030301cd46e6a0e77711103f5c9f0f99815ac2f3207b67b5621",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/cli.md",
+        "lines": 185,
+        "chars": 8747,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/cli.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/composition.md",
+        "lines": 129,
+        "chars": 7713,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/composition.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/features.md",
+        "lines": 289,
+        "chars": 14180,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/features.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/gsap.md",
+        "lines": 136,
+        "chars": 5647,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/gsap.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/troubleshooting.md",
+        "lines": 137,
+        "chars": 5447,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/website-to-video.md",
+        "lines": 145,
+        "chars": 5189,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/references/website-to-video.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/scripts/setup.sh",
+        "lines": 135,
+        "chars": 5142,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/hyperframes/scripts/setup.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/image-annotations/SKILL.md",
+    "relative_path": "creative/image-annotations/SKILL.md",
+    "name": "image-annotations",
+    "frontmatter": {
+      "name": "image-annotations",
+      "category": "agentic-coder",
+      "title": "Image Annotations",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL. Includes rules for animated GIF annotations with timing and pacing."
+    },
+    "has_frontmatter": true,
+    "lines": 623,
+    "chars": 24423,
+    "sha256": "e5ffc9cc2f15cb5070bbbfa949d0ae3167b252dce39cd035080317eeaa4b4ddf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/image-manipulation-image-magick/SKILL.md",
+    "relative_path": "creative/image-manipulation-image-magick/SKILL.md",
+    "name": "image-manipulation-image-magick",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Process and manipulate images using ImageMagick. Supports resizing, format",
+      "license": "MIT",
+      "name": "image-manipulation-image-magick",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Image Manipulation Image Magick",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 307,
+    "chars": 8180,
+    "sha256": "1dc75953108fc09977ae4bad9a07fb6776f4780e67be67f89081436f34f621b6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/image-manipulation-image-magick/references/overview.md",
+        "lines": 11,
+        "chars": 221,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/image-manipulation-image-magick/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/SKILL.md",
+    "relative_path": "creative/kanban-video-orchestrator/SKILL.md",
+    "name": "kanban-video-orchestrator",
+    "frontmatter": {
+      "name": "kanban-video-orchestrator",
+      "category": "creative",
+      "description": "Plan and run multi-agent video production pipelines.",
+      "version": "1.0.0",
+      "author": "[SHL0MS, alt-glitch]",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 209,
+    "chars": 9712,
+    "sha256": "e8fff72be215d4aa93b9320beeb4300888f512f9d08ad0d539be94ed909963eb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/examples.md",
+        "lines": 227,
+        "chars": 10211,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/intake.md",
+        "lines": 166,
+        "chars": 7818,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/intake.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/kanban-setup.md",
+        "lines": 283,
+        "chars": 11028,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/kanban-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/monitoring.md",
+        "lines": 180,
+        "chars": 7430,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/monitoring.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/role-archetypes.md",
+        "lines": 300,
+        "chars": 12689,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/role-archetypes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/tool-matrix.md",
+        "lines": 299,
+        "chars": 13665,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/references/tool-matrix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py",
+        "lines": 499,
+        "chars": 18631,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/scripts/bootstrap_pipeline.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/scripts/monitor.py",
+        "lines": 195,
+        "chars": 6810,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/kanban-video-orchestrator/scripts/monitor.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/SKILL.md",
+    "relative_path": "creative/legacy-circuit-mockups/SKILL.md",
+    "name": "legacy-circuit-mockups",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "legacy-circuit-mockups",
+      "category": "agentic-coder",
+      "tags": [
+        "circuits",
+        "breadboard",
+        "electronics",
+        "retro",
+        "6502",
+        "canvas"
+      ],
+      "title": "Legacy Circuit Mockups",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 348,
+    "chars": 11745,
+    "sha256": "fa507553d8a98c37d64d02ea37bf28155c6ba8e0b612d5c4acec59a9869a391d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/28256-eeprom.md",
+        "lines": 190,
+        "chars": 4659,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/28256-eeprom.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/555.md",
+        "lines": 856,
+        "chars": 30100,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/555.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/6502.md",
+        "lines": 220,
+        "chars": 5780,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/6502.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/6522.md",
+        "lines": 210,
+        "chars": 5877,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/6522.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/6C62256.md",
+        "lines": 177,
+        "chars": 4207,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/6C62256.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/7400-series.md",
+        "lines": 177,
+        "chars": 4734,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/7400-series.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/assembly-compiler.md",
+        "lines": 258,
+        "chars": 4864,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/assembly-compiler.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/assembly-language.md",
+        "lines": 224,
+        "chars": 5359,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/assembly-language.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/basic-electronic-components.md",
+        "lines": 85,
+        "chars": 2773,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/basic-electronic-components.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/breadboard.md",
+        "lines": 210,
+        "chars": 4979,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/breadboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/common-breadboard-components.md",
+        "lines": 280,
+        "chars": 6538,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/common-breadboard-components.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/connecting-electronic-components.md",
+        "lines": 310,
+        "chars": 14848,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/connecting-electronic-components.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-28256-eeprom.md",
+        "lines": 245,
+        "chars": 5197,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-28256-eeprom.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-6502.md",
+        "lines": 249,
+        "chars": 5853,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-6502.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-6522.md",
+        "lines": 286,
+        "chars": 6698,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-6522.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-6C62256.md",
+        "lines": 231,
+        "chars": 4869,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-6C62256.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-lcd.md",
+        "lines": 266,
+        "chars": 5121,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/emulator-lcd.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/lcd.md",
+        "lines": 208,
+        "chars": 4975,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/lcd.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/minipro.md",
+        "lines": 211,
+        "chars": 4130,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/minipro.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/t48eeprom-programmer.md",
+        "lines": 174,
+        "chars": 4398,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/legacy-circuit-mockups/references/t48eeprom-programmer.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  }
+]

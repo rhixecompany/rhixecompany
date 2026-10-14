@@ -1,0 +1,408 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/SKILL.md",
+    "relative_path": "development/data-migration-scripts/SKILL.md",
+    "name": "data-migration-scripts",
+    "frontmatter": {
+      "name": "data-migration-scripts",
+      "category": "agentic-coder",
+      "title": "Data Migration Scripts",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 127,
+    "chars": 3911,
+    "sha256": "bbb6222febdfc38e61d8f6f6006b717dd90f85c3941768dcb4ee727ff5fe14df",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/alembic-migrations-pythonsqlalchemy.md",
+        "lines": 71,
+        "chars": 2050,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/alembic-migrations-pythonsqlalchemy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/cross-database-migration.md",
+        "lines": 76,
+        "chars": 2282,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/cross-database-migration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/knexjs-migrations-nodejs.md",
+        "lines": 91,
+        "chars": 2532,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/knexjs-migrations-nodejs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/large-data-migration-with-batching.md",
+        "lines": 115,
+        "chars": 2929,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/large-data-migration-with-batching.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/migration-validation.md",
+        "lines": 119,
+        "chars": 3032,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/migration-validation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/zero-downtime-migration-pattern.md",
+        "lines": 62,
+        "chars": 1525,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/references/zero-downtime-migration-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/templates/migration-template.sql",
+        "lines": 17,
+        "chars": 302,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/templates/migration-template.sql:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/scripts/validate-schema.sh",
+        "lines": 18,
+        "chars": 426,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-migration-scripts/scripts/validate-schema.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dataverse-python-advanced-patterns/SKILL.md",
+    "relative_path": "development/dataverse-python-advanced-patterns/SKILL.md",
+    "name": "dataverse-python-advanced-patterns",
+    "frontmatter": {
+      "name": "dataverse-python-advanced-patterns",
+      "category": "agentic-coder",
+      "title": "Dataverse Python Advanced Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques."
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 2173,
+    "sha256": "30b9712d2b98b772b2802ce3ef5fa605d89f88b0dcf9f490a080bae3edb7081c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dataverse-python-production-code/SKILL.md",
+    "relative_path": "development/dataverse-python-production-code/SKILL.md",
+    "name": "dataverse-python-production-code",
+    "frontmatter": {
+      "name": "dataverse-python-production-code",
+      "category": "agentic-coder",
+      "title": "Dataverse Python Production Code",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices"
+    },
+    "has_frontmatter": true,
+    "lines": 155,
+    "chars": 4660,
+    "sha256": "02bfc669f1c7b76ad23edd2e76aa2a66aedc960b896db7069f395e16e1ac10f1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dataverse-python-quickstart/SKILL.md",
+    "relative_path": "development/dataverse-python-quickstart/SKILL.md",
+    "name": "dataverse-python-quickstart",
+    "frontmatter": {
+      "name": "dataverse-python-quickstart",
+      "category": "agentic-coder",
+      "title": "Dataverse Python Quickstart",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns."
+    },
+    "has_frontmatter": true,
+    "lines": 53,
+    "chars": 1650,
+    "sha256": "241b5c9bbf14ded694de8be08bcfd71680a0b5db1d83953f98d3a07aeb999a86",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dataverse-python-usecase-builder/SKILL.md",
+    "relative_path": "development/dataverse-python-usecase-builder/SKILL.md",
+    "name": "dataverse-python-usecase-builder",
+    "frontmatter": {
+      "name": "dataverse-python-usecase-builder",
+      "category": "agentic-coder",
+      "title": "Dataverse Python Usecase Builder",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations"
+    },
+    "has_frontmatter": true,
+    "lines": 285,
+    "chars": 7741,
+    "sha256": "b7e2c498355b730cc5f082b185a79c9ccf805364a46bef35fc0286f483b87cd3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/debug/SKILL.md",
+    "relative_path": "development/debug/SKILL.md",
+    "name": "debug",
+    "frontmatter": {
+      "name": "debug",
+      "category": "audit",
+      "title": "Debug",
+      "description": "Use when a reproducible bug needs root cause analysis.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[debugging, root-cause, regression, evidence]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 6914,
+    "sha256": "5e04b122ba03a18644e526604357549727fd8693c86a76bfd57814d48848aef1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/declarative-agents/SKILL.md",
+    "relative_path": "development/declarative-agents/SKILL.md",
+    "name": "declarative-agents",
+    "frontmatter": {
+      "name": "declarative-agents",
+      "category": "agentic-coder",
+      "title": "Declarative Agents",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration"
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 5307,
+    "sha256": "2fbc0ef702ef003bda9d5193e6aa2696e6d3010ef1f9fcfe806cac465a397f7f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  }
+]

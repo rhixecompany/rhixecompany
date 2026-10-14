@@ -1,0 +1,366 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/-verify-and-dedupe/SKILL.md",
+    "relative_path": "development/-verify-and-dedupe/SKILL.md",
+    "name": "-verify-and-dedupe",
+    "frontmatter": {
+      "name": "-verify-and-dedupe",
+      "category": "agentic-coder",
+      "title": "Verify And Dedupe",
+      "description": "Script for Verify And Dedupe operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "organization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2603,
+    "sha256": "82be58885901e3f53675a46dbc19d4c6caf0be7d6b0c6726e3c64b8e70af020b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/SKILL.md",
+    "relative_path": "development/SKILL.md",
+    "name": "development",
+    "frontmatter": {
+      "name": "development",
+      "category": "dev-tools",
+      "title": "Development Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for development — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1462,
+    "sha256": "0068cf84a63eb337bf55a184fc16addf605f44c26b0d20000e756597a612545d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/acquire-codebase-knowledge/SKILL.md",
+    "relative_path": "development/acquire-codebase-knowledge/SKILL.md",
+    "name": "acquire-codebase-knowledge",
+    "frontmatter": {
+      "name": "acquire-codebase-knowledge",
+      "category": "agentic-coder",
+      "title": "Acquire Codebase Knowledge",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase. Trigger for prompts like \"map this codebase\", \"document this architecture\", \"onboard me to this repo\", or \"create codebase docs\". Do not trigger for routine feature implementation, bug fixes, or narrow code edits unless the user asks for repository-level discovery.",
+      "license": "MIT",
+      "compatibility": "Cross-platform. Requires Python 3.8+ and git. Run scripts/scan.py from the target project root.",
+      "metadata": [
+        "Multi-language manifest detection (25+ languages supported)",
+        "CI/CD pipeline detection (10+ platforms)",
+        "Container & orchestration detection",
+        "Code metrics by language",
+        "Security & compliance config detection",
+        "Performance testing markers"
+      ],
+      "argument-hint": "Optional: specific area to focus on, e.g. \"architecture only\", \"testing and concerns\""
+    },
+    "has_frontmatter": true,
+    "lines": 194,
+    "chars": 9665,
+    "sha256": "0de54242f8233e960757496de69f1b61c81535932c38371947743365632dca72",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: placeholder text detected",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/acreadiness-assess/SKILL.md",
+    "relative_path": "development/acreadiness-assess/SKILL.md",
+    "name": "acreadiness-assess",
+    "frontmatter": {
+      "name": "acreadiness-assess",
+      "category": "agentic-coder",
+      "title": "Acreadiness Assess",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the @ai-readiness-reporter custom agent. Supports policies (--policy) for org-specific scoring. Use when asked to assess, audit, or score the AI readiness of a repo.",
+      "argument-hint": "[--policy <path-or-pkg>] [--per-area] — e.g. /acreadiness-assess, /acreadiness-assess --policy ./policies/strict.json"
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 4330,
+    "sha256": "029242588a368997b2b58ee15315ac953bfaae57e2f57d52074c4c656ca840c4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 2
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/acreadiness-generate-instructions/SKILL.md",
+    "relative_path": "development/acreadiness-generate-instructions/SKILL.md",
+    "name": "acreadiness-generate-instructions",
+    "frontmatter": {
+      "name": "acreadiness-generate-instructions",
+      "category": "agentic-coder",
+      "title": "Acreadiness Generate Instructions",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area .instructions.md files with applyTo globs for monorepos. Use after running /acreadiness-assess to close gaps in the AI Tooling pillar.",
+      "argument-hint": "[--output .github/copilot-instructions.md|AGENTS.md] [--strategy flat|nested] [--areas | --area <name>] [--apply-to <glob>] [--claude-md] [--dry-run]"
+    },
+    "has_frontmatter": true,
+    "lines": 146,
+    "chars": 9424,
+    "sha256": "c08d287c7777ff26205713f28283a084c1e4e63b5f96c6364bdf9d26d1b98595",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ad-campaign-analyzer/SKILL.md",
+    "relative_path": "development/ad-campaign-analyzer/SKILL.md",
+    "name": "ad-campaign-analyzer",
+    "frontmatter": {
+      "name": "ad-campaign-analyzer",
+      "category": "agentic-coder",
+      "title": "Ad Campaign Analyzer",
+      "tags": "[]",
+      "description": "Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test. Trigger for prompts like \"analyze my ad campaigns\", \"where am I wasting ad spend\", \"reallocate my ad budget\", \"which ads are actually working\", or \"ROAS analysis\". Do not trigger for campaign planning or creative generation without performance data.",
+      "license": "MIT",
+      "compatibility": "Cross-platform. Pure reasoning skill over user-provided campaign exports (CSV, paste, or screenshot from Google, Meta, or LinkedIn) — no external tools, network calls, or API keys.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 380,
+    "chars": 14381,
+    "sha256": "2daa90425ec0408218d22aec50b76d69fb2263f7e37c711dbbca33a88ab6b1df",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 0,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 43
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/add-hooks-to-config/SKILL.md",
+    "relative_path": "development/add-hooks-to-config/SKILL.md",
+    "name": "add-hooks-to-config",
+    "frontmatter": {
+      "name": "add-hooks-to-config",
+      "category": "agentic-coder",
+      "title": "Add Hooks To Config",
+      "description": "Adds configuration entries or hooks to Hermes setup",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "configuration",
+        "hooks",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 3099,
+    "sha256": "8f31da40e513f6eba815f6aa48d8c502d3b61ccc3667632ff810dcc17e66e684",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/add-hooks-to-config/references/overview.md",
+        "lines": 54,
+        "chars": 1922,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/add-hooks-to-config/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/add-hooks-to-config/templates/template.md",
+        "lines": 18,
+        "chars": 155,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/add-hooks-to-config/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

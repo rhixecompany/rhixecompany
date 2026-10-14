@@ -1,0 +1,406 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/normalize-plans/SKILL.md",
+    "relative_path": "development/normalize-plans/SKILL.md",
+    "name": "normalize-plans",
+    "frontmatter": {
+      "name": "normalize-plans",
+      "category": "documentation",
+      "title": "Normalize Plans",
+      "description": "Normalizes plans formatting",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "normalization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2553,
+    "sha256": "4c10061da18fdb986d9883b72db38744a86557e0f827e7cd6735eda00e7b45de",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-plans/references/overview.md",
+        "lines": 29,
+        "chars": 530,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-plans/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-plans/templates/template.md",
+        "lines": 18,
+        "chars": 151,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-plans/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/normalize-prompt-actions/SKILL.md",
+    "relative_path": "development/normalize-prompt-actions/SKILL.md",
+    "name": "normalize-prompt-actions",
+    "frontmatter": {
+      "name": "normalize-prompt-actions",
+      "category": "agentic-coder",
+      "title": "Normalize Prompt Actions",
+      "description": "Normalizes prompt actions formatting",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "normalization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2655,
+    "sha256": "c6fa2642d517bd6a7da785ae1b67d41448ba647e96cb46d4ad344353a6f1c777",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-prompt-actions/references/overview.md",
+        "lines": 29,
+        "chars": 575,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-prompt-actions/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-prompt-actions/templates/template.md",
+        "lines": 18,
+        "chars": 160,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/normalize-prompt-actions/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/omo-doctor/SKILL.md",
+    "relative_path": "development/omo-doctor/SKILL.md",
+    "name": "omo-doctor",
+    "frontmatter": {
+      "name": "omo-doctor",
+      "category": "documentation",
+      "title": "Omo Doctor",
+      "description": "Script for Omo Doctor operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2495,
+    "sha256": "b4818b7c3fc5f4f07e9c78104d6f756cd40fcb74e924519c0b72ad2e32410c79",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/onboard-context-matic/SKILL.md",
+    "relative_path": "development/onboard-context-matic/SKILL.md",
+    "name": "onboard-context-matic",
+    "frontmatter": {
+      "name": "onboard-context-matic",
+      "category": "agentic-coder",
+      "title": "Onboard Context Matic",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does, shows all available APIs, lets them pick one to explore, explains it in their project language, demonstrates model_search and endpoint_search live, and ends with a menu of things the user can ask the agent to do. USE FOR: first-time setup; \"what can this MCP do?\"; \"show me the available APIs\"; \"onboard me\"; \"how do I use the context-matic server\"; \"give me a tour\". DO NOT USE FOR: actually integrating an API end-to-end (use integrate-context-matic instead)."
+    },
+    "has_frontmatter": true,
+    "lines": 332,
+    "chars": 14427,
+    "sha256": "a1a562c785417a4595501e056be4b92b9da131d9d9d9d0b8f3469d4aa951c704",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/openapi-to-application-code/SKILL.md",
+    "relative_path": "development/openapi-to-application-code/SKILL.md",
+    "name": "openapi-to-application-code",
+    "frontmatter": {
+      "name": "openapi-to-application-code",
+      "category": "agentic-coder",
+      "title": "Openapi To Application Code",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete, production-ready application from an OpenAPI specification"
+    },
+    "has_frontmatter": true,
+    "lines": 151,
+    "chars": 5574,
+    "sha256": "e30ff6f573f0f78fa4b47332fd82f4e0e365097d6869d6b7f8fb6b176ebe488d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/optimize-simplicite-logs/SKILL.md",
+    "relative_path": "development/optimize-simplicite-logs/SKILL.md",
+    "name": "optimize-simplicite-logs",
+    "frontmatter": {
+      "name": "optimize-simplicite-logs",
+      "category": "agentic-coder",
+      "title": "Optimize Simplicite Logs",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON."
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 4346,
+    "sha256": "337ed3e540611fd45ce1b309592de074e8e5cab71911ea1f1a503e08f155d8f0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/optimize-simplicite-logs/scripts/SimpliciteLog2Json.ps1",
+        "lines": 153,
+        "chars": 4284,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/optimize-simplicite-logs/scripts/SimpliciteLog2Json.ps1:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/optimize-simplicite-logs/scripts/simplicite-log2json.py",
+        "lines": 120,
+        "chars": 4490,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/optimize-simplicite-logs/scripts/simplicite-log2json.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/overview-bundle/SKILL.md",
+    "relative_path": "development/overview-bundle/SKILL.md",
+    "name": "overview-bundle",
+    "frontmatter": {
+      "name": "overview-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — Features Overview",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/overview.md by generating plan/spec/prompt/skill/script/result artifacts."
+    },
+    "has_frontmatter": true,
+    "lines": 43,
+    "chars": 1511,
+    "sha256": "16a0e0086276649e9ba9f43d543a9398ab21b00c98d5e9bd36a97e135116a107",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  }
+]

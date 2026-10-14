@@ -1,0 +1,405 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/sync-profile-memories/SKILL.md",
+    "relative_path": "development/sync-profile-memories/SKILL.md",
+    "name": "sync-profile-memories",
+    "frontmatter": {
+      "name": "sync-profile-memories",
+      "category": "agentic-coder",
+      "title": "Sync Profile Memories",
+      "description": "Script for Sync Profile Memories operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "profiles",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2618,
+    "sha256": "3d9c26ae4be90e4f4e61cc8ee7ca71f39ffceb5d3be003217b1443ee06ec9a24",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/system-status-skill/SKILL.md",
+    "relative_path": "development/system-status-skill/SKILL.md",
+    "name": "system-status",
+    "frontmatter": {
+      "name": "system-status",
+      "category": "agentic-coder",
+      "title": "Status",
+      "description": "Script for Status operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2452,
+    "sha256": "2202ea794716bd250d35a9f7f0bdb50306e1ac90161e5eb0a91c4057efe29a34",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/SKILL.md",
+    "relative_path": "development/technology-stack-audit/SKILL.md",
+    "name": "technology-stack-audit",
+    "frontmatter": {
+      "name": "technology-stack-audit",
+      "title": "Technology Stack Audit",
+      "description": "Audit a project's technology stack (dependencies, configs, patterns) and research alternatives, best practices, deprecations, and common pitfalls. Produce structured JSON reports and detailed markdown findings.",
+      "trigger": "User asks to research/audit a project's tech stack, find similar tools, or evaluate dependencies for migration/modernization.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "category": "audit",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 5477,
+    "sha256": "027d10df1d65c2c97f0e0723dd772a26919f8fc62c82ed170f4838ffcbfc7e8b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/bun-cli-patterns.md",
+        "lines": 162,
+        "chars": 4100,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/bun-cli-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/eslint-flat-config-ts.md",
+        "lines": 145,
+        "chars": 3658,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/eslint-flat-config-ts.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/markdownlint-cspell-config.md",
+        "lines": 155,
+        "chars": 4130,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/markdownlint-cspell-config.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/pdf-generation-alternatives.md",
+        "lines": 68,
+        "chars": 2313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/technology-stack-audit/references/pdf-generation-alternatives.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "frontmatter: non-standard trigger field",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/test/SKILL.md",
+    "relative_path": "development/test/SKILL.md",
+    "name": "test",
+    "frontmatter": {
+      "name": "test",
+      "category": "agentic-coder",
+      "title": "Test",
+      "description": "Use when running or documenting project tests.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[testing, regression, verification, scripts]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 95,
+    "chars": 3530,
+    "sha256": "f61917363e70438aa111fa8330c85069e75df8e96d9c9e5e20f936909d3033b6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/test-models/SKILL.md",
+    "relative_path": "development/test-models/SKILL.md",
+    "name": "test-models",
+    "frontmatter": {
+      "name": "test-models",
+      "category": "agentic-coder",
+      "title": "Test Models",
+      "description": "Tests LLM model availability and response quality",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "models",
+        "evaluation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2547,
+    "sha256": "72da073de1d0453683f7a06b7c4a98dc26c428d403627e8081722fbc2bf22056",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/test-models/references/overview.md",
+        "lines": 29,
+        "chars": 510,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/test-models/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/test-models/templates/template.md",
+        "lines": 18,
+        "chars": 147,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/test-models/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tiny-stepping/SKILL.md",
+    "relative_path": "development/tiny-stepping/SKILL.md",
+    "name": "tiny-stepping",
+    "frontmatter": {
+      "name": "tiny-stepping",
+      "category": "agentic-coder",
+      "title": "Tiny Stepping",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Incremental development workflow that makes the smallest meaningful change per step and pauses for feedback, so the direction gets validated early before continuing. Use for careful, iterative implementation with continuous validation."
+    },
+    "has_frontmatter": true,
+    "lines": 52,
+    "chars": 1814,
+    "sha256": "88543df11434f48e1c10e7d63985b88de28b5133915506e1bba631b5781da49d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tool-gateway-bundle/SKILL.md",
+    "relative_path": "development/tool-gateway-bundle/SKILL.md",
+    "name": "tool-gateway-bundle",
+    "frontmatter": {
+      "name": "tool-gateway-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — Nous Tool Gateway",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/tool-gateway.md by generating plan/spec/prompt/skill/script/result artifacts."
+    },
+    "has_frontmatter": true,
+    "lines": 43,
+    "chars": 1532,
+    "sha256": "06bfe1732c990663c8ec94e29658009c5b13cd1ddd7367fdc2f81f841eb34479",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  }
+]

@@ -1,0 +1,616 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/agent-merge-conflict-arbiter/SKILL.md",
+    "relative_path": "autonomous-ai-agents/agent-merge-conflict-arbiter/SKILL.md",
+    "name": "agent-merge-conflict-arbiter",
+    "frontmatter": {
+      "name": "agent-merge-conflict-arbiter",
+      "category": "autonomous-ai-agents",
+      "description": "Neutral arbiter for merge conflicts between two agents.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "title": "Agent Merge Conflict Arbiter",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 160,
+    "chars": 7678,
+    "sha256": "0a11aa7ce2de34ebff7218b641ecea7d1f413949ea4672a1dc3c4c723e789331",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/antigravity-cli/SKILL.md",
+    "relative_path": "autonomous-ai-agents/antigravity-cli/SKILL.md",
+    "name": "antigravity-cli",
+    "frontmatter": {
+      "name": "antigravity-cli",
+      "category": "autonomous-ai-agents",
+      "description": "Operate the Antigravity CLI (agy): plugins, auth, sandbox.",
+      "version": "0.2.0",
+      "author": "Tony Simons (asimons81), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "title": "Antigravity Cli",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 243,
+    "chars": 9531,
+    "sha256": "7c2417ff1f925731f1fadc1ec7f4f32d8818c5170144b55f23b0914c3e614493",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/antigravity-cli/references/cli-docs.md",
+        "lines": 64,
+        "chars": 2140,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/antigravity-cli/references/cli-docs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/claude-code/SKILL.md",
+    "relative_path": "autonomous-ai-agents/claude-code/SKILL.md",
+    "name": "claude-code",
+    "frontmatter": {
+      "name": "claude-code",
+      "category": "autonomous-ai-agents",
+      "description": "Delegate coding to Claude Code CLI (features, PRs).",
+      "version": "2.2.1",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 755,
+    "chars": 35065,
+    "sha256": "5b297057263c560afa8d5d076d68c64f16758e9cf605fe976ab8d0ec61855db3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 73
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/codex/SKILL.md",
+    "relative_path": "autonomous-ai-agents/codex/SKILL.md",
+    "name": "codex",
+    "frontmatter": {
+      "name": "codex",
+      "category": "autonomous-ai-agents",
+      "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "version": "1.0.1",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 152,
+    "chars": 5865,
+    "sha256": "a6c0934aeeb050d2beb7db1a332bb2200168593881c802fe1c8121ae2bc094be",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/computer-use/SKILL.md",
+    "relative_path": "autonomous-ai-agents/computer-use/SKILL.md",
+    "name": "computer-use",
+    "frontmatter": {
+      "name": "computer-use",
+      "category": "autonomous-ai-agents",
+      "description": "Drive the desktop background-first; escalate on signal.",
+      "version": "2.1.0",
+      "author": "Francesco Bonacci (f-trycua), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos, windows, linux]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 357,
+    "chars": 17985,
+    "sha256": "6271e8e82c149b0fc722b0d527faa22d1df1f75e1bcd56de7b0a76398961eb46",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/dynamic-workflow/SKILL.md",
+    "relative_path": "autonomous-ai-agents/dynamic-workflow/SKILL.md",
+    "name": "dynamic-workflow",
+    "frontmatter": {
+      "name": "dynamic-workflow",
+      "description": "Plan-in-code fan-outs, adversarial verification, waves.",
+      "version": "2.0.0",
+      "author": "Teknium + Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "when_to_use": [
+        "A task is too big for one context window AND you can describe the split (per-file, per-endpoint, per-source, per-record)",
+        "You want orchestration codified as a re-runnable script plus a shared brief, not improvised turn by turn",
+        "Quality matters more than token economy - independent attempts cross-checked and refuted before you trust the answer",
+        "Codebase-wide sweeps, 100+ file migrations, multi-round refactor campaigns, multi-angle research"
+      ],
+      "when_not_to_use": [
+        "Small bounded task (under ~10 units) - do it inline or call the tool directly",
+        "Tight serial dependency (B needs A's output) - orchestration overhead is wasted",
+        "Work that must outlive this process (days, restarts) - use `cronjob` or the kanban swarm instead"
+      ],
+      "title": "Dynamic Workflow",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 191,
+    "chars": 11265,
+    "sha256": "cb926bbfe9d46826f13272fe2dce26dd057a610ac54634644be24329b61c7a09",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+    "relative_path": "autonomous-ai-agents/hermes-agent/SKILL.md",
+    "name": "hermes-agent",
+    "frontmatter": {
+      "name": "hermes-agent",
+      "category": "autonomous-ai-agents",
+      "description": "Use, configure, theme, extend, and orchestrate Hermes Agent.",
+      "version": "3.2.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 214,
+    "chars": 13135,
+    "sha256": "1a2187ce9b277282f17b3862065e2926a758c15828a4d4508d01a48db28e9143",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/background-systems.md",
+        "lines": 101,
+        "chars": 5057,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/background-systems.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/cli-reference.md",
+        "lines": 151,
+        "chars": 6606,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/cli-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/configuration.md",
+        "lines": 89,
+        "chars": 4381,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/configuration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/contributor-guide.md",
+        "lines": 139,
+        "chars": 5762,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/contributor-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/delegate-task-concurrency-diagnosis.md",
+        "lines": 99,
+        "chars": 4640,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/delegate-task-concurrency-diagnosis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/desktop-plugins.md",
+        "lines": 217,
+        "chars": 12957,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/desktop-plugins.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+        "lines": 343,
+        "chars": 12571,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/petdex.md",
+        "lines": 75,
+        "chars": 3217,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/petdex.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/portal-auth-for-third-party-apps.md",
+        "lines": 128,
+        "chars": 6531,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/portal-auth-for-third-party-apps.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/project-context-files.md",
+        "lines": 48,
+        "chars": 3273,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/project-context-files.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md",
+        "lines": 74,
+        "chars": 3377,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/security-privacy.md",
+        "lines": 67,
+        "chars": 3373,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/security-privacy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/slash-commands.md",
+        "lines": 112,
+        "chars": 5367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/slash-commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/themes.md",
+        "lines": 127,
+        "chars": 6820,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/themes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/troubleshooting.md",
+        "lines": 81,
+        "chars": 3747,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/tui-widgets.md",
+        "lines": 137,
+        "chars": 6392,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/tui-widgets.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+        "lines": 216,
+        "chars": 8439,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/webhooks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/windows-quirks.md",
+        "lines": 65,
+        "chars": 2659,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/references/windows-quirks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/clock.mjs",
+        "lines": 51,
+        "chars": 1422,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/clock.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/plugin.js",
+        "lines": 97,
+        "chars": 3045,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/plugin.js:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/skin.yaml",
+        "lines": 49,
+        "chars": 1375,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/hermes-agent/templates/skin.yaml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/bulk-install-skills/SKILL.md",
+    "relative_path": "development/bulk-install-skills/SKILL.md",
+    "name": "bulk-install-skills",
+    "frontmatter": {
+      "name": "bulk-install-skills",
+      "category": "agentic-coder",
+      "title": "Bulk Install Skills",
+      "description": "Script for Bulk Install Skills operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2586,
+    "sha256": "6b69ab31d700c92230f831939049d29150d368b324f8af103893277ec46211ed",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/busha-api-quickstart/SKILL.md",
+    "relative_path": "development/busha-api-quickstart/SKILL.md",
+    "name": "busha-api-quickstart",
+    "frontmatter": {
+      "name": "busha-api-quickstart",
+      "category": "agentic-coder",
+      "title": "Busha API Quickstart Guide",
+      "description": "Use when setting up Busha Business API — covers account creation, KYB verification, 2FA, API key generation, and integration flow.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[busha, api, quickstart, africa, stablecoins, business]"
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 5445,
+    "sha256": "11707a2b39b231c243e0683359e2e941aa21b25012cfb19d7dc630fe26c116d5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/busha-business-api/SKILL.md",
+    "relative_path": "development/busha-business-api/SKILL.md",
+    "name": "busha-business-api",
+    "frontmatter": {
+      "name": "busha-business-api",
+      "category": "agentic-coder",
+      "title": "Busha Business API: A Primer",
+      "description": "Use when understanding Busha Business API capabilities for African/global stablecoin and digital asset infrastructure — covers buy/sell, send/receive, convert, customer management, and request-quote-execute pattern.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[busha, api, business, africa, stablecoins, digital-assets, fintech, payments]"
+    },
+    "has_frontmatter": true,
+    "lines": 130,
+    "chars": 4176,
+    "sha256": "31c4f4ff02c6b9a3ff086d53135d23b05ece8ffdcfa335494050152733a84fe7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 6,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/busha-quick-start-guide/SKILL.md",
+    "relative_path": "development/busha-quick-start-guide/SKILL.md",
+    "name": "busha-quick-start-guide",
+    "frontmatter": {
+      "name": "busha-quick-start-guide",
+      "category": "agentic-coder",
+      "title": "Busha Quick Start Guide",
+      "description": "Use when setting up Busha Business API — covers account creation, KYB verification, 2FA, API key generation, and integration flow.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[busha, quickstart, africa, stablecoins, business, api, kyb]"
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 5478,
+    "sha256": "99aab0e7c66048ada23e052431b6b3e6496187d47a574ee265e0015a355c9769",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/categorize-skills/SKILL.md",
+    "relative_path": "development/categorize-skills/SKILL.md",
+    "name": "categorize-skills",
+    "frontmatter": {
+      "name": "categorize-skills",
+      "category": "agentic-coder",
+      "title": "Categorize Skills",
+      "description": "Categorizes skills by content and tags",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "organization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2592,
+    "sha256": "f17038b59edbc184207c30a3b4d8b326b213244f1991de183e20679e4146f9f6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/categorize-skills/references/overview.md",
+        "lines": 31,
+        "chars": 689,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/categorize-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/check/SKILL.md",
+    "relative_path": "development/check/SKILL.md",
+    "name": "check",
+    "frontmatter": {
+      "name": "check",
+      "category": "audit",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Agent",
+      "argument-hint": "[verify | review]",
+      "description": "Use when verifying or reviewing a change before merge.",
+      "title": "Check",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[verification, review, acceptance, merge]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 5055,
+    "sha256": "60e7d6f0a712770e2dfdc8ae220b776c5718a43e3691813db184d585d0da5221",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/check-handle/SKILL.md",
+    "relative_path": "development/check-handle/SKILL.md",
+    "name": "check-handle",
+    "frontmatter": {
+      "name": "check-handle",
+      "category": "agentic-coder",
+      "title": "Check Handle",
+      "description": "Checks for handle or resource availability",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "powershell",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2560,
+    "sha256": "dc1835b38a5a6e54cf9a75e9bcff0b42f23c868ac09d45ba1b7f58207145ed31",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/check-handle/references/overview.md",
+        "lines": 29,
+        "chars": 768,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/check-handle/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/check-handle/templates/template.md",
+        "lines": 13,
+        "chars": 133,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/check-handle/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

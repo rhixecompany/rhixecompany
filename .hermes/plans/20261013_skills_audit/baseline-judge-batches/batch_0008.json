@@ -1,0 +1,377 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/apple/apple-reminders/SKILL.md",
+    "relative_path": "apple/apple-reminders/SKILL.md",
+    "name": "apple-reminders",
+    "frontmatter": {
+      "name": "apple-reminders",
+      "category": "apple",
+      "description": "Apple Reminders via remindctl: add, list, complete.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos]",
+      "metadata": [],
+      "prerequisites": []
+    },
+    "has_frontmatter": true,
+    "lines": 131,
+    "chars": 3614,
+    "sha256": "46a85e4c1528085c1c14b76447198edd26ee80d9b641f44d2958de4851728962",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/apple/findmy/SKILL.md",
+    "relative_path": "apple/findmy/SKILL.md",
+    "name": "findmy",
+    "frontmatter": {
+      "name": "findmy",
+      "category": "apple",
+      "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 132,
+    "chars": 3827,
+    "sha256": "e22fb96f443dadadeeb6309b6c160d3b5e797d7691994f728a1371f838d04192",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/apple/imessage/SKILL.md",
+    "relative_path": "apple/imessage/SKILL.md",
+    "name": "imessage",
+    "frontmatter": {
+      "name": "imessage",
+      "category": "apple",
+      "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos]",
+      "metadata": [],
+      "prerequisites": []
+    },
+    "has_frontmatter": true,
+    "lines": 103,
+    "chars": 2440,
+    "sha256": "7a64490edbbaa3b8f6620af441beb50ae2de6c51200215f8d765c201ad33dd4e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/architecture/architecture-blueprint-generator/SKILL.md",
+    "relative_path": "architecture/architecture-blueprint-generator/SKILL.md",
+    "name": "architecture-blueprint-generator",
+    "frontmatter": {
+      "name": "architecture-blueprint-generator",
+      "category": "architecture",
+      "title": "Architecture Blueprint Generator",
+      "description": "Use when analyzing codebases to create detailed architectural documentation. Auto-detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[architecture, documentation, blueprint, design-patterns]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 487,
+    "chars": 18842,
+    "sha256": "e512975c850a93875ca4239f124d428c6c403566378fbf84db6429bb8dca34b7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/architecture/architecture-blueprint-generator/templates/blueprint-template.md",
+        "lines": 315,
+        "chars": 12018,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/architecture/architecture-blueprint-generator/templates/blueprint-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 10,
+    "section_count": 38
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/architecture/folder-structure-blueprint-generator/SKILL.md",
+    "relative_path": "architecture/folder-structure-blueprint-generator/SKILL.md",
+    "name": "folder-structure-blueprint-generator",
+    "frontmatter": {
+      "name": "folder-structure-blueprint-generator",
+      "category": "architecture",
+      "title": "Folder Structure Blueprint Generator",
+      "description": "Use when analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, and file placement patterns.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[architecture, documentation, folder-structure, blueprint]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 531,
+    "chars": 17630,
+    "sha256": "91a151723f51471b4aaba32d932c1f6bfbc068fa60296d2604a18b7a1126628c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/architecture/folder-structure-blueprint-generator/templates/blueprint-template.md",
+        "lines": 326,
+        "chars": 12338,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/architecture/folder-structure-blueprint-generator/templates/blueprint-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 31
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/architecture/technology-stack-blueprint-generator/SKILL.md",
+    "relative_path": "architecture/technology-stack-blueprint-generator/SKILL.md",
+    "name": "technology-stack-blueprint-generator",
+    "frontmatter": {
+      "name": "technology-stack-blueprint-generator",
+      "category": "architecture",
+      "title": "Technology Stack Blueprint Generator",
+      "description": "Use when analyzing codebases to create detailed technology stack documentation. Auto-detects technologies, versions, licensing, coding conventions, and usage patterns across multiple platforms.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[architecture, documentation, technology-stack, blueprint]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 381,
+    "chars": 13709,
+    "sha256": "0c844a946b73a6332f2294b9c61d078b1864b19eb7ab0f67430d0c93fa57b5d9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/architecture/technology-stack-blueprint-generator/templates/blueprint-template.md",
+        "lines": 234,
+        "chars": 8453,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/architecture/technology-stack-blueprint-generator/templates/blueprint-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 8,
+    "section_count": 40
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/ask-matt/SKILL.md",
+    "relative_path": "ask-matt/SKILL.md",
+    "name": "ask-matt",
+    "frontmatter": {
+      "name": "ask-matt",
+      "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 97,
+    "chars": 12580,
+    "sha256": "1371f5ce005de0992a44b137748bfb960a56948aa9871b405fe9d90b24332e3c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 49,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  }
+]

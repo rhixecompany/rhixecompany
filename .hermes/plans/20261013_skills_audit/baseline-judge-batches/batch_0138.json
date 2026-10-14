@@ -1,0 +1,431 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/qdrant/SKILL.md",
+    "relative_path": "mlops/qdrant/SKILL.md",
+    "name": "qdrant-vector-search",
+    "frontmatter": {
+      "name": "qdrant-vector-search",
+      "category": "agentic-coder",
+      "title": "Qdrant Vector Search",
+      "description": "High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[qdrant-client>=1.12.0]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 550,
+    "chars": 15540,
+    "sha256": "0278331bca4652208ad791ab08628ede924526514fa932214d5ee91dd1f62083",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/qdrant/references/advanced-usage.md",
+        "lines": 648,
+        "chars": 14969,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/qdrant/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/qdrant/references/troubleshooting.md",
+        "lines": 631,
+        "chars": 12682,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/qdrant/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 35
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/qdrant-performance-optimization/SKILL.md",
+    "relative_path": "mlops/qdrant-performance-optimization/SKILL.md",
+    "name": "qdrant-performance-optimization",
+    "frontmatter": {
+      "name": "qdrant-performance-optimization",
+      "category": "agentic-coder",
+      "title": "Qdrant Performance Optimization",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization, and hardware considerations. Use when you want to improve the speed and efficiency of your Qdrant deployment.",
+      "allowed-tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2849,
+    "sha256": "7dc1d98ba14690824e439111a580e197022091c085997cbf223123e729cf12c6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/qdrant-performance-optimization/indexing-performance-optimization/SKILL.md",
+    "relative_path": "mlops/qdrant-performance-optimization/indexing-performance-optimization/SKILL.md",
+    "name": "qdrant-indexing-performance-optimization",
+    "frontmatter": {
+      "name": "qdrant-indexing-performance-optimization",
+      "category": "agentic-coder",
+      "title": "Qdrant Indexing Performance Optimization",
+      "description": "Diagnoses and fixes slow Qdrant indexing and data ingestion. Use when someone reports 'uploads are slow', 'indexing takes forever', 'optimizer is stuck', 'HNSW build time too long', or 'data uploaded but search is bad'. Also use when optimizer status shows errors, segments won't merge, or indexing threshold questions arise.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 5763,
+    "sha256": "6cbb47ff22b79eafbcd8cb30f7c8c413b0f3ed2fb172de5392463a911c04b9c9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/qdrant-performance-optimization/memory-usage-optimization/SKILL.md",
+    "relative_path": "mlops/qdrant-performance-optimization/memory-usage-optimization/SKILL.md",
+    "name": "qdrant-memory-usage-optimization",
+    "frontmatter": {
+      "name": "qdrant-memory-usage-optimization",
+      "category": "agentic-coder",
+      "title": "Qdrant Memory Usage Optimization",
+      "description": "Diagnoses and reduces Qdrant memory usage. Use when someone reports 'memory too high', 'RAM keeps growing', 'node crashed', 'out of memory', 'memory leak', or asks 'why is memory usage so high?', 'how to reduce RAM?'. Also use when memory doesn't match calculations, quantization didn't help, or nodes crash during recovery.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 5734,
+    "sha256": "f5b1f24f8d0d26c25853226a35d1779cdeadf79e79c5448d70b904ffb923092d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/qdrant-performance-optimization/search-speed-optimization/SKILL.md",
+    "relative_path": "mlops/qdrant-performance-optimization/search-speed-optimization/SKILL.md",
+    "name": "qdrant-search-speed-optimization",
+    "frontmatter": {
+      "name": "qdrant-search-speed-optimization",
+      "category": "architecture",
+      "title": "Qdrant Search Speed Optimization",
+      "description": "Diagnoses and fixes slow Qdrant search. Use when someone reports 'search is slow', 'high latency', 'queries take too long', 'low QPS', 'throughput too low', 'filtered search is slow', or 'search was fast but now it's slow'. Also use when search performance degrades after config changes or data growth.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 5601,
+    "sha256": "b310b9b69be458ae005af3aea84ef7e004121554e5a447208ef081b9c2e4e059",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/research/dspy/SKILL.md",
+    "relative_path": "mlops/research/dspy/SKILL.md",
+    "name": "dspy",
+    "frontmatter": {
+      "name": "dspy",
+      "category": "agentic-coder",
+      "title": "Dspy",
+      "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 616,
+    "chars": 15861,
+    "sha256": "70fa5293ea2c4ac2b1cf0bc161a1a2e20ec497dbfff7bbf5060c16cd55a3e62c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/research/dspy/references/examples.md",
+        "lines": 663,
+        "chars": 18983,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/research/dspy/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/research/dspy/references/modules.md",
+        "lines": 475,
+        "chars": 12363,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/research/dspy/references/modules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/research/dspy/references/optimizers.md",
+        "lines": 566,
+        "chars": 14917,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/research/dspy/references/optimizers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 45
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/saelens/SKILL.md",
+    "relative_path": "mlops/saelens/SKILL.md",
+    "name": "sparse-autoencoder-training",
+    "frontmatter": {
+      "name": "sparse-autoencoder-training",
+      "category": "agentic-coder",
+      "title": "Sparse Autoencoder Training",
+      "description": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[sae-lens>=6.0.0, transformer-lens>=2.0.0, torch>=2.0.0]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 418,
+    "chars": 14179,
+    "sha256": "85b0a2d15c0921b844b3a1dd1401455e9506a6565b71e2e50880018b8022c714",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/saelens/references/README.md",
+        "lines": 69,
+        "chars": 2082,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/saelens/references/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/saelens/references/api.md",
+        "lines": 333,
+        "chars": 6967,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/saelens/references/api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/saelens/references/tutorials.md",
+        "lines": 318,
+        "chars": 9379,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/saelens/references/tutorials.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 26
+  }
+]

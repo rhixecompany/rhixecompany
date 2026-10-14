@@ -1,0 +1,308 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/tmux-terminal-multiplexer/SKILL.md",
+    "relative_path": "devops/tmux-terminal-multiplexer/SKILL.md",
+    "name": "tmux-terminal-multiplexer",
+    "frontmatter": {
+      "name": "tmux-terminal-multiplexer",
+      "category": "agentic-coder",
+      "title": "tmux — Terminal Multiplexer",
+      "description": "Guide for tmux (Windows port) — session management, window/panel operations, and persistent terminal workflows.",
+      "version": "1.0.0",
+      "author": "Hermes Assistant",
+      "tags": "[tmux, terminal, multiplexer, windows]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 91,
+    "chars": 2863,
+    "sha256": "dac875763c8bf168c50cab018839a313650d116fbba78bb0eeb0a99f6e97df7b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/tooling-config/SKILL.md",
+    "relative_path": "devops/tooling-config/SKILL.md",
+    "name": "tooling-config",
+    "frontmatter": {
+      "name": "tooling-config",
+      "category": "agentic-coder",
+      "title": "Repo Hygiene: gitignore, editorconfig, pre-commit, git-cliff",
+      "description": "Use when setting up gitignore, editorconfig, pre-commit.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[gitignore, editorconfig, pre-commit, git-cliff, gitmodules, repo-hygiene, mcp]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 173,
+    "chars": 6914,
+    "sha256": "e77c49ef8dab8e328cb65a133fe365eb94ce0583d917ead35367df8104a204a8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/tooling-implementation/SKILL.md",
+    "relative_path": "devops/tooling-implementation/SKILL.md",
+    "name": "tooling-implementation",
+    "frontmatter": {
+      "name": "tooling-implementation",
+      "category": "agentic-coder",
+      "title": "Workspace Tooling Implementation (python-quality + tooling-lint + tooling-config)",
+      "description": "Tooling stack: ruff, eslint, prettier, cspell workspace.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[tooling, ruff, pyright, eslint, prettier, cspell, markdownlint, pre-commit, git-cliff, mcp, workspace]"
+    },
+    "has_frontmatter": true,
+    "lines": 101,
+    "chars": 7393,
+    "sha256": "4e92a70da8f153e821bfd8ee832759824f9c042928da0593a7d09ee2b029a630",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/typespec-api-operations/SKILL.md",
+    "relative_path": "devops/typespec-api-operations/SKILL.md",
+    "name": "typespec-api-operations",
+    "frontmatter": {
+      "name": "typespec-api-operations",
+      "category": "documentation",
+      "title": "Typespec Api Operations",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards"
+    },
+    "has_frontmatter": true,
+    "lines": 457,
+    "chars": 10135,
+    "sha256": "9854f6021f1794fc4827495ec89f14336edeae28144506550b3f37f1c22ccb3d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/typespec-create-api-plugin/SKILL.md",
+    "relative_path": "devops/typespec-create-api-plugin/SKILL.md",
+    "name": "typespec-create-api-plugin",
+    "frontmatter": {
+      "name": "typespec-create-api-plugin",
+      "category": "documentation",
+      "title": "Typespec Create Api Plugin",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot"
+    },
+    "has_frontmatter": true,
+    "lines": 186,
+    "chars": 4663,
+    "sha256": "586a29d06d7ee45c4f74f80d9e63477ee826c4c342a5c02be51af90753b38481",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/ui-screenshots/SKILL.md",
+    "relative_path": "devops/ui-screenshots/SKILL.md",
+    "name": "ui-screenshots",
+    "frontmatter": {
+      "name": "ui-screenshots",
+      "category": "agentic-coder",
+      "title": "Ui Screenshots",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures, interactive states, and an iterate-on-crop workflow that avoids slow re-screenshots."
+    },
+    "has_frontmatter": true,
+    "lines": 224,
+    "chars": 8056,
+    "sha256": "3feb946eab5c8c7d801c70b956e5e9cb00ac4c25fe0f2c4002c73b014ab99b0e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/uv-package-manager/SKILL.md",
+    "relative_path": "devops/uv-package-manager/SKILL.md",
+    "name": "uv-package-manager",
+    "frontmatter": {
+      "name": "uv-package-manager",
+      "category": "agentic-coder",
+      "title": "uv Python Package Manager",
+      "description": "Guide for using uv — the fast Python package and project manager. Covers project init, dependency management, virtual envs, tool installation, and pip-compatible commands.",
+      "version": "1.0.0",
+      "author": "Hermes Assistant",
+      "tags": "[python, uv, package-manager, pip]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 4076,
+    "sha256": "b54c73abfcfd27778de924bf41f24890a6be47690e143527045bdffe9d961d51",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  }
+]

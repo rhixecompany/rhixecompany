@@ -1,0 +1,354 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/finance/comps-analysis/SKILL.md",
+    "relative_path": "finance/comps-analysis/SKILL.md",
+    "name": "comps-analysis",
+    "frontmatter": {
+      "name": "comps-analysis",
+      "category": "agentic-coder",
+      "title": "Comps Analysis",
+      "description": "Build comparable company analysis in Excel — operating metrics, valuation multiples, statistical benchmarking vs peer sets. Pairs with excel-author. Use for public-company valuation, IPO pricing, sector benchmarking, or outlier detection.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 712,
+    "chars": 31601,
+    "sha256": "82c441120d6f906e8c82aa302f63e9e3e0d3dd1f90412b7331b71ee6a2fd4876",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 62
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/dcf-model/SKILL.md",
+    "relative_path": "finance/dcf-model/SKILL.md",
+    "name": "dcf-model",
+    "frontmatter": {
+      "name": "dcf-model",
+      "category": "agentic-coder",
+      "title": "Dcf Model",
+      "description": "Build institutional-quality DCF valuation models in Excel — revenue projections, FCF build, WACC, terminal value, Bear/Base/Bull scenarios, 5x5 sensitivity tables. Pairs with excel-author. Use for intrinsic-value equity analysis.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 1347,
+    "chars": 51564,
+    "sha256": "adbab73f989135c7b99d7cc46cdcd986c077c6bc2eb42401d4d5fb863e5a9471",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/finance/dcf-model/scripts/validate_dcf.py",
+        "lines": 291,
+        "chars": 11587,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/dcf-model/scripts/validate_dcf.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 78
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/excel-author/SKILL.md",
+    "relative_path": "finance/excel-author/SKILL.md",
+    "name": "excel-author",
+    "frontmatter": {
+      "name": "excel-author",
+      "category": "finance",
+      "description": "Build auditable financial workbooks headless via openpyxl.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "title": "Excel Author",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 277,
+    "chars": 9664,
+    "sha256": "ab4b7708c7d023abcbd1e59175961549437f00218e4bf993dd04713f890b61a9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/finance/excel-author/scripts/recalc.py",
+        "lines": 88,
+        "chars": 2748,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/excel-author/scripts/recalc.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/lbo-model/SKILL.md",
+    "relative_path": "finance/lbo-model/SKILL.md",
+    "name": "lbo-model",
+    "frontmatter": {
+      "name": "lbo-model",
+      "category": "agentic-coder",
+      "title": "Lbo Model",
+      "description": "Build leveraged buyout models in Excel — sources & uses, debt schedule, cash sweep, exit multiple, IRR/MOIC sensitivity. Pairs with excel-author. Use for PE screening, sponsor-case valuation, or illustrative LBO in a pitch.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 345,
+    "chars": 18991,
+    "sha256": "f31948f9b0f324cbb6f3c878ad0e4aed7e7917e4f1adfc41fb1a3c80908a6a64",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 46
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/merger-model/SKILL.md",
+    "relative_path": "finance/merger-model/SKILL.md",
+    "name": "merger-model",
+    "frontmatter": {
+      "name": "merger-model",
+      "category": "agentic-coder",
+      "title": "Merger Model",
+      "description": "Build accretion/dilution (merger) models in Excel — pro-forma P&L, synergies, financing mix, EPS impact. Pairs with excel-author. Use for M&A pitches, board materials, or deal evaluation.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 179,
+    "chars": 6976,
+    "sha256": "21b871a9fdf41010e23a31b1e3b38c7893d1c501de274c08e102187285f208d4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/pptx-author/SKILL.md",
+    "relative_path": "finance/pptx-author/SKILL.md",
+    "name": "pptx-author",
+    "frontmatter": {
+      "name": "pptx-author",
+      "category": "agentic-coder",
+      "title": "Pptx Author",
+      "description": "Build PowerPoint decks headless with python-pptx. Pairs with excel-author for model-backed decks where every number traces to a workbook cell. Use for pitch decks, IC memos, earnings notes.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 227,
+    "chars": 8534,
+    "sha256": "3facbe7f44d6f0aed29f9c8e00932896dbca6b84fe84e54c30cc2767113befdf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/gaming/SKILL.md",
+    "relative_path": "gaming/SKILL.md",
+    "name": "gaming",
+    "frontmatter": {
+      "name": "gaming",
+      "category": "agentic-coder",
+      "title": "Gaming Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for gaming — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1441,
+    "sha256": "e5d2182854a96a075a463f7d4e13497ad47e25a8bf0b1d104184266e4d715b27",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  }
+]

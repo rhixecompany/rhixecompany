@@ -1,0 +1,1300 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/vercel-optimize/SKILL.md",
+    "relative_path": "development/vercel-optimize/SKILL.md",
+    "name": "vercel-optimize",
+    "frontmatter": {
+      "name": "vercel-optimize",
+      "category": "agentic-coder",
+      "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+      "metadata": [],
+      "version": "1.2.0",
+      "title": "Vercel Optimize",
+      "author": "Alexa"
+    },
+    "has_frontmatter": true,
+    "lines": 339,
+    "chars": 18271,
+    "sha256": "9b11630b82b99ed1e8fbaf133c39997b854da83bc90e3421ee5788ec686c8c4f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/candidates.md",
+        "lines": 176,
+        "chars": 8496,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/candidates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/data-collection.md",
+        "lines": 218,
+        "chars": 20883,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/data-collection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/docs-library.json",
+        "lines": 683,
+        "chars": 31342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/docs-library.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/doctrine.md",
+        "lines": 105,
+        "chars": 9478,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/doctrine.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/observability-plus.md",
+        "lines": 108,
+        "chars": 5329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/observability-plus.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/README.md",
+        "lines": 53,
+        "chars": 2802,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/ai-application.md",
+        "lines": 32,
+        "chars": 3909,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/ai-application.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/api-service.md",
+        "lines": 30,
+        "chars": 2473,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/api-service.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/content-site.md",
+        "lines": 30,
+        "chars": 2488,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/content-site.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/ecommerce.md",
+        "lines": 30,
+        "chars": 2717,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/ecommerce.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/marketing.md",
+        "lines": 30,
+        "chars": 2661,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/marketing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/saas.md",
+        "lines": 31,
+        "chars": 2876,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/saas.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/sveltekit.md",
+        "lines": 75,
+        "chars": 3995,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/playbooks/sveltekit.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/recommendations.md",
+        "lines": 203,
+        "chars": 10727,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/recommendations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/scanner-patterns.md",
+        "lines": 251,
+        "chars": 13629,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/scanner-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/scoring.md",
+        "lines": 205,
+        "chars": 12446,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/scoring.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/README.md",
+        "lines": 46,
+        "chars": 1785,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md",
+        "lines": 22,
+        "chars": 1012,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/astro-edge-middleware-scope.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md",
+        "lines": 22,
+        "chars": 1135,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/astro-output-mode-and-isr.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/auth-preserving-parallelization.md",
+        "lines": 22,
+        "chars": 1203,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/auth-preserving-parallelization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md",
+        "lines": 22,
+        "chars": 1119,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/bot-protection-product-guardrails.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md",
+        "lines": 23,
+        "chars": 1269,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/build-minutes-monorepo-fanout.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md",
+        "lines": 22,
+        "chars": 1162,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cache-components-static-shell-boundaries.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md",
+        "lines": 23,
+        "chars": 1380,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cache-components-suspense-dedupe-pitfall.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md",
+        "lines": 22,
+        "chars": 1068,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cdn-cache-auth-safety.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md",
+        "lines": 22,
+        "chars": 1159,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/cold-start-initialization-bundle.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md",
+        "lines": 22,
+        "chars": 1033,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/core-web-vitals-client-bottlenecks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/database-egress-pooling-region.md",
+        "lines": 22,
+        "chars": 1015,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/database-egress-pooling-region.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/dynamic-rendering-traps.md",
+        "lines": 22,
+        "chars": 1139,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/dynamic-rendering-traps.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/external-api-critical-path-platform.md",
+        "lines": 22,
+        "chars": 1145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/external-api-critical-path-platform.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/external-api-critical-path.md",
+        "lines": 22,
+        "chars": 978,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/external-api-critical-path.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md",
+        "lines": 22,
+        "chars": 1046,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/fast-data-transfer-payloads.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/fluid-compute-caveats.md",
+        "lines": 22,
+        "chars": 1125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/fluid-compute-caveats.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/function-duration-io-and-after.md",
+        "lines": 22,
+        "chars": 1027,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/function-duration-io-and-after.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/function-invocation-reduction.md",
+        "lines": 22,
+        "chars": 1181,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/function-invocation-reduction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md",
+        "lines": 23,
+        "chars": 1250,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/function-region-misconfiguration-ttfb.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/image-optimization-cost-control.md",
+        "lines": 22,
+        "chars": 1071,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/image-optimization-cost-control.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md",
+        "lines": 22,
+        "chars": 1415,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/isr-revalidation-static-generation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md",
+        "lines": 22,
+        "chars": 991,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/middleware-proxy-edge-cost.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md",
+        "lines": 22,
+        "chars": 1059,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-fetch-revalidate-floor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md",
+        "lines": 23,
+        "chars": 906,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-font-cls-self-hosting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md",
+        "lines": 23,
+        "chars": 1048,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-heavy-ui-lazy-load-boundaries.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md",
+        "lines": 23,
+        "chars": 1062,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-image-lcp-preload-sizes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md",
+        "lines": 22,
+        "chars": 1072,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-route-handler-get-cache-defaults.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-script-third-party-strategy.md",
+        "lines": 23,
+        "chars": 1051,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/next-script-third-party-strategy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md",
+        "lines": 22,
+        "chars": 996,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/nextjs-version-cache-semantics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md",
+        "lines": 23,
+        "chars": 1273,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/not-found-catchall-request-waste.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md",
+        "lines": 22,
+        "chars": 1188,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/nuxt-route-rules-cache-isr.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/observability-events-cost-attribution.md",
+        "lines": 22,
+        "chars": 1153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/observability-events-cost-attribution.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/post-response-work-waituntil.md",
+        "lines": 22,
+        "chars": 1009,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/post-response-work-waituntil.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/route-error-durable-offload.md",
+        "lines": 22,
+        "chars": 1298,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/route-error-durable-offload.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/route-error-runtime-limits.md",
+        "lines": 22,
+        "chars": 988,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/route-error-runtime-limits.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md",
+        "lines": 22,
+        "chars": 1180,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/runtime-cache-reusable-data.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md",
+        "lines": 22,
+        "chars": 1167,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/sveltekit-isr-prerender-safety.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md",
+        "lines": 22,
+        "chars": 1040,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/sveltekit-split-cold-start-tradeoff.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/usage-spike-triage.md",
+        "lines": 22,
+        "chars": 1018,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/usage-spike-triage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md",
+        "lines": 23,
+        "chars": 1187,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/use-cache-date-stamp-isr-write-amplifier.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md",
+        "lines": 22,
+        "chars": 1087,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/use-cache-remote-shared-origin-data.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md",
+        "lines": 23,
+        "chars": 1274,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/support-topics/workflow-resumable-stream-routes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/verification.md",
+        "lines": 102,
+        "chars": 8980,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/verification.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/voice.md",
+        "lines": 76,
+        "chars": 3727,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/references/voice.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/budget-summary.mjs",
+        "lines": 56,
+        "chars": 2094,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/budget-summary.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/build-docs.mjs",
+        "lines": 74,
+        "chars": 3412,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/build-docs.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/check-citations.mjs",
+        "lines": 81,
+        "chars": 3529,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/check-citations.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/check-docs-fresh.mjs",
+        "lines": 93,
+        "chars": 3904,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/check-docs-fresh.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/collect-signals.mjs",
+        "lines": 576,
+        "chars": 21532,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/collect-signals.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/collect-sub-agent-outputs.mjs",
+        "lines": 296,
+        "chars": 10121,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/collect-sub-agent-outputs.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/deep-dive.mjs",
+        "lines": 319,
+        "chars": 12326,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/deep-dive.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/gate-investigations.mjs",
+        "lines": 166,
+        "chars": 6347,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/gate-investigations.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/merge-signals.mjs",
+        "lines": 192,
+        "chars": 6325,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/merge-signals.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/prepare-investigation-brief.mjs",
+        "lines": 231,
+        "chars": 8065,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/prepare-investigation-brief.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/reconcile-candidates.mjs",
+        "lines": 62,
+        "chars": 2442,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/reconcile-candidates.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/render-report.mjs",
+        "lines": 437,
+        "chars": 17418,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/render-report.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/scan-codebase.mjs",
+        "lines": 313,
+        "chars": 11517,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/scan-codebase.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/verify-and-regen.mjs",
+        "lines": 346,
+        "chars": 15218,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/verify-and-regen.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/verify-finding.mjs",
+        "lines": 19,
+        "chars": 698,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/vercel-optimize/scripts/verify-finding.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 12,
+      "structure": 12,
+      "content": 20,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "dry: body/reference overlap is high",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vercel-react-best-practices/SKILL.md",
+    "relative_path": "development/vercel-react-best-practices/SKILL.md",
+    "name": "vercel-react-best-practices",
+    "frontmatter": {
+      "name": "vercel-react-best-practices",
+      "category": "agentic-coder",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "vercel",
+      "version": "1.0.0",
+      "title": "Vercel React Best Practices"
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 7972,
+    "sha256": "4797c5f2d7c3f86e5fdc80cbdcaef1cfb70a482e328cdafa373e977bd7a6633d",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vercel-react-native-skills/SKILL.md",
+    "relative_path": "development/vercel-react-native-skills/SKILL.md",
+    "name": "vercel-react-native-skills",
+    "frontmatter": {
+      "name": "vercel-react-native-skills",
+      "category": "agentic-coder",
+      "description": "Use when running the vercel-react-native-skills workflow described in this skill.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "vercel",
+      "version": "1.0.0",
+      "title": "Vercel React Native Skills"
+    },
+    "has_frontmatter": true,
+    "lines": 133,
+    "chars": 4660,
+    "sha256": "8bc65fb58c9a30b2c29116360f49946c0d356b831bd7b9f517e87dd1b0d0c9e3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 77,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify/SKILL.md",
+    "relative_path": "development/verify/SKILL.md",
+    "name": "verify",
+    "frontmatter": {
+      "name": "verify",
+      "category": "agentic-coder",
+      "title": "Verify",
+      "description": "Script for Verify operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2460,
+    "sha256": "31a208a83067b46f6fe44eb14f7608355540009dda50e7bcdb0b916728d6e60f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-canonical/SKILL.md",
+    "relative_path": "development/verify-canonical/SKILL.md",
+    "name": "verify-canonical",
+    "frontmatter": {
+      "name": "verify-canonical",
+      "category": "agentic-coder",
+      "title": "Verify Canonical",
+      "description": "Script for Verify Canonical operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2570,
+    "sha256": "12a7ffb6eabca916978465c13a363db75533a4df9e4925b51004e5ad55b2488b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-frontmatter/SKILL.md",
+    "relative_path": "development/verify-frontmatter/SKILL.md",
+    "name": "verify-frontmatter",
+    "frontmatter": {
+      "name": "verify-frontmatter",
+      "category": "agentic-coder",
+      "title": "Verify Frontmatter",
+      "description": "Verifies frontmatter correctness across skill files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "validation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2636,
+    "sha256": "d1e7a90e01b93551ab079dd2c4a447c074306a664c7881f0a3b656e55b45013b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter/references/overview.md",
+        "lines": 38,
+        "chars": 961,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter/templates/template.md",
+        "lines": 13,
+        "chars": 139,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/verify-frontmatter-cjs/SKILL.md",
+    "relative_path": "development/verify-frontmatter-cjs/SKILL.md",
+    "name": "verify-frontmatter-cjs",
+    "frontmatter": {
+      "name": "verify-frontmatter-cjs",
+      "category": "agentic-coder",
+      "title": "Verify Frontmatter",
+      "description": "Verifies frontmatter correctness across skill files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "validation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 3085,
+    "sha256": "ade2ae77775be72e7d36e8d7ff97dc9995c64643f2528f3dcaf4319a7d7c0510",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter-cjs/references/overview.md",
+        "lines": 16,
+        "chars": 401,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter-cjs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter-cjs/templates/template.md",
+        "lines": 18,
+        "chars": 158,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/verify-frontmatter-cjs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

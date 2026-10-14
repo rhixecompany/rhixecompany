@@ -1,0 +1,449 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/input/joystick-controller/SKILL.md",
+    "relative_path": "input/joystick-controller/SKILL.md",
+    "name": "joystick-controller",
+    "frontmatter": {
+      "name": "joystick-controller",
+      "category": "dev-tools",
+      "title": "Joystick Controller Skill",
+      "description": "Enables physical joystick/gamepad control over Hermes Agent actions, skills, and workflows.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": [
+        "input",
+        "hardware",
+        "joystick",
+        "controller",
+        "automation",
+        "accessibility"
+      ],
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 254,
+    "chars": 9057,
+    "sha256": "ca521c0f4319fc70422619a85d911b3041b6ca909eb445552e6f6ae14815c4ac",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/references/controller-layouts.md",
+        "lines": 230,
+        "chars": 5396,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/references/controller-layouts.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/references/troubleshooting.md",
+        "lines": 281,
+        "chars": 6811,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/templates/joystick_config.yaml.template",
+        "lines": 108,
+        "chars": 2502,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/templates/joystick_config.yaml.template:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/scripts/__pycache__/joystick_config.cpython-313.pyc",
+        "lines": 330,
+        "chars": 11119,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/scripts/__pycache__/joystick_config.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/scripts/joystick_config.py",
+        "lines": 266,
+        "chars": 8085,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/input/joystick-controller/scripts/joystick_config.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 58,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/loop-me/SKILL.md",
+    "relative_path": "loop-me/SKILL.md",
+    "name": "loop-me",
+    "frontmatter": {
+      "name": "loop-me",
+      "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+      "disable-model-invocation": "true",
+      "argument-hint": "A workflow to design, or nothing to go find one"
+    },
+    "has_frontmatter": true,
+    "lines": 32,
+    "chars": 2522,
+    "sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 4
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/marketing-creative/SKILL.md",
+    "relative_path": "marketing-creative/SKILL.md",
+    "name": "marketing-creative",
+    "frontmatter": {
+      "name": "marketing-creative",
+      "category": "agentic-coder",
+      "title": "Marketing Creative Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for marketing-creative — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1501,
+    "sha256": "b2a4eaf4eda0c240dd869be9fa1448d89c9864234c43c707a96b372dfe82951e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/marketing-creative/ad-creative/SKILL.md",
+    "relative_path": "marketing-creative/ad-creative/SKILL.md",
+    "name": "ad-creative",
+    "frontmatter": {
+      "name": "ad-creative",
+      "category": "agentic-coder",
+      "title": "Ad Creative",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|",
+      "triggers": [
+        "ad creative",
+        "ad headline",
+        "ad copy",
+        "paid social ad",
+        "search ad"
+      ],
+      "od": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 2178,
+    "sha256": "e27675399c70f9e2491c0a869969620f1ecca409873628f332fe1f77cbe9c765",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/SKILL.md",
+    "relative_path": "mcp/agent-mcp/SKILL.md",
+    "name": "agent-mcp",
+    "frontmatter": {
+      "name": "agent-mcp",
+      "category": "agentic-coder",
+      "title": "Agent MCP Audit — Agent System",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "description": "Audit and document agent MCP server state. Used when the agent binary or workspace agent references need verification. Binary missing documented; workspace docs used as verified reference.",
+      "tags": "[mcp, agent, audit, workspace-reference, verified-commands]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 7099,
+    "sha256": "12bcd98b9cabd7972ef1143395074b1b1323fed67685d7f4e526fc282bc12218",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/references/commands-agent--help.txt",
+        "lines": 19,
+        "chars": 847,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/references/commands-agent--help.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/references/commands-agent-list.txt",
+        "lines": 11,
+        "chars": 344,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/references/commands-agent-list.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/references/workspace-binary-reference-check.md",
+        "lines": 22,
+        "chars": 1869,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/agent-mcp/references/workspace-binary-reference-check.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/ast-grep/SKILL.md",
+    "relative_path": "mcp/ast-grep/SKILL.md",
+    "name": "ast-grep",
+    "frontmatter": {
+      "name": "ast-grep",
+      "category": "agentic-coder",
+      "description": "MCP server for ast-grep. Use when you need ast-grep via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Ast Grep",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 90,
+    "chars": 3402,
+    "sha256": "baecadf896f4154a1c5937d4a9030c6821acf45c607dd4c88e1b78ea3751e9dd",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 0,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/atlassian/SKILL.md",
+    "relative_path": "mcp/atlassian/SKILL.md",
+    "name": "atlassian",
+    "frontmatter": {
+      "name": "atlassian",
+      "category": "agentic-coder",
+      "description": "MCP server for atlassian. Use when you need atlassian via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Atlassian",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1138,
+    "sha256": "2f3e5869e034bb23c1ae215709d8c19ef51d3c0e84cb8ea23aa04c891f9e080d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  }
+]

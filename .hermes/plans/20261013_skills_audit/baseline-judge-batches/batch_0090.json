@@ -1,0 +1,390 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-skills/SKILL.md",
+    "relative_path": "development/validate-skills/SKILL.md",
+    "name": "validate-skills",
+    "frontmatter": {
+      "name": "validate-skills",
+      "category": "agentic-coder",
+      "title": "Validate Skills",
+      "description": "Validates skills",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "skills",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2540,
+    "sha256": "d576aa0d462db2866798eee6de72d146425d09f7c44b30bef2b71d6cce17ebb0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-vscode-configs/SKILL.md",
+    "relative_path": "development/validate-vscode-configs/SKILL.md",
+    "name": "validate-vscode-configs",
+    "frontmatter": {
+      "name": "validate-vscode-configs",
+      "category": "agentic-coder",
+      "title": "Validate Vscode Configs",
+      "description": "Validates vscode configs (VS Code / VS Code Insiders) for correctness",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "vscode",
+        "configuration",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2693,
+    "sha256": "c8a9afe2c505c192e6c8f2009f6c8511d0da3e25303779b4935694b33ff25a48",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-configs/references/overview.md",
+        "lines": 38,
+        "chars": 987,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-configs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-configs/templates/template.md",
+        "lines": 13,
+        "chars": 144,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-configs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-vscode-json/SKILL.md",
+    "relative_path": "development/validate-vscode-json/SKILL.md",
+    "name": "validate-vscode-json",
+    "frontmatter": {
+      "name": "validate-vscode-json",
+      "category": "agentic-coder",
+      "title": "Validate Vscode Json",
+      "description": "Validates vscode json (VS Code / VS Code Insiders) for correctness",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "vscode",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2645,
+    "sha256": "b0bf52a8886bfa32da131e72c809fc551f913cb3dfa633415c6bbdd2a2d99530",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-json/references/overview.md",
+        "lines": 38,
+        "chars": 981,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-json/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-json/templates/template.md",
+        "lines": 13,
+        "chars": 141,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/validate-vscode-json/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/validate-yaml/SKILL.md",
+    "relative_path": "development/validate-yaml/SKILL.md",
+    "name": "validate-yaml",
+    "frontmatter": {
+      "name": "validate-yaml",
+      "category": "agentic-coder",
+      "title": "Validate Yaml",
+      "description": "Validates yaml",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "validation",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2525,
+    "sha256": "266abdd678584f9c166e04a33409b5ee129472948e614e99ac349ae4143cb912",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vault-key-sync/SKILL.md",
+    "relative_path": "development/vault-key-sync/SKILL.md",
+    "name": "vault-key-sync",
+    "frontmatter": {
+      "name": "vault-key-sync",
+      "category": "agentic-coder",
+      "title": "Vault Key Sync",
+      "description": "Script for Vault Key Sync operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2535,
+    "sha256": "4c02475b67b2419c8af776a5fafbd52fed837dd5b90d07e35810eab9a2434fb1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/vault-key-validate/SKILL.md",
+    "relative_path": "development/vault-key-validate/SKILL.md",
+    "name": "vault-key-validate",
+    "frontmatter": {
+      "name": "vault-key-validate",
+      "category": "agentic-coder",
+      "title": "Vault Key Validate",
+      "description": "Script for Vault Key Validate operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "validation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2590,
+    "sha256": "8b03eca5bce0df56ba88076bc09087da6b251a1d1f493e249395dd00c813bd5f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/venv-freeze-before-security-fix/SKILL.md",
+    "relative_path": "development/venv-freeze-before-security-fix/SKILL.md",
+    "name": "venv-freeze-before-security-fix",
+    "frontmatter": {
+      "name": "venv-freeze-before-security-fix",
+      "category": "security",
+      "title": "Venv Freeze Before Security Fix",
+      "description": "Script for Venv Freeze Before Security Fix operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2768,
+    "sha256": "a014e3981694184929dcb17a8e59a4ad272b04f0c6518b1b5c0eaf0376c70076",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

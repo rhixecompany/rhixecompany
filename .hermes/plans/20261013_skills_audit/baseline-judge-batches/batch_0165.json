@@ -1,0 +1,744 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/security/authsome/SKILL.md",
+    "relative_path": "security/authsome/SKILL.md",
+    "name": "authsome",
+    "frontmatter": {
+      "name": "authsome",
+      "category": "security",
+      "title": "Authsome",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "version": "0.2.0",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 154,
+    "chars": 5622,
+    "sha256": "63e8a016d56ae6c57dbeac28b7549b090dcbe4cff7c6c49746c9871c36db6edb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/security/oss-forensics/SKILL.md",
+    "relative_path": "security/oss-forensics/SKILL.md",
+    "name": "oss-forensics",
+    "frontmatter": {
+      "name": "oss-forensics",
+      "description": "|",
+      "platforms": "[linux, macos, windows]",
+      "category": "security",
+      "triggers": [
+        "investigate this repository",
+        "investigate [owner/repo]",
+        "check for supply chain compromise",
+        "recover deleted commits",
+        "forensic analysis of [owner/repo]",
+        "was this repo compromised",
+        "supply chain attack",
+        "suspicious commit",
+        "force push detected",
+        "IOC extraction"
+      ],
+      "toolsets": [
+        "terminal",
+        "web",
+        "file",
+        "delegation"
+      ],
+      "title": "OSS Forensics",
+      "version": "1.0.0",
+      "author": "Hermes Skills Team",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 482,
+    "chars": 21871,
+    "sha256": "110f307fa75aa26c7955b88a298683e3eb55203a781d774035f14ec4f01ea385",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/evidence-types.md",
+        "lines": 89,
+        "chars": 5105,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/evidence-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/github-archive-guide.md",
+        "lines": 184,
+        "chars": 5988,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/github-archive-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/investigation-templates.md",
+        "lines": 131,
+        "chars": 5551,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/investigation-templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/recovery-techniques.md",
+        "lines": 164,
+        "chars": 5755,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/references/recovery-techniques.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/templates/forensic-report.md",
+        "lines": 151,
+        "chars": 4826,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/templates/forensic-report.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/templates/malicious-package-report.md",
+        "lines": 43,
+        "chars": 1338,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/templates/malicious-package-report.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/scripts/evidence-store.py",
+        "lines": 313,
+        "chars": 12102,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/oss-forensics/scripts/evidence-store.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/security/sherlock/SKILL.md",
+    "relative_path": "security/sherlock/SKILL.md",
+    "name": "sherlock",
+    "frontmatter": {
+      "name": "sherlock",
+      "category": "security",
+      "title": "Sherlock",
+      "description": "OSINT username search across 400+ social networks. Hunt down social media accounts by username.",
+      "version": "1.0.0",
+      "author": "unmodeled-tyler",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "prerequisites": []
+    },
+    "has_frontmatter": true,
+    "lines": 232,
+    "chars": 7372,
+    "sha256": "d315e3170406124eaf4bf2c70d15ed6e56f9fb8ac5143b746bb11610ecbf7b64",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 77,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/SKILL.md",
+    "relative_path": "security/threat-model-analyst/SKILL.md",
+    "name": "threat-model-analyst",
+    "frontmatter": {
+      "name": "threat-model-analyst",
+      "category": "security",
+      "title": "Threat Model Analyst",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat model of a repository, producing architecture overviews, DFD diagrams, STRIDE-A analysis, prioritized findings, and executive assessments. (2) Incremental analysis — takes a previous threat model report as baseline, compares the codebase at the latest (or a given commit), and produces an updated report with change tracking (new, resolved, still-present threats), STRIDE heatmap, findings diff, and an embedded HTML comparison. Only activate when the user explicitly requests a threat model analysis, incremental update, or invokes /threat-model-analyst directly."
+    },
+    "has_frontmatter": true,
+    "lines": 114,
+    "chars": 6829,
+    "sha256": "442bf8cc9909b836811de43fc7b72b87ddb052a6c49081ed0bde4663f2ff248d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/analysis-principles.md",
+        "lines": 421,
+        "chars": 29421,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/analysis-principles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/diagram-conventions.md",
+        "lines": 491,
+        "chars": 18801,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/diagram-conventions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/incremental-orchestrator.md",
+        "lines": 708,
+        "chars": 34049,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/incremental-orchestrator.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/orchestrator.md",
+        "lines": 593,
+        "chars": 54590,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/orchestrator.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/output-formats.md",
+        "lines": 1062,
+        "chars": 59034,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/output-formats.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-architecture.md",
+        "lines": 133,
+        "chars": 6183,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-assessment.md",
+        "lines": 273,
+        "chars": 11271,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-assessment.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-dfd.md",
+        "lines": 68,
+        "chars": 3357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-dfd.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-findings.md",
+        "lines": 197,
+        "chars": 7762,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-findings.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-incremental-html.md",
+        "lines": 150,
+        "chars": 5366,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-incremental-html.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-inventory.md",
+        "lines": 139,
+        "chars": 5397,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-inventory.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-stride-analysis.md",
+        "lines": 106,
+        "chars": 6295,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-stride-analysis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-summary-dfd.md",
+        "lines": 62,
+        "chars": 2808,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-summary-dfd.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-threatmodel.md",
+        "lines": 65,
+        "chars": 2217,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/skeletons/skeleton-threatmodel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/tmt-element-taxonomy.md",
+        "lines": 187,
+        "chars": 8642,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/tmt-element-taxonomy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/verification-checklist.md",
+        "lines": 639,
+        "chars": 70454,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/threat-model-analyst/references/verification-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 12,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/security/web-pentest/SKILL.md",
+    "relative_path": "security/web-pentest/SKILL.md",
+    "name": "web-pentest",
+    "frontmatter": {
+      "name": "web-pentest",
+      "description": "|",
+      "platforms": "[linux, macos]",
+      "category": "security",
+      "triggers": [
+        "pentest [URL]",
+        "pentest this app",
+        "penetration test [URL]",
+        "security test this web app",
+        "test [URL] for vulnerabilities",
+        "find vulns in [URL]",
+        "OWASP test [URL]"
+      ],
+      "toolsets": [
+        "terminal",
+        "web",
+        "browser",
+        "file",
+        "delegation"
+      ],
+      "title": "Web Penetration Testing",
+      "version": "1.0.0",
+      "author": "Hermes Skills Team",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 391,
+    "chars": 15147,
+    "sha256": "467c63337e8ebd867f4e05726a3911df62ed52abe9e2275cd9aa467b347bb691",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/bypass-techniques.md",
+        "lines": 133,
+        "chars": 4627,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/bypass-techniques.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/exploitation-techniques.md",
+        "lines": 204,
+        "chars": 6788,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/exploitation-techniques.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/scope-enforcement.md",
+        "lines": 110,
+        "chars": 4127,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/scope-enforcement.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/vuln-taxonomy.md",
+        "lines": 81,
+        "chars": 4382,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/references/vuln-taxonomy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/templates/authorization.md",
+        "lines": 69,
+        "chars": 2406,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/templates/authorization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/templates/exploitation-queue.json",
+        "lines": 34,
+        "chars": 1236,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/templates/exploitation-queue.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/templates/pentest-report.md",
+        "lines": 178,
+        "chars": 4642,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/templates/pentest-report.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/scripts/recon-scan.sh",
+        "lines": 126,
+        "chars": 3922,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/web-pentest/scripts/recon-scan.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/setup-matt-pocock-skills/SKILL.md",
+    "relative_path": "setup-matt-pocock-skills/SKILL.md",
+    "name": "setup-matt-pocock-skills",
+    "frontmatter": {
+      "name": "setup-matt-pocock-skills",
+      "description": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 118,
+    "chars": 6978,
+    "sha256": "f148858ffb7f63c03c06fca06e6fdb1d91a35c6b293244b8fdfacd5f4cc028c4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/setup-pre-commit/SKILL.md",
+    "relative_path": "setup-pre-commit/SKILL.md",
+    "name": "setup-pre-commit",
+    "frontmatter": {
+      "name": "setup-pre-commit",
+      "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing."
+    },
+    "has_frontmatter": true,
+    "lines": 91,
+    "chars": 2258,
+    "sha256": "c9819d7f1e3b198064edc1faa3154224ed67395e9f07f5d3cea4b67cf0a11a98",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  }
+]

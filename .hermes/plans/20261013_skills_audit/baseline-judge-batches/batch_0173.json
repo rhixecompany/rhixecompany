@@ -1,0 +1,595 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/SKILL.md",
+    "relative_path": "software-development/systematic-debugging/SKILL.md",
+    "name": "systematic-debugging",
+    "frontmatter": {
+      "name": "systematic-debugging",
+      "category": "agentic-coder",
+      "title": "Systematic Debugging",
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "version": "1.1.0",
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 467,
+    "chars": 15788,
+    "sha256": "557d4cc86d2cba083cb415a614bbc2850f73e4f59289dd770b1ff0e289edbefc",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/hermes-config-validation-pitfalls.md",
+        "lines": 134,
+        "chars": 6677,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/hermes-config-validation-pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/hermes-hook-config-pitfalls.md",
+        "lines": 71,
+        "chars": 2631,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/hermes-hook-config-pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/language-specific-debuggers.md",
+        "lines": 216,
+        "chars": 7830,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/language-specific-debuggers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/node-inspect-debugger-quick-reference.md",
+        "lines": 20,
+        "chars": 420,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/node-inspect-debugger-quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/node-inspect-debugger.md",
+        "lines": 339,
+        "chars": 11676,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/node-inspect-debugger.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/node-inspect-quick-reference.md",
+        "lines": 20,
+        "chars": 420,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/node-inspect-quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/python-debugpy-quick-reference.md",
+        "lines": 29,
+        "chars": 528,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/python-debugpy-quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/python-debugpy.md",
+        "lines": 395,
+        "chars": 13914,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/python-debugpy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/script-debugging-patterns.md",
+        "lines": 117,
+        "chars": 5672,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/systematic-debugging/references/script-debugging-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/test-driven-development/SKILL.md",
+    "relative_path": "software-development/test-driven-development/SKILL.md",
+    "name": "test-driven-development",
+    "frontmatter": {
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "license": "MIT",
+      "metadata": [
+        "systematic-debugging",
+        "writing-plans",
+        "subagent-driven-development",
+        "testing",
+        "tdd",
+        "development",
+        "quality",
+        "red-green-refactor"
+      ],
+      "name": "test-driven-development",
+      "category": "dev-tools",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "title": "Test Driven Development",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 562,
+    "chars": 15375,
+    "sha256": "bc7f2a2097c6de36299b7343c4015ba1a8541a3258525e2e560420f07e74cb01",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/test-driven-development/references/phase-5-2-real-world-operations.md",
+        "lines": 333,
+        "chars": 8351,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/test-driven-development/references/phase-5-2-real-world-operations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 12,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 45
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/tooling-lint/SKILL.md",
+    "relative_path": "software-development/tooling-lint/SKILL.md",
+    "name": "tooling-lint",
+    "frontmatter": {
+      "name": "tooling-lint",
+      "category": "agentic-coder",
+      "title": "JS/TS & Markdown Linting: ESLint, Prettier, CSpell, Markdownlint",
+      "description": "Use to lint JS/TS/Markdown with ESLint, Prettier, CSpell.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[eslint, prettier, cspell, markdownlint, javascript, typescript, linting, mcp]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 216,
+    "chars": 10142,
+    "sha256": "6c51692f82f2a4fc37bd28e9e52b26813fe85e2eda3fed6ede9884232c8634dd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/winapp-cli/SKILL.md",
+    "relative_path": "software-development/winapp-cli/SKILL.md",
+    "name": "winapp-cli",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Windows App Development CLI (winapp) for building, packaging, and deploying",
+      "license": "MIT",
+      "name": "winapp-cli",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Winapp Cli",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 268,
+    "chars": 9435,
+    "sha256": "7a6952f9693cb1201740d41b7e601cbc06a4615e0ddd50cb4fa37950b7af7962",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/winapp-cli/references/overview.md",
+        "lines": 11,
+        "chars": 158,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/winapp-cli/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/worktrunk/SKILL.md",
+    "relative_path": "software-development/worktrunk/SKILL.md",
+    "name": "worktrunk",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when managing git worktrees, running parallel AI agents with worktrees,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "worktrunk",
+      "category": "agentic-coder",
+      "tags": [
+        "git",
+        "worktree",
+        "parallel-development",
+        "automation"
+      ],
+      "title": "Worktrunk",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 236,
+    "chars": 6213,
+    "sha256": "b5c39de67c1398ffab6a29e3262965446a85120b0f70f7d0e036ed346786d71a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/worktrunk/references/commands.md",
+        "lines": 259,
+        "chars": 9181,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/worktrunk/references/commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/worktrunk/references/hooks.md",
+        "lines": 7,
+        "chars": 97,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/worktrunk/references/hooks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 8,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/writing-plans/SKILL.md",
+    "relative_path": "software-development/writing-plans/SKILL.md",
+    "name": "writing-plans",
+    "frontmatter": {
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "description": "Write implementation plans: bite-sized tasks, paths, code.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "writing-plans",
+      "category": "documentation",
+      "tags": [
+        "imported"
+      ],
+      "title": "Writing Plans",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 229,
+    "chars": 6455,
+    "sha256": "be58a905b8f8f191b660b9a9f5576e1bb612a330b3629cc049c6903382ae4c00",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/body-reference.md",
+        "lines": 88,
+        "chars": 2949,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/body-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/cross-scope-script-remediation-patterns.md",
+        "lines": 34,
+        "chars": 1566,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/cross-scope-script-remediation-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/cross-scope-script-remediation.md",
+        "lines": 36,
+        "chars": 1608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/cross-scope-script-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/implementation-plan-contract.md",
+        "lines": 39,
+        "chars": 1458,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-plans/references/implementation-plan-contract.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/writing-spec/SKILL.md",
+    "relative_path": "software-development/writing-spec/SKILL.md",
+    "name": "writing-spec",
+    "frontmatter": {
+      "name": "writing-spec",
+      "category": "documentation",
+      "description": "Use when writing a specification. Create an executable spec.",
+      "version": "1.0.0",
+      "title": "Writing Spec",
+      "author": "Alexa"
+    },
+    "has_frontmatter": true,
+    "lines": 208,
+    "chars": 7859,
+    "sha256": "f3bdc5c10e3692d5e4ce3c238f86505b50d859d358bf372bafeea7872d925867",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-spec/references/overview.md",
+        "lines": 18,
+        "chars": 1052,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-spec/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-spec/templates/template.md",
+        "lines": 88,
+        "chars": 1534,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/writing-spec/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 48,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 4
+  }
+]

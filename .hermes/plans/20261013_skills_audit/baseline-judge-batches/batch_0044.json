@@ -1,0 +1,548 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/document/SKILL.md",
+    "relative_path": "development/document/SKILL.md",
+    "name": "document",
+    "frontmatter": {
+      "name": "document",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion",
+      "description": "Run /document `pr` | `changelog` | `release-note` | `postmortem` (or let it ask) to write the human facing prose about a change. Drafts from the real commits and diff, writing to the right place. Does not write code, tests, or specs.",
+      "category": "documentation"
+    },
+    "has_frontmatter": true,
+    "lines": 122,
+    "chars": 9591,
+    "sha256": "d5be640a232c0d602d0b11190e14db2251b6084b1b72854b71cb117d7c0c36ad",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/changelog.md",
+        "lines": 54,
+        "chars": 2028,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/changelog.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/postmortem.md",
+        "lines": 58,
+        "chars": 2278,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/postmortem.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/pr.md",
+        "lines": 43,
+        "chars": 1633,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/pr.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/release-note.md",
+        "lines": 41,
+        "chars": 1482,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/document/templates/release-note.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 49,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dotnet-best-practices/SKILL.md",
+    "relative_path": "development/dotnet-best-practices/SKILL.md",
+    "name": "dotnet-best-practices",
+    "frontmatter": {
+      "name": "dotnet-best-practices",
+      "category": "agentic-coder",
+      "title": "Dotnet Best Practices",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Ensure .NET/C# code meets best practices for the solution/project."
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 4216,
+    "sha256": "acd1adfa9cca01188f07c0a61df5b3d195e094d620af735f83a4ec7280eaf55e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dotnet-design-pattern-review/SKILL.md",
+    "relative_path": "development/dotnet-design-pattern-review/SKILL.md",
+    "name": "dotnet-design-pattern-review",
+    "frontmatter": {
+      "name": "dotnet-design-pattern-review",
+      "category": "architecture",
+      "title": "Dotnet Design Pattern Review",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Review the C#/.NET code for design pattern implementation and suggest improvements."
+    },
+    "has_frontmatter": true,
+    "lines": 81,
+    "chars": 4283,
+    "sha256": "2f576c5db67009f2d58bbe9dd094bc79ee57a8d7b8ab1dfc9fd8e7feb496dc49",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/SKILL.md",
+    "relative_path": "development/dotnet-mcp-builder/SKILL.md",
+    "name": "dotnet-mcp-builder",
+    "frontmatter": {
+      "name": "dotnet-mcp-builder",
+      "category": "agentic-coder",
+      "title": "Dotnet Mcp Builder",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Build Model Context Protocol (MCP) servers in C#/.NET against the current ModelContextProtocol 2.x NuGet packages. Helps with cases the model gets wrong without guidance — stale versions (0.x preview or 1.x-era defaults), the v2 stateless-by-default HTTP flip, the 2026-07-28 spec deprecations (roots/sampling/logging), MCP Apps and Tasks extension packages, elicitation URL mode, per-session HTTP wiring, OAuth and reverse-proxy deploy specifics, and debugging MapMcp / STDIO / Streamable-HTTP errors. Also covers STDIO and Streamable HTTP transports (SSE is deprecated), tools, prompts, resources, completions, and a basic .NET MCP client. Trigger when the user says or implies any .NET MCP server work: ModelContextProtocol, McpServerTool, MapMcp, WithStdioServerTransport, \"MCP server in C#\", \"MCP tool in dotnet\", \"expose this as MCP\", or names a primitive (prompt/resource/elicitation/MCP App) in a .NET context. Skip for MCP work in other languages."
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 9572,
+    "sha256": "d508625120151441fccc260cdaef2992aea46d0e0b837ef649bd9f8202ac5733",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/client.md",
+        "lines": 195,
+        "chars": 6342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/client.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/elicitation.md",
+        "lines": 178,
+        "chars": 7982,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/elicitation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/mcp-apps.md",
+        "lines": 220,
+        "chars": 9961,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/mcp-apps.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/packages.md",
+        "lines": 81,
+        "chars": 5254,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/packages.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/prompt-primitive.md",
+        "lines": 150,
+        "chars": 5068,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/prompt-primitive.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/resource-primitive.md",
+        "lines": 183,
+        "chars": 6191,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/resource-primitive.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/roots.md",
+        "lines": 111,
+        "chars": 4037,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/roots.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/sampling.md",
+        "lines": 142,
+        "chars": 5557,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/sampling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/server-features.md",
+        "lines": 199,
+        "chars": 6727,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/server-features.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/testing.md",
+        "lines": 168,
+        "chars": 6225,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/testing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/tool-primitive.md",
+        "lines": 227,
+        "chars": 8573,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/tool-primitive.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/transport-http.md",
+        "lines": 193,
+        "chars": 8602,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/transport-http.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/transport-stdio.md",
+        "lines": 162,
+        "chars": 5202,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-mcp-builder/references/transport-stdio.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dotnet-timezone/SKILL.md",
+    "relative_path": "development/dotnet-timezone/SKILL.md",
+    "name": "dotnet-timezone",
+    "frontmatter": {
+      "name": "dotnet-timezone",
+      "category": "agentic-coder",
+      "title": "Dotnet Timezone",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ".NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, UTC conversion, daylight saving time, scheduling across timezones, cross-platform Windows/IANA timezone IDs, or when a .NET user needs the timezone for a city, address, region, or country and copy-paste-ready C# code."
+    },
+    "has_frontmatter": true,
+    "lines": 148,
+    "chars": 4875,
+    "sha256": "842cbc6cf7f7f19da6ea57538ac3c53ab1b9eb2b73d8ed97ba73c9d92ef57ea6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-timezone/references/code-patterns.md",
+        "lines": 153,
+        "chars": 4587,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-timezone/references/code-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-timezone/references/timezone-index.md",
+        "lines": 87,
+        "chars": 4352,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dotnet-timezone/references/timezone-index.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dotnet-upgrade/SKILL.md",
+    "relative_path": "development/dotnet-upgrade/SKILL.md",
+    "name": "dotnet-upgrade",
+    "frontmatter": {
+      "name": "dotnet-upgrade",
+      "category": "agentic-coder",
+      "title": "Dotnet Upgrade",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution"
+    },
+    "has_frontmatter": true,
+    "lines": 155,
+    "chars": 8042,
+    "sha256": "069197d6110e6054dc2cc1341004d110dfeb96b2f4372b0ccc8e648fe7383f2c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/doublecheck/SKILL.md",
+    "relative_path": "development/doublecheck/SKILL.md",
+    "name": "doublecheck",
+    "frontmatter": {
+      "name": "doublecheck",
+      "category": "agentic-coder",
+      "title": "Doublecheck",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sources via web search, runs adversarial review for hallucination patterns, and produces a structured verification report with source links for human review."
+    },
+    "has_frontmatter": true,
+    "lines": 316,
+    "chars": 16857,
+    "sha256": "bbb7d870ca498eaca8503fbad9021397230ba783cd1b18adb055e3fb239f26bc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 33
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/arize-trace/SKILL.md",
+    "relative_path": "devops/arize-trace/SKILL.md",
+    "name": "arize-trace",
+    "frontmatter": {
+      "name": "arize-trace",
+      "category": "agentic-coder",
+      "title": "Arize Trace",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Downloads, exports, and inspects existing Arize traces and spans to understand what an LLM app is doing or debug runtime issues. Covers exporting traces by ID, spans by ID, sessions by ID, and root-cause investigation using the ax CLI. Use when the user wants to look at existing trace data, see what their LLM app is doing, export traces, download spans, investigate errors, or analyze behavior regressions.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile."
+    },
+    "has_frontmatter": true,
+    "lines": 437,
+    "chars": 23965,
+    "sha256": "c4be22b827b832dc8f73afc7d9f1a85efa8751d6b9186db3d0f9202f726c1e9d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 29
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/asdf/SKILL.md",
+    "relative_path": "devops/asdf/SKILL.md",
+    "name": "asdf",
+    "frontmatter": {
+      "name": "asdf",
+      "category": "agentic-coder",
+      "title": "Asdf",
+      "description": "Use when installing or configuring asdf version manager, managing multiple runtime versions (Node.js, Python, Go), or migrating from nvm/pyenv/rbenv.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [],
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 119,
+    "chars": 3959,
+    "sha256": "f505aa5d5a3411bc591ac14c16216b6c5d7702fea07c7ce50c3956d31cfb3bd0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/asdf/references/plugin-install.md",
+        "lines": 60,
+        "chars": 1855,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/asdf/references/plugin-install.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aspire/SKILL.md",
+    "relative_path": "devops/aspire/SKILL.md",
+    "name": "aspire",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Aspire skill covering the Aspire CLI, AppHost orchestration, service",
+      "license": "MIT",
+      "name": "aspire",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Aspire",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 293,
+    "chars": 11106,
+    "sha256": "ff738260f36a76776c08e28b26c7075fa1e69e4e8d74633064cee396368d59da",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/architecture.md",
+        "lines": 348,
+        "chars": 10415,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/cli-reference.md",
+        "lines": 306,
+        "chars": 8233,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/cli-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/dashboard.md",
+        "lines": 232,
+        "chars": 6201,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/dashboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/deployment.md",
+        "lines": 242,
+        "chars": 6382,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/deployment.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/integrations-catalog.md",
+        "lines": 68,
+        "chars": 3691,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/integrations-catalog.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/mcp-server.md",
+        "lines": 191,
+        "chars": 7260,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/mcp-server.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/polyglot-apis.md",
+        "lines": 311,
+        "chars": 8942,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/polyglot-apis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/testing.md",
+        "lines": 281,
+        "chars": 7497,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/testing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/troubleshooting.md",
+        "lines": 194,
+        "chars": 7622,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/aspire/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aws-cdk-python-setup/SKILL.md",
+    "relative_path": "devops/aws-cdk-python-setup/SKILL.md",
+    "name": "aws-cdk-python-setup",
+    "frontmatter": {
+      "name": "aws-cdk-python-setup",
+      "category": "agentic-coder",
+      "title": "Aws Cdk Python Setup",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequisites, create new CDK projects, manage dependencies, and deploy to AWS."
+    },
+    "has_frontmatter": true,
+    "lines": 150,
+    "chars": 3581,
+    "sha256": "294765cfe488d192b8a4dc8398433a4b28cfc809c0f68fbe7d9fdea5f46e01c0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aws-cloudwatch-investigation/SKILL.md",
+    "relative_path": "devops/aws-cloudwatch-investigation/SKILL.md",
+    "name": "aws-cloudwatch-investigation",
+    "frontmatter": {
+      "name": "aws-cloudwatch-investigation",
+      "category": "agentic-coder",
+      "title": "Aws Cloudwatch Investigation",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 372,
+    "chars": 11531,
+    "sha256": "4d488301772852b516491e31f4aadba4517b3b2374016508e3ca3be1237bf789",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aws-cost-optimize/SKILL.md",
+    "relative_path": "devops/aws-cost-optimize/SKILL.md",
+    "name": "aws-cost-optimize",
+    "frontmatter": {
+      "name": "aws-cost-optimize",
+      "category": "agentic-coder",
+      "title": "Aws Cost Optimize",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Analyze AWS resources used in the app (IaC files and/or resources in a target account/region) and optimize costs - creating GitHub issues for identified optimizations."
+    },
+    "has_frontmatter": true,
+    "lines": 216,
+    "chars": 8777,
+    "sha256": "196ba502cf24b970e7944b8254c0fb45d53a699f018446bcd8567ca70112c815",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aws-resource-health-diagnose/SKILL.md",
+    "relative_path": "devops/aws-resource-health-diagnose/SKILL.md",
+    "name": "aws-resource-health-diagnose",
+    "frontmatter": {
+      "name": "aws-resource-health-diagnose",
+      "category": "agentic-coder",
+      "title": "Aws Resource Health Diagnose",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems."
+    },
+    "has_frontmatter": true,
+    "lines": 201,
+    "chars": 7584,
+    "sha256": "b1efc80ef3cd83664405f5267022567bc84455c611d972e8f4957fe7242149a0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 25
+  }
+]

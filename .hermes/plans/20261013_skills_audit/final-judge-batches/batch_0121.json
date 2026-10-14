@@ -1,0 +1,363 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/health/SKILL.md",
+    "relative_path": "health/SKILL.md",
+    "name": "health",
+    "frontmatter": {
+      "name": "health",
+      "category": "agentic-coder",
+      "title": "Health Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for health — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1441,
+    "sha256": "5340c67399f287a7b590aef2dfd3ef8e2c428fdb114a54066606acaf14291f5b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/SKILL.md",
+    "relative_path": "health/neuroskill-bci/SKILL.md",
+    "name": "neuroskill-bci",
+    "frontmatter": {
+      "name": "neuroskill-bci",
+      "category": "agentic-coder",
+      "title": "Neuroskill Bci",
+      "description": "Use live BCI cognitive and mood state from NeuroSkill.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Nous Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 504,
+    "chars": 17786,
+    "sha256": "2d12be236e74606142d49ad79db51f60094afa4bab56d7978343299940bbef0e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/references/api.md",
+        "lines": 286,
+        "chars": 8380,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/references/api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/references/metrics.md",
+        "lines": 220,
+        "chars": 9344,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/references/metrics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/references/protocols.md",
+        "lines": 452,
+        "chars": 16388,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/health/neuroskill-bci/references/protocols.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 42
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/hooks-plugins-env-update/SKILL.md",
+    "relative_path": "hooks-plugins-env-update/SKILL.md",
+    "name": "hooks-plugins-env-update",
+    "frontmatter": {
+      "name": "hooks-plugins-env-update",
+      "category": "general",
+      "description": "Enable/enable + test skills, update .env keys from github/*.txt, complete + enable hooks and plugins, validate; dry, no fabrications.",
+      "version": "2.0.0",
+      "author": "Elena Vasquez (Architect persona, Hermes default profile)",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "prerequisites": "pip: [honcho-ai]",
+      "title": "Hooks Plugins Env Update",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 3986,
+    "sha256": "be2863c4ad837fe2907f96b59e4d817dbbf5bc27f4ca9ecb9b088d99bc985d6a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/implement/SKILL.md",
+    "relative_path": "implement/SKILL.md",
+    "name": "implement",
+    "frontmatter": {
+      "name": "implement",
+      "description": "Implement a piece of work based on a spec or set of tickets.",
+      "disable-model-invocation": "true",
+      "title": "Implement",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 52,
+    "chars": 1529,
+    "sha256": "296b7498d8e103e77024a7b08dd3171c734bf898a8e5bbbc457946e474c5fffe",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/implement-spec/SKILL.md",
+    "relative_path": "implement-spec/SKILL.md",
+    "name": "implement-spec",
+    "frontmatter": {
+      "name": "implement-spec",
+      "description": "Implement the result of /to-spec and /to-tickets in code.",
+      "disable-model-invocation": "true",
+      "title": "Implement Spec",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 75,
+    "chars": 3697,
+    "sha256": "167cc57f9ff14d49542253dd45714d5001c25b95450794e8a9be7e890f399017",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/improve-codebase-architecture/SKILL.md",
+    "relative_path": "improve-codebase-architecture/SKILL.md",
+    "name": "improve-codebase-architecture",
+    "frontmatter": {
+      "name": "improve-codebase-architecture",
+      "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "disable-model-invocation": "true",
+      "title": "Improve Codebase Architecture",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 106,
+    "chars": 6945,
+    "sha256": "bfb20fcda60c15a60d3052b108a6d1a061b89d6269811bfbeaa132af11eba39b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/input/SKILL.md",
+    "relative_path": "input/SKILL.md",
+    "name": "input",
+    "frontmatter": {
+      "name": "input",
+      "category": "agentic-coder",
+      "title": "Input Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for input — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1436,
+    "sha256": "7b22c7db560cab8795f4bc3c721eea0bca139cd90dd59bfdc131c584ceaf062c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  }
+]

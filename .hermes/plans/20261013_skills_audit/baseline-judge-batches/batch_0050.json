@@ -1,0 +1,333 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-github-prompts-remaining/SKILL.md",
+    "relative_path": "development/fix-github-prompts-remaining/SKILL.md",
+    "name": "fix-github-prompts-remaining",
+    "frontmatter": {
+      "name": "fix-github-prompts-remaining",
+      "category": "agentic-coder",
+      "title": "Fix Github Prompts Remaining",
+      "description": "Fixes github prompts remaining issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2703,
+    "sha256": "673b3ed1a9a31a3a2d5c376a80b7e2e1c185970d80e9371a9b0456e64a2fdea7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-glued-headings/SKILL.md",
+    "relative_path": "development/fix-glued-headings/SKILL.md",
+    "name": "fix-glued-headings",
+    "frontmatter": {
+      "name": "fix-glued-headings",
+      "category": "agentic-coder",
+      "title": "Fix Glued Headings",
+      "description": "Fixes glued headings issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2591,
+    "sha256": "9e1556b9740014897e3a9eff5d6002fd75d918fec92beaf4ef6e1257416ee412",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-glued-headings-batch2/SKILL.md",
+    "relative_path": "development/fix-glued-headings-batch2/SKILL.md",
+    "name": "fix-glued-headings-batch2",
+    "frontmatter": {
+      "name": "fix-glued-headings-batch2",
+      "category": "agentic-coder",
+      "title": "Fix Glued Headings Batch2",
+      "description": "Fixes glued headings batch2 issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2671,
+    "sha256": "e37e7a0ee714f99c97ee0d3d9d970493660e4a2219fcb2d711e395ce1f5cbe9c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-glued-headings-manual/SKILL.md",
+    "relative_path": "development/fix-glued-headings-manual/SKILL.md",
+    "name": "fix-glued-headings-manual",
+    "frontmatter": {
+      "name": "fix-glued-headings-manual",
+      "category": "agentic-coder",
+      "title": "Fix Glued Headings Manual",
+      "description": "Fixes glued headings manual issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2661,
+    "sha256": "e4438e002d0dcfafa49aa253c7ddf5af3dcd941ed3e0be70ed252317a3daf5ec",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-line-endings/SKILL.md",
+    "relative_path": "development/fix-line-endings/SKILL.md",
+    "name": "fix-line-endings",
+    "frontmatter": {
+      "name": "fix-line-endings",
+      "category": "agentic-coder",
+      "title": "Fix Line Endings",
+      "description": "Fixes line-endings issues",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2548,
+    "sha256": "60cdd06338bcf888de0f1c4c84b7a3f3fa28f1b647a05264e77e20d3110b9636",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-midline-collapses/SKILL.md",
+    "relative_path": "development/fix-midline-collapses/SKILL.md",
+    "name": "fix-midline-collapses",
+    "frontmatter": {
+      "name": "fix-midline-collapses",
+      "category": "agentic-coder",
+      "title": "Fix Midline Collapses",
+      "description": "Fixes midline collapses issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2621,
+    "sha256": "71209e4ec1636154b25a6c675b2803248eebcd3b08b59a3e92dbb1d471be6fe3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-missing-closers/SKILL.md",
+    "relative_path": "development/fix-missing-closers/SKILL.md",
+    "name": "fix-missing-closers",
+    "frontmatter": {
+      "name": "fix-missing-closers",
+      "category": "agentic-coder",
+      "title": "Fix Missing Closers",
+      "description": "Fixes missing closers issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2601,
+    "sha256": "8cb522f29eddf86d5dba403f8deebfde74610f25a7d557104ba840f0dbac517a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

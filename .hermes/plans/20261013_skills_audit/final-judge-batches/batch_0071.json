@@ -1,0 +1,413 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/profile-refactor-bundle/SKILL.md",
+    "relative_path": "development/profile-refactor-bundle/SKILL.md",
+    "name": "profile-refactor-bundle",
+    "frontmatter": {
+      "name": "profile-refactor-bundle",
+      "category": "agentic-coder",
+      "title": "Profile Refactor — Feature-Doc Synthesis Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Refactors profile identity (SOUL.md/USER.md/MEMORY.md/description/alias) using verified feature docs; DRY synthesis; best practices; verification before claim; honest blocker reporting.",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 53,
+    "chars": 3603,
+    "sha256": "93a6184de1bccd0c9f873c1ab1684bd2ed4eb292223467f86f0469a7fece37e6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/project/SKILL.md",
+    "relative_path": "development/project/SKILL.md",
+    "name": "project",
+    "frontmatter": {
+      "name": "project",
+      "category": "agentic-coder",
+      "title": "Project",
+      "description": "Script for Project operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2455,
+    "sha256": "b9e223b16bbd4b501c880fec07ca8a209104a05c60eeb28c5603df48248ce522",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/project-consolidation/SKILL.md",
+    "relative_path": "development/project-consolidation/SKILL.md",
+    "name": "project-consolidation",
+    "frontmatter": {
+      "name": "project-consolidation",
+      "description": "Five-phase workflow for cleaning up and restructuring a project. Use when consolidating duplicate scripts, standardizing file layout, and reconciling divergent project structures.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "consolidation",
+        "project",
+        "restructuring",
+        "cleanup"
+      ],
+      "title": "Project Consolidation",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 158,
+    "chars": 8274,
+    "sha256": "83df47594ac7c151e8f4ceb6ababc931f74d12df48e84a34453047d2b51c8d24",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/project-consolidation/references/aggressive-cleanup-patterns.md",
+        "lines": 104,
+        "chars": 3309,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/project-consolidation/references/aggressive-cleanup-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/project-consolidation/references/plan-migration-pattern.md",
+        "lines": 39,
+        "chars": 1329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/project-consolidation/references/plan-migration-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/project-workflow-analysis-blueprint-generator/SKILL.md",
+    "relative_path": "development/project-workflow-analysis-blueprint-generator/SKILL.md",
+    "name": "project-workflow-analysis-blueprint-generator",
+    "frontmatter": {
+      "name": "project-workflow-analysis-blueprint-generator",
+      "category": "agentic-coder",
+      "title": "Project Workflow Analysis Blueprint Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures."
+    },
+    "has_frontmatter": true,
+    "lines": 315,
+    "chars": 11524,
+    "sha256": "9d761a31e2b37110548e0e5262f3a60b197508ea62dfb8eb93e280eda45a3909",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-audit-all/SKILL.md",
+    "relative_path": "development/prompt-audit-all/SKILL.md",
+    "name": "prompt-audit-all",
+    "frontmatter": {
+      "name": "prompt-audit-all",
+      "category": "audit",
+      "title": "Prompt Audit All",
+      "description": "Performs audit-all on prompts",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "audit",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2575,
+    "sha256": "85d01c5f5df624d0649ab9812dcd871e9bd65d79763924b8fcad28fdfa60df5b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-audit-all-cjs/SKILL.md",
+    "relative_path": "development/prompt-audit-all-cjs/SKILL.md",
+    "name": "prompt-audit-all-cjs",
+    "frontmatter": {
+      "name": "prompt-audit-all-cjs",
+      "category": "audit",
+      "title": "Prompt Audit All",
+      "description": "Performs audit-all on prompts",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "audit",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 3028,
+    "sha256": "2d7890b0b2408b1202c16e1bd936c66af69ad84cb535f2cfd424dd46a42d7419",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-audit-all-cjs/references/overview.md",
+        "lines": 16,
+        "chars": 399,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-audit-all-cjs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-audit-all-cjs/templates/template.md",
+        "lines": 18,
+        "chars": 156,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-audit-all-cjs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/prompt-batch-audit/SKILL.md",
+    "relative_path": "development/prompt-batch-audit/SKILL.md",
+    "name": "prompt-batch-audit",
+    "frontmatter": {
+      "name": "prompt-batch-audit",
+      "category": "audit",
+      "title": "Prompt Batch Audit",
+      "description": "Performs batch audit on prompt files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "prompts",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2595,
+    "sha256": "9c8034f93b513df16b701d3b91392b41c1a4304748778a922c3275c550a69bea",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-batch-audit/references/overview.md",
+        "lines": 29,
+        "chars": 545,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-batch-audit/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-batch-audit/templates/template.md",
+        "lines": 18,
+        "chars": 154,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/prompt-batch-audit/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

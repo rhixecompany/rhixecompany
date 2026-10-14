@@ -1,0 +1,494 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/email/agentmail/SKILL.md",
+    "relative_path": "email/agentmail/SKILL.md",
+    "name": "agentmail",
+    "frontmatter": {
+      "name": "agentmail",
+      "category": "agentic-coder",
+      "title": "Agentmail",
+      "author": "Hermes Agent",
+      "description": "Give the agent its own dedicated email inbox via AgentMail. Send, receive, and manage email autonomously using agent-owned email addresses (e.g. hermes-agent@agentmail.to).",
+      "version": "1.0.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 5557,
+    "sha256": "71c8174aed3a2137263612bf446427aad5ac8fb35f6c14ccf6408aa9240eec0c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/core.md",
+        "lines": 116,
+        "chars": 2958,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/core.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/mcp.md",
+        "lines": 16,
+        "chars": 313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/mcp.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/signup.md",
+        "lines": 50,
+        "chars": 1078,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/signup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/webhooks.md",
+        "lines": 30,
+        "chars": 851,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/webhooks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/websockets.md",
+        "lines": 55,
+        "chars": 1293,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/agentmail/references/websockets.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/email/email-inbox-triage/SKILL.md",
+    "relative_path": "email/email-inbox-triage/SKILL.md",
+    "name": "email-inbox-triage",
+    "frontmatter": {
+      "name": "email-inbox-triage",
+      "category": "email",
+      "description": "Triage an inbox: prioritize threads, draft replies safely.",
+      "version": "0.2.0",
+      "author": "Ben Barclay (benbarclay), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 98,
+    "chars": 5451,
+    "sha256": "dafa45ae702cf16a7392c5002fe82c846c4cd2ac41f55210f62ef5a94f330526",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/email/himalaya/SKILL.md",
+    "relative_path": "email/himalaya/SKILL.md",
+    "name": "himalaya",
+    "frontmatter": {
+      "author": "community",
+      "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "himalaya",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Himalaya",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 350,
+    "chars": 8555,
+    "sha256": "d5d099f3d464eecbbd356cbb11b7bb6c06c15582080f8574e520013fefb0bcb9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/email/himalaya/references/configuration.md",
+        "lines": 227,
+        "chars": 5896,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/himalaya/references/configuration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/himalaya/references/message-composition.md",
+        "lines": 199,
+        "chars": 3799,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/email/himalaya/references/message-composition.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/fallow-review/SKILL.md",
+    "relative_path": "fallow-review/SKILL.md",
+    "name": "fallow-review",
+    "frontmatter": {
+      "name": "fallow-review",
+      "category": "general",
+      "description": ">-",
+      "license": "MIT",
+      "title": "Fallow Review",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 312,
+    "chars": 23429,
+    "sha256": "1d6b1b6cc6981b7133f17e96c977fed4a9fc6b17eab63ddb057a1ea85baf6920",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/fallow-review/references/production-runtime-data.md",
+        "lines": 123,
+        "chars": 5453,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/fallow-review/references/production-runtime-data.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/fallow-review/references/tradeoff-elicitation.md",
+        "lines": 221,
+        "chars": 12496,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/fallow-review/references/tradeoff-elicitation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/3-statement-model/SKILL.md",
+    "relative_path": "finance/3-statement-model/SKILL.md",
+    "name": "3-statement-model",
+    "frontmatter": {
+      "name": "3-statement-model",
+      "category": "agentic-coder",
+      "title": "3 Statement Model",
+      "description": "Build fully-integrated 3-statement models (IS, BS, CF) in Excel with working capital schedules, D&A roll-forwards, debt schedule, and the plugs that make cash and retained earnings tie. Pairs with excel-author.",
+      "version": "1.0.0",
+      "author": "Anthropic (adapted by Nous Research)",
+      "license": "Apache-2.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 487,
+    "chars": 23705,
+    "sha256": "073cd6a86e4542081cf6766db2f7501fb55ac69d2e9794d98121867078f04b26",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/finance/3-statement-model/references/formatting.md",
+        "lines": 118,
+        "chars": 4240,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/3-statement-model/references/formatting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/3-statement-model/references/formulas.md",
+        "lines": 292,
+        "chars": 7683,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/3-statement-model/references/formulas.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/3-statement-model/references/sec-filings.md",
+        "lines": 125,
+        "chars": 4580,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/finance/3-statement-model/references/sec-filings.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 43
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/SKILL.md",
+    "relative_path": "finance/SKILL.md",
+    "name": "finance",
+    "frontmatter": {
+      "name": "finance",
+      "category": "agentic-coder",
+      "title": "Finance Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for finance — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1446,
+    "sha256": "aa1a3083df71be98be746a889bb3bc06124cfb5fea38ff8261a952274722e8e6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/finance/boost-prompts/SKILL.md",
+    "relative_path": "finance/boost-prompts/SKILL.md",
+    "name": "boost-prompts",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Comprehensive prompt quality audit and enhancement pipeline. Audits frontmatter, structure, content quality, and safety; then applies automated fixes for frontmatter corruption, missing sections, heading hierarchy, and boilerplate. Supports batch processing with configurable quality thresholds.",
+      "category": "agentic-coder",
+      "license": "MIT",
+      "metadata": [
+        "audit-prompts",
+        "prompt-builder",
+        "boost-prompt",
+        "convert-plaintext-to-md",
+        "ai-prompt-engineering-safety-review",
+        "prompts",
+        "quality",
+        "audit",
+        "enhancement",
+        "batch"
+      ],
+      "name": "boost-prompts",
+      "tags": [],
+      "title": "Boost Prompts Pipeline",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 174,
+    "chars": 6887,
+    "sha256": "6585f485761b6cbc0145d67b52401df76b8acca35235a1a6b708ce684acaf03b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  }
+]

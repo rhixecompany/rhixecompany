@@ -1,0 +1,380 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/run-cron-safe/SKILL.md",
+    "relative_path": "development/run-cron-safe/SKILL.md",
+    "name": "run-cron-safe",
+    "frontmatter": {
+      "name": "run-cron-safe",
+      "category": "agentic-coder",
+      "title": "Run Cron Safe",
+      "description": "Script for Run Cron Safe operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2515,
+    "sha256": "42e5d2e29223392e84552ffeabe8386f83ed9a298c6dc610a6f8d339a4f5ebd3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/rust-mcp-server-generator/SKILL.md",
+    "relative_path": "development/rust-mcp-server-generator/SKILL.md",
+    "name": "rust-mcp-server-generator",
+    "frontmatter": {
+      "name": "rust-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Rust Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK"
+    },
+    "has_frontmatter": true,
+    "lines": 616,
+    "chars": 13752,
+    "sha256": "0712f3904bac1e89401c3e94d9d413246cc2898de603c72b916ed0c0b3b4dc47",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sandbox-npm-install/SKILL.md",
+    "relative_path": "development/sandbox-npm-install/SKILL.md",
+    "name": "sandbox-npm-install",
+    "frontmatter": {
+      "name": "sandbox-npm-install",
+      "category": "agentic-coder",
+      "title": "Sandbox Npm Install",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or update node_modules inside a container where the workspace is mounted via virtiofs. Native binaries (esbuild, lightningcss, rollup) crash on virtiofs, so packages must be installed on the local ext4 filesystem and symlinked back."
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 4403,
+    "sha256": "0b967b185d6a987ea98dd72d22cb750c8d8979a9046cb15b0d2810d27058db39",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/sandbox-npm-install/scripts/install.sh",
+        "lines": 193,
+        "chars": 5571,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/sandbox-npm-install/scripts/install.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/scaffolding-oracle-to-postgres-migration-test-project/SKILL.md",
+    "relative_path": "development/scaffolding-oracle-to-postgres-migration-test-project/SKILL.md",
+    "name": "scaffolding-oracle-to-postgres-migration-test-project",
+    "frontmatter": {
+      "name": "scaffolding-oracle-to-postgres-migration-test-project",
+      "category": "agentic-coder",
+      "title": "Scaffolding Oracle To Postgres Migration Test Project",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project, transaction-rollback base class, and seed data manager. Use only during Phase 3, before writing Oracle baseline integration tests. Do not invoke during Phase 6 — the PostgreSQL test project is produced by migrating this project, not by running this skill again."
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 3413,
+    "sha256": "5d49f719d9a742e7ac5a271f82343d9caf8cf5c4b8aa132da7422ed6aa7121f8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/score-docs/SKILL.md",
+    "relative_path": "development/score-docs/SKILL.md",
+    "name": "score-docs",
+    "frontmatter": {
+      "name": "score-docs",
+      "category": "documentation",
+      "title": "Score Docs",
+      "description": "Scores documentation quality metrics",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "evaluation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2514,
+    "sha256": "ed6b90cc165b680a62c70eef5087276c01b9aa53d841f5bf8e38c91447f7ba7e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/score-docs/references/overview.md",
+        "lines": 29,
+        "chars": 505,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/score-docs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/score-docs/templates/template.md",
+        "lines": 18,
+        "chars": 146,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/score-docs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/search-skills-plugins-subagents/SKILL.md",
+    "relative_path": "development/search-skills-plugins-subagents/SKILL.md",
+    "name": "search-skills-plugins-subagents",
+    "frontmatter": {
+      "name": "search-skills-plugins-subagents",
+      "category": "architecture",
+      "title": "AgentPowers Marketplace Search",
+      "description": "Search and discover Hermes skills, plugins, and subagents.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": []
+    },
+    "has_frontmatter": true,
+    "lines": 243,
+    "chars": 14845,
+    "sha256": "489a24c4e2fe868208be67fd99c3f418f4e3f1447ab72e6e1ab41fd100622988",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/semantic-kernel/SKILL.md",
+    "relative_path": "development/semantic-kernel/SKILL.md",
+    "name": "semantic-kernel",
+    "frontmatter": {
+      "name": "semantic-kernel",
+      "category": "agentic-coder",
+      "title": "Semantic Kernel",
+      "description": "Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 3657,
+    "sha256": "26eb02d3fca69412894f6c64a3a05d3115733d673116899369ed32a742ddc849",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/semantic-kernel/references/dotnet.md",
+        "lines": 15,
+        "chars": 675,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/semantic-kernel/references/dotnet.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/semantic-kernel/references/python.md",
+        "lines": 15,
+        "chars": 623,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/semantic-kernel/references/python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  }
+]

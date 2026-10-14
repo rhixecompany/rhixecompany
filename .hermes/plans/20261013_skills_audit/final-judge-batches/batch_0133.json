@@ -1,0 +1,434 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/media/youtube-content/SKILL.md",
+    "relative_path": "media/youtube-content/SKILL.md",
+    "name": "youtube-content",
+    "frontmatter": {
+      "name": "youtube-content",
+      "category": "agentic-coder",
+      "title": "Youtube Content",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "description": "YouTube transcripts to summaries, threads, blogs.",
+      "platforms": "[linux, macos, windows]",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 4713,
+    "sha256": "2d9e2c3c82dff62d9a049dcb94ae64d3643d64b1a9e835cd65fdaa30d47a55c4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/media/youtube-content/references/output-formats.md",
+        "lines": 56,
+        "chars": 1252,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/media/youtube-content/references/output-formats.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/media/youtube-content/scripts/fetch_transcript.py",
+        "lines": 124,
+        "chars": 4054,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/media/youtube-content/scripts/fetch_transcript.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/youtube-full/SKILL.md",
+    "relative_path": "media/youtube-full/SKILL.md",
+    "name": "youtube-full",
+    "frontmatter": {
+      "name": "youtube-full",
+      "category": "agentic-coder",
+      "title": "Youtube Full",
+      "description": "Use when YouTube is or could be relevant — even if not mentioned: pasted video/channel/playlist links, video IDs, @handles, creator lookups, video summaries, quotes, translations, topic research, tutorials, talks, lectures, expert discussions, product reviews, how-to guides, new product announcements, first looks, or anything where video content is fresher or richer than text search. Covers transcripts, video/channel search, channel browsing, playlists, and within-channel search. Not for uploads, account management, or written-source-only research.",
+      "version": "1.5.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 282,
+    "chars": 10279,
+    "sha256": "f52b4cc7754fd14b247ed2c816a1e880a701190d6fae83064b80d11bb67e65f1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/media/youtube-full/references/auth-setup.md",
+        "lines": 137,
+        "chars": 7325,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/media/youtube-full/references/auth-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/migrate-to-shoehorn/SKILL.md",
+    "relative_path": "migrate-to-shoehorn/SKILL.md",
+    "name": "migrate-to-shoehorn",
+    "frontmatter": {
+      "name": "migrate-to-shoehorn",
+      "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+      "title": "Migrate To Shoehorn",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 153,
+    "chars": 3718,
+    "sha256": "aa075e609ba9afaca159958be4fe5117a409e64c21e6a80eff60f23164a13b4d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/migration/SKILL.md",
+    "relative_path": "migration/SKILL.md",
+    "name": "migration",
+    "frontmatter": {
+      "name": "migration",
+      "category": "agentic-coder",
+      "title": "Migration Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for migration — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1456,
+    "sha256": "64645692cd3bacf980b709c7c389508fd09dc6d059c147f5daa6d6c35fb410d0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/migration/openclaw-migration/SKILL.md",
+    "relative_path": "migration/openclaw-migration/SKILL.md",
+    "name": "openclaw-migration",
+    "frontmatter": {
+      "name": "openclaw-migration",
+      "category": "agentic-coder",
+      "title": "Openclaw Migration",
+      "description": "Migrate a user's OpenClaw customization footprint into Hermes Agent. Imports Hermes-compatible memories, SOUL.md, command allowlists, user skills, and selected workspace assets from ~/.openclaw, then reports exactly what could not be migrated and why.",
+      "version": "1.0.0",
+      "author": "Hermes Agent (Nous Research)",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 352,
+    "chars": 18023,
+    "sha256": "4c6b1cf36ecbe0c33f2239e3b084bcdd2f5bf729a7a801f3c4b6cc44e42ec07e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py",
+        "lines": 3136,
+        "chars": 140799,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/migration/openclaw-migration/scripts/openclaw_to_hermes.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/accelerate/SKILL.md",
+    "relative_path": "mlops/accelerate/SKILL.md",
+    "name": "huggingface-accelerate",
+    "frontmatter": {
+      "name": "huggingface-accelerate",
+      "category": "agentic-coder",
+      "title": "Huggingface Accelerate",
+      "description": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[accelerate, torch, transformers]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 380,
+    "chars": 10224,
+    "sha256": "6f6b865a986c67d25c20664eb0a0e5b8b7d1a73dd1dfd24e885d017fc66d66a1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/accelerate/references/custom-plugins.md",
+        "lines": 453,
+        "chars": 11781,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/accelerate/references/custom-plugins.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/accelerate/references/megatron-integration.md",
+        "lines": 489,
+        "chars": 11235,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/accelerate/references/megatron-integration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/accelerate/references/performance.md",
+        "lines": 525,
+        "chars": 12558,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/accelerate/references/performance.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/chroma/SKILL.md",
+    "relative_path": "mlops/chroma/SKILL.md",
+    "name": "chroma",
+    "frontmatter": {
+      "name": "chroma",
+      "category": "agentic-coder",
+      "title": "Chroma",
+      "description": "Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local development and open-source projects.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[chromadb, sentence-transformers]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 516,
+    "chars": 12625,
+    "sha256": "0ef6ea6c1783dbe3ff90ac92ccdde305391acf2dc2cbb29f6f0efb53bf341628",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/chroma/references/integration.md",
+        "lines": 38,
+        "chars": 771,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/chroma/references/integration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 10,
+    "section_count": 38
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/tldr-prompt/SKILL.md",
+    "relative_path": "agent-development/tldr-prompt/SKILL.md",
+    "name": "tldr-prompt",
+    "frontmatter": {
+      "name": "tldr-prompt",
+      "category": "agentic-coder",
+      "title": "Tldr Prompt",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries."
+    },
+    "has_frontmatter": true,
+    "lines": 322,
+    "chars": 12690,
+    "sha256": "ae00cb5075da13d5ac14066994a6effc90a17da521b2d86b8f2a16867dc99824",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/tm7-threat-model/SKILL.md",
+    "relative_path": "agent-development/tm7-threat-model/SKILL.md",
+    "name": "tm7-threat-model",
+    "frontmatter": {
+      "name": "tm7-threat-model",
+      "category": "agentic-coder",
+      "title": "Tm7 Threat Model",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, generate, or modify a .tm7 threat model file, or when performing STRIDE threat modeling that should output a .tm7 file that opens cleanly in the Microsoft Threat Modeling Tool."
+    },
+    "has_frontmatter": true,
+    "lines": 334,
+    "chars": 15526,
+    "sha256": "d4ee4d8559c8d9d8f820622be8c1613a13bbe946e3e386945ebe77ac2c84e6b0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/update-llms/SKILL.md",
+    "relative_path": "agent-development/update-llms/SKILL.md",
+    "name": "update-llms",
+    "frontmatter": {
+      "name": "update-llms",
+      "category": "agentic-coder",
+      "title": "Update Llms",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/"
+    },
+    "has_frontmatter": true,
+    "lines": 255,
+    "chars": 9356,
+    "sha256": "3e4353db173e8e40fd89efba1476dcdcd3b77cf2db5e346b414b5bc99a93843a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 35
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/using-superpowers/SKILL.md",
+    "relative_path": "agent-development/using-superpowers/SKILL.md",
+    "name": "using-superpowers",
+    "frontmatter": {
+      "name": "using-superpowers",
+      "category": "agentic-coder",
+      "title": "Using Superpowers",
+      "description": "Use when accessing advanced agent capabilities beyond basic operations.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[core, powers, advanced, toolkit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 119,
+    "chars": 4487,
+    "sha256": "da2efc14426adcb3680554a31a58df98bc07849fe461690212cfb80895669d76",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/what-context-needed/SKILL.md",
+    "relative_path": "agent-development/what-context-needed/SKILL.md",
+    "name": "what-context-needed",
+    "frontmatter": {
+      "name": "what-context-needed",
+      "category": "agentic-coder",
+      "title": "What Context Needed",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Ask Copilot what files it needs to see before answering a question"
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 1857,
+    "sha256": "29750d3f8a3f3f35097e962df1ad097b5a280d57346629b32828d6dd4c774400",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agentic-coder/SKILL.md",
+    "relative_path": "agentic-coder/SKILL.md",
+    "name": "agentic-coder",
+    "frontmatter": {
+      "name": "agentic-coder",
+      "category": "general",
+      "description": "Kod yazarken veya kodla ilgili herhangi bir değişikliğe başlamadan önce mutlaka kullan. İş kuralları, mimari kararlar veya belirsiz/net olmayan teknik konularda kullanıcıdan onay almadan ilerleme; kullanıcı yönlendirmeden iş mantığı veya mimari hakkında öneri sunma. Kullanıcı \"önce sor\", \"onay almadan yapma\", \"ben yönlendireceğim\" gibi bir çalışma tarzı belirttiyse bu skill'i uygula."
+    },
+    "has_frontmatter": true,
+    "lines": 21,
+    "chars": 1889,
+    "sha256": "cf75f43d3a46dc7c5edb9bbbfc1cfa94adc8f8ae31d3a6fc0a3dcf348f4b39ee",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 49,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 2
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/apple/apple-notes/SKILL.md",
+    "relative_path": "apple/apple-notes/SKILL.md",
+    "name": "apple-notes",
+    "frontmatter": {
+      "name": "apple-notes",
+      "category": "apple",
+      "description": "Manage Apple Notes via memo CLI: create, search, edit.",
+      "version": "1.0.1",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos]",
+      "metadata": [],
+      "prerequisites": []
+    },
+    "has_frontmatter": true,
+    "lines": 95,
+    "chars": 2396,
+    "sha256": "90608d081e93fe3e6901aea590f36d14ed5a6639d74e4e5d64dc770dede4c8d6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  }
+]

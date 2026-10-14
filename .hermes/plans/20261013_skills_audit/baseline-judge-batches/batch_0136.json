@@ -1,0 +1,507 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/lambda-labs/SKILL.md",
+    "relative_path": "mlops/lambda-labs/SKILL.md",
+    "name": "lambda-labs-gpu-cloud",
+    "frontmatter": {
+      "name": "lambda-labs-gpu-cloud",
+      "category": "agentic-coder",
+      "title": "Lambda Labs Gpu Cloud",
+      "description": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[lambda-cloud-client>=1.0.0]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 591,
+    "chars": 13830,
+    "sha256": "a5d552e4310e642d5121b257aacff39232b800f4b6704cb0b5be3e118a5f5aa1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/lambda-labs/references/advanced-usage.md",
+        "lines": 611,
+        "chars": 15016,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/lambda-labs/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/lambda-labs/references/troubleshooting.md",
+        "lines": 530,
+        "chars": 11679,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/lambda-labs/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 62
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/llava/SKILL.md",
+    "relative_path": "mlops/llava/SKILL.md",
+    "name": "llava",
+    "frontmatter": {
+      "name": "llava",
+      "category": "agentic-coder",
+      "title": "Llava",
+      "description": "Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image understanding tasks. Best for conversational image analysis.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[transformers, torch, pillow]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 359,
+    "chars": 9833,
+    "sha256": "ae0021f0ac391f7555128c420a6fa91e499436a4b61da71efd0df4c257886128",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/llava/references/training.md",
+        "lines": 197,
+        "chars": 4731,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/llava/references/training.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 55,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/llm-provider-benchmarking/SKILL.md",
+    "relative_path": "mlops/llm-provider-benchmarking/SKILL.md",
+    "name": "llm-provider-benchmarking",
+    "frontmatter": {
+      "name": "llm-provider-benchmarking",
+      "category": "agentic-coder",
+      "title": "Llm Provider Benchmarking",
+      "author": "Hermes Agent",
+      "description": "Class-level skill for inventorying, benchmarking, and comparing LLM providers/models in Hermes Agent. Covers 7-phase workflow from auth inventory through fallback chain analysis.",
+      "trigger": "/test-providers-models or any task requiring multi-provider LLM benchmarking",
+      "version": "1.0.0",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 182,
+    "chars": 8989,
+    "sha256": "d50e847a432b8fbaf64673cb4315bb3f14b52279a61db4d021cbecb51cc16a17",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/llm-provider-benchmarking/references/harness-fix.md",
+        "lines": 85,
+        "chars": 3003,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/llm-provider-benchmarking/references/harness-fix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "frontmatter: non-standard trigger field",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/ml-models/SKILL.md",
+    "relative_path": "mlops/ml-models/SKILL.md",
+    "name": "ml-models",
+    "frontmatter": {
+      "name": "ml-models",
+      "category": "agentic-coder",
+      "title": "ML Model Tooling (Hub, Inference, Tracking)",
+      "description": "Operate ML models end-to-end — download from Hugging Face Hub, run local GGUF inference with llama.cpp, and track experiments with Weights & Biases.",
+      "license": "MIT",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "tags": "[mlops, huggingface, llama-cpp, gguf, wandb, inference, experiment-tracking]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 135,
+    "chars": 5407,
+    "sha256": "e34f95bc50e293cedee9222366b91859e0908f9d48a607c7220ee9db2db4cf59",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/ml-models/references/huggingface-hub.md",
+        "lines": 102,
+        "chars": 4218,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/ml-models/references/huggingface-hub.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/ml-models/references/llama-cpp.md",
+        "lines": 250,
+        "chars": 8795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/ml-models/references/llama-cpp.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/ml-models/references/weights-and-biases.md",
+        "lines": 591,
+        "chars": 12284,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/ml-models/references/weights-and-biases.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/modal/SKILL.md",
+    "relative_path": "mlops/modal/SKILL.md",
+    "name": "modal-serverless-gpu",
+    "frontmatter": {
+      "name": "modal-serverless-gpu",
+      "category": "agentic-coder",
+      "title": "Modal Serverless Gpu",
+      "description": "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[modal>=0.64.0]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 398,
+    "chars": 10650,
+    "sha256": "269d3e01c7dc26f5dd91e48047f8b92eb1e573721985959b75f3763c15c421f3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/modal/references/advanced-usage.md",
+        "lines": 503,
+        "chars": 10903,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/modal/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/modal/references/troubleshooting.md",
+        "lines": 494,
+        "chars": 10516,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/modal/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/models/audiocraft/SKILL.md",
+    "relative_path": "mlops/models/audiocraft/SKILL.md",
+    "name": "audiocraft-audio-generation",
+    "frontmatter": {
+      "name": "audiocraft-audio-generation",
+      "category": "agentic-coder",
+      "title": "Audiocraft",
+      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 624,
+    "chars": 17057,
+    "sha256": "24ffdffa2997da3c112589f5948906813e5ef0318366e8c7c57734edeaa69d74",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/audiocraft/references/advanced-usage.md",
+        "lines": 666,
+        "chars": 16917,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/audiocraft/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/audiocraft/references/troubleshooting.md",
+        "lines": 504,
+        "chars": 11412,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/audiocraft/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 42
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/models/segment-anything/SKILL.md",
+    "relative_path": "mlops/models/segment-anything/SKILL.md",
+    "name": "segment-anything-model",
+    "frontmatter": {
+      "name": "segment-anything-model",
+      "category": "agentic-coder",
+      "title": "Segment Anything",
+      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 556,
+    "chars": 14759,
+    "sha256": "92fdef56018dcb58bf00f40b2546cde5ca749f65fe3039874eb1cee834364ac1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/segment-anything/references/advanced-usage.md",
+        "lines": 589,
+        "chars": 15803,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/segment-anything/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/segment-anything/references/troubleshooting.md",
+        "lines": 484,
+        "chars": 11908,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/models/segment-anything/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 65
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/generate-vscode-configs/SKILL.md",
+    "relative_path": "development/generate-vscode-configs/SKILL.md",
+    "name": "generate-vscode-configs",
+    "frontmatter": {
+      "name": "generate-vscode-configs",
+      "category": "agentic-coder",
+      "title": "Generate Vscode Configs",
+      "description": "Generates vscode configs (VS Code / VS Code Insiders)",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "vscode",
+        "configuration",
+        "generation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2677,
+    "sha256": "f8c2c1d7f5a25df29d1bbff54f77e2be665a3e98081f2190e49651d1e3c4561b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-configs/references/overview.md",
+        "lines": 58,
+        "chars": 2560,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-configs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-configs/templates/template.md",
+        "lines": 18,
+        "chars": 159,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-configs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/SKILL.md",
+    "relative_path": "development/geofeed-tuner/SKILL.md",
+    "name": "geofeed-tuner",
+    "frontmatter": {
+      "name": "geofeed-tuner",
+      "category": "agentic-coder",
+      "title": "Geofeed Tuner",
+      "tags": "[]",
+      "description": ">",
+      "license": "Apache-2.0",
+      "metadata": [],
+      "compatibility": "Requires Python 3"
+    },
+    "has_frontmatter": true,
+    "lines": 883,
+    "chars": 49188,
+    "sha256": "68ef22e428ecff2ecd779e35a81c3b8126a33c417c36c16059dee42156c27ab0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/references/rfc8805.txt",
+        "lines": 735,
+        "chars": 30607,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/references/rfc8805.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/references/snippets-python3.md",
+        "lines": 85,
+        "chars": 3474,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/references/snippets-python3.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/scripts/templates/index.html",
+        "lines": 2305,
+        "chars": 100599,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/geofeed-tuner/scripts/templates/index.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 56,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-hermes-scripts-migration-manifest/SKILL.md",
+    "relative_path": "development/gh-hermes-scripts-migration-manifest/SKILL.md",
+    "name": "gh-hermes-scripts-migration-manifest",
+    "frontmatter": {
+      "name": "gh-hermes-scripts-migration-manifest",
+      "category": "agentic-coder",
+      "title": "Gh Hermes Scripts Migration Manifest",
+      "description": "Script for Gh Hermes Scripts Migration Manifest operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2824,
+    "sha256": "1dfcb56d0db0448e3ad6dd0f340ddbcb5c6ad701249cf610686474dffcb3c9ca",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-hooks-plugins-audit-report/SKILL.md",
+    "relative_path": "development/gh-hooks-plugins-audit-report/SKILL.md",
+    "name": "gh-hooks-plugins-audit-report",
+    "frontmatter": {
+      "name": "gh-hooks-plugins-audit-report",
+      "category": "audit",
+      "title": "Gh Hooks Plugins Audit Report",
+      "description": "Script for Gh Hooks Plugins Audit Report operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "audit",
+        "hooks",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2738,
+    "sha256": "2276ac3524dc54a84a8a4e4c2e904b4da12ca385d4b4c214089fedfc21c3fb62",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-path-audit/SKILL.md",
+    "relative_path": "development/gh-path-audit/SKILL.md",
+    "name": "gh-path-audit",
+    "frontmatter": {
+      "name": "gh-path-audit",
+      "category": "audit",
+      "title": "Gh Path Audit",
+      "description": "Script for Gh Path Audit operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "audit",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2550,
+    "sha256": "41f73e44ecc4512518719c631a8ba3829362d8e0b4b2f092276b4f8097272c4f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-prompt-dedupe-report/SKILL.md",
+    "relative_path": "development/gh-prompt-dedupe-report/SKILL.md",
+    "name": "gh-prompt-dedupe-report",
+    "frontmatter": {
+      "name": "gh-prompt-dedupe-report",
+      "category": "agentic-coder",
+      "title": "Gh Prompt Dedupe Report",
+      "description": "Script for Gh Prompt Dedupe Report operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "prompts",
+        "organization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2697,
+    "sha256": "97e26af27ebbbdf8f10f84040b972d9a6a89a37b8a9693ad447b8430eafe5959",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-prompt-frontmatter-normalization-report/SKILL.md",
+    "relative_path": "development/gh-prompt-frontmatter-normalization-report/SKILL.md",
+    "name": "gh-prompt-frontmatter-normalization-report",
+    "frontmatter": {
+      "name": "gh-prompt-frontmatter-normalization-report",
+      "category": "agentic-coder",
+      "title": "Gh Prompt Frontmatter Normalization Report",
+      "description": "Script for Gh Prompt Frontmatter Normalization Report operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "prompts",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2924,
+    "sha256": "ef939fa63192b544fca5a9c12cff7577a6410eb463f2b4c8f485902da6cdedbf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

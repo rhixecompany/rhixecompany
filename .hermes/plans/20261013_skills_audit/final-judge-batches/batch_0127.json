@@ -1,0 +1,340 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-honcho/SKILL.md",
+    "relative_path": "mcp/mcp-honcho/SKILL.md",
+    "name": "mcp-honcho",
+    "frontmatter": {
+      "name": "mcp-honcho",
+      "category": "agentic-coder",
+      "title": "MCP Honcho — Dialectic User Modeling",
+      "description": "Exposes all Honcho MCP tools for managing sessions, peers, conversations, and dialectic user modeling with memory and queue management.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "honcho",
+        "session",
+        "peer",
+        "conversation",
+        "memory"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 4319,
+    "sha256": "7813e9c6852a02137cd4be268ac1e09abaf6f316f32919fc803912defdddea6e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-implementation-security-review/SKILL.md",
+    "relative_path": "mcp/mcp-implementation-security-review/SKILL.md",
+    "name": "mcp-implementation-security-review",
+    "frontmatter": {
+      "name": "mcp-implementation-security-review",
+      "category": "security",
+      "title": "Mcp Implementation Security Review",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 354,
+    "chars": 21703,
+    "sha256": "56eb0d3f40a5ed2b6504812cdef0339f6bda332f161eea56b8f338df80b8cda0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 33
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-mcp-docker/SKILL.md",
+    "relative_path": "mcp/mcp-mcp-docker/SKILL.md",
+    "name": "mcp-mcp-docker",
+    "frontmatter": {
+      "name": "mcp-mcp-docker",
+      "category": "documentation",
+      "title": "MCP Docker — Container & Repository Management",
+      "description": "Exposes all mcp-docker MCP tools for Docker container management, GitHub repository operations, issue tracking, and code search within Docker environments.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "docker",
+        "containers",
+        "repository",
+        "ci-cd"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 152,
+    "chars": 5555,
+    "sha256": "78e0dd0071f7ecfdd53db6876ee3bc67d0d6de68776bf210b213bcf9bb8db39e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-memory/SKILL.md",
+    "relative_path": "mcp/mcp-memory/SKILL.md",
+    "name": "mcp-memory",
+    "frontmatter": {
+      "name": "mcp-memory",
+      "category": "agentic-coder",
+      "title": "MCP Memory — Knowledge Graph Persistence",
+      "description": "Exposes all memory MCP tools for creating/reading/updating/deleting entities, relations, and observations in a persistent knowledge graph.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "memory",
+        "knowledge-graph",
+        "persistence"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 100,
+    "chars": 3381,
+    "sha256": "f6832276158605551a1bdb7043325a8ffa5e4434bcd116e4de7ff01545fea114",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-mindstudio/SKILL.md",
+    "relative_path": "mcp/mcp-mindstudio/SKILL.md",
+    "name": "mcp-mindstudio",
+    "frontmatter": {
+      "name": "mcp-mindstudio",
+      "category": "agentic-coder",
+      "title": "MCP MindStudio — AI Agent Orchestration",
+      "description": "Exposes all mindstudio MCP tools for AI agent orchestration, model management, prompt execution, and workflow automation via MindStudio.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "mindstudio",
+        "ai",
+        "orchestration",
+        "agent"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 89,
+    "chars": 2736,
+    "sha256": "7ee0a47f494d872047a641a599decbf68866abe91556be3bb5dd446e107727d0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-neon/SKILL.md",
+    "relative_path": "mcp/mcp-neon/SKILL.md",
+    "name": "mcp-neon",
+    "frontmatter": {
+      "name": "mcp-neon",
+      "category": "agentic-coder",
+      "title": "MCP Neon — PostgreSQL Database Management",
+      "description": "Exposes all neon MCP tools for managing Neon Postgres databases including endpoints, roles, branches, and documentation.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "neon",
+        "postgres",
+        "database",
+        "sql"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 3207,
+    "sha256": "940c98d1a9c71075062662273ae1fc5f273d1339bef11b707486f79036c4deb4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-parallel-search/SKILL.md",
+    "relative_path": "mcp/mcp-parallel-search/SKILL.md",
+    "name": "mcp-parallel-search",
+    "frontmatter": {
+      "name": "mcp-parallel-search",
+      "category": "architecture",
+      "title": "MCP Parallel Search — Concurrent Web Search",
+      "description": "Exposes all parallel-search MCP tools for concurrent web searching and fetching, plus prompt and resource management.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "parallel-search",
+        "web",
+        "search",
+        "concurrent"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 98,
+    "chars": 3150,
+    "sha256": "232ca35d88f29458b2666224a713c2ec8305cbd2fd2de4bc75e34d27f71595f1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  }
+]

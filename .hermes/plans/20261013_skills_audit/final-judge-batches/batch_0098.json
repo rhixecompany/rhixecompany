@@ -1,0 +1,334 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-pricing/SKILL.md",
+    "relative_path": "devops/azure-pricing/SKILL.md",
+    "name": "azure-pricing",
+    "frontmatter": {
+      "name": "azure-pricing",
+      "category": "agentic-coder",
+      "title": "Azure Pricing",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the user asks about the cost of any Azure service, wants to compare SKU prices, needs pricing data for a cost estimate, mentions Azure pricing, Azure costs, Azure billing, or asks about Copilot Studio pricing, Copilot Credits, or agent usage estimation. Covers compute, storage, networking, databases, AI, Copilot Studio, and all other Azure service families.",
+      "compatibility": "Requires internet access to prices.azure.com and learn.microsoft.com. No authentication needed.",
+      "metadata": [],
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 210,
+    "chars": 10074,
+    "sha256": "67f697682ef9b2c49323d41eefc374b5953bf49bc5a9b5f778b0520a422e52e7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 76,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-resource-health-diagnose/SKILL.md",
+    "relative_path": "devops/azure-resource-health-diagnose/SKILL.md",
+    "name": "azure-resource-health-diagnose",
+    "frontmatter": {
+      "name": "azure-resource-health-diagnose",
+      "category": "agentic-coder",
+      "title": "Azure Resource Health Diagnose",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems."
+    },
+    "has_frontmatter": true,
+    "lines": 312,
+    "chars": 12043,
+    "sha256": "6b65c1956711d9826499b66ed14064ccfb45b57a3279d3ebd17c98e7ad7d1cc1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-resource-visualizer/SKILL.md",
+    "relative_path": "devops/azure-resource-visualizer/SKILL.md",
+    "name": "azure-resource-visualizer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Analyze Azure resource groups and generate detailed Mermaid architecture",
+      "license": "Complete terms in LICENSE.txt",
+      "metadata": [
+        "imported"
+      ],
+      "name": "azure-resource-visualizer",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Azure Resource Visualizer",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 355,
+    "chars": 12759,
+    "sha256": "e6a2854054b4353b688d98e1317388dd930e804a86f8ef73ed94e503e20ac21d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-resource-visualizer/references/overview.md",
+        "lines": 11,
+        "chars": 203,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-resource-visualizer/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-role-selector/SKILL.md",
+    "relative_path": "devops/azure-role-selector/SKILL.md",
+    "name": "azure-role-selector",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when determining the least-privilege Azure RBAC role for a set of",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "azure-role-selector",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Azure Role Selector",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 140,
+    "chars": 4811,
+    "sha256": "3eb84c9e1dced4f42368be9ef485955f8cf27c82aca0ebfb8fa1901d5b8ccc81",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-smart-city-iot-solution-builder/SKILL.md",
+    "relative_path": "devops/azure-smart-city-iot-solution-builder/SKILL.md",
+    "name": "azure-smart-city-iot-solution-builder",
+    "frontmatter": {
+      "name": "azure-smart-city-iot-solution-builder",
+      "category": "agentic-coder",
+      "title": "Azure Smart City Iot Solution Builder",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Design and plan end-to-end Azure IoT and Smart City solutions: requirements, architecture, security, operations, cost, and a phased delivery plan with concrete implementation artifacts."
+    },
+    "has_frontmatter": true,
+    "lines": 178,
+    "chars": 6071,
+    "sha256": "440a761912a1c736b5b0ed3398800111057e421549c0c9007969aa176f7801b9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-static-web-apps/SKILL.md",
+    "relative_path": "devops/azure-static-web-apps/SKILL.md",
+    "name": "azure-static-web-apps",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA",
+      "license": "MIT",
+      "name": "azure-static-web-apps",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Azure Static Web Apps",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 390,
+    "chars": 11282,
+    "sha256": "76feaf4d68bad1ecb0838da7b5bb2ff68b390cea2107e322555ae12e26f00347",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-well-architected-review/SKILL.md",
+    "relative_path": "devops/azure-well-architected-review/SKILL.md",
+    "name": "azure-well-architected-review",
+    "frontmatter": {
+      "name": "azure-well-architected-review",
+      "category": "architecture",
+      "title": "Azure Well Architected Review",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Perform an Azure Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements."
+    },
+    "has_frontmatter": true,
+    "lines": 216,
+    "chars": 10700,
+    "sha256": "caedba39a0e3fb0b3235e0af78e311b6bc2d66f5c70d632e73393d5c1a8cb87e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  }
+]

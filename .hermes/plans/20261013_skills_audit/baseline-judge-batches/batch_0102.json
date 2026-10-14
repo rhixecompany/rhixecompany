@@ -1,0 +1,359 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/deploy-to-vercel/SKILL.md",
+    "relative_path": "devops/deploy-to-vercel/SKILL.md",
+    "name": "deploy-to-vercel",
+    "frontmatter": {
+      "name": "deploy-to-vercel",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "metadata": [],
+      "category": "dev-tools"
+    },
+    "has_frontmatter": true,
+    "lines": 297,
+    "chars": 11764,
+    "sha256": "03ef6a3bc24680d7c4f2e9d3919c449f4ace7fa6be8cbf81f74b33b37f295985",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 51,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 20,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/diagnose/SKILL.md",
+    "relative_path": "devops/diagnose/SKILL.md",
+    "name": "diagnose",
+    "frontmatter": {
+      "name": "diagnose",
+      "category": "agentic-coder",
+      "title": "Diagnose",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Perform a systematic diagnostic scan of an AI workflow across 5 quality dimensions — prompt quality, context efficiency, tool health, architecture fitness, and safety — producing a scored report with prioritized remediation actions."
+    },
+    "has_frontmatter": true,
+    "lines": 145,
+    "chars": 4980,
+    "sha256": "f871b77fd0a86c8cd2c1e3fb1985a07b5f9796f2e0249295b0ffeb21d245f62f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/disk-space-cleanup/SKILL.md",
+    "relative_path": "devops/disk-space-cleanup/SKILL.md",
+    "name": "disk-space-cleanup",
+    "frontmatter": {
+      "name": "disk-space-cleanup",
+      "category": "agentic-coder",
+      "title": "Disk Space Cleanup",
+      "description": "Free disk space: delete venvs, node_modules, caches, logs.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 5770,
+    "sha256": "3057a95802b806fe6bb7c76e92973545d3ed4ea3344b10c6217a61231d337119",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/docker-cleanup/SKILL.md",
+    "relative_path": "devops/docker-cleanup/SKILL.md",
+    "name": "docker-cleanup",
+    "frontmatter": {
+      "name": "docker-cleanup",
+      "category": "documentation",
+      "title": "Docker Cleanup",
+      "description": "Create cleanup plan, specs, prompt, skills, scripts for cleaning up all installed AI agents and Docker",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[cleanup, docker, agents, maintenance]"
+    },
+    "has_frontmatter": true,
+    "lines": 45,
+    "chars": 1468,
+    "sha256": "749d7139a85c996de063f83317aeb98294ccf477a26b5471835eae35c92389ff",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/docker-management/SKILL.md",
+    "relative_path": "devops/docker-management/SKILL.md",
+    "name": "docker-management",
+    "frontmatter": {
+      "name": "docker-management",
+      "category": "dev-tools",
+      "title": "Docker Management",
+      "description": "Manage Docker containers, images, volumes, networks, and Compose stacks — lifecycle ops, debugging, cleanup, and Dockerfile optimization.",
+      "version": "1.0.0",
+      "author": "sprmn24",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 320,
+    "chars": 11783,
+    "sha256": "4c8463cdca94d42a90f60cce9f3badf3b104a08e301256180242544c824bbb29",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/docs-sync-audit/SKILL.md",
+    "relative_path": "devops/docs-sync-audit/SKILL.md",
+    "name": "docs-sync-audit",
+    "frontmatter": {
+      "name": "docs-sync-audit",
+      "category": "audit",
+      "title": "Docs Sync Audit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Run a read-only documentation drift audit for a feature, PR, branch, release, API, configuration change, workflow, CLI, package, or repository area. Use when the user asks whether docs are stale, missing, inconsistent with code, or need updates after code changes. Checks README files, setup guides, API docs, env docs, changelogs, examples, comments, generated docs, and user-facing instructions. This is not a general code review; it compares what the docs claim against what the code does.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 198,
+    "chars": 13145,
+    "sha256": "ee5c5f21853105f7685a1dec308bdfa6709eb6157c68cea0b45b0304a10815db",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/docs-sync-audit/scripts/docs_drift.py",
+        "lines": 474,
+        "chars": 21243,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/docs-sync-audit/scripts/docs_drift.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/entra-agent-user/SKILL.md",
+    "relative_path": "devops/entra-agent-user/SKILL.md",
+    "name": "entra-agent-user",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling",
+      "license": "MIT",
+      "name": "entra-agent-user",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Entra Agent User",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 326,
+    "chars": 10531,
+    "sha256": "4fe6720cdc2bbf8e9eafeaac258d1116ae714a2b62772c74c610b4bff234c735",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/entra-agent-user/references/overview.md",
+        "lines": 11,
+        "chars": 176,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/entra-agent-user/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 14
+  }
+]

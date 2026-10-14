@@ -1,0 +1,482 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-script-fix-prompt-library/SKILL.md",
+    "relative_path": "devops/hermes-script-fix-prompt-library/SKILL.md",
+    "name": "hermes-script-fix-prompt-library",
+    "frontmatter": {
+      "name": "hermes-script-fix-prompt-library",
+      "category": "agentic-coder",
+      "title": "Prompt Library Frontmatter Repair",
+      "description": "Fixes prompt frontmatter; parses YAML, preserves body.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, scripts, devops, prompts, frontmatter, repair]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 3478,
+    "sha256": "df2cea32312c7c732a23d8b2500d29da3ed74ddb60e9bb0e5725d42956d3066f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-script-vault-key-validate/SKILL.md",
+    "relative_path": "devops/hermes-script-vault-key-validate/SKILL.md",
+    "name": "hermes-script-vault-key-validate",
+    "frontmatter": {
+      "name": "hermes-script-vault-key-validate",
+      "category": "agentic-coder",
+      "title": "Vault Key Validation",
+      "description": "Validate vault keys vs providers; write verified .env.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, scripts, devops, secrets, validation, async]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 3748,
+    "sha256": "ece3190d208c8a6bacb50643b246b4900ed40122b27471d09ca77cc33574356a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-script-verify-sync/SKILL.md",
+    "relative_path": "devops/hermes-script-verify-sync/SKILL.md",
+    "name": "hermes-script-verify-sync",
+    "frontmatter": {
+      "name": "hermes-script-verify-sync",
+      "category": "agentic-coder",
+      "title": "Cross-Platform Sync Verification",
+      "description": "Verify Hermes/Codex/OpenCode config parity across profiles.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, scripts, devops, sync, verification, multi-agent]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 98,
+    "chars": 2880,
+    "sha256": "6f062eaec752044fd10c1fb092a366e9e69f644b31b3a9e348d034bac4e076f1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-setup/SKILL.md",
+    "relative_path": "devops/hermes-setup/SKILL.md",
+    "name": "hermes-setup",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "'Complete Hermes Agent setup: install, configure providers, MCP servers,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "hermes-setup",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Hermes Setup & Configuration",
+      "version": "2.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 498,
+    "chars": 12015,
+    "sha256": "a53803fa16d13abbe0b964c802c6fadf9312e64d0c5d69ad1da7cab49d2546cd",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-setup/references/overview.md",
+        "lines": 11,
+        "chars": 164,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-setup/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 9,
+    "section_count": 42
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-skills/SKILL.md",
+    "relative_path": "devops/hermes-skills/SKILL.md",
+    "name": "hermes-skills",
+    "frontmatter": {
+      "name": "hermes-skills",
+      "category": "dev-tools",
+      "title": "Hermes Skills — Discovery, Creation, Hub Installation & Management",
+      "description": "Use when discovering, creating, installing, or managing Hermes skills from official hub, skills.sh registry, or ClawHub.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos, linux, windows]",
+      "metadata": [
+        "key: hermes.skill.skills.enabled"
+      ],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 256,
+    "chars": 13845,
+    "sha256": "99276ce9c316f09f402d567e2b855c0677987db71c7710f8e6bed55b53b8fc89",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/audit-findings-2026-06-11.md",
+        "lines": 33,
+        "chars": 2738,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/audit-findings-2026-06-11.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/audit-results.md",
+        "lines": 44,
+        "chars": 2319,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/audit-results.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/batch-install.md",
+        "lines": 83,
+        "chars": 2379,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/batch-install.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/commands.md",
+        "lines": 66,
+        "chars": 2704,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/community-skill-install.md",
+        "lines": 73,
+        "chars": 2593,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/community-skill-install.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/curator.md",
+        "lines": 44,
+        "chars": 1296,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/curator.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/skill-format.md",
+        "lines": 61,
+        "chars": 1891,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/skill-format.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/skills_install_templates.md",
+        "lines": 34,
+        "chars": 1032,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-skills/references/skills_install_templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/SKILL.md",
+    "relative_path": "devops/hermes-system-maintenance/SKILL.md",
+    "name": "hermes-system-maintenance",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Operational troubleshooting for Hermes Agent resource exhaustion, checkpoint",
+      "license": "MIT",
+      "name": "hermes-system-maintenance",
+      "category": "agentic-coder",
+      "tags": "null",
+      "title": "Hermes System Maintenance",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 335,
+    "chars": 15831,
+    "sha256": "0eacbf9cea3c047ef1857f93755c41d45a11cf89312e3ba093c8273cbabbe226",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/references/acp-provider-credential-pool.md",
+        "lines": 108,
+        "chars": 4035,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/references/acp-provider-credential-pool.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/references/diagnostic-commands.md",
+        "lines": 89,
+        "chars": 2628,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/references/diagnostic-commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/references/provider-auth-matrix.md",
+        "lines": 43,
+        "chars": 2357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-system-maintenance/references/provider-auth-matrix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-themes/SKILL.md",
+    "relative_path": "devops/hermes-themes/SKILL.md",
+    "name": "hermes-themes",
+    "frontmatter": {
+      "name": "hermes-themes",
+      "category": "agentic-coder",
+      "title": "Hermes Themes",
+      "author": "Hermes Agent",
+      "description": "Author a Hermes color theme that skins every surface.",
+      "version": "1.0.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 8469,
+    "sha256": "7a49a9fd6905ffe920c6d59d0fce3344292963b2ddfaa24ae05f272ca6f33615",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-themes/templates/skin.yaml",
+        "lines": 49,
+        "chars": 1375,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-themes/templates/skin.yaml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 17
+  }
+]

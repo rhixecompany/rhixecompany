@@ -1,0 +1,384 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/memory/SKILL.md",
+    "relative_path": "mcp/memory/SKILL.md",
+    "name": "memory",
+    "frontmatter": {
+      "name": "memory",
+      "category": "agentic-coder",
+      "description": "MCP server for memory. Use when you need memory via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Memory",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2866,
+    "sha256": "62a70b3292f2ab7db26e771b7bb0b749942ae5e03b3f24bb47a5da194f7bd9bf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/native-mcp/SKILL.md",
+    "relative_path": "mcp/native-mcp/SKILL.md",
+    "name": "native-mcp",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "MCP client: connect servers, register tools (stdio/HTTP).",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "native-mcp",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Native MCP",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 587,
+    "chars": 20481,
+    "sha256": "325c1a1843704fb3b5126b598d7c5e522c4adacccac15261d68b67238bda14a9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/native-mcp/references/docker-mcp-integration.md",
+        "lines": 198,
+        "chars": 6545,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/native-mcp/references/docker-mcp-integration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/native-mcp/references/mcp-memory-knowledge-graph.md",
+        "lines": 98,
+        "chars": 3464,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/native-mcp/references/mcp-memory-knowledge-graph.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 57
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/neon/SKILL.md",
+    "relative_path": "mcp/neon/SKILL.md",
+    "name": "neon",
+    "frontmatter": {
+      "name": "neon",
+      "category": "agentic-coder",
+      "description": "MCP server for neon. Use when you need neon via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Neon",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1112,
+    "sha256": "1faee71bb29da5481e943558950bbb58f3257536a5ed86a8be5d89203717bc90",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/opencode-mcp/SKILL.md",
+    "relative_path": "mcp/opencode-mcp/SKILL.md",
+    "name": "opencode-mcp",
+    "frontmatter": {
+      "name": "opencode-mcp",
+      "category": "agentic-coder",
+      "title": "OpenCode MCP Audit — OpenCode System",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "description": "Audit and document opencode MCP server state. Binary present; 0 configured servers verified from real 'opencode mcp list'. Workspace 'opencode.json' (4099 B) verified. Skill provides add/auth/test/debug procedures for future configuration.",
+      "tags": "[mcp, opencode, audit, workspace-config, verified-commands]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 62,
+    "chars": 3847,
+    "sha256": "6ac2b2db7f9518d16bde06a43517340b0b7788150e154be87528cfe2874d5183",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/opencode-mcp/references/commands-opencode--help.txt",
+        "lines": 12,
+        "chars": 393,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/opencode-mcp/references/commands-opencode--help.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/opencode-mcp/references/commands-opencode-list.txt",
+        "lines": 12,
+        "chars": 345,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/opencode-mcp/references/commands-opencode-list.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/parallel-search/SKILL.md",
+    "relative_path": "mcp/parallel-search/SKILL.md",
+    "name": "parallel-search",
+    "frontmatter": {
+      "name": "parallel-search",
+      "category": "architecture",
+      "description": "MCP server for parallel-search. Use when you need parallel-search via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Parallel Search",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1211,
+    "sha256": "c168be848731aa6d94f79b9db2988fe66776cb92cb62f7ccb92bd17eb5ad8c16",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/parallel-task/SKILL.md",
+    "relative_path": "mcp/parallel-task/SKILL.md",
+    "name": "parallel-task",
+    "frontmatter": {
+      "name": "parallel-task",
+      "category": "agentic-coder",
+      "description": "MCP server for parallel-task. Use when you need parallel-task via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Parallel Task",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1192,
+    "sha256": "bf37add79beb739a6a08a956a007b9471321ea9b017fa90f3a869f1d34eabe21",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/sentry/SKILL.md",
+    "relative_path": "mcp/sentry/SKILL.md",
+    "name": "sentry",
+    "frontmatter": {
+      "name": "sentry",
+      "category": "agentic-coder",
+      "description": "MCP server for sentry. Use when you need sentry via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Sentry",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1125,
+    "sha256": "3ceaec5937f8e4797c1a8b6fc674fe251d7bbb2ad4b2252a8314904ad532dad3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/power-bi-model-design-review/SKILL.md",
+    "relative_path": "creative/power-bi-model-design-review/SKILL.md",
+    "name": "power-bi-model-design-review",
+    "frontmatter": {
+      "name": "power-bi-model-design-review",
+      "category": "architecture",
+      "title": "Power Bi Model Design Review",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities."
+    },
+    "has_frontmatter": true,
+    "lines": 442,
+    "chars": 12127,
+    "sha256": "9a4331cdd4f9d31850a752a8ae405c39c6cc312b523d909dd41a9328e8cb6573",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 35
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/power-bi-report-design-consultation/SKILL.md",
+    "relative_path": "creative/power-bi-report-design-consultation/SKILL.md",
+    "name": "power-bi-report-design-consultation",
+    "frontmatter": {
+      "name": "power-bi-report-design-consultation",
+      "category": "architecture",
+      "title": "Power Bi Report Design Consultation",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design."
+    },
+    "has_frontmatter": true,
+    "lines": 390,
+    "chars": 11904,
+    "sha256": "0210ee76e7eb64254beeef4be2824d5a797a6b0fa15ce2fb431fde1ee32efe69",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 29
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/pr-screenshots/SKILL.md",
+    "relative_path": "creative/pr-screenshots/SKILL.md",
+    "name": "pr-screenshots",
+    "frontmatter": {
+      "name": "pr-screenshots",
+      "category": "agentic-coder",
+      "title": "Pr Screenshots",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Embed before/after screenshots and annotated images in pull request descriptions. Covers PR description patterns, image upload for Azure DevOps and GitHub, and sizing best practices."
+    },
+    "has_frontmatter": true,
+    "lines": 152,
+    "chars": 5469,
+    "sha256": "7185b0461632a319d309beab81bc9f08f12e6a43518564569e33cfcd60bd8240",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/pretext/SKILL.md",
+    "relative_path": "creative/pretext/SKILL.md",
+    "name": "pretext",
+    "frontmatter": {
+      "name": "pretext",
+      "category": "agentic-coder",
+      "author": "Hermes Agent",
+      "description": "Use when building creative browser demos with @chenglou/pretext — DOM-free",
+      "license": "MIT",
+      "metadata": [
+        "p5js",
+        "claude-design",
+        "excalidraw",
+        "architecture-diagram",
+        "creative-coding",
+        "typography",
+        "pretext",
+        "ascii-art",
+        "canvas",
+        "generative",
+        "text-layout",
+        "kinetic-typography"
+      ],
+      "platforms": [],
+      "title": "Pretext",
+      "version": "1.0.0",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 257,
+    "chars": 15058,
+    "sha256": "acaae2e73ccfe1a6ea64f920a8693e83392cb51e87cc5fcd49c9f212ffaedace",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pretext/references/patterns.md",
+        "lines": 258,
+        "chars": 10442,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pretext/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pretext/templates/donut-orbit.html",
+        "lines": 1468,
+        "chars": 52695,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pretext/templates/donut-orbit.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pretext/templates/hello-orb-flow.html",
+        "lines": 95,
+        "chars": 3435,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pretext/templates/hello-orb-flow.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/resemble-detect/SKILL.md",
+    "relative_path": "creative/resemble-detect/SKILL.md",
+    "name": "resemble-detect",
+    "frontmatter": {
+      "name": "resemble-detect",
+      "category": "agentic-coder",
+      "title": "Resemble Detect",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Deepfake detection and media safety — detect AI-generated audio, images, video, and text, trace synthesis sources, apply watermarks, verify speaker identity, and analyze media intelligence using Resemble AI",
+      "license": "Apache-2.0",
+      "compatibility": "Requires a Resemble AI API key (https://app.resemble.ai) set as RESEMBLE_API_KEY. All media must be accessible via public HTTPS URLs — local file paths are not supported except for text detection."
+    },
+    "has_frontmatter": true,
+    "lines": 333,
+    "chars": 17752,
+    "sha256": "e83be6dd1c40d5e3ca5f0e51fc1012731c67165fffef49cbe151c31c287bb3ed",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/resemble-detect/references/api-reference.md",
+        "lines": 300,
+        "chars": 10067,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/resemble-detect/references/api-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/resx-source-generator-migration/SKILL.md",
+    "relative_path": "creative/resx-source-generator-migration/SKILL.md",
+    "name": "resx-source-generator-migration",
+    "frontmatter": {
+      "name": "resx-source-generator-migration",
+      "category": "agentic-coder",
+      "title": "Resx Source Generator Migration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Migrates a project that uses checked-in .designer.cs files behind .resx to using a source-generator instead",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 184,
+    "chars": 9888,
+    "sha256": "7f87a9fb75e047e856d104acba5c020dea6e74114c0f89ed808cea70f8fa12a0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/salesforce-component-standards/SKILL.md",
+    "relative_path": "creative/salesforce-component-standards/SKILL.md",
+    "name": "salesforce-component-standards",
+    "frontmatter": {
+      "name": "salesforce-component-standards",
+      "category": "agentic-coder",
+      "title": "Salesforce Component Standards",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Quality standards for Salesforce Lightning Web Components (LWC), Aura components, and Visualforce pages. Covers SLDS 2 compliance, accessibility (WCAG 2.1 AA), data access pattern selection, component communication rules, XSS prevention, CSRF enforcement, FLS/CRUD in AuraEnabled methods, view state management, and Jest test requirements. Use this skill when building or reviewing any Salesforce UI component to enforce platform-specific security and quality standards."
+    },
+    "has_frontmatter": true,
+    "lines": 221,
+    "chars": 10796,
+    "sha256": "c3fd398941c2a37f0f8c23b10a1b20520fd7d6a32df5513f51502a4e2c701933",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  }
+]

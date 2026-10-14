@@ -1,0 +1,539 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/reference/mcp-server-catalog/SKILL.md",
+    "relative_path": "reference/mcp-server-catalog/SKILL.md",
+    "name": "mcp-server-catalog",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Catalog of 34 researched MCP servers with source URLs, features, and",
+      "license": "MIT",
+      "name": "mcp-server-catalog",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "MCP Server Catalog",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 132,
+    "chars": 5101,
+    "sha256": "717ff653754f291857c5bcfb609d50f3639f74e6f0c5accdb628d3ebe9d5a3f4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mcp-server-catalog/references/quick-reference.md",
+        "lines": 11,
+        "chars": 367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mcp-server-catalog/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/SKILL.md",
+    "relative_path": "reference/mini-context-graph/SKILL.md",
+    "name": "mini-context-graph",
+    "frontmatter": {
+      "name": "mini-context-graph",
+      "category": "agentic-coder",
+      "title": "Mini Context Graph",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 234,
+    "chars": 9088,
+    "sha256": "d66ae18e3d16c7cdd7f5edad1007955ce1ceb3ae4d1816b26b2fc354c6d8dac8",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/ingestion.md",
+        "lines": 196,
+        "chars": 5157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/ingestion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/lint.md",
+        "lines": 163,
+        "chars": 4227,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/lint.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/ontology.md",
+        "lines": 99,
+        "chars": 3236,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/ontology.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/retrieval.md",
+        "lines": 163,
+        "chars": 4393,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/references/retrieval.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/config.py",
+        "lines": 23,
+        "chars": 887,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/config.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/contextgraph.py",
+        "lines": 296,
+        "chars": 11788,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/contextgraph.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/template_agent_workflow.py",
+        "lines": 198,
+        "chars": 6678,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/template_agent_workflow.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/documents_store.py",
+        "lines": 191,
+        "chars": 5847,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/documents_store.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/graph_store.py",
+        "lines": 202,
+        "chars": 6161,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/graph_store.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/index_store.py",
+        "lines": 90,
+        "chars": 2813,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/index_store.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/ontology_store.py",
+        "lines": 175,
+        "chars": 4949,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/ontology_store.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/retrieval_engine.py",
+        "lines": 58,
+        "chars": 1599,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/retrieval_engine.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/wiki_store.py",
+        "lines": 294,
+        "chars": 9623,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/mini-context-graph/scripts/tools/wiki_store.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/reference/project-architecture-index/SKILL.md",
+    "relative_path": "reference/project-architecture-index/SKILL.md",
+    "name": "project-architecture-index",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Index of 17 workspace projects with architecture blueprints, folder structures,",
+      "license": "MIT",
+      "name": "project-architecture-index",
+      "category": "architecture",
+      "tags": [],
+      "title": "Project Architecture Index",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 3559,
+    "sha256": "0165e3f8aeb86ea9bab539c22172140ff20b40ca3dcd23a6a980142567ac4a0a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/reference/project-architecture-index/references/quick-reference.md",
+        "lines": 12,
+        "chars": 452,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/project-architecture-index/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/research/SKILL.md",
+    "relative_path": "research/SKILL.md",
+    "name": "research",
+    "frontmatter": {
+      "name": "research",
+      "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+      "title": "Research",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 47,
+    "chars": 1699,
+    "sha256": "20c9f07b904f79a62d15f78c6db43d30f03d4142bdacfb9c7e46bbe96353e2bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/retro/SKILL.md",
+    "relative_path": "retro/SKILL.md",
+    "name": "retro",
+    "frontmatter": {
+      "name": "retro",
+      "description": "Conduct a retrospective on a coding session.",
+      "disable-model-invocation": "true",
+      "title": "Retro",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 5268,
+    "sha256": "da3eba84ac771c825d2eec1c265687b39a0cc86789306cfe24cb0332b3fa8a52",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/scaffold-exercises/SKILL.md",
+    "relative_path": "scaffold-exercises/SKILL.md",
+    "name": "scaffold-exercises",
+    "frontmatter": {
+      "name": "scaffold-exercises",
+      "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+      "title": "Scaffold Exercises",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 141,
+    "chars": 4514,
+    "sha256": "1d902706a15618a7dc8cd38df95204d2e19de4f2eae40761e2177f8cb24a1efb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/security/1password/SKILL.md",
+    "relative_path": "security/1password/SKILL.md",
+    "name": "1password",
+    "frontmatter": {
+      "name": "1password",
+      "category": "security",
+      "title": "1Password",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in, and reading/injecting secrets for commands.",
+      "version": "1.0.0",
+      "author": "arceus77-7, enhanced by Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "setup": [
+        "env_var: OP_SERVICE_ACCOUNT_TOKEN"
+      ],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 211,
+    "chars": 6456,
+    "sha256": "f125096ace336047d02c67f5997e472387814bb640038c9c159d1fcfc7aa0574",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/security/1password/references/cli-examples.md",
+        "lines": 31,
+        "chars": 550,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/1password/references/cli-examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/1password/references/get-started.md",
+        "lines": 21,
+        "chars": 527,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/security/1password/references/get-started.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 26
+  }
+]

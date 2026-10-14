@@ -1,0 +1,428 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/create-tldr-page/SKILL.md",
+    "relative_path": "web-development/create-tldr-page/SKILL.md",
+    "name": "create-tldr-page",
+    "frontmatter": {
+      "name": "create-tldr-page",
+      "category": "agentic-coder",
+      "title": "Create Tldr Page",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a tldr page from documentation URLs and command examples, requiring both URL and command name."
+    },
+    "has_frontmatter": true,
+    "lines": 245,
+    "chars": 7146,
+    "sha256": "35d2d89573c5a977b93af56a7b7a49107696993c86bc3aa5e6e456298da90f1c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/django-application/SKILL.md",
+    "relative_path": "web-development/django-application/SKILL.md",
+    "name": "django-application",
+    "frontmatter": {
+      "name": "django-application",
+      "category": "agentic-coder",
+      "title": "Django Application",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "description": ">",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 122,
+    "chars": 4033,
+    "sha256": "45b11e39e90c7e4170403b12bda30d5499f5adb86e5ded19743c962aa76a6153",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/admin-interface-customization.md",
+        "lines": 39,
+        "chars": 1194,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/admin-interface-customization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/authentication-and-permissions.md",
+        "lines": 39,
+        "chars": 1177,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/authentication-and-permissions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/database-queries-and-optimization.md",
+        "lines": 49,
+        "chars": 1567,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/database-queries-and-optimization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/django-project-setup.md",
+        "lines": 10,
+        "chars": 177,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/django-project-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/model-design-with-orm.md",
+        "lines": 66,
+        "chars": 2095,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/model-design-with-orm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/url-routing.md",
+        "lines": 21,
+        "chars": 503,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/url-routing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/views-with-class-based-and-function-based-approaches.md",
+        "lines": 76,
+        "chars": 2699,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/django-application/references/views-with-class-based-and-function-based-approaches.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/firecrawl-agent/SKILL.md",
+    "relative_path": "web-development/firecrawl-agent/SKILL.md",
+    "name": "firecrawl-agent",
+    "frontmatter": {
+      "name": "firecrawl-agent",
+      "version": "1.0.0",
+      "title": "Firecrawl Agent",
+      "author": "Hermes Skills Team",
+      "description": "|",
+      "category": "agentic-coder",
+      "allowed-tools": [
+        "Bash(firecrawl *)",
+        "Bash(npx firecrawl *)"
+      ],
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 4833,
+    "sha256": "2b7c5b5d555c4441d11e5cea6161fb83e431ab17f321f1b604f730db76da1864",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/firecrawl-crawl/SKILL.md",
+    "relative_path": "web-development/firecrawl-crawl/SKILL.md",
+    "name": "firecrawl-crawl",
+    "frontmatter": {
+      "name": "firecrawl-crawl",
+      "version": "1.0.0",
+      "title": "Firecrawl Crawl",
+      "author": "Hermes Skills Team",
+      "description": "|",
+      "category": "agentic-coder",
+      "allowed-tools": [
+        "Bash(firecrawl *)",
+        "Bash(npx firecrawl *)"
+      ],
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 4776,
+    "sha256": "ba8c6ba294edcae0aecaeb2547e8e3edc2018ca9fb869c7125d138b8acc92d35",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/firecrawl-download/SKILL.md",
+    "relative_path": "web-development/firecrawl-download/SKILL.md",
+    "name": "firecrawl-download",
+    "frontmatter": {
+      "name": "firecrawl-download",
+      "version": "1.0.0",
+      "title": "Firecrawl Download",
+      "author": "Hermes Skills Team",
+      "description": "|",
+      "category": "agentic-coder",
+      "allowed-tools": [
+        "Bash(firecrawl *)",
+        "Bash(npx firecrawl *)"
+      ],
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 5202,
+    "sha256": "a7e8c5d969cb0b392a02c8b64cc201b35b4e3c056e11f761e1335a5a3e70d487",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/firecrawl-map/SKILL.md",
+    "relative_path": "web-development/firecrawl-map/SKILL.md",
+    "name": "firecrawl-map",
+    "frontmatter": {
+      "name": "firecrawl-map",
+      "version": "1.0.0",
+      "title": "Firecrawl Map",
+      "author": "Hermes Skills Team",
+      "description": "|",
+      "category": "agentic-coder",
+      "allowed-tools": [
+        "Bash(firecrawl *)",
+        "Bash(npx firecrawl *)"
+      ],
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 109,
+    "chars": 4207,
+    "sha256": "39a84f4a66c5bb29ba424bb0efe076a7eeb0ad8ac41894e404dbb4235e3555e3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/firecrawl-scrape/SKILL.md",
+    "relative_path": "web-development/firecrawl-scrape/SKILL.md",
+    "name": "firecrawl-scrape",
+    "frontmatter": {
+      "name": "firecrawl-scrape",
+      "version": "1.0.0",
+      "title": "Firecrawl Scrape",
+      "author": "Hermes Skills Team",
+      "description": "|",
+      "category": "agentic-coder",
+      "allowed-tools": [
+        "Bash(firecrawl *)",
+        "Bash(npx firecrawl *)"
+      ],
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 5814,
+    "sha256": "ac1c1b3ad0dab3da97c8a18bf4b16ed8f206e5821a04779066fc43e3ae83fab0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 10
+  }
+]

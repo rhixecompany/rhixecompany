@@ -1,0 +1,548 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/copilot-mcp/SKILL.md",
+    "relative_path": "mcp/copilot-mcp/SKILL.md",
+    "name": "copilot-mcp",
+    "frontmatter": {
+      "name": "copilot-mcp",
+      "category": "agentic-coder",
+      "title": "Copilot MCP Audit — Copilot System",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "description": "Audit and document copilot MCP server state. Covers user servers, plugin servers, workspace config (.github/mcp.json malformed preserved), and config sources. All server names/status verified from real 'copilot mcp list'.",
+      "tags": "[mcp, copilot, audit, workspace-config, verified-commands]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 89,
+    "chars": 6448,
+    "sha256": "feb77b2ef4e20d394421738381f2ca8a244e0fe0261df78ed5ac9b5b965bc767",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/copilot-mcp/references/commands-copilot--help.txt",
+        "lines": 14,
+        "chars": 586,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/copilot-mcp/references/commands-copilot--help.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/copilot-mcp/references/commands-copilot-list.txt",
+        "lines": 24,
+        "chars": 775,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/copilot-mcp/references/commands-copilot-list.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/fastmcp/SKILL.md",
+    "relative_path": "mcp/fastmcp/SKILL.md",
+    "name": "fastmcp",
+    "frontmatter": {
+      "name": "fastmcp",
+      "category": "agentic-coder",
+      "title": "Fastmcp",
+      "description": "Build, test, inspect, install, and deploy MCP servers with FastMCP in Python. Use when creating a new MCP server, wrapping an API or database as MCP tools, exposing resources or prompts, or preparing a FastMCP server for Claude Code, Cursor, or HTTP deployment.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "prerequisites": "commands: [python3]",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 330,
+    "chars": 9715,
+    "sha256": "5bdc0ef1278f6f485fa5351f9d8d0eed16fff42f32618ea97f56a5554530bb73",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/references/fastmcp-cli.md",
+        "lines": 110,
+        "chars": 2357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/references/fastmcp-cli.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/templates/api_wrapper.py",
+        "lines": 54,
+        "chars": 1608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/templates/api_wrapper.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/templates/database_server.py",
+        "lines": 77,
+        "chars": 2238,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/templates/database_server.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/templates/file_processor.py",
+        "lines": 55,
+        "chars": 1663,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/templates/file_processor.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/scripts/scaffold_fastmcp.py",
+        "lines": 56,
+        "chars": 2005,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/fastmcp/scripts/scaffold_fastmcp.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 29
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/fetch/SKILL.md",
+    "relative_path": "mcp/fetch/SKILL.md",
+    "name": "fetch",
+    "frontmatter": {
+      "name": "fetch",
+      "category": "agentic-coder",
+      "description": "MCP server for fetch. Use when you need fetch via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Fetch",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2843,
+    "sha256": "e91226200aba97ca946e222c177ce1d4dec6fc3ba279ee1973894388eae29ce9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/filesystem/SKILL.md",
+    "relative_path": "mcp/filesystem/SKILL.md",
+    "name": "filesystem",
+    "frontmatter": {
+      "name": "filesystem",
+      "category": "agentic-coder",
+      "description": "MCP server for filesystem. Use when you need filesystem via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Filesystem",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2904,
+    "sha256": "7aa0207d87d52f46b5852c4ac2b88884af4fe4982539fa75da2eb0b815131015",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/filesystem-mcp/SKILL.md",
+    "relative_path": "mcp/filesystem-mcp/SKILL.md",
+    "name": "filesystem-mcp",
+    "frontmatter": {
+      "name": "filesystem-mcp",
+      "category": "agentic-coder",
+      "title": "Filesystem MCP Server",
+      "description": "Use the filesystem MCP server for file operations across the workspace",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[mcp, filesystem, file-operations]"
+    },
+    "has_frontmatter": true,
+    "lines": 58,
+    "chars": 1522,
+    "sha256": "8638ecb3d80934c401532f5cf6e1646906154df8627021f4dd0f370d5f5866b2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/SKILL.md",
+    "relative_path": "mcp/flowstudio-power-automate-mcp/SKILL.md",
+    "name": "flowstudio-power-automate-mcp",
+    "frontmatter": {
+      "name": "flowstudio-power-automate-mcp",
+      "category": "agentic-coder",
+      "title": "Flowstudio Power Automate Mcp",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-"
+    },
+    "has_frontmatter": true,
+    "lines": 342,
+    "chars": 14715,
+    "sha256": "9190ec5db288f07df5a504fa77867aeb5154fc1ba442b528d8c52407d1f4fb72",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/MCP-BOOTSTRAP.md",
+        "lines": 78,
+        "chars": 2395,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/MCP-BOOTSTRAP.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/action-types.md",
+        "lines": 79,
+        "chars": 3931,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/action-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/connection-references.md",
+        "lines": 143,
+        "chars": 5055,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/connection-references.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/tool-reference.md",
+        "lines": 620,
+        "chars": 20394,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/flowstudio-power-automate-mcp/references/tool-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/SKILL.md",
+    "relative_path": "mcp/hermes-mcp/SKILL.md",
+    "name": "hermes-mcp",
+    "frontmatter": {
+      "name": "hermes-mcp",
+      "category": "agentic-coder",
+      "title": "Hermes MCP",
+      "description": "MCP server lifecycle: add, configure, test, secure, troubleshoot. Built-in servers, custom stdio/HTTP, Docker gateway, security audit.",
+      "version": "2.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 349,
+    "chars": 11962,
+    "sha256": "38749e9e28373c435d1faf55ce62e670a481780dad9d2e69374820e64eddef19",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/commands-hermes--help.txt",
+        "lines": 11,
+        "chars": 506,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/commands-hermes--help.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/commands-hermes-list.txt",
+        "lines": 13,
+        "chars": 947,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/commands-hermes-list.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/commands.md",
+        "lines": 40,
+        "chars": 922,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/config-examples.md",
+        "lines": 95,
+        "chars": 2189,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/config-examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/mcp-memory-knowledge-graph.md",
+        "lines": 59,
+        "chars": 2444,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/mcp-memory-knowledge-graph.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/windows-interactive-add.md",
+        "lines": 18,
+        "chars": 1018,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/windows-interactive-add.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/wsl2-bridge.md",
+        "lines": 56,
+        "chars": 1347,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/hermes-mcp/references/wsl2-bridge.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 8,
+    "section_count": 30
+  }
+]

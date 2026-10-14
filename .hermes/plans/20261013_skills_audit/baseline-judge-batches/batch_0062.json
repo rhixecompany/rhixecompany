@@ -1,0 +1,455 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/joyride/SKILL.md",
+    "relative_path": "development/joyride/SKILL.md",
+    "name": "joyride",
+    "frontmatter": {
+      "name": "joyride",
+      "description": "Support tool for interactive workflow steps — clipboard copy, file output, confirmation dialogs. Used by prompts that need to produce copy-paste-ready output or interactive user handoffs.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "clipboard",
+        "interactive",
+        "workflow",
+        "support"
+      ],
+      "title": "Joyride",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 97,
+    "chars": 2645,
+    "sha256": "e3d19c0d557e2733655fbb49d80a6e9acaff1ffdd6ea74a7cd8da0fc3adb1aa3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/kanban-bundle/SKILL.md",
+    "relative_path": "development/kanban-bundle/SKILL.md",
+    "name": "kanban-bundle",
+    "frontmatter": {
+      "name": "kanban-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — Kanban (Multi-Agent Board)",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/kanban.md by generating plan/spec/prompt/skill/script/result artifacts."
+    },
+    "has_frontmatter": true,
+    "lines": 43,
+    "chars": 1512,
+    "sha256": "67795d1049fc8e4cfe70f16ac30c1699df93f2fd4504b1219673fce679277b07",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/kotlin-mcp-server-generator/SKILL.md",
+    "relative_path": "development/kotlin-mcp-server-generator/SKILL.md",
+    "name": "kotlin-mcp-server-generator",
+    "frontmatter": {
+      "name": "kotlin-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Kotlin Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library."
+    },
+    "has_frontmatter": true,
+    "lines": 488,
+    "chars": 11684,
+    "sha256": "1c31065d352644736214202fda8ad36c0a7f0e9f94fdb418035001a81842de05",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/kotlin-springboot/SKILL.md",
+    "relative_path": "development/kotlin-springboot/SKILL.md",
+    "name": "kotlin-springboot",
+    "frontmatter": {
+      "name": "kotlin-springboot",
+      "category": "agentic-coder",
+      "title": "Kotlin Springboot",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for developing applications with Spring Boot and Kotlin."
+    },
+    "has_frontmatter": true,
+    "lines": 109,
+    "chars": 5384,
+    "sha256": "cc3476777e5fb88df975cc503d59cf43e0697d955d0a9315addb922a1da0c4bf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/lcs/SKILL.md",
+    "relative_path": "development/lcs/SKILL.md",
+    "name": "lcs",
+    "frontmatter": {
+      "name": "lcs",
+      "category": "agentic-coder",
+      "title": "Lcs",
+      "description": "Longest common subsequence utility for string comparison",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "utility",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2468,
+    "sha256": "9b0ea300fb2ac2c829a13449e5c55e57a43a2a5f3c7e7be164b3c9c133c84784",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/lcs/references/overview.md",
+        "lines": 59,
+        "chars": 2265,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/lcs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/lcs/templates/template.md",
+        "lines": 18,
+        "chars": 139,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/lcs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/list-cli-tools/SKILL.md",
+    "relative_path": "development/list-cli-tools/SKILL.md",
+    "name": "list-cli-tools",
+    "frontmatter": {
+      "name": "list-cli-tools",
+      "category": "agentic-coder",
+      "title": "List Cli Tools",
+      "description": "Lists available cli-tools",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2514,
+    "sha256": "5aebf171e2581ffb78176c8fa5a9aeca0f5b507c76949ad406e022247dcb86dc",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/list-cli-tools/references/overview.md",
+        "lines": 29,
+        "chars": 764,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/list-cli-tools/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/list-cli-tools/templates/template.md",
+        "lines": 13,
+        "chars": 135,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/list-cli-tools/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/litprog-skill/SKILL.md",
+    "relative_path": "development/litprog-skill/SKILL.md",
+    "name": "litprog-skill",
+    "frontmatter": {
+      "name": "litprog-skill",
+      "version": "1.0.0",
+      "license": "MIT",
+      "tags": "[]",
+      "title": "Skill",
+      "author": "Hermes Agent",
+      "description": "Skill",
+      "category": "agentic-coder"
+    },
+    "has_frontmatter": true,
+    "lines": 377,
+    "chars": 12404,
+    "sha256": "bb2e24ee48ce01dee91855c9746db65e848f1941f267ba9cc680b452183c93fb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/references/analysis-workflow.md",
+        "lines": 107,
+        "chars": 5428,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/references/analysis-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/references/chunk-syntax.md",
+        "lines": 122,
+        "chars": 3058,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/references/chunk-syntax.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/references/pandoc-setup.md",
+        "lines": 127,
+        "chars": 3173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/references/pandoc-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/scripts/hook-reverse-sync.ts",
+        "lines": 132,
+        "chars": 3403,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/scripts/hook-reverse-sync.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/scripts/tangle.ts",
+        "lines": 363,
+        "chars": 10004,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/scripts/tangle.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/scripts/untangle.ts",
+        "lines": 216,
+        "chars": 6613,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/litprog-skill/scripts/untangle.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  }
+]

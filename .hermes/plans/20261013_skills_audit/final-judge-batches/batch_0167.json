@@ -1,0 +1,618 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/SKILL.md",
+    "relative_path": "software-development/bash-scripts-audit-remediation/SKILL.md",
+    "name": "bash-scripts-audit-remediation",
+    "frontmatter": {
+      "name": "bash-scripts-audit-remediation",
+      "category": "audit",
+      "title": "Bash Scripts Audit Remediation",
+      "description": "Five-phase script audit and remediation workflow for Bash, PowerShell, BAT, and TypeScript scripts across repos. Inventories, audits, plans, fixes, and verifies.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 300,
+    "chars": 24969,
+    "sha256": "d0f89254894d1171eedd66c2e6872fca3446bd0572e7e6e7b34ed86ca52b538a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/bash-common-pitfall-fixes.md",
+        "lines": 71,
+        "chars": 1960,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/bash-common-pitfall-fixes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/bash-heredoc-quoting-pitfalls.md",
+        "lines": 51,
+        "chars": 1437,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/bash-heredoc-quoting-pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/bat-thin-delegator-pattern.md",
+        "lines": 31,
+        "chars": 1010,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/bat-thin-delegator-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/batch-remediation-checkpoint-workflow.md",
+        "lines": 159,
+        "chars": 6682,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/batch-remediation-checkpoint-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/common-bash-pre-existing-bugs.md",
+        "lines": 129,
+        "chars": 4900,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/common-bash-pre-existing-bugs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/cross-platform-wrapper-standardization.md",
+        "lines": 166,
+        "chars": 5273,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/cross-platform-wrapper-standardization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/powershell-strict-mode-and-deprecations.md",
+        "lines": 33,
+        "chars": 1126,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/powershell-strict-mode-and-deprecations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/priority-1-safety-audit.md",
+        "lines": 154,
+        "chars": 5690,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/priority-1-safety-audit.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/python-script-path-hardcoding-remediation.md",
+        "lines": 151,
+        "chars": 4420,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/python-script-path-hardcoding-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/six-phase-migration-specifications.md",
+        "lines": 411,
+        "chars": 14301,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/six-phase-migration-specifications.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/six-phase-migration-with-safety-gates.md",
+        "lines": 277,
+        "chars": 10856,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/six-phase-migration-with-safety-gates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/synthetic-fixture-scaffolding-for-phase-execution.md",
+        "lines": 188,
+        "chars": 7393,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/synthetic-fixture-scaffolding-for-phase-execution.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/typescript-consolidation-utilities.md",
+        "lines": 148,
+        "chars": 6666,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/typescript-consolidation-utilities.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/typescript-migration-architecture.md",
+        "lines": 461,
+        "chars": 13377,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/typescript-migration-architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/wrapper-delegation-discovery.md",
+        "lines": 153,
+        "chars": 5397,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/wrapper-delegation-discovery.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/wrapper-orchestration-contract.md",
+        "lines": 153,
+        "chars": 5778,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/bash-scripts-audit-remediation/references/wrapper-orchestration-contract.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/bun-shell/SKILL.md",
+    "relative_path": "software-development/bun-shell/SKILL.md",
+    "name": "bun-shell",
+    "frontmatter": {
+      "name": "bun-shell",
+      "category": "agentic-coder",
+      "title": "Bun Shell",
+      "author": "Hermes Skills Team",
+      "description": "Bun shell scripting with Bun.$, Bun.spawn, subprocess management. Use for shell commands, template literals, or command execution.",
+      "license": "MIT",
+      "version": "1.0.0",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 435,
+    "chars": 8605,
+    "sha256": "9b20fc06cb5326997e5559615f30246c79bb520d30790b40233d2fe63acec9d4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/caveman-unified/SKILL.md",
+    "relative_path": "software-development/caveman-unified/SKILL.md",
+    "name": "caveman-unified",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "'Use when token limits are tight, reducing verbosity in communication,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "caveman-unified",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Caveman Unified",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 208,
+    "chars": 6750,
+    "sha256": "bb25d62e61d17218736c5002c4cbd3d87e82286095a0a46c10b0587f183a31a9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/caveman-unified/references/overview.md",
+        "lines": 11,
+        "chars": 173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/caveman-unified/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/claude-api/SKILL.md",
+    "relative_path": "software-development/claude-api/SKILL.md",
+    "name": "claude-api",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "'Use when interacting with the Claude API: client patterns, managed agents,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "claude-api",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Claude Api",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 3238,
+    "sha256": "7024b6a0cc5e6ae17d12edab225f364a302e081740ec3897dc838146c7c26f7b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/clonedeps/SKILL.md",
+    "relative_path": "software-development/clonedeps/SKILL.md",
+    "name": "clonedeps",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when needing to inspect dependency/library source code for debugging",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "clonedeps",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Clone Dependencies",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 189,
+    "chars": 5757,
+    "sha256": "1f0750e9405e687a0d782bb65c2f08070d29f4738d07e1b7ed539336ff9c2a2e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/code-docs/SKILL.md",
+    "relative_path": "software-development/code-docs/SKILL.md",
+    "name": "code-docs",
+    "frontmatter": {
+      "name": "code-docs",
+      "category": "documentation",
+      "title": "Code Documentation",
+      "description": "Use when writing Google Style docstrings for Python, Go, or Terraform code, or ensuring consistent documentation standards across projects.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[documentation, docstrings, google-style, python, go, terraform]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 215,
+    "chars": 6574,
+    "sha256": "2774bb9b01ef02769345d7e7e0593a41b08e5513f032e0853dcdc49f67bf785f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-docs/references/go_google_style.md",
+        "lines": 507,
+        "chars": 14452,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-docs/references/go_google_style.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-docs/references/python_google_style.md",
+        "lines": 507,
+        "chars": 15784,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-docs/references/python_google_style.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-docs/references/terraform_style.md",
+        "lines": 507,
+        "chars": 14343,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-docs/references/terraform_style.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/code-wiki/SKILL.md",
+    "relative_path": "software-development/code-wiki/SKILL.md",
+    "name": "code-wiki",
+    "frontmatter": {
+      "name": "code-wiki",
+      "category": "agentic-coder",
+      "title": "Code Wiki",
+      "description": "Generate wiki docs + Mermaid diagrams for any codebase.",
+      "version": "0.1.0",
+      "author": "Teknium (teknium1), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 495,
+    "chars": 15723,
+    "sha256": "ef9ada9da1cfe3238c19e0e69c806e235001085ac15f5c7e2fcdd5cdcfe4a788",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/README.md",
+        "lines": 31,
+        "chars": 657,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/architecture.md",
+        "lines": 30,
+        "chars": 644,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/getting-started.md",
+        "lines": 47,
+        "chars": 654,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/getting-started.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/module.md",
+        "lines": 38,
+        "chars": 626,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/code-wiki/templates/module.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  }
+]

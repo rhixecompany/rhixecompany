@@ -1,0 +1,312 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/breakdown-feature-prd/SKILL.md",
+    "relative_path": "agent-development/breakdown-feature-prd/SKILL.md",
+    "name": "breakdown-feature-prd",
+    "frontmatter": {
+      "name": "breakdown-feature-prd",
+      "category": "agentic-coder",
+      "title": "Breakdown Feature Prd",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic."
+    },
+    "has_frontmatter": true,
+    "lines": 100,
+    "chars": 3465,
+    "sha256": "05ad3b5b2cff4cf10a3209653dfd1affc119a69fbccb91ee4b61d7f136fd592a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/competitor-ad-intelligence/SKILL.md",
+    "relative_path": "agent-development/competitor-ad-intelligence/SKILL.md",
+    "name": "competitor-ad-intelligence",
+    "frontmatter": {
+      "name": "competitor-ad-intelligence",
+      "category": "agentic-coder",
+      "title": "Competitor Ad Intelligence",
+      "tags": "[]",
+      "description": "Use this skill when the user asks to analyze, tear down, or reverse-engineer a competitor''s paid ads. Trigger for prompts like \"what ads is [competitor] running\", \"tear down their ad strategy\", \"competitor ad analysis\", \"find ad angles we haven''t tried\", or \"reverse-engineer their paid funnel\". Do not trigger for organic/SEO competitor research or website positioning analysis.",
+      "license": "MIT",
+      "compatibility": "Cross-platform. Uses web search and public ad libraries (Meta Ad Library, Google Ads Transparency Center) only — no API keys or credentials required.",
+      "metadata": [],
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 397,
+    "chars": 13560,
+    "sha256": "99c1b6a04492aacde237a099fe96a34b45f0cf711d83040257b6d337fea17a90",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/copilot-cli-quickstart/SKILL.md",
+    "relative_path": "agent-development/copilot-cli-quickstart/SKILL.md",
+    "name": "copilot-cli-quickstart",
+    "frontmatter": {
+      "name": "copilot-cli-quickstart",
+      "category": "agentic-coder",
+      "title": "Copilot Cli Quickstart",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">",
+      "allowed-tools": "ask_user, sql, fetch_copilot_cli_documentation"
+    },
+    "has_frontmatter": true,
+    "lines": 813,
+    "chars": 29655,
+    "sha256": "b35802961808a489537f7bea305dfe17c439062ddea2c8383d29ae098934983d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 46
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/copilot-instructions-blueprint-generator/SKILL.md",
+    "relative_path": "agent-development/copilot-instructions-blueprint-generator/SKILL.md",
+    "name": "copilot-instructions-blueprint-generator",
+    "frontmatter": {
+      "name": "copilot-instructions-blueprint-generator",
+      "category": "agentic-coder",
+      "title": "Copilot Instructions Blueprint Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions."
+    },
+    "has_frontmatter": true,
+    "lines": 333,
+    "chars": 15807,
+    "sha256": "e13f060dc568f9c382491a0f29e0b7602c78ce5651ab81e92677b33eca231b09",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/copilot-pr-autopilot/SKILL.md",
+    "relative_path": "agent-development/copilot-pr-autopilot/SKILL.md",
+    "name": "copilot-pr-autopilot",
+    "frontmatter": {
+      "name": "copilot-pr-autopilot",
+      "category": "agentic-coder",
+      "title": "Copilot Pr Autopilot",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request, and each round lands MORE comments. This skill runs loop engineering: auto-triggers Copilot Code Review via GraphQL (no @copilot mention), triages every open thread (Copilot, humans, advanced-security) with a fix / decline / escalate rubric, dispatches parallel fix sub-agents that obey the repo build/test/lint conventions, commits per iteration, replies+resolves citing the pushed SHA, then re-triggers until HEAD is reviewed with zero threads awaiting the agent''s reply (remaining open threads are explicit hand-offs to the human — escalated declines, design tradeoffs). You merge a clean PR; the bot runs it. Trigger phrases: \"address copilot comments\", \"run a copilot review loop\", \"fix this PR\", \"iterate on copilot feedback\". Repo-agnostic, gh CLI + PowerShell. Full autopilot needs repo Triage/Write; external PR authors get single-iteration mode plus manual re-trigger (UI 🔄 or substantive-commit push)."
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 14343,
+    "sha256": "ecc0711727a757792aa7d2de7daa9cfa78d39a4b7a783b9a12698382f55478db",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 76,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/copilot-sdk/SKILL.md",
+    "relative_path": "agent-development/copilot-sdk/SKILL.md",
+    "name": "copilot-sdk",
+    "frontmatter": {
+      "name": "copilot-sdk",
+      "category": "agentic-coder",
+      "title": "Copilot Sdk",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or creating custom agents. Triggers on Copilot SDK, GitHub SDK, agentic app, embed Copilot, programmable agent, MCP server, custom agent."
+    },
+    "has_frontmatter": true,
+    "lines": 940,
+    "chars": 25864,
+    "sha256": "adce1bec356cfa2486692bc400ce09a6dc4b1411424fbb3b0cd49492d55fba13",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 77,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 48
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/copilot-spaces/SKILL.md",
+    "relative_path": "agent-development/copilot-spaces/SKILL.md",
+    "name": "copilot-spaces",
+    "frontmatter": {
+      "name": "copilot-spaces",
+      "category": "agentic-coder",
+      "title": "Copilot Spaces",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions."
+    },
+    "has_frontmatter": true,
+    "lines": 227,
+    "chars": 9315,
+    "sha256": "df86598fb8605babca2ea97bfef0f19cb4874a69fbc07435335261cd6bc0bbf4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  }
+]

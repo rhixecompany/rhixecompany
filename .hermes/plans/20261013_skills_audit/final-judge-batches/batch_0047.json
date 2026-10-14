@@ -1,0 +1,355 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/find-locking-pid/SKILL.md",
+    "relative_path": "development/find-locking-pid/SKILL.md",
+    "name": "find-locking-pid",
+    "frontmatter": {
+      "name": "find-locking-pid",
+      "category": "agentic-coder",
+      "title": "Find Locking Pid",
+      "description": "Finds locking pid in the system",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "powershell",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2585,
+    "sha256": "57c2c8dfbb5ae06d022a244a5970302de399cf46dea7a8c753fa650d4378d8d4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-locking-pid/references/overview.md",
+        "lines": 38,
+        "chars": 959,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-locking-pid/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-locking-pid/templates/template.md",
+        "lines": 13,
+        "chars": 137,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/find-locking-pid/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/first-ask/SKILL.md",
+    "relative_path": "development/first-ask/SKILL.md",
+    "name": "first-ask",
+    "frontmatter": {
+      "name": "first-ask",
+      "category": "agentic-coder",
+      "title": "First Ask",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension."
+    },
+    "has_frontmatter": true,
+    "lines": 69,
+    "chars": 2538,
+    "sha256": "9abb87650fffad7188f005d6a357b0ed6962415ca9ea735e974ebc4aa6cc7443",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-blank-lines/SKILL.md",
+    "relative_path": "development/fix-blank-lines/SKILL.md",
+    "name": "fix-blank-lines",
+    "frontmatter": {
+      "name": "fix-blank-lines",
+      "category": "agentic-coder",
+      "title": "Fix Blank Lines",
+      "description": "Fixes blank lines issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2561,
+    "sha256": "a5f6ce60cc92eed180f3377f9b1d8390dbcadd29330fe2e4dc768312a792458f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-canonical/SKILL.md",
+    "relative_path": "development/fix-canonical/SKILL.md",
+    "name": "fix-canonical",
+    "frontmatter": {
+      "name": "fix-canonical",
+      "category": "agentic-coder",
+      "title": "Fix Canonical",
+      "description": "Fixes canonical issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2541,
+    "sha256": "b72ed57bbcbeb7a960d892cebfd6ce4f956a1974181094b4175787fc8e4887d9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-class-e/SKILL.md",
+    "relative_path": "development/fix-class-e/SKILL.md",
+    "name": "fix-class-e",
+    "frontmatter": {
+      "name": "fix-class-e",
+      "category": "agentic-coder",
+      "title": "Fix Class E",
+      "description": "Fixes class e issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2521,
+    "sha256": "35530c0b4247396cb7beb0709765eddc0678193d54f6b35a722437e2a96448da",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-collapsed-bullets/SKILL.md",
+    "relative_path": "development/fix-collapsed-bullets/SKILL.md",
+    "name": "fix-collapsed-bullets",
+    "frontmatter": {
+      "name": "fix-collapsed-bullets",
+      "category": "agentic-coder",
+      "title": "Fix Collapsed Bullets",
+      "description": "Fixes collapsed bullets issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2621,
+    "sha256": "9ce8f762d91fdb787a120751a9735eadb906dae8df8d99e25f179eb0c60a9c3b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-collapsed-fences/SKILL.md",
+    "relative_path": "development/fix-collapsed-fences/SKILL.md",
+    "name": "fix-collapsed-fences",
+    "frontmatter": {
+      "name": "fix-collapsed-fences",
+      "category": "agentic-coder",
+      "title": "Fix Collapsed Fences",
+      "description": "Fixes collapsed fences issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2611,
+    "sha256": "57606e8be2b67bfe4f746c0b2316f694de7753df9995dd694791fbdd2c37a244",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

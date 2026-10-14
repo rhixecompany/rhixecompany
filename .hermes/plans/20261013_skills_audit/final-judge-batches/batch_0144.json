@@ -1,0 +1,318 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/project-status/SKILL.md",
+    "relative_path": "oh-my-hermes/project-status/SKILL.md",
+    "name": "project-status",
+    "frontmatter": {
+      "name": "project-status",
+      "category": "agentic-coder",
+      "title": "Project Status",
+      "description": "Use when the founder asks for status, visibility, connected services, blocked work, or what Hermes is doing now",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[status, visibility, operations, founder]"
+    },
+    "has_frontmatter": true,
+    "lines": 87,
+    "chars": 2629,
+    "sha256": "dfdb861f882f4eff234849460164593e71a6a0f33f56cda8457a618aede0d9dd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/project-switch/SKILL.md",
+    "relative_path": "oh-my-hermes/project-switch/SKILL.md",
+    "name": "project-switch",
+    "frontmatter": {
+      "name": "project-switch",
+      "category": "agentic-coder",
+      "title": "Project Switch",
+      "description": "Use when the founder wants Hermes to work on a different product without mixing memory, crons, logs, or integration state",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[project, memory, context, switch]"
+    },
+    "has_frontmatter": true,
+    "lines": 90,
+    "chars": 2874,
+    "sha256": "c523d45d77ebfe6d0a0076ccbe109861a3359366b70c9444de4242916618ba44",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/publish-with-buffer/SKILL.md",
+    "relative_path": "oh-my-hermes/publish-with-buffer/SKILL.md",
+    "name": "publish-with-buffer",
+    "frontmatter": {
+      "name": "publish-with-buffer",
+      "category": "agentic-coder",
+      "title": "Publish With Buffer",
+      "description": "Use when approved social content must be validated, scheduled, or published through the official Buffer CLI",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[marketing, social, buffer, publishing]"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 3880,
+    "sha256": "af567713c7e2203b4d7c1600b49e2a45005c34ded7e4858618f0ecf74ae3974e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/review-github-pr/SKILL.md",
+    "relative_path": "oh-my-hermes/review-github-pr/SKILL.md",
+    "name": "review-github-pr",
+    "frontmatter": {
+      "name": "review-github-pr",
+      "category": "agentic-coder",
+      "title": "Review Github Pr",
+      "description": "Use when a built product increment has a pull request that needs independent behavioral, visual, and code review before release approval",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[github, pr, review, product, quality]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 3910,
+    "sha256": "d0f36554bf03d77c97fd78f8769c87328b5ba8d6d6048aa1871c0c9237e81289",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/rollback-deploy-skill/SKILL.md",
+    "relative_path": "oh-my-hermes/rollback-deploy-skill/SKILL.md",
+    "name": "rollback-deploy",
+    "frontmatter": {
+      "name": "rollback-deploy",
+      "category": "agentic-coder",
+      "title": "Rollback",
+      "description": "Use when a health check fails after a deploy and the last deploy was under 2 hours ago, to roll back production to the previous working deployment",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[ops, vercel, rollback, incident]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 4507,
+    "sha256": "a46f0587f332105bedf31135891c537778f044c4d99a4a766753b2cac1b9aa21",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/run-all-goals-consolidation/SKILL.md",
+    "relative_path": "oh-my-hermes/run-all-goals-consolidation/SKILL.md",
+    "name": "run-all-goals-consolidation",
+    "frontmatter": {
+      "sidebar_position": "16",
+      "category": "agentic-coder",
+      "title": "Persistent Goals",
+      "description": "Set a standing goal and let Hermes keep working across turns until it is done. Our take on the Ralph loop.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "name": "run-all-goals-consolidation",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 9284,
+    "sha256": "d8997898a9ba9b36240212ceb59730f17194a7f99d0178dfa1a7fc7d17de853f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/oh-my-hermes/run-all-goals-consolidation/references/tooling-verification-pattern.md",
+        "lines": 54,
+        "chars": 3900,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/oh-my-hermes/run-all-goals-consolidation/references/tooling-verification-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/security-review/SKILL.md",
+    "relative_path": "oh-my-hermes/security-review/SKILL.md",
+    "name": "security-review",
+    "frontmatter": {
+      "name": "security-review",
+      "category": "security",
+      "title": "Security Review",
+      "description": "Use when a change affects product security, a release needs an independent risk gate, or a scheduled security assessment is due",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[security, owasp, secrets, dependencies, supply-chain]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 331,
+    "chars": 13520,
+    "sha256": "55884c87d8a52f76997f0f156bc62dd81251e2e48df99fa1f84a3c4903b9a8d7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 37
+  }
+]

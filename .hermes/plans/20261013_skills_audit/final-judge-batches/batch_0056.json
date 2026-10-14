@@ -1,0 +1,495 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-prompt-frontmatter-normalization-verification/SKILL.md",
+    "relative_path": "development/gh-prompt-frontmatter-normalization-verification/SKILL.md",
+    "name": "gh-prompt-frontmatter-normalization-verification",
+    "frontmatter": {
+      "name": "gh-prompt-frontmatter-normalization-verification",
+      "category": "agentic-coder",
+      "title": "Gh Prompt Frontmatter Normalization Verification",
+      "description": "Script for Gh Prompt Frontmatter Normalization Verification operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "prompts",
+        "frontmatter",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2996,
+    "sha256": "2e1ddf6c09f416f0ce28c0aa6d6316671445f45b51f267cc5e520c9145900747",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gh-prompt-migration-manifest/SKILL.md",
+    "relative_path": "development/gh-prompt-migration-manifest/SKILL.md",
+    "name": "gh-prompt-migration-manifest",
+    "frontmatter": {
+      "name": "gh-prompt-migration-manifest",
+      "category": "agentic-coder",
+      "title": "Gh Prompt Migration Manifest",
+      "description": "Script for Gh Prompt Migration Manifest operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2740,
+    "sha256": "6c6934cec03f31ddccae7718c1481349dc8d694fa731eeb9fed0dd1593dfb052",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/github-codespaces-efficiency/SKILL.md",
+    "relative_path": "development/github-codespaces-efficiency/SKILL.md",
+    "name": "github-codespaces-efficiency",
+    "frontmatter": {
+      "name": "github-codespaces-efficiency",
+      "category": "agentic-coder",
+      "title": "Github Codespaces Efficiency",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Audit and improve GitHub Codespaces efficiency. Use this skill when a user wants faster Codespaces startup, lower Codespaces spend, slim devcontainers, right-size machines, tune idle timeout, or scope prebuilds to branches with sustained usage."
+    },
+    "has_frontmatter": true,
+    "lines": 121,
+    "chars": 5662,
+    "sha256": "6f7bc0e1018254353c81e37917beee7226cfde0edba4266d0b5f5f38dc082185",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-codespaces-efficiency/references/codespaces.md",
+        "lines": 50,
+        "chars": 2122,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-codespaces-efficiency/references/codespaces.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-codespaces-efficiency/references/review-rubric.md",
+        "lines": 12,
+        "chars": 467,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-codespaces-efficiency/references/review-rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/github-copilot-starter/SKILL.md",
+    "relative_path": "development/github-copilot-starter/SKILL.md",
+    "name": "github-copilot-starter",
+    "frontmatter": {
+      "name": "github-copilot-starter",
+      "category": "agentic-coder",
+      "title": "Github Copilot Starter",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Set up complete GitHub Copilot configuration for a new project based on technology stack"
+    },
+    "has_frontmatter": true,
+    "lines": 424,
+    "chars": 16042,
+    "sha256": "c54adf0ddd60cef8c99a623fd410ee24e2e9cee2e56aeafdb9972561711e849a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/github-issues/SKILL.md",
+    "relative_path": "development/github-issues/SKILL.md",
+    "name": "github-issues",
+    "frontmatter": {
+      "name": "github-issues",
+      "category": "agentic-coder",
+      "title": "Github Issues",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, manage repository labels, set issue fields (dates, priority, custom fields), set issue types, manage issue workflows, link issues, add dependencies, or track blocked-by/blocking relationships. Triggers on requests like \"create an issue\", \"file a bug\", \"request a feature\", \"update issue X\", \"set the priority\", \"set the start date\", \"create a label\", \"rename a label\", \"list repo labels\", \"link issues\", \"add dependency\", \"blocked by\", \"blocking\", or any GitHub issue management task."
+    },
+    "has_frontmatter": true,
+    "lines": 240,
+    "chars": 9779,
+    "sha256": "b16098b6e62561acd8494f511e063e7b541c036905eb4f4a392ce4a9b580fcc7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/dependencies.md",
+        "lines": 71,
+        "chars": 1887,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/dependencies.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/images.md",
+        "lines": 116,
+        "chars": 4739,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/images.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/issue-fields.md",
+        "lines": 229,
+        "chars": 7822,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/issue-fields.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/issue-types.md",
+        "lines": 72,
+        "chars": 1741,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/issue-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/labels.md",
+        "lines": 157,
+        "chars": 4974,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/labels.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/milestones.md",
+        "lines": 110,
+        "chars": 2469,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/milestones.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/projects.md",
+        "lines": 273,
+        "chars": 8596,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/projects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/search.md",
+        "lines": 231,
+        "chars": 7261,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/search.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/sub-issues.md",
+        "lines": 137,
+        "chars": 3720,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/sub-issues.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/templates.md",
+        "lines": 90,
+        "chars": 1384,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-issues/references/templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/github-mcp/SKILL.md",
+    "relative_path": "development/github-mcp/SKILL.md",
+    "name": "github-mcp",
+    "frontmatter": {
+      "name": "github-mcp",
+      "category": "agentic-coder",
+      "title": "GitHub MCP Server",
+      "description": "Use the GitHub MCP server for repository management, PRs, issues, and file operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[mcp, github, repository, prs, issues]"
+    },
+    "has_frontmatter": true,
+    "lines": 45,
+    "chars": 1217,
+    "sha256": "939056337c4251f9a20457396736cf9312bbd42be5ec5800644e6aa17e0c5cf1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/github-release/SKILL.md",
+    "relative_path": "development/github-release/SKILL.md",
+    "name": "github-release",
+    "frontmatter": {
+      "name": "github-release",
+      "category": "agentic-coder",
+      "title": "Github Release",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">",
+      "compatibility": "requires: gh CLI and git"
+    },
+    "has_frontmatter": true,
+    "lines": 463,
+    "chars": 14886,
+    "sha256": "d77cd46bbdf56138df370fe224cd62f5d0f1c0e4a5e00a015c4501646aaac2ec",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-release/references/commit-classification.md",
+        "lines": 92,
+        "chars": 2905,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-release/references/commit-classification.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-release/references/semver-rules.md",
+        "lines": 92,
+        "chars": 2987,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/github-release/references/semver-rules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  }
+]

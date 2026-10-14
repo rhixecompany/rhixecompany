@@ -1,0 +1,382 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/csharp-async/SKILL.md",
+    "relative_path": "development/csharp-async/SKILL.md",
+    "name": "csharp-async",
+    "frontmatter": {
+      "name": "csharp-async",
+      "category": "agentic-coder",
+      "title": "Csharp Async",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for C# async programming"
+    },
+    "has_frontmatter": true,
+    "lines": 88,
+    "chars": 2830,
+    "sha256": "c4e2bc8ba9c72483ef4542bf3d52fd9cbda775913240982368985e86305f43a8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/csharp-docs/SKILL.md",
+    "relative_path": "development/csharp-docs/SKILL.md",
+    "name": "csharp-docs",
+    "frontmatter": {
+      "name": "csharp-docs",
+      "category": "documentation",
+      "title": "Csharp Docs",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Ensure that C# types are documented with XML comments and follow best practices for documentation."
+    },
+    "has_frontmatter": true,
+    "lines": 101,
+    "chars": 5048,
+    "sha256": "45e441aab6fe3d9251793ee0d3c1581f262b618aea6f8d03539fc325fdb7203f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/csharp-mstest/SKILL.md",
+    "relative_path": "development/csharp-mstest/SKILL.md",
+    "name": "csharp-mstest",
+    "frontmatter": {
+      "name": "csharp-mstest",
+      "category": "agentic-coder",
+      "title": "Csharp Mstest",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests"
+    },
+    "has_frontmatter": true,
+    "lines": 517,
+    "chars": 14800,
+    "sha256": "dbe3cea4b96bfa8ac61186a1ff79f1a4d7fee931b9ee8941c536f00e83f90079",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/csharp-nunit/SKILL.md",
+    "relative_path": "development/csharp-nunit/SKILL.md",
+    "name": "csharp-nunit",
+    "frontmatter": {
+      "name": "csharp-nunit",
+      "category": "agentic-coder",
+      "title": "Csharp Nunit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for NUnit unit testing, including data-driven tests"
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 3811,
+    "sha256": "4f8075e5c78d43327ffd7232eaa03657c0a1ea19322018f2063f91e0618c6558",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/csharp-tunit/SKILL.md",
+    "relative_path": "development/csharp-tunit/SKILL.md",
+    "name": "csharp-tunit",
+    "frontmatter": {
+      "name": "csharp-tunit",
+      "category": "agentic-coder",
+      "title": "Csharp Tunit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for TUnit unit testing, including data-driven tests"
+    },
+    "has_frontmatter": true,
+    "lines": 139,
+    "chars": 6113,
+    "sha256": "09c814d30092920a41036ad9610b966ab8f957e8036bded15212ad00aeb5bf51",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/csharp-xunit/SKILL.md",
+    "relative_path": "development/csharp-xunit/SKILL.md",
+    "name": "csharp-xunit",
+    "frontmatter": {
+      "name": "csharp-xunit",
+      "category": "agentic-coder",
+      "title": "Csharp Xunit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for XUnit unit testing, including data-driven tests"
+    },
+    "has_frontmatter": true,
+    "lines": 107,
+    "chars": 3675,
+    "sha256": "4d4387c1c1f57a27f65b0a2811b4379c0008c77ff9c202a9f2869a68ac1b9254",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/SKILL.md",
+    "relative_path": "development/data-breach-blast-radius/SKILL.md",
+    "name": "data-breach-blast-radius",
+    "frontmatter": {
+      "name": "data-breach-blast-radius",
+      "category": "agentic-coder",
+      "title": "Data Breach Blast Radius",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Pre-breach impact analysis: inventories sensitive data (PII, PHI, PCI-DSS, credentials), traces data flows, scores exposure vectors, and produces a regulatory blast radius report with fine ranges sourced verbatim from GDPR Art. 83, CCPA § 1798.155(a), and HIPAA 45 CFR § 160.404. Cost benchmarks from IBM Cost of a Data Breach Report (annually updated). All citations in references/SOURCES.md for verification. Use when asked: \"assess breach impact\", \"what data could be exposed\", \"calculate blast radius\", \"data exposure analysis\", \"how bad would a breach be\", \"quantify data risk\", \"sensitive data inventory\", \"data flow security audit\", \"pre-breach assessment\", \"worst-case breach scenario\", \"breach readiness\", \"data risk report\", \"/data-breach-blast-radius\". For any stack handling user data, health records, or financial information. Output labels law-sourced figures (exact) vs heuristic estimates (planning only). Does not replace legal counsel."
+    },
+    "has_frontmatter": true,
+    "lines": 298,
+    "chars": 15196,
+    "sha256": "046f6a1088e4f055c41559d1c8644ba9030a5fc5706eca2fa5058250d76b3630",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/SOURCES.md",
+        "lines": 186,
+        "chars": 11912,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/SOURCES.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/blast-radius-calculator.md",
+        "lines": 253,
+        "chars": 10378,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/blast-radius-calculator.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/data-classification.md",
+        "lines": 250,
+        "chars": 8909,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/data-classification.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/hardening-playbook.md",
+        "lines": 449,
+        "chars": 14227,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/hardening-playbook.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/regulatory-impact.md",
+        "lines": 320,
+        "chars": 14932,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/regulatory-impact.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/report-format.md",
+        "lines": 305,
+        "chars": 10431,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/data-breach-blast-radius/references/report-format.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  }
+]

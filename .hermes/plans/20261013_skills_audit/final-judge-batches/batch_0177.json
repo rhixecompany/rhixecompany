@@ -1,0 +1,416 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/firecrawl-search/SKILL.md",
+    "relative_path": "web-development/firecrawl-search/SKILL.md",
+    "name": "firecrawl-search",
+    "frontmatter": {
+      "name": "firecrawl-search",
+      "version": "1.0.0",
+      "title": "Firecrawl Search",
+      "author": "Hermes Skills Team",
+      "description": "|",
+      "category": "architecture",
+      "allowed-tools": [
+        "Bash(firecrawl *)",
+        "Bash(npx firecrawl *)"
+      ],
+      "license": "MIT",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 184,
+    "chars": 8839,
+    "sha256": "c7136e6de0deadbc9ce1c7a11bacf20eb85a9c41f1441de535f5c4f5f3757874",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/SKILL.md",
+    "relative_path": "web-development/flowstudio-power-automate-build/SKILL.md",
+    "name": "flowstudio-power-automate-build",
+    "frontmatter": {
+      "name": "flowstudio-power-automate-build",
+      "category": "agentic-coder",
+      "title": "Flowstudio Power Automate Build",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-"
+    },
+    "has_frontmatter": true,
+    "lines": 537,
+    "chars": 20897,
+    "sha256": "764530cff20617bd0701e64f9d70fe6656a42f374e493a280c72675e26858a24",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/action-patterns-connectors.md",
+        "lines": 580,
+        "chars": 18324,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/action-patterns-connectors.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/action-patterns-core.md",
+        "lines": 572,
+        "chars": 16573,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/action-patterns-core.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/action-patterns-data.md",
+        "lines": 595,
+        "chars": 18935,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/action-patterns-data.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/build-patterns.md",
+        "lines": 108,
+        "chars": 2726,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/build-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/flow-schema.md",
+        "lines": 234,
+        "chars": 5192,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/flow-schema.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/trigger-types.md",
+        "lines": 245,
+        "chars": 5447,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/flowstudio-power-automate-build/references/trigger-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/no-net-fetch/SKILL.md",
+    "relative_path": "web-development/no-net-fetch/SKILL.md",
+    "name": "no-net-fetch",
+    "frontmatter": {
+      "name": "no-net-fetch",
+      "category": "agentic-coder",
+      "description": "Constraint flag: never make network fetch calls or web requests. Prevents all outbound HTTP/HTTPS requests during execution. Use as network safety constraint.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "constraint",
+        "network",
+        "safety",
+        "offline"
+      ],
+      "title": "No Net Fetch"
+    },
+    "has_frontmatter": true,
+    "lines": 95,
+    "chars": 2826,
+    "sha256": "5df50f27f4d80d6a5581142a29852ae964e8a5c18f783b17db2ac13c813120d8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/page-agent/SKILL.md",
+    "relative_path": "web-development/page-agent/SKILL.md",
+    "name": "page-agent",
+    "frontmatter": {
+      "name": "page-agent",
+      "category": "agentic-coder",
+      "title": "Page Agent",
+      "description": "Embed alibaba/page-agent into your own web application — a pure-JavaScript in-page GUI agent that ships as a single <script> tag or npm package and lets end-users of your site drive the UI with natural language (\"click login, fill username as John\"). No Python, no headless browser, no extension required. Use this skill when the user is a web developer who wants to add an AI copilot to their SaaS / admin panel / B2B tool, make a legacy web app accessible via natural language, or evaluate page-agent against a local (Ollama) or cloud (Qwen / OpenAI / OpenRouter) LLM. NOT for server-side browser automation — point those users to Hermes' built-in browser tool instead.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 237,
+    "chars": 10678,
+    "sha256": "0364437fdf62c18ad5217dbe28e89aba4abed186b3cb56d64156e30bff6e99a7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/pr-dashboard/SKILL.md",
+    "relative_path": "web-development/pr-dashboard/SKILL.md",
+    "name": "pr-dashboard",
+    "frontmatter": {
+      "name": "pr-dashboard",
+      "category": "agentic-coder",
+      "title": "Pr Dashboard",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Open a GitHub PR dashboard in the browser. Use when the user asks to see their pull requests, open the PR dashboard, show PRs for a date range, or check PR status. Trigger phrases include \"show my PRs\", \"open PR dashboard\", \"pull request dashboard\"."
+    },
+    "has_frontmatter": true,
+    "lines": 92,
+    "chars": 3062,
+    "sha256": "4c762ebf526ef3062e23dc0d37f8ea4d07ea47ff9958fe3afa820dd02418365c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/pr-dashboard/scripts/lib/utils.mjs",
+        "lines": 121,
+        "chars": 5118,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/pr-dashboard/scripts/lib/utils.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/pr-dashboard/scripts/pr-dashboard-cli.mjs",
+        "lines": 331,
+        "chars": 12964,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/pr-dashboard/scripts/pr-dashboard-cli.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/wizard/SKILL.md",
+    "relative_path": "wizard/SKILL.md",
+    "name": "wizard",
+    "frontmatter": {
+      "name": "wizard",
+      "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+      "title": "Wizard",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 5016,
+    "sha256": "23df0c7e33d60dab90a79f9e3f005cff5038ed6c97cc22ec3c0a4891f2764788",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-beats/SKILL.md",
+    "relative_path": "writing-beats/SKILL.md",
+    "name": "writing-beats",
+    "frontmatter": {
+      "name": "writing-beats",
+      "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+      "disable-model-invocation": "true",
+      "title": "Writing Beats",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 5764,
+    "sha256": "e97f4e04743ffbde9c6872828408959062683f2a715426cb62205911772c5ce8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

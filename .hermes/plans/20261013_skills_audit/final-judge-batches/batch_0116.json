@@ -1,0 +1,470 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/validate-memories/SKILL.md",
+    "relative_path": "devops/validate-memories/SKILL.md",
+    "name": "validate-memories",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Validate that USER.md and MEMORY.md exist and meet simple schema checks",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "validate-memories",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Validate Memories",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 192,
+    "chars": 12168,
+    "sha256": "17e7c83e52067625c395d2e2e4823a9156397cb1bf11d97875b1ca532d401a4f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/bulk-yaml-corruption-recovery.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/bulk-yaml-corruption-recovery.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/hermes-file-layout.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/hermes-file-layout.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/mcp-knowledge-graph-memory.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/mcp-knowledge-graph-memory.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/minimal-user-md-template.md",
+        "lines": 31,
+        "chars": 664,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/references/minimal-user-md-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/scripts/validate_memories.py",
+        "lines": 235,
+        "chars": 8005,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/validate-memories/scripts/validate_memories.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 9,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/vardoger-analyze/SKILL.md",
+    "relative_path": "devops/vardoger-analyze/SKILL.md",
+    "name": "vardoger-analyze",
+    "frontmatter": {
+      "name": "vardoger-analyze",
+      "category": "agentic-coder",
+      "title": "Vardoger Analyze",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Use when the user asks to personalize the GitHub Copilot CLI assistant, adapt Copilot to their style, use vardoger, or analyze their Copilot CLI conversation history. Reads the local session directory at `~/.copilot/session-state/`, extracts recurring preferences and conventions, and writes a fenced personalization block into `~/.copilot/copilot-instructions.md`. Runs entirely on the user's machine via the local `vardoger` CLI (`pipx install vardoger`); no network calls and no uploads. Triggers: 'personalize my copilot', 'analyze my copilot history', 'tailor copilot to me', 'run vardoger', 'update my copilot instructions from history', 'make copilot learn my style'.",
+      "license": "Apache-2.0"
+    },
+    "has_frontmatter": true,
+    "lines": 145,
+    "chars": 6210,
+    "sha256": "2cb26b5c97ce97ca539aaf1d758153a3c443634d59f8ced37b47c2548550ac94",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 84,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/vercel-cli-with-tokens/SKILL.md",
+    "relative_path": "devops/vercel-cli-with-tokens/SKILL.md",
+    "name": "vercel-cli-with-tokens",
+    "frontmatter": {
+      "name": "vercel-cli-with-tokens",
+      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "metadata": [],
+      "category": "dev-tools",
+      "title": "Vercel Cli With Tokens",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 389,
+    "chars": 11387,
+    "sha256": "16c972ed55cac928911575a0df41037d6ef9c470eb360ce46487619c92e70a9c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 35
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/vscode-config-audit/SKILL.md",
+    "relative_path": "devops/vscode-config-audit/SKILL.md",
+    "name": "vscode-config-audit",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Audit and fix VS Code workspace configurations (.vscode/settings.json, launch.json, tasks.json, extensions.json) for ESLint mismatches, hardcoded paths, missing extensions, and stack mismatches. Generates corrected configs and audit reports.",
+      "category": "audit",
+      "license": "MIT",
+      "metadata": [
+        "vscode-workspace-configurator",
+        "vscode-ext-commands",
+        "vscode",
+        "audit",
+        "configuration",
+        "eslint",
+        "workspace"
+      ],
+      "name": "vscode-config-audit",
+      "tags": [],
+      "title": "VS Code Config Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 140,
+    "chars": 4459,
+    "sha256": "d478f1d1d59b72ea51dae418f31b9c793cf76e0948847ed7b913e8ff58415cd1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/webhook-subscriptions/SKILL.md",
+    "relative_path": "devops/webhook-subscriptions/SKILL.md",
+    "name": "webhook-subscriptions",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Webhook subscriptions: event-driven agent runs.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "webhook-subscriptions",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Webhook Subscriptions",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 267,
+    "chars": 8857,
+    "sha256": "47f046c656c79ee202af31fda29f5ee12432a605e9e3629bcc112be2b945d832",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/SKILL.md",
+    "relative_path": "devops/winmd-api-search/SKILL.md",
+    "name": "winmd-api-search",
+    "frontmatter": {
+      "name": "winmd-api-search",
+      "category": "architecture",
+      "title": "Winmd Api Search",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Find and explore Windows desktop APIs. Use when building features that need platform capabilities — camera, file access, notifications, UI controls, AI/ML, sensors, networking, etc. Discovers the right API for a task and retrieves full type details (methods, properties, events, enumeration values).",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "has_frontmatter": true,
+    "lines": 213,
+    "chars": 9284,
+    "sha256": "9f34cdaf29a1f56e866f4a625320781e935255b7150dc3497cf5bc910f02dd89",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/Invoke-WinMdQuery.ps1",
+        "lines": 505,
+        "chars": 17802,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/Invoke-WinMdQuery.ps1:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/Update-WinMdCache.ps1",
+        "lines": 208,
+        "chars": 7619,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/Update-WinMdCache.ps1:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/CacheGenerator.csproj",
+        "lines": 29,
+        "chars": 1450,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/CacheGenerator.csproj:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Directory.Build.props",
+        "lines": 3,
+        "chars": 101,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Directory.Build.props:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Directory.Build.targets",
+        "lines": 3,
+        "chars": 95,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Directory.Build.targets:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Directory.Packages.props",
+        "lines": 3,
+        "chars": 108,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Directory.Packages.props:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Program.cs",
+        "lines": 1222,
+        "chars": 43930,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/winmd-api-search/scripts/cache-generator/Program.cs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/winui3-migration-guide/SKILL.md",
+    "relative_path": "devops/winui3-migration-guide/SKILL.md",
+    "name": "winui3-migration-guide",
+    "frontmatter": {
+      "name": "winui3-migration-guide",
+      "category": "agentic-coder",
+      "title": "Winui3 Migration Guide",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "UWP-to-WinUI 3 migration reference. Maps legacy UWP APIs to correct Windows App SDK equivalents with before/after code snippets. Covers namespace changes, threading (CoreDispatcher to DispatcherQueue), windowing (CoreWindow to AppWindow), dialogs, pickers, sharing, printing, background tasks, and the most common Copilot code generation mistakes."
+    },
+    "has_frontmatter": true,
+    "lines": 316,
+    "chars": 9891,
+    "sha256": "6357a3b24116046a6aa38cff689603ded298df459bb7fd2b44d7185fe9b9ed41",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  }
+]

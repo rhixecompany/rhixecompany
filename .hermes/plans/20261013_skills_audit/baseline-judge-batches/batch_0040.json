@@ -1,0 +1,404 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/create-spring-boot-java-project/SKILL.md",
+    "relative_path": "development/create-spring-boot-java-project/SKILL.md",
+    "name": "create-spring-boot-java-project",
+    "frontmatter": {
+      "name": "create-spring-boot-java-project",
+      "category": "agentic-coder",
+      "title": "Create Spring Boot Java Project",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create Spring Boot Java Project Skeleton"
+    },
+    "has_frontmatter": true,
+    "lines": 202,
+    "chars": 5556,
+    "sha256": "36905b6f762860026c29b769d22a4d7c1cee97df9ae9aed2a0d7b33381eddc79",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/create-spring-boot-kotlin-project/SKILL.md",
+    "relative_path": "development/create-spring-boot-kotlin-project/SKILL.md",
+    "name": "create-spring-boot-kotlin-project",
+    "frontmatter": {
+      "name": "create-spring-boot-kotlin-project",
+      "category": "agentic-coder",
+      "title": "Create Spring Boot Kotlin Project",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create Spring Boot Kotlin Project Skeleton"
+    },
+    "has_frontmatter": true,
+    "lines": 186,
+    "chars": 5190,
+    "sha256": "d363d221f7e7272a3272af21961baaee68b1612c51a4819d38a123f049fdb34d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 5
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/creating-oracle-to-postgres-master-migration-plan/SKILL.md",
+    "relative_path": "development/creating-oracle-to-postgres-master-migration-plan/SKILL.md",
+    "name": "creating-oracle-to-postgres-master-migration-plan",
+    "frontmatter": {
+      "name": "creating-oracle-to-postgres-master-migration-plan",
+      "category": "documentation",
+      "title": "Creating Oracle To Postgres Master Migration Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility, and produces a persistent master migration plan. Use when starting a multi-project Oracle-to-PostgreSQL migration, creating a migration inventory, or assessing which .NET projects contain Oracle dependencies."
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 4106,
+    "sha256": "442a611673de3d949d4d2f3cd287b827b73a2641fe654cb6eaffc65bee406e26",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/creating-oracle-to-postgres-migration-bug-report/SKILL.md",
+    "relative_path": "development/creating-oracle-to-postgres-migration-bug-report/SKILL.md",
+    "name": "creating-oracle-to-postgres-migration-bug-report",
+    "frontmatter": {
+      "name": "creating-oracle-to-postgres-migration-bug-report",
+      "category": "agentic-coder",
+      "title": "Creating Oracle To Postgres Migration Bug Report",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates structured bug reports for defects found during Oracle-to-PostgreSQL migration. Use when documenting behavioral differences between Oracle and PostgreSQL as actionable bug reports with severity, root cause, and remediation steps."
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 3119,
+    "sha256": "919559a2bb763c0cf29b16f8d56bc25c296081bdfef028b2ddc1426434e2d2f0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/creating-oracle-to-postgres-migration-bug-report/references/BUG-REPORT-TEMPLATE.md",
+        "lines": 79,
+        "chars": 2238,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/creating-oracle-to-postgres-migration-bug-report/references/BUG-REPORT-TEMPLATE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/SKILL.md",
+    "relative_path": "development/crypto-wallet-api-guide/SKILL.md",
+    "name": "crypto-wallet-api-guide",
+    "frontmatter": {
+      "name": "crypto-wallet-api-guide",
+      "category": "agentic-coder",
+      "title": "Crypto Wallet APIs Guide for Developers & Businesses",
+      "description": "Use when evaluating wallet API providers — covers market context, API types (transactional, balance, management, custodial, non-custodial), MPC architecture, and major providers (Fireblocks, Portal, Cobo, Crypto APIs, BitGo).",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[wallet-api, mpc, custodial, non-custodial, fireblocks, portal, cobo, cryptoapis, bitgo, evaluation]"
+    },
+    "has_frontmatter": true,
+    "lines": 141,
+    "chars": 5015,
+    "sha256": "7c7ad9b2e82fe2ef584ac8878750a800563cef2a4db1295a92bc05f0fb8abb87",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/references/crypto-wallet-evaluation.md",
+        "lines": 52,
+        "chars": 1870,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/references/crypto-wallet-evaluation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/references/crypto-wallet-patterns.md",
+        "lines": 46,
+        "chars": 927,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/references/crypto-wallet-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/templates/wallet-provider-evaluation.md",
+        "lines": 57,
+        "chars": 1496,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/templates/wallet-provider-evaluation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/scripts/test-wallet-api.py",
+        "lines": 76,
+        "chars": 2376,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-api-guide/scripts/test-wallet-api.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/crypto-wallet-quickstart/SKILL.md",
+    "relative_path": "development/crypto-wallet-quickstart/SKILL.md",
+    "name": "crypto-wallet-quickstart",
+    "frontmatter": {
+      "name": "crypto-wallet-quickstart",
+      "category": "agentic-coder",
+      "title": "Crypto Wallet API Quickstart (Cobo WaaS 2.0)",
+      "description": "Use when setting up Cobo WaaS 2.0 for wallet creation, address generation, balance checking, and transactions — covers Python and JavaScript SDKs.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[cobo, wallet, waas, custodial, wallet-api, quickstart, python, javascript]"
+    },
+    "has_frontmatter": true,
+    "lines": 216,
+    "chars": 5939,
+    "sha256": "17e7257459e93a9aa4efe26a3681e6b79bb543e88ca20e93ef57e240edab7a88",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-quickstart/references/crypto-wallet-patterns.md",
+        "lines": 70,
+        "chars": 1944,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/crypto-wallet-quickstart/references/crypto-wallet-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 9,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/cryptoapis-wallet-builder/SKILL.md",
+    "relative_path": "development/cryptoapis-wallet-builder/SKILL.md",
+    "name": "cryptoapis-wallet-builder",
+    "frontmatter": {
+      "name": "cryptoapis-wallet-builder",
+      "category": "agentic-coder",
+      "title": "Build Crypto Wallets using CryptoAPIs",
+      "description": "Use when building crypto wallet infrastructure with CryptoAPIs — covers deposit address generation, wallet transactions, HD wallet sync, and why use APIs for wallet development.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[cryptoapis, wallet, blockchain, hd-wallet, deposit-address, transactions, api]"
+    },
+    "has_frontmatter": true,
+    "lines": 177,
+    "chars": 6282,
+    "sha256": "4446ea4b8a1abebf88f08817d8f3ccde39c8945129de54ccd8e4bbd925bea989",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/cryptoapis-wallet-builder/references/cryptoapis-patterns.md",
+        "lines": 75,
+        "chars": 2555,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/cryptoapis-wallet-builder/references/cryptoapis-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 19
+  }
+]

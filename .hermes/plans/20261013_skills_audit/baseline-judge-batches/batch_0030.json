@@ -1,0 +1,447 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-227-js/SKILL.md",
+    "relative_path": "development/audit-227-js/SKILL.md",
+    "name": "audit-227-js",
+    "frontmatter": {
+      "name": "audit-227-js",
+      "category": "audit",
+      "title": "Audit 227",
+      "description": "Audit script for 227 analysis",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "audit",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 2925,
+    "sha256": "eb389eda4537821ce9bf8e5053bfca769a1719f97d0b20b75a99a6eb5b87bb84",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-js/references/overview.md",
+        "lines": 29,
+        "chars": 768,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-js/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-js/templates/template.md",
+        "lines": 13,
+        "chars": 133,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-js/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-agents-hashes/SKILL.md",
+    "relative_path": "development/audit-agents-hashes/SKILL.md",
+    "name": "audit-agents-hashes",
+    "frontmatter": {
+      "name": "audit-agents-hashes",
+      "category": "audit",
+      "title": "Audit Agents Hashes",
+      "description": "Audit script for agents-hashes analysis",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "powershell",
+        "audit",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2622,
+    "sha256": "078f59dbe4979e98619b9191e17942a6f34f3b85df3716680b8757f1ae5ca87a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-agents-hashes/references/overview.md",
+        "lines": 29,
+        "chars": 799,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-agents-hashes/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-agents-hashes/templates/template.md",
+        "lines": 13,
+        "chars": 140,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-agents-hashes/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-canonical/SKILL.md",
+    "relative_path": "development/audit-canonical/SKILL.md",
+    "name": "audit-canonical",
+    "frontmatter": {
+      "name": "audit-canonical",
+      "category": "audit",
+      "title": "Audit Canonical",
+      "description": "Audits canonical for issues and quality concerns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2558,
+    "sha256": "4afe3efa47f56567c685c5e5cef380a37e81de642117e1d3d22a515420619fdc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-fix-remediate-safe/SKILL.md",
+    "relative_path": "development/audit-fix-remediate-safe/SKILL.md",
+    "name": "audit-fix-remediate-safe",
+    "frontmatter": {
+      "name": "audit-fix-remediate-safe",
+      "category": "audit",
+      "title": "Audit Fix Remediate Safe",
+      "description": "Audits fix remediate safe for issues and quality concerns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2664,
+    "sha256": "1669d8bff337f031562edae311d5c3713c5381642ce4918d7b73c3773f3e9a5f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-prompts/SKILL.md",
+    "relative_path": "development/audit-prompts/SKILL.md",
+    "name": "audit-prompts",
+    "frontmatter": {
+      "name": "audit-prompts",
+      "category": "audit",
+      "title": "Audit Prompts",
+      "description": "Audits prompts for issues and quality concerns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2550,
+    "sha256": "19d6ec5ecfedbd9ed2985d6fb3edab74d51cbc70ffddd3f9ab36f509290d8e64",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-prompts/references/overview.md",
+        "lines": 57,
+        "chars": 2342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-prompts/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-prompts/templates/template.md",
+        "lines": 18,
+        "chars": 149,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-prompts/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-prompts-script/SKILL.md",
+    "relative_path": "development/audit-prompts-script/SKILL.md",
+    "name": "-audit-prompts",
+    "frontmatter": {
+      "name": "-audit-prompts",
+      "category": "audit",
+      "title": "Audit Prompts",
+      "description": "Script for Audit Prompts operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "audit",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2570,
+    "sha256": "fd9643d0f5a6c21ca60b81b102f2f1ba631bf9205e0693eb52a7f369bb17d04a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-vscode-config/SKILL.md",
+    "relative_path": "development/audit-vscode-config/SKILL.md",
+    "name": "audit-vscode-config",
+    "frontmatter": {
+      "name": "audit-vscode-config",
+      "category": "audit",
+      "title": "Audit Vscode Config",
+      "description": "Audits vscode config (VS Code / VS Code Insiders) for issues and quality concerns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "vscode",
+        "configuration",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2656,
+    "sha256": "df2d707bb2a4cbc662187c591264ff892fd9a3ed7c2d6f0b96c6701d33457b41",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config/references/overview.md",
+        "lines": 56,
+        "chars": 2289,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config/templates/template.md",
+        "lines": 18,
+        "chars": 155,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

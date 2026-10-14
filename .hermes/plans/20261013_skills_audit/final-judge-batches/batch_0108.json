@@ -1,0 +1,468 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/kanban-worker/SKILL.md",
+    "relative_path": "devops/kanban-worker/SKILL.md",
+    "name": "kanban-worker",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "kanban-worker",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Kanban Worker",
+      "version": "2.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 244,
+    "chars": 12003,
+    "sha256": "3b95e412e18faf94775d765dbe9a23b62d2e904fcffcfcb9272f1c52521690e1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/latchshot-page-capture/SKILL.md",
+    "relative_path": "devops/latchshot-page-capture/SKILL.md",
+    "name": "latchshot-page-capture",
+    "frontmatter": {
+      "name": "latchshot-page-capture",
+      "category": "agentic-coder",
+      "title": "Latchshot Page Capture",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public HTTP(S) webpage saved as a local artifact through Latchshot, including report, QA, archive, and social-preview workflows. Do not use it for private or authenticated pages, raw HTML, scraping or extraction, arbitrary browser actions, CAPTCHA or anti-bot bypass, or local-file capture."
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 6119,
+    "sha256": "97009c6112a2445bbe3a80cacd82475bb8f86abb7b0cbd6cc0abb6d63a217b19",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/latchshot-page-capture/scripts/latchshot.mjs",
+        "lines": 532,
+        "chars": 18643,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/latchshot-page-capture/scripts/latchshot.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/SKILL.md",
+    "relative_path": "devops/log-analysis-and-triage/SKILL.md",
+    "name": "log-analysis-and-triage",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when analyzing Hermes log files for patterns, errors, and category clusters. Reads all log streams, categorizes by domain (MCP/hook/provider/auth/etc.), outputs JSON+markdown.",
+      "license": "MIT",
+      "metadata": [
+        "logs",
+        "analysis",
+        "hermes-core"
+      ],
+      "name": "log-analysis-and-triage",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Log Analysis + Triage",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 3088,
+    "sha256": "d544fe71a13832f65b0aba4a3df6c39ff95dd02224b75feb45bca36fbdd4ccac",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/false-positive-patterns.md",
+        "lines": 209,
+        "chars": 7134,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/false-positive-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/hermes-config-pitfalls.md",
+        "lines": 88,
+        "chars": 3646,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/hermes-config-pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/hermes-log-triage-techniques.md",
+        "lines": 101,
+        "chars": 4863,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/hermes-log-triage-techniques.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/hermes-skill-collision-cleanup.md",
+        "lines": 49,
+        "chars": 1479,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/hermes-skill-collision-cleanup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/sandbox-bash-triage-example.md",
+        "lines": 132,
+        "chars": 4878,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/sandbox-bash-triage-example.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/windows-hook-path-mangling.md",
+        "lines": 103,
+        "chars": 3464,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/log-analysis-and-triage/references/windows-hook-path-mangling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/lsp-setup/SKILL.md",
+    "relative_path": "devops/lsp-setup/SKILL.md",
+    "name": "lsp-setup",
+    "frontmatter": {
+      "name": "lsp-setup",
+      "category": "agentic-coder",
+      "title": "Lsp Setup",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server for Copilot CLI. Detects the OS, installs the right server, and generates the JSON configuration (user-level or repo-level). Use when you need deeper code understanding and no LSP server is configured, or when the user asks to set up, install, or configure an LSP server."
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 4331,
+    "sha256": "4dc17e9a38c81aef73f8546e5b982e3bc62247881eb30347bf7a56db54453d58",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/lsp-setup/references/lsp-servers.md",
+        "lines": 406,
+        "chars": 8657,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/lsp-setup/references/lsp-servers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/SKILL.md",
+    "relative_path": "devops/mcp-server-health/SKILL.md",
+    "name": "mcp-server-health",
+    "frontmatter": {
+      "name": "mcp-server-health",
+      "category": "agentic-coder",
+      "title": "MCP Server Health — Use, Test, Execute",
+      "description": "Use when validating Hermes MCP servers. Run profile-aware initialize probes, classify skips/failures, and verify long-lived stdio processes safely.",
+      "version": "1.1.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "health",
+        "testing",
+        "diagnostics",
+        "monitoring",
+        "hooks"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 190,
+    "chars": 7669,
+    "sha256": "b96af11c0ac1ee61a49bc1209906a622e6e7baffd9d2bd53b510ec1994ce7f18",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/scripts/__pycache__/test_all_mcp_servers.cpython-313.pyc",
+        "lines": 504,
+        "chars": 14752,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/scripts/__pycache__/test_all_mcp_servers.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/scripts/mcp_preflight_check.py",
+        "lines": 149,
+        "chars": 5097,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/scripts/mcp_preflight_check.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/scripts/test_all_mcp_servers.py",
+        "lines": 279,
+        "chars": 9732,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/mcp-server-health/scripts/test_all_mcp_servers.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 8,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/migrating-oracle-to-postgres-data-access-code/SKILL.md",
+    "relative_path": "devops/migrating-oracle-to-postgres-data-access-code/SKILL.md",
+    "name": "migrating-oracle-to-postgres-data-access-code",
+    "frontmatter": {
+      "name": "migrating-oracle-to-postgres-data-access-code",
+      "category": "agentic-coder",
+      "title": "Migrating Oracle To Postgres Data Access Code",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Migrates .NET/C# data access code from Oracle to PostgreSQL (Npgsql). Replaces Oracle NuGet packages, rewrites OracleConnection/OracleCommand/OracleDataReader usage, fixes DbType mappings, updates stored procedure invocation patterns, and adapts connection string configuration. Use when migrating the application code layer of a .NET project during an Oracle-to-PostgreSQL database migration."
+    },
+    "has_frontmatter": true,
+    "lines": 159,
+    "chars": 8712,
+    "sha256": "471a70c11eacd5e8e6af9bb439878c3674838fe133d85a3713bfe669e97ddf20",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/mindstudio/SKILL.md",
+    "relative_path": "devops/mindstudio/SKILL.md",
+    "name": "mindstudio",
+    "frontmatter": {
+      "name": "mindstudio",
+      "category": "agentic-coder",
+      "description": "MindStudio CLI MCP server. Use when you need mindstudio via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Mindstudio",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1159,
+    "sha256": "b4cf58d3b48fb30082d5223af88300674772a8a6aeead71cf9680ad6e35d8f37",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/SKILL.md",
+    "relative_path": "development/react19-concurrent-patterns/SKILL.md",
+    "name": "react19-concurrent-patterns",
+    "frontmatter": {
+      "name": "react19-concurrent-patterns",
+      "category": "agentic-coder",
+      "title": "React19 Concurrent Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Preserve React 18 concurrent patterns and adopt React 19 APIs (useTransition, useDeferredValue, Suspense, use(), useOptimistic, Actions) during migration."
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 3886,
+    "sha256": "25f237175c4cd25cf721bd0edf827a63aa9bbe5efe750dcf4af8fc9f85b5ae52",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/references/react19-actions.md",
+        "lines": 371,
+        "chars": 9632,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/references/react19-actions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/references/react19-suspense.md",
+        "lines": 335,
+        "chars": 7765,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/references/react19-suspense.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/references/react19-use.md",
+        "lines": 208,
+        "chars": 5088,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-concurrent-patterns/references/react19-use.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react19-source-patterns/SKILL.md",
+    "relative_path": "development/react19-source-patterns/SKILL.md",
+    "name": "react19-source-patterns",
+    "frontmatter": {
+      "name": "react19-source-patterns",
+      "category": "agentic-coder",
+      "title": "React19 Source Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates."
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2945,
+    "sha256": "d4a87875b03a545b953cac42649c7fc2c24444fcf3c62a012247883cda6661bc",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-source-patterns/references/api-migrations.md",
+        "lines": 515,
+        "chars": 11171,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react19-source-patterns/references/api-migrations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react19-test-patterns/SKILL.md",
+    "relative_path": "development/react19-test-patterns/SKILL.md",
+    "name": "react19-test-patterns",
+    "frontmatter": {
+      "name": "react19-test-patterns",
+      "category": "agentic-coder",
+      "title": "React19 Test Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Provides before/after patterns for migrating test files to React 19 compatibility, including act() imports, Simulate removal, and StrictMode call count changes."
+    },
+    "has_frontmatter": true,
+    "lines": 140,
+    "chars": 4148,
+    "sha256": "be6218267f3d3936f314b2a95dc1c8a6db6daeb49f234e3cf4d00988c6333e4a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/readme-blueprint-generator/SKILL.md",
+    "relative_path": "development/readme-blueprint-generator/SKILL.md",
+    "name": "readme-blueprint-generator",
+    "frontmatter": {
+      "name": "readme-blueprint-generator",
+      "category": "agentic-coder",
+      "title": "Readme Blueprint Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content."
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 3910,
+    "sha256": "68dad30ec4f974b8ac73817c3658d9b8e1daca61763c019c9fb1c9b86293dbb0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/refactor-method-complexity-reduce/SKILL.md",
+    "relative_path": "development/refactor-method-complexity-reduce/SKILL.md",
+    "name": "refactor-method-complexity-reduce",
+    "frontmatter": {
+      "name": "refactor-method-complexity-reduce",
+      "category": "agentic-coder",
+      "title": "Refactor Method Complexity Reduce",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods."
+    },
+    "has_frontmatter": true,
+    "lines": 137,
+    "chars": 5440,
+    "sha256": "a3d9b0d8ac7e371ad28f8949bfe57281f0bea0766728fdedd23220589a1dcf50",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/refactor-plan/SKILL.md",
+    "relative_path": "development/refactor-plan/SKILL.md",
+    "name": "refactor-plan",
+    "frontmatter": {
+      "name": "refactor-plan",
+      "category": "documentation",
+      "title": "Refactor Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a concrete plan before starting a multi-file refactor. Use when the user asks to plan, sequence, scope, or safely execute a refactor across multiple files; always investigate first, output the plan, and wait for confirmation before making code changes."
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 3259,
+    "sha256": "e6a803aeb74af2673cdd7a8cc2ebfb97ed0745cbac525a8b90720c0ff0a66fd3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/register-command/SKILL.md",
+    "relative_path": "development/register-command/SKILL.md",
+    "name": "register-command",
+    "frontmatter": {
+      "name": "register-command",
+      "category": "agentic-coder",
+      "title": "Register Command",
+      "description": "Script for Register Command operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2545,
+    "sha256": "38d04c7a0d7c2ffeb2647134e07b9c8c64f3235e12d1f4022c4f9c67999773a1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

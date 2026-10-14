@@ -1,0 +1,606 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/hello-world/SKILL.md",
+    "relative_path": "development/hello-world/SKILL.md",
+    "name": "hello-world",
+    "frontmatter": {
+      "name": "hello-world",
+      "category": "agentic-coder",
+      "title": "Hello World",
+      "description": "Simple example script for testing purposes",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "example",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2526,
+    "sha256": "43d915b568d925cde5a4689645cc74a29113f6223228ca3b01c7ea7d6826f0ff",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello-world/references/overview.md",
+        "lines": 60,
+        "chars": 2162,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello-world/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello-world/templates/template.md",
+        "lines": 18,
+        "chars": 147,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hello-world/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/SKILL.md",
+    "relative_path": "development/hermes-deep-dive-guide/SKILL.md",
+    "name": "hermes-deep-dive-guide",
+    "frontmatter": {
+      "name": "hermes-deep-dive-guide",
+      "category": "agentic-coder",
+      "title": "Hermes Deep Dive & Build-Your-Own Guide",
+      "description": "Use when studying Hermes architecture, agent loop, system prompt assembly order, profile isolation, self-registration, and learning loop — from dev.to deep-dive article.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, architecture, agent-loop, system-prompt, profiles, self-registration, learning-loop]"
+    },
+    "has_frontmatter": true,
+    "lines": 150,
+    "chars": 4884,
+    "sha256": "68310d888435eee8352c0c0e967090b378f4bb1409957eb21f693c0bd5cefce3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/references/hermes-architecture-patterns.md",
+        "lines": 49,
+        "chars": 1018,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/references/hermes-architecture-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/references/hermes-architecture.md",
+        "lines": 93,
+        "chars": 2423,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/references/hermes-architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/references/hermes-deep-dive-patterns.md",
+        "lines": 113,
+        "chars": 2671,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/references/hermes-deep-dive-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/templates/hermes-skill-template.md",
+        "lines": 71,
+        "chars": 912,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/templates/hermes-skill-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/scripts/hermes-verify-install.py",
+        "lines": 133,
+        "chars": 3621,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-deep-dive-guide/scripts/hermes-verify-install.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hermes-luma-memory-arch/SKILL.md",
+    "relative_path": "development/hermes-luma-memory-arch/SKILL.md",
+    "name": "hermes-luma-memory-arch",
+    "frontmatter": {
+      "name": "hermes-luma-memory-arch",
+      "category": "architecture",
+      "title": "Hermes Memory Architecture (Luma Dock)",
+      "description": "Use when studying Hermes three-layer memory system — SOUL.md/MEMORY.md/USER.md (Layer 1), skills directory (Layer 2), SQLite session DB with FTS5 (Layer 3) — from Luma Dock tutorial.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, memory, soul-md, memory-md, user-md, state-db, sqlite, fts5, architecture]"
+    },
+    "has_frontmatter": true,
+    "lines": 223,
+    "chars": 7999,
+    "sha256": "065f7f8c1b113625fbddc72b37d26f38c231775919cf83d53b36c4ad82fcb84c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-luma-memory-arch/references/hermes-memory-architecture.md",
+        "lines": 58,
+        "chars": 1511,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-luma-memory-arch/references/hermes-memory-architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-luma-memory-arch/references/hermes-memory-patterns.md",
+        "lines": 51,
+        "chars": 1587,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-luma-memory-arch/references/hermes-memory-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 11,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/SKILL.md",
+    "relative_path": "development/hermes-networkchuck-course/SKILL.md",
+    "name": "hermes-networkchuck-course",
+    "frontmatter": {
+      "name": "hermes-networkchuck-course",
+      "category": "agentic-coder",
+      "title": "Hermes Agent NetworkChuck Course",
+      "description": "Use when following the NetworkChuck Academy Hermes course — covers 10-video curriculum: installation, CLI/TUI, messaging platforms, memory, skills, automations, homelab integrations, and safety evaluation.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, networkchuck, course, academy, tutorial, homelab, unifi, synology, vmware]"
+    },
+    "has_frontmatter": true,
+    "lines": 199,
+    "chars": 6258,
+    "sha256": "71cbb5fc54e3e69d55e5202271d6d75f2ec641012c168f6877c6ee29e2b026b7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/course-notes.md",
+        "lines": 269,
+        "chars": 7780,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/course-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/course-patterns.md",
+        "lines": 236,
+        "chars": 5324,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/course-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/homelab-mcp-setup.md",
+        "lines": 196,
+        "chars": 4369,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/homelab-mcp-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/safety-checklist.md",
+        "lines": 123,
+        "chars": 4030,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/references/safety-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/templates/hermes-course-checklist.md",
+        "lines": 99,
+        "chars": 2364,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/templates/hermes-course-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/scripts/__pycache__/hermes-install-test.cpython-313.pyc",
+        "lines": 222,
+        "chars": 9341,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/scripts/__pycache__/hermes-install-test.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/scripts/hermes-install-test.py",
+        "lines": 184,
+        "chars": 6189,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-networkchuck-course/scripts/hermes-install-test.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 9,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hermes-persistent-memory/SKILL.md",
+    "relative_path": "development/hermes-persistent-memory/SKILL.md",
+    "name": "hermes-persistent-memory",
+    "frontmatter": {
+      "name": "hermes-persistent-memory",
+      "category": "agentic-coder",
+      "title": "Hermes Persistent Memory (Official Docs)",
+      "description": "Use when configuring and using Hermes bounded persistent memory — MEMORY.md (2,200 chars) and USER.md (1,375 chars), auto-write, reflection, write approval, external providers.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, memory, persistent, memory-md, user-md, auto-write, reflection, config]"
+    },
+    "has_frontmatter": true,
+    "lines": 231,
+    "chars": 8023,
+    "sha256": "63f0a5d48def56855fe205b82f910fcddd232955a7bfdc8e451ca792487cb18b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-persistent-memory/references/hermes-memory-operations.md",
+        "lines": 59,
+        "chars": 1694,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-persistent-memory/references/hermes-memory-operations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-persistent-memory/references/hermes-memory-patterns.md",
+        "lines": 74,
+        "chars": 2033,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-persistent-memory/references/hermes-memory-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 16,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/SKILL.md",
+    "relative_path": "development/hermes-profile-sync/SKILL.md",
+    "name": "hermes-profile-sync",
+    "frontmatter": {
+      "name": "hermes-profile-sync",
+      "category": "agentic-coder",
+      "title": "Hermes Profile Sync (root -> all profiles)",
+      "description": "Bidirectional-safe propagation of root Hermes config.yaml / .env / auth.json and memory files (SOUL/USER/MEMORY) to all non-default profiles. Preserves per-profile model/provider identity; backs up every overwritten file; idempotent.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "hermes",
+        "profiles",
+        "sync",
+        "config",
+        "memory",
+        "operations"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 4685,
+    "sha256": "0ad960a69b64ed07759c068254cd36e2e730589a583be9c18f621d8c48da6484",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/__pycache__/sync_profile_configs.cpython-311.pyc",
+        "lines": 324,
+        "chars": 10645,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/__pycache__/sync_profile_configs.cpython-311.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/__pycache__/sync_profile_memories.cpython-311.pyc",
+        "lines": 162,
+        "chars": 7658,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/__pycache__/sync_profile_memories.cpython-311.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/sync_profile_configs.py",
+        "lines": 158,
+        "chars": 5601,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/sync_profile_configs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/sync_profile_memories.py",
+        "lines": 144,
+        "chars": 6201,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-profile-sync/scripts/sync_profile_memories.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/hermes-quickstart/SKILL.md",
+    "relative_path": "development/hermes-quickstart/SKILL.md",
+    "name": "hermes-quickstart",
+    "frontmatter": {
+      "name": "hermes-quickstart",
+      "category": "agentic-coder",
+      "title": "Hermes Agent Quickstart Guide",
+      "description": "Use when getting started with Hermes Agent — covers installation (pip/git), provider setup (Nous Portal, Codex, Anthropic, OpenRouter, HF, Bedrock, DeepSeek, Copilot, custom), minimum context (64k), settings storage, first chat, and slash commands.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, quickstart, installation, providers, setup, cli, tui, nous-portal]"
+    },
+    "has_frontmatter": true,
+    "lines": 231,
+    "chars": 9256,
+    "sha256": "11c0b1007fb6fa3fbffb55d388cb21009eb9a9acef9dcaab343e7438e2599230",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-quickstart/references/hermes-quickstart-patterns.md",
+        "lines": 91,
+        "chars": 2056,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/hermes-quickstart/references/hermes-quickstart-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 19
+  }
+]

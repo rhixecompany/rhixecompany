@@ -1,0 +1,325 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/writing-for-agents/SKILL.md",
+    "relative_path": "writing-for-agents/SKILL.md",
+    "name": "writing-for-agents",
+    "frontmatter": {
+      "name": "writing-for-agents",
+      "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+      "title": "Writing For Agents",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 11807,
+    "sha256": "08e07fd7eb3b59b118081cab7581fdc0cb41c07a7ac1abe05172231337dff5d4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-fragments/SKILL.md",
+    "relative_path": "writing-fragments/SKILL.md",
+    "name": "writing-fragments",
+    "frontmatter": {
+      "name": "writing-fragments",
+      "description": "Writing, explore: mine raw fragments, no structure yet.",
+      "disable-model-invocation": "true",
+      "title": "Writing Fragments",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 114,
+    "chars": 4481,
+    "sha256": "dbda11cfb3a7e93c41b145e0efe38634079484c795d41c7b4173876749d7d4f3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-plan/SKILL.md",
+    "relative_path": "writing-plan/SKILL.md",
+    "name": "writing-plan",
+    "frontmatter": {
+      "name": "writing-plan",
+      "category": "documentation",
+      "description": ">",
+      "title": "Writing Plan",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 217,
+    "chars": 6190,
+    "sha256": "4978136b1bb55ea1385640083c53c8a6b4e2cbefa02a05d1315862ff709aae19",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-prompt/SKILL.md",
+    "relative_path": "writing-prompt/SKILL.md",
+    "name": "writing-prompt",
+    "frontmatter": {
+      "name": "writing-prompt",
+      "category": "documentation",
+      "description": ">",
+      "title": "Writing Prompt",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 178,
+    "chars": 4532,
+    "sha256": "2d738e90e34d672c24e2fe3a329818e389f16c6c7d98fe6c2c64bf0eedb75395",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-shape/SKILL.md",
+    "relative_path": "writing-shape/SKILL.md",
+    "name": "writing-shape",
+    "frontmatter": {
+      "name": "writing-shape",
+      "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+      "disable-model-invocation": "true",
+      "title": "Writing Shape",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 114,
+    "chars": 6831,
+    "sha256": "1f655fa16e407e841afeb0378bdeea17f28c1f2f0facfaae1ef7a632c44c1319",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-spec/SKILL.md",
+    "relative_path": "writing-spec/SKILL.md",
+    "name": "writing-spec",
+    "frontmatter": {
+      "name": "writing-spec",
+      "category": "documentation",
+      "description": ">",
+      "title": "Writing Spec",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 5135,
+    "sha256": "300330454d94f2f6fb1b874d944d201213193d43afc0f59d7d770391f41044aa",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/youtube-full/SKILL.md",
+    "relative_path": "youtube-full/SKILL.md",
+    "name": "youtube-full",
+    "frontmatter": {
+      "name": "youtube-full",
+      "description": "Use when YouTube is or could be relevant — even if not mentioned: pasted video/channel/playlist links, video IDs, @handles, creator lookups, video summaries, quotes, translations, topic research, tutorials, talks, lectures, expert discussions, product reviews, how-to guides, new product announcements, first looks, or anything where video content is fresher or richer than text search. Covers transcripts, video/channel search, channel browsing, playlists, and within-channel search. Not for uploads, account management, or written-source-only research.",
+      "version": "1.6.2",
+      "user-invocable": "true",
+      "compatibility": "Requires internet access to reach transcriptapi.com. No additional runtimes or dependencies needed.",
+      "required_environment_variables": [
+        "name: TRANSCRIPT_API_KEY"
+      ],
+      "metadata": "{\"openclaw\":{\"emoji\":\"▶️\",\"requires\":{\"env\":[\"TRANSCRIPT_API_KEY\"]},\"primaryEnv\":\"TRANSCRIPT_API_KEY\",\"homepage\":\"https://transcriptapi.com\"},\"hermes\":{\"tags\":[\"youtube\",\"transcripts\",\"video\",\"search\",\"channels\",\"playlists\",\"captions\"],\"category\":\"media\"}}",
+      "title": "Youtube Full",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 327,
+    "chars": 13163,
+    "sha256": "91761374fc56d4cd517971559216d90bd95fe8a0d8f8599ef64d6086fff68427",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/youtube-full/references/auth-setup.md",
+        "lines": 137,
+        "chars": 7325,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/youtube-full/references/curl-examples.md",
+        "lines": 122,
+        "chars": 3894,
+        "substantive": true
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 18
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: not all reference types are present"
+    ],
+    "phase_count": 3,
+    "section_count": 29
+  }
+]

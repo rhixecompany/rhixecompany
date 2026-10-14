@@ -1,0 +1,573 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-skill-judge/SKILL.md",
+    "relative_path": "development/batch-skill-judge/SKILL.md",
+    "name": "batch-skill-judge",
+    "frontmatter": {
+      "name": "batch-skill-judge",
+      "category": "agentic-coder",
+      "title": "Batch Skill Judge",
+      "description": "Batch processing for skill judge",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2579,
+    "sha256": "f2c745a37214f501edd42e184c2fed5c979ed00b068bf6c8765fe4733add6161",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-skill-judge/references/overview.md",
+        "lines": 62,
+        "chars": 2729,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-skill-judge/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-skill-judge/templates/template.md",
+        "lines": 18,
+        "chars": 153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-skill-judge/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-update-hermes-paths/SKILL.md",
+    "relative_path": "development/batch-update-hermes-paths/SKILL.md",
+    "name": "batch-update-hermes-paths",
+    "frontmatter": {
+      "name": "batch-update-hermes-paths",
+      "category": "agentic-coder",
+      "title": "Batch Update Hermes Paths",
+      "description": "Batch processing for update hermes paths",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2648,
+    "sha256": "7ce0abc05876b4fd4a8cb4581d7aa28bac54adfbfa283f7515cac9c7594c62d7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-update-hermes-paths/references/overview.md",
+        "lines": 58,
+        "chars": 2417,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-update-hermes-paths/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-update-hermes-paths/templates/template.md",
+        "lines": 18,
+        "chars": 161,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-update-hermes-paths/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/SKILL.md",
+    "relative_path": "development/batch-yaml-frontmatter-editing/SKILL.md",
+    "name": "batch-yaml-frontmatter-editing",
+    "frontmatter": {
+      "name": "batch-yaml-frontmatter-editing",
+      "category": "agentic-coder",
+      "title": "Batch Markdown Library Repair",
+      "description": "Batch-repair YAML frontmatter and glued/collapsed markdown in skill and prompt libraries — add missing fields, fix merged keys/corruption, audits & bulk patching, scan limits, 3-pass Copilot cascades.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[yaml, frontmatter, batch, remediation, skills]"
+    },
+    "has_frontmatter": true,
+    "lines": 284,
+    "chars": 14960,
+    "sha256": "bc7d85cd5f371a744a8ffbe122785296196798ef225474656f0997965209501d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/2026-07-31-audit.md",
+        "lines": 45,
+        "chars": 3989,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/2026-07-31-audit.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/awesome-copilot-catalog-fetch.md",
+        "lines": 38,
+        "chars": 1391,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/awesome-copilot-catalog-fetch.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/class-level-maintenance.md",
+        "lines": 31,
+        "chars": 1650,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/class-level-maintenance.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/collapsed-fence-repair-playbook.md",
+        "lines": 72,
+        "chars": 4362,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/collapsed-fence-repair-playbook.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/dry-template-convention.md",
+        "lines": 34,
+        "chars": 1336,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/dry-template-convention.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/duplicate-detection.md",
+        "lines": 51,
+        "chars": 1993,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/duplicate-detection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/heading-glue-repair-playbook.md",
+        "lines": 79,
+        "chars": 4090,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/heading-glue-repair-playbook.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/prompt-file-repair.md",
+        "lines": 140,
+        "chars": 5985,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/prompt-file-repair.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/prompt-frontmatter-cascade-fix.md",
+        "lines": 177,
+        "chars": 6748,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/prompt-frontmatter-cascade-fix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/prompt-library-analyzer.md",
+        "lines": 123,
+        "chars": 4026,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/prompt-library-analyzer.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/verify-script.md",
+        "lines": 47,
+        "chars": 1640,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/references/verify-script.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/scripts/parse_copilot_catalog.py",
+        "lines": 48,
+        "chars": 1256,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/scripts/parse_copilot_catalog.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/scripts/skill-audit.py",
+        "lines": 280,
+        "chars": 10571,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-yaml-frontmatter-editing/scripts/skill-audit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 8,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/benchmark-models/SKILL.md",
+    "relative_path": "development/benchmark-models/SKILL.md",
+    "name": "benchmark-models",
+    "frontmatter": {
+      "name": "benchmark-models",
+      "category": "agentic-coder",
+      "title": "Benchmark Models",
+      "description": "Benchmarks LLM models for performance comparison",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "models",
+        "evaluation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2591,
+    "sha256": "22577e5529d71b4042ce97960d305d7196551f8f419280d86d198f2bf39255e8",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/benchmark-models/references/overview.md",
+        "lines": 60,
+        "chars": 2590,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/benchmark-models/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/benchmark-models/templates/template.md",
+        "lines": 18,
+        "chars": 152,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/benchmark-models/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/benchmark-providers/SKILL.md",
+    "relative_path": "development/benchmark-providers/SKILL.md",
+    "name": "benchmark-providers",
+    "frontmatter": {
+      "name": "benchmark-providers",
+      "category": "agentic-coder",
+      "title": "Benchmark Providers",
+      "description": "Benchmarks LLM models for performance comparison",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "evaluation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2607,
+    "sha256": "643c8f14d9272161d74de7ee4938e721897f2d8be52d31d4d9d0087f9e0b84e1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/benchmark-results/SKILL.md",
+    "relative_path": "development/benchmark-results/SKILL.md",
+    "name": "benchmark-results",
+    "frontmatter": {
+      "name": "benchmark-results",
+      "category": "agentic-coder",
+      "title": "Benchmark Results",
+      "description": "Benchmarks LLM models for performance comparison",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "evaluation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 3055,
+    "sha256": "febf708fe2bb55de5200af349da84f8a899073a6258dc296eda51993d593e1ba",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/benchmark-run-20260710/SKILL.md",
+    "relative_path": "development/benchmark-run-20260710/SKILL.md",
+    "name": "benchmark-run-20260710",
+    "frontmatter": {
+      "name": "benchmark-run-20260710",
+      "category": "agentic-coder",
+      "title": "Benchmark Run 20260710",
+      "description": "Benchmarks LLM models for performance comparison",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "evaluation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 3103,
+    "sha256": "28f57720bff137a614a5ea135bf2f11fc8083912494b7d90e30e938a8bda604e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

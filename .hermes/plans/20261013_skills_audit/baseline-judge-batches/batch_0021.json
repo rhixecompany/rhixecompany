@@ -1,0 +1,1371 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/napkin/SKILL.md",
+    "relative_path": "creative/napkin/SKILL.md",
+    "name": "napkin",
+    "frontmatter": {
+      "name": "napkin",
+      "category": "agentic-coder",
+      "title": "Napkin",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in your browser — draw, sketch, add sticky notes, then share everything back with Copilot. Copilot sees your drawings and text, and responds with analysis, suggestions, and ideas."
+    },
+    "has_frontmatter": true,
+    "lines": 194,
+    "chars": 8310,
+    "sha256": "edc6342f3a1bf5346d1360e3b6282e78a4b8d8ac9117f605ed0aaa0110d52492",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/p5js/SKILL.md",
+    "relative_path": "creative/p5js/SKILL.md",
+    "name": "p5js",
+    "frontmatter": {
+      "name": "p5js",
+      "category": "agentic-coder",
+      "author": "Hermes Agent",
+      "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "license": "MIT",
+      "metadata": [
+        "ascii-video",
+        "manim-video",
+        "excalidraw",
+        "creative-coding",
+        "generative-art",
+        "p5js",
+        "canvas",
+        "interactive",
+        "visualization",
+        "webgl",
+        "shaders",
+        "animation"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "title": "P5js",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 609,
+    "chars": 28753,
+    "sha256": "5df1ccfd04c10291b08672f7907748edb3638a24cc6235e412e3eceff1be6e3f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/animation.md",
+        "lines": 439,
+        "chars": 10430,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/animation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/color-systems.md",
+        "lines": 352,
+        "chars": 8635,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/color-systems.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/core-api.md",
+        "lines": 410,
+        "chars": 9813,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/core-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/export-pipeline.md",
+        "lines": 566,
+        "chars": 15505,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/export-pipeline.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/interaction.md",
+        "lines": 398,
+        "chars": 8341,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/interaction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/shapes-and-geometry.md",
+        "lines": 300,
+        "chars": 7201,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/shapes-and-geometry.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/troubleshooting.md",
+        "lines": 532,
+        "chars": 12999,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/typography.md",
+        "lines": 302,
+        "chars": 6771,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/typography.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/visual-effects.md",
+        "lines": 895,
+        "chars": 23414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/visual-effects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/webgl-and-3d.md",
+        "lines": 423,
+        "chars": 8889,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/references/webgl-and-3d.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/templates/viewer.html",
+        "lines": 395,
+        "chars": 10828,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/templates/viewer.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/export-frames.js",
+        "lines": 179,
+        "chars": 5394,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/export-frames.js:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/render.sh",
+        "lines": 108,
+        "chars": 2909,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/render.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/serve.sh",
+        "lines": 28,
+        "chars": 831,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/serve.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/setup.sh",
+        "lines": 87,
+        "chars": 2453,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/p5js/scripts/setup.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 33
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/SKILL.md",
+    "relative_path": "creative/penpot-uiux-design/SKILL.md",
+    "name": "penpot-uiux-design",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "'Comprehensive guide for creating professional UI/UX designs in Penpot",
+      "license": "MIT",
+      "name": "penpot-uiux-design",
+      "category": "architecture",
+      "tags": [
+        "imported"
+      ],
+      "title": "Penpot Uiux Design",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 427,
+    "chars": 14308,
+    "sha256": "77a30ceda351fe2d4b45d08a9fe833ffd1214e3691a244e992940d29b1b4c2c3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/accessibility.md",
+        "lines": 328,
+        "chars": 8199,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/accessibility.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/component-patterns.md",
+        "lines": 339,
+        "chars": 9487,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/component-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/platform-guidelines.md",
+        "lines": 367,
+        "chars": 9903,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/platform-guidelines.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/setup-troubleshooting.md",
+        "lines": 337,
+        "chars": 8102,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/penpot-uiux-design/references/setup-troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 41
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/pixel-art/SKILL.md",
+    "relative_path": "creative/pixel-art/SKILL.md",
+    "name": "pixel-art",
+    "frontmatter": {
+      "name": "pixel-art",
+      "category": "creative",
+      "description": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "version": "2.0.0",
+      "author": "dodo-reach",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [
+        "Hardware palettes and animation loops ported from Synero/pixel-art-studio (MIT) — https://github.com/Synero/pixel-art-studio"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 221,
+    "chars": 7622,
+    "sha256": "70774b5657ad17025f5d63431b135cab9b3babc97e9aa7d2825a6f03efa9c216",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/references/palettes.md",
+        "lines": 49,
+        "chars": 1709,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/references/palettes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/palettes.py",
+        "lines": 167,
+        "chars": 7257,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/palettes.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/pixel_art.py",
+        "lines": 162,
+        "chars": 5611,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/pixel_art.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/pixel_art_video.py",
+        "lines": 345,
+        "chars": 11887,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/pixel-art/scripts/pixel_art_video.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/plantuml-ascii/SKILL.md",
+    "relative_path": "creative/plantuml-ascii/SKILL.md",
+    "name": "plantuml-ascii",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Generate ASCII art diagrams using PlantUML text mode. Use when user asks",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "plantuml-ascii",
+      "category": "documentation",
+      "tags": [
+        "plantuml",
+        "ascii",
+        "diagrams",
+        "text-mode",
+        "terminal"
+      ],
+      "title": "PlantUML ASCII",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 379,
+    "chars": 7694,
+    "sha256": "bc1b116ce174d99fe88ffef27ed658f09fb11c0b12c57ef6a291ece0a0cc5601",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/poka-yoke/SKILL.md",
+    "relative_path": "creative/poka-yoke/SKILL.md",
+    "name": "poka-yoke",
+    "frontmatter": {
+      "name": "poka-yoke",
+      "category": "agentic-coder",
+      "title": "Poka Yoke",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing an interface, schema, or state machine and the user wants it hard to get wrong (\"make invalid states unrepresentable\", \"so callers cannot screw it up\", \"type-safe API\", \"pit of success\"); when auditing existing code for footguns (\"what could bite us here\", \"what is easy to misuse\", \"poka-yoke this repo\", \"review this diff for ways to get it wrong\"); or when a bug has recurred and the fix must close the class rather than the case (\"make sure this never happens again\", \"this is the third time\"). Especially for money, auth, permissions, deletion, migrations, and pipelines where failure is silent. Classifies every finding by what happens when the mistake occurs and how the device notices, which is what keeps it from collapsing into generic code review.",
+      "license": "MIT",
+      "compatibility": "Cross-platform. The bundled scanner needs Python 3.9+ and no third-party packages. Everything else is language-agnostic guidance; worked examples are TypeScript, Python, Go, Rust and SQL.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 240,
+    "chars": 12105,
+    "sha256": "daf3fb08fe74cfca343ab83786406fc8c6c8cd4684396a3c2fe0c08ebf9982f9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/hazard-catalog.md",
+        "lines": 416,
+        "chars": 20833,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/hazard-catalog.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/lang-python.md",
+        "lines": 181,
+        "chars": 6872,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/lang-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/lang-rust-go.md",
+        "lines": 213,
+        "chars": 7769,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/lang-rust-go.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/lang-typescript.md",
+        "lines": 147,
+        "chars": 6039,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/references/lang-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/scripts/detect_hazards.py",
+        "lines": 575,
+        "chars": 26790,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/poka-yoke/scripts/detect_hazards.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "frontmatter: missing or invalid version",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/SKILL.md",
+    "relative_path": "creative/popular-web-designs/SKILL.md",
+    "name": "popular-web-designs",
+    "frontmatter": {
+      "author": "Hermes Agent + Teknium (design systems sourced from VoltAgent/awesome-design-md)",
+      "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+      "license": "MIT",
+      "name": "popular-web-designs",
+      "category": "architecture",
+      "tags": [
+        "design",
+        "css",
+        "html",
+        "ui",
+        "web-development",
+        "design-systems",
+        "templates"
+      ],
+      "title": "Popular Web Designs",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 261,
+    "chars": 11352,
+    "sha256": "ed6568c523c57bc7b4814b6f1bebb4add212439e728b8044b847da906639077f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/airbnb.md",
+        "lines": 259,
+        "chars": 14722,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/airbnb.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/airtable.md",
+        "lines": 102,
+        "chars": 4270,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/airtable.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/apple.md",
+        "lines": 326,
+        "chars": 21036,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/apple.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/bmw.md",
+        "lines": 193,
+        "chars": 10481,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/bmw.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/cal.md",
+        "lines": 272,
+        "chars": 18408,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/cal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/claude.md",
+        "lines": 325,
+        "chars": 20904,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/claude.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/clay.md",
+        "lines": 317,
+        "chars": 18005,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/clay.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/clickhouse.md",
+        "lines": 294,
+        "chars": 16054,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/clickhouse.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/cohere.md",
+        "lines": 279,
+        "chars": 15445,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/cohere.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/coinbase.md",
+        "lines": 142,
+        "chars": 5745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/coinbase.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/composio.md",
+        "lines": 320,
+        "chars": 21644,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/composio.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/cursor.md",
+        "lines": 322,
+        "chars": 19843,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/cursor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/elevenlabs.md",
+        "lines": 278,
+        "chars": 15886,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/elevenlabs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/expo.md",
+        "lines": 294,
+        "chars": 19300,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/expo.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/figma.md",
+        "lines": 233,
+        "chars": 12335,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/figma.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/framer.md",
+        "lines": 259,
+        "chars": 18193,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/framer.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/hashicorp.md",
+        "lines": 291,
+        "chars": 16293,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/hashicorp.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/ibm.md",
+        "lines": 345,
+        "chars": 20230,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/ibm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/intercom.md",
+        "lines": 159,
+        "chars": 7134,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/intercom.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/kraken.md",
+        "lines": 138,
+        "chars": 5078,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/kraken.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/linear.app.md",
+        "lines": 380,
+        "chars": 23105,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/linear.app.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/lovable.md",
+        "lines": 311,
+        "chars": 18058,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/lovable.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/minimax.md",
+        "lines": 270,
+        "chars": 14961,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/minimax.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/mintlify.md",
+        "lines": 339,
+        "chars": 18089,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/mintlify.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/miro.md",
+        "lines": 121,
+        "chars": 5512,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/miro.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/mistral.ai.md",
+        "lines": 274,
+        "chars": 16265,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/mistral.ai.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/mongodb.md",
+        "lines": 279,
+        "chars": 15664,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/mongodb.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/notion.md",
+        "lines": 322,
+        "chars": 19088,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/notion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/nvidia.md",
+        "lines": 306,
+        "chars": 17832,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/nvidia.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/ollama.md",
+        "lines": 280,
+        "chars": 16171,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/ollama.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/opencode.ai.md",
+        "lines": 294,
+        "chars": 16273,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/opencode.ai.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/pinterest.md",
+        "lines": 243,
+        "chars": 12540,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/pinterest.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/posthog.md",
+        "lines": 269,
+        "chars": 19145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/posthog.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/raycast.md",
+        "lines": 281,
+        "chars": 19107,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/raycast.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/replicate.md",
+        "lines": 274,
+        "chars": 14855,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/replicate.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/resend.md",
+        "lines": 316,
+        "chars": 19055,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/resend.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/revolut.md",
+        "lines": 198,
+        "chars": 9305,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/revolut.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/runwayml.md",
+        "lines": 257,
+        "chars": 14967,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/runwayml.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/sanity.md",
+        "lines": 370,
+        "chars": 22039,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/sanity.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/sentry.md",
+        "lines": 275,
+        "chars": 15443,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/sentry.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/spacex.md",
+        "lines": 207,
+        "chars": 11950,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/spacex.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/spotify.md",
+        "lines": 259,
+        "chars": 13619,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/spotify.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/stripe.md",
+        "lines": 335,
+        "chars": 21261,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/stripe.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/supabase.md",
+        "lines": 268,
+        "chars": 15456,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/supabase.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/superhuman.md",
+        "lines": 265,
+        "chars": 19546,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/superhuman.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/together.ai.md",
+        "lines": 276,
+        "chars": 14959,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/together.ai.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/uber.md",
+        "lines": 308,
+        "chars": 19428,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/uber.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/vercel.md",
+        "lines": 323,
+        "chars": 20113,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/vercel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/voltagent.md",
+        "lines": 336,
+        "chars": 26863,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/voltagent.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/warp.md",
+        "lines": 266,
+        "chars": 17285,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/warp.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/webflow.md",
+        "lines": 105,
+        "chars": 4827,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/webflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/wise.md",
+        "lines": 186,
+        "chars": 9134,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/wise.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/x.ai.md",
+        "lines": 270,
+        "chars": 17041,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/x.ai.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/zapier.md",
+        "lines": 341,
+        "chars": 19482,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/popular-web-designs/templates/zapier.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 4
+  }
+]

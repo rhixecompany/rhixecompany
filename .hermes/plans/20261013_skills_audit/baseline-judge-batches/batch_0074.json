@@ -1,0 +1,466 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/python-azure-iot-edge-modules/SKILL.md",
+    "relative_path": "development/python-azure-iot-edge-modules/SKILL.md",
+    "name": "python-azure-iot-edge-modules",
+    "frontmatter": {
+      "name": "python-azure-iot-edge-modules",
+      "category": "agentic-coder",
+      "title": "Python Azure Iot Edge Modules",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks."
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 5279,
+    "sha256": "163d4d0cbd99d9bcaeed22edd12405992009a01d20f69566065bb4488aec1b98",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-azure-iot-edge-modules/references/python-edge-module-template.md",
+        "lines": 63,
+        "chars": 1339,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-azure-iot-edge-modules/references/python-edge-module-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-azure-iot-edge-modules/references/python-official-best-practices.md",
+        "lines": 48,
+        "chars": 2223,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-azure-iot-edge-modules/references/python-official-best-practices.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/python-concurrency/SKILL.md",
+    "relative_path": "development/python-concurrency/SKILL.md",
+    "name": "python-concurrency",
+    "frontmatter": {
+      "name": "python-concurrency",
+      "category": "agentic-coder",
+      "title": "Python Concurrency",
+      "description": "Use when building or debugging Python async systems.",
+      "version": "1.0.0",
+      "author": "Hermes Curator",
+      "license": "MIT",
+      "tags": "[python, asyncio, concurrency, async, testing]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 2126,
+    "sha256": "06c24461731eb574546ee68fa2a0d53352968bff07998344ed01f1ed7d7c6378",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/python-mcp-server-generator/SKILL.md",
+    "relative_path": "development/python-mcp-server-generator/SKILL.md",
+    "name": "python-mcp-server-generator",
+    "frontmatter": {
+      "name": "python-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Python Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete MCP server project in Python with tools, resources, and proper configuration"
+    },
+    "has_frontmatter": true,
+    "lines": 144,
+    "chars": 4955,
+    "sha256": "c9c7e89329442b439f66f050b95db7a3b847adf159ad3633630c0a504561a5bf",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/python-projects-skill/SKILL.md",
+    "relative_path": "development/python-projects-skill/SKILL.md",
+    "name": "python-projects",
+    "frontmatter": {
+      "name": "python-projects",
+      "category": "agentic-coder",
+      "title": "Python Projects",
+      "description": "Use when working with Python-projects subproject — 19 standalone Python scripts (calculators, games, face detection, QR, web scraping). Provides quality checks, script runner, and linting.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[python, scripts, quality, ruff, mypy]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 112,
+    "chars": 3378,
+    "sha256": "760f51b0ccf90ab5edcffdb9a23f9394a51a454ba9a4153e5815ac9495ca6925",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/SKILL.md",
+    "relative_path": "development/python-pypi-package-builder/SKILL.md",
+    "name": "python-pypi-package-builder",
+    "frontmatter": {
+      "name": "python-pypi-package-builder",
+      "category": "agentic-coder",
+      "title": "Python Pypi Package Builder",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "End-to-end skill for building, testing, linting, versioning, and publishing a production-grade Python library to PyPI. Covers all four build backends (setuptools+setuptools_scm, hatchling, flit, poetry), PEP 440 versioning, semantic versioning, dynamic git-tag versioning, OOP/SOLID design, type hints (PEP 484/526/544/561), Trusted Publishing (OIDC), and the full PyPA packaging flow. Use for: creating Python packages, pip-installable SDKs, CLI tools, framework plugins, pyproject.toml setup, py.typed, setuptools_scm, semver, mypy, pre-commit, GitHub Actions CI/CD, or PyPI publishing."
+    },
+    "has_frontmatter": true,
+    "lines": 483,
+    "chars": 19436,
+    "sha256": "c244b6807525f9f316a04471ece2c8ba51d83a5df26df76cbe591ee2a5da7dc5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/architecture-patterns.md",
+        "lines": 555,
+        "chars": 16018,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/architecture-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/ci-publishing.md",
+        "lines": 315,
+        "chars": 8004,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/ci-publishing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/community-docs.md",
+        "lines": 411,
+        "chars": 13213,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/community-docs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/library-patterns.md",
+        "lines": 606,
+        "chars": 18095,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/library-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/pyproject-toml.md",
+        "lines": 470,
+        "chars": 13262,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/pyproject-toml.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/release-governance.md",
+        "lines": 354,
+        "chars": 10634,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/release-governance.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/testing-quality.md",
+        "lines": 257,
+        "chars": 6549,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/testing-quality.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/tooling-ruff.md",
+        "lines": 344,
+        "chars": 9330,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/tooling-ruff.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/versioning-strategy.md",
+        "lines": 375,
+        "chars": 11047,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/references/versioning-strategy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/scripts/scaffold.py",
+        "lines": 920,
+        "chars": 22553,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/python-pypi-package-builder/scripts/scaffold.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 59,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 31
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/python-quality-mcp-server/SKILL.md",
+    "relative_path": "development/python-quality-mcp-server/SKILL.md",
+    "name": "python-quality-mcp-server",
+    "frontmatter": {
+      "name": "python-quality-mcp-server",
+      "category": "agentic-coder",
+      "title": "Python Quality Mcp Server",
+      "description": "Script for Python Quality Mcp Server operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2645,
+    "sha256": "26f9b2f98659c4a0e56156277ec11201a1aafd966cb53fa4bcb0bb0717e631ab",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/qdrant-deployment-options/SKILL.md",
+    "relative_path": "development/qdrant-deployment-options/SKILL.md",
+    "name": "qdrant-deployment-options",
+    "frontmatter": {
+      "name": "qdrant-deployment-options",
+      "category": "agentic-coder",
+      "title": "Qdrant Deployment Options",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Guides Qdrant deployment selection. Use when someone asks 'how to deploy Qdrant', 'Docker vs Cloud', 'local mode', 'embedded Qdrant', 'Qdrant EDGE', 'which deployment option', 'self-hosted vs cloud', or 'need lowest latency deployment'. Also use when choosing between deployment types for a new project."
+    },
+    "has_frontmatter": true,
+    "lines": 92,
+    "chars": 4091,
+    "sha256": "361f342e1925b24ab4ee352245a2d738a34a26b9ad67232c2569ffcc7a3384bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  }
+]

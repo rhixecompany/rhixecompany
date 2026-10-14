@@ -1,0 +1,378 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aws-resource-query/SKILL.md",
+    "relative_path": "devops/aws-resource-query/SKILL.md",
+    "name": "aws-resource-query",
+    "frontmatter": {
+      "name": "aws-resource-query",
+      "category": "agentic-coder",
+      "title": "Aws Resource Query",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Query AWS resources using natural language. Covers EC2, S3, RDS, Lambda, ECS, EKS, Secrets Manager, IAM, VPC, networking, messaging, and more. Strictly read-only — no writes, deletes, or mutations."
+    },
+    "has_frontmatter": true,
+    "lines": 653,
+    "chars": 22680,
+    "sha256": "74faf5d2647a6da03cf587a222da10afe0d29d80ec94387b3ee94bac125e1b00",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 77
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/aws-well-architected-review/SKILL.md",
+    "relative_path": "devops/aws-well-architected-review/SKILL.md",
+    "name": "aws-well-architected-review",
+    "frontmatter": {
+      "name": "aws-well-architected-review",
+      "category": "architecture",
+      "title": "Aws Well Architected Review",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Perform an AWS Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements."
+    },
+    "has_frontmatter": true,
+    "lines": 206,
+    "chars": 8168,
+    "sha256": "651ff8b795c7802a85a8f26da24843523e8bd54300a07f33aa700fc04c6f0352",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-architecture-autopilot/SKILL.md",
+    "relative_path": "devops/azure-architecture-autopilot/SKILL.md",
+    "name": "azure-architecture-autopilot",
+    "frontmatter": {
+      "name": "azure-architecture-autopilot",
+      "category": "architecture",
+      "title": "Azure Architecture Autopilot",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 212,
+    "chars": 8556,
+    "sha256": "bb681436aec624e5eed8f17b9c62026e3faa578cd05c849f8956f7e3ec6d974a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-container-registry-cli/SKILL.md",
+    "relative_path": "devops/azure-container-registry-cli/SKILL.md",
+    "name": "azure-container-registry-cli",
+    "frontmatter": {
+      "name": "azure-container-registry-cli",
+      "category": "agentic-coder",
+      "title": "Azure Container Registry Cli",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Manage Azure Container Registry via the az acr CLI including registries, images, cloud builds, ACR Tasks, authentication, tokens, geo-replication, and networking. Use when working with ACR, az acr commands, pushing/importing/purging container images in Azure, or when the user mentions Azure Container Registry."
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 5993,
+    "sha256": "cc82a2413f4de7ea1bdea924886b7250287ca0a85136b62a82eddc2cd240f8f5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/SKILL.md",
+    "relative_path": "devops/azure-deployment-preflight/SKILL.md",
+    "name": "azure-deployment-preflight",
+    "frontmatter": {
+      "name": "azure-deployment-preflight",
+      "category": "agentic-coder",
+      "title": "Azure Deployment Preflight",
+      "description": "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use this skill before any deployment to Azure to preview changes, identify potential issues, and ensure the deployment will succeed. Activate when users mention deploying to Azure, validating Bicep files, checking deployment permissions, previewing infrastructure changes, running what-if, or preparing for azd provision.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 275,
+    "chars": 9656,
+    "sha256": "19aa5af4f9008c9421f3266950942665b27750129e5dd8013e69ff824a773058",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/references/ERROR-HANDLING.md",
+        "lines": 434,
+        "chars": 9172,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/references/ERROR-HANDLING.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/references/REPORT-TEMPLATE.md",
+        "lines": 342,
+        "chars": 7796,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/references/REPORT-TEMPLATE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/references/VALIDATION-COMMANDS.md",
+        "lines": 329,
+        "chars": 8316,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-deployment-preflight/references/VALIDATION-COMMANDS.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-developer-cli/SKILL.md",
+    "relative_path": "devops/azure-developer-cli/SKILL.md",
+    "name": "azure-developer-cli",
+    "frontmatter": {
+      "name": "azure-developer-cli",
+      "category": "dev-tools",
+      "title": "Azure Developer Cli",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Design, create, review, migrate, or troubleshoot Azure Developer CLI (azd) projects using current Microsoft guidance. Use for azd, azure.yaml, AZD templates, Bicep or Terraform under infra, AZD environments and secrets, hooks, deployment workflows, and azd-managed CI/CD.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 172,
+    "chars": 8632,
+    "sha256": "d3849fd08499dff42390301f3325faef46b485b38162f7108158943a8c2cf4f5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/azure-devops-cli/SKILL.md",
+    "relative_path": "devops/azure-devops-cli/SKILL.md",
+    "name": "azure-devops-cli",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when working with Azure DevOps resources via Azure CLI — repos, pipelines,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "azure-devops-cli",
+      "category": "dev-tools",
+      "tags": [
+        "azure",
+        "devops",
+        "cli",
+        "pipelines",
+        "repos",
+        "boards",
+        "artifacts"
+      ],
+      "title": "Azure DevOps CLI",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 144,
+    "chars": 3739,
+    "sha256": "adb9f8a1b6a4bdaab5aafafd1452a9b18a7b846a39313b2e770bac96f0744b63",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-devops-cli/references/overview.md",
+        "lines": 19,
+        "chars": 366,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/azure-devops-cli/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 17
+  }
+]

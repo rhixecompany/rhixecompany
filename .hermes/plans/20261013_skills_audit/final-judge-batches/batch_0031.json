@@ -1,0 +1,475 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-vscode-config-v2/SKILL.md",
+    "relative_path": "development/audit-vscode-config-v2/SKILL.md",
+    "name": "audit-vscode-config-v2",
+    "frontmatter": {
+      "name": "audit-vscode-config-v2",
+      "category": "audit",
+      "title": "Audit Vscode Config V2",
+      "description": "Audits vscode config (VS Code / VS Code Insiders) for issues and quality concerns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "vscode",
+        "configuration",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2683,
+    "sha256": "fe42083d1587c249b9a1f96066ae5f890096af1b9fc0748b708a31c15f293316",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config-v2/references/overview.md",
+        "lines": 58,
+        "chars": 2490,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config-v2/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config-v2/templates/template.md",
+        "lines": 18,
+        "chars": 158,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-vscode-config-v2/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/autoresearch/SKILL.md",
+    "relative_path": "development/autoresearch/SKILL.md",
+    "name": "autoresearch",
+    "frontmatter": {
+      "name": "autoresearch",
+      "category": "architecture",
+      "title": "Autoresearch",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Autonomous iterative experimentation loop for any programming task. Guides the user through defining goals, measurable metrics, and scope constraints, then runs an autonomous loop of code changes, testing, measuring, and keeping/discarding results. Inspired by Karpathy''s autoresearch. USE FOR: autonomous improvement, iterative optimization, experiment loop, auto research, performance tuning, automated experimentation, hill climbing, try things automatically, optimize code, run experiments, autonomous coding loop. DO NOT USE FOR: one-shot tasks, simple bug fixes, code review, or tasks without a measurable metric.",
+      "license": "MIT",
+      "compatibility": "Requires git. The project must be a git repository. Requires terminal access to run commands.",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 312,
+    "chars": 12086,
+    "sha256": "88c2987aff577b8923af88a23fda944b33e66a5800ec7e69b1925b8c782021d9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-delete-profiles/SKILL.md",
+    "relative_path": "development/batch-delete-profiles/SKILL.md",
+    "name": "batch-delete-profiles",
+    "frontmatter": {
+      "name": "batch-delete-profiles",
+      "category": "agentic-coder",
+      "title": "Batch Delete Profiles",
+      "description": "Batch processing for delete profiles",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "batch",
+        "profiles",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2621,
+    "sha256": "1ee516c3528863e4aea9f55faf13e106a3d59b9bdfad26329430a5cb95acd799",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-delete-profiles/references/overview.md",
+        "lines": 57,
+        "chars": 2212,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-delete-profiles/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-delete-profiles/templates/template.md",
+        "lines": 18,
+        "chars": 157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-delete-profiles/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-localappdata-skillcode/SKILL.md",
+    "relative_path": "development/batch-localappdata-skillcode/SKILL.md",
+    "name": "batch-localappdata-skillcode",
+    "frontmatter": {
+      "name": "batch-localappdata-skillcode",
+      "category": "agentic-coder",
+      "title": "Batch Localappdata Skillcode",
+      "description": "Batch processing for localappdata skillcode",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2689,
+    "sha256": "62984a1fdce4b390e3254875f76d89b170c22cd22c8d5742f6d09436210e3e9e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-remediate/SKILL.md",
+    "relative_path": "development/batch-remediate/SKILL.md",
+    "name": "batch-remediate",
+    "frontmatter": {
+      "name": "batch-remediate",
+      "category": "agentic-coder",
+      "title": "Batch Remediate",
+      "description": "Batch processing for remediate",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2548,
+    "sha256": "de34dd3bd3553c06896f29e648fc303e6bc9f581778dd98435677ed47717cbca",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate/references/overview.md",
+        "lines": 58,
+        "chars": 2522,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate/templates/template.md",
+        "lines": 18,
+        "chars": 151,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-remediate-42-59/SKILL.md",
+    "relative_path": "development/batch-remediate-42-59/SKILL.md",
+    "name": "batch-remediate-42-59",
+    "frontmatter": {
+      "name": "batch-remediate-42-59",
+      "category": "agentic-coder",
+      "title": "Batch Remediate 42 59",
+      "description": "Batch processing for remediate 42 59",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2608,
+    "sha256": "992bf8a89e339c437e2627e659f49d7d7e439149df3978103e6e2e2fa3bffd10",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate-42-59/references/overview.md",
+        "lines": 57,
+        "chars": 2371,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate-42-59/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate-42-59/templates/template.md",
+        "lines": 18,
+        "chars": 157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-remediate-42-59/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/batch-rewrite-worst/SKILL.md",
+    "relative_path": "development/batch-rewrite-worst/SKILL.md",
+    "name": "batch-rewrite-worst",
+    "frontmatter": {
+      "name": "batch-rewrite-worst",
+      "category": "agentic-coder",
+      "title": "Batch Rewrite Worst",
+      "description": "Batch processing for rewrite worst",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "batch",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2588,
+    "sha256": "4e8af271262045369ea0d20edff8b695b64116c2d5cf57fd1e25b8f877ddfb9c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-rewrite-worst/references/overview.md",
+        "lines": 61,
+        "chars": 2701,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-rewrite-worst/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-rewrite-worst/templates/template.md",
+        "lines": 18,
+        "chars": 155,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/batch-rewrite-worst/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

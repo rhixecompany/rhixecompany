@@ -1,0 +1,408 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/salesforce-flow-design/SKILL.md",
+    "relative_path": "creative/salesforce-flow-design/SKILL.md",
+    "name": "salesforce-flow-design",
+    "frontmatter": {
+      "name": "salesforce-flow-design",
+      "category": "architecture",
+      "title": "Salesforce Flow Design",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Salesforce Flow architecture decisions, flow type selection, bulk safety validation, and fault handling standards. Use this skill when designing or reviewing Record-Triggered, Screen, Autolaunched, Scheduled, or Platform Event flows to ensure correct type selection, no DML/Get Records in loops, proper fault connectors on all data-changing elements, and appropriate automation density checks before deployment."
+    },
+    "has_frontmatter": true,
+    "lines": 174,
+    "chars": 7944,
+    "sha256": "88dac378d916a18995f0bfbb54525f20d488b7f47d57f670d73e43b45ff47c3d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/scope/SKILL.md",
+    "relative_path": "creative/scope/SKILL.md",
+    "name": "scope",
+    "frontmatter": {
+      "name": "scope",
+      "category": "agentic-coder",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion",
+      "description": "Use when planning or reconciling a living product scope.",
+      "title": "Scope",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[scope, product-planning, prioritization, workflow]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 148,
+    "chars": 13407,
+    "sha256": "f94a773f8089dc2eda16f50d6b3f46f2c41a26883dbc2440beef4def844b66f8",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/scope/references/consolidation.md",
+        "lines": 17,
+        "chars": 2133,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/scope/references/consolidation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/scope/references/destructive-profile-action.md",
+        "lines": 20,
+        "chars": 3059,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/scope/references/destructive-profile-action.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/screen-recording/SKILL.md",
+    "relative_path": "creative/screen-recording/SKILL.md",
+    "name": "screen-recording",
+    "frontmatter": {
+      "name": "screen-recording",
+      "category": "agentic-coder",
+      "title": "Screen Recording",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create annotated animated GIF demos and screen recordings for pull requests and documentation. Covers frame capture, timing, imageio-based GIF creation, and per-frame annotation workflows."
+    },
+    "has_frontmatter": true,
+    "lines": 260,
+    "chars": 8602,
+    "sha256": "1d5870ec0e4a49e7072db4e5df363a445e1721d924c33b0b15f97fa5e3bea251",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/sketch/SKILL.md",
+    "relative_path": "creative/sketch/SKILL.md",
+    "name": "sketch",
+    "frontmatter": {
+      "author": "Hermes Agent (adapted from gsd-build/get-shit-done)",
+      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "sketch",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Sketch",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 278,
+    "chars": 10875,
+    "sha256": "23c0a3676e4539baca54224d2bbcc7850566a4f8c604c96097c7fc9c3e77e808",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/SKILL.md",
+    "relative_path": "creative/songwriting-and-ai-music/SKILL.md",
+    "name": "songwriting-and-ai-music",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Songwriting craft and Suno AI music prompts.",
+      "license": "MIT",
+      "name": "songwriting-and-ai-music",
+      "category": "documentation",
+      "tags": [
+        "songwriting",
+        "music",
+        "suno",
+        "parody",
+        "lyrics",
+        "creative"
+      ],
+      "title": "Songwriting And AI Music",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 365,
+    "chars": 13470,
+    "sha256": "ef44a20fee0d8c1cc2c540def0cc2c022953323564d9f438390f06448df7db15",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/references/heartmula.md",
+        "lines": 152,
+        "chars": 6267,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/references/heartmula.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/references/quick-reference.md",
+        "lines": 18,
+        "chars": 445,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/references/songsee.md",
+        "lines": 53,
+        "chars": 2055,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/songwriting-and-ai-music/references/songsee.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/speak-summary/SKILL.md",
+    "relative_path": "creative/speak-summary/SKILL.md",
+    "name": "speak-summary",
+    "frontmatter": {
+      "name": "speak-summary",
+      "category": "agentic-coder",
+      "title": "Speak Summary",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Convert text, markdown, or a summary produced by another skill into a listenable MP3 using local CPU-only neural text-to-speech. Rewrites written prose for the ear before synthesising. Use when the user asks to \"read this out\", \"turn this into audio\", \"make an MP3\", \"I want to listen to this\", \"podcast version\", or wants a spoken digest for a commute or breakfast."
+    },
+    "has_frontmatter": true,
+    "lines": 177,
+    "chars": 7332,
+    "sha256": "5beb16216da21df00d71d01414f74da578f1382f922601a622881a8eab0a78ca",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/speak-summary/scripts/tts.sh",
+        "lines": 155,
+        "chars": 5941,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/speak-summary/scripts/tts.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/theme-factory/SKILL.md",
+    "relative_path": "creative/theme-factory/SKILL.md",
+    "name": "theme-factory",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when styling artifacts with themes — slides, docs, reports, HTML",
+      "license": "MIT",
+      "name": "theme-factory",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Theme Factory",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 2576,
+    "sha256": "1d0780b8b49c3aa980546f84f403b3af569f65d1d058996177640ff338fd7ac3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  }
+]

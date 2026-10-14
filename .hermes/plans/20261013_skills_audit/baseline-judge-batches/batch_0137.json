@@ -1,0 +1,528 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/nemo-curator/SKILL.md",
+    "relative_path": "mlops/nemo-curator/SKILL.md",
+    "name": "nemo-curator",
+    "frontmatter": {
+      "name": "nemo-curator",
+      "category": "agentic-coder",
+      "title": "Nemo Curator",
+      "description": "GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets, cleaning web data, or deduplicating large corpora.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[nemo-curator, cudf, dask, rapids]",
+      "platforms": "[linux, macos]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 437,
+    "chars": 11356,
+    "sha256": "2c807a4472f6125fc67936c71125a711996c21ecd48e441cc766e10886709977",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/nemo-curator/references/deduplication.md",
+        "lines": 87,
+        "chars": 2137,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/nemo-curator/references/deduplication.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/nemo-curator/references/filtering.md",
+        "lines": 102,
+        "chars": 2349,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/nemo-curator/references/filtering.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 50
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/obliteratus/SKILL.md",
+    "relative_path": "mlops/obliteratus/SKILL.md",
+    "name": "obliteratus",
+    "frontmatter": {
+      "name": "obliteratus",
+      "category": "agentic-coder",
+      "title": "Obliteratus",
+      "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+      "version": "2.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 368,
+    "chars": 16308,
+    "sha256": "b9d87c9529fd8e6d8fe003b589a94bcf4fda111d8ee18dca17c98453bad86a7a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/references/analysis-modules.md",
+        "lines": 166,
+        "chars": 6252,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/references/analysis-modules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/references/methods-guide.md",
+        "lines": 141,
+        "chars": 6683,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/references/methods-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/templates/abliteration-config.yaml",
+        "lines": 33,
+        "chars": 1189,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/templates/abliteration-config.yaml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/templates/analysis-study.yaml",
+        "lines": 40,
+        "chars": 1368,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/templates/analysis-study.yaml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/templates/batch-abliteration.yaml",
+        "lines": 41,
+        "chars": 1201,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/obliteratus/templates/batch-abliteration.yaml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 42
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/peft/SKILL.md",
+    "relative_path": "mlops/peft/SKILL.md",
+    "name": "peft-fine-tuning",
+    "frontmatter": {
+      "name": "peft-fine-tuning",
+      "category": "agentic-coder",
+      "title": "Peft Fine Tuning",
+      "description": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with transformers ecosystem.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[peft>=0.13.0, transformers>=4.45.0, torch>=2.0.0, bitsandbytes>=0.43.0]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 488,
+    "chars": 14283,
+    "sha256": "e627439d787e1279c0efe958bb39f189be8b33187f6e69401cf79bb1e0c179df",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/peft/references/advanced-usage.md",
+        "lines": 514,
+        "chars": 12541,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/peft/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/peft/references/troubleshooting.md",
+        "lines": 480,
+        "chars": 10344,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/peft/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 47
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/pinecone/SKILL.md",
+    "relative_path": "mlops/pinecone/SKILL.md",
+    "name": "pinecone",
+    "frontmatter": {
+      "name": "pinecone",
+      "category": "agentic-coder",
+      "title": "Pinecone",
+      "description": "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed infrastructure.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[pinecone-client]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 413,
+    "chars": 9850,
+    "sha256": "d7eabc0846b9e6ea17be8ec27892a27ba408025006c6c5b2609dcf3a2eb3f3aa",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pinecone/references/deployment.md",
+        "lines": 181,
+        "chars": 3557,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pinecone/references/deployment.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 40
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/pinecone-rag/SKILL.md",
+    "relative_path": "mlops/pinecone-rag/SKILL.md",
+    "name": "pinecone-rag",
+    "frontmatter": {
+      "name": "pinecone-rag",
+      "category": "agentic-coder",
+      "title": "Pinecone Rag",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": ">",
+      "license": "Apache-2.0",
+      "compatibility": "pinecone>=6.0.0, Python 3.10+"
+    },
+    "has_frontmatter": true,
+    "lines": 326,
+    "chars": 10575,
+    "sha256": "5d90bae7357569fbf923b6df31b9ecf49b0258bfc106a726c7646648b08ae405",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/pytorch-fsdp/SKILL.md",
+    "relative_path": "mlops/pytorch-fsdp/SKILL.md",
+    "name": "pytorch-fsdp",
+    "frontmatter": {
+      "name": "pytorch-fsdp",
+      "category": "agentic-coder",
+      "title": "Pytorch Fsdp",
+      "description": "Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, mixed precision, CPU offloading, FSDP2",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[torch>=2.0, transformers]",
+      "platforms": "[linux, macos]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 174,
+    "chars": 161036,
+    "sha256": "76f4cc215fdcba988ed7079c5e0c976a1e2218ec40fc35e826dd5acf7861319f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-fsdp/references/index.md",
+        "lines": 7,
+        "chars": 96,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-fsdp/references/index.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-fsdp/references/other.md",
+        "lines": 4261,
+        "chars": 335712,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-fsdp/references/other.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/SKILL.md",
+    "relative_path": "mlops/pytorch-lightning/SKILL.md",
+    "name": "pytorch-lightning",
+    "frontmatter": {
+      "name": "pytorch-lightning",
+      "category": "agentic-coder",
+      "title": "Pytorch Lightning",
+      "description": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[lightning, torch, transformers]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 394,
+    "chars": 10967,
+    "sha256": "b46f64165786ccbc2c803a852ff00ced67bce3bf8a0629450dfdb5e4db17f4f3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/references/callbacks.md",
+        "lines": 436,
+        "chars": 12031,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/references/callbacks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/references/distributed.md",
+        "lines": 490,
+        "chars": 10811,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/references/distributed.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/references/hyperparameter-tuning.md",
+        "lines": 556,
+        "chars": 12515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/pytorch-lightning/references/hyperparameter-tuning.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 59,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 20,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  }
+]

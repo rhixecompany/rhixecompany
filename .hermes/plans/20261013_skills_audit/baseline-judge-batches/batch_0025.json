@@ -1,0 +1,432 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/SKILL.md",
+    "relative_path": "creative/writing-clearly-and-concisely/SKILL.md",
+    "name": "writing-clearly-and-concisely",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when editing docs, commit messages, UI copy, or technical writing for clarity — scanning for AI puffery, passive voice, wordiness, vague language, and applying Strunk's principles (active voice, concrete language, omit needless words).",
+      "license": "MIT",
+      "metadata": [
+        "writing",
+        "clarity",
+        "editing",
+        "documentation",
+        "style"
+      ],
+      "name": "writing-clearly-and-concisely",
+      "category": "documentation",
+      "tags": [
+        "writing",
+        "clarity",
+        "editing",
+        "documentation",
+        "style"
+      ],
+      "title": "Writing Clearly And Concisely",
+      "version": "2.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 7532,
+    "sha256": "75622d491560683155efbdb754b418641c01c967183880612bccc0611ded9323",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/ai-patterns.md",
+        "lines": 325,
+        "chars": 31455,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/ai-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/editing-workflow.md",
+        "lines": 268,
+        "chars": 13643,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/editing-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/overview.md",
+        "lines": 239,
+        "chars": 11823,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/strunk-principles.md",
+        "lines": 294,
+        "chars": 12425,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/references/strunk-principles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/templates/before-after-examples.md",
+        "lines": 269,
+        "chars": 12840,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/templates/before-after-examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/templates/editing-checklist.md",
+        "lines": 138,
+        "chars": 4899,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/writing-clearly-and-concisely/templates/editing-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/data-science/SKILL.md",
+    "relative_path": "data-science/SKILL.md",
+    "name": "data-science",
+    "frontmatter": {
+      "name": "data-science",
+      "category": "agentic-coder",
+      "title": "Data Science Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for data-science — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1471,
+    "sha256": "bd15e54fad285cfe53cfab5a794de17b3d5e81a3eda175f755519bcf54d557d3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/data-science/jupyter-live-kernel/SKILL.md",
+    "relative_path": "data-science/jupyter-live-kernel/SKILL.md",
+    "name": "jupyter-live-kernel",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "jupyter-live-kernel",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Jupyter Live Kernel",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 231,
+    "chars": 6902,
+    "sha256": "52811ec17158b8c1d9ecdb88023b15664bbed7380d9116811c182af2a31af4c2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/data-science/jupyter-live-kernel/references/overview.md",
+        "lines": 11,
+        "chars": 185,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/data-science/jupyter-live-kernel/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/-agents-fix-discover/SKILL.md",
+    "relative_path": "development/-agents-fix-discover/SKILL.md",
+    "name": "-agents-fix-discover",
+    "frontmatter": {
+      "name": "-agents-fix-discover",
+      "category": "agentic-coder",
+      "title": "Agents Fix Discover",
+      "description": "Script for Agents Fix Discover operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2607,
+    "sha256": "cfcd2cc2bf93accf2d3b36cfa55d0b6fa7e178dd5539fdd94d86f6eac626a6d1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/-agents-fix-report/SKILL.md",
+    "relative_path": "development/-agents-fix-report/SKILL.md",
+    "name": "-agents-fix-report",
+    "frontmatter": {
+      "name": "-agents-fix-report",
+      "category": "agentic-coder",
+      "title": "Agents Fix Report",
+      "description": "Script for Agents Fix Report operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2587,
+    "sha256": "493310df8b6a38376f31899da997e68fd96f4008ae25808f5983cd04feda88ef",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/-pathutil/SKILL.md",
+    "relative_path": "development/-pathutil/SKILL.md",
+    "name": "-pathutil",
+    "frontmatter": {
+      "name": "-pathutil",
+      "category": "agentic-coder",
+      "title": "Pathutil",
+      "description": "Script for Pathutil operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2481,
+    "sha256": "9a6cfa9baebdce93c056a66404113b343301e46beb933278eeb1de759da02561",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/-pending-skills-report/SKILL.md",
+    "relative_path": "development/-pending-skills-report/SKILL.md",
+    "name": "-pending-skills-report",
+    "frontmatter": {
+      "name": "-pending-skills-report",
+      "category": "agentic-coder",
+      "title": "Pending Skills Report",
+      "description": "Script for Pending Skills Report operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2663,
+    "sha256": "0f9be2f2b382cb85a29a2053fec2f6ed0d63bbd30547aa2d24d4e42fb0026950",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

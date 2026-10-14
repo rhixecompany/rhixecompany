@@ -1,0 +1,300 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/choose-engine/SKILL.md",
+    "relative_path": "oh-my-hermes/choose-engine/SKILL.md",
+    "name": "choose-engine",
+    "frontmatter": {
+      "name": "choose-engine",
+      "category": "agentic-coder",
+      "title": "Choose Engine",
+      "description": "Use when starting a coding task and unsure whether Hermes, Claude Code, or Codex should execute it",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[routing, orchestration, engine]"
+    },
+    "has_frontmatter": true,
+    "lines": 108,
+    "chars": 3717,
+    "sha256": "3577ea1a4404930758c5808777ccb847e1a463aae8c999a32c35ed67816dd2c9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/clarify-requirements/SKILL.md",
+    "relative_path": "oh-my-hermes/clarify-requirements/SKILL.md",
+    "name": "clarify-requirements",
+    "frontmatter": {
+      "name": "clarify-requirements",
+      "category": "agentic-coder",
+      "title": "Clarify Requirements",
+      "description": "Use when material requirements are still ambiguous.",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[requirements, planning, assumptions, product]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 145,
+    "chars": 5940,
+    "sha256": "9982205f93d23b5432bbf36ad6fd5660ba271cf3ac3eb1b8fa20e2becee38d05",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/connect-supabase/SKILL.md",
+    "relative_path": "oh-my-hermes/connect-supabase/SKILL.md",
+    "name": "connect-supabase",
+    "frontmatter": {
+      "name": "connect-supabase",
+      "category": "agentic-coder",
+      "title": "Connect Supabase",
+      "description": "Use when a Supabase project needs to be linked to the app for the first time, or when new migrations need to be pushed",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[supabase, database, setup, migrations]"
+    },
+    "has_frontmatter": true,
+    "lines": 118,
+    "chars": 3466,
+    "sha256": "cca95a6cec07334bcba978a2bb37726896cf8432d8b95ec0df3f83786d144394",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/create-github-pr/SKILL.md",
+    "relative_path": "oh-my-hermes/create-github-pr/SKILL.md",
+    "name": "create-github-pr",
+    "frontmatter": {
+      "name": "create-github-pr",
+      "category": "agentic-coder",
+      "title": "Create Github Pr",
+      "description": "Use when implementation is complete on a feature branch and a pull request needs to be created",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[github, pr, ops, review]"
+    },
+    "has_frontmatter": true,
+    "lines": 135,
+    "chars": 3987,
+    "sha256": "c27c2395e2d735a8791df6800d4fd320da8892ec4baceef15f49faa051557b22",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/create-skill/SKILL.md",
+    "relative_path": "oh-my-hermes/create-skill/SKILL.md",
+    "name": "create-skill",
+    "frontmatter": {
+      "name": "create-skill",
+      "category": "agentic-coder",
+      "title": "Create Skill",
+      "description": "Use when adding a new capability to Hermes that does not exist in the current skill pack",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[meta, skills, creation]"
+    },
+    "has_frontmatter": true,
+    "lines": 127,
+    "chars": 3767,
+    "sha256": "c9928ea4e010f8188ecbc9d9d6cb46576c042a90b32572b7b4f031b158466637",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/creative-production/SKILL.md",
+    "relative_path": "oh-my-hermes/creative-production/SKILL.md",
+    "name": "creative-production",
+    "frontmatter": {
+      "name": "creative-production",
+      "category": "agentic-coder",
+      "title": "Creative Production",
+      "description": "Use when a product needs restrained visual assets or a launch video built from real product screens with optional licensed music and voiceover",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[design, video, hyperframes, music, launch]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 4983,
+    "sha256": "fc839f897dae659e496216af633f8044c68729e429a7c35b0c28fb2fdaf88d18",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/cto-status-report/SKILL.md",
+    "relative_path": "oh-my-hermes/cto-status-report/SKILL.md",
+    "name": "cto-status-report",
+    "frontmatter": {
+      "name": "cto-status-report",
+      "category": "agentic-coder",
+      "title": "Cto Status Report",
+      "description": "Use when the CTO Agent needs to send the founder a summary of everything in flight, completed, or blocked",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[cto, report, kanban, status, founder]"
+    },
+    "has_frontmatter": true,
+    "lines": 140,
+    "chars": 4534,
+    "sha256": "f8f90dcf975d07cb71734cf5cafb8ceae87fac908e5727e9eb43f43c57d0b941",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  }
+]

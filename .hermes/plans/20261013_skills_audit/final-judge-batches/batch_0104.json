@@ -1,0 +1,379 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/glab/SKILL.md",
+    "relative_path": "devops/glab/SKILL.md",
+    "name": "glab",
+    "frontmatter": {
+      "name": "glab",
+      "category": "agentic-coder",
+      "title": "Glab",
+      "description": "Use when managing GitLab resources from terminal — merge requests, issues, pipelines, repositories, and CI/CD automation via GitLab CLI.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[gitlab, glab, cli, ci-cd, issues, merge-requests]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 2746,
+    "sha256": "b3b00e1955a5259084f2658b1396b8826d70b0f86458d99e3945aeacd8a5aea2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/glab/references/commands-detailed.md",
+        "lines": 507,
+        "chars": 13251,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/glab/references/commands-detailed.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/glab/references/quick-reference.md",
+        "lines": 152,
+        "chars": 5397,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/glab/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/glab/references/troubleshooting.md",
+        "lines": 507,
+        "chars": 10865,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/glab/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/gtm-0-to-1-launch/SKILL.md",
+    "relative_path": "devops/gtm-0-to-1-launch/SKILL.md",
+    "name": "gtm-0-to-1-launch",
+    "frontmatter": {
+      "name": "gtm-0-to-1-launch",
+      "category": "agentic-coder",
+      "title": "Gtm 0 To 1 Launch",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Launch new products from idea to first customers. Use when launching products, finding early adopters, building launch week playbooks, diagnosing why adoption stalls, or learning that press coverage does not equal growth. Includes the three-layer diagnosis, the 2-week experiment cycle, and the launch that got 50K impressions and 12 signups.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 341,
+    "chars": 13329,
+    "sha256": "a083176417904e51a9c00027a254f5a7e701f2ac21d2b765fe0f4874de4c6e83",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/gtm-enterprise-onboarding/SKILL.md",
+    "relative_path": "devops/gtm-enterprise-onboarding/SKILL.md",
+    "name": "gtm-enterprise-onboarding",
+    "frontmatter": {
+      "name": "gtm-enterprise-onboarding",
+      "category": "agentic-coder",
+      "title": "Gtm Enterprise Onboarding",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Four-phase framework for onboarding enterprise customers from contract to value realization. Use when implementing new enterprise customers, preventing churn during onboarding, or solving the adoption cliff that kills deals post-go-live. Includes the Week 4 ghosting pattern.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 477,
+    "chars": 14899,
+    "sha256": "219602ba0c59cb87b70be30ef3e95273625760bcdb1ef15b0007b49d03329e14",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-comprehensive-maintenance/SKILL.md",
+    "relative_path": "devops/hermes-comprehensive-maintenance/SKILL.md",
+    "name": "hermes-comprehensive-maintenance",
+    "frontmatter": {
+      "name": "hermes-comprehensive-maintenance",
+      "category": "agentic-coder",
+      "title": "Hermes Comprehensive Maintenance",
+      "description": "Use when running the comprehensive Hermes maintenance pipeline that inventories, synchronizes quick commands, audits hooks/plugins/desktop/agents, deduplicates, and prepares Docker cleanup. Loads with /comprehensive-hermes-maintenance.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[devops, hermes, maintenance]",
+      "metadata": [],
+      "hermes": []
+    },
+    "has_frontmatter": true,
+    "lines": 155,
+    "chars": 7204,
+    "sha256": "5d739b17728c778e8b16e85706a5bad1ecbf4d32e8e3edbb5633668f63553f00",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-comprehensive-maintenance/references/quick-commands.md",
+        "lines": 28,
+        "chars": 1296,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-comprehensive-maintenance/references/quick-commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-config-merge/SKILL.md",
+    "relative_path": "devops/hermes-config-merge/SKILL.md",
+    "name": "hermes-config-merge",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when consolidating a Hermes profile config.yaml into the root config.yaml",
+      "license": "MIT",
+      "name": "hermes-config-merge",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Hermes Config Merge",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 95,
+    "chars": 3959,
+    "sha256": "99bb8f685f236e1ce8e80b2d80721e376abdd74332b344cfb5fe9d75380e0a88",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-diagnostic-repair/SKILL.md",
+    "relative_path": "devops/hermes-diagnostic-repair/SKILL.md",
+    "name": "hermes-diagnostic-repair",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when running the full Hermes diagnostic sweep — doctor + security + status + insights + 5 log streams + bun run check. Produces a single JSON+markdown report with pass/fail per command.",
+      "license": "MIT",
+      "metadata": [
+        "diagnostic",
+        "health-check",
+        "hermes-core"
+      ],
+      "name": "hermes-diagnostic-repair",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Hermes Diagnostic + Repair",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 106,
+    "chars": 3734,
+    "sha256": "bc9667887af12f4ad48dd788a5f7390dcdfdb8bc7d30cc81f0fce0de092997b5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/hermes-diagnostic-repair/scripts/hermes_diagnostic.py",
+        "lines": 237,
+        "chars": 7876,
+        "substantive": true
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 90,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 18
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "references: not all reference types are present"
+    ],
+    "phase_count": 4,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/hermes-doctor-pipeline/SKILL.md",
+    "relative_path": "devops/hermes-doctor-pipeline/SKILL.md",
+    "name": "hermes-doctor-pipeline",
+    "frontmatter": {
+      "name": "hermes-doctor-pipeline",
+      "category": "documentation",
+      "title": "Hermes Doctor Diagnostic Pipeline",
+      "description": "Use when running a full Hermes platform diagnostic battery — hermes doctor/--fix/security/status/insights + log triage (errors/desktop/gateway/gui/agent) + bun run check — and want a structured per-finding classification (real_bug/intentional/transient/advisory) with verification gates.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, diagnostic, doctor, log-triage, verification, devops]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 120,
+    "chars": 4847,
+    "sha256": "5b090abc6d774691deb16a5fd8cfc8c84835e9754e30079fc6a31459eb50e0a1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  }
+]

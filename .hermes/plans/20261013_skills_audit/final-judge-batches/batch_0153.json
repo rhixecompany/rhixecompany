@@ -1,0 +1,719 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/memory-merger/SKILL.md",
+    "relative_path": "productivity/memory-merger/SKILL.md",
+    "name": "memory-merger",
+    "frontmatter": {
+      "name": "memory-merger",
+      "category": "agentic-coder",
+      "title": "Memory Merger",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`."
+    },
+    "has_frontmatter": true,
+    "lines": 147,
+    "chars": 4855,
+    "sha256": "933bbfceddaab5f46154508f81773c378d14621c0bfee2ac38b03cbc6ae9c4eb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/mkdocs-translations/SKILL.md",
+    "relative_path": "productivity/mkdocs-translations/SKILL.md",
+    "name": "mkdocs-translations",
+    "frontmatter": {
+      "name": "mkdocs-translations",
+      "category": "documentation",
+      "title": "Mkdocs Translations",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a language translation for a mkdocs documentation stack."
+    },
+    "has_frontmatter": true,
+    "lines": 147,
+    "chars": 5273,
+    "sha256": "2bd6cff99031bb93c7ce967af982732c3e32f6d50d6d9ff1e26a59c37c8931ed",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/nano-pdf/SKILL.md",
+    "relative_path": "productivity/nano-pdf/SKILL.md",
+    "name": "nano-pdf",
+    "frontmatter": {
+      "name": "nano-pdf",
+      "category": "agentic-coder",
+      "title": "Nano Pdf",
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 106,
+    "chars": 3387,
+    "sha256": "63efd657049433972ccdecc3684a1e3dbe245a922b865fc9ad1b99675fdbd293",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/notion/SKILL.md",
+    "relative_path": "productivity/notion/SKILL.md",
+    "name": "notion",
+    "frontmatter": {
+      "name": "notion",
+      "category": "agentic-coder",
+      "title": "Notion",
+      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "version": "2.0.0",
+      "author": "community",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "prerequisites": "env_vars: [NOTION_API_KEY]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 501,
+    "chars": 16525,
+    "sha256": "e026a6c51745e8bddb9cd0f6985ed98adcd980218abced696a1588ca64a0712b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/notion/references/block-types.md",
+        "lines": 112,
+        "chars": 2998,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/notion/references/block-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 43
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/SKILL.md",
+    "relative_path": "productivity/ocr-and-documents/SKILL.md",
+    "name": "ocr-and-documents",
+    "frontmatter": {
+      "name": "ocr-and-documents",
+      "category": "documentation",
+      "title": "Ocr And Documents",
+      "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "version": "2.3.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 229,
+    "chars": 7133,
+    "sha256": "e737c3b19cd9bb9b1613b9e57406299d8ef2eff9e287465a5b80e312c83b01ac",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/references/overview.md",
+        "lines": 19,
+        "chars": 368,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/scripts/extract_marker.py",
+        "lines": 87,
+        "chars": 3026,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/scripts/extract_marker.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py",
+        "lines": 98,
+        "chars": 3132,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/ocr-and-documents/scripts/extract_pymupdf.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/oo-component-documentation/SKILL.md",
+    "relative_path": "productivity/oo-component-documentation/SKILL.md",
+    "name": "oo-component-documentation",
+    "frontmatter": {
+      "name": "oo-component-documentation",
+      "category": "documentation",
+      "title": "Oo Component Documentation",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs."
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 5997,
+    "sha256": "ddd76b393a5a3e8f1a88976a4eda0cbac74f2d5b2efed6ace6184243e5476880",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/oo-component-documentation/references/create-mode.md",
+        "lines": 32,
+        "chars": 1929,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/oo-component-documentation/references/create-mode.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/oo-component-documentation/references/update-mode.md",
+        "lines": 32,
+        "chars": 2047,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/oo-component-documentation/references/update-mode.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/pdf/SKILL.md",
+    "relative_path": "productivity/pdf/SKILL.md",
+    "name": "pdf",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with PDF files — reading, extracting text/tables, combining,",
+      "license": "MIT",
+      "name": "pdf",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Pdf",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 106,
+    "chars": 2580,
+    "sha256": "61cffcf06f45f00cd3ef04bd33d56a977fc681537e8db2b7fbe36f9d37a8da01",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/forms.md",
+        "lines": 99,
+        "chars": 3942,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/forms.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/nano-pdf-editing.md",
+        "lines": 40,
+        "chars": 1335,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/nano-pdf-editing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/ocr-extraction.md",
+        "lines": 165,
+        "chars": 5555,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/ocr-extraction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/overview.md",
+        "lines": 19,
+        "chars": 326,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/_raster.py",
+        "lines": 76,
+        "chars": 2614,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/_raster.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/check_bounding_boxes.py",
+        "lines": 65,
+        "chars": 2774,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/check_bounding_boxes.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/check_fillable_fields.py",
+        "lines": 11,
+        "chars": 268,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/check_fillable_fields.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/convert_pdf_to_images.py",
+        "lines": 33,
+        "chars": 1008,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/convert_pdf_to_images.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/create_validation_image.py",
+        "lines": 37,
+        "chars": 1258,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/create_validation_image.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_form_field_info.py",
+        "lines": 122,
+        "chars": 4300,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_form_field_info.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_form_structure.py",
+        "lines": 115,
+        "chars": 3945,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_form_structure.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_marker.py",
+        "lines": 88,
+        "chars": 3450,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_marker.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_pymupdf.py",
+        "lines": 101,
+        "chars": 3671,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/extract_pymupdf.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/fill_fillable_fields.py",
+        "lines": 98,
+        "chars": 3819,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/fill_fillable_fields.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/fill_pdf_form_with_annotations.py",
+        "lines": 107,
+        "chars": 3235,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/fill_pdf_form_with_annotations.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_create.py",
+        "lines": 130,
+        "chars": 4562,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_create.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_fill_form.py",
+        "lines": 97,
+        "chars": 3887,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_fill_form.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_form_layout.py",
+        "lines": 168,
+        "chars": 7131,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_form_layout.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_make_form.py",
+        "lines": 145,
+        "chars": 5988,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_make_form.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_merge.py",
+        "lines": 50,
+        "chars": 1686,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_merge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_meta.py",
+        "lines": 115,
+        "chars": 4458,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_meta.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_page_image.py",
+        "lines": 99,
+        "chars": 3589,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_page_image.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_read.py",
+        "lines": 153,
+        "chars": 5895,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_read.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_secure.py",
+        "lines": 71,
+        "chars": 2677,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_secure.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_split.py",
+        "lines": 84,
+        "chars": 3045,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_split.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_stamp.py",
+        "lines": 143,
+        "chars": 5779,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_stamp.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_watermark.py",
+        "lines": 51,
+        "chars": 1852,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdf/scripts/pdf_watermark.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  }
+]

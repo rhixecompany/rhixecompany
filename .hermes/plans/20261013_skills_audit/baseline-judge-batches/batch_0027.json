@@ -1,0 +1,412 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/add-mcp-servers/SKILL.md",
+    "relative_path": "development/add-mcp-servers/SKILL.md",
+    "name": "add-mcp-servers",
+    "frontmatter": {
+      "name": "add-mcp-servers",
+      "category": "agentic-coder",
+      "title": "Add Mcp Servers",
+      "description": "Adds configuration entries or hooks to Hermes setup",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2559,
+    "sha256": "801f282f87906965a43f70a00f4694b334fbe216ff8345989a1253710f8d4ddd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/agents-system-prompt-context-fix-runner/SKILL.md",
+    "relative_path": "development/agents-system-prompt-context-fix-runner/SKILL.md",
+    "name": "agents-system-prompt-context-fix-runner",
+    "frontmatter": {
+      "name": "agents-system-prompt-context-fix-runner",
+      "category": "agentic-coder",
+      "title": "Agents System Prompt Context Fix Runner",
+      "description": "Execute the agents-system-prompt-context-fix prompt workflow - generates architecture blueprints, folder structure blueprints, tech stack blueprints for all projects, then audits and fixes VS Code configs.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[architecture, documentation, vscode, automation, audit]",
+      "metadata": [
+        "architecture-blueprint-generator",
+        "folder-structure-blueprint-generator",
+        "technology-stack-blueprint-generator",
+        "vscode-workspace-configurator",
+        "vscode-config-audit",
+        "architecture",
+        "documentation",
+        "vscode",
+        "automation",
+        "audit"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 111,
+    "chars": 4456,
+    "sha256": "c0d89e2287f02aa7554a12ea5ae6568f9072ff368d59311afbdf4d95a24ac4c5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/agents-system-prompt-context-fix-runner/references/vscode-audit-lessons.md",
+        "lines": 27,
+        "chars": 1212,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/agents-system-prompt-context-fix-runner/references/vscode-audit-lessons.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ai-prompt-engineering-safety-review/SKILL.md",
+    "relative_path": "development/ai-prompt-engineering-safety-review/SKILL.md",
+    "name": "ai-prompt-engineering-safety-review",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Review AI-generated prompts for safety issues, bias, injection risks, or harmful content before deployment. Use during prompt auditing, red-teaming, or pre-deployment validation of LLM prompts.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "ai-prompt-engineering-safety-review",
+      "category": "agentic-coder",
+      "tags": [
+        "safety",
+        "prompt-engineering",
+        "red-teaming",
+        "llm",
+        "audit",
+        "scripts"
+      ],
+      "title": "AI Prompt Engineering Safety Review",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 432,
+    "chars": 16060,
+    "sha256": "7a45cbe691aa26a7dae0c1e0a752c288db63af1357bcff291b9d0b92f5124e53",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/ai-prompt-engineering-safety-review/references/overview.md",
+        "lines": 16,
+        "chars": 414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/ai-prompt-engineering-safety-review/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/ai-prompt-engineering-safety-review/templates/workflow.md",
+        "lines": 15,
+        "chars": 157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/ai-prompt-engineering-safety-review/templates/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ai-ready/SKILL.md",
+    "relative_path": "development/ai-ready/SKILL.md",
+    "name": "ai-ready",
+    "frontmatter": {
+      "name": "ai-ready",
+      "category": "agentic-coder",
+      "title": "Ai Ready",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Make any repo AI-ready — analyzes your codebase and generates AGENTS.md, copilot-instructions.md, CI workflows, issue templates, and more. Mines your PR review patterns and creates files customized to your stack. USE THIS SKILL when the user asks to \"make this repo ai-ready\", \"set up AI config\", or \"prepare this repo for AI contributions\"."
+    },
+    "has_frontmatter": true,
+    "lines": 66,
+    "chars": 2413,
+    "sha256": "c4e13c04667d44b4bc42c84f26b664fd18aa5b09b5c152ac88c0452d22e891e0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 2
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ai-team-orchestration/SKILL.md",
+    "relative_path": "development/ai-team-orchestration/SKILL.md",
+    "name": "ai-team-orchestration",
+    "frontmatter": {
+      "name": "ai-team-orchestration",
+      "category": "agentic-coder",
+      "title": "Ai Team Orchestration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Bootstrap and run a lightweight multi-agent development team. Use when starting or adopting a project, planning work, coordinating implementation and optional QA, brainstorming with distinct perspectives, or preserving context across sessions."
+    },
+    "has_frontmatter": true,
+    "lines": 131,
+    "chars": 4951,
+    "sha256": "46569bb2fb6c9135c7745fba7d0e40a0a8c079c223b826d2c061d16f6fcf1e6a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/align-tables/SKILL.md",
+    "relative_path": "development/align-tables/SKILL.md",
+    "name": "align-tables",
+    "frontmatter": {
+      "name": "align-tables",
+      "category": "agentic-coder",
+      "title": "Align Tables",
+      "description": "Script for Align Tables operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2515,
+    "sha256": "596b3d6965842adba93be61700789e084b2285c6c97b4ec0198544c57c1e9b63",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/analyze-hf-models/SKILL.md",
+    "relative_path": "development/analyze-hf-models/SKILL.md",
+    "name": "analyze-hf-models",
+    "frontmatter": {
+      "name": "analyze-hf-models",
+      "category": "agentic-coder",
+      "title": "Analyze Hf Models",
+      "description": "Analyzes HuggingFace model metadata and configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "models",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2591,
+    "sha256": "ce948b01b9219ec8fa077a573089303bdc0bf7fed75edf9181b88805ce885757",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/analyze-hf-models/references/overview.md",
+        "lines": 57,
+        "chars": 2093,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/analyze-hf-models/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/analyze-hf-models/templates/template.md",
+        "lines": 18,
+        "chars": 153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/analyze-hf-models/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

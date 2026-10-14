@@ -1,0 +1,530 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/fabric-lakehouse/SKILL.md",
+    "relative_path": "devops/fabric-lakehouse/SKILL.md",
+    "name": "fabric-lakehouse",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when designing, building, or optimizing Microsoft Fabric Lakehouse",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "fabric-lakehouse",
+      "category": "agentic-coder",
+      "tags": "null",
+      "title": "Fabric Lakehouse",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 208,
+    "chars": 7645,
+    "sha256": "9c2d15e5a8a47da2985c1a11363208e00584e36ceb2f37ffa2ef09c30448b355",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/fabric-lakehouse/references/getdata.md",
+        "lines": 36,
+        "chars": 1287,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/fabric-lakehouse/references/getdata.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/fabric-lakehouse/references/pyspark.md",
+        "lines": 189,
+        "chars": 4227,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/fabric-lakehouse/references/pyspark.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 77,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 37
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/fedora-linux-triage/SKILL.md",
+    "relative_path": "devops/fedora-linux-triage/SKILL.md",
+    "name": "fedora-linux-triage",
+    "frontmatter": {
+      "name": "fedora-linux-triage",
+      "category": "agentic-coder",
+      "title": "Fedora Linux Triage",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance."
+    },
+    "has_frontmatter": true,
+    "lines": 70,
+    "chars": 1900,
+    "sha256": "c43d33c4b49c3f81059df6cd7c22136e2fa1e7ca55913556e67f0ba9da0e0d5e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/SKILL.md",
+    "relative_path": "devops/git-history-preserving-migration/SKILL.md",
+    "name": "git-history-preserving-migration",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Procedures, templates, and scripts for migrating projects between local",
+      "license": "MIT",
+      "name": "git-history-preserving-migration",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Git History Preserving Migration",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 8870,
+    "sha256": "a02b742353d44a805af7f71b36bfe14a9dfe8a4da021cafa7bf850613a3f4999",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/5-phase-repo-migration-pattern.md",
+        "lines": 279,
+        "chars": 9261,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/5-phase-repo-migration-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/decision-template.md",
+        "lines": 22,
+        "chars": 902,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/decision-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/parsing-and-quoting-pitfalls.md",
+        "lines": 16,
+        "chars": 1033,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/parsing-and-quoting-pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/patch-classification-and-debugging.md",
+        "lines": 64,
+        "chars": 2823,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/patch-classification-and-debugging.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/session-2026-05-24-notes.md",
+        "lines": 40,
+        "chars": 2832,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/references/session-2026-05-24-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/scripts/powershell-backup-and-copy.ps1",
+        "lines": 34,
+        "chars": 1167,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/git-history-preserving-migration/scripts/powershell-backup-and-copy.ps1:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/git-patch-management/SKILL.md",
+    "relative_path": "devops/git-patch-management/SKILL.md",
+    "name": "git-patch-management",
+    "frontmatter": {
+      "name": "git-patch-management",
+      "description": "Manage Git patch files across multi-project workspaces. Use when creating, applying, organizing, or cleaning up patch files across multiple repositories in a monorepo or workspace.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "git",
+        "patch",
+        "workspace",
+        "version-control"
+      ],
+      "title": "Git Patch Management",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 84,
+    "chars": 2450,
+    "sha256": "2b2725c796f1f36ca5adca5a4a7c20aee5c0565cd8264e18c20790ea3124849c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/SKILL.md",
+    "relative_path": "devops/github-actions-efficiency/SKILL.md",
+    "name": "github-actions-efficiency",
+    "frontmatter": {
+      "name": "github-actions-efficiency",
+      "category": "agentic-coder",
+      "title": "Github Actions Efficiency",
+      "description": "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 146,
+    "chars": 6719,
+    "sha256": "e2bdedc54dc466f4c54639b60c13bd91e6691b0f7beb11180d4c8b7d574f9ba4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/actions.md",
+        "lines": 77,
+        "chars": 3201,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/actions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/patterns.md",
+        "lines": 60,
+        "chars": 1298,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/reporting.md",
+        "lines": 42,
+        "chars": 1568,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/reporting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/review-rubric.md",
+        "lines": 12,
+        "chars": 465,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-efficiency/references/review-rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/SKILL.md",
+    "relative_path": "devops/github-actions-hardening/SKILL.md",
+    "name": "github-actions-hardening",
+    "frontmatter": {
+      "name": "github-actions-hardening",
+      "category": "agentic-coder",
+      "title": "Github Actions Hardening",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Security hardening reviewer for GitHub Actions workflow files (.github/workflows/*.yml). Reasons about the Actions threat model that pattern matchers and general code linters miss — untrusted-input script injection, privileged triggers running fork code, mutable action references, and over-scoped tokens. Use this skill when asked to review, audit, harden, or secure a GitHub Actions workflow, when writing a new workflow, or for any request like \"is this workflow safe?\", \"review my CI for security issues\", \"why is pull_request_target dangerous here?\", \"pin my actions\", or \"lock down GITHUB_TOKEN permissions\". Covers script injection via ${{ }} interpolation, pull_request_target / workflow_run privilege escalation, SHA-pinning of third-party actions, least-privilege permissions, GITHUB_ENV/GITHUB_OUTPUT injection, secret exposure, OIDC over long-lived credentials, and self-hosted runner exposure on public repositories."
+    },
+    "has_frontmatter": true,
+    "lines": 182,
+    "chars": 10399,
+    "sha256": "b6a88d611a6c659252ec785658ec704b1bb9373be29b124839d966d333745393",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/injection.md",
+        "lines": 86,
+        "chars": 3029,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/injection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/permissions-and-tokens.md",
+        "lines": 76,
+        "chars": 2733,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/permissions-and-tokens.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/report-format.md",
+        "lines": 65,
+        "chars": 1895,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/report-format.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/supply-chain.md",
+        "lines": 71,
+        "chars": 2922,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/supply-chain.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/triggers-and-privilege.md",
+        "lines": 89,
+        "chars": 3383,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/github-actions-hardening/references/triggers-and-privilege.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/github-actions-runtime-upgrade-conventions/SKILL.md",
+    "relative_path": "devops/github-actions-runtime-upgrade-conventions/SKILL.md",
+    "name": "github-actions-runtime-upgrade-conventions",
+    "frontmatter": {
+      "name": "github-actions-runtime-upgrade-conventions",
+      "category": "agentic-coder",
+      "title": "Github Actions Runtime Upgrade Conventions",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflow behavior, and validating post-upgrade execution."
+    },
+    "has_frontmatter": true,
+    "lines": 97,
+    "chars": 3686,
+    "sha256": "2b48777a27528de690198cec57c6c803ff99213be4033f0d320637f75d9a7689",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  }
+]

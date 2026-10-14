@@ -1,0 +1,488 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/setup-ts-deep-modules/SKILL.md",
+    "relative_path": "setup-ts-deep-modules/SKILL.md",
+    "name": "setup-ts-deep-modules",
+    "frontmatter": {
+      "name": "setup-ts-deep-modules",
+      "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+      "disable-model-invocation": "true",
+      "title": "Setup Ts Deep Modules",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 137,
+    "chars": 8463,
+    "sha256": "e597b3b3bbe4778eaa756d00e9cb8b47406d5b2fd2c953a53bf4d4876a5c9106",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/skills-library/SKILL.md",
+    "relative_path": "skills-library/SKILL.md",
+    "name": "skills-library",
+    "frontmatter": {
+      "name": "skills-library",
+      "category": "devops",
+      "description": "Maintain the skill library as class-level skills.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[skills, library, curation, workflow]",
+      "title": "Skills Library"
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 3091,
+    "sha256": "30b34d7aea8ff8fbfce4e9486162986aeb937034773c6d60537a7ad2ecca0782",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/skills-library/references/library-structure.md",
+        "lines": 12,
+        "chars": 673,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/skills-library/references/library-structure.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/smart-home/openhue/SKILL.md",
+    "relative_path": "smart-home/openhue/SKILL.md",
+    "name": "openhue",
+    "frontmatter": {
+      "author": "community",
+      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "openhue",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Openhue",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 4269,
+    "sha256": "7853e492851a9db9c3b67ea0c7bfef3d27973a0ff4bb700698da3c95a9def4f9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/social-media/xurl/SKILL.md",
+    "relative_path": "social-media/xurl/SKILL.md",
+    "name": "xurl",
+    "frontmatter": {
+      "author": "xdevplatform + openclaw + Hermes Agent",
+      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "xurl",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Xurl",
+      "version": "1.1.1"
+    },
+    "has_frontmatter": true,
+    "lines": 486,
+    "chars": 16607,
+    "sha256": "4cfae11d7bd3107f82507a73322a84670eef5d14dc4398a99176597528799853",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/SKILL.md",
+    "relative_path": "software-development/agent-analytics/SKILL.md",
+    "name": "agent-analytics",
+    "frontmatter": {
+      "name": "agent-analytics",
+      "category": "software-development",
+      "description": "Product analytics with your AI agent: set up consent-based tracking, read funnels, paths, retention, experiments, and context, then recommend the smallest growth action using the official Agent Analytics CLI.",
+      "version": "4.0.34",
+      "author": "dannyshmueli",
+      "license": "MIT",
+      "repository": "https://github.com/Agent-Analytics/skills",
+      "homepage": "https://agentanalytics.sh",
+      "compatibility": "Requires npx. Browser approval is the normal sign-in path. Detached approval plus finish-code handoff is for Paperclip, OpenClaw, issue-based or headless runtimes, or failed callback environments. Normal setup does not require an API key.",
+      "tags": [
+        "analytics",
+        "product-analytics",
+        "tracking",
+        "funnels",
+        "retention",
+        "experiments",
+        "growth"
+      ],
+      "provides": [
+        "capability: analytics",
+        "capability: product-analytics",
+        "capability: ab-testing",
+        "capability: funnels",
+        "capability: retention"
+      ],
+      "metadata": [
+        "npx"
+      ],
+      "title": "Agent Analytics"
+    },
+    "has_frontmatter": true,
+    "lines": 198,
+    "chars": 16742,
+    "sha256": "c6e9003d1010d336efc15a6a93c2d617f0f74c94c6dcbb3e3777d856030a3305",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/references/growth-recipes.md",
+        "lines": 97,
+        "chars": 4643,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/references/growth-recipes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/references/product-analytics-operating-model.md",
+        "lines": 76,
+        "chars": 3968,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/references/product-analytics-operating-model.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/references/setup-auth.md",
+        "lines": 70,
+        "chars": 2377,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/agent-analytics/references/setup-auth.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/ast-grep/SKILL.md",
+    "relative_path": "software-development/ast-grep/SKILL.md",
+    "name": "ast-grep",
+    "frontmatter": {
+      "name": "ast-grep",
+      "category": "software-development",
+      "description": "AST-aware structural code search and rewrite via ast-grep.",
+      "version": "1.0.0",
+      "author": "Yeongyu Kim (code-yeongyu), adapted by Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "title": "Ast Grep",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 321,
+    "chars": 13871,
+    "sha256": "2966fc45559f9cf5bf18d13ae42098874adab879bb61e5f37e511eb8a9f42878",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/cli.md",
+        "lines": 231,
+        "chars": 7235,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/cli.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/install.md",
+        "lines": 166,
+        "chars": 5671,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/install.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/patterns.md",
+        "lines": 147,
+        "chars": 5512,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/pitfalls.md",
+        "lines": 303,
+        "chars": 8857,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/recipes.md",
+        "lines": 402,
+        "chars": 7856,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/recipes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/sgconfig.md",
+        "lines": 248,
+        "chars": 6222,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/sgconfig.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/yaml-rules.md",
+        "lines": 509,
+        "chars": 11336,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/references/yaml-rules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/scripts/ast_grep_helper.py",
+        "lines": 762,
+        "chars": 27847,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/ast-grep/scripts/ast_grep_helper.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/banking/SKILL.md",
+    "relative_path": "software-development/banking/SKILL.md",
+    "name": "banking",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when building and testing banking-domain examples, reference patterns,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "banking",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Banking",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 127,
+    "chars": 3216,
+    "sha256": "f93e73fdee7783bb38517c0265e538ea4e84eec4c89bef3e3bca492253574e92",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  }
+]

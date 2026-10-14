@@ -1,0 +1,462 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/product/prd/SKILL.md",
+    "relative_path": "product/prd/SKILL.md",
+    "name": "prd",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Prd.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "prd",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Prd",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 244,
+    "chars": 6346,
+    "sha256": "92928182f10386d36ee9ef1d476cca4c320695f20697dbab0fcf3c39924ea16b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 6,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/airtable/SKILL.md",
+    "relative_path": "productivity/airtable/SKILL.md",
+    "name": "airtable",
+    "frontmatter": {
+      "author": "community",
+      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "airtable",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Airtable",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 277,
+    "chars": 12545,
+    "sha256": "a19519d639fc51660e78ca54fbe8b246f6f16aeaa1f560ab4ac280c9d38dba27",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/apple/SKILL.md",
+    "relative_path": "productivity/apple/SKILL.md",
+    "name": "apple",
+    "frontmatter": {
+      "name": "apple",
+      "category": "agentic-coder",
+      "title": "Apple Ecosystem Integration",
+      "description": "Manage Apple Notes, Reminders, Find My, and iMessage from the terminal via macOS CLI wrappers (memo, remindctl, imsg, AppleScript).",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[macos]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 184,
+    "chars": 6949,
+    "sha256": "21ffbbb2940ed9ecefd76701f72e62031df214fdd8f63a7edaecd50f2d6dd54d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 81,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/bench-read/SKILL.md",
+    "relative_path": "productivity/bench-read/SKILL.md",
+    "name": "bench-read",
+    "frontmatter": {
+      "name": "bench-read",
+      "category": "agentic-coder",
+      "title": "Bench Read",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Read artifacts from the shared bench — the workspace where desks leave findings, verdicts, and work products for each other and the operator."
+    },
+    "has_frontmatter": true,
+    "lines": 121,
+    "chars": 3949,
+    "sha256": "f36e27536d6a50d2ea1bafe87aa18d4520e2e31147748a130d7e7f2176913630",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/box/SKILL.md",
+    "relative_path": "productivity/box/SKILL.md",
+    "name": "box",
+    "frontmatter": {
+      "name": "box",
+      "category": "agentic-coder",
+      "title": "Box",
+      "description": "Box manages cloud files, sharing, search, and metadata.",
+      "version": "1.0.0",
+      "author": "Chris Kim (iskysun96), Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 149,
+    "chars": 12819,
+    "sha256": "1a8b8ec4ff5f7f6bbba01608c3cc9ca7302be578a1746547a7985162a48886c5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/bulk-operations.md",
+        "lines": 43,
+        "chars": 2013,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/bulk-operations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/cli-guide.md",
+        "lines": 132,
+        "chars": 7515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/cli-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/content-workflows.md",
+        "lines": 86,
+        "chars": 4767,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/content-workflows.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/hubs.md",
+        "lines": 77,
+        "chars": 6189,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/hubs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/oauth-setup.md",
+        "lines": 83,
+        "chars": 6565,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/oauth-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/rest-api.md",
+        "lines": 37,
+        "chars": 2227,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/rest-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/sdk-development.md",
+        "lines": 85,
+        "chars": 5727,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/sdk-development.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/search-and-ai.md",
+        "lines": 147,
+        "chars": 10744,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/search-and-ai.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/troubleshooting.md",
+        "lines": 33,
+        "chars": 2970,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/webhooks-and-events.md",
+        "lines": 43,
+        "chars": 2276,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/box/references/webhooks-and-events.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing phased workflow",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/brag-sheet/SKILL.md",
+    "relative_path": "productivity/brag-sheet/SKILL.md",
+    "name": "brag-sheet",
+    "frontmatter": {
+      "name": "brag-sheet",
+      "category": "agentic-coder",
+      "title": "Brag Sheet",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": ">",
+      "license": "MIT",
+      "compatibility": "Cross-platform (Windows, macOS, Linux). Works with any GitHub Copilot CLI session. Optional: git, gh CLI.",
+      "metadata": [],
+      "argument-hint": "Optional: time range (\"last 2 weeks\", \"this half\"), category (\"infrastructure\"), \"backfill\", or \"review prep\""
+    },
+    "has_frontmatter": true,
+    "lines": 285,
+    "chars": 12755,
+    "sha256": "905948a4f9d60fed1d07aa36206662dd6cbd7c069acde20b411e0b9f0dc5df32",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/canvas/SKILL.md",
+    "relative_path": "productivity/canvas/SKILL.md",
+    "name": "canvas",
+    "frontmatter": {
+      "name": "canvas",
+      "category": "agentic-coder",
+      "title": "Canvas",
+      "description": "Canvas LMS integration — fetch enrolled courses and assignments using API token authentication.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "prerequisites": [],
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 151,
+    "chars": 5209,
+    "sha256": "64c3659fe32aa38650561f616888a97a8dcc326f964dec535bfc1b80d38bee80",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/canvas/scripts/canvas_api.py",
+        "lines": 160,
+        "chars": 5224,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/canvas/scripts/canvas_api.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 20
+  }
+]

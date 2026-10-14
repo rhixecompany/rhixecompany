@@ -1,0 +1,450 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/from-the-other-side-quinn/SKILL.md",
+    "relative_path": "productivity/from-the-other-side-quinn/SKILL.md",
+    "name": "from-the-other-side-quinn",
+    "frontmatter": {
+      "name": "from-the-other-side-quinn",
+      "category": "agentic-coder",
+      "title": "From The Other Side Quinn",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Collaboration profile for Quinn: curious, energetic, and implementation-focused partnership patterns for Ember sessions with Alison."
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 3772,
+    "sha256": "461e45e45ee8422ae4cab35fe6a8e65b6101932df127628395c80ddfbb461b7c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/google-workspace/SKILL.md",
+    "relative_path": "productivity/google-workspace/SKILL.md",
+    "name": "google-workspace",
+    "frontmatter": {
+      "author": "Nous Research",
+      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "google-workspace",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Google Workspace",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 386,
+    "chars": 14808,
+    "sha256": "759a13849f9dcbcc70ec08d7e5cc3e832bf7b75037cd977d8b0478353a577313",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/references/daily-brief.md",
+        "lines": 55,
+        "chars": 3211,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/references/daily-brief.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/references/email-inbox-triage.md",
+        "lines": 121,
+        "chars": 5222,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/references/email-inbox-triage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/references/gmail-search-syntax.md",
+        "lines": 63,
+        "chars": 2150,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/references/gmail-search-syntax.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/_hermes_home.py",
+        "lines": 42,
+        "chars": 1643,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/_hermes_home.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/google_api.py",
+        "lines": 1221,
+        "chars": 43428,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/google_api.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/gws_bridge.py",
+        "lines": 111,
+        "chars": 3648,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/gws_bridge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/setup.py",
+        "lines": 455,
+        "chars": 17630,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/google-workspace/scripts/setup.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 32
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/gtm-enterprise-account-planning/SKILL.md",
+    "relative_path": "productivity/gtm-enterprise-account-planning/SKILL.md",
+    "name": "gtm-enterprise-account-planning",
+    "frontmatter": {
+      "name": "gtm-enterprise-account-planning",
+      "category": "documentation",
+      "title": "Gtm Enterprise Account Planning",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Strategic account planning and execution for enterprise deals. Use when planning complex sales cycles, managing multiple stakeholders, applying MEDDICC qualification, tracking deal health, or building mutual action plans. Includes the \"stale MAP equals dead deal\" pattern.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 449,
+    "chars": 16261,
+    "sha256": "6f899eb3b2484c41d46de866f52ab567114dc7cd1c1970221fb2fbe2e848eacd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/gtm-partnership-architecture/SKILL.md",
+    "relative_path": "productivity/gtm-partnership-architecture/SKILL.md",
+    "name": "gtm-partnership-architecture",
+    "frontmatter": {
+      "name": "gtm-partnership-architecture",
+      "category": "architecture",
+      "title": "Gtm Partnership Architecture",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Build and scale partner ecosystems that drive revenue and platform adoption. Use when building partner programs from scratch, tiering partnerships, managing co-marketing, making build-vs-partner decisions, or structuring crawl-walk-run partner deployment.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 490,
+    "chars": 16434,
+    "sha256": "13539997ea1edcc90b3d1619180153ac4ac638155ca6ed6b1041b1c4fcda2d2a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/here-now/SKILL.md",
+    "relative_path": "productivity/here-now/SKILL.md",
+    "name": "here.now",
+    "frontmatter": {
+      "name": "here.now",
+      "category": "agentic-coder",
+      "title": "Here.Now",
+      "description": "Publish static sites to {slug}.here.now and store private files in cloud Drives for agent-to-agent handoff.",
+      "version": "1.15.3",
+      "author": "here.now",
+      "license": "MIT",
+      "prerequisites": "commands: [curl, file, jq]",
+      "platforms": "[macos, linux]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 271,
+    "chars": 10796,
+    "sha256": "b082c7448847d3c6d76fd0d0de06e3e4d3861c4ed438020cf403e876a23fc638",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/here-now/scripts/drive.sh",
+        "lines": 406,
+        "chars": 13830,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/here-now/scripts/drive.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/here-now/scripts/publish.sh",
+        "lines": 445,
+        "chars": 15546,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/here-now/scripts/publish.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/hermes-desktop-plugins/SKILL.md",
+    "relative_path": "productivity/hermes-desktop-plugins/SKILL.md",
+    "name": "hermes-desktop-plugins",
+    "frontmatter": {
+      "name": "hermes-desktop-plugins",
+      "category": "agentic-coder",
+      "title": "Hermes Desktop Plugins",
+      "author": "Hermes Agent",
+      "description": "Write desktop app plugins that add UI panes and commands.",
+      "version": "1.0.0",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 206,
+    "chars": 10238,
+    "sha256": "e21db65d470527003c1c70afa407399d7efbb23fbb50c4c0e6a7bcd9880e9815",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/hermes-desktop-plugins/templates/plugin.js",
+        "lines": 97,
+        "chars": 3045,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/hermes-desktop-plugins/templates/plugin.js:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/internal-comms/SKILL.md",
+    "relative_path": "productivity/internal-comms/SKILL.md",
+    "name": "internal-comms",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Internal Comms.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "internal-comms",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Internal Comms",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 2913,
+    "sha256": "e7a05d9dd57b48589f9ab7e580adfdedc913bf180ed02df5a78bdec03bb08534",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  }
+]

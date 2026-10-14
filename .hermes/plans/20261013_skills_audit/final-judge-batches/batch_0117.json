@@ -1,0 +1,362 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/work-on-ticket/SKILL.md",
+    "relative_path": "devops/work-on-ticket/SKILL.md",
+    "name": "work-on-ticket",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when starting work on a Jira ticket — fetching ticket details, creating",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "work-on-ticket",
+      "category": "agentic-coder",
+      "tags": "null",
+      "title": "Work On Ticket",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 100,
+    "chars": 3102,
+    "sha256": "1932288f960f8c0e0ae8880b36b161a97ec023ce4d38fc095568856a92392cca",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 85,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/workiq-copilot/SKILL.md",
+    "relative_path": "devops/workiq-copilot/SKILL.md",
+    "name": "workiq-copilot",
+    "frontmatter": {
+      "name": "workiq-copilot",
+      "category": "agentic-coder",
+      "title": "Workiq Copilot",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Guides the Copilot CLI on how to use the WorkIQ CLI/MCP server to query Microsoft 365 Copilot data (emails, meetings, docs, Teams, people) for live context, summaries, and recommendations."
+    },
+    "has_frontmatter": true,
+    "lines": 133,
+    "chars": 6256,
+    "sha256": "e93c32d717f4775fd8d21cbc3d1a91666eebed9411c7c99e8990a8a13b70d75f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/workspace-audit/SKILL.md",
+    "relative_path": "devops/workspace-audit/SKILL.md",
+    "name": "workspace-audit",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "'Multi-repo workspace auditing: batch-scan N repos for branch state,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "workspace-audit",
+      "category": "audit",
+      "tags": [],
+      "title": "Workspace Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 352,
+    "chars": 15237,
+    "sha256": "98312a2295a4acf2f452640536863f1a5ffbd031efce7154a03dc68fd168d7e4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/workspace-audit/references/gitignore-audit-patterns.md",
+        "lines": 125,
+        "chars": 4481,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/workspace-audit/references/gitignore-audit-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/workspace-audit/references/overview.md",
+        "lines": 11,
+        "chars": 173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/workspace-audit/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/yaml-workflow-validation/SKILL.md",
+    "relative_path": "devops/yaml-workflow-validation/SKILL.md",
+    "name": "yaml-workflow-validation",
+    "frontmatter": {
+      "name": "yaml-workflow-validation",
+      "title": "YAML & GitHub Actions Workflow Validation",
+      "description": "Use when auditing, fixing, validating, or enhancing .yml/.yaml files and GitHub Actions workflows. Covers yamllint config, line-ending normalization, CI validation for workflows.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[yaml, github-actions, validation, linting, ci]"
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 7868,
+    "sha256": "a5e4252782ac92467f5c3aae93411792be56ca083bdabb086748867af3c622c3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/yaml-workflow-validation/references/bulk-fix-yml-workflows.md",
+        "lines": 106,
+        "chars": 2889,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/yaml-workflow-validation/references/bulk-fix-yml-workflows.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/diagnosing-bugs/SKILL.md",
+    "relative_path": "diagnosing-bugs/SKILL.md",
+    "name": "diagnosing-bugs",
+    "frontmatter": {
+      "name": "diagnosing-bugs",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "title": "Diagnosing Bugs",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 142,
+    "chars": 8747,
+    "sha256": "b8aa967889d4ca68b67a4f3665e954bea0b081f15ddbd037314d50ff80689f1d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/diagnosing-bugs/scripts/hitl-loop.template.sh",
+        "lines": 44,
+        "chars": 1312,
+        "substantive": true
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 18
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "references: not all reference types are present"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/domain-modeling/SKILL.md",
+    "relative_path": "domain-modeling/SKILL.md",
+    "name": "domain-modeling",
+    "frontmatter": {
+      "name": "domain-modeling",
+      "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+      "title": "Domain Modeling",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 109,
+    "chars": 4141,
+    "sha256": "642ddd8da2179dd118c0ad071708faf05236915dd22c631be290a5472267d5c5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/email/SKILL.md",
+    "relative_path": "email/SKILL.md",
+    "name": "email",
+    "frontmatter": {
+      "name": "email",
+      "category": "agentic-coder",
+      "title": "Email Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for email — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1436,
+    "sha256": "97fcc22013e8f761085b49a201f5105ceceee3b85be2c12c38102a6f270d795f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  }
+]

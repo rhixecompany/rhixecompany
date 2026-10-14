@@ -1,0 +1,408 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/qa/web-design-reviewer/SKILL.md",
+    "relative_path": "qa/web-design-reviewer/SKILL.md",
+    "name": "web-design-reviewer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "This skill enables visual inspection of websites running locally or remotely",
+      "license": "MIT",
+      "name": "web-design-reviewer",
+      "category": "architecture",
+      "tags": [
+        "imported"
+      ],
+      "title": "Web Design Reviewer",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 416,
+    "chars": 12012,
+    "sha256": "e5352b6d24a9c7cbe03c5ba6eec29e3fa671dd1c6b6d54049acf19f9f79777d7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/web-design-reviewer/references/framework-fixes.md",
+        "lines": 492,
+        "chars": 7429,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/web-design-reviewer/references/framework-fixes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/web-design-reviewer/references/visual-checklist.md",
+        "lines": 236,
+        "chars": 5970,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/web-design-reviewer/references/visual-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 58,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/webapp-testing/SKILL.md",
+    "relative_path": "qa/webapp-testing/SKILL.md",
+    "name": "webapp-testing",
+    "frontmatter": {
+      "name": "webapp-testing",
+      "category": "agentic-coder",
+      "title": "Web Application Testing",
+      "description": "Use when testing local web applications with Playwright — verifying frontend functionality, debugging UI behavior, capturing screenshots, and viewing browser logs.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[testing, playwright, web, e2e, ui-testing]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 289,
+    "chars": 7508,
+    "sha256": "6a297c140b13feb46286438140f772d6a79f8269be8eaf23555b52461064221e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/webapp-testing/scripts/with_server.py",
+        "lines": 106,
+        "chars": 3693,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/webapp-testing/scripts/with_server.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/writing-guidelines/SKILL.md",
+    "relative_path": "qa/writing-guidelines/SKILL.md",
+    "name": "writing-guidelines",
+    "frontmatter": {
+      "name": "writing-guidelines",
+      "category": "documentation",
+      "title": "Writing Guidelines",
+      "description": "Use when reviewing documentation prose for style.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Vercel",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[writing, documentation, prose, review]",
+      "metadata": [],
+      "argument-hint": "<file-or-pattern>"
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2786,
+    "sha256": "c237bef4a3c521a5ea5ce27631b9287aaec7884f2c22e25f34ed3acd6ba3b644",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/react-best-practices/SKILL.md",
+    "relative_path": "react-best-practices/SKILL.md",
+    "name": "vercel-react-best-practices",
+    "frontmatter": {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "license": "MIT",
+      "metadata": [],
+      "category": "architecture"
+    },
+    "has_frontmatter": true,
+    "lines": 150,
+    "chars": 7274,
+    "sha256": "9470b1942b51972d2f3ccc725f80b1f586d4e6e9d8a612a39f265c81f71eeb09",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 56,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 9,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/reference/SKILL.md",
+    "relative_path": "reference/SKILL.md",
+    "name": "reference",
+    "frontmatter": {
+      "name": "reference",
+      "category": "agentic-coder",
+      "title": "Reference Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for reference — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1456,
+    "sha256": "7416285afb767f0d1ca73de7cb815f1eb4d0707e1e0d4d30e1ce26f09df00a55",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/reference/api-tutorial-catalog/SKILL.md",
+    "relative_path": "reference/api-tutorial-catalog/SKILL.md",
+    "name": "api-tutorial-catalog",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Catalog of 9 researched API tutorials covering payment, crypto, async,",
+      "license": "MIT",
+      "name": "api-tutorial-catalog",
+      "category": "agentic-coder",
+      "tags": [
+        "api",
+        "tutorials",
+        "reference",
+        "catalog"
+      ],
+      "title": "API Tutorial Catalog",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 106,
+    "chars": 3369,
+    "sha256": "12894edbe9eb315cc7450c6f412bb88b1888dad270dd481fd99c238d3fc6b6a6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/reference/api-tutorial-catalog/references/quick-reference.md",
+        "lines": 11,
+        "chars": 377,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/api-tutorial-catalog/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/reference/discover-mcp-capabilities/SKILL.md",
+    "relative_path": "reference/discover-mcp-capabilities/SKILL.md",
+    "name": "discover-mcp-capabilities",
+    "frontmatter": {
+      "name": "discover-mcp-capabilities",
+      "category": "agentic-coder",
+      "description": "Inspect and enumerate Hermes MCP capabilities, including configured servers, their exact tool names, and known purposes.",
+      "title": "Discover Mcp Capabilities",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 363,
+    "chars": 9162,
+    "sha256": "d877c975857cd7800ce23876fa7e9c828b2e48afcce973f10ca900d5598b6934",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/reference/discover-mcp-capabilities/references/overview.md",
+        "lines": 11,
+        "chars": 203,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/reference/discover-mcp-capabilities/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 28
+  }
+]

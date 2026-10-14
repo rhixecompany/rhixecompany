@@ -1,0 +1,344 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp-servers/SKILL.md",
+    "relative_path": "mcp-servers/SKILL.md",
+    "name": "mcp-servers",
+    "frontmatter": {
+      "name": "mcp-servers",
+      "category": "agentic-coder",
+      "title": "Mcp Servers Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for mcp-servers — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1466,
+    "sha256": "22c746972e057d3b77c08b4ce7c0bc8b238e911014a339c03cb59a3eeacd4e19",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp-servers/references/mcp-server-catalog.json",
+        "lines": 454,
+        "chars": 21267,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp-servers/references/mcp-server-catalog.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 54,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 8,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/SKILL.md",
+    "relative_path": "media/SKILL.md",
+    "name": "media",
+    "frontmatter": {
+      "name": "media",
+      "category": "agentic-coder",
+      "title": "Media Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for media — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1436,
+    "sha256": "0df9e5b18e5973c958a61674353749d03eac10f8076b6c4be4bc2afa147d3c98",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/gif-search/SKILL.md",
+    "relative_path": "media/gif-search/SKILL.md",
+    "name": "gif-search",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Search/download GIFs from Tenor via curl + jq.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "gif-search",
+      "category": "architecture",
+      "tags": [
+        "imported"
+      ],
+      "title": "Gif Search",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 154,
+    "chars": 4525,
+    "sha256": "e37815ae0efd4e4006ccdd8ed6be1ba923def2c4c3e169281ab07c6633f8f977",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/slack-gif-creator/SKILL.md",
+    "relative_path": "media/slack-gif-creator/SKILL.md",
+    "name": "slack-gif-creator",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Slack Gif Creator.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "slack-gif-creator",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Slack Gif Creator",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 2934,
+    "sha256": "9374a3b1227c6c2707b4b9f5479f1b0d187792d90436cb6c2e715e5b98f5d149",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/songsee/SKILL.md",
+    "relative_path": "media/songsee/SKILL.md",
+    "name": "songsee",
+    "frontmatter": {
+      "name": "songsee",
+      "category": "agentic-coder",
+      "title": "Songsee",
+      "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 137,
+    "chars": 3959,
+    "sha256": "45cbb764a4adb4d583c813511f6fdd064ad541683b273c47337c9cb50429f207",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/spotify/SKILL.md",
+    "relative_path": "media/spotify/SKILL.md",
+    "name": "spotify",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Spotify: play, search, queue, manage playlists and devices.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "spotify",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Spotify",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 198,
+    "chars": 7949,
+    "sha256": "e653382bb6d02449180679848daed23eef0a56ff286b6f692414f69734658aeb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/media/transloadit-media-processing/SKILL.md",
+    "relative_path": "media/transloadit-media-processing/SKILL.md",
+    "name": "transloadit-media-processing",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Transloadit Media Processing.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "transloadit-media-processing",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Transloadit Media Processing",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 297,
+    "chars": 7438,
+    "sha256": "db86f8a9f105a6d2ad8b04a19d39c8998e805ca380c4d75f71f0c2992a4b6a66",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 86,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  }
+]

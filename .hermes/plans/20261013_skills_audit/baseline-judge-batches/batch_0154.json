@@ -1,0 +1,1995 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/SKILL.md",
+    "relative_path": "productivity/pdftk-server/SKILL.md",
+    "name": "pdftk-server",
+    "frontmatter": {
+      "name": "pdftk-server",
+      "category": "agentic-coder",
+      "title": "Pdftk Server",
+      "description": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks, stamp overlays, extract metadata, burst documents into pages, repair corrupted PDFs, attach or extract files, or perform any PDF manipulation from the command line.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 215,
+    "chars": 6577,
+    "sha256": "fd20485871f5fb9c9f08a939e2a18b198b03a0a8692e4591631bffc3087a66c6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/download.md",
+        "lines": 75,
+        "chars": 3237,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/download.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/pdftk-cli-examples.md",
+        "lines": 193,
+        "chars": 3391,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/pdftk-cli-examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/pdftk-man-page.md",
+        "lines": 232,
+        "chars": 7216,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/pdftk-man-page.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/pdftk-server-license.md",
+        "lines": 25,
+        "chars": 1489,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/pdftk-server-license.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/third-party-materials.md",
+        "lines": 103,
+        "chars": 9248,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pdftk-server/references/third-party-materials.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/petdex/SKILL.md",
+    "relative_path": "productivity/petdex/SKILL.md",
+    "name": "petdex",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Install and select animated petdex mascots for Hermes.",
+      "license": "MIT",
+      "metadata": [
+        "petdex",
+        "mascot",
+        "display",
+        "cli",
+        "tui",
+        "desktop"
+      ],
+      "name": "petdex",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "title": "Petdex",
+      "version": "1.0.0",
+      "category": "documentation"
+    },
+    "has_frontmatter": true,
+    "lines": 146,
+    "chars": 5034,
+    "sha256": "0b1993ed1c22160449d639e825b0dd2b7acb407e680256978c39cb109faf8805",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 81,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/power-platform-architect/SKILL.md",
+    "relative_path": "productivity/power-platform-architect/SKILL.md",
+    "name": "power-platform-architect",
+    "frontmatter": {
+      "name": "power-platform-architect",
+      "category": "architecture",
+      "title": "Power Platform Architect",
+      "version": "1.0.0",
+      "tags": "[]",
+      "description": "Use this skill when the user needs to transform business requirements, use case descriptions, or meeting transcripts into a technical Power Platform solution architecture, including component selection and Mermaid.js diagrams.",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 194,
+    "chars": 15402,
+    "sha256": "0c2e52098bfee1c88f32f85f7326c6baf18aba4ee89cf467e1b328153845a1ed",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 8,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/powerpoint/SKILL.md",
+    "relative_path": "productivity/powerpoint/SKILL.md",
+    "name": "powerpoint",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "name": "powerpoint",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Powerpoint",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 296,
+    "chars": 11003,
+    "sha256": "df1e06726b003cc8cc5e661a91ea78ad3defd3a8fab49f88cfda4432f4124b5e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/references/overview.md",
+        "lines": 19,
+        "chars": 347,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/add_slide.py",
+        "lines": 195,
+        "chars": 6872,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/add_slide.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/clean.py",
+        "lines": 286,
+        "chars": 9583,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/clean.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/helpers/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/helpers/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py",
+        "lines": 199,
+        "chars": 5567,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/helpers/merge_runs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py",
+        "lines": 197,
+        "chars": 5754,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/helpers/simplify_redlines.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/pack.py",
+        "lines": 159,
+        "chars": 4991,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/pack.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+        "lines": 1499,
+        "chars": 74984,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+        "lines": 146,
+        "chars": 6956,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+        "lines": 1085,
+        "chars": 51302,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+        "lines": 11,
+        "chars": 624,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "lines": 3081,
+        "chars": 152039,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+        "lines": 23,
+        "chars": 1231,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+        "lines": 185,
+        "chars": 8862,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+        "lines": 287,
+        "chars": 14795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "lines": 1676,
+        "chars": 83612,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+        "lines": 28,
+        "chars": 1269,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+        "lines": 144,
+        "chars": 7328,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+        "lines": 174,
+        "chars": 6382,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+        "lines": 25,
+        "chars": 1248,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+        "lines": 18,
+        "chars": 880,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+        "lines": 59,
+        "chars": 2608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+        "lines": 56,
+        "chars": 3507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+        "lines": 195,
+        "chars": 7507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+        "lines": 582,
+        "chars": 23313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+        "lines": 25,
+        "chars": 1367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+        "lines": 4439,
+        "chars": 242277,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+        "lines": 570,
+        "chars": 26148,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+        "lines": 509,
+        "chars": 25279,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+        "lines": 12,
+        "chars": 535,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+        "lines": 108,
+        "chars": 5712,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+        "lines": 96,
+        "chars": 4010,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+        "lines": 3646,
+        "chars": 171367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+        "lines": 116,
+        "chars": 4646,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd",
+        "lines": 42,
+        "chars": 1961,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-contentTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd",
+        "lines": 50,
+        "chars": 2513,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-coreProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd",
+        "lines": 49,
+        "chars": 2856,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-digSig.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd",
+        "lines": 33,
+        "chars": 1342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/ecma/fourth-edition/opc-relationships.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd",
+        "lines": 75,
+        "chars": 3125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/mce/mc.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd",
+        "lines": 560,
+        "chars": 26549,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2010.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd",
+        "lines": 67,
+        "chars": 3745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2012.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd",
+        "lines": 14,
+        "chars": 901,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-2018.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+        "lines": 20,
+        "chars": 1778,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cex-2018.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+        "lines": 13,
+        "chars": 1002,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-cid-2016.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+        "lines": 4,
+        "chars": 600,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+        "lines": 8,
+        "chars": 745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/office/schemas/microsoft/wml-symex-2015.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_create.py",
+        "lines": 214,
+        "chars": 8579,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_create.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_edit.py",
+        "lines": 436,
+        "chars": 17220,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_edit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_from_template.py",
+        "lines": 88,
+        "chars": 3431,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_from_template.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_read.py",
+        "lines": 131,
+        "chars": 4761,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_read.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_render.py",
+        "lines": 93,
+        "chars": 3536,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/powerpoint/scripts/pptx_render.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/pptx/SKILL.md",
+    "relative_path": "productivity/pptx/SKILL.md",
+    "name": "pptx",
+    "frontmatter": {
+      "name": "pptx",
+      "category": "agentic-coder",
+      "title": "Pptx",
+      "description": "Use when working with Pptx.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[tools]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 94,
+    "chars": 2843,
+    "sha256": "594ab9dee8b34cf748ca72fc18f24317c61b729b515cc1dc176f76ecc77f3b86",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/add_slide.py",
+        "lines": 195,
+        "chars": 6872,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/add_slide.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/clean.py",
+        "lines": 286,
+        "chars": 9583,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/clean.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/helpers/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/helpers/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/helpers/merge_runs.py",
+        "lines": 199,
+        "chars": 5567,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/helpers/merge_runs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/helpers/simplify_redlines.py",
+        "lines": 197,
+        "chars": 5754,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/helpers/simplify_redlines.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/pack.py",
+        "lines": 159,
+        "chars": 4991,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/pack.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+        "lines": 1499,
+        "chars": 74984,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+        "lines": 146,
+        "chars": 6956,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+        "lines": 1085,
+        "chars": 51302,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+        "lines": 11,
+        "chars": 624,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "lines": 3081,
+        "chars": 152039,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+        "lines": 23,
+        "chars": 1231,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+        "lines": 185,
+        "chars": 8862,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+        "lines": 287,
+        "chars": 14795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "lines": 1676,
+        "chars": 83612,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+        "lines": 28,
+        "chars": 1269,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+        "lines": 144,
+        "chars": 7328,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+        "lines": 174,
+        "chars": 6382,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+        "lines": 25,
+        "chars": 1248,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+        "lines": 18,
+        "chars": 880,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+        "lines": 59,
+        "chars": 2608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+        "lines": 56,
+        "chars": 3507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+        "lines": 195,
+        "chars": 7507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+        "lines": 582,
+        "chars": 23313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+        "lines": 25,
+        "chars": 1367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+        "lines": 4439,
+        "chars": 242277,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+        "lines": 570,
+        "chars": 26148,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+        "lines": 509,
+        "chars": 25279,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+        "lines": 12,
+        "chars": 535,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+        "lines": 108,
+        "chars": 5712,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+        "lines": 96,
+        "chars": 4010,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+        "lines": 3646,
+        "chars": 171367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+        "lines": 116,
+        "chars": 4646,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+        "lines": 42,
+        "chars": 1961,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+        "lines": 50,
+        "chars": 2513,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+        "lines": 49,
+        "chars": 2856,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+        "lines": 33,
+        "chars": 1342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/mce/mc.xsd",
+        "lines": 75,
+        "chars": 3125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/mce/mc.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-2010.xsd",
+        "lines": 560,
+        "chars": 26549,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-2010.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-2012.xsd",
+        "lines": 67,
+        "chars": 3745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-2012.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-2018.xsd",
+        "lines": 14,
+        "chars": 901,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-2018.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+        "lines": 20,
+        "chars": 1778,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+        "lines": 13,
+        "chars": 1002,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+        "lines": 4,
+        "chars": 600,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+        "lines": 8,
+        "chars": 745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/soffice.py",
+        "lines": 183,
+        "chars": 5293,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/soffice.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/unpack.py",
+        "lines": 132,
+        "chars": 4052,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/unpack.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validate.py",
+        "lines": 111,
+        "chars": 3668,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/__init__.py",
+        "lines": 15,
+        "chars": 336,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/base.py",
+        "lines": 847,
+        "chars": 32651,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/base.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/docx.py",
+        "lines": 446,
+        "chars": 16372,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/docx.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/pptx.py",
+        "lines": 275,
+        "chars": 9824,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/pptx.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/redlining.py",
+        "lines": 247,
+        "chars": 8918,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/office/validators/redlining.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/thumbnail.py",
+        "lines": 289,
+        "chars": 8785,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/pptx/scripts/thumbnail.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/product-price-monitor/SKILL.md",
+    "relative_path": "productivity/product-price-monitor/SKILL.md",
+    "name": "product-price-monitor",
+    "frontmatter": {
+      "name": "product-price-monitor",
+      "category": "agentic-coder",
+      "title": "Product Price Monitor",
+      "description": "Watch product, flight, or listing prices; alert on target.",
+      "version": "0.1.0",
+      "author": "Ben Barclay (benbarclay), Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 5865,
+    "sha256": "6a9476dc25351a58d12a83861bffd2c85429ec0630957fd5d1552ba1ee4518a2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/prompt-management/SKILL.md",
+    "relative_path": "productivity/prompt-management/SKILL.md",
+    "name": "prompt-management",
+    "frontmatter": {
+      "name": "prompt-management",
+      "category": "agentic-coder",
+      "title": "Prompt Management Workflow",
+      "description": "Guidelines and automation for creating, updating, and executing comprehensive prompts with plans‑and‑specs, scripts, profiles, personalities, skills, tools, and personas.",
+      "version": "1.6.0",
+      "author": "Alexa (via OWL)",
+      "license": "MIT",
+      "tags": [
+        "prompt",
+        "workflow",
+        "creation",
+        "update",
+        "execution",
+        "plans-and-specs",
+        "automation"
+      ],
+      "metadata": [
+        "skill-creator",
+        "writing-skills",
+        "prompt",
+        "workflow"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 258,
+    "chars": 19876,
+    "sha256": "1d5b336690555a34b16300fe68578a9e02ae79a1bf30599b57ae12e6d3087ea9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/batch-skill-injection.md",
+        "lines": 197,
+        "chars": 7502,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/batch-skill-injection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/copilot-hermes-migration.md",
+        "lines": 115,
+        "chars": 3370,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/copilot-hermes-migration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/orchestrator-execution-pattern.md",
+        "lines": 152,
+        "chars": 8073,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/orchestrator-execution-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-batch-audit-pattern.md",
+        "lines": 63,
+        "chars": 3290,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-batch-audit-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-bulk-execution.md",
+        "lines": 49,
+        "chars": 2221,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-bulk-execution.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-consolidation.md",
+        "lines": 73,
+        "chars": 2927,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-consolidation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-reference-cleanup.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-reference-cleanup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-tag-inference.md",
+        "lines": 91,
+        "chars": 4201,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt-tag-inference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt_library_integration.md",
+        "lines": 69,
+        "chars": 2177,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt_library_integration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt_workflow.md",
+        "lines": 70,
+        "chars": 1831,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/prompt_workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/repo-research-pipeline-execution.md",
+        "lines": 57,
+        "chars": 3499,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/repo-research-pipeline-execution.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/session-debug-fix-pattern.md",
+        "lines": 46,
+        "chars": 2991,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/session-debug-fix-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/skill-crossref-verification.md",
+        "lines": 119,
+        "chars": 3870,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/references/skill-crossref-verification.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/persona_template.md",
+        "lines": 22,
+        "chars": 590,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/persona_template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/plans_and_specs_template.md",
+        "lines": 24,
+        "chars": 391,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/plans_and_specs_template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/profile_template.md",
+        "lines": 38,
+        "chars": 664,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/profile_template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/prompt_template.md",
+        "lines": 36,
+        "chars": 936,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/prompt_template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/script_template.md",
+        "lines": 24,
+        "chars": 491,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/templates/script_template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/dry_run_prompts.py",
+        "lines": 100,
+        "chars": 3029,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/dry_run_prompts.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/fix_orphan_tags_in_fix_output.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/fix_orphan_tags_in_fix_output.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/gen_prompt_exec_batches.py",
+        "lines": 64,
+        "chars": 2968,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/gen_prompt_exec_batches.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/generate_prompt_changelog.py",
+        "lines": 86,
+        "chars": 2420,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/generate_prompt_changelog.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/patch_fix_prompts_dedup_tags.py",
+        "lines": 58,
+        "chars": 1726,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/patch_fix_prompts_dedup_tags.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/sync_prompt_library.py",
+        "lines": 121,
+        "chars": 3855,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/sync_prompt_library.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/validate_prompt_frontmatter.py",
+        "lines": 86,
+        "chars": 2726,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/prompt-management/scripts/validate_prompt_frontmatter.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 22
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/repo-init/SKILL.md",
+    "relative_path": "devops/repo-init/SKILL.md",
+    "name": "repo-init",
+    "frontmatter": {
+      "name": "repo-init",
+      "category": "agentic-coder",
+      "title": "Repo Init for All Installed AI Agents",
+      "description": "Use when initializing a repo for all installed AI agents.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": []
+    },
+    "has_frontmatter": true,
+    "lines": 107,
+    "chars": 4583,
+    "sha256": "6c833b83f06bfb4757169b8f82c98b7f7d05eb5ca653c4dda61fb26e317171b8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/roslyn-analyzers/SKILL.md",
+    "relative_path": "devops/roslyn-analyzers/SKILL.md",
+    "name": "roslyn-analyzers",
+    "frontmatter": {
+      "name": "roslyn-analyzers",
+      "category": "agentic-coder",
+      "title": "Roslyn Analyzers",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Build, review, debug, package, and test Roslyn diagnostic analyzers, code fix providers, and incremental source generators. Use for DiagnosticAnalyzer, CodeFixProvider, IIncrementalGenerator, IOperation analysis, Microsoft.CodeAnalysis dependency pinning, Roslyn test harnesses, C#/VB tests, and analyzer NuGet packaging."
+    },
+    "has_frontmatter": true,
+    "lines": 516,
+    "chars": 34760,
+    "sha256": "fa40ef0936dafe6c54f7a094c220536b744ac67e25d51fa8f899e6f9250131e3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/roslyn-analyzers/references/CSharpCodeFixVerifier.cs",
+        "lines": 70,
+        "chars": 2548,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/roslyn-analyzers/references/CSharpCodeFixVerifier.cs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/roslyn-analyzers/references/SourceWriter.cs",
+        "lines": 181,
+        "chars": 5259,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/roslyn-analyzers/references/SourceWriter.cs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/salesforce-apex-quality/SKILL.md",
+    "relative_path": "devops/salesforce-apex-quality/SKILL.md",
+    "name": "salesforce-apex-quality",
+    "frontmatter": {
+      "name": "salesforce-apex-quality",
+      "category": "agentic-coder",
+      "title": "Salesforce Apex Quality",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Apex code quality guardrails for Salesforce development. Enforces bulk-safety rules (no SOQL/DML in loops), sharing model requirements, CRUD/FLS security, SOQL injection prevention, PNB test coverage (Positive / Negative / Bulk), and modern Apex idioms. Use this skill when reviewing or generating Apex classes, trigger handlers, batch jobs, or test classes to catch governor limit risks, security gaps, and quality issues before deployment."
+    },
+    "has_frontmatter": true,
+    "lines": 197,
+    "chars": 8268,
+    "sha256": "b076061c641fee0594c021177d5d4bc4711dfbff5dc509fc5e9167f009b50487",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/sdlc-review/SKILL.md",
+    "relative_path": "devops/sdlc-review/SKILL.md",
+    "name": "sdlc-review",
+    "frontmatter": {
+      "name": "sdlc-review",
+      "category": "agentic-coder",
+      "title": "Sdlc Review",
+      "description": "Review Kanban handoffs and route verified outcomes.",
+      "version": "1.1.0",
+      "author": "Jakub Wolniewicz (@frizikk) + Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 225,
+    "chars": 10493,
+    "sha256": "73cc14da891fed9f3e191e3431f090a06d10d46e3b4ae27f5b0a2dc2f6cb5512",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/secret-scanning/SKILL.md",
+    "relative_path": "devops/secret-scanning/SKILL.md",
+    "name": "secret-scanning",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Guide for configuring and managing GitHub secret scanning, push protection,",
+      "license": "MIT",
+      "name": "secret-scanning",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Secret Scanning",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 302,
+    "chars": 11209,
+    "sha256": "af93d5e9567b8c9442cd17970dcfaf7891eb1a8b6fe3858313a26f4360ef997d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/secret-scanning/references/alerts-and-remediation.md",
+        "lines": 245,
+        "chars": 7448,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/secret-scanning/references/alerts-and-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/secret-scanning/references/custom-patterns.md",
+        "lines": 158,
+        "chars": 5571,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/secret-scanning/references/custom-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/secret-scanning/references/push-protection.md",
+        "lines": 164,
+        "chars": 6009,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/secret-scanning/references/push-protection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 33
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/server-side-conversion-tracking/SKILL.md",
+    "relative_path": "devops/server-side-conversion-tracking/SKILL.md",
+    "name": "server-side-conversion-tracking",
+    "frontmatter": {
+      "name": "server-side-conversion-tracking",
+      "category": "agentic-coder",
+      "title": "Server Side Conversion Tracking",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Set up server-side conversion tracking so purchases are reported accurately to Facebook, TikTok, Google and Bing despite iOS restrictions, ad blockers and cookie loss. Use when conversions are under-reported, when platform-reported purchases do not match real orders, when asked about Conversions API / Events API / offline conversions / CAPI, click id passthrough (fbclid, ttclid, gclid, msclkid), or when ad optimization has degraded after tracking changes."
+    },
+    "has_frontmatter": true,
+    "lines": 147,
+    "chars": 9174,
+    "sha256": "b676186cc4fa112c012e1f3562a6dad1f86386b2310cec3d00df6044943ba5ca",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/service-integrations/SKILL.md",
+    "relative_path": "devops/service-integrations/SKILL.md",
+    "name": "service-integrations",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Wire external services (GitHub, Stripe, Sentry, Cal.com, TypeForm, Helius,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "service-integrations",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Service Integrations",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 306,
+    "chars": 9742,
+    "sha256": "19b99863b26849f17dc0101993356e46740bbdb13a117fe9db21d8d0857f8cf5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/service-integrations/references/eight-subscription-templates.md",
+        "lines": 210,
+        "chars": 5830,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/service-integrations/references/eight-subscription-templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 5,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 11,
+    "section_count": 28
+  }
+]

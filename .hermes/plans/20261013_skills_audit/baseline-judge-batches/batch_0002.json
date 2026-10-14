@@ -1,0 +1,314 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-skill-stack/SKILL.md",
+    "relative_path": "agent-development/agent-skill-stack/SKILL.md",
+    "name": "agent-skill-stack",
+    "frontmatter": {
+      "name": "agent-skill-stack",
+      "category": "agentic-coder",
+      "title": "Agent Skill Stack",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Find, evaluate, and assemble the smallest compatible set of AI Agent Skills for an end-to-end natural-language goal. Use when a user wants Skills for a multi-step workflow, asks which Skills fit a project, needs an installed-Skill audit or conflict check, has low Skill recall, wants indirect helpers such as humanizers or compliance checks, or wants a project-specific Skill Stack with controlled installation. Search local Skills, registries, GitHub, and OpenCLI; compare adoption, verified fit, safety, and overlap. Do not use for locating one known or common Skill; use the generic find-skills workflow."
+    },
+    "has_frontmatter": true,
+    "lines": 227,
+    "chars": 11232,
+    "sha256": "707aa7e2f36893ef0036939784dd0387dc02a1fa614be32a6ec2cf01f1ac80db",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 80,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-supply-chain/SKILL.md",
+    "relative_path": "agent-development/agent-supply-chain/SKILL.md",
+    "name": "agent-supply-chain",
+    "frontmatter": {
+      "name": "agent-supply-chain",
+      "category": "agentic-coder",
+      "title": "Agent Supply Chain",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 357,
+    "chars": 11140,
+    "sha256": "8fdaa4facebfe41669435598dc44aee0754969ea5ddf766c45b6a4040480332a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agentic-eval/SKILL.md",
+    "relative_path": "agent-development/agentic-eval/SKILL.md",
+    "name": "agentic-eval",
+    "frontmatter": {
+      "name": "agentic-eval",
+      "category": "agentic-coder",
+      "title": "Agentic Eval",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 207,
+    "chars": 6292,
+    "sha256": "cfae6a042d4ff3b4aa28f85c9a2ebfc7a371ee897d07c36c45a6709b45a117ed",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agentmemory-hooks/SKILL.md",
+    "relative_path": "agent-development/agentmemory-hooks/SKILL.md",
+    "name": "agentmemory-hooks",
+    "frontmatter": {
+      "name": "agentmemory-hooks",
+      "category": "agentic-coder",
+      "title": "Agentmemory Hooks",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "The agentmemory plugin hooks that capture observations automatically across the agent session lifecycle. Use when explaining how memory gets captured without manual saves, when debugging missing observations, or when tuning what gets recorded.",
+      "user-invocable": "false"
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2752,
+    "sha256": "54b1af01b6c772c19e7a491a289690a2d01f25ea30257e56cbceb2f9d9721f91",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 1
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/arize-ai-provider-integration/SKILL.md",
+    "relative_path": "agent-development/arize-ai-provider-integration/SKILL.md",
+    "name": "arize-ai-provider-integration",
+    "frontmatter": {
+      "name": "arize-ai-provider-integration",
+      "category": "agentic-coder",
+      "title": "Arize Ai Provider Integration",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features. Supports any LLM provider (e.g. OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Vertex AI, Gemini, NVIDIA NIM). Use when the user mentions AI integration, LLM provider credentials, create integration, list integrations, update credentials, delete integration, or connecting an LLM provider to Arize.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile."
+    },
+    "has_frontmatter": true,
+    "lines": 317,
+    "chars": 11374,
+    "sha256": "e2f7aa3c9cf928660f7aa659802e4acc49e88b1e0a125d333730408de570d5a4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/breakdown-epic-arch/SKILL.md",
+    "relative_path": "agent-development/breakdown-epic-arch/SKILL.md",
+    "name": "breakdown-epic-arch",
+    "frontmatter": {
+      "name": "breakdown-epic-arch",
+      "category": "architecture",
+      "title": "Breakdown Epic Arch",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document."
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 3827,
+    "sha256": "a82ad6431d5f268aaf7c1fd462585ada757e58a752224afd0fb2f1dcb33065ee",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/breakdown-epic-pm/SKILL.md",
+    "relative_path": "agent-development/breakdown-epic-pm/SKILL.md",
+    "name": "breakdown-epic-pm",
+    "frontmatter": {
+      "name": "breakdown-epic-pm",
+      "category": "agentic-coder",
+      "title": "Breakdown Epic Pm",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specification."
+    },
+    "has_frontmatter": true,
+    "lines": 97,
+    "chars": 3275,
+    "sha256": "0ec7a4ad6cd91d582dc181ebffa4442acf827655d2d7f90de263997b853066d1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  }
+]

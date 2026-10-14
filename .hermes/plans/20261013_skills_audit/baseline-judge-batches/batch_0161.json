@@ -1,0 +1,509 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/qa/qa-judge-bugfixes-and-augmentation/SKILL.md",
+    "relative_path": "qa/qa-judge-bugfixes-and-augmentation/SKILL.md",
+    "name": "qa-judge-bugfixes-and-augmentation",
+    "frontmatter": {
+      "name": "qa-judge-bugfixes-and-augmentation",
+      "category": "agentic-coder",
+      "title": "QA Judge Bugfixes and Augmentation",
+      "description": "Use when a judge averages below 95. Fix rubric, augment.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[qa, judge, audit, bugfix, augmentation]"
+    },
+    "has_frontmatter": true,
+    "lines": 139,
+    "chars": 5322,
+    "sha256": "7d1d5619c28726a7f2fc0a8056283ebad3ccb6079f6d71264f4ec4d3d6f51c9f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 6,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/ruff-recursive-fix/SKILL.md",
+    "relative_path": "qa/ruff-recursive-fix/SKILL.md",
+    "name": "ruff-recursive-fix",
+    "frontmatter": {
+      "name": "ruff-recursive-fix",
+      "category": "agentic-coder",
+      "title": "Ruff Recursive Fix",
+      "description": "Use when applying reviewed Ruff autofixes to Python files.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[auto-fix, ruff, python, verification]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 231,
+    "chars": 7158,
+    "sha256": "f6a01701d9eb5687dbeb7b7aebda90054112801acdc7b1bb9026726b685f2604",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/scoutqa-test/SKILL.md",
+    "relative_path": "qa/scoutqa-test/SKILL.md",
+    "name": "scoutqa-test",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Scoutqa Test.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "scoutqa-test",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Scoutqa Test",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 496,
+    "chars": 16345,
+    "sha256": "919beed35e2067be209a787bd2b7fdec399b7c21ac276eff1e991d7bec1012d3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 86,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 31
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/scripts-judge/SKILL.md",
+    "relative_path": "qa/scripts-judge/SKILL.md",
+    "name": "scripts-judge",
+    "frontmatter": {
+      "name": "scripts-judge",
+      "category": "agentic-coder",
+      "title": "Scripts Judge",
+      "description": "Use when auditing scripts/. Scores 0-100.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, judge, scripts, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 143,
+    "chars": 5487,
+    "sha256": "a713972f88327b4c1c9e36f29083bcbfd011045a1fadf6befce4d89e2aaec66e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/scripts-judge/references/rubric.md",
+        "lines": 72,
+        "chars": 1594,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/scripts-judge/references/rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/scripts-judge/scripts/__pycache__/judge.cpython-313.pyc",
+        "lines": 414,
+        "chars": 13446,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/scripts-judge/scripts/__pycache__/judge.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/scripts-judge/scripts/judge.py",
+        "lines": 348,
+        "chars": 11909,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/scripts-judge/scripts/judge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/session-audit/SKILL.md",
+    "relative_path": "qa/session-audit/SKILL.md",
+    "name": "session-audit",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Audit all active Hermes sessions for resource usage, stale sessions, and cleanup opportunities. Supports automated cleanup with safety checks.",
+      "category": "audit",
+      "license": "MIT",
+      "metadata": [
+        "hermes-system-maintenance",
+        "session-audit-report",
+        "validate-memories",
+        "sessions",
+        "audit",
+        "cleanup",
+        "maintenance",
+        "resource-management"
+      ],
+      "name": "session-audit",
+      "tags": [
+        "sessions",
+        "audit",
+        "cleanup",
+        "maintenance",
+        "resource-management",
+        "hermes"
+      ],
+      "title": "Session Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 3333,
+    "sha256": "f307f6a7f7647d9a48aee35c99f72e4d874a0675e4cd03918df7f10e8a02d6a4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/session-audit/scripts/__pycache__/session_audit.cpython-313.pyc",
+        "lines": 462,
+        "chars": 15948,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/session-audit/scripts/__pycache__/session_audit.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/session-audit/scripts/session_audit.py",
+        "lines": 270,
+        "chars": 9953,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/session-audit/scripts/session_audit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 2,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/skill-judge/SKILL.md",
+    "relative_path": "qa/skill-judge/SKILL.md",
+    "name": "skill-judge",
+    "frontmatter": {
+      "name": "skill-judge",
+      "category": "agentic-coder",
+      "title": "Skill Judge",
+      "description": "Evaluate and score skills against defined quality criteria. Use when auditing, reviewing, or improving SKILL.md files.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 272,
+    "chars": 26474,
+    "sha256": "7365bcf5408e6f4b512a973d6567296416721375ecaaf1e652121feda2f4762f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/audit-2026-06-21.md",
+        "lines": 60,
+        "chars": 2779,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/audit-2026-06-21.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/audit-patterns-2026-06-14.md",
+        "lines": 87,
+        "chars": 4159,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/audit-patterns-2026-06-14.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/audit-patterns-discovered.md",
+        "lines": 141,
+        "chars": 5737,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/audit-patterns-discovered.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/batch-audit-findings.md",
+        "lines": 141,
+        "chars": 5098,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/batch-audit-findings.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/bulk-remediation-pattern.md",
+        "lines": 44,
+        "chars": 1978,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/bulk-remediation-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/calibration-2026-06-17.md",
+        "lines": 41,
+        "chars": 1409,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/calibration-2026-06-17.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/convert-plaintext-enhance-markdown-audit-2026-06-19.md",
+        "lines": 59,
+        "chars": 2724,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/convert-plaintext-enhance-markdown-audit-2026-06-19.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/evaluation-criteria.md",
+        "lines": 128,
+        "chars": 4615,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/evaluation-criteria.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/planning-remediation-template.md",
+        "lines": 56,
+        "chars": 1589,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/skill-judge/references/planning-remediation-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: placeholder text detected",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/skill-judge-scoring/SKILL.md",
+    "relative_path": "qa/skill-judge-scoring/SKILL.md",
+    "name": "skill-judge-scoring",
+    "frontmatter": {
+      "name": "skill-judge-scoring",
+      "category": "agentic-coder",
+      "title": "Skill Judge Scoring",
+      "description": "Score artifacts with skill-judge for 99+ quality.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[judge, scoring, quality]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 42,
+    "chars": 1113,
+    "sha256": "e5bb5de903da61f0829928bfeaacdfdc5987c3936bfcc3f08751e397885f7cd7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 5
+  }
+]

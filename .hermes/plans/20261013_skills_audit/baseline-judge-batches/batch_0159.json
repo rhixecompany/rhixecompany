@@ -1,0 +1,581 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/SKILL.md",
+    "relative_path": "qa/eval-driven-dev/SKILL.md",
+    "name": "eval-driven-dev",
+    "frontmatter": {
+      "name": "eval-driven-dev",
+      "category": "dev-tools",
+      "title": "Eval Driven Dev",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": ">",
+      "license": "MIT",
+      "compatibility": "Python 3.10+",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 247,
+    "chars": 18678,
+    "sha256": "129054fcaae6b3e765c03231ecced382a99e9857b2d40fb37048ce997292158e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/1-a-project-analysis.md",
+        "lines": 102,
+        "chars": 5855,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/1-a-project-analysis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/1-b-entry-point.md",
+        "lines": 68,
+        "chars": 2342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/1-b-entry-point.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/1-c-eval-criteria.md",
+        "lines": 128,
+        "chars": 7662,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/1-c-eval-criteria.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/2a-instrumentation.md",
+        "lines": 134,
+        "chars": 7391,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/2a-instrumentation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/2b-implement-runnable.md",
+        "lines": 145,
+        "chars": 7501,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/2b-implement-runnable.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/2c-capture-and-verify-trace.md",
+        "lines": 118,
+        "chars": 5797,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/2c-capture-and-verify-trace.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/3-define-evaluators.md",
+        "lines": 161,
+        "chars": 10513,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/3-define-evaluators.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/4-build-dataset.md",
+        "lines": 368,
+        "chars": 21942,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/4-build-dataset.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/5-run-tests.md",
+        "lines": 85,
+        "chars": 6087,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/5-run-tests.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/6-analyze-outcomes.md",
+        "lines": 341,
+        "chars": 16495,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/6-analyze-outcomes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/evaluators.md",
+        "lines": 585,
+        "chars": 17911,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/evaluators.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/runnable-examples/cli-app.md",
+        "lines": 64,
+        "chars": 2022,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/runnable-examples/cli-app.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/runnable-examples/fastapi-web-server.md",
+        "lines": 126,
+        "chars": 4145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/runnable-examples/fastapi-web-server.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/runnable-examples/standalone-function.md",
+        "lines": 60,
+        "chars": 1807,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/runnable-examples/standalone-function.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/testing-api.md",
+        "lines": 368,
+        "chars": 16520,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/testing-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/wrap-api.md",
+        "lines": 254,
+        "chars": 8960,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/eval-driven-dev/references/wrap-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/hooks-judge/SKILL.md",
+    "relative_path": "qa/hooks-judge/SKILL.md",
+    "name": "hooks-judge",
+    "frontmatter": {
+      "name": "hooks-judge",
+      "category": "agentic-coder",
+      "title": "Hooks Judge",
+      "description": "Audit Hermes hooks. Scores 0-100.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, judge, hooks, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 123,
+    "chars": 3975,
+    "sha256": "1a4fa134b598b5803584d955a636be8405f4c44d53bd55ba4afb55103ee3cd17",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/hooks-judge/references/rubric.md",
+        "lines": 50,
+        "chars": 966,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/hooks-judge/references/rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/hooks-judge/scripts/judge.py",
+        "lines": 197,
+        "chars": 6416,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/hooks-judge/scripts/judge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/landing-page-conversion-audit/SKILL.md",
+    "relative_path": "qa/landing-page-conversion-audit/SKILL.md",
+    "name": "landing-page-conversion-audit",
+    "frontmatter": {
+      "name": "landing-page-conversion-audit",
+      "category": "audit",
+      "title": "Landing Page Conversion Audit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Audit a landing page, sales page or checkout page for conversion leaks and return a fix list ordered by expected revenue impact. Use when asked to review, critique or improve a landing page, sales page, opt-in page, product page or checkout flow, when conversion rate is low, when paid traffic is not converting, or when someone asks \"why isn't this page converting\" or wants a CRO / landing page review."
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 8363,
+    "sha256": "df1f22ff614ff020f92a8e6555abc626854a4389e9bc0f4ac17d2d0dcc53bdf7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/plans-judge/SKILL.md",
+    "relative_path": "qa/plans-judge/SKILL.md",
+    "name": "plans-judge",
+    "frontmatter": {
+      "name": "plans-judge",
+      "category": "documentation",
+      "title": "Plans Judge",
+      "description": "Use when auditing .hermes/plans/*.md. Scores 0-100.",
+      "version": "2.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, judge, plans, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 4266,
+    "sha256": "01110c5beb96aba6325259556dae587137e1dd9b0d91bd91536bb8e240f5e08e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plans-judge/references/rubric.md",
+        "lines": 94,
+        "chars": 1993,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plans-judge/references/rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plans-judge/scripts/__pycache__/judge.cpython-313.pyc",
+        "lines": 388,
+        "chars": 13120,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plans-judge/scripts/__pycache__/judge.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plans-judge/scripts/judge.py",
+        "lines": 266,
+        "chars": 9431,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/plans-judge/scripts/judge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/playwright/SKILL.md",
+    "relative_path": "qa/playwright/SKILL.md",
+    "name": "playwright",
+    "frontmatter": {
+      "name": "playwright",
+      "category": "agentic-coder",
+      "description": "MCP server for playwright. Use when you need playwright via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Playwright",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1174,
+    "sha256": "3f6286ac8478793512f370bcdada385650ab6b5f21c1b1795b752df336e84f33",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/playwright-automation-fill-in-form/SKILL.md",
+    "relative_path": "qa/playwright-automation-fill-in-form/SKILL.md",
+    "name": "playwright-automation-fill-in-form",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Playwright Automation Fill In Form.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "playwright-automation-fill-in-form",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Playwright Automation Fill In Form",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 3621,
+    "sha256": "84dc5b86496e76d6e48a9ab10c65169bff5124ff6489ed2a10f2f20cb69de9cb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/playwright-explore-website/SKILL.md",
+    "relative_path": "qa/playwright-explore-website/SKILL.md",
+    "name": "playwright-explore-website",
+    "frontmatter": {
+      "name": "playwright-explore-website",
+      "category": "agentic-coder",
+      "title": "Playwright Explore Website",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Website exploration for testing using Playwright MCP"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1677,
+    "sha256": "51013a3d8869efa9abc9feefe1e899cc39717fe6dcb5252eabb5318c44573679",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  }
+]

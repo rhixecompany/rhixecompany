@@ -1,0 +1,449 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/honcho/SKILL.md",
+    "relative_path": "mcp/honcho/SKILL.md",
+    "name": "honcho",
+    "frontmatter": {
+      "name": "honcho",
+      "category": "agentic-coder",
+      "description": "MCP server for honcho. Use when you need honcho via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Honcho",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 54,
+    "chars": 1130,
+    "sha256": "27606a6f513735add3544eff58f6cdd3c164cdeeea298ec0127ccc074d6db828",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/honcho-legacy/SKILL.md",
+    "relative_path": "mcp/honcho-legacy/SKILL.md",
+    "name": "honcho-legacy",
+    "frontmatter": {
+      "name": "honcho-legacy",
+      "category": "agentic-coder",
+      "title": "Honcho",
+      "description": "MCP gateway service for managing multiple MCP server connections. Provides centralized MCP server orchestration, session management, and gateway status monitoring. Use when you need to manage MCP server connections centrally or query gateway status.",
+      "license": "Complete terms in LICENSE.txt",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 93,
+    "chars": 2678,
+    "sha256": "3ffe0da3493bba042d65ac2e30de3fdfaa7fe6b7d24a091a9a76e57e7c7beab5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-ast-grep/SKILL.md",
+    "relative_path": "mcp/mcp-ast-grep/SKILL.md",
+    "name": "mcp-ast-grep",
+    "frontmatter": {
+      "name": "mcp-ast-grep",
+      "category": "agentic-coder",
+      "title": "MCP ast-grep — AST-based Code Search & Refactor",
+      "description": "Exposes all ast-grep MCP tools for AST-based code search, pattern matching, YAML rule matching, syntax dumping, code scanning, import analysis, and AST rewrite refactoring.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "ast-grep",
+        "code-search",
+        "linting",
+        "refactoring"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 3566,
+    "sha256": "225795806eea42bcfdbe521ed44d82b8eb6b7b7689e53846275b6e59aa299851",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-atlassian/SKILL.md",
+    "relative_path": "mcp/mcp-atlassian/SKILL.md",
+    "name": "mcp-atlassian",
+    "frontmatter": {
+      "name": "mcp-atlassian",
+      "category": "agentic-coder",
+      "title": "MCP Atlassian — Jira & Confluence Integration",
+      "description": "Exposes all atlassian MCP tools for Jira issue management, Confluence page operations, project queries, and team collaboration.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "atlassian",
+        "jira",
+        "confluence",
+        "project-management"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 135,
+    "chars": 5519,
+    "sha256": "8b62c12d0bb18e29883db23b2828cf9737a5ba29a1263dbae67bdcea9905c97e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/SKILL.md",
+    "relative_path": "mcp/mcp-audit-orchestrator/SKILL.md",
+    "name": "mcp-audit-orchestrator",
+    "frontmatter": {
+      "name": "mcp-audit-orchestrator",
+      "category": "audit",
+      "title": "MCP Audit Orchestrator",
+      "description": "Use when configuring, debugging, fixing, or syncing MCP servers across opencode/codex/copilot/vscode/hermes. Runs the audit+sync+report loop against a single-source-of-truth registry.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[mcp, audit, sync, devops, hermes]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 6092,
+    "sha256": "34946c3ab7c3204a4c249f8c189c9e40f3060dc9dfe311541ca966d3c5aed0eb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/references/audit-results.md",
+        "lines": 63,
+        "chars": 2097,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/references/audit-results.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/references/registry-spec.md",
+        "lines": 71,
+        "chars": 2098,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/references/registry-spec.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/references/sync-targets.md",
+        "lines": 73,
+        "chars": 2206,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/references/sync-targets.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/templates/registry.json",
+        "lines": 24,
+        "chars": 677,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/templates/registry.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/templates/server-entry.json",
+        "lines": 11,
+        "chars": 233,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-audit-orchestrator/templates/server-entry.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/SKILL.md",
+    "relative_path": "mcp/mcp-builder/SKILL.md",
+    "name": "mcp-builder",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when creating MCP servers that enable LLMs to interact with external",
+      "license": "MIT",
+      "name": "mcp-builder",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "MCP Builder",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 2534,
+    "sha256": "11d14798be86e0c3ccc20d7c384984caca24217c62fb63b300a4087cc97c152c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/references/overview.md",
+        "lines": 19,
+        "chars": 357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/connections.py",
+        "lines": 151,
+        "chars": 4875,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/connections.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/evaluation.py",
+        "lines": 373,
+        "chars": 12559,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/evaluation.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/example_evaluation.xml",
+        "lines": 22,
+        "chars": 1192,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/example_evaluation.xml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/requirements.txt",
+        "lines": 2,
+        "chars": 29,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-builder/scripts/requirements.txt:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-bundle/SKILL.md",
+    "relative_path": "mcp/mcp-bundle/SKILL.md",
+    "name": "mcp-bundle",
+    "frontmatter": {
+      "name": "mcp-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — MCP (Model Context Protocol)",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/mcp.md by generating plan/spec/prompt/skill/script/result artifacts.",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 45,
+    "chars": 1526,
+    "sha256": "e4e39d010b0cd802e9d1d3dbbd85251950f7f0b2d5cb0d412b04d97f633c8bfe",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  }
+]

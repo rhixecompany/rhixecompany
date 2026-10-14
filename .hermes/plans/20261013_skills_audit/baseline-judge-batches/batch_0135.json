@@ -1,0 +1,621 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/guidance/SKILL.md",
+    "relative_path": "mlops/guidance/SKILL.md",
+    "name": "guidance",
+    "frontmatter": {
+      "name": "guidance",
+      "category": "agentic-coder",
+      "title": "Guidance",
+      "description": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[guidance, transformers]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 612,
+    "chars": 15808,
+    "sha256": "e5cf436ae354b8e1293c113bb45b535bf8cefd86c3065b500d875814a5525a91",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/guidance/references/backends.md",
+        "lines": 554,
+        "chars": 11978,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/guidance/references/backends.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/guidance/references/constraints.md",
+        "lines": 674,
+        "chars": 15870,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/guidance/references/constraints.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/guidance/references/examples.md",
+        "lines": 767,
+        "chars": 20078,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/guidance/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 47
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/huggingface-hub/SKILL.md",
+    "relative_path": "mlops/huggingface-hub/SKILL.md",
+    "name": "huggingface-hub",
+    "frontmatter": {
+      "name": "huggingface-hub",
+      "category": "agentic-coder",
+      "title": "Huggingface Hub",
+      "description": "HuggingFace hf CLI: search/download/upload models, datasets.",
+      "version": "1.0.0",
+      "author": "Hugging Face",
+      "license": "MIT",
+      "tags": "[huggingface, hf, models, datasets, hub, mlops]",
+      "platforms": "[linux, macos, windows]"
+    },
+    "has_frontmatter": true,
+    "lines": 134,
+    "chars": 5677,
+    "sha256": "50f140839cee9dcfae6c7882cfebddb2a8a416e0aeac3fc7ca2a7e5521c97aaa",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/SKILL.md",
+    "relative_path": "mlops/huggingface-tokenizers/SKILL.md",
+    "name": "huggingface-tokenizers",
+    "frontmatter": {
+      "name": "huggingface-tokenizers",
+      "category": "agentic-coder",
+      "title": "Huggingface Tokenizers",
+      "description": "Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with transformers. Use when you need high-performance tokenization or custom tokenizer training.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[tokenizers, transformers, datasets]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 571,
+    "chars": 15750,
+    "sha256": "d039b4dc31b71fef5edef5505b69fd85b5cfa6662ae96713361008de77b271ad",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/algorithms.md",
+        "lines": 653,
+        "chars": 15053,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/algorithms.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/integration.md",
+        "lines": 637,
+        "chars": 15329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/integration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/pipeline.md",
+        "lines": 723,
+        "chars": 16624,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/pipeline.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/training.md",
+        "lines": 565,
+        "chars": 14545,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/huggingface-tokenizers/references/training.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 35
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/SKILL.md",
+    "relative_path": "mlops/inference/llama-cpp/SKILL.md",
+    "name": "llama-cpp",
+    "frontmatter": {
+      "name": "llama-cpp",
+      "category": "agentic-coder",
+      "title": "Llama Cpp",
+      "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "version": "2.1.2",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[llama-cpp-python>=0.2.0]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 303,
+    "chars": 10842,
+    "sha256": "04f9d75b233af773396365c368aeeb7ca46f5a36fc66db0ad63a5a4d855d6684",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/advanced-usage.md",
+        "lines": 504,
+        "chars": 10887,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/hub-discovery.md",
+        "lines": 168,
+        "chars": 5082,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/hub-discovery.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/optimization.md",
+        "lines": 89,
+        "chars": 1658,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/optimization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/quantization.md",
+        "lines": 243,
+        "chars": 5888,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/quantization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/server.md",
+        "lines": 150,
+        "chars": 2915,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/server.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/troubleshooting.md",
+        "lines": 442,
+        "chars": 8904,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/llama-cpp/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/SKILL.md",
+    "relative_path": "mlops/inference/outlines/SKILL.md",
+    "name": "outlines",
+    "frontmatter": {
+      "name": "outlines",
+      "category": "agentic-coder",
+      "title": "Outlines",
+      "description": "Outlines: structured JSON/regex/Pydantic LLM generation.",
+      "version": "1.0.1",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 684,
+    "chars": 17881,
+    "sha256": "83802276894250c661f17a456aadd335fae28072c89e9d6a1e66bc5667e7fc0d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/references/backends.md",
+        "lines": 615,
+        "chars": 14357,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/references/backends.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/references/examples.md",
+        "lines": 773,
+        "chars": 21228,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/references/json_generation.md",
+        "lines": 652,
+        "chars": 14907,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/outlines/references/json_generation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 46
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/SKILL.md",
+    "relative_path": "mlops/inference/serving-llms-vllm/SKILL.md",
+    "name": "serving-llms-vllm",
+    "frontmatter": {
+      "name": "serving-llms-vllm",
+      "category": "agentic-coder",
+      "title": "Serving Llms Vllm",
+      "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+      "version": "1.0.1",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 423,
+    "chars": 11069,
+    "sha256": "4e0f76302c607d905bac3c8a6ca9b43173892ec411b88deac4a974f98b1faf4a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/optimization.md",
+        "lines": 226,
+        "chars": 5765,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/optimization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/quantization.md",
+        "lines": 284,
+        "chars": 6728,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/quantization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/server-deployment.md",
+        "lines": 255,
+        "chars": 5252,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/server-deployment.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/troubleshooting.md",
+        "lines": 447,
+        "chars": 9037,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/inference/serving-llms-vllm/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mlops/instructor/SKILL.md",
+    "relative_path": "mlops/instructor/SKILL.md",
+    "name": "instructor",
+    "frontmatter": {
+      "name": "instructor",
+      "category": "agentic-coder",
+      "title": "Instructor",
+      "description": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[instructor, pydantic, openai, anthropic]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 780,
+    "chars": 18159,
+    "sha256": "409145267bef0c58a424702f4406dcb34596ca6da41be51cebb64dc79407fbc7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/instructor/references/examples.md",
+        "lines": 107,
+        "chars": 2320,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/instructor/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/instructor/references/providers.md",
+        "lines": 70,
+        "chars": 1329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/instructor/references/providers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/instructor/references/validation.md",
+        "lines": 606,
+        "chars": 15296,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mlops/instructor/references/validation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 41
+  }
+]

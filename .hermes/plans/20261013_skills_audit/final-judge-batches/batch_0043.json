@@ -1,0 +1,390 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/dedupe-skills/SKILL.md",
+    "relative_path": "development/dedupe-skills/SKILL.md",
+    "name": "dedupe-skills",
+    "frontmatter": {
+      "name": "dedupe-skills",
+      "category": "agentic-coder",
+      "title": "Dedupe Skills",
+      "description": "Deduplicates overlapping or redundant skills",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": []
+    },
+    "has_frontmatter": true,
+    "lines": 89,
+    "chars": 2998,
+    "sha256": "e0c0baa164b0896a3c20a73ab2846555bd30989b8cc28d0163484aec54baf18f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/dedupe-skills/references/overview.md",
+        "lines": 31,
+        "chars": 661,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dedupe-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/desk-journal/SKILL.md",
+    "relative_path": "development/desk-journal/SKILL.md",
+    "name": "desk-journal",
+    "frontmatter": {
+      "name": "desk-journal",
+      "category": "agentic-coder",
+      "title": "Desk Journal",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Write, append, or read desk journal entries. The journal is persistent memory — what survives session boundaries. A good entry has: what was done, current state, next step."
+    },
+    "has_frontmatter": true,
+    "lines": 107,
+    "chars": 3405,
+    "sha256": "305db9b4154670ac9da083f30155c39c6ef01f965018809aa232bda7b8a71d42",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/desk-open/SKILL.md",
+    "relative_path": "development/desk-open/SKILL.md",
+    "name": "desk-open",
+    "frontmatter": {
+      "name": "desk-open",
+      "category": "agentic-coder",
+      "title": "Desk Open",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create and open a new desk in the workshop. Sets up the folder structure, initial journal, and desk identity so the next session that sits down finds the trail."
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 3988,
+    "sha256": "bc777ad97377abbdfa96d4e5e86a6b95b36a694b8a5e89a2e6d17c033a35edce",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/dev-init-code-samples/SKILL.md",
+    "relative_path": "development/dev-init-code-samples/SKILL.md",
+    "name": "dev-init-code-samples",
+    "frontmatter": {
+      "name": "dev-init-code-samples",
+      "category": "dev-tools",
+      "title": "Dev Init Code Samples",
+      "description": "Initializes development code samples for reference",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "development",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2624,
+    "sha256": "950726f212fed91592ae72cdab854dab0463f11ee6d676c419a9fdc9bf046162",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/dev-init-code-samples/references/overview.md",
+        "lines": 31,
+        "chars": 717,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/dev-init-code-samples/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/develop/SKILL.md",
+    "relative_path": "development/develop/SKILL.md",
+    "name": "develop",
+    "frontmatter": {
+      "name": "develop",
+      "title": "Develop",
+      "description": "Use when building a feature from an approved design or spec.",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[development, implementation, ui, backend, verification]",
+      "metadata": [],
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion",
+      "category": "dev-tools"
+    },
+    "has_frontmatter": true,
+    "lines": 181,
+    "chars": 15660,
+    "sha256": "6b234bbab29427e1dc87cf3391683d70456b79acae57b2c360e6929165908e77",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/doc-and-modernize/SKILL.md",
+    "relative_path": "development/doc-and-modernize/SKILL.md",
+    "name": "doc-and-modernize",
+    "frontmatter": {
+      "name": "doc-and-modernize",
+      "category": "documentation",
+      "title": "Doc And Modernize",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">-"
+    },
+    "has_frontmatter": true,
+    "lines": 865,
+    "chars": 49907,
+    "sha256": "29838595cb7be451857f71122f779a7f226e3d01e0f23bbcdb43808a1bb59cf9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/doc-and-modernize/references/copilot-instructions.template.md",
+        "lines": 137,
+        "chars": 7794,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/doc-and-modernize/references/copilot-instructions.template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/doc-and-modernize/references/migration-hazards.md",
+        "lines": 286,
+        "chars": 14099,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/doc-and-modernize/references/migration-hazards.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/docs-inventory-report/SKILL.md",
+    "relative_path": "development/docs-inventory-report/SKILL.md",
+    "name": "docs-inventory-report",
+    "frontmatter": {
+      "name": "docs-inventory-report",
+      "category": "documentation",
+      "title": "Docs Inventory Report",
+      "description": "Generates documentation inventory reports",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2617,
+    "sha256": "b08a150b05736c3e4562cc17477432f7fec31dd07d3a02c888dae9827838d6da",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/docs-inventory-report/references/overview.md",
+        "lines": 31,
+        "chars": 717,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/docs-inventory-report/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

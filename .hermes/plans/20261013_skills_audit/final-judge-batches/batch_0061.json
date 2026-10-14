@@ -1,0 +1,307 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-junit/SKILL.md",
+    "relative_path": "development/java-junit/SKILL.md",
+    "name": "java-junit",
+    "frontmatter": {
+      "name": "java-junit",
+      "category": "agentic-coder",
+      "title": "Java Junit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for JUnit 5 unit testing, including data-driven tests"
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 3945,
+    "sha256": "288b9c40bcacbab434d0a5df7bc2b6fdfc850a63fe4b3c4a045d80fbcc2975f0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-mcp-server-generator/SKILL.md",
+    "relative_path": "development/java-mcp-server-generator/SKILL.md",
+    "name": "java-mcp-server-generator",
+    "frontmatter": {
+      "name": "java-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Java Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete Model Context Protocol server project in Java using the official MCP Java SDK with reactive streams and optional Spring Boot integration."
+    },
+    "has_frontmatter": true,
+    "lines": 795,
+    "chars": 23017,
+    "sha256": "ac4f8868c8b69b093db12b52ae16871192fe45f6dc94f3bcbd10c2e8b507714e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-refactoring-extract-method/SKILL.md",
+    "relative_path": "development/java-refactoring-extract-method/SKILL.md",
+    "name": "java-refactoring-extract-method",
+    "frontmatter": {
+      "name": "java-refactoring-extract-method",
+      "category": "agentic-coder",
+      "title": "Java Refactoring Extract Method",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Refactoring using Extract Methods in Java Language"
+    },
+    "has_frontmatter": true,
+    "lines": 143,
+    "chars": 4496,
+    "sha256": "a985cb4185ca273016df93f542e1d6e7b29859cf7141b658bdafbe7b95679e1a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-refactoring-remove-parameter/SKILL.md",
+    "relative_path": "development/java-refactoring-remove-parameter/SKILL.md",
+    "name": "java-refactoring-remove-parameter",
+    "frontmatter": {
+      "name": "java-refactoring-remove-parameter",
+      "category": "agentic-coder",
+      "title": "Java Refactoring Remove Parameter",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Refactoring using Remove Parameter in Java Language"
+    },
+    "has_frontmatter": true,
+    "lines": 123,
+    "chars": 3962,
+    "sha256": "5e236d07386890a489ecf092420c88cc316b8a9f51e0fe7d16fdcacfb6c79c3d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-springboot/SKILL.md",
+    "relative_path": "development/java-springboot/SKILL.md",
+    "name": "java-springboot",
+    "frontmatter": {
+      "name": "java-springboot",
+      "category": "agentic-coder",
+      "title": "Java Springboot",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for developing applications with Spring Boot."
+    },
+    "has_frontmatter": true,
+    "lines": 104,
+    "chars": 5107,
+    "sha256": "0d2fabe9372a37a8a9a07385b11845502c952cdeabe3b0ae9970ce796cd71cd2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/javascript-typescript-jest/SKILL.md",
+    "relative_path": "development/javascript-typescript-jest/SKILL.md",
+    "name": "javascript-typescript-jest",
+    "frontmatter": {
+      "name": "javascript-typescript-jest",
+      "category": "agentic-coder",
+      "title": "Javascript Typescript Jest",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns."
+    },
+    "has_frontmatter": true,
+    "lines": 83,
+    "chars": 3231,
+    "sha256": "d753431a9fce9a8d9e35c6b3e781d367c1e406f6baecc64e7a02c1833bb5f427",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/javax-to-jakarta-migration/SKILL.md",
+    "relative_path": "development/javax-to-jakarta-migration/SKILL.md",
+    "name": "javax-to-jakarta-migration",
+    "frontmatter": {
+      "name": "javax-to-jakarta-migration",
+      "category": "agentic-coder",
+      "title": "Javax To Jakarta Migration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Migrate Java code from javax.* to jakarta.* namespace. Use when upgrading to Tomcat 11, Jakarta EE 10, or when javax imports are detected in the codebase.",
+      "argument-hint": "File, package, or module to migrate"
+    },
+    "has_frontmatter": true,
+    "lines": 91,
+    "chars": 3117,
+    "sha256": "e56425d2c04a9fdbe57a8a291db5fbc131ba1c91b33e30fc6c7bbec3163d0d82",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  }
+]

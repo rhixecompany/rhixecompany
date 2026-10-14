@@ -1,0 +1,335 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/acreadiness-policy/SKILL.md",
+    "relative_path": "agent-development/acreadiness-policy/SKILL.md",
+    "name": "acreadiness-policy",
+    "frontmatter": {
+      "name": "acreadiness-policy",
+      "category": "agentic-coder",
+      "title": "Acreadiness Policy",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org baselines with team overrides. Use when the user asks about strict mode, AI-only scoring, custom weights, CI gating, or wants org-wide standardisation.",
+      "argument-hint": "[show | new <name> | apply <path-or-pkg>] — e.g. /acreadiness-policy show, /acreadiness-policy new strict-frontend"
+    },
+    "has_frontmatter": true,
+    "lines": 135,
+    "chars": 4738,
+    "sha256": "88834a1acde0689466a9c45f8c48e03d1eca342b004974bf09debfadce08562d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/add-educational-comments/SKILL.md",
+    "relative_path": "agent-development/add-educational-comments/SKILL.md",
+    "name": "add-educational-comments",
+    "frontmatter": {
+      "name": "add-educational-comments",
+      "category": "agentic-coder",
+      "title": "Add Educational Comments",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided."
+    },
+    "has_frontmatter": true,
+    "lines": 150,
+    "chars": 6832,
+    "sha256": "f59121f59e31f00f131e21ab9fb83f340255984401148714b9037e99984e6eae",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-browser/SKILL.md",
+    "relative_path": "agent-development/agent-browser/SKILL.md",
+    "name": "agent-browser",
+    "frontmatter": {
+      "name": "agent-browser",
+      "category": "agentic-coder",
+      "title": "Agent Browser",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|",
+      "triggers": [
+        "browser",
+        "current browser tab",
+        "selected tab",
+        "open website",
+        "test this web app",
+        "take a screenshot",
+        "element screenshot",
+        "extract logo",
+        "extract fonts",
+        "extract colors",
+        "extract images",
+        "extract motion",
+        "OG metadata",
+        "accessibility",
+        "a11y",
+        "click a button",
+        "fill out a form",
+        "scrape page",
+        "QA",
+        "dogfood",
+        "bug hunt"
+      ],
+      "od": [
+        "file_write"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 274,
+    "chars": 9253,
+    "sha256": "86e65e74572fcb184ce98151b65839caeb6931558a4f1fb7f27b457280c72f02",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-core-architecture/SKILL.md",
+    "relative_path": "agent-development/agent-core-architecture/SKILL.md",
+    "name": "agent-core-architecture",
+    "frontmatter": {
+      "name": "agent-core-architecture",
+      "category": "architecture",
+      "title": "Agent Core File Architecture — SOUL.md / USER.md / MEMORY.md",
+      "description": "Use when structuring, auditing, or evolving core agent identity files (SOUL.md, USER.md, MEMORY.md) against reference architecture patterns. Covers role separation, incremental enhancement from reference docs, and verification.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes, profiles, soul, user, memory, architecture]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 181,
+    "chars": 8831,
+    "sha256": "995f4ef68691c19dd3c1d966bbd9d31e34c98b8177f17c2bdef2eadd569450e6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-governance/SKILL.md",
+    "relative_path": "agent-development/agent-governance/SKILL.md",
+    "name": "agent-governance",
+    "frontmatter": {
+      "name": "agent-governance",
+      "category": "agentic-coder",
+      "title": "Agent Governance",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 587,
+    "chars": 18945,
+    "sha256": "46a9f7a6169f9da1e79166e0fb2538beefd5dbdd26e5f312e5aaded034a804ec",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-orchestration/SKILL.md",
+    "relative_path": "agent-development/agent-orchestration/SKILL.md",
+    "name": "agent-orchestration",
+    "frontmatter": {
+      "name": "agent-orchestration",
+      "category": "agentic-coder",
+      "title": "Agent Orchestration",
+      "description": "Use when spawning and reviewing AI agents.",
+      "version": "1.0.0",
+      "author": "Hermes Curator",
+      "license": "MIT",
+      "tags": "[agents, orchestration, delegation, subagents, governance, evaluation]"
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 4381,
+    "sha256": "e6217235e458feaa29c433745f71f2b1fc36322ddf50d422d62850165cbe6c17",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/agent-owasp-compliance/SKILL.md",
+    "relative_path": "agent-development/agent-owasp-compliance/SKILL.md",
+    "name": "agent-owasp-compliance",
+    "frontmatter": {
+      "name": "agent-owasp-compliance",
+      "category": "agentic-coder",
+      "title": "Agent Owasp Compliance",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "|"
+    },
+    "has_frontmatter": true,
+    "lines": 358,
+    "chars": 12699,
+    "sha256": "7f83cc170b45fa0cf3604938c78980dfc6d42929b7d6d145539dc46b83f65c7c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  }
+]

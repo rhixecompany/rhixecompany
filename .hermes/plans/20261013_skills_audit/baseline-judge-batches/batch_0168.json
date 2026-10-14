@@ -1,0 +1,530 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/codebase-inspection/SKILL.md",
+    "relative_path": "software-development/codebase-inspection/SKILL.md",
+    "name": "codebase-inspection",
+    "frontmatter": {
+      "name": "codebase-inspection",
+      "category": "software-development",
+      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "prerequisites": []
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 3615,
+    "sha256": "a2846d75759bc3ea0cbfb7d670716db6e49d7ba9cf30047f89da6866e29bdf81",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/codemap/SKILL.md",
+    "relative_path": "software-development/codemap/SKILL.md",
+    "name": "codemap",
+    "frontmatter": {
+      "name": "codemap",
+      "category": "agentic-coder",
+      "title": "Code Map",
+      "description": "Use when onboarding to a new codebase, understanding unfamiliar repository structure, or documenting codebase architecture and dependencies.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[architecture, documentation, onboarding, codebase-analysis]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 194,
+    "chars": 6228,
+    "sha256": "3d34c2bd63e45311463483d48c2364b9d11a23e589c2da92a2d757bd698ebb0e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/codemap/scripts/codemap.mjs",
+        "lines": 483,
+        "chars": 12616,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/codemap/scripts/codemap.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/codemap/scripts/codemap.mts",
+        "lines": 483,
+        "chars": 12616,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/codemap/scripts/codemap.mts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/codemap/scripts/codemap.test.ts",
+        "lines": 130,
+        "chars": 3689,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/codemap/scripts/codemap.test.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/context7/SKILL.md",
+    "relative_path": "software-development/context7/SKILL.md",
+    "name": "context7",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when looking up current library or framework documentation, finding",
+      "license": "MIT",
+      "name": "context7",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Context7",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 4487,
+    "sha256": "5de0a3783b4b3d1d6c4dcdc72a6f775999e73708826c9fbce46a95eb45c243f7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/debugging-hermes-tui-commands/SKILL.md",
+    "relative_path": "software-development/debugging-hermes-tui-commands/SKILL.md",
+    "name": "debugging-hermes-tui-commands",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "debugging-hermes-tui-commands",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Debugging Hermes Tui Commands",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 202,
+    "chars": 9165,
+    "sha256": "3a40c5fcd1c20efbd974b8706a6cca256a762c3a90a44a8635f4a35f1be440ad",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/django-celery/SKILL.md",
+    "relative_path": "software-development/django-celery/SKILL.md",
+    "name": "django-celery",
+    "frontmatter": {
+      "name": "django-celery",
+      "tags": "[]",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "title": "Django Celery",
+      "author": "Hermes Skills Team",
+      "description": "Django + Celery async task patterns — configuration, task design, beat scheduling, retries, canvas workflows, monitoring, and testing. Use when adding background jobs, scheduled tasks, or async processing to a Django app.",
+      "metadata": [],
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 516,
+    "chars": 15166,
+    "sha256": "cfa09aad6663dd404a9d3c7a20451ecf9b38b81ce8d1def6e0a44fea95102595",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/django-celery/references/quick-reference.md",
+        "lines": 20,
+        "chars": 375,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/django-celery/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/dogfood/SKILL.md",
+    "relative_path": "software-development/dogfood/SKILL.md",
+    "name": "dogfood",
+    "frontmatter": {
+      "name": "dogfood",
+      "category": "software-development",
+      "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "version": "1.0.0",
+      "author": "Teknium (teknium1), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 6325,
+    "sha256": "276995ab5f76c207db32b27c86d66663505e164d7480960f0e2aa83051c52768",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/dogfood/references/issue-taxonomy.md",
+        "lines": 109,
+        "chars": 3682,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/dogfood/references/issue-taxonomy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/dogfood/templates/dogfood-report-template.md",
+        "lines": 86,
+        "chars": 1516,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/dogfood/templates/dogfood-report-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/executing-plans/SKILL.md",
+    "relative_path": "software-development/executing-plans/SKILL.md",
+    "name": "executing-plans",
+    "frontmatter": {
+      "name": "executing-plans",
+      "category": "documentation",
+      "title": "Executing Plans",
+      "description": "Use when executing written implementation plans in separate sessions with review checkpoints. Guides multi-phase work with structured verification.",
+      "version": "1.1.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[cross-platform, shell-scripting, remediation, batch-processing, verification]"
+    },
+    "has_frontmatter": true,
+    "lines": 225,
+    "chars": 12877,
+    "sha256": "8fd0d0c3253a5a06be8bdb73300025eb5c2340b95797d15b2c9fee7fa55fc35f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/approval-gate-pattern.md",
+        "lines": 144,
+        "chars": 5042,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/approval-gate-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/codebase-remediation-patterns.md",
+        "lines": 360,
+        "chars": 12868,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/codebase-remediation-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/cross-scope-script-remediation.md",
+        "lines": 39,
+        "chars": 1935,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/cross-scope-script-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/execution-body-reference.md",
+        "lines": 57,
+        "chars": 2302,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/execution-body-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/inventory-verification-pattern.md",
+        "lines": 84,
+        "chars": 3882,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/inventory-verification-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/orchestrator-prompt-pattern.md",
+        "lines": 59,
+        "chars": 2628,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/orchestrator-prompt-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/prompt-consolidation-pattern.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/prompt-consolidation-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/scrape-artifact-remediation.md",
+        "lines": 67,
+        "chars": 4117,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/scrape-artifact-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/subagent-batch-execution.md",
+        "lines": 126,
+        "chars": 6286,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/references/subagent-batch-execution.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/scripts/bulk-placeholder-sweep.py",
+        "lines": 119,
+        "chars": 3699,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/executing-plans/scripts/bulk-placeholder-sweep.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 21
+  }
+]

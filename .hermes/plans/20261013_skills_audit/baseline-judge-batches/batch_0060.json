@@ -1,0 +1,420 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/instruction-quick-commands/SKILL.md",
+    "relative_path": "development/instruction-quick-commands/SKILL.md",
+    "name": "instruction-quick-commands",
+    "frontmatter": {
+      "name": "instruction-quick-commands",
+      "category": "agentic-coder",
+      "title": "Instruction Quick Commands",
+      "description": "Script for Instruction Quick Commands operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2645,
+    "sha256": "53a436fac2c21f662ad27201d7ec737f592a401d67434ddce26a06d5c9689dc3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/inventory-agents/SKILL.md",
+    "relative_path": "development/inventory-agents/SKILL.md",
+    "name": "inventory-agents",
+    "frontmatter": {
+      "name": "inventory-agents",
+      "category": "agentic-coder",
+      "title": "Inventory Agents",
+      "description": "Inventories agents",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "powershell",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2586,
+    "sha256": "de111348482d653cb5b4c85fd4bac399f7917f54da54988158e506d736bc8494",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-agents/references/overview.md",
+        "lines": 29,
+        "chars": 774,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-agents/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-agents/templates/template.md",
+        "lines": 13,
+        "chars": 137,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-agents/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/inventory-prompts/SKILL.md",
+    "relative_path": "development/inventory-prompts/SKILL.md",
+    "name": "inventory-prompts",
+    "frontmatter": {
+      "name": "inventory-prompts",
+      "category": "agentic-coder",
+      "title": "Inventory Prompts",
+      "description": "Creates inventory of prompts in the system",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2594,
+    "sha256": "c36c1b9a107add45660bbb76a71548b258f7338f4f7fcc1b779a5f8756926fa5",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-prompts/references/overview.md",
+        "lines": 59,
+        "chars": 2583,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-prompts/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-prompts/templates/template.md",
+        "lines": 18,
+        "chars": 153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/inventory-prompts/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/SKILL.md",
+    "relative_path": "development/issue-fields-migration/SKILL.md",
+    "name": "issue-fields-migration",
+    "frontmatter": {
+      "name": "issue-fields-migration",
+      "category": "agentic-coder",
+      "title": "Issue Fields Migration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field) and Project V2 fields. Use when users say \"migrate my labels to issue fields\", \"migrate project fields to issue fields\", \"convert labels to issue fields\", \"copy project field values to issue fields\", or ask about adopting issue fields. Issue fields are org-level typed metadata (single select, text, number, date) that replace label-based workarounds with structured, searchable, cross-repo fields."
+    },
+    "has_frontmatter": true,
+    "lines": 555,
+    "chars": 24812,
+    "sha256": "c50b23663c13438ad0e8afb50a8f81ef0dbc13dd5bf4379bbd73d79d8456f38d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/references/issue-fields-api.md",
+        "lines": 129,
+        "chars": 3333,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/references/issue-fields-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/references/labels-api.md",
+        "lines": 74,
+        "chars": 2160,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/references/labels-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/references/projects-api.md",
+        "lines": 116,
+        "chars": 3443,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/issue-fields-migration/references/projects-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 58,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 20,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-add-graalvm-native-image-support/SKILL.md",
+    "relative_path": "development/java-add-graalvm-native-image-support/SKILL.md",
+    "name": "java-add-graalvm-native-image-support",
+    "frontmatter": {
+      "name": "java-add-graalvm-native-image-support",
+      "category": "agentic-coder",
+      "title": "Java Add Graalvm Native Image Support",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates until successful compilation using Oracle best practices."
+    },
+    "has_frontmatter": true,
+    "lines": 488,
+    "chars": 13927,
+    "sha256": "7d9ddcf591e2416a0fd33833e8480dfcaaccf9abb9f46f905109e2416c65f34b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-docs/SKILL.md",
+    "relative_path": "development/java-docs/SKILL.md",
+    "name": "java-docs",
+    "frontmatter": {
+      "name": "java-docs",
+      "category": "documentation",
+      "title": "Java Docs",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation."
+    },
+    "has_frontmatter": true,
+    "lines": 62,
+    "chars": 2401,
+    "sha256": "98fb01f8497f27c404ef19e2515c60dd53a95bc6d6ae9672f7fbb47db926362b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/java-helidon/SKILL.md",
+    "relative_path": "development/java-helidon/SKILL.md",
+    "name": "java-helidon",
+    "frontmatter": {
+      "name": "java-helidon",
+      "category": "agentic-coder",
+      "title": "Java Helidon",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for developing applications with Helidon 4 (SE and MP). Use when working with Helidon SE or Helidon MP, HttpService routing, Helidon DB Client, MicroProfile Config, Helidon Security, or Helidon testing in Java 21+ projects."
+    },
+    "has_frontmatter": true,
+    "lines": 474,
+    "chars": 19090,
+    "sha256": "c21480e70f658d70724760a8f0aa1b4a9f2f6b6ecb69c77ae15dc7b6478ef8c7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  }
+]

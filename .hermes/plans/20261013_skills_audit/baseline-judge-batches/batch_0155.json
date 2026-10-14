@@ -1,0 +1,380 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/remember/SKILL.md",
+    "relative_path": "productivity/remember/SKILL.md",
+    "name": "remember",
+    "frontmatter": {
+      "name": "remember",
+      "category": "agentic-coder",
+      "title": "Remember",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or `ws`."
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 7486,
+    "sha256": "1d5414f48f4e8c021a540bcbee027cf893bc59393756cddc951ac9abfc78fbb0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/session-librarian/SKILL.md",
+    "relative_path": "productivity/session-librarian/SKILL.md",
+    "name": "session-librarian",
+    "frontmatter": {
+      "name": "session-librarian",
+      "category": "agentic-coder",
+      "title": "Session Librarian",
+      "description": "Organize sessions by prompt: find, rename, archive, prune.",
+      "version": "1.0.0",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 5377,
+    "sha256": "6e078d1c122b64816e3b9248d38ad95d706d7caf1ff5f31e3bff64f6cdf48475",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/shop-app/SKILL.md",
+    "relative_path": "productivity/shop-app/SKILL.md",
+    "name": "shop-app",
+    "frontmatter": {
+      "author": "community",
+      "description": "Shop.app: product search, order tracking, returns, reorder.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "shop-app",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Shop App",
+      "version": "0.0.28"
+    },
+    "has_frontmatter": true,
+    "lines": 406,
+    "chars": 15928,
+    "sha256": "5e810b3f901636201dcd145a3be23c237536c29fc61528b6f48d4ca0702ab44a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/shop-app/references/overview.md",
+        "lines": 11,
+        "chars": 152,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/shop-app/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/shopify/SKILL.md",
+    "relative_path": "productivity/shopify/SKILL.md",
+    "name": "shopify",
+    "frontmatter": {
+      "name": "shopify",
+      "category": "agentic-coder",
+      "title": "Shopify",
+      "description": "Shopify Admin & Storefront GraphQL APIs via curl. Products, orders, customers, inventory, metafields.",
+      "version": "1.0.0",
+      "author": "community",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "prerequisites": [],
+      "required_environment_variables": [
+        "name: SHOPIFY_ACCESS_TOKEN",
+        "name: SHOPIFY_STORE_DOMAIN",
+        "name: SHOPIFY_API_VERSION"
+      ],
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 419,
+    "chars": 16721,
+    "sha256": "4313ddae51c3beb192223b9a2156359c755259faa12db536df9f8051e6d44c53",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 76,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/shopify-review-triage/SKILL.md",
+    "relative_path": "productivity/shopify-review-triage/SKILL.md",
+    "name": "shopify-review-triage",
+    "frontmatter": {
+      "name": "shopify-review-triage",
+      "category": "agentic-coder",
+      "title": "Shopify Review Triage",
+      "tags": "[]",
+      "description": "Use this skill when someone wants public Shopify App Store reviews, low-star reviews, or merchant feedback triaged, prioritized, clustered, or turned into a product or support brief. Trigger for prompts like \"triage these app store reviews\", \"what should we fix first from this feedback\", \"cluster our 1-star reviews\", or \"write a weekly low-star review brief\", for a single Shopify app or a portfolio plus watched competitors. Produces a P0-P3 brief covering incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket, where every item keeps its public source link and stays labeled first pass or human-checked. Do not trigger for support tickets, order data, or any other private merchant data, and never use it to reply to or contact a reviewer.",
+      "license": "MIT",
+      "compatibility": "Cross-platform. Pure reasoning skill over review rows the user pastes - no network access, scripts, API keys, or system packages. Portable to any client that supports the Agent Skills SKILL.md format.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 332,
+    "chars": 17584,
+    "sha256": "a2476ac153d4cb37e8253e25e9fa51c54686fefe5dc5f10579be33cdbb2121d6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 11,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/siyuan/SKILL.md",
+    "relative_path": "productivity/siyuan/SKILL.md",
+    "name": "siyuan",
+    "frontmatter": {
+      "name": "siyuan",
+      "category": "agentic-coder",
+      "title": "Siyuan",
+      "description": "SiYuan Note API for searching, reading, creating, and managing blocks and documents in a self-hosted knowledge base via curl.",
+      "version": "1.0.0",
+      "author": "FEUAZUR",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "prerequisites": [],
+      "required_environment_variables": [
+        "name: SIYUAN_TOKEN",
+        "name: SIYUAN_URL"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 344,
+    "chars": 10857,
+    "sha256": "7ccaca3604a155d4c6b07e0d430456e7f41df1c8c9b9322465950fcd417402c2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/task-management/SKILL.md",
+    "relative_path": "productivity/task-management/SKILL.md",
+    "name": "task-management",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when tracking and managing feature subtasks with status, dependencies,",
+      "license": "MIT",
+      "name": "task-management",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Task Management",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 2315,
+    "sha256": "ae43863bae47dedc374d7577f524b75c6296998c2aa3e156acf6eb9bc897127d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/task-management/references/overview.md",
+        "lines": 19,
+        "chars": 362,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/task-management/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/task-management/scripts/task-cli.ts",
+        "lines": 611,
+        "chars": 17576,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/task-management/scripts/task-cli.ts:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 8,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  }
+]

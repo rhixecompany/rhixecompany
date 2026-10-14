@@ -1,0 +1,384 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/honcho/SKILL.md",
+    "relative_path": "autonomous-ai-agents/honcho/SKILL.md",
+    "name": "honcho",
+    "frontmatter": {
+      "name": "honcho",
+      "category": "autonomous-ai-agents",
+      "description": "Configure and troubleshoot Honcho memory for Hermes.",
+      "version": "2.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "prerequisites": "pip: [honcho-ai]",
+      "title": "Honcho",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 470,
+    "chars": 20334,
+    "sha256": "9ccca6ccc396c247131adfa8a4c133e7277e45b741adc265c9a762f007c40c74",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 56
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/autonomous-ai-agents/opencode/SKILL.md",
+    "relative_path": "autonomous-ai-agents/opencode/SKILL.md",
+    "name": "opencode",
+    "frontmatter": {
+      "name": "opencode",
+      "category": "autonomous-ai-agents",
+      "description": "Delegate coding to OpenCode CLI (features, PR review).",
+      "version": "1.2.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 220,
+    "chars": 7320,
+    "sha256": "70be3479ddb26cd45d0730bc31e56f3e511131bf0f0ec7e7e628a2562c0ccd36",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/blockchain/Chainlink/SKILL.md",
+    "relative_path": "blockchain/Chainlink/SKILL.md",
+    "name": "Chainlink",
+    "frontmatter": {
+      "name": "Chainlink",
+      "version": "1.0.0",
+      "title": "Chainlink",
+      "author": "Hermes Skills Team",
+      "description": "Assist with Chainlink LINK tokens, oracle integrations, staking, and price feed usage.",
+      "category": "agentic-coder",
+      "metadata": "{\"clawdbot\":{\"emoji\":\"⬡\",\"os\":[\"linux\",\"darwin\",\"win32\"]}}",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 131,
+    "chars": 5777,
+    "sha256": "32eb40b395d6d60c4bb383ba1dc12f2f8beb94c7dc770ae502cb488dfdd29dee",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/Chainlink/references/quick-reference.md",
+        "lines": 4,
+        "chars": 84,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/Chainlink/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/blockchain/SKILL.md",
+    "relative_path": "blockchain/SKILL.md",
+    "name": "blockchain",
+    "frontmatter": {
+      "name": "blockchain",
+      "category": "agentic-coder",
+      "title": "Blockchain Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for blockchain — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1461,
+    "sha256": "a4472f4d2bba79f6a2a8dd1c365b3086044ab1e60b2f77102243bf45628901e1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/blockchain/chainlink/SKILL.md",
+    "relative_path": "blockchain/chainlink/SKILL.md",
+    "name": "Chainlink",
+    "frontmatter": {
+      "name": "Chainlink",
+      "version": "1.0.0",
+      "title": "Chainlink",
+      "author": "Hermes Skills Team",
+      "description": "Assist with Chainlink LINK tokens, oracle integrations, staking, and price feed usage.",
+      "category": "agentic-coder",
+      "metadata": "{\"clawdbot\":{\"emoji\":\"⬡\",\"os\":[\"linux\",\"darwin\",\"win32\"]}}",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 131,
+    "chars": 5777,
+    "sha256": "32eb40b395d6d60c4bb383ba1dc12f2f8beb94c7dc770ae502cb488dfdd29dee",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/chainlink/references/quick-reference.md",
+        "lines": 4,
+        "chars": 84,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/chainlink/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/blockchain/evm/SKILL.md",
+    "relative_path": "blockchain/evm/SKILL.md",
+    "name": "evm",
+    "frontmatter": {
+      "name": "evm",
+      "category": "agentic-coder",
+      "title": "Evm",
+      "description": "Read-only EVM client: wallets, tokens, gas across 8 chains.",
+      "version": "1.0.0",
+      "author": "Mibayy (@Mibayy), youssefea (@youssefea), ethernet8023 (@ethernet8023), Hermes Agent",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 233,
+    "chars": 8826,
+    "sha256": "1a6f94c90e28bd1910be51466a665e5c8cbcbc33d174beb9eca255e5f4990cb0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/evm/scripts/evm_client.py",
+        "lines": 1508,
+        "chars": 55875,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/evm/scripts/evm_client.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/blockchain/solana/SKILL.md",
+    "relative_path": "blockchain/solana/SKILL.md",
+    "name": "solana",
+    "frontmatter": {
+      "name": "solana",
+      "category": "agentic-coder",
+      "title": "Solana",
+      "description": "Query Solana blockchain data with USD pricing — wallet balances, token portfolios with values, transaction details, NFTs, whale detection, and live network stats. Uses Solana RPC + CoinGecko. No API key required.",
+      "version": "0.2.0",
+      "author": "Deniz Alagoz (gizdusum), enhanced by Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 248,
+    "chars": 7914,
+    "sha256": "91d9ff3b8412f51a6c84333a167d07a17e233e030a9bf75607acc8e9e4de9589",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/solana/scripts/solana_client.py",
+        "lines": 698,
+        "chars": 26019,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/blockchain/solana/scripts/solana_client.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-cli/SKILL.md",
+    "relative_path": "mcp/mcp-cli/SKILL.md",
+    "name": "mcp-cli",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Mcp Cli.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "mcp-cli",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "Mcp Cli",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 4896,
+    "sha256": "086e9eb31cf556fb4e585cc7582e6bc8b09b6e1631e591070a59c59f8f36d821",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 31
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-code-sandbox/SKILL.md",
+    "relative_path": "mcp/mcp-code-sandbox/SKILL.md",
+    "name": "mcp-code-sandbox",
+    "frontmatter": {
+      "name": "mcp-code-sandbox",
+      "category": "agentic-coder",
+      "title": "MCP Code Sandbox — JavaScript Execution Environment",
+      "description": "Exposes all code-sandbox MCP tools for running JavaScript code, managing sandboxed environments, listing prompts, and searching npm packages.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "code-sandbox",
+        "javascript",
+        "execution",
+        "sandbox"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 103,
+    "chars": 3497,
+    "sha256": "4af28e91753f27a9c65b436608bc42d809887afd6e65c2e2d2c9ac0ef91c9f04",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-coderabbit-cli-mcp/SKILL.md",
+    "relative_path": "mcp/mcp-coderabbit-cli-mcp/SKILL.md",
+    "name": "mcp-coderabbit-cli-mcp",
+    "frontmatter": {
+      "name": "mcp-coderabbit-cli-mcp",
+      "category": "agentic-coder",
+      "title": "MCP CodeRabbit CLI — Code Review",
+      "description": "Exposes all coderabbit-cli-mcp MCP tools for running code reviews, managing prompts, and reading resources.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "coderabbit",
+        "code-review",
+        "ai-review"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 94,
+    "chars": 3036,
+    "sha256": "9bbaf3f12d471c499f38beb4ecbf30ac34b33bb82009f5cdffd1335ac9f7c498",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-codex/SKILL.md",
+    "relative_path": "mcp/mcp-codex/SKILL.md",
+    "name": "mcp-codex",
+    "frontmatter": {
+      "name": "mcp-codex",
+      "category": "agentic-coder",
+      "title": "MCP Codex — OpenAI Codex CLI Integration",
+      "description": "Exposes all Codex MCP tools for creating and continuing AI coding sessions via OpenAI Codex CLI. Includes test cases per tool.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "codex",
+        "openai",
+        "coding-agent"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 104,
+    "chars": 3148,
+    "sha256": "6c19f584b0993d37961d36bf540820522a327ec144a4e2068be0da6b960ce03d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-coding-agent-setup/SKILL.md",
+    "relative_path": "mcp/mcp-coding-agent-setup/SKILL.md",
+    "name": "mcp-coding-agent-setup",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Install, configure, and test MCP servers for MindStudio, Codex CLI, and",
+      "license": "MIT",
+      "name": "mcp-coding-agent-setup",
+      "category": "agentic-coder",
+      "platforms": [
+        "windows"
+      ],
+      "prerequisites": [
+        "mindstudio",
+        "codex",
+        "copilot",
+        "fastmcp"
+      ],
+      "title": "MCP Coding Agent Setup",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 228,
+    "chars": 6442,
+    "sha256": "390abe62dd78d36ed078e64405370919c952910eaad622da03f3448d239eb3c7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-coding-agent-setup/references/quick-reference.md",
+        "lines": 25,
+        "chars": 589,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/mcp/mcp-coding-agent-setup/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 77,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-context7/SKILL.md",
+    "relative_path": "mcp/mcp-context7/SKILL.md",
+    "name": "mcp-context7",
+    "frontmatter": {
+      "name": "mcp-context7",
+      "category": "agentic-coder",
+      "title": "MCP Context7 — Library Documentation Query",
+      "description": "Exposes all context7 MCP tools for querying up-to-date documentation and code examples for any programming library or framework via Context7.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "context7",
+        "documentation",
+        "library",
+        "search"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 120,
+    "chars": 4919,
+    "sha256": "c2c7f4a50a1bb1674a0d9ddabf3f9719364ced035d2a69f0ed81aab6213954e3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-copilot-studio-server-generator/SKILL.md",
+    "relative_path": "mcp/mcp-copilot-studio-server-generator/SKILL.md",
+    "name": "mcp-copilot-studio-server-generator",
+    "frontmatter": {
+      "name": "mcp-copilot-studio-server-generator",
+      "category": "agentic-coder",
+      "title": "Mcp Copilot Studio Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support"
+    },
+    "has_frontmatter": true,
+    "lines": 157,
+    "chars": 5266,
+    "sha256": "c150c2a8995f025f6e1aad14773afdd8caf7148f934501ca41123109ae33a87d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 6
+  }
+]

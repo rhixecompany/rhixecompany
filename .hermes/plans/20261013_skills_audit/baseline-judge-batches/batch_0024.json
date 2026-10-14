@@ -1,0 +1,797 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/SKILL.md",
+    "relative_path": "creative/touchdesigner-mcp/SKILL.md",
+    "name": "touchdesigner-mcp",
+    "frontmatter": {
+      "name": "touchdesigner-mcp",
+      "category": "architecture",
+      "title": "Touchdesigner MCP",
+      "description": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+      "version": "1.1.0",
+      "author": "kshitijk4poor",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 391,
+    "chars": 16854,
+    "sha256": "620c0f0e733d2425155265e3eadbe4b60a721f29f0c6c05ddfe172a620a6a250",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/3d-scene.md",
+        "lines": 275,
+        "chars": 10237,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/3d-scene.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/animation.md",
+        "lines": 221,
+        "chars": 7214,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/animation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/audio-reactive.md",
+        "lines": 175,
+        "chars": 5044,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/audio-reactive.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/dat-scripting.md",
+        "lines": 352,
+        "chars": 11542,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/dat-scripting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/external-data.md",
+        "lines": 322,
+        "chars": 9153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/external-data.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/geometry-comp.md",
+        "lines": 121,
+        "chars": 3556,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/geometry-comp.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/glsl.md",
+        "lines": 151,
+        "chars": 3461,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/glsl.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/layout-compositor.md",
+        "lines": 131,
+        "chars": 3536,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/layout-compositor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/mcp-tools.md",
+        "lines": 382,
+        "chars": 30317,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/mcp-tools.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/midi-osc.md",
+        "lines": 211,
+        "chars": 7322,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/midi-osc.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/network-patterns.md",
+        "lines": 966,
+        "chars": 33525,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/network-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/operator-tips.md",
+        "lines": 106,
+        "chars": 3454,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/operator-tips.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/operators.md",
+        "lines": 239,
+        "chars": 14697,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/operators.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/panel-ui.md",
+        "lines": 281,
+        "chars": 10040,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/panel-ui.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/particles.md",
+        "lines": 245,
+        "chars": 8699,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/particles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/pitfalls.md",
+        "lines": 704,
+        "chars": 31123,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/postfx.md",
+        "lines": 183,
+        "chars": 4627,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/postfx.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/projection-mapping.md",
+        "lines": 211,
+        "chars": 8057,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/projection-mapping.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/python-api.md",
+        "lines": 463,
+        "chars": 12495,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/python-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/replicator.md",
+        "lines": 198,
+        "chars": 8158,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/replicator.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/troubleshooting.md",
+        "lines": 244,
+        "chars": 7441,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/scripts/setup.sh",
+        "lines": 115,
+        "chars": 4366,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/touchdesigner-mcp/scripts/setup.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/update-implementation-plan/SKILL.md",
+    "relative_path": "creative/update-implementation-plan/SKILL.md",
+    "name": "update-implementation-plan",
+    "frontmatter": {
+      "name": "update-implementation-plan",
+      "category": "documentation",
+      "title": "Update Implementation Plan",
+      "description": "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 214,
+    "chars": 8639,
+    "sha256": "107d6bf320c579adfd3a37be804e2ba8fd5d32a3849494af93a4d9e4e84a6fd2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/update-implementation-plan/references/update-subgoal-reference.md",
+        "lines": 22,
+        "chars": 2041,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/update-implementation-plan/references/update-subgoal-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/update-implementation-plan/templates/update-template.md",
+        "lines": 12,
+        "chars": 936,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/update-implementation-plan/templates/update-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/vcpkg/SKILL.md",
+    "relative_path": "creative/vcpkg/SKILL.md",
+    "name": "vcpkg",
+    "frontmatter": {
+      "name": "vcpkg",
+      "category": "agentic-coder",
+      "title": "Vcpkg",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling. Covers manifest initialization, CMake and Visual Studio integration, classic-to-manifest migration, version pinning, baselines, overrides, triplets, and cross-compilation. Use when a user is working with vcpkg project setup, installation, version management, or cross-platform builds. For specialized tasks, additional references cover custom registries and overlay ports (references/registries.md), CI/CD and binary caching (references/ci.md), and troubleshooting and dependency lifecycle (references/troubleshooting.md)."
+    },
+    "has_frontmatter": true,
+    "lines": 293,
+    "chars": 11263,
+    "sha256": "dd6d829463c01530c427316885bf58ab91be5444fd3e815ca5751f2a3b2c3ceb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vcpkg/references/ci.md",
+        "lines": 125,
+        "chars": 4300,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vcpkg/references/ci.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vcpkg/references/registries.md",
+        "lines": 140,
+        "chars": 3143,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vcpkg/references/registries.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vcpkg/references/troubleshooting.md",
+        "lines": 101,
+        "chars": 3469,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vcpkg/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 59,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/SKILL.md",
+    "relative_path": "creative/vercel-react-view-transitions/SKILL.md",
+    "name": "vercel-react-view-transitions",
+    "frontmatter": {
+      "name": "vercel-react-view-transitions",
+      "category": "agentic-coder",
+      "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "license": "MIT",
+      "metadata": [],
+      "author": "vercel",
+      "version": "1.0.0",
+      "title": "Vercel React View Transitions"
+    },
+    "has_frontmatter": true,
+    "lines": 348,
+    "chars": 15399,
+    "sha256": "52df95d581ac0e608b01eb8ff91acafcba5dfd36a09a22621b2c2d6eaa0f5083",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/css-recipes.md",
+        "lines": 312,
+        "chars": 8323,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/css-recipes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/implementation.md",
+        "lines": 170,
+        "chars": 9248,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/implementation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/nextjs.md",
+        "lines": 233,
+        "chars": 10678,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/nextjs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/patterns.md",
+        "lines": 274,
+        "chars": 11893,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/troubleshooting.md",
+        "lines": 47,
+        "chars": 4922,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vercel-react-view-transitions/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/vsdc-video-masking/SKILL.md",
+    "relative_path": "creative/vsdc-video-masking/SKILL.md",
+    "name": "vsdc-video-masking",
+    "frontmatter": {
+      "name": "vsdc-video-masking",
+      "category": "agentic-coder",
+      "title": "Video Masking in VSDC Video Editor",
+      "description": "Use when applying video masks in VSDC Pro for face blurring, object tracking, and selective effects — covers inverted masks, motion tracking, and composition modes.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[vsdc, video-editor, masking, face-blur, motion-tracking, video-effects, pro]"
+    },
+    "has_frontmatter": true,
+    "lines": 154,
+    "chars": 5345,
+    "sha256": "e9ea8e36152e1e78122edb7a0388799c9ae436b07524f0733235ce8e3a00eacf",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vsdc-video-masking/references/vsdc-masking-patterns.md",
+        "lines": 41,
+        "chars": 943,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/vsdc-video-masking/references/vsdc-masking-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/SKILL.md",
+    "relative_path": "creative/web-artifacts-builder/SKILL.md",
+    "name": "web-artifacts-builder",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when creating complex HTML artifacts with React, Tailwind CSS, shadcn/ui",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "web-artifacts-builder",
+      "category": "agentic-coder",
+      "tags": [
+        "web",
+        "react",
+        "tailwind",
+        "artifacts",
+        "shadcn"
+      ],
+      "title": "Web Artifacts Builder",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 95,
+    "chars": 2531,
+    "sha256": "47921a9d2c55acc31e04a6bc9684607d0d3b5cc7b4c5f44977d3f11d9e563e26",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/references/overview.md",
+        "lines": 19,
+        "chars": 377,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/scripts/bundle-artifact.sh",
+        "lines": 54,
+        "chars": 1490,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/scripts/bundle-artifact.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/scripts/init-artifact.sh",
+        "lines": 322,
+        "chars": 9856,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/scripts/init-artifact.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/scripts/shadcn-components.tar.gz",
+        "lines": 572,
+        "chars": 18974,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/web-artifacts-builder/scripts/shadcn-components.tar.gz:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/web-design-guidelines/SKILL.md",
+    "relative_path": "creative/web-design-guidelines/SKILL.md",
+    "name": "web-design-guidelines",
+    "frontmatter": {
+      "name": "web-design-guidelines",
+      "category": "architecture",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "metadata": [],
+      "author": "vercel",
+      "version": "1.0.0",
+      "argument-hint": "<file-or-pattern>",
+      "title": "Web Design Guidelines"
+    },
+    "has_frontmatter": true,
+    "lines": 55,
+    "chars": 1798,
+    "sha256": "fd09b8790a388e94eed71c6a35125fe463575ca5d4b7d39ec594de02db3e1f65",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/mypy/SKILL.md",
+    "relative_path": "development/mypy/SKILL.md",
+    "name": "mypy",
+    "frontmatter": {
+      "name": "mypy",
+      "category": "agentic-coder",
+      "title": "Mypy",
+      "description": "Script for Mypy operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2433,
+    "sha256": "0dce4f1bc9e02a125d39c9a56add4ebcc738762229bde1b76e87ce4ae5ff28d2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/namecheap/SKILL.md",
+    "relative_path": "development/namecheap/SKILL.md",
+    "name": "namecheap",
+    "frontmatter": {
+      "name": "namecheap",
+      "category": "agentic-coder",
+      "title": "Namecheap",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup including public IP detection and credential configuration. Use when the user mentions Namecheap, DNS records, domain management, or wants to add/change/remove A records, CNAME records, MX records, or TXT records for their domains."
+    },
+    "has_frontmatter": true,
+    "lines": 151,
+    "chars": 7480,
+    "sha256": "36c3e8c99dd996668d550cf68a7f4536fbc1a41d7f64763c85b258fca7042459",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/namecheap/references/namecheap-api.md",
+        "lines": 392,
+        "chars": 10833,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/namecheap/references/namecheap-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/next-intl-add-language/SKILL.md",
+    "relative_path": "development/next-intl-add-language/SKILL.md",
+    "name": "next-intl-add-language",
+    "frontmatter": {
+      "name": "next-intl-add-language",
+      "category": "agentic-coder",
+      "title": "Next Intl Add Language",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Add new language to a Next.js + next-intl application"
+    },
+    "has_frontmatter": true,
+    "lines": 58,
+    "chars": 1738,
+    "sha256": "67309f10860a87945db91f162e2ce04e0bd1f77fe0d25d230bd10d5df4e3efab",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/no-git-delete/SKILL.md",
+    "relative_path": "development/no-git-delete/SKILL.md",
+    "name": "no-git-delete",
+    "frontmatter": {
+      "name": "no-git-delete",
+      "category": "agentic-coder",
+      "description": "Constraint flag: never delete git history, branches, tags, or repository structure. Prevents destructive git operations during automated workflows.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "constraint",
+        "git",
+        "safety",
+        "preservation"
+      ],
+      "title": "No Git Delete",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 107,
+    "chars": 2610,
+    "sha256": "96c41a881369d6bf8082254ed3e291d374696110f73a98d0475d6937a3c0243d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/no-git-delete/references/overview.md",
+        "lines": 11,
+        "chars": 167,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/no-git-delete/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/normalize-frontmatter/SKILL.md",
+    "relative_path": "development/normalize-frontmatter/SKILL.md",
+    "name": "normalize-frontmatter",
+    "frontmatter": {
+      "name": "normalize-frontmatter",
+      "category": "agentic-coder",
+      "title": "Normalize Frontmatter",
+      "description": "Script for Normalize Frontmatter operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "frontmatter",
+        "normalization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2639,
+    "sha256": "c537d73412260caf84a7fc0d11c22541cb13513e6737c6b06ad1bc1d2c9b41d0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/normalize-lf/SKILL.md",
+    "relative_path": "development/normalize-lf/SKILL.md",
+    "name": "normalize-lf",
+    "frontmatter": {
+      "name": "normalize-lf",
+      "category": "agentic-coder",
+      "title": "Normalize Lf",
+      "description": "Normalizes lf formatting",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "normalization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2523,
+    "sha256": "4a0209e2085651d156b53500d0c37bebf2f6da5c2f220ba035549b78311c83bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/normalize-plan-frontmatter/SKILL.md",
+    "relative_path": "development/normalize-plan-frontmatter/SKILL.md",
+    "name": "normalize-plan-frontmatter",
+    "frontmatter": {
+      "name": "normalize-plan-frontmatter",
+      "category": "documentation",
+      "title": "Normalize Plan Frontmatter",
+      "description": "Normalizes plan frontmatter formatting",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "frontmatter",
+        "normalization",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2679,
+    "sha256": "c9a1ef4d04802c979d4e04aed6b39be1eb639fd94ef00ed26d7888d2ab7e3f45",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

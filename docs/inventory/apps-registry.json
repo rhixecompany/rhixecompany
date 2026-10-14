@@ -1,0 +1,518 @@
+[
+  {
+    "DisplayName": "NVM for Windows 1.2.2",
+    "DisplayVersion": "1.2.2",
+    "Publisher": "Author Software Inc.",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\nvm\\"
+  },
+  {
+    "DisplayName": "Git",
+    "DisplayVersion": "2.55.0.5",
+    "Publisher": "The Git Development Community",
+    "InstallLocation": "C:\\Program Files\\Git\\"
+  },
+  {
+    "DisplayName": "Intel(R) Graphics Software & Drivers",
+    "DisplayVersion": "1.0.1315.7",
+    "Publisher": "Intel(R) Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "VLC media player",
+    "DisplayVersion": "3.0.24",
+    "Publisher": "VideoLAN",
+    "InstallLocation": "C:\\Program Files\\VideoLAN\\VLC"
+  },
+  {
+    "DisplayName": "Windows Subsystem for Linux",
+    "DisplayVersion": "2.7.13.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host FX Resolver - 8.0.31 (x64)",
+    "DisplayVersion": "64.124.58447",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host - 10.0.12 (x64)",
+    "DisplayVersion": "80.48.58476",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Application Compatibility Fix Database",
+    "DisplayVersion": null,
+    "Publisher": null,
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Python 3.14.7 Development Libraries (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "GitHub CLI",
+    "DisplayVersion": "2.102.0",
+    "Publisher": "GitHub, Inc.",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 Standard Library (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Documentation Manager",
+    "DisplayVersion": "23.40.0.4",
+    "Publisher": "Intel Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host - 8.0.31 (x64)",
+    "DisplayVersion": "64.124.58447",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Bonjour",
+    "DisplayVersion": "3.1.0.1",
+    "Publisher": "Apple Inc.",
+    "InstallLocation": "C:\\Program Files (x86)\\Bonjour\\"
+  },
+  {
+    "DisplayName": "Python 3.14.7 Tcl/Tk Support (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host - 9.0.20 (x64)",
+    "DisplayVersion": "72.80.58335",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 pip Bootstrap (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 9.0.20 (x64)",
+    "DisplayVersion": "72.80.58453",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Google Drive",
+    "DisplayVersion": "132.0.0.0",
+    "Publisher": "Google LLC",
+    "InstallLocation": "C:\\Program Files\\Google\\Drive File Stream\\132.0.0.0\\GoogleDriveFS.exe"
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.51.36247",
+    "DisplayVersion": "14.51.36247",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 Core Interpreter (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Runtime - 9.0.20 (x64)",
+    "DisplayVersion": "72.80.58335",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 Test Suite (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 10.0.12 (x64)",
+    "DisplayVersion": "80.48.58476",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Runtime - 10.0.12 (x64)",
+    "DisplayVersion": "80.48.58476",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.51.36247",
+    "DisplayVersion": "14.51.36247",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 Documentation (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Tailscale",
+    "DisplayVersion": "1.102.4",
+    "Publisher": "Tailscale Inc.",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft ASP.NET Core 8.0.31 Shared Framework (x64)",
+    "DisplayVersion": "8.0.31.26421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "PowerShell 7-x64",
+    "DisplayVersion": "7.6.6.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 Add to Path (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Runtime - 8.0.31 (x64)",
+    "DisplayVersion": "64.124.58447",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host FX Resolver - 9.0.20 (x64)",
+    "DisplayVersion": "72.80.58335",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host FX Resolver - 10.0.12 (x64)",
+    "DisplayVersion": "80.48.58476",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 8.0.31 (x64)",
+    "DisplayVersion": "64.124.58455",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python 3.14.7 Executables (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "PowerToys (Preview)",
+    "DisplayVersion": "0.101.2362.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\PowerToys\\"
+  },
+  {
+    "DisplayName": "AnyDesk",
+    "DisplayVersion": "ad 9.8.1",
+    "Publisher": "AnyDesk Software GmbH",
+    "InstallLocation": "\"C:\\Program Files (x86)\\AnyDesk\""
+  },
+  {
+    "DisplayName": "Google Chrome",
+    "DisplayVersion": "155.0.8059.40",
+    "Publisher": "Google LLC",
+    "InstallLocation": "C:\\Program Files\\Google\\Chrome\\Application"
+  },
+  {
+    "DisplayName": "Microsoft Edge",
+    "DisplayVersion": "155.0.4283.45",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
+  },
+  {
+    "DisplayName": "Microsoft Edge WebView2 Runtime",
+    "DisplayVersion": "154.0.4258.62",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application"
+  },
+  {
+    "DisplayName": "Intel(R) Wireless Bluetooth(R)",
+    "DisplayVersion": "23.40.0.2",
+    "Publisher": "Intel Corporation",
+    "InstallLocation": "C:\\Program Files (x86)\\Intel\\"
+  },
+  {
+    "DisplayName": "Intelr Driver & Support Assistant",
+    "DisplayVersion": "26.2.0.7",
+    "Publisher": "Intel",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 8.0.31 (x86)",
+    "DisplayVersion": "64.124.58455",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ v14 Redistributable (x64) - 14.51.36247",
+    "DisplayVersion": "14.51.36247.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft ASP.NET Core 8.0.31 - Shared Framework (x86)",
+    "DisplayVersion": "8.0.31.26421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft ASP.NET Core 8.0.31 Shared Framework (x86)",
+    "DisplayVersion": "8.0.31.26421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 8.0.31 (x64)",
+    "DisplayVersion": "8.0.31.36421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Intel Driver && Support Assistant",
+    "DisplayVersion": "26.2.0.7",
+    "Publisher": "Intel",
+    "InstallLocation": "C:\\Program Files (x86)\\Intel\\Driver and Support Assistant\\"
+  },
+  {
+    "DisplayName": "Microsoft .NET Runtime - 8.0.31 (x64)",
+    "DisplayVersion": "8.0.31.36420",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.51.36247",
+    "DisplayVersion": "14.51.36247",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "TypeScript SDK 5.9.2.0",
+    "DisplayVersion": "5.9.2.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.51.36247",
+    "DisplayVersion": "14.51.36247",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Tailscale",
+    "DisplayVersion": "1.102.4",
+    "Publisher": "Tailscale Inc.",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 9.0.20 (x64)",
+    "DisplayVersion": "9.0.20.36421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft .NET Runtime - 8.0.31 (x86)",
+    "DisplayVersion": "64.124.58447",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Intelr Software Installer",
+    "DisplayVersion": "23.40.0.4",
+    "Publisher": "Intel Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ v14 Redistributable (x86) - 14.51.36247",
+    "DisplayVersion": "14.51.36247.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "TypeScript SDK",
+    "DisplayVersion": "5.9.2.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "HP Support Solutions Framework",
+    "DisplayVersion": "13.0.1.131",
+    "Publisher": "HP Inc.",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime - 8.0.31 (x86)",
+    "DisplayVersion": "8.0.31.36421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft .NET Host FX Resolver - 8.0.31 (x86)",
+    "DisplayVersion": "64.124.58447",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft .NET Host - 8.0.31 (x86)",
+    "DisplayVersion": "64.124.58447",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Python Launcher",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft ASP.NET Core 8.0.31 - Shared Framework (x64)",
+    "DisplayVersion": "8.0.31.26421",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219",
+    "DisplayVersion": "10.0.40219",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": ""
+  },
+  {
+    "DisplayName": "Microsoft Windows Desktop Runtime 10.0.12 (x64)",
+    "DisplayVersion": "10.0.12.50000",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "GitHub",
+    "DisplayVersion": "1.0",
+    "Publisher": "Google\\Chrome",
+    "InstallLocation": null
+  },
+  {
+    "DisplayName": "which",
+    "DisplayVersion": "1.0.0",
+    "Publisher": "Allan K. Koech",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\allankoechke.which_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "uv",
+    "DisplayVersion": "0.12.23",
+    "Publisher": "Astral Software Inc.",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "BleachBit",
+    "DisplayVersion": "6.0.4.310",
+    "Publisher": "BleachBit",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\BleachBit"
+  },
+  {
+    "DisplayName": "Brave",
+    "DisplayVersion": "155.1.97.56",
+    "Publisher": "Brave Software Inc",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application"
+  },
+  {
+    "DisplayName": "Bun",
+    "DisplayVersion": null,
+    "Publisher": null,
+    "InstallLocation": "C:\\Users\\Alexa\\.bun"
+  },
+  {
+    "DisplayName": "RipGrep MSVC",
+    "DisplayVersion": "15.2.0",
+    "Publisher": "BurntSushi",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "direnv",
+    "DisplayVersion": "2.37.1",
+    "Publisher": "Jonas Chevalier",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\direnv.direnv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "ezwinports: make",
+    "DisplayVersion": "4.4.1",
+    "Publisher": "ezwinports",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ezwinports.make_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "GNU Nano",
+    "DisplayVersion": "2.7.5",
+    "Publisher": "GNU Project",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GNU.Nano_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "FFmpeg",
+    "DisplayVersion": "9.0.2",
+    "Publisher": "Gyan",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "jq",
+    "DisplayVersion": "1.8.2",
+    "Publisher": "jqlang",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\jqlang.jq_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "fzf",
+    "DisplayVersion": "0.74.4",
+    "Publisher": "Junegunn Choi",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\junegunn.fzf_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "ShellCheck",
+    "DisplayVersion": "0.11.0",
+    "Publisher": "Vidar Holen",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\koalaman.shellcheck_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "Microsoft Visual Studio Code Insiders CLI",
+    "DisplayVersion": "1.127.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Microsoft.VisualStudioCode.Insiders.CLI_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "BatteryInfoView",
+    "DisplayVersion": "1.27",
+    "Publisher": "NirSoft",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\NirSoft.BatteryInfoView_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  },
+  {
+    "DisplayName": "Microsoft Visual Studio Code Insiders (User)",
+    "DisplayVersion": "1.142.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\"
+  },
+  {
+    "DisplayName": "PowerToys (Preview) x64",
+    "DisplayVersion": "0.101.2362.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallLocation": "C:\\Users\\Alexa\\AppData\\Local\\PowerToys\\"
+  },
+  {
+    "DisplayName": "Python 3.14.7 (64-bit)",
+    "DisplayVersion": "3.14.7150.0",
+    "Publisher": "Python Software Foundation",
+    "InstallLocation": null
+  }
+]

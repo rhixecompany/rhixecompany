@@ -1,0 +1,1084 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/SKILL.md",
+    "relative_path": "agent-development/phoenix-evals/SKILL.md",
+    "name": "phoenix-evals",
+    "frontmatter": {
+      "name": "phoenix-evals",
+      "category": "agentic-coder",
+      "title": "Phoenix Evals",
+      "tags": "[]",
+      "description": "Build and run evaluators for AI/LLM applications using Phoenix.",
+      "license": "Apache-2.0",
+      "compatibility": "Requires Phoenix server. Python skills need phoenix and openai packages; TypeScript skills need @arizeai/phoenix-client.",
+      "metadata": [],
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 93,
+    "chars": 5171,
+    "sha256": "50e25807b4693698ca2e4024948340cf8a30fc7a8de80fc3fa92985c393552f3",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/axial-coding.md",
+        "lines": 95,
+        "chars": 2373,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/axial-coding.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/common-mistakes-python.md",
+        "lines": 225,
+        "chars": 7114,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/common-mistakes-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/error-analysis-multi-turn.md",
+        "lines": 52,
+        "chars": 1359,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/error-analysis-multi-turn.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/error-analysis.md",
+        "lines": 170,
+        "chars": 4312,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/error-analysis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluate-dataframe-python.md",
+        "lines": 137,
+        "chars": 4454,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluate-dataframe-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-code-python.md",
+        "lines": 105,
+        "chars": 3037,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-code-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-code-typescript.md",
+        "lines": 51,
+        "chars": 1207,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-code-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-custom-templates.md",
+        "lines": 54,
+        "chars": 1165,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-custom-templates.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-llm-python.md",
+        "lines": 92,
+        "chars": 2615,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-llm-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-llm-typescript.md",
+        "lines": 58,
+        "chars": 1420,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-llm-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-overview.md",
+        "lines": 40,
+        "chars": 1120,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-pre-built.md",
+        "lines": 75,
+        "chars": 2453,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-pre-built.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-rag.md",
+        "lines": 108,
+        "chars": 3170,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/evaluators-rag.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-datasets-python.md",
+        "lines": 155,
+        "chars": 4909,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-datasets-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-datasets-typescript.md",
+        "lines": 89,
+        "chars": 2747,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-datasets-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-overview.md",
+        "lines": 72,
+        "chars": 1736,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-running-python.md",
+        "lines": 105,
+        "chars": 2984,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-running-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-running-typescript.md",
+        "lines": 109,
+        "chars": 3199,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-running-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-synthetic-python.md",
+        "lines": 70,
+        "chars": 1816,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-synthetic-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-synthetic-typescript.md",
+        "lines": 86,
+        "chars": 2266,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/experiments-synthetic-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/fundamentals-anti-patterns.md",
+        "lines": 47,
+        "chars": 1632,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/fundamentals-anti-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/fundamentals-model-selection.md",
+        "lines": 66,
+        "chars": 1442,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/fundamentals-model-selection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/fundamentals.md",
+        "lines": 76,
+        "chars": 1831,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/fundamentals.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/observe-sampling-python.md",
+        "lines": 101,
+        "chars": 2415,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/observe-sampling-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/observe-sampling-typescript.md",
+        "lines": 147,
+        "chars": 3952,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/observe-sampling-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/observe-tracing-setup.md",
+        "lines": 144,
+        "chars": 3392,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/observe-tracing-setup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/production-continuous.md",
+        "lines": 137,
+        "chars": 3626,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/production-continuous.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/production-guardrails.md",
+        "lines": 53,
+        "chars": 1345,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/production-guardrails.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/production-overview.md",
+        "lines": 96,
+        "chars": 2342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/production-overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/setup-python.md",
+        "lines": 64,
+        "chars": 1971,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/setup-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/setup-typescript.md",
+        "lines": 41,
+        "chars": 981,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/setup-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/validation-evaluators-python.md",
+        "lines": 43,
+        "chars": 1067,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/validation-evaluators-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/validation-evaluators-typescript.md",
+        "lines": 106,
+        "chars": 4536,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/validation-evaluators-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/validation.md",
+        "lines": 74,
+        "chars": 1758,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-evals/references/validation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/SKILL.md",
+    "relative_path": "agent-development/phoenix-tracing/SKILL.md",
+    "name": "phoenix-tracing",
+    "frontmatter": {
+      "name": "phoenix-tracing",
+      "category": "agentic-coder",
+      "title": "Phoenix Tracing",
+      "tags": "[]",
+      "description": "OpenInference semantic conventions and instrumentation for Phoenix AI observability. Use when implementing LLM tracing, creating custom spans, or deploying to production.",
+      "license": "Apache-2.0",
+      "compatibility": "Requires Phoenix server. Python skills need arize-phoenix-otel; TypeScript skills need @arizeai/phoenix-otel.",
+      "metadata": [],
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 172,
+    "chars": 7398,
+    "sha256": "30efe7c566b3c2848c85ac447bd40285f7dbdc90a41fc4482b84c59cfaf7601c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/annotations-overview.md",
+        "lines": 69,
+        "chars": 3914,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/annotations-overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/annotations-python.md",
+        "lines": 127,
+        "chars": 3192,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/annotations-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/annotations-typescript.md",
+        "lines": 173,
+        "chars": 4104,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/annotations-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-flattening.md",
+        "lines": 58,
+        "chars": 1834,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-flattening.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-overview.md",
+        "lines": 53,
+        "chars": 1826,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-required-attributes.md",
+        "lines": 64,
+        "chars": 2484,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-required-attributes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-universal-attributes.md",
+        "lines": 72,
+        "chars": 2387,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/fundamentals-universal-attributes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-auto-python.md",
+        "lines": 85,
+        "chars": 2266,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-auto-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-auto-typescript.md",
+        "lines": 87,
+        "chars": 2285,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-auto-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-manual-python.md",
+        "lines": 182,
+        "chars": 5015,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-manual-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-manual-typescript.md",
+        "lines": 172,
+        "chars": 4753,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/instrumentation-manual-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/metadata-python.md",
+        "lines": 89,
+        "chars": 1826,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/metadata-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/metadata-typescript.md",
+        "lines": 50,
+        "chars": 1125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/metadata-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/production-python.md",
+        "lines": 58,
+        "chars": 1535,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/production-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/production-typescript.md",
+        "lines": 148,
+        "chars": 3630,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/production-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/projects-python.md",
+        "lines": 73,
+        "chars": 1397,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/projects-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/projects-typescript.md",
+        "lines": 54,
+        "chars": 1127,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/projects-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/sessions-python.md",
+        "lines": 104,
+        "chars": 2334,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/sessions-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/sessions-typescript.md",
+        "lines": 199,
+        "chars": 5349,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/sessions-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/setup-python.md",
+        "lines": 131,
+        "chars": 3506,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/setup-python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/setup-typescript.md",
+        "lines": 170,
+        "chars": 3926,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/setup-typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-agent.md",
+        "lines": 15,
+        "chars": 378,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-agent.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-chain.md",
+        "lines": 43,
+        "chars": 1281,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-chain.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-embedding.md",
+        "lines": 91,
+        "chars": 2795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-embedding.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-evaluator.md",
+        "lines": 51,
+        "chars": 1678,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-evaluator.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-guardrail.md",
+        "lines": 49,
+        "chars": 1395,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-guardrail.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-llm.md",
+        "lines": 79,
+        "chars": 3107,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-llm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-reranker.md",
+        "lines": 86,
+        "chars": 3253,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-reranker.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-retriever.md",
+        "lines": 110,
+        "chars": 3433,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-retriever.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-tool.md",
+        "lines": 67,
+        "chars": 2708,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/agent-development/phoenix-tracing/references/span-tool.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/power-bi-dax-optimization/SKILL.md",
+    "relative_path": "agent-development/power-bi-dax-optimization/SKILL.md",
+    "name": "power-bi-dax-optimization",
+    "frontmatter": {
+      "name": "power-bi-dax-optimization",
+      "category": "agentic-coder",
+      "title": "Power Bi Dax Optimization",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations."
+    },
+    "has_frontmatter": true,
+    "lines": 212,
+    "chars": 6552,
+    "sha256": "bd6729b992f360d9899025fae0880cf9bf69daf0d7decec6668c496969a9f336",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/premium-frontend-ui/SKILL.md",
+    "relative_path": "agent-development/premium-frontend-ui/SKILL.md",
+    "name": "premium-frontend-ui",
+    "frontmatter": {
+      "name": "premium-frontend-ui",
+      "category": "agentic-coder",
+      "title": "Premium Frontend Ui",
+      "version": "1.0.0",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship.",
+      "metadata": [],
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 151,
+    "chars": 8174,
+    "sha256": "c74b3fd64d5cac34ee003fd24a89edc88310eb676633d4fee0ca21a57006a759",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/signal-write/SKILL.md",
+    "relative_path": "agent-development/signal-write/SKILL.md",
+    "name": "signal-write",
+    "frontmatter": {
+      "name": "signal-write",
+      "category": "agentic-coder",
+      "title": "Signal Write",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Emit structured agent signals — hands-up, blocked, done, checkpoint, partnership. Signals are written as JSON to .signals/ for dashboard consumption and noted in the journal for persistence."
+    },
+    "has_frontmatter": true,
+    "lines": 195,
+    "chars": 6188,
+    "sha256": "8efb83930a14a559eb2f6466492360ed6533275e574e7bbe1e810ea1ea29d622",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/structured-autonomy-implement/SKILL.md",
+    "relative_path": "agent-development/structured-autonomy-implement/SKILL.md",
+    "name": "structured-autonomy-implement",
+    "frontmatter": {
+      "name": "structured-autonomy-implement",
+      "category": "agentic-coder",
+      "title": "Structured Autonomy Implement",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Structured Autonomy Implementation Prompt"
+    },
+    "has_frontmatter": true,
+    "lines": 58,
+    "chars": 2088,
+    "sha256": "c26e6db3ab1acf08333a3b8ad15be859944d1a0f188c893477f691f4c39e3b0c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/agent-development/structured-autonomy-plan/SKILL.md",
+    "relative_path": "agent-development/structured-autonomy-plan/SKILL.md",
+    "name": "structured-autonomy-plan",
+    "frontmatter": {
+      "name": "structured-autonomy-plan",
+      "category": "documentation",
+      "title": "Structured Autonomy Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Structured Autonomy Planning Prompt"
+    },
+    "has_frontmatter": true,
+    "lines": 120,
+    "chars": 4026,
+    "sha256": "891e1b9e8268a245b298195cfbdc4b3790eb5295d7b3a5accfac82f7b4617c20",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  }
+]

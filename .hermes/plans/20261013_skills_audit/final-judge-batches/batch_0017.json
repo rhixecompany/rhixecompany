@@ -1,0 +1,711 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/SKILL.md",
+    "relative_path": "creative/excalidraw-diagram-generator/SKILL.md",
+    "name": "excalidraw-diagram-generator",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Generate Excalidraw diagrams from natural language descriptions. Use",
+      "license": "MIT",
+      "name": "excalidraw-diagram-generator",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Excalidraw Diagram Generator",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 710,
+    "chars": 25080,
+    "sha256": "82622675c1ebc46301f5d1c42cc81d2b1f82a4137567e786a050d31b99476326",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/references/element-types.md",
+        "lines": 515,
+        "chars": 9424,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/references/element-types.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/references/excalidraw-schema.md",
+        "lines": 357,
+        "chars": 8275,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/references/excalidraw-schema.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/business-flow-swimlane-template.excalidraw",
+        "lines": 334,
+        "chars": 7795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/business-flow-swimlane-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/class-diagram-template.excalidraw",
+        "lines": 558,
+        "chars": 12924,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/class-diagram-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/data-flow-diagram-template.excalidraw",
+        "lines": 279,
+        "chars": 6447,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/data-flow-diagram-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/er-diagram-template.excalidraw",
+        "lines": 662,
+        "chars": 15414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/er-diagram-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/flowchart-template.excalidraw",
+        "lines": 179,
+        "chars": 4080,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/flowchart-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/mindmap-template.excalidraw",
+        "lines": 244,
+        "chars": 5382,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/mindmap-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/relationship-template.excalidraw",
+        "lines": 145,
+        "chars": 3321,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/relationship-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/sequence-diagram-template.excalidraw",
+        "lines": 509,
+        "chars": 11716,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/templates/sequence-diagram-template.excalidraw:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/.gitignore",
+        "lines": 34,
+        "chars": 484,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/.gitignore:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/README.md",
+        "lines": 197,
+        "chars": 6535,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/add-arrow.py",
+        "lines": 312,
+        "chars": 9773,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/add-arrow.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/add-icon-to-diagram.py",
+        "lines": 404,
+        "chars": 13389,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/add-icon-to-diagram.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/split-excalidraw-library.py",
+        "lines": 183,
+        "chars": 5552,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/excalidraw-diagram-generator/scripts/split-excalidraw-library.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 43
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/face-obscure-video-chat/SKILL.md",
+    "relative_path": "creative/face-obscure-video-chat/SKILL.md",
+    "name": "face-obscure-video-chat",
+    "frontmatter": {
+      "name": "face-obscure-video-chat",
+      "category": "agentic-coder",
+      "title": "Automatic Face Obscuring for Video Chat",
+      "description": "Use when implementing real-time face blurring/masking for video calls — covers WebcamStudio (limited), OpenCV custom development, OBS Studio with virtual camera (recommended), and modern AI tools.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[face-blur, video-chat, privacy, obs, virtual-camera, opencv, nvidia-broadcast, manycam]"
+    },
+    "has_frontmatter": true,
+    "lines": 144,
+    "chars": 5141,
+    "sha256": "ff21d85802f6f1449a838df921ee106f6b41ca6ca104f92a56c31309ea088e2d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/face-obscure-video-chat/references/face-obscuring-patterns.md",
+        "lines": 78,
+        "chars": 2062,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/face-obscure-video-chat/references/face-obscuring-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/SKILL.md",
+    "relative_path": "creative/freecad-scripts/SKILL.md",
+    "name": "freecad-scripts",
+    "frontmatter": {
+      "name": "freecad-scripts",
+      "category": "agentic-coder",
+      "title": "Freecad Scripts",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Expert skill for writing FreeCAD Python scripts, macros, and automation. Use when asked to create FreeCAD models, parametric objects, Part/Mesh/Sketcher scripts, workbench tools, GUI dialogs with PySide, Coin3D scenegraph manipulation, or any FreeCAD Python API task. Covers FreeCAD scripting basics, geometry creation, FeaturePython objects, interface tools, and macro development."
+    },
+    "has_frontmatter": true,
+    "lines": 711,
+    "chars": 21914,
+    "sha256": "8e4a5076bc991af740ad642206078c3562dd0de25fc4994bde823c1566df67d6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/geometry-and-shapes.md",
+        "lines": 304,
+        "chars": 8783,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/geometry-and-shapes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/gui-and-interface.md",
+        "lines": 388,
+        "chars": 11255,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/gui-and-interface.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/parametric-objects.md",
+        "lines": 308,
+        "chars": 10836,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/parametric-objects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/scripting-fundamentals.md",
+        "lines": 176,
+        "chars": 6039,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/scripting-fundamentals.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/workbenches-and-advanced.md",
+        "lines": 401,
+        "chars": 9994,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/freecad-scripts/references/workbenches-and-advanced.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/frontend-design/SKILL.md",
+    "relative_path": "creative/frontend-design/SKILL.md",
+    "name": "frontend-design",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when building web components, landing pages, dashboards, React components,",
+      "license": "MIT",
+      "name": "frontend-design",
+      "category": "architecture",
+      "tags": [],
+      "title": "Frontend Design",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 2972,
+    "sha256": "eb9f8ff5554698e35cc66da89b42cf730ea681501c5877dd144db39d24c7d67b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/game-engine/SKILL.md",
+    "relative_path": "creative/game-engine/SKILL.md",
+    "name": "game-engine",
+    "frontmatter": {
+      "name": "game-engine",
+      "category": "agentic-coder",
+      "title": "Game Engine",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, implement game physics, handle collision detection, set up game loops, manage sprites, add game controls, or work with 2D/3D rendering. Covers techniques for platformers, breakout-style games, maze games, tilemaps, audio, multiplayer via WebRTC, and publishing games."
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 6905,
+    "sha256": "9f6aaaddcf05a1e8165530407ecfcb1b2346cdeeb9b1fd357227404cb8450c83",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/3d-web-games.md",
+        "lines": 754,
+        "chars": 24488,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/3d-web-games.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/algorithms.md",
+        "lines": 843,
+        "chars": 25060,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/algorithms.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/basics.md",
+        "lines": 343,
+        "chars": 11117,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/basics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/game-control-mechanisms.md",
+        "lines": 617,
+        "chars": 19512,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/game-control-mechanisms.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/game-engine-core-principles.md",
+        "lines": 695,
+        "chars": 22074,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/game-engine-core-principles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/game-publishing.md",
+        "lines": 352,
+        "chars": 14075,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/game-publishing.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/techniques.md",
+        "lines": 894,
+        "chars": 28090,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/techniques.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/terminology.md",
+        "lines": 354,
+        "chars": 19886,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/terminology.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/web-apis.md",
+        "lines": 1394,
+        "chars": 52620,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/game-engine/references/web-apis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gdpr-compliant/SKILL.md",
+    "relative_path": "creative/gdpr-compliant/SKILL.md",
+    "name": "gdpr-compliant",
+    "frontmatter": {
+      "name": "gdpr-compliant",
+      "category": "agentic-coder",
+      "title": "Gdpr Compliant",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, writing data models, building authentication flows, implementing logging, handling user data, writing retention/deletion jobs, designing cloud infrastructure, or reviewing pull requests for privacy compliance. Trigger this skill for any task involving personal data, user accounts, cookies, analytics, emails, audit logs, encryption, pseudonymization, anonymization, data exports, breach response, CI/CD pipelines that process real data, or any question framed as \"is this GDPR-compliant?\". Inspired by CNIL developer guidance and GDPR Articles 5, 25, 32, 33, 35."
+    },
+    "has_frontmatter": true,
+    "lines": 322,
+    "chars": 12841,
+    "sha256": "4ffa02b35afa21b1bbd954c4aac5775cc8ce127e89053cf81cc3bd8c556e6aff",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gdpr-compliant/references/Security.md",
+        "lines": 266,
+        "chars": 11804,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gdpr-compliant/references/Security.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gdpr-compliant/references/data-rights.md",
+        "lines": 177,
+        "chars": 6519,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/gdpr-compliant/references/data-rights.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/gem-devops-guidelines/SKILL.md",
+    "relative_path": "creative/gem-devops-guidelines/SKILL.md",
+    "name": "gem-devops-guidelines",
+    "frontmatter": {
+      "name": "gem-devops-guidelines",
+      "category": "dev-tools",
+      "title": "Gem Devops Guidelines",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Design or review infrastructure, deployment, CI/CD, Docker, Kubernetes, health checks, rollback, feature flags, production readiness, and mobile release workflows. Use for DevOps, platform, container, pipeline, or release tasks."
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 4164,
+    "sha256": "b752ffe76774d9ef1d41efe0cfee40998325bbfd9e0412d3f37c10ee7f52f82c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  }
+]

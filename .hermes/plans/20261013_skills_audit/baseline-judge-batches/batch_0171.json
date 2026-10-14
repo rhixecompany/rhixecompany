@@ -1,0 +1,441 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/plan-mode-skill/SKILL.md",
+    "relative_path": "software-development/plan-mode-skill/SKILL.md",
+    "name": "plan-mode",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "plan-mode",
+      "category": "documentation",
+      "tags": [
+        "planning",
+        "plan-mode",
+        "implementation",
+        "workflow"
+      ],
+      "title": "Plan",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 3881,
+    "sha256": "3e06d1da492c47ef57db92dea8cf74d0be4dfa64d85e8daf13f1a7ba564f9120",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/project-docs/SKILL.md",
+    "relative_path": "software-development/project-docs/SKILL.md",
+    "name": "project-docs",
+    "frontmatter": {
+      "name": "project-docs",
+      "category": "documentation",
+      "title": "Project Docs",
+      "description": "Use when generating, auditing, or optimizing project documentation — including frontmatter, AI-readiness scoring, and 11-artifact symmetry validation.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 10061,
+    "sha256": "759e434024491b9aeccb611043914e9e86f02ab7790ef26bb70b03270349b679",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/ai-readiness-criteria.md",
+        "lines": 44,
+        "chars": 1949,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/ai-readiness-criteria.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/repo-audit-notes.md",
+        "lines": 29,
+        "chars": 1310,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/repo-audit-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/repo-narrative.md",
+        "lines": 40,
+        "chars": 2026,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/repo-narrative.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/research-report-contract.md",
+        "lines": 65,
+        "chars": 5611,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/research-report-contract.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/template.md",
+        "lines": 507,
+        "chars": 14009,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/references/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/scripts/score-docs.py",
+        "lines": 134,
+        "chars": 5900,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/project-docs/scripts/score-docs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/python-debugpy/SKILL.md",
+    "relative_path": "software-development/python-debugpy/SKILL.md",
+    "name": "python-debugpy",
+    "frontmatter": {
+      "name": "python-debugpy",
+      "category": "software-development",
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 391,
+    "chars": 14995,
+    "sha256": "cb2023f52fee99cf64876e72764beb7a746158057ccc4cc31913880c12ee84b2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/python-debugpy/references/quick-reference.md",
+        "lines": 29,
+        "chars": 528,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/python-debugpy/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 52,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 20,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/python-quality/SKILL.md",
+    "relative_path": "software-development/python-quality/SKILL.md",
+    "name": "python-quality",
+    "frontmatter": {
+      "name": "python-quality",
+      "category": "agentic-coder",
+      "title": "Python Code Quality: Pylance & Ruff",
+      "description": "Comprehensive workflow for init, use, test, debug, and fix Python code quality issues using Ruff + Pyright/Pylance.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[python, linting, type-checking, ruff, pyright, pylance, mcp]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 421,
+    "chars": 11594,
+    "sha256": "ca404ae0dcca741f0625e4e79dae4316864193b599f0773957aa51ce925504c6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 47
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/quasi-coder/SKILL.md",
+    "relative_path": "software-development/quasi-coder/SKILL.md",
+    "name": "quasi-coder",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Expert 10x engineer skill for interpreting and implementing code from",
+      "license": "MIT",
+      "name": "quasi-coder",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Quasi Coder",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 446,
+    "chars": 16942,
+    "sha256": "4326f03854ab65dc4e018b095fd120b333cd480500ad69a231ee05c697ebf256",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/receiving-code-review/SKILL.md",
+    "relative_path": "software-development/receiving-code-review/SKILL.md",
+    "name": "receiving-code-review",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when receiving code review feedback, before implementing suggestions.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "receiving-code-review",
+      "category": "agentic-coder",
+      "tags": [
+        "code-review",
+        "feedback",
+        "collaboration",
+        "quality"
+      ],
+      "title": "Receiving Code Review",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 121,
+    "chars": 4136,
+    "sha256": "71d28d503b212010ca56ed0e995593bd0a98a3707d6fe2e97c7c18e6c4d20698",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/receiving-code-review/references/overview.md",
+        "lines": 19,
+        "chars": 380,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/software-development/receiving-code-review/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/software-development/refactor/SKILL.md",
+    "relative_path": "software-development/refactor/SKILL.md",
+    "name": "refactor",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Three-phase refactoring: understand before moving, move before changing.",
+      "license": "MIT",
+      "name": "refactor",
+      "category": "agentic-coder",
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "best-practices",
+        "tools"
+      ],
+      "title": "Refactor",
+      "version": "2.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 788,
+    "chars": 20312,
+    "sha256": "2d5ed5c552131f27cac2c279548385c3a8262d7e8dc42354b7c4e87d5aacb70e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 50
+  }
+]

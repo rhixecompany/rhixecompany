@@ -1,0 +1,1153 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/doc-coauthoring/SKILL.md",
+    "relative_path": "productivity/doc-coauthoring/SKILL.md",
+    "name": "doc-coauthoring",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Doc Coauthoring.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "doc-coauthoring",
+      "category": "documentation",
+      "tags": [
+        "tools"
+      ],
+      "title": "Doc Coauthoring",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 2920,
+    "sha256": "2a36ddc219e90c8f5b9de2a9d20f357f6e96ee7f60518a629e2ad07c18e1b009",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/document-to-action-items/SKILL.md",
+    "relative_path": "productivity/document-to-action-items/SKILL.md",
+    "name": "document-to-action-items",
+    "frontmatter": {
+      "name": "document-to-action-items",
+      "category": "productivity",
+      "description": "Extract cited obligations, deadlines, tasks from documents.",
+      "version": "0.1.0",
+      "author": "Ben Barclay (benbarclay), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 82,
+    "chars": 3927,
+    "sha256": "81f2883b53acf30965cd90b56593d38b86bb26059919f156367cf86ef3801d80",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/documentation-writer/SKILL.md",
+    "relative_path": "productivity/documentation-writer/SKILL.md",
+    "name": "documentation-writer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Documentation Writer.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "documentation-writer",
+      "category": "documentation",
+      "tags": [
+        "tools"
+      ],
+      "title": "Documentation Writer",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 2955,
+    "sha256": "d7a2b9a55e00c6074dbfbd88d23053de595cbd9b04fd93fc283bb89c2a0f47a1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/docx/SKILL.md",
+    "relative_path": "productivity/docx/SKILL.md",
+    "name": "docx",
+    "frontmatter": {
+      "name": "docx",
+      "category": "documentation",
+      "title": "Docx",
+      "description": "Use when working with Docx.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[tools]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 94,
+    "chars": 2843,
+    "sha256": "d68834c187a54ac7472d2106bcee2caf17e55b527bade6d1265f6f19112bd8bf",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/references/revisions-and-comments.md",
+        "lines": 88,
+        "chars": 3977,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/references/revisions-and-comments.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/__init__.py",
+        "lines": 1,
+        "chars": 1,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/accept_changes.py",
+        "lines": 135,
+        "chars": 4051,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/accept_changes.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/comment.py",
+        "lines": 318,
+        "chars": 10694,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/comment.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_comments.py",
+        "lines": 289,
+        "chars": 10655,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_comments.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_common.py",
+        "lines": 94,
+        "chars": 3364,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_common.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_create.py",
+        "lines": 177,
+        "chars": 6387,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_create.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_edit.py",
+        "lines": 250,
+        "chars": 8619,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_edit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_read.py",
+        "lines": 149,
+        "chars": 5405,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_read.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_revisions.py",
+        "lines": 147,
+        "chars": 4571,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_revisions.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_template.py",
+        "lines": 70,
+        "chars": 2482,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_template.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_validate.py",
+        "lines": 156,
+        "chars": 6200,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/docx_validate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/helpers/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/helpers/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/helpers/merge_runs.py",
+        "lines": 199,
+        "chars": 5567,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/helpers/merge_runs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/helpers/simplify_redlines.py",
+        "lines": 197,
+        "chars": 5754,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/helpers/simplify_redlines.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/pack.py",
+        "lines": 159,
+        "chars": 4991,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/pack.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+        "lines": 1499,
+        "chars": 74984,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+        "lines": 146,
+        "chars": 6956,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+        "lines": 1085,
+        "chars": 51302,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+        "lines": 11,
+        "chars": 624,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "lines": 3081,
+        "chars": 152039,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+        "lines": 23,
+        "chars": 1231,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+        "lines": 185,
+        "chars": 8862,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+        "lines": 287,
+        "chars": 14795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "lines": 1676,
+        "chars": 83612,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+        "lines": 28,
+        "chars": 1269,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+        "lines": 144,
+        "chars": 7328,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+        "lines": 174,
+        "chars": 6382,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+        "lines": 25,
+        "chars": 1248,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+        "lines": 18,
+        "chars": 880,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+        "lines": 59,
+        "chars": 2608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+        "lines": 56,
+        "chars": 3507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+        "lines": 195,
+        "chars": 7507,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+        "lines": 582,
+        "chars": 23313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+        "lines": 25,
+        "chars": 1367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+        "lines": 4439,
+        "chars": 242277,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+        "lines": 570,
+        "chars": 26148,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+        "lines": 509,
+        "chars": 25279,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+        "lines": 12,
+        "chars": 535,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+        "lines": 108,
+        "chars": 5712,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+        "lines": 96,
+        "chars": 4010,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+        "lines": 3646,
+        "chars": 171367,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+        "lines": 116,
+        "chars": 4646,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+        "lines": 42,
+        "chars": 1961,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+        "lines": 50,
+        "chars": 2513,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+        "lines": 49,
+        "chars": 2856,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+        "lines": 33,
+        "chars": 1342,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd",
+        "lines": 75,
+        "chars": 3125,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/mce/mc.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd",
+        "lines": 560,
+        "chars": 26549,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2010.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd",
+        "lines": 67,
+        "chars": 3745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2012.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd",
+        "lines": 14,
+        "chars": 901,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-2018.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+        "lines": 20,
+        "chars": 1778,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cex-2018.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+        "lines": 13,
+        "chars": 1002,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-cid-2016.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+        "lines": 4,
+        "chars": 600,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+        "lines": 8,
+        "chars": 745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/schemas/microsoft/wml-symex-2015.xsd:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/soffice.py",
+        "lines": 183,
+        "chars": 5293,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/soffice.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/unpack.py",
+        "lines": 132,
+        "chars": 4052,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/unpack.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validate.py",
+        "lines": 111,
+        "chars": 3668,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/__init__.py",
+        "lines": 15,
+        "chars": 336,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/base.py",
+        "lines": 847,
+        "chars": 32651,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/base.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/docx.py",
+        "lines": 446,
+        "chars": 16372,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/docx.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/pptx.py",
+        "lines": 275,
+        "chars": 9824,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/pptx.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/redlining.py",
+        "lines": 247,
+        "chars": 8918,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/office/validators/redlining.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/comments.xml",
+        "lines": 3,
+        "chars": 2603,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/comments.xml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/commentsExtended.xml",
+        "lines": 3,
+        "chars": 2611,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/commentsExtended.xml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/commentsExtensible.xml",
+        "lines": 3,
+        "chars": 2707,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/commentsExtensible.xml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/commentsIds.xml",
+        "lines": 3,
+        "chars": 2619,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/commentsIds.xml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/people.xml",
+        "lines": 3,
+        "chars": 115,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/docx/scripts/templates/people.xml:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/exam-ready/SKILL.md",
+    "relative_path": "productivity/exam-ready/SKILL.md",
+    "name": "exam-ready",
+    "frontmatter": {
+      "name": "exam-ready",
+      "category": "agentic-coder",
+      "title": "Exam Ready",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 139,
+    "chars": 4896,
+    "sha256": "c046f2dd57bdd0132c9a6a2e1bc5f0deb42edcdcaaab4e11b6028f65082e7f09",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/file-organizer/SKILL.md",
+    "relative_path": "productivity/file-organizer/SKILL.md",
+    "name": "file-organizer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with File Organizer.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "file-organizer",
+      "category": "agentic-coder",
+      "tags": [
+        "tools"
+      ],
+      "title": "File Organizer",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 2913,
+    "sha256": "543810981554ae7138371cff117391274a8f5b86c476dfacd0808a77f5fbf150",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/finnish-humanizer/SKILL.md",
+    "relative_path": "productivity/finnish-humanizer/SKILL.md",
+    "name": "finnish-humanizer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Detect and remove AI-generated markers from Finnish text, making it sound",
+      "license": "MIT",
+      "name": "finnish-humanizer",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Finnish Humanizer",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 197,
+    "chars": 8858,
+    "sha256": "cc9ec2a4c9639f1bef0168d67e61bf79b6aafeea854b798bba2dbca27ff30095",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/finnish-humanizer/references/patterns.md",
+        "lines": 288,
+        "chars": 16565,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/finnish-humanizer/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 22
+  }
+]

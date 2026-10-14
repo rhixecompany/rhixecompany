@@ -1,0 +1,410 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/apply-vscode-customizations/SKILL.md",
+    "relative_path": "development/apply-vscode-customizations/SKILL.md",
+    "name": "apply-vscode-customizations",
+    "frontmatter": {
+      "name": "apply-vscode-customizations",
+      "category": "agentic-coder",
+      "title": "Apply Vscode Customizations",
+      "description": "Applies VS Code customizations from templates",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "vscode",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2672,
+    "sha256": "a4db4129d1fdbdc6c39549ad7ecdc1bfc4c41c9706cd75e9e4099cf0e0932829",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/apply-vscode-customizations/references/overview.md",
+        "lines": 55,
+        "chars": 2239,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/apply-vscode-customizations/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/apply-vscode-customizations/templates/template.md",
+        "lines": 18,
+        "chars": 163,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/apply-vscode-customizations/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/arize-annotation/SKILL.md",
+    "relative_path": "development/arize-annotation/SKILL.md",
+    "name": "arize-annotation",
+    "frontmatter": {
+      "name": "arize-annotation",
+      "category": "agentic-coder",
+      "title": "Arize Annotation",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation queues (human review workflows) on Arize. Applies human annotations to project spans via the Python SDK. Use when the user mentions annotation config, annotation queue, label schema, human feedback, bulk annotate spans, update_annotations, labeling queue, annotate record, or human review.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 338,
+    "chars": 11766,
+    "sha256": "79b55d8c124f634c2769b8ccb4d2526e5d311a6da5f15842c60915873b5c5be1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 31
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/arize-evaluator/SKILL.md",
+    "relative_path": "development/arize-evaluator/SKILL.md",
+    "name": "arize-evaluator",
+    "frontmatter": {
+      "name": "arize-evaluator",
+      "category": "agentic-coder",
+      "title": "Arize Evaluator",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Handles LLM-as-judge evaluation workflows on Arize including creating/updating evaluators, running evaluations on spans or experiments, managing tasks, trigger-run operations, column mapping, and continuous monitoring. Use when the user mentions create evaluator, LLM judge, hallucination, faithfulness, correctness, relevance, run eval, score spans, score experiment, trigger-run, column mapping, continuous monitoring, or improve evaluator prompt.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile with an AI integration.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 694,
+    "chars": 32806,
+    "sha256": "fb4d3f16e2c899914b64846ff6f92d88a8e94d0cd63d418f60e67ed8f795398a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 20,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 42
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/arize-instrumentation/SKILL.md",
+    "relative_path": "development/arize-instrumentation/SKILL.md",
+    "name": "arize-instrumentation",
+    "frontmatter": {
+      "name": "arize-instrumentation",
+      "category": "agentic-coder",
+      "title": "Arize Instrumentation",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Adds Arize AX tracing to an LLM application for the first time. Follows a two-phase agent-assisted flow to analyze the codebase then implement instrumentation after user confirmation. Use when the user wants to instrument their app, add tracing from scratch, set up LLM observability, integrate OpenTelemetry or openinference, or get started with Arize tracing.",
+      "metadata": [],
+      "compatibility": "Python and TypeScript/JavaScript apps use openinference-instrumentation packages for auto-instrumentation. Java and Go apps use the OpenTelemetry SDK with manual OpenInference spans. See https://arize.com/docs/PROMPT.md for setup details.",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 340,
+    "chars": 25602,
+    "sha256": "c653df92c7c254357aeca137f3d8f0ec094a5d9b6dbce62975a232355f164c66",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/aspnet-minimal-api-openapi/SKILL.md",
+    "relative_path": "development/aspnet-minimal-api-openapi/SKILL.md",
+    "name": "aspnet-minimal-api-openapi",
+    "frontmatter": {
+      "name": "aspnet-minimal-api-openapi",
+      "category": "agentic-coder",
+      "title": "Aspnet Minimal Api Openapi",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation"
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2750,
+    "sha256": "ce1820509e236b8e3557da1e5946be329aaa9abcc5eee6e36e9d74feb1002a7e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-227/SKILL.md",
+    "relative_path": "development/audit-227/SKILL.md",
+    "name": "audit-227",
+    "frontmatter": {
+      "name": "audit-227",
+      "category": "audit",
+      "title": "Audit 227",
+      "description": "Audit script for 227 analysis",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "audit",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2486,
+    "sha256": "adfc276acbac7745c79cdc1c9e44ddfc78ba770a6b17cc1d5400deec579322a4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227/references/overview.md",
+        "lines": 29,
+        "chars": 731,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227/templates/template.md",
+        "lines": 13,
+        "chars": 130,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/audit-227-cjs/SKILL.md",
+    "relative_path": "development/audit-227-cjs/SKILL.md",
+    "name": "audit-227-cjs",
+    "frontmatter": {
+      "name": "audit-227-cjs",
+      "category": "audit",
+      "title": "Audit 227",
+      "description": "Audit script for 227 analysis",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "audit",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 2953,
+    "sha256": "c0f0671b0fc6d438207a5f6e5a2e2e6b1bb11bc8c8396f600bd3bb1ce45b075d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-cjs/references/overview.md",
+        "lines": 57,
+        "chars": 2141,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-cjs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-cjs/templates/template.md",
+        "lines": 18,
+        "chars": 149,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/audit-227-cjs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

@@ -1,0 +1,1027 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/comfyui/SKILL.md",
+    "relative_path": "creative/comfyui/SKILL.md",
+    "name": "comfyui",
+    "frontmatter": {
+      "name": "comfyui",
+      "category": "creative",
+      "description": "Generate images, video, and audio via diffusion workflows.",
+      "version": "5.1.0",
+      "author": "[kshitijk4poor, alt-glitch, purzbeats]",
+      "license": "MIT",
+      "platforms": "[macos, linux, windows]",
+      "compatibility": "Requires ComfyUI (local, Comfy Desktop, or Comfy Cloud) and comfy-cli (auto-installed via pipx/uvx by the setup script).",
+      "prerequisites": [],
+      "setup": [],
+      "metadata": [
+        "comfyui",
+        "image-generation",
+        "stable-diffusion",
+        "flux",
+        "sd3",
+        "wan-video",
+        "hunyuan-video",
+        "creative",
+        "generative-ai",
+        "video-generation"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 613,
+    "chars": 23502,
+    "sha256": "4abebec082f85044d035eb213e0b7354b6ee3cac843d1b8fca84a68605b99e7f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/official-cli.md",
+        "lines": 255,
+        "chars": 7443,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/official-cli.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/rest-api.md",
+        "lines": 312,
+        "chars": 10329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/rest-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/template-integrity.md",
+        "lines": 243,
+        "chars": 8781,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/template-integrity.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/workflow-format.md",
+        "lines": 226,
+        "chars": 7981,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/references/workflow-format.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/_common.py",
+        "lines": 835,
+        "chars": 33760,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/_common.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/auto_fix_deps.py",
+        "lines": 227,
+        "chars": 8494,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/auto_fix_deps.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/check_deps.py",
+        "lines": 437,
+        "chars": 17166,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/check_deps.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/comfyui_setup.sh",
+        "lines": 288,
+        "chars": 10534,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/comfyui_setup.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/extract_schema.py",
+        "lines": 315,
+        "chars": 11323,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/extract_schema.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/fetch_logs.py",
+        "lines": 157,
+        "chars": 5688,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/fetch_logs.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/hardware_check.py",
+        "lines": 497,
+        "chars": 17883,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/hardware_check.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/health_check.py",
+        "lines": 223,
+        "chars": 8206,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/health_check.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/run_batch.py",
+        "lines": 243,
+        "chars": 9088,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/run_batch.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/run_workflow.py",
+        "lines": 796,
+        "chars": 31623,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/run_workflow.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/ws_monitor.py",
+        "lines": 267,
+        "chars": 10502,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/comfyui/scripts/ws_monitor.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 29
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/SKILL.md",
+    "relative_path": "creative/concept-diagrams/SKILL.md",
+    "name": "concept-diagrams",
+    "frontmatter": {
+      "name": "concept-diagrams",
+      "category": "agentic-coder",
+      "title": "Concept Diagrams",
+      "description": "Generate flat, minimal light/dark-aware SVG diagrams as standalone HTML files, using a unified educational visual language with 9 semantic color ramps, sentence-case typography, and automatic dark mode. Best suited for educational and non-software visuals — physics setups, chemistry mechanisms, math curves, physical objects (aircraft, turbines, smartphones, mechanical watches), anatomy, floor plans, cross-sections, narrative journeys (lifecycle of X, process of Y), hub-spoke system integrations (smart city, IoT), and exploded layer views. If a more specialized skill exists for the subject (dedicated software/cloud architecture, hand-drawn sketches, animated explainers, etc.), prefer that — otherwise this skill can also serve as a general-purpose SVG diagram fallback with a clean educational look. Ships with 15 example diagrams.",
+      "version": "0.1.0",
+      "author": "v1k22 (original PR), ported into hermes-agent",
+      "license": "MIT",
+      "dependencies": "[]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 398,
+    "chars": 18856,
+    "sha256": "99972acd50237ba206f4dfbde9fe0df2fd5e15740efe4b8432375e0d3a4004b4",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/references/dashboard-patterns.md",
+        "lines": 43,
+        "chars": 1793,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/references/dashboard-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/references/infrastructure-patterns.md",
+        "lines": 144,
+        "chars": 5329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/references/infrastructure-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/references/physical-shape-cookbook.md",
+        "lines": 42,
+        "chars": 2071,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/references/physical-shape-cookbook.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/templates/template.html",
+        "lines": 174,
+        "chars": 6796,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/concept-diagrams/templates/template.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/content-research-writer/SKILL.md",
+    "relative_path": "creative/content-research-writer/SKILL.md",
+    "name": "content-research-writer",
+    "frontmatter": {
+      "name": "content-research-writer",
+      "category": "architecture",
+      "title": "Content Research Writer",
+      "description": "Use when writing blog posts, articles, newsletters, or tutorials that need research, citations, structured outlines, and iterative feedback.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[writing, research, content, articles, newsletters]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 4122,
+    "sha256": "60e8f378d29a721fca33ca74e7567a96445ac191d6a3b67fe9496caef902f11c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/anti-patterns.md",
+        "lines": 211,
+        "chars": 8823,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/anti-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/collaboration-framework.md",
+        "lines": 260,
+        "chars": 8829,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/collaboration-framework.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/decision-trees.md",
+        "lines": 208,
+        "chars": 9545,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/decision-trees.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/examples.md",
+        "lines": 285,
+        "chars": 11942,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/philosophy.md",
+        "lines": 178,
+        "chars": 7765,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/philosophy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/workflows/blog-post.md",
+        "lines": 132,
+        "chars": 4322,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/content-research-writer/references/workflows/blog-post.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/cosmosdb-datamodeling/SKILL.md",
+    "relative_path": "creative/cosmosdb-datamodeling/SKILL.md",
+    "name": "cosmosdb-datamodeling",
+    "frontmatter": {
+      "name": "cosmosdb-datamodeling",
+      "category": "agentic-coder",
+      "title": "Cosmosdb Datamodeling",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and common patterns, artifacts_produced: \"cosmosdb_requirements.md\" file and \"cosmosdb_data_model.md\" file"
+    },
+    "has_frontmatter": true,
+    "lines": 1084,
+    "chars": 48437,
+    "sha256": "9f7176935ff39632108caba8e991fd07eb6fa6a3a2ac810c31da90020c775141",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 50
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/create-implementation-plan/SKILL.md",
+    "relative_path": "creative/create-implementation-plan/SKILL.md",
+    "name": "create-implementation-plan",
+    "frontmatter": {
+      "name": "create-implementation-plan",
+      "category": "documentation",
+      "title": "Create Implementation Plan",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure."
+    },
+    "has_frontmatter": true,
+    "lines": 242,
+    "chars": 10483,
+    "sha256": "91c0c22d748d87be894e91c5ccee73c6e8916c74cf2666d67bff7f88f37467b7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/create-implementation-plan/references/subgoal-reference.md",
+        "lines": 23,
+        "chars": 2416,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/create-implementation-plan/references/subgoal-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/create-implementation-plan/templates/implementation-template.md",
+        "lines": 13,
+        "chars": 1095,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/create-implementation-plan/templates/implementation-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/creative-artifact-production/SKILL.md",
+    "relative_path": "creative/creative-artifact-production/SKILL.md",
+    "name": "creative-artifact-production",
+    "frontmatter": {
+      "name": "creative-artifact-production",
+      "category": "agentic-coder",
+      "title": "Creative Artifact Production",
+      "description": "Use when creating visual or video artifacts.",
+      "version": "1.0.0",
+      "author": "Hermes Curator",
+      "license": "MIT",
+      "tags": "[creative, design, video, animation, html, generative, artifacts]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 3053,
+    "sha256": "13de1b39a3fb9316b5202716633f39ed4948975395075990acefcf9b3988db5e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-artifact-production/references/video-transcript.md",
+        "lines": 18,
+        "chars": 1014,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-artifact-production/references/video-transcript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-artifact-production/scripts/fetch_transcript.py",
+        "lines": 124,
+        "chars": 4054,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-artifact-production/scripts/fetch_transcript.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/creative-ideation/SKILL.md",
+    "relative_path": "creative/creative-ideation/SKILL.md",
+    "name": "creative-ideation",
+    "frontmatter": {
+      "name": "creative-ideation",
+      "category": "agentic-coder",
+      "title": "Creative Ideation — Routed Library of Creative Methods",
+      "description": "Generate ideas via named methods from creative practice.",
+      "version": "2.1.0",
+      "author": "SHL0MS",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 234,
+    "chars": 12029,
+    "sha256": "fb46994f05f24fd1467f344ba95d9c2c0725a4f08b3c6c3551e8c9bd4147ef57",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/anti-slop.md",
+        "lines": 106,
+        "chars": 7182,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/anti-slop.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/exercises.md",
+        "lines": 71,
+        "chars": 6003,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/exercises.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/full-prompt-library.md",
+        "lines": 180,
+        "chars": 8095,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/full-prompt-library.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/heuristics.md",
+        "lines": 85,
+        "chars": 5107,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/heuristics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/method-catalog.md",
+        "lines": 88,
+        "chars": 4925,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/method-catalog.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/affinity-diagrams.md",
+        "lines": 67,
+        "chars": 4633,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/affinity-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/analogy-and-blending.md",
+        "lines": 83,
+        "chars": 5294,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/analogy-and-blending.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/biomimicry.md",
+        "lines": 58,
+        "chars": 4566,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/biomimicry.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/chance-and-remix.md",
+        "lines": 75,
+        "chars": 3810,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/chance-and-remix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/compression-progress.md",
+        "lines": 64,
+        "chars": 3011,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/compression-progress.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/creative-discipline.md",
+        "lines": 82,
+        "chars": 5018,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/creative-discipline.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/defamiliarization.md",
+        "lines": 58,
+        "chars": 4162,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/defamiliarization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/derive-and-mapping.md",
+        "lines": 76,
+        "chars": 4244,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/derive-and-mapping.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/first-principles.md",
+        "lines": 63,
+        "chars": 4208,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/first-principles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/jobs-to-be-done.md",
+        "lines": 73,
+        "chars": 3994,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/jobs-to-be-done.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/lateral-provocations.md",
+        "lines": 81,
+        "chars": 3762,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/lateral-provocations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/leverage-points.md",
+        "lines": 70,
+        "chars": 4636,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/leverage-points.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/oblique-strategies.md",
+        "lines": 87,
+        "chars": 2910,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/oblique-strategies.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/oulipo.md",
+        "lines": 75,
+        "chars": 3289,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/oulipo.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/pataphysics.md",
+        "lines": 64,
+        "chars": 3920,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/pataphysics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/pattern-languages.md",
+        "lines": 78,
+        "chars": 4564,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/pattern-languages.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/polya.md",
+        "lines": 77,
+        "chars": 3555,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/polya.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/premortem-and-inversion.md",
+        "lines": 71,
+        "chars": 3740,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/premortem-and-inversion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/scamper.md",
+        "lines": 63,
+        "chars": 3527,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/scamper.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/story-skeletons.md",
+        "lines": 100,
+        "chars": 6163,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/story-skeletons.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/triz-principles.md",
+        "lines": 95,
+        "chars": 5927,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/triz-principles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/volume-generation.md",
+        "lines": 74,
+        "chars": 3875,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/creative-ideation/references/methods/volume-generation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 22
+  }
+]

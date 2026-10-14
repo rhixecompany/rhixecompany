@@ -1,0 +1,587 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/SKILL.md",
+    "relative_path": "development/minecraft-plugin-development/SKILL.md",
+    "name": "minecraft-plugin-development",
+    "frontmatter": {
+      "name": "minecraft-plugin-development",
+      "category": "dev-tools",
+      "title": "Minecraft Plugin Development",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, player state, team or arena systems, persistent progression, economy or profile data, configuration files, Adventure text, and version-safe API usage. Trigger for requests like \"build a Minecraft plugin\", \"add a Paper command\", \"fix a Bukkit listener\", \"create plugin.yml\", \"implement a minigame mechanic\", \"add a perk or quest system\", or \"debug server plugin behavior\"."
+    },
+    "has_frontmatter": true,
+    "lines": 311,
+    "chars": 13742,
+    "sha256": "db42b25c782c647b71e36c71c26d427a351636ac99182fe90cea80ca9c35be01",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/bootstrap-registration.md",
+        "lines": 100,
+        "chars": 3547,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/bootstrap-registration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/build-test-and-runtime-validation.md",
+        "lines": 132,
+        "chars": 6741,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/build-test-and-runtime-validation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/config-data-and-async.md",
+        "lines": 120,
+        "chars": 3712,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/config-data-and-async.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/maps-heroes-and-feature-modules.md",
+        "lines": 120,
+        "chars": 3621,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/maps-heroes-and-feature-modules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/minigame-instance-flow.md",
+        "lines": 187,
+        "chars": 7160,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/minigame-instance-flow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/persistent-progression-and-events.md",
+        "lines": 121,
+        "chars": 5933,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/persistent-progression-and-events.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/project-patterns.md",
+        "lines": 143,
+        "chars": 5173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/project-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/state-sessions-and-phases.md",
+        "lines": 121,
+        "chars": 3477,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/minecraft-plugin-development/references/state-sessions-and-phases.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 59,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/model-discovery/SKILL.md",
+    "relative_path": "development/model-discovery/SKILL.md",
+    "name": "model-discovery",
+    "frontmatter": {
+      "name": "model-discovery",
+      "category": "agentic-coder",
+      "title": "Model Discovery",
+      "description": "Discovers or validates available LLM models",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "models",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2562,
+    "sha256": "4b4ef0d7b2e0799b647fcc66b207582ab990ac56dd2a0c65e84d7244685da244",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/model-discovery/references/overview.md",
+        "lines": 29,
+        "chars": 530,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/model-discovery/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/model-discovery/templates/template.md",
+        "lines": 18,
+        "chars": 151,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/model-discovery/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/multi-file-change-protocol/SKILL.md",
+    "relative_path": "development/multi-file-change-protocol/SKILL.md",
+    "name": "multi-file-change-protocol",
+    "frontmatter": {
+      "name": "multi-file-change-protocol",
+      "category": "agentic-coder",
+      "title": "Multi-File Change Protocol",
+      "description": "Use when maintaining legacy multi-file workflows.",
+      "version": "1.0.0",
+      "author": "Alexander E Iseghohi; Hermes Agent",
+      "license": "MIT",
+      "tags": "[workflow, multi-file, protocol, planning, orchestration]",
+      "superseded_by": "multi-file-crud-protocol",
+      "status": "Deprecated",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 197,
+    "chars": 15395,
+    "sha256": "fc8f2045d5ecebdf234e7fea8d258186f3b892c57ac2dc0975c936d47ee39c4e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/multi-file-change-protocol/references/env-protection-discrepancy.md",
+        "lines": 46,
+        "chars": 3769,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/multi-file-change-protocol/references/env-protection-discrepancy.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/multi-file-crud-protocol/SKILL.md",
+    "relative_path": "development/multi-file-crud-protocol/SKILL.md",
+    "name": "multi-file-crud-protocol",
+    "frontmatter": {
+      "name": "multi-file-crud-protocol",
+      "category": "agentic-coder",
+      "title": "Multi-File CRUD Protocol (≥4 files)",
+      "description": "Use when a task touches four or more files.",
+      "version": "1.0.0",
+      "author": "Alexander E Iseghohi",
+      "license": "MIT",
+      "tags": "[protocol, multi-file, crud, workflow, orchestration]",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 250,
+    "chars": 17355,
+    "sha256": "4bb0992a72032bf7d5206ed829498b9bafa89fdd3a87e70bd95d820eb13efbe6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/multi-file-crud-protocol/references/env-protection-backup.md",
+        "lines": 21,
+        "chars": 1980,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/multi-file-crud-protocol/references/env-protection-backup.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/multi-file-crud-protocol/references/g1-g5-verification-pattern.md",
+        "lines": 44,
+        "chars": 5445,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/multi-file-crud-protocol/references/g1-g5-verification-pattern.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/SKILL.md",
+    "relative_path": "development/mvvm-toolkit/SKILL.md",
+    "name": "mvvm-toolkit",
+    "frontmatter": {
+      "name": "mvvm-toolkit",
+      "category": "agentic-coder",
+      "title": "Mvvm Toolkit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (ObservableObject / ObservableValidator / ObservableRecipient), commands (RelayCommand / AsyncRelayCommand), and validation. Companion skills: mvvm-toolkit-messenger for pub/sub, mvvm-toolkit-di for Microsoft.Extensions.DependencyInjection wiring. Works across WPF, WinUI 3, MAUI, Uno, and Avalonia."
+    },
+    "has_frontmatter": true,
+    "lines": 333,
+    "chars": 11749,
+    "sha256": "7b6bebf1f435daca8f00a4eb35c7a0415ca109c488f169bd9e4340c48d00179b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/end-to-end-walkthrough.md",
+        "lines": 398,
+        "chars": 11376,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/end-to-end-walkthrough.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/relaycommand-cookbook.md",
+        "lines": 254,
+        "chars": 6881,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/relaycommand-cookbook.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/source-generators.md",
+        "lines": 352,
+        "chars": 9506,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/source-generators.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/troubleshooting.md",
+        "lines": 211,
+        "chars": 7159,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/validation.md",
+        "lines": 252,
+        "chars": 5832,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit/references/validation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit-di/SKILL.md",
+    "relative_path": "development/mvvm-toolkit-di/SKILL.md",
+    "name": "mvvm-toolkit-di",
+    "frontmatter": {
+      "name": "mvvm-toolkit-di",
+      "category": "agentic-coder",
+      "title": "Mvvm Toolkit Di",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection. Covers the .NET Generic Host composition root, constructor injection, service lifetimes (Singleton / Transient / Scoped), IMessenger registration, resolving ViewModels in Views, keyed services, testing seams, and the legacy Ioc.Default escape hatch. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia."
+    },
+    "has_frontmatter": true,
+    "lines": 328,
+    "chars": 10327,
+    "sha256": "0d22b8c04c4b53969c2adcc59c4fddc136b7a09d3580b1f9d21c94ddbdd431a0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit-di/references/dependency-injection.md",
+        "lines": 274,
+        "chars": 8172,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit-di/references/dependency-injection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit-messenger/SKILL.md",
+    "relative_path": "development/mvvm-toolkit-messenger/SKILL.md",
+    "name": "mvvm-toolkit-messenger",
+    "frontmatter": {
+      "name": "mvvm-toolkit-messenger",
+      "category": "agentic-coder",
+      "title": "Mvvm Toolkit Messenger",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "CommunityToolkit.Mvvm Messenger pub/sub for decoupled communication between ViewModels (or any objects). Covers WeakReferenceMessenger vs StrongReferenceMessenger, IRecipient<TMessage>, RequestMessage<T> / AsyncRequestMessage<T> / CollectionRequestMessage<T>, ValueChangedMessage<T>, channels (tokens), and the ObservableRecipient activation lifecycle. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia."
+    },
+    "has_frontmatter": true,
+    "lines": 307,
+    "chars": 9843,
+    "sha256": "9e9bc60df61a9964b6af5d41344ce1c8db6cf8daa91f47e62b35ff182f76e458",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit-messenger/references/messenger-patterns.md",
+        "lines": 231,
+        "chars": 7025,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/mvvm-toolkit-messenger/references/messenger-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  }
+]

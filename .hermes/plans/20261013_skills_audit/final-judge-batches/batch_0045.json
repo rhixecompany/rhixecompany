@@ -1,0 +1,405 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/SKILL.md",
+    "relative_path": "development/draw-io-diagram-generator/SKILL.md",
+    "name": "draw-io-diagram-generator",
+    "frontmatter": {
+      "name": "draw-io-diagram-generator",
+      "category": "agentic-coder",
+      "title": "Draw Io Diagram Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequence diagrams, ER diagrams, UML class diagrams, network topology, layout strategy, the hediet.vscode-drawio VS Code extension, and the full agent workflow from request to a ready-to-open file."
+    },
+    "has_frontmatter": true,
+    "lines": 501,
+    "chars": 20530,
+    "sha256": "a15d396e372f99ab23a95e4c66638776c714d5bf60eff72406679c80b37f4f83",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/references/drawio-xml-schema.md",
+        "lines": 379,
+        "chars": 10769,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/references/drawio-xml-schema.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/references/shape-libraries.md",
+        "lines": 334,
+        "chars": 13121,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/references/shape-libraries.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/references/style-reference.md",
+        "lines": 410,
+        "chars": 15438,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/references/style-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/.gitignore",
+        "lines": 5,
+        "chars": 39,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/.gitignore:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/README.md",
+        "lines": 124,
+        "chars": 3328,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/add-shape.py",
+        "lines": 213,
+        "chars": 6636,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/add-shape.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/validate-drawio.py",
+        "lines": 214,
+        "chars": 7635,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/draw-io-diagram-generator/scripts/validate-drawio.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/e2e-session-test/SKILL.md",
+    "relative_path": "development/e2e-session-test/SKILL.md",
+    "name": "e2e-session-test",
+    "frontmatter": {
+      "name": "e2e-session-test",
+      "category": "agentic-coder",
+      "title": "E2e Session Test",
+      "description": "Script for E2e Session Test operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "evaluation",
+        "sessions",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2573,
+    "sha256": "2551278fd9d0cc082c96c65a19182c17fd3ac3c7be74f7f72b44837b5e0da6b7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/editorconfig/SKILL.md",
+    "relative_path": "development/editorconfig/SKILL.md",
+    "name": "editorconfig",
+    "frontmatter": {
+      "name": "editorconfig",
+      "category": "agentic-coder",
+      "title": "Editorconfig",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences."
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 5120,
+    "sha256": "c2434e06446c235fb3e347fa8c30a830e9eb9318f600d2742c4c824abc8d6f2d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/ef-core/SKILL.md",
+    "relative_path": "development/ef-core/SKILL.md",
+    "name": "ef-core",
+    "frontmatter": {
+      "name": "ef-core",
+      "category": "agentic-coder",
+      "title": "Ef Core",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Get best practices for Entity Framework Core"
+    },
+    "has_frontmatter": true,
+    "lines": 114,
+    "chars": 3635,
+    "sha256": "940336ea3242e06a691d354ba216c6e8710fe93d63c6abb8b177cd78d583f833",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/em-dash/SKILL.md",
+    "relative_path": "development/em-dash/SKILL.md",
+    "name": "em-dash",
+    "frontmatter": {
+      "name": "em-dash",
+      "category": "agentic-coder",
+      "title": "Em Dash",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Expert on the history, origin, and correct use of the em dash. Use when writing or reviewing code, comments, or data files to avoid em and en dashes, defaulting to never using them and replacing any found with a hyphen (-). Includes strong knowledge of punctuation marks and the proper usage of punctuation characters when writing comments."
+    },
+    "has_frontmatter": true,
+    "lines": 273,
+    "chars": 10620,
+    "sha256": "d34fc0aa3e834634838373b31f50d5c892ea6e84d58e2e5342b85a99f1c26017",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/enhance-prompts/SKILL.md",
+    "relative_path": "development/enhance-prompts/SKILL.md",
+    "name": "enhance-prompts",
+    "frontmatter": {
+      "name": "enhance-prompts",
+      "category": "agentic-coder",
+      "title": "Enhance Prompts",
+      "description": "Script for Enhance Prompts operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2557,
+    "sha256": "ad70214c5eea84b0a87b9fd0e53d9ca30e0f00d7aaa86867c408af09510ba984",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/enhance-sections/SKILL.md",
+    "relative_path": "development/enhance-sections/SKILL.md",
+    "name": "enhance-sections",
+    "frontmatter": {
+      "name": "enhance-sections",
+      "category": "agentic-coder",
+      "title": "Enhance Sections",
+      "description": "Script for Enhance Sections operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2555,
+    "sha256": "1650bfeb4a7e4e92712ab5ae44883a9057606de1ecfb20b8fbb24bd632de9b54",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/wait-what/SKILL.md",
+    "relative_path": "wait-what/SKILL.md",
+    "name": "wait-what",
+    "frontmatter": {
+      "name": "wait-what",
+      "description": "Stop. That last message did not land: re-pitch it.",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 7,
+    "chars": 396,
+    "sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 49,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 0
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/wayfinder/SKILL.md",
+    "relative_path": "wayfinder/SKILL.md",
+    "name": "wayfinder",
+    "frontmatter": {
+      "name": "wayfinder",
+      "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 12380,
+    "sha256": "9be7b478c389605a24517d27752f278933588da97a1b5921b165f455edf4c5b7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/weather/weather-plugin/SKILL.md",
+    "relative_path": "weather/weather-plugin/SKILL.md",
+    "name": "weather-plugin",
+    "frontmatter": {
+      "name": "weather-plugin",
+      "category": "agentic-coder",
+      "title": "Weather Plugin",
+      "author": "Alexa",
+      "license": "MIT",
+      "description": "Guide for using the weather plugin — data queries, radar imagery, model maps, and meteorological calculations",
+      "version": "2.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 5114,
+    "sha256": "72af67fed3f77b4c844659f6a19458dd712f38ef518b9ce6b43c1b3d9e704286",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 81,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/weather-plugin/SKILL.md",
+    "relative_path": "weather-plugin/SKILL.md",
+    "name": "weather-plugin",
+    "frontmatter": {
+      "name": "weather-plugin",
+      "category": "agentic-coder",
+      "description": "Guide for using the weather plugin — data queries, radar imagery, model maps, and meteorological calculations",
+      "version": "2.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 67,
+    "chars": 3714,
+    "sha256": "47dc9e387e3a05320bf5c9bf9e3265d1c3c6869491dc91df4eacc99556c2f9a1",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 56,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 9,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web/blocked-page-recovery/SKILL.md",
+    "relative_path": "web/blocked-page-recovery/SKILL.md",
+    "name": "blocked-page-recovery",
+    "frontmatter": {
+      "name": "blocked-page-recovery",
+      "category": "web",
+      "description": "Use when a fetch fails: 403/429, paywall, WAF, bot wall.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 138,
+    "chars": 5153,
+    "sha256": "47bb3ab16c67eb35342ebe391353430d1ec1ead8027c62eba21b66f88a847097",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/web/blocked-page-recovery/scripts/recover_page.py",
+        "lines": 241,
+        "chars": 8479,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web/blocked-page-recovery/scripts/recover_page.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 58,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/bun-nextjs/SKILL.md",
+    "relative_path": "web-development/bun-nextjs/SKILL.md",
+    "name": "bun-nextjs",
+    "frontmatter": {
+      "name": "bun-nextjs",
+      "tags": "[]",
+      "category": "agentic-coder",
+      "title": "Bun Nextjs",
+      "author": "Hermes Skills Team",
+      "description": "This skill should be used when the user asks about \"Next.js with Bun\", \"Bun and Next\", \"running Next.js on Bun\", \"Next.js development with Bun\", \"create-next-app with Bun\", or building Next.js applications using Bun as the runtime.",
+      "metadata": [],
+      "license": "MIT",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 368,
+    "chars": 8075,
+    "sha256": "532a8982fdb5b41547e6ca419daa166ab4273ca032cb594691e16dc0cbfa65fa",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/web-development/cloudflare-temporary-deploy/SKILL.md",
+    "relative_path": "web-development/cloudflare-temporary-deploy/SKILL.md",
+    "name": "cloudflare-temporary-deploy",
+    "frontmatter": {
+      "name": "cloudflare-temporary-deploy",
+      "category": "agentic-coder",
+      "title": "Cloudflare Temporary Deploy",
+      "description": "Deploy a Worker live, no account, via wrangler --temporary.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 166,
+    "chars": 8866,
+    "sha256": "b7fd446381c411ac872aaa1f6e903d494a16f7d234d788f264ceb8f3bb6c7b6b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/cloudflare-temporary-deploy/scripts/parse_deploy_output.py",
+        "lines": 122,
+        "chars": 4277,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/web-development/cloudflare-temporary-deploy/scripts/parse_deploy_output.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 17
+  }
+]

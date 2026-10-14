@@ -1,0 +1,637 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/SKILL.md",
+    "relative_path": "devops/powerbi-modeling/SKILL.md",
+    "name": "powerbi-modeling",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Power BI semantic modeling assistant for building optimized data models.",
+      "license": "MIT",
+      "name": "powerbi-modeling",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Powerbi Modeling",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 209,
+    "chars": 7480,
+    "sha256": "21204d41b0cdbdb3344fa083ad74e6a062962a7736d5776468c76938c5fc6d95",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/MEASURES-DAX.md",
+        "lines": 213,
+        "chars": 5118,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/MEASURES-DAX.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/PERFORMANCE.md",
+        "lines": 245,
+        "chars": 5564,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/PERFORMANCE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/RELATIONSHIPS.md",
+        "lines": 171,
+        "chars": 3494,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/RELATIONSHIPS.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/RLS.md",
+        "lines": 253,
+        "chars": 5414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/RLS.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/STAR-SCHEMA.md",
+        "lines": 120,
+        "chars": 3163,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/powerbi-modeling/references/STAR-SCHEMA.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/profile-directive-sync/SKILL.md",
+    "relative_path": "devops/profile-directive-sync/SKILL.md",
+    "name": "profile-directive-sync",
+    "frontmatter": {
+      "name": "profile-directive-sync",
+      "title": "Profile Directive Sync",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "description": "Use when propagating root SOUL.md/USER.md/MEMORY.md changes to all Hermes profiles. Reads root canonical files and adapts them per-profile (header, identity, role), writes to each profile directory.",
+      "category": "agentic-coder",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 121,
+    "chars": 6575,
+    "sha256": "98c7d514aaabb656e06cc7fafada48e4b9985969ea52af531d29261289e023e2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-directive-sync/references/user-md-compaction.md",
+        "lines": 137,
+        "chars": 5536,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-directive-sync/references/user-md-compaction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/SKILL.md",
+    "relative_path": "devops/profile-maintenance/SKILL.md",
+    "name": "profile-maintenance",
+    "frontmatter": {
+      "name": "profile-maintenance",
+      "category": "agentic-coder",
+      "title": "Profile Maintenance — Audit & Update USER.md, MEMORY.md, SOUL.md",
+      "description": "Systematic process for updating Hermes profile identity files (USER.md, MEMORY.md, SOUL.md) from accumulated session knowledge, environment state, and user corrections. Run at session start and end.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 290,
+    "chars": 19942,
+    "sha256": "d5fe2e9e17c37b41a4bd0f1b44d9335635c0b566bbee78a6d15ed4771544e410",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/audit-checklist.md",
+        "lines": 73,
+        "chars": 4104,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/audit-checklist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/mcp-tools-optimization.md",
+        "lines": 98,
+        "chars": 4424,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/mcp-tools-optimization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/memory-tool-drift.md",
+        "lines": 24,
+        "chars": 1219,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/memory-tool-drift.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/profile-sync-procedure.md",
+        "lines": 97,
+        "chars": 3841,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/profile-sync-procedure.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/python-scripts-workflow.md",
+        "lines": 162,
+        "chars": 4228,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/python-scripts-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/session-initialization-workflow.md",
+        "lines": 96,
+        "chars": 2820,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/session-initialization-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/session-reporting.md",
+        "lines": 27,
+        "chars": 708,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/profile-maintenance/references/session-reporting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/SKILL.md",
+    "relative_path": "devops/prompt-batch-fixer/SKILL.md",
+    "name": "prompt-batch-fixer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when batch-processing markdown prompt files — adding YAML frontmatter,",
+      "license": "MIT",
+      "name": "prompt-batch-fixer",
+      "category": "agentic-coder",
+      "tags": [
+        "prompts",
+        "batch",
+        "fix",
+        "yaml",
+        "frontmatter",
+        "verification"
+      ],
+      "title": "Prompt Batch Fixer",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 162,
+    "chars": 10022,
+    "sha256": "ac5e41a205879e72813a8c4a85ff0459115915c48f9a9fc64cb97573c9c896bb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/references/copilot-frontmatter-merge.md",
+        "lines": 70,
+        "chars": 3417,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/references/copilot-frontmatter-merge.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/references/prompt-fix-patterns.md",
+        "lines": 203,
+        "chars": 5183,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/references/prompt-fix-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/references/tag-inference.md",
+        "lines": 85,
+        "chars": 3877,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/references/tag-inference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/scripts/fix_copilot_frontmatter.py",
+        "lines": 116,
+        "chars": 3512,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/scripts/fix_copilot_frontmatter.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/scripts/fix_prompts_comprehensive.py",
+        "lines": 471,
+        "chars": 15605,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/prompt-batch-fixer/scripts/fix_prompts_comprehensive.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 6,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/provider-model-audit/SKILL.md",
+    "relative_path": "devops/provider-model-audit/SKILL.md",
+    "name": "provider-model-audit",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Inventory all authorized LLM providers via `hermes auth list`, discover",
+      "license": "MIT",
+      "name": "provider-model-audit",
+      "category": "audit",
+      "tags": [
+        "providers",
+        "models",
+        "audit",
+        "openrouter",
+        "auth",
+        "free-tier",
+        "benchmark",
+        "hermes"
+      ],
+      "title": "Provider & Model Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 215,
+    "chars": 8701,
+    "sha256": "c0d70e75e8a2a0e4ac41a5b028dd8be2951231cb306a9097002716b55066d823",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-model-audit/references/overview.md",
+        "lines": 11,
+        "chars": 188,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-model-audit/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/SKILL.md",
+    "relative_path": "devops/provider-reliability-diagnostics/SKILL.md",
+    "name": "provider-reliability-diagnostics",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "'Diagnose and fix provider chain failures in Hermes: trace failures across",
+      "license": "MIT",
+      "name": "provider-reliability-diagnostics",
+      "category": "agentic-coder",
+      "tags": [
+        "hermes",
+        "diagnostics",
+        "providers",
+        "reliability",
+        "mcp",
+        "fallback"
+      ],
+      "title": "Provider Reliability Diagnostics — Chain Tracing, ACPX Validation, Auxiliary",
+      "trigger": "'• User says \"provider not working\", \"API failing\", \"model not responding\"",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 237,
+    "chars": 9739,
+    "sha256": "37eb052071aa1e4cebb4d031e7eb9c373a44ed7854f209f7f4e5d5bfccab101a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/references/model-catalog-free-models.md",
+        "lines": 68,
+        "chars": 3296,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/references/model-catalog-free-models.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/references/provider-chain-diagnostics.md",
+        "lines": 66,
+        "chars": 2516,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/references/provider-chain-diagnostics.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/scripts/test-free-models.py",
+        "lines": 77,
+        "chars": 2395,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/provider-reliability-diagnostics/scripts/test-free-models.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: non-standard trigger field",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/python-package-manager/SKILL.md",
+    "relative_path": "devops/python-package-manager/SKILL.md",
+    "name": "python-package-manager",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Manage Python virtual environments, dependencies, and package operations across Hermes workspace and projects. Supports pip, uv, poetry, and conda with unified interface.",
+      "category": "agentic-coder",
+      "license": "MIT",
+      "metadata": [
+        "uv-package-manager",
+        "pnpm-package-manager",
+        "hermes-setup",
+        "python",
+        "packages",
+        "venv",
+        "dependencies",
+        "pip",
+        "uv"
+      ],
+      "name": "python-package-manager",
+      "tags": [
+        "python",
+        "packages",
+        "venv",
+        "dependencies",
+        "pip",
+        "uv",
+        "poetry",
+        "conda"
+      ],
+      "title": "Python Package Manager",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 3693,
+    "sha256": "0787aa808e24dae6caa08aa78005ea265a157597995f5bd64ff6b541b5abfa56",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

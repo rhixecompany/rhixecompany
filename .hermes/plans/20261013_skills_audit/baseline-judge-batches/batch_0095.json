@@ -1,0 +1,398 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/SKILL.md",
+    "relative_path": "devops/SKILL.md",
+    "name": "devops",
+    "frontmatter": {
+      "name": "devops",
+      "category": "dev-tools",
+      "title": "Devops Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for devops — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1437,
+    "sha256": "176a9008a439e433f564ff5b51a0f9b59b5fa2ab6933d4bdf60965295cc72700",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/SKILL.md",
+    "relative_path": "devops/appinsights-instrumentation/SKILL.md",
+    "name": "appinsights-instrumentation",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Instrument a webapp to send useful telemetry data to Azure App Insights.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "appinsights-instrumentation",
+      "category": "agentic-coder",
+      "tags": [
+        "azure",
+        "appinsights",
+        "observability",
+        "telemetry",
+        "instrumentation"
+      ],
+      "title": "AppInsights Instrumentation",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 105,
+    "chars": 3864,
+    "sha256": "0fb2f82c899ae3fda4fd21623ed4b752eeb1357ac0b79b3ba9abe65b9479dad2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/ASPNETCORE.md",
+        "lines": 29,
+        "chars": 1712,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/ASPNETCORE.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/AUTO.md",
+        "lines": 14,
+        "chars": 892,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/AUTO.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/NODEJS.md",
+        "lines": 27,
+        "chars": 1814,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/NODEJS.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/PYTHON.md",
+        "lines": 50,
+        "chars": 1815,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/references/PYTHON.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/scripts/appinsights.ps1",
+        "lines": 20,
+        "chars": 1221,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/appinsights-instrumentation/scripts/appinsights.ps1:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/arch-linux-triage/SKILL.md",
+    "relative_path": "devops/arch-linux-triage/SKILL.md",
+    "name": "arch-linux-triage",
+    "frontmatter": {
+      "name": "arch-linux-triage",
+      "category": "architecture",
+      "title": "Arch Linux Triage",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices."
+    },
+    "has_frontmatter": true,
+    "lines": 70,
+    "chars": 1905,
+    "sha256": "d38854d6d8661d408f5ea37f18179393ac9e70561debea37368b0d7e01563b26",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/arize-dataset/SKILL.md",
+    "relative_path": "devops/arize-dataset/SKILL.md",
+    "name": "arize-dataset",
+    "frontmatter": {
+      "name": "arize-dataset",
+      "category": "agentic-coder",
+      "title": "Arize Dataset",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates, manages, and queries Arize datasets and examples. Covers dataset CRUD, appending examples, exporting data, and file-based dataset creation using the ax CLI. Use when the user needs test data, evaluation examples, or mentions create dataset, list datasets, export dataset, append examples, dataset version, golden dataset, or test set.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile."
+    },
+    "has_frontmatter": true,
+    "lines": 396,
+    "chars": 15974,
+    "sha256": "f5dce42186dd2e4a838cf36d984971de3b128de84b7dd9949a9c9824c3d3dd2c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 30
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/arize-experiment/SKILL.md",
+    "relative_path": "devops/arize-experiment/SKILL.md",
+    "name": "arize-experiment",
+    "frontmatter": {
+      "name": "arize-experiment",
+      "category": "agentic-coder",
+      "title": "Arize Experiment",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance. Covers experiment CRUD, exporting runs, comparing results, and evaluation workflows using the ax CLI. Use when the user mentions create experiment, run experiment, compare models, model performance, evaluate AI, experiment results, benchmark, A/B test models, or measure accuracy.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile."
+    },
+    "has_frontmatter": true,
+    "lines": 434,
+    "chars": 19148,
+    "sha256": "e66126c0afc0551115dc986ea4c305686c1b8a4ae10e63d77aa5f48aae59c845",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/arize-link/SKILL.md",
+    "relative_path": "devops/arize-link/SKILL.md",
+    "name": "arize-link",
+    "frontmatter": {
+      "name": "arize-link",
+      "category": "agentic-coder",
+      "title": "Arize Link",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sharing Arize resources with team members. Use when the user wants to link to or open a trace, span, session, dataset, evaluator, or annotation config in the Arize UI.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 123,
+    "chars": 5033,
+    "sha256": "f611d72e860786ea5bc9da9875f49503c57bb74985a1bd2e2da06c19104433ad",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 8,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/arize-prompt-optimization/SKILL.md",
+    "relative_path": "devops/arize-prompt-optimization/SKILL.md",
+    "name": "arize-prompt-optimization",
+    "frontmatter": {
+      "name": "arize-prompt-optimization",
+      "category": "agentic-coder",
+      "title": "Arize Prompt Optimization",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Optimizes, improves, and debugs LLM prompts using production trace data, evaluations, and annotations. Extracts prompts from spans, gathers performance signal, and runs a data-driven optimization loop using the ax CLI. Use when the user mentions optimize prompt, improve prompt, make AI respond better, improve output quality, prompt engineering, prompt tuning, or system prompt improvement.",
+      "metadata": [],
+      "compatibility": "Requires the ax CLI and a configured Arize profile."
+    },
+    "has_frontmatter": true,
+    "lines": 477,
+    "chars": 19776,
+    "sha256": "d13f19d7d8fe672e0b896b7073dbf1aa146909975bb8bf07f857b2891c3bbb58",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 14,
+      "structure": 0,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 26
+  }
+]

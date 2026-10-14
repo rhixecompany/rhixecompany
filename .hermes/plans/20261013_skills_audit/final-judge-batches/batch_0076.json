@@ -1,0 +1,511 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/react-container-presentation-component/SKILL.md",
+    "relative_path": "development/react-container-presentation-component/SKILL.md",
+    "name": "react-container-presentation-component",
+    "frontmatter": {
+      "name": "react-container-presentation-component",
+      "category": "agentic-coder",
+      "title": "React Container Presentation Component",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a React component using the Container/Presentation pattern in src/components by asking for the component name and type (ui or features), then scaffold files that follow this repository's TypeScript, Storybook, and SCSS conventions. Use when the user explicitly asks for a Container/Presentation-based component or runs /react-container-presentation-component.",
+      "argument-hint": "componentName type(ui|features)",
+      "user-invocable": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 5155,
+    "sha256": "16b92902d7d083681c05a31bca8ba10cf1a554179c26f87b2b10f8ff243576a7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react-container-presentation-component/references/component-architecture.md",
+        "lines": 130,
+        "chars": 5239,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react-container-presentation-component/references/component-architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react-container-presentation-component/references/typescript-and-scss-rules.md",
+        "lines": 54,
+        "chars": 1362,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react-container-presentation-component/references/typescript-and-scss-rules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react18-batching-patterns/SKILL.md",
+    "relative_path": "development/react18-batching-patterns/SKILL.md",
+    "name": "react18-batching-patterns",
+    "frontmatter": {
+      "name": "react18-batching-patterns",
+      "category": "agentic-coder",
+      "title": "React18 Batching Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Provides exact patterns for diagnosing and fixing automatic batching regressions in React 18 class components. Use this skill whenever a class component has multiple setState calls in an async method, inside setTimeout, inside a Promise .then() or .catch(), or in a native event handler. Use it before writing any flushSync call - the decision tree here prevents unnecessary flushSync overuse. Also use this skill when fixing test failures caused by intermediate state assertions that break after React 18 upgrade."
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 3477,
+    "sha256": "670c70568a259dfea1aed3288bc8d8cea736a7e602e85ea1838ee9034c98f579",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-batching-patterns/references/batching-categories.md",
+        "lines": 208,
+        "chars": 5957,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-batching-patterns/references/batching-categories.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-batching-patterns/references/flushSync-guide.md",
+        "lines": 86,
+        "chars": 2455,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-batching-patterns/references/flushSync-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react18-dep-compatibility/SKILL.md",
+    "relative_path": "development/react18-dep-compatibility/SKILL.md",
+    "name": "react18-dep-compatibility",
+    "frontmatter": {
+      "name": "react18-dep-compatibility",
+      "category": "agentic-coder",
+      "title": "React18 Dep Compatibility",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "React 18.3.1 and React 19 dependency compatibility matrix."
+    },
+    "has_frontmatter": true,
+    "lines": 141,
+    "chars": 5489,
+    "sha256": "bed85a39a4bc19c7a4215193e436fbedaf8aecb9ef5f9efd886ca85d90c30bd8",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-dep-compatibility/references/apollo-details.md",
+        "lines": 68,
+        "chars": 2441,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-dep-compatibility/references/apollo-details.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-dep-compatibility/references/router-migration.md",
+        "lines": 87,
+        "chars": 3439,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-dep-compatibility/references/router-migration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react18-enzyme-to-rtl/SKILL.md",
+    "relative_path": "development/react18-enzyme-to-rtl/SKILL.md",
+    "name": "react18-enzyme-to-rtl",
+    "frontmatter": {
+      "name": "react18-enzyme-to-rtl",
+      "category": "agentic-coder",
+      "title": "React18 Enzyme To Rtl",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades. Use this skill whenever Enzyme tests need to be rewritten - shallow, mount, wrapper.find(), wrapper.simulate(), wrapper.prop(), wrapper.state(), wrapper.instance(), Enzyme configure/Adapter calls, or any test file that imports from enzyme. This skill covers the full API mapping and the philosophy shift from implementation testing to behavior testing. Always read this skill before rewriting Enzyme tests - do not translate Enzyme APIs 1:1, that produces brittle RTL tests."
+    },
+    "has_frontmatter": true,
+    "lines": 132,
+    "chars": 4654,
+    "sha256": "eea38cc0ce497201ceafeb715343445db00d9bfb4f76c2b5b87301dd369e95b2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-enzyme-to-rtl/references/async-patterns.md",
+        "lines": 260,
+        "chars": 7520,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-enzyme-to-rtl/references/async-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-enzyme-to-rtl/references/enzyme-api-map.md",
+        "lines": 224,
+        "chars": 6294,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-enzyme-to-rtl/references/enzyme-api-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/SKILL.md",
+    "relative_path": "development/react18-legacy-context/SKILL.md",
+    "name": "react18-legacy-context",
+    "frontmatter": {
+      "name": "react18-legacy-context",
+      "category": "agentic-coder",
+      "title": "React18 Legacy Context",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Provides the complete migration pattern for React legacy context API (contextTypes, childContextTypes, getChildContext) to the modern createContext API. Use this skill whenever migrating legacy context in class components - this is always a cross-file migration requiring the provider AND all consumers to be updated together. Use it before touching any contextTypes or childContextTypes code, because migrating only the provider without the consumers (or vice versa) will cause a runtime failure. Always read this skill before writing any context migration - the cross-file coordination steps here prevent the most common context migration bugs."
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 3468,
+    "sha256": "9c8db758a939ed40e91d14ec0438ce3ee08e1e9c7df0f8ed7be2ec3995cfde6a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/references/context-file-template.md",
+        "lines": 116,
+        "chars": 2928,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/references/context-file-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/references/multi-context.md",
+        "lines": 195,
+        "chars": 5764,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/references/multi-context.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/references/single-context.md",
+        "lines": 224,
+        "chars": 5205,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-legacy-context/references/single-context.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/SKILL.md",
+    "relative_path": "development/react18-lifecycle-patterns/SKILL.md",
+    "name": "react18-lifecycle-patterns",
+    "frontmatter": {
+      "name": "react18-lifecycle-patterns",
+      "category": "agentic-coder",
+      "title": "React18 Lifecycle Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Provides exact before/after migration patterns for the three unsafe class component lifecycle methods - componentWillMount, componentWillReceiveProps, and componentWillUpdate - targeting React 18.3.1. Use this skill whenever a class component needs its lifecycle methods migrated, when deciding between getDerivedStateFromProps vs componentDidUpdate, when adding getSnapshotBeforeUpdate, or when fixing React 18 UNSAFE_ lifecycle warnings. Always use this skill before writing any lifecycle migration code - do not guess the pattern from memory, the decision trees here prevent the most common migration mistakes."
+    },
+    "has_frontmatter": true,
+    "lines": 102,
+    "chars": 4635,
+    "sha256": "21af0df0deaf77db632ed323fdf8de0ba0d5a609ee179364f8b261aeaa22c425",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/references/componentWillMount.md",
+        "lines": 155,
+        "chars": 3772,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/references/componentWillMount.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/references/componentWillReceiveProps.md",
+        "lines": 164,
+        "chars": 5077,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/references/componentWillReceiveProps.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/references/componentWillUpdate.md",
+        "lines": 151,
+        "chars": 4777,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-lifecycle-patterns/references/componentWillUpdate.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/react18-string-refs/SKILL.md",
+    "relative_path": "development/react18-string-refs/SKILL.md",
+    "name": "react18-string-refs",
+    "frontmatter": {
+      "name": "react18-string-refs",
+      "category": "agentic-coder",
+      "title": "React18 String Refs",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Provides exact migration patterns for React string refs (ref=\"name\" + this.refs.name) to React.createRef() in class components. Use this skill whenever migrating string ref usage - including single element refs, multiple refs in a component, refs in lists, callback refs, and refs passed to child components. Always use this skill before writing any ref migration code - the multiple-refs-in-list pattern is particularly tricky and this skill prevents the most common mistakes. Use it for React 18.3.1 migration (string refs warn) and React 19 migration (string refs removed)."
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 3088,
+    "sha256": "17b4346db24f0dcf31bb51431e7f1ce82c48106ac8d76f6440d991f27089d8bb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-string-refs/references/patterns.md",
+        "lines": 301,
+        "chars": 6806,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/react18-string-refs/references/patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

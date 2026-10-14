@@ -1,0 +1,447 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/qa/skill-library-audit/SKILL.md",
+    "relative_path": "qa/skill-library-audit/SKILL.md",
+    "name": "skill-library-audit",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Generate comprehensive skill library audit report. Runs skill-judge on all skills, categorizes by domain, identifies gaps/duplicates/outdated skills, and produces executive summary with remediation priorities.",
+      "category": "audit",
+      "license": "MIT",
+      "metadata": [
+        "skill-judge",
+        "skills",
+        "batch-skills-audit",
+        "batch-skills-remediation",
+        "skills",
+        "audit",
+        "report",
+        "quality",
+        "library"
+      ],
+      "name": "skill-library-audit",
+      "tags": [],
+      "title": "Skill Library Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 176,
+    "chars": 5746,
+    "sha256": "c5e72bf49b0e78d0f3b725d11e6b68ec8596bdd6a3b32847e7ed7d7159b089ae",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/skills-tools-preflight-check/SKILL.md",
+    "relative_path": "qa/skills-tools-preflight-check/SKILL.md",
+    "name": "skills-tools-preflight-check",
+    "frontmatter": {
+      "name": "skills-tools-preflight-check",
+      "description": "Preflight verification of skills and tools availability before execution. Check that all required skills exist, tools are accessible, and dependencies are satisfied before starting a workflow.",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "preflight",
+        "verification",
+        "skills",
+        "tools",
+        "safety"
+      ],
+      "title": "Skills Tools Preflight Check",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 114,
+    "chars": 3462,
+    "sha256": "6cdf856e3544e4b539af932459c65b6070e7d90eb5287ce8b77de4a2c3502342",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/specs-judge/SKILL.md",
+    "relative_path": "qa/specs-judge/SKILL.md",
+    "name": "specs-judge",
+    "frontmatter": {
+      "name": "specs-judge",
+      "category": "documentation",
+      "title": "Specs Judge",
+      "description": "Use when auditing .hermes/specs/*.md. Scores 0-100.",
+      "version": "2.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, judge, specs, audit]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 145,
+    "chars": 5279,
+    "sha256": "f208d12d2915301705dcfed609f5e74379f02a7a4464978b969d56cabefcc390",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/specs-judge/references/rubric.md",
+        "lines": 86,
+        "chars": 2025,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/specs-judge/references/rubric.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/specs-judge/scripts/__pycache__/judge.cpython-313.pyc",
+        "lines": 398,
+        "chars": 13787,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/specs-judge/scripts/__pycache__/judge.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/specs-judge/scripts/judge.py",
+        "lines": 274,
+        "chars": 9772,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/specs-judge/scripts/judge.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/test-gap-audit/SKILL.md",
+    "relative_path": "qa/test-gap-audit/SKILL.md",
+    "name": "test-gap-audit",
+    "frontmatter": {
+      "name": "test-gap-audit",
+      "category": "audit",
+      "title": "Test Gap Audit",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Run a read-only audit for missing, weak, stale, or mis-scoped test coverage. If the user does not name a scope, audit the full repository and identify important code paths, routes, features, services, workflows, and contracts that lack proper tests. If the user names a feature, PR, branch, route, workflow, service, bug fix, API, security-sensitive path, or risky code change, focus only on that specific scope. Use when the user asks what tests are missing, whether coverage is enough, what regression tests to add, or how to prove a change is safe. This is not a general bug audit and not a security review; it evaluates whether behavior is covered by tests.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 210,
+    "chars": 13484,
+    "sha256": "cac58e3faaa61b1c82057326e2db0b0cacd5cef0815a227ea412cc59d93d0b11",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-gap-audit/scripts/coverage_map.py",
+        "lines": 416,
+        "chars": 17427,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-gap-audit/scripts/coverage_map.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/test-skill/SKILL.md",
+    "relative_path": "qa/test-skill/SKILL.md",
+    "name": "test-skill",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when creating automated tests or test harnesses for skills and agent",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "test-skill",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Test Skill",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 172,
+    "chars": 4760,
+    "sha256": "7d2e4d4613e7c2d6b213e6259430f43b27c905d34cc2d4e39ebafae0abc7c738",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-skill/references/overview.md",
+        "lines": 19,
+        "chars": 355,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-skill/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-skill/scripts/echo-args",
+        "lines": 14,
+        "chars": 281,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-skill/scripts/echo-args:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-skill/scripts/greet",
+        "lines": 6,
+        "chars": 163,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/test-skill/scripts/greet:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/verification-before-completion/SKILL.md",
+    "relative_path": "qa/verification-before-completion/SKILL.md",
+    "name": "verification-before-completion",
+    "frontmatter": {
+      "name": "verification-before-completion",
+      "category": "agentic-coder",
+      "title": "Verification Before Completion",
+      "description": "Use when about to claim work is complete, fixed, or passing. Requires running verification commands before committing or creating PRs.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]"
+    },
+    "has_frontmatter": true,
+    "lines": 211,
+    "chars": 9711,
+    "sha256": "9b9fea6de952375a1a13d2c7259b44a76f6416ad66a9c167b6b4e9d670cabca1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/qa/verification-before-completion/references/ad-hoc-verify-python-windows.md",
+        "lines": 48,
+        "chars": 2285,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/verification-before-completion/references/ad-hoc-verify-python-windows.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/verification-before-completion/references/shellcheck-verification-patterns.md",
+        "lines": 95,
+        "chars": 3071,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/qa/verification-before-completion/references/shellcheck-verification-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/qa/verify-agent-action/SKILL.md",
+    "relative_path": "qa/verify-agent-action/SKILL.md",
+    "name": "verify-agent-action",
+    "frontmatter": {
+      "name": "verify-agent-action",
+      "category": "agentic-coder",
+      "title": "Verify Agent Action",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Review a proposed AI-agent action or human-approval packet before execution. Use when an agent wants to run a consequential tool, command, deployment, message, purchase, credential operation, or data mutation; when checking whether approval still matches the exact action; or when auditing action evidence for forged results, parameter swaps, replay, correlated reviewers, missing evidence, expiry, or stale monitoring. Produce an evidence-based review only—never execute or authorize the action."
+    },
+    "has_frontmatter": true,
+    "lines": 268,
+    "chars": 9198,
+    "sha256": "a8d2e2b6cca39a132a83fd445350e2cb989e762030d985cd58821614d90a592c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  }
+]

@@ -1,0 +1,316 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/gaming/minecraft-modpack-server/SKILL.md",
+    "relative_path": "gaming/minecraft-modpack-server/SKILL.md",
+    "name": "minecraft-modpack-server",
+    "frontmatter": {
+      "name": "minecraft-modpack-server",
+      "category": "agentic-coder",
+      "title": "Minecraft Modpack Server",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "tags": "[minecraft, gaming, server, neoforge, forge, modpack]",
+      "platforms": "[linux, macos]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 236,
+    "chars": 8124,
+    "sha256": "073dd6f2be1307ac7dcddbf30a8c3f9cfd4ab88be00d68cbedbc3fc8762b25e9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/gaming/pokemon-player/SKILL.md",
+    "relative_path": "gaming/pokemon-player/SKILL.md",
+    "name": "pokemon-player",
+    "frontmatter": {
+      "name": "pokemon-player",
+      "category": "agentic-coder",
+      "title": "Pokemon Player",
+      "description": "Play Pokemon via headless emulator + RAM reads.",
+      "version": "1.0.0",
+      "author": "Teknium (teknium1), Hermes Agent",
+      "license": "MIT",
+      "tags": "[gaming, pokemon, emulator, pyboy, gameplay, gameboy]"
+    },
+    "has_frontmatter": true,
+    "lines": 245,
+    "chars": 9418,
+    "sha256": "3f40042f88dfb8830bb4e8e15c2a2d3a7669c1134c1b21b85fda08b4da5407d7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 41
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/git-guardrails-claude-code/SKILL.md",
+    "relative_path": "git-guardrails-claude-code/SKILL.md",
+    "name": "git-guardrails-claude-code",
+    "frontmatter": {
+      "name": "git-guardrails-claude-code",
+      "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+      "title": "Git Guardrails Claude Code",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 99,
+    "chars": 2410,
+    "sha256": "7a62ca39f52c622c1a9878f17cb3e99f66c77f619e423addc3e19a411f527af7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+        "lines": 25,
+        "chars": 507,
+        "substantive": true
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 18
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: not all reference types are present"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/grill-me/SKILL.md",
+    "relative_path": "grill-me/SKILL.md",
+    "name": "grill-me",
+    "frontmatter": {
+      "name": "grill-me",
+      "description": "A relentless interview to sharpen a plan or design.",
+      "disable-model-invocation": "true",
+      "title": "Grill Me",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 42,
+    "chars": 1062,
+    "sha256": "6158c891374bdc1fb8cca5346fe309a8decf846619968bdc0545a4e01d5745b5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/grill-with-docs/SKILL.md",
+    "relative_path": "grill-with-docs/SKILL.md",
+    "name": "grill-with-docs",
+    "frontmatter": {
+      "name": "grill-with-docs",
+      "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+      "disable-model-invocation": "true",
+      "title": "Grill With Docs",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 42,
+    "chars": 1166,
+    "sha256": "a56b6bbee2746c96ec8a3bade1e25ed28525da62b5723bbc6f3f758f9459ff0d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/grilling/SKILL.md",
+    "relative_path": "grilling/SKILL.md",
+    "name": "grilling",
+    "frontmatter": {
+      "name": "grilling",
+      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "title": "Grilling",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 65,
+    "chars": 2942,
+    "sha256": "7a62fe53d689c2d53894e659c8520ece5bf0a419ea923124a9b52fb64232c9f3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/handoff/SKILL.md",
+    "relative_path": "handoff/SKILL.md",
+    "name": "handoff",
+    "frontmatter": {
+      "name": "handoff",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "argument-hint": "What will the next session be used for?",
+      "disable-model-invocation": "true",
+      "title": "Handoff",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 51,
+    "chars": 1843,
+    "sha256": "008aa550ae80fabbe7f2d2eafb6ac6d95967334f4ae0235ac998f596438fef98",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  }
+]

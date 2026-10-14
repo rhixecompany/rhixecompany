@@ -1,0 +1,304 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/manage-github-issues/SKILL.md",
+    "relative_path": "oh-my-hermes/manage-github-issues/SKILL.md",
+    "name": "manage-github-issues",
+    "frontmatter": {
+      "name": "manage-github-issues",
+      "category": "agentic-coder",
+      "title": "Manage Github Issues",
+      "description": "Use when GitHub issues need to be triaged, created, updated, labeled, or closed from the terminal",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[github, issues, ops, triage]"
+    },
+    "has_frontmatter": true,
+    "lines": 121,
+    "chars": 3553,
+    "sha256": "a969491074d1bda81b2ba19d6739fb2051e2f3abedfdaaab627cc13f6ff6d6bc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/observe-logs/SKILL.md",
+    "relative_path": "oh-my-hermes/observe-logs/SKILL.md",
+    "name": "observe-logs",
+    "frontmatter": {
+      "name": "observe-logs",
+      "category": "agentic-coder",
+      "title": "Observe Logs",
+      "description": "Use when production logs need recurring review for new errors, regressions, security signals, or incidents without flooding the founder with raw output",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[logs, observability, incident, ops]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 107,
+    "chars": 4011,
+    "sha256": "e18ac87be75445b745e9e7e174cba6fa8c41bedd633baf3d58226dd1c1e1c5de",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/onboarding/SKILL.md",
+    "relative_path": "oh-my-hermes/onboarding/SKILL.md",
+    "name": "onboarding",
+    "frontmatter": {
+      "name": "onboarding",
+      "category": "agentic-coder",
+      "title": "Onboarding",
+      "description": "Use when a user first installs Oh My Hermes or asks to set up the product-building loop for a project",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[setup, onboarding, product-loop, guided]"
+    },
+    "has_frontmatter": true,
+    "lines": 122,
+    "chars": 4666,
+    "sha256": "f1205e2a4d9a838da831e1bddb36cc03a6706b725b0f20529b2162a2871b16e1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/post-deploy-followup/SKILL.md",
+    "relative_path": "oh-my-hermes/post-deploy-followup/SKILL.md",
+    "name": "post-deploy-followup",
+    "frontmatter": {
+      "name": "post-deploy-followup",
+      "category": "agentic-coder",
+      "title": "Post Deploy Followup",
+      "description": "Use when a deployment has just completed and health verification, logging, and notification need to run",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[deployment, ops, health, notification]"
+    },
+    "has_frontmatter": true,
+    "lines": 110,
+    "chars": 3447,
+    "sha256": "2b90a349a2648f3290df76e52be925474266ce0c58ea2292b04e3779121f6909",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/product-brief/SKILL.md",
+    "relative_path": "oh-my-hermes/product-brief/SKILL.md",
+    "name": "product-brief",
+    "frontmatter": {
+      "name": "product-brief",
+      "category": "agentic-coder",
+      "title": "Product Brief",
+      "description": "Use when a product idea or feature needs a compact source of truth before design and implementation",
+      "version": "2.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[product, brief, scope, acceptance-criteria]"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 3140,
+    "sha256": "bcc837871e8cb7515228232ccdf05efb74cb296ebc611b9835122e8fd2fd39fe",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/product-marketing/SKILL.md",
+    "relative_path": "oh-my-hermes/product-marketing/SKILL.md",
+    "name": "product-marketing",
+    "frontmatter": {
+      "name": "product-marketing",
+      "category": "agentic-coder",
+      "title": "Product Marketing",
+      "description": "Use when a product needs positioning, customer-focused website copy, SEO priorities, a launch strategy, or a practical content schedule",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[product, marketing, seo, content, strategy]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 6383,
+    "sha256": "67ab09213cf325a406c540b0b4c08ba583d80f4553815f0287e920199587465b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/oh-my-hermes/profile-diff-sync/SKILL.md",
+    "relative_path": "oh-my-hermes/profile-diff-sync/SKILL.md",
+    "name": "profile-diff-sync",
+    "frontmatter": {
+      "name": "profile-diff-sync",
+      "category": "agentic-coder",
+      "title": "Profile Diff and Sync",
+      "description": "Compare and sync Hermes profiles across all configs.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[profiles, diff, sync]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 42,
+    "chars": 1181,
+    "sha256": "62496f60445f228bf453ff76a31c50acd81337e58a4bbb95c533b811cde45269",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 5
+  }
+]

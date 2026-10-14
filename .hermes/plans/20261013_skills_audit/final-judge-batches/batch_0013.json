@@ -1,0 +1,1338 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/arduino-azure-iot-edge-integration/SKILL.md",
+    "relative_path": "creative/arduino-azure-iot-edge-integration/SKILL.md",
+    "name": "arduino-azure-iot-edge-integration",
+    "frontmatter": {
+      "name": "arduino-azure-iot-edge-integration",
+      "category": "agentic-coder",
+      "title": "Arduino Azure Iot Edge Integration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and production guardrails."
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 5795,
+    "sha256": "67d27f7c258cef80a3fec16bd405d8a96e930ea136cc7caf6f1d7730e1bf3f70",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/ascii-art/SKILL.md",
+    "relative_path": "creative/ascii-art/SKILL.md",
+    "name": "ascii-art",
+    "frontmatter": {
+      "author": "0xbyt4, Hermes Agent",
+      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "ascii-art",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Ascii Art",
+      "version": "4.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 359,
+    "chars": 13176,
+    "sha256": "3e61898be31bbfaa8e42a2f36d73a8a5e3bdbad9ae5bb69218d4ba1a94c3bf87",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-architecture.md",
+        "lines": 802,
+        "chars": 32841,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-composition.md",
+        "lines": 892,
+        "chars": 34877,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-composition.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-effects.md",
+        "lines": 1865,
+        "chars": 72821,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-effects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-inputs.md",
+        "lines": 685,
+        "chars": 24558,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-inputs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-optimization.md",
+        "lines": 688,
+        "chars": 24238,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-optimization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-pipeline.md",
+        "lines": 264,
+        "chars": 15701,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-pipeline.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-scenes.md",
+        "lines": 1011,
+        "chars": 37362,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-scenes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-shaders.md",
+        "lines": 1385,
+        "chars": 50364,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-shaders.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-troubleshooting.md",
+        "lines": 367,
+        "chars": 13196,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-art/references/ascii-video-troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/ascii-video/SKILL.md",
+    "relative_path": "creative/ascii-video/SKILL.md",
+    "name": "ascii-video",
+    "frontmatter": {
+      "name": "ascii-video",
+      "category": "creative",
+      "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "version": "1.0.0",
+      "author": "SHL0MS, Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 249,
+    "chars": 14910,
+    "sha256": "5f821ae69e15f5c7701bad893cd7ff2c77a839908f384460d7dcffc19ba67a1b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/architecture.md",
+        "lines": 802,
+        "chars": 32841,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/architecture.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/composition.md",
+        "lines": 892,
+        "chars": 34877,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/composition.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/effects.md",
+        "lines": 1865,
+        "chars": 72821,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/effects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/inputs.md",
+        "lines": 685,
+        "chars": 24558,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/inputs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/optimization.md",
+        "lines": 688,
+        "chars": 24238,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/optimization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/scenes.md",
+        "lines": 1011,
+        "chars": 37362,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/scenes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/shaders.md",
+        "lines": 1385,
+        "chars": 50364,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/shaders.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/troubleshooting.md",
+        "lines": 367,
+        "chars": 13196,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/ascii-video/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/audiocraft-audio-generation/SKILL.md",
+    "relative_path": "creative/audiocraft-audio-generation/SKILL.md",
+    "name": "audiocraft-audio-generation",
+    "frontmatter": {
+      "name": "audiocraft-audio-generation",
+      "category": "creative",
+      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "version": "1.0.0",
+      "author": "Orchestra Research",
+      "license": "MIT",
+      "dependencies": "[audiocraft, torch>=2.0.0, transformers>=4.30.0]",
+      "platforms": "[linux, macos]",
+      "metadata": [],
+      "title": "Audiocraft Audio Generation",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 601,
+    "chars": 16339,
+    "sha256": "e2849051b03fa62f2d8bb8bee3029166289725ca11392330c18785d588c70350",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/audiocraft-audio-generation/references/advanced-usage.md",
+        "lines": 666,
+        "chars": 16917,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/audiocraft-audio-generation/references/advanced-usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/audiocraft-audio-generation/references/troubleshooting.md",
+        "lines": 504,
+        "chars": 11412,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/audiocraft-audio-generation/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 41
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/automate-this/SKILL.md",
+    "relative_path": "creative/automate-this/SKILL.md",
+    "name": "automate-this",
+    "frontmatter": {
+      "name": "automate-this",
+      "category": "agentic-coder",
+      "title": "Automate This",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and audio narration from video files, reconstructs the step-by-step workflow, and proposes automation at multiple complexity levels using tools already installed on the user machine."
+    },
+    "has_frontmatter": true,
+    "lines": 283,
+    "chars": 13395,
+    "sha256": "e46a0fc13d19b80fce83a4dd520540ea09c45dc974af17cfd55e2aaa49492a14",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 82,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/SKILL.md",
+    "relative_path": "creative/baoyu-article-illustrator/SKILL.md",
+    "name": "baoyu-article-illustrator",
+    "frontmatter": {
+      "name": "baoyu-article-illustrator",
+      "category": "agentic-coder",
+      "title": "Baoyu Article Illustrator",
+      "description": "Article illustrations: type × style × palette consistency.",
+      "version": "1.57.0",
+      "author": "宝玉 (JimLiu)",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 230,
+    "chars": 10595,
+    "sha256": "696c27b76eaa9fa631fee995e7486d67fefde7aed9fbe3de646ebf0ecb04f86d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/macaron.md",
+        "lines": 33,
+        "chars": 1337,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/macaron.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/mono-ink.md",
+        "lines": 42,
+        "chars": 1772,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/mono-ink.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/neon.md",
+        "lines": 33,
+        "chars": 1025,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/neon.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/warm.md",
+        "lines": 32,
+        "chars": 1032,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/palettes/warm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/prompt-construction.md",
+        "lines": 426,
+        "chars": 14942,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/prompt-construction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/style-presets.md",
+        "lines": 80,
+        "chars": 4792,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/style-presets.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/blueprint.md",
+        "lines": 57,
+        "chars": 1844,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/blueprint.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/chalkboard.md",
+        "lines": 62,
+        "chars": 2249,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/chalkboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/editorial.md",
+        "lines": 59,
+        "chars": 1722,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/editorial.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/elegant.md",
+        "lines": 56,
+        "chars": 1733,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/elegant.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/fantasy-animation.md",
+        "lines": 58,
+        "chars": 1969,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/fantasy-animation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/flat-doodle.md",
+        "lines": 61,
+        "chars": 1869,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/flat-doodle.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/flat.md",
+        "lines": 59,
+        "chars": 1688,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/flat.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/ink-notes.md",
+        "lines": 90,
+        "chars": 4255,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/ink-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/intuition-machine.md",
+        "lines": 57,
+        "chars": 1850,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/intuition-machine.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/minimal.md",
+        "lines": 58,
+        "chars": 1607,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/minimal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/nature.md",
+        "lines": 58,
+        "chars": 1703,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/nature.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/notion.md",
+        "lines": 58,
+        "chars": 1636,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/notion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/pixel-art.md",
+        "lines": 57,
+        "chars": 1907,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/pixel-art.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/playful.md",
+        "lines": 59,
+        "chars": 1707,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/playful.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/retro.md",
+        "lines": 59,
+        "chars": 1682,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/retro.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/scientific.md",
+        "lines": 59,
+        "chars": 1741,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/scientific.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/screen-print.md",
+        "lines": 70,
+        "chars": 2676,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/screen-print.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/sketch-notes.md",
+        "lines": 56,
+        "chars": 1824,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/sketch-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/sketch.md",
+        "lines": 57,
+        "chars": 1691,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/sketch.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/vector-illustration.md",
+        "lines": 57,
+        "chars": 1940,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/vector-illustration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/vintage.md",
+        "lines": 59,
+        "chars": 1819,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/vintage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/warm.md",
+        "lines": 58,
+        "chars": 1760,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/warm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/watercolor.md",
+        "lines": 58,
+        "chars": 1815,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles/watercolor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles.md",
+        "lines": 224,
+        "chars": 9193,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/styles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/usage.md",
+        "lines": 50,
+        "chars": 1782,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/workflow.md",
+        "lines": 332,
+        "chars": 13704,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-article-illustrator/references/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/SKILL.md",
+    "relative_path": "creative/baoyu-comic/SKILL.md",
+    "name": "baoyu-comic",
+    "frontmatter": {
+      "name": "baoyu-comic",
+      "category": "agentic-coder",
+      "title": "Baoyu Comic",
+      "description": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+      "version": "1.56.1",
+      "author": "宝玉 (JimLiu)",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 271,
+    "chars": 15080,
+    "sha256": "dba02a5918baf92a9f9878a51511d9757f1fc3f3c7a9459934c289ecb7735dfe",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/analysis-framework.md",
+        "lines": 176,
+        "chars": 5481,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/analysis-framework.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/chalk.md",
+        "lines": 101,
+        "chars": 2750,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/chalk.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/ink-brush.md",
+        "lines": 97,
+        "chars": 2529,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/ink-brush.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/ligne-claire.md",
+        "lines": 75,
+        "chars": 2345,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/ligne-claire.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/manga.md",
+        "lines": 93,
+        "chars": 2562,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/manga.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/minimalist.md",
+        "lines": 84,
+        "chars": 3360,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/minimalist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/realistic.md",
+        "lines": 89,
+        "chars": 2729,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/art-styles/realistic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/auto-selection.md",
+        "lines": 71,
+        "chars": 3544,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/auto-selection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/base-prompt.md",
+        "lines": 98,
+        "chars": 3124,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/base-prompt.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/character-template.md",
+        "lines": 180,
+        "chars": 4876,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/character-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/cinematic.md",
+        "lines": 23,
+        "chars": 450,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/cinematic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/dense.md",
+        "lines": 23,
+        "chars": 414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/dense.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/four-panel.md",
+        "lines": 40,
+        "chars": 1348,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/four-panel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/mixed.md",
+        "lines": 23,
+        "chars": 429,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/mixed.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/splash.md",
+        "lines": 23,
+        "chars": 471,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/splash.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/standard.md",
+        "lines": 23,
+        "chars": 435,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/standard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/webtoon.md",
+        "lines": 30,
+        "chars": 768,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/layouts/webtoon.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/ohmsha-guide.md",
+        "lines": 85,
+        "chars": 2774,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/ohmsha-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/partial-workflows.md",
+        "lines": 106,
+        "chars": 3051,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/partial-workflows.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/concept-story.md",
+        "lines": 121,
+        "chars": 5602,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/concept-story.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/four-panel.md",
+        "lines": 107,
+        "chars": 4586,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/four-panel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/ohmsha.md",
+        "lines": 114,
+        "chars": 4436,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/ohmsha.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/shoujo.md",
+        "lines": 116,
+        "chars": 3249,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/shoujo.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/wuxia.md",
+        "lines": 110,
+        "chars": 2948,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/presets/wuxia.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/storyboard-template.md",
+        "lines": 143,
+        "chars": 3978,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/storyboard-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/action.md",
+        "lines": 110,
+        "chars": 2261,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/action.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/dramatic.md",
+        "lines": 95,
+        "chars": 1905,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/dramatic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/energetic.md",
+        "lines": 105,
+        "chars": 2165,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/energetic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/neutral.md",
+        "lines": 63,
+        "chars": 1348,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/neutral.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/romantic.md",
+        "lines": 100,
+        "chars": 2135,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/romantic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/vintage.md",
+        "lines": 104,
+        "chars": 2154,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/vintage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/warm.md",
+        "lines": 94,
+        "chars": 1854,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/tones/warm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/workflow.md",
+        "lines": 401,
+        "chars": 15999,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-comic/references/workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  }
+]

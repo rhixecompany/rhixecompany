@@ -1,0 +1,455 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/SKILL.md",
+    "relative_path": "devops/msgraph-sdk/SKILL.md",
+    "name": "msgraph-sdk",
+    "frontmatter": {
+      "name": "msgraph-sdk",
+      "category": "agentic-coder",
+      "title": "Msgraph Sdk",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python. Covers auth patterns (client credentials, OBO, managed identity), SDK setup, calling Graph APIs, batching, delta queries, change notifications, throttling, and permission scopes. Use when accessing Microsoft 365 data (users, mail, calendar, Teams, files, SharePoint) from any application type."
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 8799,
+    "sha256": "5ae76e43ef9e56c81492197192237d5f2664d6a160050faa2555646f88bee1ba",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/references/dotnet.md",
+        "lines": 212,
+        "chars": 6266,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/references/dotnet.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/references/python.md",
+        "lines": 290,
+        "chars": 8940,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/references/python.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/references/typescript.md",
+        "lines": 257,
+        "chars": 7556,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msgraph-sdk/references/typescript.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/msstore-cli/SKILL.md",
+    "relative_path": "devops/msstore-cli/SKILL.md",
+    "name": "msstore-cli",
+    "frontmatter": {
+      "name": "msstore-cli",
+      "category": "agentic-coder",
+      "title": "Msstore Cli",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store. Use when asked to configure Store credentials, list Store apps, check submission status, publish submissions, manage package flights, set up CI/CD for Store publishing, or integrate with Partner Center. Supports Windows App SDK/WinUI, UWP, .NET MAUI, Flutter, Electron, React Native, and PWA applications.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 621,
+    "chars": 16863,
+    "sha256": "0be797130a2b5815c17fbb798015dbcfaf3a76fd25fb4079a76b15a8d0b01acc",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 43
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/msys2-management/SKILL.md",
+    "relative_path": "devops/msys2-management/SKILL.md",
+    "name": "msys2-management",
+    "frontmatter": {
+      "name": "msys2-management",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "description": "Manage MSYS2 environments on Windows — install, update, invoke subshells, manage packages via pacman, and verify toolchains. Covers UCRT64, MINGW64, MINGW32, CLANG64, and CLANGARM64.",
+      "title": "MSYS2 Management",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[windows, msys2, toolchain, ucrt64, mingw64, pacman]"
+    },
+    "has_frontmatter": true,
+    "lines": 192,
+    "chars": 7798,
+    "sha256": "dfa960f6a33cbac67588efc1320979e5f3e7aefe5afdbc8564a5debef0f2ad2a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msys2-management/references/environments-quickref.md",
+        "lines": 53,
+        "chars": 2136,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msys2-management/references/environments-quickref.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msys2-management/references/toolchain-verification.md",
+        "lines": 70,
+        "chars": 2336,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/msys2-management/references/toolchain-verification.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/multi-stage-dockerfile/SKILL.md",
+    "relative_path": "devops/multi-stage-dockerfile/SKILL.md",
+    "name": "multi-stage-dockerfile",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when creating optimized multi-stage Dockerfiles for any language",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "multi-stage-dockerfile",
+      "category": "documentation",
+      "tags": [],
+      "title": "Multi-Stage Dockerfile",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 228,
+    "chars": 7030,
+    "sha256": "2fa069becc76e9f2ec0d24b845c004eb961f3e7ff3f4ab079ce011ae3c74a207",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/multi-stage-dockerfile/references/overview.md",
+        "lines": 19,
+        "chars": 383,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/multi-stage-dockerfile/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/noob-mode/SKILL.md",
+    "relative_path": "devops/noob-mode/SKILL.md",
+    "name": "noob-mode",
+    "frontmatter": {
+      "name": "noob-mode",
+      "category": "agentic-coder",
+      "title": "Noob Mode",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators."
+    },
+    "has_frontmatter": true,
+    "lines": 302,
+    "chars": 11993,
+    "sha256": "ab5413ebd644acdbf13ff6294cbc45b5c76a3a5a7e6b569d1b3344b6a19e068e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/noob-mode/references/examples.md",
+        "lines": 418,
+        "chars": 12094,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/noob-mode/references/examples.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/noob-mode/references/glossary.md",
+        "lines": 368,
+        "chars": 21498,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/noob-mode/references/glossary.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/ollama-wire/SKILL.md",
+    "relative_path": "devops/ollama-wire/SKILL.md",
+    "name": "ollama-wire",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when wiring a local ollama model into Hermes, OpenCode (oh-my-opencode), Codex, and Copilot. Detects models on disk, patches configs, verifies the wiring.",
+      "license": "MIT",
+      "metadata": [
+        "ollama",
+        "local-model",
+        "hermes-core",
+        "config"
+      ],
+      "name": "ollama-wire",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Ollama Wire (4-Agent)",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 112,
+    "chars": 3754,
+    "sha256": "7e9f097f6aa88efce3936e455edf7409afc5a6be8e3602a69947c186e8286c1a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/operational-diagnostic-contracts/SKILL.md",
+    "relative_path": "devops/operational-diagnostic-contracts/SKILL.md",
+    "name": "operational-diagnostic-contracts",
+    "frontmatter": {
+      "name": "operational-diagnostic-contracts",
+      "category": "agentic-coder",
+      "title": "Operational Diagnostic Contracts",
+      "description": "Use when designing durable CLI diagnostics and repair gates.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[operations, diagnostics, repair, safety, reliability]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 151,
+    "chars": 10593,
+    "sha256": "3c1ff1131e70990691c594f68a22dbd67e5a01e1cebfba0010229cf2a37e8cd2",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/operational-diagnostic-contracts/references/approval-and-resume.md",
+        "lines": 63,
+        "chars": 3531,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/operational-diagnostic-contracts/references/approval-and-resume.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/operational-diagnostic-contracts/references/report-contract.md",
+        "lines": 68,
+        "chars": 3217,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/operational-diagnostic-contracts/references/report-contract.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  }
+]

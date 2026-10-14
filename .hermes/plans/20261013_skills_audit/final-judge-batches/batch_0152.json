@@ -1,0 +1,663 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/linear/SKILL.md",
+    "relative_path": "productivity/linear/SKILL.md",
+    "name": "linear",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "linear",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Linear",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 443,
+    "chars": 16697,
+    "sha256": "99149138e1ab209401afab3d549fa62ff8b1a59cf7e0c9bbe87425c9d4795ca0",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/linear/scripts/linear_api.py",
+        "lines": 445,
+        "chars": 15608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/linear/scripts/linear_api.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 49
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/maps/SKILL.md",
+    "relative_path": "productivity/maps/SKILL.md",
+    "name": "maps",
+    "frontmatter": {
+      "name": "maps",
+      "category": "agentic-coder",
+      "title": "Maps",
+      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "version": "1.2.0",
+      "author": "Mibayy",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 217,
+    "chars": 7444,
+    "sha256": "7dbbd848e0ea65265575e13082557e65d77fbabaed30c9046dc0d175e5a3e19f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/maps/references/overview.md",
+        "lines": 19,
+        "chars": 329,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/maps/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/maps/scripts/maps_client.py",
+        "lines": 1298,
+        "chars": 46679,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/maps/scripts/maps_client.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/SKILL.md",
+    "relative_path": "productivity/markdown-to-html/SKILL.md",
+    "name": "markdown-to-html",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`,",
+      "license": "MIT",
+      "name": "markdown-to-html",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Markdown To Html",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 724,
+    "chars": 18038,
+    "sha256": "332729c61afd77a9fc8180602bba7e7c47adca6c2073b24a5b323a5748fd5b08",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/basic-markdown-to-html.md",
+        "lines": 418,
+        "chars": 4296,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/basic-markdown-to-html.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/basic-markdown.md",
+        "lines": 479,
+        "chars": 28968,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/basic-markdown.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/code-blocks-to-html.md",
+        "lines": 171,
+        "chars": 2726,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/code-blocks-to-html.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/code-blocks.md",
+        "lines": 68,
+        "chars": 3807,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/code-blocks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/collapsed-sections-to-html.md",
+        "lines": 145,
+        "chars": 2633,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/collapsed-sections-to-html.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/collapsed-sections.md",
+        "lines": 48,
+        "chars": 2798,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/collapsed-sections.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/gomarkdown.md",
+        "lines": 253,
+        "chars": 6608,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/gomarkdown.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/hugo.md",
+        "lines": 386,
+        "chars": 7234,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/hugo.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/jekyll.md",
+        "lines": 323,
+        "chars": 5988,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/jekyll.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/marked.md",
+        "lines": 121,
+        "chars": 2960,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/marked.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/pandoc.md",
+        "lines": 226,
+        "chars": 4590,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/pandoc.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/tables-to-html.md",
+        "lines": 171,
+        "chars": 3071,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/tables-to-html.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/tables.md",
+        "lines": 71,
+        "chars": 3989,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/tables.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/writing-mathematical-expressions-to-html.md",
+        "lines": 362,
+        "chars": 6341,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/writing-mathematical-expressions-to-html.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/writing-mathematical-expressions.md",
+        "lines": 76,
+        "chars": 4886,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/markdown-to-html/references/writing-mathematical-expressions.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/meeting-action-items/SKILL.md",
+    "relative_path": "productivity/meeting-action-items/SKILL.md",
+    "name": "meeting-action-items",
+    "frontmatter": {
+      "name": "meeting-action-items",
+      "category": "productivity",
+      "description": "Turn meeting notes into cited decisions, owners, tickets.",
+      "version": "0.1.0",
+      "author": "Ben Barclay (benbarclay), Hermes Agent",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 88,
+    "chars": 3823,
+    "sha256": "84bac19c00678818240d4e0b149e9c32e136450692e7153a820e27502058b24a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/SKILL.md",
+    "relative_path": "productivity/meeting-insights-analyzer/SKILL.md",
+    "name": "meeting-insights-analyzer",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when analyzing meeting transcripts to uncover behavioral patterns,",
+      "license": "MIT",
+      "name": "meeting-insights-analyzer",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Meeting Insights Analyzer",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 104,
+    "chars": 2791,
+    "sha256": "e9267972b466e5a02268a4888661245283678c15522b25426390f0f57ad328fa",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/behavioral-patterns.md",
+        "lines": 308,
+        "chars": 13893,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/behavioral-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/bias-mitigation.md",
+        "lines": 160,
+        "chars": 7520,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/bias-mitigation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/edge-cases.md",
+        "lines": 271,
+        "chars": 11795,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/edge-cases.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/frameworks.md",
+        "lines": 282,
+        "chars": 13922,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-insights-analyzer/references/frameworks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/SKILL.md",
+    "relative_path": "productivity/meeting-minutes/SKILL.md",
+    "name": "meeting-minutes",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Generate concise, actionable meeting minutes for internal meetings. Includes",
+      "license": "MIT",
+      "name": "meeting-minutes",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Meeting Minutes",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 300,
+    "chars": 9644,
+    "sha256": "6dfa61a3ea1d36faeaea650497586aaf2bfd84b87d5aa97ef09782aadcfdac19",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/references/document-to-action-items.md",
+        "lines": 115,
+        "chars": 5149,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/references/document-to-action-items.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/references/meeting-action-items.md",
+        "lines": 121,
+        "chars": 4977,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/references/meeting-action-items.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/references/overview.md",
+        "lines": 11,
+        "chars": 173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/meeting-minutes/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 7,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/productivity/memento-flashcards/SKILL.md",
+    "relative_path": "productivity/memento-flashcards/SKILL.md",
+    "name": "memento-flashcards",
+    "frontmatter": {
+      "name": "memento-flashcards",
+      "category": "agentic-coder",
+      "title": "Memento Flashcards — Spaced-Repetition Flashcard Skill",
+      "description": "Spaced-repetition flashcards: create, review, quiz, export.",
+      "version": "1.0.0",
+      "author": "Memento AI",
+      "license": "MIT",
+      "platforms": "[macos, linux]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 354,
+    "chars": 14432,
+    "sha256": "d217c6cc6aaf107a64a6b866ed2976ded0a9330b6f84b269243af3489849166d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/memento-flashcards/scripts/memento_cards.py",
+        "lines": 353,
+        "chars": 11177,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/memento-flashcards/scripts/memento_cards.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/memento-flashcards/scripts/youtube_quiz.py",
+        "lines": 88,
+        "chars": 2347,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/productivity/memento-flashcards/scripts/youtube_quiz.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 22
+  }
+]

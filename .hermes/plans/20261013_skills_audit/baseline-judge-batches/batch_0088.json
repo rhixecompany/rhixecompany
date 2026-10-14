@@ -1,0 +1,396 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/trim-research-reports/SKILL.md",
+    "relative_path": "development/trim-research-reports/SKILL.md",
+    "name": "trim-research-reports",
+    "frontmatter": {
+      "name": "trim-research-reports",
+      "category": "architecture",
+      "title": "Trim Research Reports",
+      "description": "Trims research reports content from files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "cleanup",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2614,
+    "sha256": "771af72d86bc2a70a9607b30841556ff90a13bfab1687e581bb219c3ca2d5d23",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-research-reports/references/overview.md",
+        "lines": 29,
+        "chars": 560,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-research-reports/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-research-reports/templates/template.md",
+        "lines": 18,
+        "chars": 157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-research-reports/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/trim-research-reports-final/SKILL.md",
+    "relative_path": "development/trim-research-reports-final/SKILL.md",
+    "name": "trim-research-reports-final",
+    "frontmatter": {
+      "name": "trim-research-reports-final",
+      "category": "architecture",
+      "title": "Trim Research Reports Final",
+      "description": "Trims research reports final content from files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "cleanup",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2674,
+    "sha256": "602c81eb3335240067769c1938158b807fca9193e8e0108b009b89856df21e5b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-research-reports-final/references/overview.md",
+        "lines": 29,
+        "chars": 590,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-research-reports-final/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tsconfig/SKILL.md",
+    "relative_path": "development/tsconfig/SKILL.md",
+    "name": "tsconfig",
+    "frontmatter": {
+      "name": "tsconfig",
+      "category": "agentic-coder",
+      "title": "Tsconfig",
+      "description": "Script for Tsconfig operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "configuration",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2506,
+    "sha256": "a3ce1665e799cc7bb9343d88658e93a986e3f4b16b37fe3b229070958ff28b16",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/typescript-mcp-server-generator/SKILL.md",
+    "relative_path": "development/typescript-mcp-server-generator/SKILL.md",
+    "name": "typescript-mcp-server-generator",
+    "frontmatter": {
+      "name": "typescript-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Typescript Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete MCP server project in TypeScript using the MCP TypeScript SDK v2 (@modelcontextprotocol/server) with tools, resources, and proper configuration"
+    },
+    "has_frontmatter": true,
+    "lines": 152,
+    "chars": 7717,
+    "sha256": "56ca44af1fc0671edd1da908b1733351c1ee745c2eb6efa374683046da2799b7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/typespec-create-agent/SKILL.md",
+    "relative_path": "development/typespec-create-agent/SKILL.md",
+    "name": "typespec-create-agent",
+    "frontmatter": {
+      "name": "typespec-create-agent",
+      "category": "documentation",
+      "title": "Typespec Create Agent",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot"
+    },
+    "has_frontmatter": true,
+    "lines": 130,
+    "chars": 3932,
+    "sha256": "3a647f91615baf14112daad1b0caa0e42b1ea3715a45654ff88f1440c46af391",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/uninstall/SKILL.md",
+    "relative_path": "development/uninstall/SKILL.md",
+    "name": "uninstall",
+    "frontmatter": {
+      "name": "uninstall",
+      "category": "agentic-coder",
+      "title": "Uninstall",
+      "description": "Script for Uninstall operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2475,
+    "sha256": "d86e21ef349f0f2cd3d315d71e90996187869d3f3c986aa643c4698e628c8a53",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/update-agents-md/SKILL.md",
+    "relative_path": "development/update-agents-md/SKILL.md",
+    "name": "update-agents-md",
+    "frontmatter": {
+      "name": "update-agents-md",
+      "category": "agentic-coder",
+      "title": "Update Agents Md",
+      "description": "Updates agents.md file with current configuration",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2566,
+    "sha256": "1974e3e10262b9a22278b1fbb2fe7961a3541d8e87f39b21610d095b7e5721d1",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/update-agents-md/references/overview.md",
+        "lines": 38,
+        "chars": 972,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/update-agents-md/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/update-agents-md/templates/template.md",
+        "lines": 13,
+        "chars": 137,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/update-agents-md/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/planning/SKILL.md",
+    "relative_path": "planning/SKILL.md",
+    "name": "planning",
+    "frontmatter": {
+      "name": "planning",
+      "category": "documentation",
+      "title": "Planning Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for planning — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1451,
+    "sha256": "3fd3af95539837a15b971096c4a1d73c1e68d34a04281973560e89612f98dd92",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/audit-plans/SKILL.md",
+    "relative_path": "planning/audit-plans/SKILL.md",
+    "name": "audit-plans",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Consolidate and audit all project plans in .hermes/plans/ directory. Normalizes statuses, detects duplicates/conflicts, merges related plans, and generates master plan index with execution order.",
+      "license": "MIT",
+      "metadata": [
+        "plans-and-specs",
+        "prompt-planning-orchestration",
+        "project-consolidation",
+        "plans",
+        "audit",
+        "consolidation",
+        "project-management"
+      ],
+      "name": "audit-plans",
+      "category": "audit",
+      "tags": [],
+      "title": "Audit Plans",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 152,
+    "chars": 4417,
+    "sha256": "faba6362fb8e34d407177e6c429ae2ab733664c58f5ce7000215a5c7a0f3a6bd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/brainstorming/SKILL.md",
+    "relative_path": "planning/brainstorming/SKILL.md",
+    "name": "brainstorming",
+    "frontmatter": {
+      "name": "brainstorming",
+      "category": "agentic-coder",
+      "title": "Brainstorming",
+      "description": "Use when you need structured idea generation and divergent ideation under constraints. Use before creating features, building components, adding functionality, or modifying behavior.",
+      "version": "1.2.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 129,
+    "chars": 5362,
+    "sha256": "4de3505496d5cbedb932225eeb57826b97f3e6f2c44bd23a2bb91833604f8311",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/references/ideation-techniques.md",
+        "lines": 73,
+        "chars": 2112,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/references/ideation-techniques.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/frame-template.html",
+        "lines": 387,
+        "chars": 9394,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/frame-template.html:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/helper.js",
+        "lines": 101,
+        "chars": 2841,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/helper.js:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/server.cjs",
+        "lines": 410,
+        "chars": 11568,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/server.cjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/start-server.sh",
+        "lines": 148,
+        "chars": 4604,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/start-server.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/stop-server.sh",
+        "lines": 56,
+        "chars": 1314,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/brainstorming/scripts/stop-server.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/comprehensive-implementation/SKILL.md",
+    "relative_path": "planning/comprehensive-implementation/SKILL.md",
+    "name": "comprehensive-implementation",
+    "frontmatter": {
+      "name": "comprehensive-implementation",
+      "title": "Comprehensive Implementation — Multi-Phase Delivery Framework",
+      "description": "Execute multi-phase implementation plans with timelines, milestones, resource allocation, verification gates, and rollback procedures. Use when building features, systems, or structured deliverables.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[implementation, planning, milestones, delivery, verification]",
+      "category": "agentic-coder",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 257,
+    "chars": 7128,
+    "sha256": "d418ac09862a313e87f190ba0ef91b176a6253bcab30f65a9be36979850e3c5f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 86,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 5,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/conventional-branch/SKILL.md",
+    "relative_path": "planning/conventional-branch/SKILL.md",
+    "name": "conventional-branch",
+    "frontmatter": {
+      "name": "conventional-branch",
+      "category": "agentic-coder",
+      "title": "Conventional Branch",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create Git branches following the Conventional Branch specification (feature/, bugfix/, hotfix/, release/, chore/). Use when creating a new branch, naming a branch, or checking whether a branch name complies with the spec."
+    },
+    "has_frontmatter": true,
+    "lines": 162,
+    "chars": 4849,
+    "sha256": "1ab06ebe47fd961cd2a076a065166a91f7cb6607bfcf6a1caca2de8058aae275",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/create-architectural-decision-record/SKILL.md",
+    "relative_path": "planning/create-architectural-decision-record/SKILL.md",
+    "name": "create-architectural-decision-record",
+    "frontmatter": {
+      "name": "create-architectural-decision-record",
+      "category": "architecture",
+      "title": "Create Architectural Decision Record",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation."
+    },
+    "has_frontmatter": true,
+    "lines": 136,
+    "chars": 4076,
+    "sha256": "432004267823e1955880eef42b711131fb16fe9ce12541b66fb1027e69c731d6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/create-specification/SKILL.md",
+    "relative_path": "planning/create-specification/SKILL.md",
+    "name": "create-specification",
+    "frontmatter": {
+      "name": "create-specification",
+      "category": "documentation",
+      "title": "Create Specification",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[planning, specification, documentation, design]",
+      "description": "Create a new specification file for the solution, optimized for Generative AI consumption."
+    },
+    "has_frontmatter": true,
+    "lines": 180,
+    "chars": 7604,
+    "sha256": "3794c0951f662a9b9fb9d218d73fe5f1b7169c7202ac487f9835b45f3688fe30",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 9
+  }
+]

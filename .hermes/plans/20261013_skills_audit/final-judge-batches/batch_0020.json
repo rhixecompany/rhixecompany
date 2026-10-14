@@ -1,0 +1,772 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/linkedin-post-formatter/SKILL.md",
+    "relative_path": "creative/linkedin-post-formatter/SKILL.md",
+    "name": "linkedin-post-formatter",
+    "frontmatter": {
+      "name": "linkedin-post-formatter",
+      "category": "agentic-coder",
+      "title": "Linkedin Post Formatter",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Format and draft compelling LinkedIn posts using Unicode bold/italic styling, visual separators, structured sections, and engagement-optimized patterns. USE FOR: draft LinkedIn post, format text for LinkedIn, create social media post, write thought leadership post, convert content to LinkedIn format, LinkedIn carousel text, Unicode bold italic formatting."
+    },
+    "has_frontmatter": true,
+    "lines": 206,
+    "chars": 6393,
+    "sha256": "37f1771c720b71a05c58893a818b51ec2556650df5adaf1934f3a6d9643576fc",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/linkedin-post-formatter/references/unicode-charmap.md",
+        "lines": 53,
+        "chars": 1687,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/linkedin-post-formatter/references/unicode-charmap.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 21
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/manim-video/SKILL.md",
+    "relative_path": "creative/manim-video/SKILL.md",
+    "name": "manim-video",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
+      "license": "MIT",
+      "name": "manim-video",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Manim Video",
+      "version": "1.0.0",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 307,
+    "chars": 13398,
+    "sha256": "3864f4a62dfd659b67c80d0f12265c12d5e9e3f0e5bf113e6d1bfa1e4812b6cd",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/animation-design-thinking.md",
+        "lines": 161,
+        "chars": 7173,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/animation-design-thinking.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/animations.md",
+        "lines": 282,
+        "chars": 8810,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/animations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/camera-and-3d.md",
+        "lines": 135,
+        "chars": 4124,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/camera-and-3d.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/decorations.md",
+        "lines": 202,
+        "chars": 4995,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/decorations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/equations.md",
+        "lines": 216,
+        "chars": 6074,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/equations.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/graphs-and-data.md",
+        "lines": 163,
+        "chars": 4624,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/graphs-and-data.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/mobjects.md",
+        "lines": 333,
+        "chars": 9723,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/mobjects.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/paper-explainer.md",
+        "lines": 255,
+        "chars": 9286,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/paper-explainer.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/production-quality.md",
+        "lines": 190,
+        "chars": 5865,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/production-quality.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/rendering.md",
+        "lines": 185,
+        "chars": 5363,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/rendering.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/scene-planning.md",
+        "lines": 118,
+        "chars": 2751,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/scene-planning.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/troubleshooting.md",
+        "lines": 135,
+        "chars": 4317,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/troubleshooting.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/updaters-and-trackers.md",
+        "lines": 260,
+        "chars": 8484,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/updaters-and-trackers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/visual-design.md",
+        "lines": 124,
+        "chars": 4726,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/references/visual-design.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/scripts/setup.sh",
+        "lines": 14,
+        "chars": 919,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/manim-video/scripts/setup.sh:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/marp-slide/SKILL.md",
+    "relative_path": "creative/marp-slide/SKILL.md",
+    "name": "marp-slide",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when creating professional Marp presentation slides with theme selection,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "marp-slide",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Marp Slide",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 96,
+    "chars": 2770,
+    "sha256": "beb6d5a30d189870389628f58f34c3e902224cf0edacbeb38c51228950d83091",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/advanced-features.md",
+        "lines": 440,
+        "chars": 9889,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/advanced-features.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/best-practices.md",
+        "lines": 176,
+        "chars": 4726,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/best-practices.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/image-patterns.md",
+        "lines": 277,
+        "chars": 6903,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/image-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/marp-syntax.md",
+        "lines": 265,
+        "chars": 5529,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/marp-syntax.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/official-themes.md",
+        "lines": 415,
+        "chars": 8660,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/official-themes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/theme-css-guide.md",
+        "lines": 411,
+        "chars": 8424,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/theme-css-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/theme-selection.md",
+        "lines": 107,
+        "chars": 4807,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/marp-slide/references/theme-selection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/md-to-docx/SKILL.md",
+    "relative_path": "creative/md-to-docx/SKILL.md",
+    "name": "md-to-docx",
+    "frontmatter": {
+      "name": "md-to-docx",
+      "category": "documentation",
+      "title": "Md To Docx",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images — pure JavaScript, no external tools required"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 3713,
+    "sha256": "c86da26ab24ba649820b3eb3acffffffd1873a1837d85ec604abac9524bf400f",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/md-to-docx/scripts/md-to-docx.mjs",
+        "lines": 441,
+        "chars": 14700,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/md-to-docx/scripts/md-to-docx.mjs:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/md-to-docx/scripts/package.json",
+        "lines": 9,
+        "chars": 187,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/md-to-docx/scripts/package.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/meme-generation/SKILL.md",
+    "relative_path": "creative/meme-generation/SKILL.md",
+    "name": "meme-generation",
+    "frontmatter": {
+      "name": "meme-generation",
+      "category": "agentic-coder",
+      "title": "Meme Generation",
+      "description": "Generate real meme images by picking a template and overlaying text with Pillow. Produces actual .png meme files.",
+      "version": "2.0.0",
+      "author": "adanaleycio",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": [],
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 170,
+    "chars": 6854,
+    "sha256": "ef638e59f20d8925f91c83c71c533d98f3cc4f0871ffa0bfb126da276bbe236d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/meme-generation/scripts/.gitignore",
+        "lines": 1,
+        "chars": 8,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/meme-generation/scripts/.gitignore:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/meme-generation/scripts/generate_meme.py",
+        "lines": 470,
+        "chars": 16627,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/meme-generation/scripts/generate_meme.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/meme-generation/scripts/templates.json",
+        "lines": 97,
+        "chars": 4154,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/meme-generation/scripts/templates.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/SKILL.md",
+    "relative_path": "creative/mermaid-diagrams/SKILL.md",
+    "name": "mermaid-diagrams",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when creating software diagrams — class diagrams, sequence diagrams,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "mermaid-diagrams",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Mermaid Diagrams",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 108,
+    "chars": 2703,
+    "sha256": "9cbcdb54c2591c2f6d05d1227b9d0ee723ab8ca5597309b4cfc5e15151ba2368",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/advanced-features.md",
+        "lines": 507,
+        "chars": 12680,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/advanced-features.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/architecture-diagrams.md",
+        "lines": 199,
+        "chars": 6021,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/architecture-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/c4-diagrams.md",
+        "lines": 423,
+        "chars": 18082,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/c4-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/class-diagrams.md",
+        "lines": 383,
+        "chars": 9586,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/class-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/erd-diagrams.md",
+        "lines": 507,
+        "chars": 15027,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/erd-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/flowcharts.md",
+        "lines": 485,
+        "chars": 13146,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/flowcharts.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/sequence-diagrams.md",
+        "lines": 413,
+        "chars": 11985,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/mermaid-diagrams/references/sequence-diagrams.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/nano-banana-pro-openrouter/SKILL.md",
+    "relative_path": "creative/nano-banana-pro-openrouter/SKILL.md",
+    "name": "nano-banana-pro-openrouter",
+    "frontmatter": {
+      "name": "nano-banana-pro-openrouter",
+      "category": "agentic-coder",
+      "title": "Nano Banana Pro Openrouter",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; supports 1K/2K/4K output.",
+      "metadata": [
+        "uv",
+        "OPENROUTER_API_KEY"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 109,
+    "chars": 3478,
+    "sha256": "d15ddaaad9fec09107772338daf238a258108112e1235800b5c66f8c6da15055",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/nano-banana-pro-openrouter/scripts/generate_image.py",
+        "lines": 191,
+        "chars": 5926,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/nano-banana-pro-openrouter/scripts/generate_image.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  }
+]

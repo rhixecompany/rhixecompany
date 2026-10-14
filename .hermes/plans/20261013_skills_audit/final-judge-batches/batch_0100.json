@@ -1,0 +1,319 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/cli-mastery/SKILL.md",
+    "relative_path": "devops/cli-mastery/SKILL.md",
+    "name": "cli-mastery",
+    "frontmatter": {
+      "name": "cli-mastery",
+      "category": "agentic-coder",
+      "title": "Cli Mastery",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and a full reference covering slash commands, shortcuts, modes, agents, skills, MCP, and configuration. Say \"cliexpert\" to start.",
+      "metadata": [],
+      "license": "MIT",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 3018,
+    "sha256": "a3b1844f855faefa75db7d8c018337ee3c903cf0a562bc32baded8ae0fb090ab",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/code-rabbit/SKILL.md",
+    "relative_path": "devops/code-rabbit/SKILL.md",
+    "name": "code-rabbit",
+    "frontmatter": {
+      "name": "code-rabbit",
+      "category": "agentic-coder",
+      "title": "CodeRabbit AI Code Review",
+      "description": "CodeRabbit AI code review CLI, MCP server, and webhooks.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[code-rabbit, mcp, webhook, code-review, ai]",
+      "metadata": [
+        "GITHUB_PAT",
+        "coderabbit-cli",
+        "coderabbit",
+        "npx coderabbitai-mcp"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 4001,
+    "sha256": "c6509c33508f0461692183cdc1d9f6d697b64fdde98c23d5bf9bef3474587b23",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/codeql/SKILL.md",
+    "relative_path": "devops/codeql/SKILL.md",
+    "name": "codeql",
+    "frontmatter": {
+      "name": "codeql",
+      "category": "agentic-coder",
+      "title": "Codeql",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and the CodeQL CLI. This skill should be used when users need help with code scanning configuration, CodeQL workflow files, CodeQL CLI commands, SARIF output, security analysis setup, or troubleshooting CodeQL analysis."
+    },
+    "has_frontmatter": true,
+    "lines": 427,
+    "chars": 14000,
+    "sha256": "61e054b5032d3b12d95c1cdeb6716c4bffbfaaf81aabd022078ae5f8cf673e24",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 36
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/coderabbit-cli-mcp/SKILL.md",
+    "relative_path": "devops/coderabbit-cli-mcp/SKILL.md",
+    "name": "coderabbit-cli-mcp",
+    "frontmatter": {
+      "name": "coderabbit-cli-mcp",
+      "category": "agentic-coder",
+      "description": "MCP server for coderabbit-cli-mcp. Use when you need coderabbit-cli-mcp via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Coderabbit Cli Mcp",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1242,
+    "sha256": "45b0af0ba33e758832b370428a10e880a347ce21aba2b72791385aff232e34e8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/composition-patterns/SKILL.md",
+    "relative_path": "devops/composition-patterns/SKILL.md",
+    "name": "vercel-composition-patterns",
+    "frontmatter": {
+      "name": "vercel-composition-patterns",
+      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+      "license": "MIT",
+      "metadata": [],
+      "category": "architecture",
+      "title": "Composition Patterns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[]"
+    },
+    "has_frontmatter": true,
+    "lines": 124,
+    "chars": 3828,
+    "sha256": "0ae1dca3faebac8136c4b906ef260ef9400d929a9329ff1d5289a8d64ba283f7",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/create-github-action-workflow-specification/SKILL.md",
+    "relative_path": "devops/create-github-action-workflow-specification/SKILL.md",
+    "name": "create-github-action-workflow-specification",
+    "frontmatter": {
+      "name": "create-github-action-workflow-specification",
+      "category": "documentation",
+      "title": "Create Github Action Workflow Specification",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance."
+    },
+    "has_frontmatter": true,
+    "lines": 298,
+    "chars": 8307,
+    "sha256": "787cde6daaffd2edf83ecb678fd74709d20b5a858eb5fbf3ce7e85638b448e3c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 41
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/creating-oracle-to-postgres-migration-integration-tests/SKILL.md",
+    "relative_path": "devops/creating-oracle-to-postgres-migration-integration-tests/SKILL.md",
+    "name": "creating-oracle-to-postgres-migration-integration-tests",
+    "frontmatter": {
+      "name": "creating-oracle-to-postgres-migration-integration-tests",
+      "category": "agentic-coder",
+      "title": "Creating Oracle To Postgres Migration Integration Tests",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Creates integration test cases targeting Oracle for .NET data access artifacts. Tests capture Oracle expected behavior as the authoritative baseline; they are written once and later ported to PostgreSQL by migrating the test project in Phase 6. Use only during Phase 3, before any PostgreSQL migration work has begun. Do not invoke during Phase 6 or against a project that has already been migrated."
+    },
+    "has_frontmatter": true,
+    "lines": 88,
+    "chars": 4965,
+    "sha256": "83fe704881ef434a2e9af4be30f9bb40e97ce19637a799bf3c4ea008f322a2de",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  }
+]

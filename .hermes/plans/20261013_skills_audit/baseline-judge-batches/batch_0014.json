@@ -1,0 +1,2219 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/SKILL.md",
+    "relative_path": "creative/baoyu-creative-suite/SKILL.md",
+    "name": "baoyu-creative-suite",
+    "frontmatter": {
+      "author": "宝玉 (JimLiu)",
+      "description": "Unified Baoyu creative suite: Infographics (21 layouts × 21 styles), Knowledge Comics (知识漫画), and Article Illustrations (article-illustrator). Three tools in one skill with shared workflow engine.",
+      "license": "MIT",
+      "metadata": [
+        "infographic",
+        "visual-summary",
+        "comic",
+        "knowledge-comic",
+        "article-illustration",
+        "creative",
+        "image-generation"
+      ],
+      "name": "baoyu-creative-suite",
+      "category": "agentic-coder",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "title": "Baoyu Creative Suite (Infographics + Comics + Article Illustrations)",
+      "version": "2.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 285,
+    "chars": 12626,
+    "sha256": "d8ea7353f59ca2d98e6ddf8571c4ca1f1e5a2a3b4108b8aea92344de234af462",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/analysis-framework.md",
+        "lines": 182,
+        "chars": 7479,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/analysis-framework.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/chalk.md",
+        "lines": 101,
+        "chars": 2750,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/chalk.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/ink-brush.md",
+        "lines": 97,
+        "chars": 2529,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/ink-brush.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/ligne-claire.md",
+        "lines": 75,
+        "chars": 2345,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/ligne-claire.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/manga.md",
+        "lines": 93,
+        "chars": 2562,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/manga.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/minimalist.md",
+        "lines": 84,
+        "chars": 3360,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/minimalist.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/realistic.md",
+        "lines": 89,
+        "chars": 2729,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/art-styles/realistic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/article-illustrator-styles.md",
+        "lines": 224,
+        "chars": 9193,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/article-illustrator-styles.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/article-illustrator-workflow.md",
+        "lines": 332,
+        "chars": 13704,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/article-illustrator-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/auto-selection.md",
+        "lines": 71,
+        "chars": 3544,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/auto-selection.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/base-prompt.md",
+        "lines": 43,
+        "chars": 1082,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/base-prompt.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/character-template.md",
+        "lines": 180,
+        "chars": 4876,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/character-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/comic-workflow.md",
+        "lines": 401,
+        "chars": 15999,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/comic-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/bento-grid.md",
+        "lines": 41,
+        "chars": 851,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/bento-grid.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/binary-comparison.md",
+        "lines": 48,
+        "chars": 1278,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/binary-comparison.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/bridge.md",
+        "lines": 41,
+        "chars": 907,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/bridge.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/cinematic.md",
+        "lines": 23,
+        "chars": 450,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/cinematic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/circular-flow.md",
+        "lines": 41,
+        "chars": 759,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/circular-flow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/comic-strip.md",
+        "lines": 41,
+        "chars": 847,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/comic-strip.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/comparison-matrix.md",
+        "lines": 41,
+        "chars": 893,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/comparison-matrix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/dashboard.md",
+        "lines": 41,
+        "chars": 776,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/dashboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/dense-modules.md",
+        "lines": 72,
+        "chars": 3655,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/dense-modules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/dense.md",
+        "lines": 23,
+        "chars": 414,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/dense.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/four-panel.md",
+        "lines": 40,
+        "chars": 1348,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/four-panel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/funnel.md",
+        "lines": 41,
+        "chars": 821,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/funnel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/hierarchical-layers.md",
+        "lines": 48,
+        "chars": 1180,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/hierarchical-layers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/hub-spoke.md",
+        "lines": 41,
+        "chars": 865,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/hub-spoke.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/iceberg.md",
+        "lines": 41,
+        "chars": 884,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/iceberg.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/isometric-map.md",
+        "lines": 41,
+        "chars": 832,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/isometric-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/jigsaw.md",
+        "lines": 41,
+        "chars": 844,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/jigsaw.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/linear-progression.md",
+        "lines": 48,
+        "chars": 1238,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/linear-progression.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/mixed.md",
+        "lines": 23,
+        "chars": 429,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/mixed.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/periodic-table.md",
+        "lines": 41,
+        "chars": 774,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/periodic-table.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/splash.md",
+        "lines": 23,
+        "chars": 471,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/splash.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/standard.md",
+        "lines": 23,
+        "chars": 435,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/standard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/story-mountain.md",
+        "lines": 41,
+        "chars": 815,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/story-mountain.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/structural-breakdown.md",
+        "lines": 48,
+        "chars": 1118,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/structural-breakdown.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/tree-branching.md",
+        "lines": 41,
+        "chars": 913,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/tree-branching.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/venn-diagram.md",
+        "lines": 41,
+        "chars": 825,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/venn-diagram.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/webtoon.md",
+        "lines": 30,
+        "chars": 768,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/webtoon.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/winding-roadmap.md",
+        "lines": 41,
+        "chars": 799,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/layouts/winding-roadmap.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/ohmsha-guide.md",
+        "lines": 85,
+        "chars": 2774,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/ohmsha-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/macaron.md",
+        "lines": 33,
+        "chars": 1337,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/macaron.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/mono-ink.md",
+        "lines": 42,
+        "chars": 1772,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/mono-ink.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/neon.md",
+        "lines": 33,
+        "chars": 1025,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/neon.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/warm.md",
+        "lines": 32,
+        "chars": 1032,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/palettes/warm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/partial-workflows.md",
+        "lines": 106,
+        "chars": 3051,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/partial-workflows.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/concept-story.md",
+        "lines": 121,
+        "chars": 5602,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/concept-story.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/four-panel.md",
+        "lines": 107,
+        "chars": 4586,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/four-panel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/ohmsha.md",
+        "lines": 114,
+        "chars": 4436,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/ohmsha.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/shoujo.md",
+        "lines": 116,
+        "chars": 3249,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/shoujo.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/wuxia.md",
+        "lines": 110,
+        "chars": 2948,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/presets/wuxia.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/prompt-construction.md",
+        "lines": 426,
+        "chars": 14942,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/prompt-construction.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/storyboard-template.md",
+        "lines": 143,
+        "chars": 3978,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/storyboard-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/structured-content-template.md",
+        "lines": 244,
+        "chars": 5513,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/structured-content-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/style-presets.md",
+        "lines": 80,
+        "chars": 4792,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/style-presets.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/aged-academia.md",
+        "lines": 36,
+        "chars": 990,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/aged-academia.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/blueprint.md",
+        "lines": 57,
+        "chars": 1844,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/blueprint.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/bold-graphic.md",
+        "lines": 36,
+        "chars": 920,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/bold-graphic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/chalkboard.md",
+        "lines": 62,
+        "chars": 2249,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/chalkboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/claymation.md",
+        "lines": 29,
+        "chars": 654,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/claymation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/corporate-memphis.md",
+        "lines": 29,
+        "chars": 612,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/corporate-memphis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/craft-handmade.md",
+        "lines": 44,
+        "chars": 1427,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/craft-handmade.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/cyberpunk-neon.md",
+        "lines": 29,
+        "chars": 625,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/cyberpunk-neon.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/editorial.md",
+        "lines": 59,
+        "chars": 1722,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/editorial.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/elegant.md",
+        "lines": 56,
+        "chars": 1733,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/elegant.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/fantasy-animation.md",
+        "lines": 58,
+        "chars": 1969,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/fantasy-animation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/flat-doodle.md",
+        "lines": 61,
+        "chars": 1869,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/flat-doodle.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/flat.md",
+        "lines": 59,
+        "chars": 1688,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/flat.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/hand-drawn-edu.md",
+        "lines": 63,
+        "chars": 2640,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/hand-drawn-edu.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/ikea-manual.md",
+        "lines": 29,
+        "chars": 572,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/ikea-manual.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/ink-notes.md",
+        "lines": 90,
+        "chars": 4255,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/ink-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/intuition-machine.md",
+        "lines": 57,
+        "chars": 1850,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/intuition-machine.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/kawaii.md",
+        "lines": 29,
+        "chars": 653,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/kawaii.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/knolling.md",
+        "lines": 29,
+        "chars": 583,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/knolling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/lego-brick.md",
+        "lines": 29,
+        "chars": 574,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/lego-brick.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/minimal.md",
+        "lines": 58,
+        "chars": 1607,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/minimal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/morandi-journal.md",
+        "lines": 60,
+        "chars": 2217,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/morandi-journal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/nature.md",
+        "lines": 58,
+        "chars": 1703,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/nature.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/notion.md",
+        "lines": 58,
+        "chars": 1636,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/notion.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/origami.md",
+        "lines": 29,
+        "chars": 607,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/origami.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/pixel-art.md",
+        "lines": 57,
+        "chars": 1907,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/pixel-art.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/playful.md",
+        "lines": 59,
+        "chars": 1707,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/playful.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/pop-laboratory.md",
+        "lines": 48,
+        "chars": 2165,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/pop-laboratory.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/retro-pop-grid.md",
+        "lines": 47,
+        "chars": 2098,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/retro-pop-grid.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/retro.md",
+        "lines": 59,
+        "chars": 1682,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/retro.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/scientific.md",
+        "lines": 59,
+        "chars": 1741,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/scientific.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/screen-print.md",
+        "lines": 70,
+        "chars": 2676,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/screen-print.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/sketch-notes.md",
+        "lines": 56,
+        "chars": 1824,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/sketch-notes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/sketch.md",
+        "lines": 57,
+        "chars": 1691,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/sketch.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/storybook-watercolor.md",
+        "lines": 29,
+        "chars": 703,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/storybook-watercolor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/subway-map.md",
+        "lines": 29,
+        "chars": 589,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/subway-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/technical-schematic.md",
+        "lines": 36,
+        "chars": 982,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/technical-schematic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/ui-wireframe.md",
+        "lines": 29,
+        "chars": 596,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/ui-wireframe.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/vector-illustration.md",
+        "lines": 57,
+        "chars": 1940,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/vector-illustration.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/vintage.md",
+        "lines": 59,
+        "chars": 1819,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/vintage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/warm.md",
+        "lines": 58,
+        "chars": 1760,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/warm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/watercolor.md",
+        "lines": 58,
+        "chars": 1815,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/styles/watercolor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/action.md",
+        "lines": 110,
+        "chars": 2261,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/action.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/dramatic.md",
+        "lines": 95,
+        "chars": 1905,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/dramatic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/energetic.md",
+        "lines": 105,
+        "chars": 2165,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/energetic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/neutral.md",
+        "lines": 63,
+        "chars": 1348,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/neutral.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/romantic.md",
+        "lines": 100,
+        "chars": 2135,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/romantic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/vintage.md",
+        "lines": 104,
+        "chars": 2154,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/vintage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/warm.md",
+        "lines": 94,
+        "chars": 1854,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/tones/warm.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/usage.md",
+        "lines": 50,
+        "chars": 1782,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-creative-suite/references/usage.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 63,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 16,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: body/reference overlap is high",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/SKILL.md",
+    "relative_path": "creative/baoyu-infographic/SKILL.md",
+    "name": "baoyu-infographic",
+    "frontmatter": {
+      "name": "baoyu-infographic",
+      "category": "agentic-coder",
+      "title": "Baoyu Infographic",
+      "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+      "version": "1.56.1",
+      "author": "宝玉 (JimLiu)",
+      "license": "MIT",
+      "tags": "[imported]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 266,
+    "chars": 11263,
+    "sha256": "ca1519e4ec87bbd9c63cda125b065986dd6c5e63bb7571b0abe512cffdfd8b17",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/analysis-framework.md",
+        "lines": 182,
+        "chars": 7479,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/analysis-framework.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/base-prompt.md",
+        "lines": 43,
+        "chars": 1082,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/base-prompt.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/bento-grid.md",
+        "lines": 41,
+        "chars": 851,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/bento-grid.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/binary-comparison.md",
+        "lines": 48,
+        "chars": 1278,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/binary-comparison.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/bridge.md",
+        "lines": 41,
+        "chars": 907,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/bridge.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/circular-flow.md",
+        "lines": 41,
+        "chars": 759,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/circular-flow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/comic-strip.md",
+        "lines": 41,
+        "chars": 847,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/comic-strip.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/comparison-matrix.md",
+        "lines": 41,
+        "chars": 893,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/comparison-matrix.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/dashboard.md",
+        "lines": 41,
+        "chars": 776,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/dashboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/dense-modules.md",
+        "lines": 72,
+        "chars": 3655,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/dense-modules.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/funnel.md",
+        "lines": 41,
+        "chars": 821,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/funnel.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/hierarchical-layers.md",
+        "lines": 48,
+        "chars": 1180,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/hierarchical-layers.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/hub-spoke.md",
+        "lines": 41,
+        "chars": 865,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/hub-spoke.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/iceberg.md",
+        "lines": 41,
+        "chars": 884,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/iceberg.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/isometric-map.md",
+        "lines": 41,
+        "chars": 832,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/isometric-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/jigsaw.md",
+        "lines": 41,
+        "chars": 844,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/jigsaw.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/linear-progression.md",
+        "lines": 48,
+        "chars": 1238,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/linear-progression.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/periodic-table.md",
+        "lines": 41,
+        "chars": 774,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/periodic-table.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/story-mountain.md",
+        "lines": 41,
+        "chars": 815,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/story-mountain.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/structural-breakdown.md",
+        "lines": 48,
+        "chars": 1118,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/structural-breakdown.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/tree-branching.md",
+        "lines": 41,
+        "chars": 913,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/tree-branching.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/venn-diagram.md",
+        "lines": 41,
+        "chars": 825,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/venn-diagram.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/winding-roadmap.md",
+        "lines": 41,
+        "chars": 799,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/layouts/winding-roadmap.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/structured-content-template.md",
+        "lines": 244,
+        "chars": 5513,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/structured-content-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/aged-academia.md",
+        "lines": 36,
+        "chars": 990,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/aged-academia.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/bold-graphic.md",
+        "lines": 36,
+        "chars": 920,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/bold-graphic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/chalkboard.md",
+        "lines": 61,
+        "chars": 2204,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/chalkboard.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/claymation.md",
+        "lines": 29,
+        "chars": 654,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/claymation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/corporate-memphis.md",
+        "lines": 29,
+        "chars": 612,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/corporate-memphis.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/craft-handmade.md",
+        "lines": 44,
+        "chars": 1427,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/craft-handmade.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/cyberpunk-neon.md",
+        "lines": 29,
+        "chars": 625,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/cyberpunk-neon.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/hand-drawn-edu.md",
+        "lines": 63,
+        "chars": 2640,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/hand-drawn-edu.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/ikea-manual.md",
+        "lines": 29,
+        "chars": 572,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/ikea-manual.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/kawaii.md",
+        "lines": 29,
+        "chars": 653,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/kawaii.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/knolling.md",
+        "lines": 29,
+        "chars": 583,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/knolling.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/lego-brick.md",
+        "lines": 29,
+        "chars": 574,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/lego-brick.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/morandi-journal.md",
+        "lines": 60,
+        "chars": 2217,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/morandi-journal.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/origami.md",
+        "lines": 29,
+        "chars": 607,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/origami.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/pixel-art.md",
+        "lines": 29,
+        "chars": 562,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/pixel-art.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/pop-laboratory.md",
+        "lines": 48,
+        "chars": 2165,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/pop-laboratory.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/retro-pop-grid.md",
+        "lines": 47,
+        "chars": 2098,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/retro-pop-grid.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/storybook-watercolor.md",
+        "lines": 29,
+        "chars": 703,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/storybook-watercolor.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/subway-map.md",
+        "lines": 29,
+        "chars": 589,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/subway-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/technical-schematic.md",
+        "lines": 36,
+        "chars": 982,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/technical-schematic.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/ui-wireframe.md",
+        "lines": 29,
+        "chars": 596,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/baoyu-infographic/references/styles/ui-wireframe.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/blender-mcp/SKILL.md",
+    "relative_path": "creative/blender-mcp/SKILL.md",
+    "name": "blender-mcp",
+    "frontmatter": {
+      "name": "blender-mcp",
+      "category": "agentic-coder",
+      "title": "Blender Mcp",
+      "description": "Drive Blender via the catalog blender MCP, with bpy recipes.",
+      "version": "2.1.0",
+      "author": "alireza78a + kshitijk4poor + Hermes Agent",
+      "license": "MIT",
+      "tags": "[blender, 3d, animation, modeling, bpy, mcp]"
+    },
+    "has_frontmatter": true,
+    "lines": 188,
+    "chars": 7390,
+    "sha256": "e898163e06aedfbce8df159ca1643a24400cb6347b6c21351d679ea95e3a9905",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/blender-mcp/references/bpy-api.md",
+        "lines": 264,
+        "chars": 6417,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/blender-mcp/references/bpy-api.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/blender-mcp/references/pitfalls.md",
+        "lines": 133,
+        "chars": 4276,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/blender-mcp/references/pitfalls.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/blender-mcp/references/recipes.md",
+        "lines": 223,
+        "chars": 6407,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/blender-mcp/references/recipes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/brand-guidelines/SKILL.md",
+    "relative_path": "creative/brand-guidelines/SKILL.md",
+    "name": "brand-guidelines",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when applying Anthropic brand colors, typography, or design standards",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "brand-guidelines",
+      "category": "agentic-coder",
+      "tags": [
+        "brand",
+        "design",
+        "anthropic",
+        "colors",
+        "typography"
+      ],
+      "title": "Brand Guidelines",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 3091,
+    "sha256": "25e2b441bede591f6927d2bf2db6e48e6e169ca164b920b48e074a9673fde23c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/canvas-design/SKILL.md",
+    "relative_path": "creative/canvas-design/SKILL.md",
+    "name": "canvas-design",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when creating visual art, posters, infographics, or graphics in .png/.pdf",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "canvas-design",
+      "category": "architecture",
+      "tags": [
+        "design",
+        "visual-art",
+        "posters",
+        "infographics",
+        "canvas"
+      ],
+      "title": "Canvas Design",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 128,
+    "chars": 3006,
+    "sha256": "f68fcf3485e8060557ec86896d7e832a1f497cd590ee2ea96dd22965cae38e7e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/claude-design/SKILL.md",
+    "relative_path": "creative/claude-design/SKILL.md",
+    "name": "claude-design",
+    "frontmatter": {
+      "author": "BadTechBandit",
+      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "claude-design",
+      "category": "architecture",
+      "tags": [
+        "imported"
+      ],
+      "title": "Claude Design",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 633,
+    "chars": 21173,
+    "sha256": "8a32b8a2447eabaa0ddc5c6edf2f505fc7f2098abd52e2726d65679b9c86f59c",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/creative/claude-design/references/quick-reference.md",
+        "lines": 13,
+        "chars": 388,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/creative/claude-design/references/quick-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 34
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/creative/cloud-design-patterns/SKILL.md",
+    "relative_path": "creative/cloud-design-patterns/SKILL.md",
+    "name": "cloud-design-patterns",
+    "frontmatter": {
+      "name": "cloud-design-patterns",
+      "category": "architecture",
+      "title": "Cloud Design Patterns",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Cloud design patterns for distributed systems architecture covering 42 industry-standard patterns across reliability, performance, messaging, security, and deployment categories. Use when designing, reviewing, or implementing distributed system architectures."
+    },
+    "has_frontmatter": true,
+    "lines": 101,
+    "chars": 5540,
+    "sha256": "cc9a276f0a7ab7c748cb9bb5bb317fcacbb7f5e5071983206186ac968f5ffa36",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]

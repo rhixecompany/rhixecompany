@@ -1,0 +1,395 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/make-repo-contribution/SKILL.md",
+    "relative_path": "development/make-repo-contribution/SKILL.md",
+    "name": "make-repo-contribution",
+    "frontmatter": {
+      "name": "make-repo-contribution",
+      "category": "agentic-coder",
+      "title": "Make Repo Contribution",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly.",
+      "allowed-tools": "Read Edit Bash(git:*) Bash(gh issue:*) Bash(gh pr:*)"
+    },
+    "has_frontmatter": true,
+    "lines": 125,
+    "chars": 7216,
+    "sha256": "d6d61ba1d1716b375da20e774aa66d4efa9d80c87433269ce2875a6244c59228",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/make-skill-template/SKILL.md",
+    "relative_path": "development/make-skill-template/SKILL.md",
+    "name": "make-skill-template",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Scaffold and create new Agent Skills with proper SKILL.md frontmatter, directory structure, and bundled resources. Use when asked to create a skill, make a new skill, scaffold a skill, or when building specialized AI capabilities with bundled scripts, references, assets, or templates.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "make-skill-template",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Make Skill Template",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 215,
+    "chars": 7819,
+    "sha256": "2f3bd0eb22e3e2f04a57d9040bcca6a3f890e44de800ac3cd2cac4c35f53f516",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/make-skill-template/references/overview.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/make-skill-template/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/make-skill-template/templates/template.md",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/make-skill-template/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/markstream-install/SKILL.md",
+    "relative_path": "development/markstream-install/SKILL.md",
+    "name": "markstream-install",
+    "frontmatter": {
+      "name": "markstream-install",
+      "category": "agentic-coder",
+      "title": "Markstream Install",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, and Vue 2 applications. Use for package selection, minimal peer dependencies, CSS order, SSR boundaries, streaming mode, and renderer setup.",
+      "license": "MIT",
+      "compatibility": "JavaScript or TypeScript frontend project using Vue 3, Nuxt 3/4, Vue 2.6/2.7, React 18+, Next.js, Angular 20+, or Svelte 5.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 165,
+    "chars": 6410,
+    "sha256": "e46045df2a7c1fd82e38f059028296a9659785c75a302aa9b68886ad207e89f6",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/markstream-install/references/scenarios.md",
+        "lines": 42,
+        "chars": 2593,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/markstream-install/references/scenarios.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/memory-bundle/SKILL.md",
+    "relative_path": "development/memory-bundle/SKILL.md",
+    "name": "memory-bundle",
+    "frontmatter": {
+      "name": "memory-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — Persistent Memory",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/memory.md by generating plan/spec/prompt/skill/script/result artifacts.",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 45,
+    "chars": 1530,
+    "sha256": "548d7968f70c6a56bdd9befdb6ad324a60cc945c1b2b9f71d8d7e49de703edef",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/memory-precompact/SKILL.md",
+    "relative_path": "development/memory-precompact/SKILL.md",
+    "name": "memory-precompact",
+    "frontmatter": {
+      "name": "memory-precompact",
+      "category": "agentic-coder",
+      "title": "Memory Precompact",
+      "description": "Repairs or manages memory files for profiles",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "memory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2598,
+    "sha256": "76dfcf176711ca03013b2f169e766def86865725cad3356768656872f05947a1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/memory-repair/SKILL.md",
+    "relative_path": "development/memory-repair/SKILL.md",
+    "name": "memory-repair",
+    "frontmatter": {
+      "name": "memory-repair",
+      "category": "agentic-coder",
+      "title": "Memory Repair",
+      "description": "Repairs or manages memory files for profiles",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "memory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2561,
+    "sha256": "de09fea54ad80a42bea53422ead09ffea464be0ad87a81c981dc1ff019adb216",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/memory-repair/references/overview.md",
+        "lines": 61,
+        "chars": 2536,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/memory-repair/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/memory-repair/templates/template.md",
+        "lines": 18,
+        "chars": 149,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/memory-repair/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/mentoring-juniors/SKILL.md",
+    "relative_path": "development/mentoring-juniors/SKILL.md",
+    "name": "mentoring-juniors",
+    "frontmatter": {
+      "name": "mentoring-juniors",
+      "category": "agentic-coder",
+      "title": "Mentoring Juniors",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: \"help me understand\", \"explain this code\", \"I''m stuck\", \"Im stuck\", \"I''m confused\", \"Im confused\", \"I don''t understand\", \"I dont understand\", \"can you teach me\", \"teach me\", \"mentor me\", \"guide me\", \"what does this error mean\", \"why doesn''t this work\", \"why does not this work\", \"I''m a beginner\", \"Im a beginner\", \"I''m learning\", \"Im learning\", \"I''m new to this\", \"Im new to this\", \"walk me through\", \"how does this work\", \"what''s wrong with my code\", \"what''s wrong\", \"can you break this down\", \"ELI5\", \"step by step\", \"where do I start\", \"what am I missing\", \"newbie here\", \"junior dev\", \"first time using\", \"how do I\", \"what is\", \"is this right\", \"not sure\", \"need help\", \"struggling\", \"show me\", \"help me debug\", \"best practice\", \"too complex\", \"overwhelmed\", \"lost\", \"debug this\", \"/socratic\", \"/hint\", \"/concept\", \"/pseudocode\". Progressive clue systems, teaching techniques, and success metrics.",
+      "license": "MIT",
+      "authors": [
+        "name: Thomas Chmara",
+        "name: François Descamps"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 344,
+    "chars": 14706,
+    "sha256": "94e6282689dbc56d20597fce3138c8df0f42b1586851235837354ec0936e43b5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 8,
+    "section_count": 37
+  }
+]

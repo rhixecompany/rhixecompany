@@ -1,0 +1,344 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/planning/repo-planning/SKILL.md",
+    "relative_path": "planning/repo-planning/SKILL.md",
+    "name": "repo-planning",
+    "frontmatter": {
+      "name": "repo-planning",
+      "category": "documentation",
+      "title": "Repo Planning: Plans + Specs for Every Repo",
+      "description": "Generate PLAN.md+SPEC.md per repo via prompt-management.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[planning, specs, repos, submodules, prompt-management]"
+    },
+    "has_frontmatter": true,
+    "lines": 71,
+    "chars": 3308,
+    "sha256": "e6c37aa7cb8bd5f95035124d54c2507282b84d72ea7df1d45dced611d81274fd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/steno-mode/SKILL.md",
+    "relative_path": "planning/steno-mode/SKILL.md",
+    "name": "steno-mode",
+    "frontmatter": {
+      "name": "steno-mode",
+      "category": "agentic-coder",
+      "title": "Steno Mode",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Shorthand-first response compression that cuts ~40% of response tokens while preserving technical precision and exact literals. Use when the user says \"steno mode\", \"shorthand mode\", \"compressed responses\", \"token reduction\", \"brief structured output\", or invokes /steno. Supports four compression levels: lite, brief, court, machine. Do not trigger for requests needing polished prose such as onboarding/tutorial content, stakeholder or customer-facing copy, or teaching-focused explanations.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 143,
+    "chars": 5161,
+    "sha256": "101cef549aae7ad0d1b5837b431ae45462d52a72915391d6630d305ffcabca2b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/tugboat/SKILL.md",
+    "relative_path": "planning/tugboat/SKILL.md",
+    "name": "tugboat",
+    "frontmatter": {
+      "name": "tugboat",
+      "category": "agentic-coder",
+      "title": "Tugboat",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "tags": "[]",
+      "description": "Anxiety-aware, evidence-driven collaboration for stalled or high-stakes work when a user says uncertainty, repeated setbacks, or lack of visible progress is causing significant anxiety or distress. Use immediately when explicitly invoked; when this fit is only inferred from the user''s own account, ask permission before applying it. Preserve the user''s ideal and turn grounded perspective-taking into persistent, bounded problem solving. Do not use to diagnose, provide therapy, manufacture certainty, or lower goals for reassurance.",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 259,
+    "chars": 14726,
+    "sha256": "f2b2dd25c0a698b306db09f1ffb2be64b989e1e144a72715c637b90ce03afbd2",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/update-markdown-file-index/SKILL.md",
+    "relative_path": "planning/update-markdown-file-index/SKILL.md",
+    "name": "update-markdown-file-index",
+    "frontmatter": {
+      "name": "update-markdown-file-index",
+      "category": "agentic-coder",
+      "title": "Update Markdown File Index",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Update a markdown file section with an index/table of files from a specified folder."
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 3664,
+    "sha256": "7337b371f0a18aea09ebecd3c1145cc18d580c0a82b347c22a2381db194f343b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/planning/writing-plan/SKILL.md",
+    "relative_path": "planning/writing-plan/SKILL.md",
+    "name": "writing-plan",
+    "frontmatter": {
+      "name": "writing-plan",
+      "category": "documentation",
+      "description": "Use when writing a plan. Create a gated implementation plan.",
+      "version": "1.0.0",
+      "title": "Writing Plan",
+      "author": "Alexa"
+    },
+    "has_frontmatter": true,
+    "lines": 176,
+    "chars": 6213,
+    "sha256": "ca3d99eb0994610f323aa14cc02c7979e4e9a1818fef45d0225879820238d41b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/planning/writing-plan/references/overview.md",
+        "lines": 18,
+        "chars": 808,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/writing-plan/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/writing-plan/templates/template.md",
+        "lines": 84,
+        "chars": 1494,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/planning/writing-plan/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 48,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 4,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/pr/SKILL.md",
+    "relative_path": "pr/SKILL.md",
+    "name": "pr",
+    "frontmatter": {
+      "name": "pr",
+      "description": "Use when writing a PR body.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 170,
+    "chars": 4107,
+    "sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/product/SKILL.md",
+    "relative_path": "product/SKILL.md",
+    "name": "product",
+    "frontmatter": {
+      "name": "product",
+      "category": "agentic-coder",
+      "title": "Product Skill",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "description": "Categorized skill for product — created during skills library audit (session 2026-09-20). Requires full specification and verification before production use. See workspace AGENTS.md and .hermes.md for routing and identity rules.",
+      "tags": "[missing, audit-20260920, category, verified-structure]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 28,
+    "chars": 1446,
+    "sha256": "d10f8d991deacd441542d6b4940464a8dda59d9691b4e1e6ba2fdd6ebea5c1b5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-parallel-task/SKILL.md",
+    "relative_path": "mcp/mcp-parallel-task/SKILL.md",
+    "name": "mcp-parallel-task",
+    "frontmatter": {
+      "name": "mcp-parallel-task",
+      "category": "agentic-coder",
+      "title": "MCP Parallel Task — Batch Data Enrichment",
+      "description": "Exposes all parallel-task MCP tools for batch data enrichment, task group management, and deep research orchestration.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "parallel-task",
+        "batch",
+        "enrichment",
+        "research"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 98,
+    "chars": 3224,
+    "sha256": "4d11927172c14e49944d7b90a0486ef35befb70839b0ad34684148efbc8c1e05",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-playwright/SKILL.md",
+    "relative_path": "mcp/mcp-playwright/SKILL.md",
+    "name": "mcp-playwright",
+    "frontmatter": {
+      "name": "mcp-playwright",
+      "category": "agentic-coder",
+      "title": "MCP Playwright — Browser Automation",
+      "description": "Exposes all playwright MCP tools for browser automation including navigation, clicks, forms, screenshots, and console interaction.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "playwright",
+        "browser",
+        "automation",
+        "testing"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 4023,
+    "sha256": "c9a36a4700d57905d2cfd2568b040d612a0fc8a69cded7dabb0cdde0d101581f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-python-quality/SKILL.md",
+    "relative_path": "mcp/mcp-python-quality/SKILL.md",
+    "name": "mcp-python-quality",
+    "frontmatter": {
+      "name": "mcp-python-quality",
+      "category": "agentic-coder",
+      "title": "MCP Python Quality — Python Code Analysis",
+      "description": "Exposes all python-quality MCP tools for linting, formatting, type-checking, fixing, and initializing Python project configurations.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "python",
+        "quality",
+        "lint",
+        "format",
+        "typecheck"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 103,
+    "chars": 3390,
+    "sha256": "6590ad74d982d8cc926403e5c692a32a09b7471ba0db774e586f0e49eba233d9",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-release-qa/SKILL.md",
+    "relative_path": "mcp/mcp-release-qa/SKILL.md",
+    "name": "mcp-release-qa",
+    "frontmatter": {
+      "name": "mcp-release-qa",
+      "category": "agentic-coder",
+      "title": "Mcp Release Qa",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Verify an MCP server before release by exercising a real protocol session, comparing runtime capabilities with source and documentation, testing failure paths, and recording reproducible evidence. Use when shipping or reviewing an MCP server, tool, resource, prompt, catalog, or install path."
+    },
+    "has_frontmatter": true,
+    "lines": 237,
+    "chars": 8156,
+    "sha256": "62ceaafa5b730b788e2a457367b707640de29adbde27f5b259d0cab9c0d22bb5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-security-audit/SKILL.md",
+    "relative_path": "mcp/mcp-security-audit/SKILL.md",
+    "name": "mcp-security-audit",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Mcp Security Audit.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "mcp-security-audit",
+      "category": "audit",
+      "tags": [
+        "tools"
+      ],
+      "title": "Mcp Security Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 349,
+    "chars": 10318,
+    "sha256": "adca618c5c403a301b1ce9d707794d3d699b3b072146c9335128962f36f32da0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 86,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 20
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-sentry/SKILL.md",
+    "relative_path": "mcp/mcp-sentry/SKILL.md",
+    "name": "mcp-sentry",
+    "frontmatter": {
+      "name": "mcp-sentry",
+      "category": "agentic-coder",
+      "title": "MCP Sentry — Error Tracking & Monitoring",
+      "description": "Exposes all sentry MCP tools for finding organizations, projects, issues, events, and executing Sentry operations for error tracking.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "sentry",
+        "errors",
+        "monitoring",
+        "debugging"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 101,
+    "chars": 3344,
+    "sha256": "e6ef9006a9aa664ee31f5c3954e6f5d9481b51dff92274ba756b13c6cd10dd51",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/mcp-sequential-thinking/SKILL.md",
+    "relative_path": "mcp/mcp-sequential-thinking/SKILL.md",
+    "name": "mcp-sequential-thinking",
+    "frontmatter": {
+      "name": "mcp-sequential-thinking",
+      "category": "agentic-coder",
+      "title": "MCP Sequential Thinking — Chain-of-Thought Reasoning",
+      "description": "Exposes the sequential thinking MCP tool for structured, multi-step problem solving with dynamic thought revision. Includes test cases.",
+      "version": "1.0.0",
+      "author": "OWL",
+      "license": "MIT",
+      "tags": [
+        "mcp",
+        "reasoning",
+        "chain-of-thought",
+        "problem-solving"
+      ],
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 164,
+    "chars": 5905,
+    "sha256": "ad09f903d750645e5e512adafe68d879cab286792ff275e741498b9e2b3f6498",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  }
+]

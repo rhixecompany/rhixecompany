@@ -1,0 +1,316 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/code-sandbox/SKILL.md",
+    "relative_path": "development/code-sandbox/SKILL.md",
+    "name": "code-sandbox",
+    "frontmatter": {
+      "name": "code-sandbox",
+      "category": "agentic-coder",
+      "description": "MCP server for code-sandbox. Use when you need code-sandbox via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Code Sandbox",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1182,
+    "sha256": "e354d0960256a94d347d631112c5fdbce18f5b9b0a77b7ee60ac2f55f26b0062",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/code-tour/SKILL.md",
+    "relative_path": "development/code-tour/SKILL.md",
+    "name": "code-tour",
+    "frontmatter": {
+      "name": "code-tour",
+      "category": "agentic-coder",
+      "title": "Code Tour",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 472,
+    "chars": 23431,
+    "sha256": "70b8e5b36609322cb53931c2c1775f70dbbcb0ca0294ad4d77b6e1b529595797",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: placeholder text detected",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 35
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/codebase-inspection/SKILL.md",
+    "relative_path": "development/codebase-inspection/SKILL.md",
+    "name": "codebase-inspection",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "codebase-inspection",
+      "category": "documentation",
+      "tags": [],
+      "title": "Codebase Inspection",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 158,
+    "chars": 4794,
+    "sha256": "dd65c97b6a1865a99294d920c39ed692828b769b4cf4301a59185ad5be517789",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": true,
+      "backup_or_archive": false,
+      "protected": true
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/codebase-memory-mcp/SKILL.md",
+    "relative_path": "development/codebase-memory-mcp/SKILL.md",
+    "name": "codebase-memory-mcp",
+    "frontmatter": {
+      "name": "codebase-memory-mcp",
+      "category": "agentic-coder",
+      "title": "Codebase Memory Mcp",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers, callees, data flow or dependencies, assessing impact, auditing dead or complex code, or handling explicit Codebase Memory requests. Otherwise skip tasks confined to a supplied known file, tiny one-file check, exact literal, configuration value, error string, or non-code text."
+    },
+    "has_frontmatter": true,
+    "lines": 74,
+    "chars": 7646,
+    "sha256": "1f0b8191a344613eed0c159100d42886ae2b182e7c2fcdc07ece0920969282da",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/comment-code-generate-a-tutorial/SKILL.md",
+    "relative_path": "development/comment-code-generate-a-tutorial/SKILL.md",
+    "name": "comment-code-generate-a-tutorial",
+    "frontmatter": {
+      "name": "comment-code-generate-a-tutorial",
+      "category": "agentic-coder",
+      "title": "Comment Code Generate A Tutorial",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial."
+    },
+    "has_frontmatter": true,
+    "lines": 65,
+    "chars": 2397,
+    "sha256": "9f072a959784a4cdb290f3e0800ad50f334a9925fa2569328ffff8f32aaf0e24",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/complete-issue-inventory/SKILL.md",
+    "relative_path": "development/complete-issue-inventory/SKILL.md",
+    "name": "complete-issue-inventory",
+    "frontmatter": {
+      "name": "complete-issue-inventory",
+      "category": "agentic-coder",
+      "title": "Complete Issue Inventory",
+      "description": "Use when the task is to debug/fix ALL issues, errors, warnings. Ensures every discovered issue is fixed or escalated with evidence — no non-blocking dismissals.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[qa, verification, debugging, workflow]"
+    },
+    "has_frontmatter": true,
+    "lines": 86,
+    "chars": 4333,
+    "sha256": "b08afdbabf1eaf48d513cb566f955b81c4e9a5f09f8d80927a24d8957802e2ac",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 12
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/comprehensive-enhance/SKILL.md",
+    "relative_path": "development/comprehensive-enhance/SKILL.md",
+    "name": "comprehensive-enhance",
+    "frontmatter": {
+      "name": "comprehensive-enhance",
+      "category": "agentic-coder",
+      "title": "Comprehensive Enhance",
+      "description": "Script for Comprehensive Enhance operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2605,
+    "sha256": "ef6c88ab3609096922d1bed36bc0df32f9bfa3f04832779a05aa8b65fe683749",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

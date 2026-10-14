@@ -1,0 +1,468 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/session-audit-report/SKILL.md",
+    "relative_path": "devops/session-audit-report/SKILL.md",
+    "name": "session-audit-report",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "At session start, audit the last session and generate SESSION_REPORT.md",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "session-audit-report",
+      "category": "audit",
+      "tags": [],
+      "title": "Session Audit & Report Generation",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 235,
+    "chars": 10953,
+    "sha256": "3489809e0f5573491559a3c13ee0a91599f14dc701f194a28814f38963b4329d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/references/manual-report-template.md",
+        "lines": 74,
+        "chars": 1558,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/references/manual-report-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/scripts/__pycache__/generate_session_report.cpython-313.pyc",
+        "lines": 790,
+        "chars": 27145,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/scripts/__pycache__/generate_session_report.cpython-313.pyc:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/scripts/generate_session_report.py",
+        "lines": 527,
+        "chars": 21128,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/scripts/generate_session_report.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/scripts/session_audit.py",
+        "lines": 225,
+        "chars": 7436,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/session-audit-report/scripts/session_audit.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 10,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/snowflake-semanticview/SKILL.md",
+    "relative_path": "devops/snowflake-semanticview/SKILL.md",
+    "name": "snowflake-semanticview",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Use when working with Snowflake Semanticview.",
+      "license": "MIT",
+      "metadata": [
+        "tools"
+      ],
+      "name": "snowflake-semanticview",
+      "category": "agentic-coder",
+      "tags": [],
+      "title": "Snowflake Semanticview",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 185,
+    "chars": 7051,
+    "sha256": "e01e6f41be5e3b325675599edbcb91af00fc36d2d0227e0e473bcfd1f4b0f7b1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 91,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/soul-enhancer/SKILL.md",
+    "relative_path": "devops/soul-enhancer/SKILL.md",
+    "name": "soul-enhancer",
+    "frontmatter": {
+      "name": "soul-enhancer",
+      "category": "agentic-coder",
+      "title": "SOUL.md Profile Enhancer",
+      "description": "Use when updating, enhancing, or propagating SOUL.md files across Hermes profiles. Transforms flat rule-list SOUL.md into structured Persona→Cognitive Style→Execution Frameworks→Standing Rules→Memory Hierarchy format.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes, profiles, soul, identity, persona]",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 230,
+    "chars": 11236,
+    "sha256": "7a266fd914a85432bffcfb48321695335f4bdc7b93c81bfd7444d25008b0dbfe",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/soul-enhancer/scripts/enhance_soul.py",
+        "lines": 420,
+        "chars": 20685,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/soul-enhancer/scripts/enhance_soul.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/system-commandline-cli/SKILL.md",
+    "relative_path": "devops/system-commandline-cli/SKILL.md",
+    "name": "system-commandline-cli",
+    "frontmatter": {
+      "name": "system-commandline-cli",
+      "category": "agentic-coder",
+      "title": "System Commandline Cli",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine. Triggers include: creating a new CLI command, adding options or arguments, wiring command handlers, registering subcommands, building command groups, or any architecture decision about CLI command structure. Also use when the user mentions 'System.CommandLine', 'CommandBase', 'SetAction', 'ParseResult', 'RootCommand', 'subcommand', or asks to add a verb to the CLI. Do NOT use for general C# coding, web APIs, UI work, or non-CLI projects."
+    },
+    "has_frontmatter": true,
+    "lines": 356,
+    "chars": 11526,
+    "sha256": "61aa206303f0382d5419da1f4041a0ed1bf17c33ca3195d5f48cab8dc50caa36",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 25
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/tailscale/SKILL.md",
+    "relative_path": "devops/tailscale/SKILL.md",
+    "name": "tailscale",
+    "frontmatter": {
+      "name": "tailscale",
+      "category": "agentic-coder",
+      "license": "MIT",
+      "title": "Tailscale Tailnet Management",
+      "description": "Use when managing Tailscale tailnet via API v2 — device inventory, ACLs, auth keys, DNS config, and node maintenance.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[tailscale, vpn, networking, tailnet, acl, management]"
+    },
+    "has_frontmatter": true,
+    "lines": 143,
+    "chars": 4715,
+    "sha256": "81ad8c47da7ff5a77b7f6ad3c69eaea1d403e66c69dd3a5fcc9086834847bd61",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/tailscale/references/api-v2-endpoints.md",
+        "lines": 57,
+        "chars": 1918,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/tailscale/references/api-v2-endpoints.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 17
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/SKILL.md",
+    "relative_path": "devops/terraform-azurerm-set-diff-analyzer/SKILL.md",
+    "name": "terraform-azurerm-set-diff-analyzer",
+    "frontmatter": {
+      "name": "terraform-azurerm-set-diff-analyzer",
+      "category": "agentic-coder",
+      "title": "Terraform AzureRM Set Diff Analyzer",
+      "description": "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[terraform, azure, diff-analysis, ci-cd, automation]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 132,
+    "chars": 4318,
+    "sha256": "257cb9602df59b51cf7809bd19813fd1bb23238df22de4940651dc06876d5180",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.json",
+        "lines": 154,
+        "chars": 4200,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.json:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.md",
+        "lines": 144,
+        "chars": 4245,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/scripts/.gitignore",
+        "lines": 74,
+        "chars": 742,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/scripts/.gitignore:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/scripts/README.md",
+        "lines": 209,
+        "chars": 5313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/scripts/README.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/scripts/analyze_plan.py",
+        "lines": 940,
+        "chars": 30968,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/terraform-azurerm-set-diff-analyzer/scripts/analyze_plan.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/test-providers-models/SKILL.md",
+    "relative_path": "devops/test-providers-models/SKILL.md",
+    "name": "test-providers-models",
+    "frontmatter": {
+      "name": "test-providers-models",
+      "title": "Test Providers & Models",
+      "description": "Inventory all authorized LLM providers from hermes auth + config, use web-search/mcp-fetch on provider model URLs, update/create/delete *_models.json artifacts, run benchmark tests, and configure the optimal primary model + fallback chain.",
+      "category": "agentic-coder",
+      "version": "1.3.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[providers, models, benchmark, free-tier, hermes, config, models-json, web-search, mcp-fetch]"
+    },
+    "has_frontmatter": true,
+    "lines": 167,
+    "chars": 6737,
+    "sha256": "00309a61074c31feddc80950e09036cd66fdaa8caba57ad877c66239fd798155",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/test-providers-models/references/free-model-benchmarks.md",
+        "lines": 61,
+        "chars": 2733,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/test-providers-models/references/free-model-benchmarks.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 16
+  }
+]

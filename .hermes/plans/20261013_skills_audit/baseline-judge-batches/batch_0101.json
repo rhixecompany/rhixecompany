@@ -1,0 +1,423 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/cross-platform-development/SKILL.md",
+    "relative_path": "devops/cross-platform-development/SKILL.md",
+    "name": "cross-platform-development",
+    "frontmatter": {
+      "name": "cross-platform-development",
+      "category": "dev-tools",
+      "title": "Cross-Platform Development",
+      "description": "Use when developing across Windows and Unix shells.",
+      "version": "1.0.0",
+      "author": "Hermes Curator",
+      "license": "MIT",
+      "tags": "[windows, msys, paths, python, tooling, elevation]"
+    },
+    "has_frontmatter": true,
+    "lines": 47,
+    "chars": 1755,
+    "sha256": "3597962c50530b80d2f86e6637781dd20990c9078ecf37f6266b9de10e4aaf60",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/customization-audit/SKILL.md",
+    "relative_path": "devops/customization-audit/SKILL.md",
+    "name": "customization-audit",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Audit AGENTS and customization drift in monorepo workspaces, then produce",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "customization-audit",
+      "category": "audit",
+      "tags": [
+        "audit",
+        "monorepo",
+        "agents",
+        "drift",
+        "customization"
+      ],
+      "title": "Customization Audit",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 97,
+    "chars": 3086,
+    "sha256": "0e1029de98475c84e1f3d4c4524f39e21daa8ffbdd0f35b622796f6ee83045e6",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/d365-solution-blueprint/SKILL.md",
+    "relative_path": "devops/d365-solution-blueprint/SKILL.md",
+    "name": "d365-solution-blueprint",
+    "frontmatter": {
+      "name": "d365-solution-blueprint",
+      "category": "agentic-coder",
+      "title": "D365 Solution Blueprint",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Authors a Dynamics 365 Finance and Supply Chain Management Solution Blueprint from scratch through a structured, section-by-section architect interview, establishing scope, target operating model, application and data architecture, integration landscape, migration strategy, security model, ALM, testing, deployment, and support approach, with a decision log capturing rationale and rejected alternatives. Use when the user wants to create D365 implementation architecture documentation, start a D365 implementation, design the architecture, prepare a Solution Blueprint, or identify the architectural decisions the programme must make. Do not use for critique of an existing design; that is a review task rather than blueprint authoring."
+    },
+    "has_frontmatter": true,
+    "lines": 197,
+    "chars": 11648,
+    "sha256": "d57e80f2c0e84b6599f9562423b02d5970a98437f4ee434a06c034836d598561",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/d365-solution-blueprint/references/section-guide.md",
+        "lines": 342,
+        "chars": 16643,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/d365-solution-blueprint/references/section-guide.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 20,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/datadog/SKILL.md",
+    "relative_path": "devops/datadog/SKILL.md",
+    "name": "datadog",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when investigating production errors, tracing distributed requests,",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "datadog",
+      "category": "agentic-coder",
+      "tags": [
+        "observability",
+        "debugging",
+        "monitoring",
+        "datadog",
+        "production"
+      ],
+      "title": "Datadog",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 122,
+    "chars": 3675,
+    "sha256": "2bcf51788126bca054aaf3699c100edb4d59024a8b0f4d611f3baf9fa87ef459",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 13
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/debian-linux-triage/SKILL.md",
+    "relative_path": "devops/debian-linux-triage/SKILL.md",
+    "name": "debian-linux-triage",
+    "frontmatter": {
+      "name": "debian-linux-triage",
+      "category": "agentic-coder",
+      "title": "Debian Linux Triage",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance."
+    },
+    "has_frontmatter": true,
+    "lines": 70,
+    "chars": 1941,
+    "sha256": "4de0060f8923f403dcf36db8f02ace990cc7b98a7025207346497278f8a790f4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/dependabot/SKILL.md",
+    "relative_path": "devops/dependabot/SKILL.md",
+    "name": "dependabot",
+    "frontmatter": {
+      "author": "Alexa",
+      "description": "Manage Dependabot: configure dependency update PRs, version bump automation, and security alerts.",
+      "license": "MIT",
+      "name": "dependabot",
+      "category": "agentic-coder",
+      "tags": [
+        "imported"
+      ],
+      "title": "Dependabot",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 499,
+    "chars": 14372,
+    "sha256": "775507b048e3ec3b9254bcc2b7997c1d6f9d5e84ecfa31b2a2d4775a0d4c6619",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependabot/references/dependabot-yml-reference.md",
+        "lines": 374,
+        "chars": 9717,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependabot/references/dependabot-yml-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependabot/references/example-configs.md",
+        "lines": 409,
+        "chars": 8184,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependabot/references/example-configs.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependabot/references/pr-commands.md",
+        "lines": 91,
+        "chars": 4288,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependabot/references/pr-commands.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 5,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 39
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/SKILL.md",
+    "relative_path": "devops/dependency-security-remediation/SKILL.md",
+    "name": "dependency-security-remediation",
+    "frontmatter": {
+      "name": "dependency-security-remediation",
+      "category": "security",
+      "title": "Dependency Security Remediation",
+      "description": "Audit, triage, and fix vulnerable Python dependencies in venvs. Cross-reference manifests vs runtimes, check agent constraints, upgrade safely with rollback.",
+      "version": "1.1.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[security, venv, pip, remediation]"
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 5385,
+    "sha256": "d1f4217d0c2524b05f91c86492242bf0ee17141810503dd8122db26fb9e65771",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/references/2026-08-07-python-vulnerability-remediation.md",
+        "lines": 72,
+        "chars": 3313,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/references/2026-08-07-python-vulnerability-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/references/cross-project-audit-workflow.md",
+        "lines": 135,
+        "chars": 4200,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/references/cross-project-audit-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/references/venv-cve-remediation.md",
+        "lines": 147,
+        "chars": 5921,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/dependency-security-remediation/references/venv-cve-remediation.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 12,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  }
+]

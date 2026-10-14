@@ -1,0 +1,335 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/qdrant-clients-sdk/SKILL.md",
+    "relative_path": "devops/qdrant-clients-sdk/SKILL.md",
+    "name": "qdrant-clients-sdk",
+    "frontmatter": {
+      "name": "qdrant-clients-sdk",
+      "category": "agentic-coder",
+      "title": "Qdrant Clients Sdk",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+      "allowed-tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 3973,
+    "sha256": "e70546d3bc815d3df3405c076ff9026a08d1f11dc0584424af6adf70ad1ee8f1",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 87,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/qdrant-search-quality/SKILL.md",
+    "relative_path": "devops/qdrant-search-quality/SKILL.md",
+    "name": "qdrant-search-quality",
+    "frontmatter": {
+      "name": "qdrant-search-quality",
+      "category": "architecture",
+      "title": "Qdrant Search Quality",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or asks 'how to improve search quality?', 'which embedding model?', 'should I use hybrid search?', 'should I use reranking?'. Also use when search quality degrades after quantization, model change, or data growth.",
+      "allowed-tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 63,
+    "chars": 2327,
+    "sha256": "df4b731511f60f3ca9ac4d4462db2e657a3fc106a07879c8453e667b0094b60b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 10
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/qdrant-search-quality/diagnosis/SKILL.md",
+    "relative_path": "devops/qdrant-search-quality/diagnosis/SKILL.md",
+    "name": "qdrant-search-quality-diagnosis",
+    "frontmatter": {
+      "name": "qdrant-search-quality-diagnosis",
+      "category": "agentic-coder",
+      "title": "Qdrant Search Quality Diagnosis",
+      "description": "Diagnoses Qdrant search quality issues. Use when someone reports 'results are bad', 'wrong results', 'not relevant results', 'missing matches', 'recall is low', 'approximate search worse than exact', 'which embedding model', or 'quality dropped after quantization'. Also use when search quality degrades without obvious changes.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 90,
+    "chars": 4580,
+    "sha256": "7fab30b1260b416b5c16d244644c27804d3f44c858cd0d93d3215a17aaecb304",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/qdrant-search-quality/search-strategies/SKILL.md",
+    "relative_path": "devops/qdrant-search-quality/search-strategies/SKILL.md",
+    "name": "qdrant-search-strategies",
+    "frontmatter": {
+      "name": "qdrant-search-strategies",
+      "category": "architecture",
+      "title": "Qdrant Search Strategies",
+      "description": "Guides Qdrant search strategy selection. Use when someone asks 'should I use hybrid search?', 'BM25 or sparse vectors?', 'how to rerank?', 'results are not relevant', 'I don't get needed results from my dataset but they're there', 'retrieval quality is not good enough', 'results too similar', 'need diversity', 'MMR', 'relevance feedback', 'recommendation API', 'discovery API', 'ColBERT reranking', or 'missing keyword matches'",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 107,
+    "chars": 7839,
+    "sha256": "efb85f940dac219cb92fa8f7670c88329a2fa7531cfef2a3e22007922c0078bb",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/rate-limit-bypass/SKILL.md",
+    "relative_path": "devops/rate-limit-bypass/SKILL.md",
+    "name": "rate-limit-bypass",
+    "frontmatter": {
+      "name": "rate-limit-bypass",
+      "category": "agentic-coder",
+      "title": "Rate-Limit & Usage-Limit Resilience",
+      "description": "Use when provider calls hit rate limits. Apply bounded retry, jitter, fallback rotation, and audit logging without evading quotas.",
+      "version": "1.1.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[hermes, reliability, rate-limit, fallback, retry, llm]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 149,
+    "chars": 5773,
+    "sha256": "45d213df623a66a7524dd203a37828f0989f22e4bec9784d995da364f1fe9980",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/rbac-audit-logging/SKILL.md",
+    "relative_path": "devops/rbac-audit-logging/SKILL.md",
+    "name": "rbac-audit-logging",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Use when auditing RBAC role assignments and logging configurations in",
+      "license": "MIT",
+      "metadata": [
+        "imported"
+      ],
+      "name": "rbac-audit-logging",
+      "category": "audit",
+      "tags": [],
+      "title": "RBAC Audit Logging",
+      "version": "1.0.0"
+    },
+    "has_frontmatter": true,
+    "lines": 168,
+    "chars": 5531,
+    "sha256": "4c4aae3696de72dc74a893bc9772a9e2b4b9f0d086f848d8b6dea957b078a1c9",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/rbac-audit-logging/references/overview.md",
+        "lines": 19,
+        "chars": 371,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/rbac-audit-logging/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 5,
+    "section_count": 15
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/remember-interactive-programming/SKILL.md",
+    "relative_path": "devops/remember-interactive-programming/SKILL.md",
+    "name": "remember-interactive-programming",
+    "frontmatter": {
+      "name": "remember-interactive-programming",
+      "category": "agentic-coder",
+      "title": "Remember Interactive Programming",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace."
+    },
+    "has_frontmatter": true,
+    "lines": 52,
+    "chars": 1890,
+    "sha256": "7c8227da64c392b565d70623461c1842faf57f965ec3d2c736450253d84a7518",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  }
+]

@@ -1,0 +1,383 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/tooling-config-mcp-server/SKILL.md",
+    "relative_path": "development/tooling-config-mcp-server/SKILL.md",
+    "name": "tooling-config-mcp-server",
+    "frontmatter": {
+      "name": "tooling-config-mcp-server",
+      "category": "agentic-coder",
+      "title": "Tooling Config Mcp Server",
+      "description": "Script for Tooling Config Mcp Server operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "configuration",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2663,
+    "sha256": "b20c2d78fd35ca7581387c86b97ed121d8e950d828549d58c01359880a0dfc02",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tooling-full-check/SKILL.md",
+    "relative_path": "development/tooling-full-check/SKILL.md",
+    "name": "tooling-full-check",
+    "frontmatter": {
+      "name": "tooling-full-check",
+      "category": "agentic-coder",
+      "title": "Tooling Full Check",
+      "description": "Script for Tooling Full Check operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2575,
+    "sha256": "85dec352f2ce4cca44540262e619e7ee6c01f798e482b8c821a1ae95e776f0e4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tooling-lint-mcp-server/SKILL.md",
+    "relative_path": "development/tooling-lint-mcp-server/SKILL.md",
+    "name": "tooling-lint-mcp-server",
+    "frontmatter": {
+      "name": "tooling-lint-mcp-server",
+      "category": "agentic-coder",
+      "title": "Tooling Lint Mcp Server",
+      "description": "Script for Tooling Lint Mcp Server operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2625,
+    "sha256": "794ccaf8527dacbab73c0d29b18138a89ccac2095e2c0fa1bd0b06d3d85c2429",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tooling-quick-commands/SKILL.md",
+    "relative_path": "development/tooling-quick-commands/SKILL.md",
+    "name": "tooling-quick-commands",
+    "frontmatter": {
+      "name": "tooling-quick-commands",
+      "category": "agentic-coder",
+      "title": "Tooling Quick Commands",
+      "description": "Script for Tooling Quick Commands operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2605,
+    "sha256": "ab1534247ecaf24ba26388c8d28dca9434c2aedb5d38fc64b52c7d2032dd2765",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/tools-bundle/SKILL.md",
+    "relative_path": "development/tools-bundle/SKILL.md",
+    "name": "tools-bundle",
+    "frontmatter": {
+      "name": "tools-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — Tools & Toolsets",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/tools.md by generating plan/spec/prompt/skill/script/result artifacts.",
+      "license": "MIT",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 45,
+    "chars": 1524,
+    "sha256": "53724543ce6bc43647ee5dacdc34a7ea1b46a8265e3b7e0219228b35773669fa",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 71,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/trim-banking/SKILL.md",
+    "relative_path": "development/trim-banking/SKILL.md",
+    "name": "trim-banking",
+    "frontmatter": {
+      "name": "trim-banking",
+      "category": "agentic-coder",
+      "title": "Trim Banking",
+      "description": "Trims banking content from files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "cleanup",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2525,
+    "sha256": "c605356d7f9270c49a4e2129dd4a6c5681ca53c2b782231a2e3af1408db21536",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-banking/references/overview.md",
+        "lines": 29,
+        "chars": 515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-banking/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-banking/templates/template.md",
+        "lines": 18,
+        "chars": 148,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-banking/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/trim-remaining/SKILL.md",
+    "relative_path": "development/trim-remaining/SKILL.md",
+    "name": "trim-remaining",
+    "frontmatter": {
+      "name": "trim-remaining",
+      "category": "agentic-coder",
+      "title": "Trim Remaining",
+      "description": "Trims remaining content from files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "cleanup",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2545,
+    "sha256": "7dab178aa49b63c2c165ce6b937ff3b2d84736e4174bc15e46973e36257d52df",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-remaining/references/overview.md",
+        "lines": 29,
+        "chars": 525,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-remaining/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-remaining/templates/template.md",
+        "lines": 18,
+        "chars": 150,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/trim-remaining/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

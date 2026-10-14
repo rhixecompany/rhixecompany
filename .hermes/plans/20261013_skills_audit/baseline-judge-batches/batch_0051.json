@@ -1,0 +1,426 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-orphaned-brackets/SKILL.md",
+    "relative_path": "development/fix-orphaned-brackets/SKILL.md",
+    "name": "fix-orphaned-brackets",
+    "frontmatter": {
+      "name": "fix-orphaned-brackets",
+      "category": "agentic-coder",
+      "title": "Fix Orphaned Brackets",
+      "description": "Fixes orphaned brackets issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2621,
+    "sha256": "84e0fe22395c18a426b676324c2bc685c15f3ee1059add674761e61ad773e352",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-orphaned-brackets/references/overview.md",
+        "lines": 29,
+        "chars": 560,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-orphaned-brackets/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-orphaned-brackets/templates/template.md",
+        "lines": 18,
+        "chars": 157,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-orphaned-brackets/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-prompt-artifacts/SKILL.md",
+    "relative_path": "development/fix-prompt-artifacts/SKILL.md",
+    "name": "fix-prompt-artifacts",
+    "frontmatter": {
+      "name": "fix-prompt-artifacts",
+      "category": "agentic-coder",
+      "title": "Fix Prompt Artifacts",
+      "description": "Fixes prompt artifacts issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2623,
+    "sha256": "6ea52dba7ade04d013047e106ec7a80acfb1cccb30948f3e5aae3adc8eab1cb3",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-prompt-frontmatter/SKILL.md",
+    "relative_path": "development/fix-prompt-frontmatter/SKILL.md",
+    "name": "fix-prompt-frontmatter",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Audit and repair prompt frontmatter for schema compliance, required fields, tag formatting, and version consistency. Auto-fixes common issues with backup and verification.",
+      "license": "MIT",
+      "metadata": [
+        "validate-prompts",
+        "fix-prompts",
+        "audit-prompts",
+        "boost-prompts",
+        "prompts",
+        "frontmatter",
+        "yaml",
+        "repair",
+        "schema"
+      ],
+      "name": "fix-prompt-frontmatter",
+      "category": "agentic-coder",
+      "tags": [
+        "prompts",
+        "frontmatter",
+        "yaml",
+        "repair",
+        "schema",
+        "compliance"
+      ],
+      "title": "Fix Prompt Frontmatter",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 136,
+    "chars": 4083,
+    "sha256": "bd898f6dae587746e6fd39aba03fae27c324fb392ce33abd7738e0f8cede6704",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-prompt-frontmatter/references/batch-field-retrofit.md",
+        "lines": 100,
+        "chars": 3783,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-prompt-frontmatter/references/batch-field-retrofit.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 67,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-prompt-library/SKILL.md",
+    "relative_path": "development/fix-prompt-library/SKILL.md",
+    "name": "fix-prompt-library",
+    "frontmatter": {
+      "name": "fix-prompt-library",
+      "category": "agentic-coder",
+      "title": "Fix Prompt Library",
+      "description": "Fixes prompt library issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2603,
+    "sha256": "afcf408cec40e5fefb14307da1ed36e278381d87203cf5baedc15bb370612693",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-prompts/SKILL.md",
+    "relative_path": "development/fix-prompts/SKILL.md",
+    "name": "fix-prompts",
+    "frontmatter": {
+      "name": "fix-prompts",
+      "category": "agentic-coder",
+      "title": "Fix Prompts",
+      "description": "Fixes prompts issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2533,
+    "sha256": "8d97d0a6b268eb376fd4781fcee80dbbd30f8a5524d9dc34142a0e1f0524fb71",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-prompts/references/overview.md",
+        "lines": 31,
+        "chars": 647,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-prompts/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-prompts-comprehensive/SKILL.md",
+    "relative_path": "development/fix-prompts-comprehensive/SKILL.md",
+    "name": "fix-prompts-comprehensive",
+    "frontmatter": {
+      "name": "fix-prompts-comprehensive",
+      "category": "agentic-coder",
+      "title": "Fix Prompts Comprehensive",
+      "description": "Fixes prompts comprehensive issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2673,
+    "sha256": "503b3e376ab49f733e513f474110d9f01103fd8e3bb73bf13f8cd49dd7e371ec",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-prompts-comprehensive/references/overview.md",
+        "lines": 31,
+        "chars": 745,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-prompts-comprehensive/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-repo-body/SKILL.md",
+    "relative_path": "development/fix-repo-body/SKILL.md",
+    "name": "fix-repo-body",
+    "frontmatter": {
+      "name": "fix-repo-body",
+      "category": "agentic-coder",
+      "title": "Fix Repo Body",
+      "description": "Fixes repo body issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2541,
+    "sha256": "0c4da43de4e69f190ed82e8ec5b064c9e80dbcffca77cbd018be7f1c252122c8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

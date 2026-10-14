@@ -1,0 +1,360 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-repo-body2/SKILL.md",
+    "relative_path": "development/fix-repo-body2/SKILL.md",
+    "name": "fix-repo-body2",
+    "frontmatter": {
+      "name": "fix-repo-body2",
+      "category": "agentic-coder",
+      "title": "Fix Repo Body2",
+      "description": "Fixes repo body2 issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2551,
+    "sha256": "86f6389db1b03d64bc596c86f83fc9f79ac0fb54b95593c708f821702d55a552",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-residual-glue/SKILL.md",
+    "relative_path": "development/fix-residual-glue/SKILL.md",
+    "name": "fix-residual-glue",
+    "frontmatter": {
+      "name": "fix-residual-glue",
+      "category": "agentic-coder",
+      "title": "Fix Residual Glue",
+      "description": "Fixes residual glue issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2581,
+    "sha256": "c53df9a56747397716573298d3cdecfa39003a3bd544e20379788f403fad50f7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-skills/SKILL.md",
+    "relative_path": "development/fix-skills/SKILL.md",
+    "name": "fix-skills",
+    "frontmatter": {
+      "name": "fix-skills",
+      "category": "agentic-coder",
+      "title": "Fix Skills",
+      "description": "Fixes skills issues",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2509,
+    "sha256": "394c964ec2b622d1840819b92181038be323fd2da9a3c3ec63f1efade1a62cfb",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-skills/references/overview.md",
+        "lines": 59,
+        "chars": 2480,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-skills/templates/template.md",
+        "lines": 18,
+        "chars": 146,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/fix-skills/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-tail-generic/SKILL.md",
+    "relative_path": "development/fix-tail-generic/SKILL.md",
+    "name": "fix-tail-generic",
+    "frontmatter": {
+      "name": "fix-tail-generic",
+      "category": "agentic-coder",
+      "title": "Fix Tail Generic",
+      "description": "Fixes tail generic issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2571,
+    "sha256": "4f7c2f7b4ff2f18f213d17e774b15e3003bd766a07a6336ba910986b8692ed38",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-tail-glue/SKILL.md",
+    "relative_path": "development/fix-tail-glue/SKILL.md",
+    "name": "fix-tail-glue",
+    "frontmatter": {
+      "name": "fix-tail-glue",
+      "category": "agentic-coder",
+      "title": "Fix Tail Glue",
+      "description": "Fixes tail glue issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2541,
+    "sha256": "dac3ef921350a9b05ada28a024bc84a5de9e99803b67b6c42e0b340e02e4fc82",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-tail-glue2/SKILL.md",
+    "relative_path": "development/fix-tail-glue2/SKILL.md",
+    "name": "fix-tail-glue2",
+    "frontmatter": {
+      "name": "fix-tail-glue2",
+      "category": "agentic-coder",
+      "title": "Fix Tail Glue2",
+      "description": "Fixes tail glue2 issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2551,
+    "sha256": "3d952dd3c4723a06887bdc0517ae688e51164975d46d3a55d9739055a4fce308",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/fix-tail-manual/SKILL.md",
+    "relative_path": "development/fix-tail-manual/SKILL.md",
+    "name": "fix-tail-manual",
+    "frontmatter": {
+      "name": "fix-tail-manual",
+      "category": "agentic-coder",
+      "title": "Fix Tail Manual",
+      "description": "Fixes tail manual issues across files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "remediation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2561,
+    "sha256": "69afc8fb0e4cb82ce8e9c69a17497a4d859286acf176bcebe177a08fa60c6a84",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

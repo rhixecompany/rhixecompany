@@ -1,0 +1,345 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/writing-for-agents/SKILL.md",
+    "relative_path": "writing-for-agents/SKILL.md",
+    "name": "writing-for-agents",
+    "frontmatter": {
+      "name": "writing-for-agents",
+      "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md."
+    },
+    "has_frontmatter": true,
+    "lines": 81,
+    "chars": 10882,
+    "sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-fragments/SKILL.md",
+    "relative_path": "writing-fragments/SKILL.md",
+    "name": "writing-fragments",
+    "frontmatter": {
+      "name": "writing-fragments",
+      "description": "Writing, explore: mine raw fragments, no structure yet.",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 3558,
+    "sha256": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 3
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-plan/SKILL.md",
+    "relative_path": "writing-plan/SKILL.md",
+    "name": "writing-plan",
+    "frontmatter": {
+      "name": "writing-plan",
+      "category": "documentation",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 182,
+    "chars": 5277,
+    "sha256": "5cfe84cf813017608babb3682b5e46aa5322e44acb5ce92aa7ddf7f8b9f2ef47",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 57,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 2,
+    "section_count": 26
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-prompt/SKILL.md",
+    "relative_path": "writing-prompt/SKILL.md",
+    "name": "writing-prompt",
+    "frontmatter": {
+      "name": "writing-prompt",
+      "category": "documentation",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 174,
+    "chars": 4447,
+    "sha256": "9212129ae8b4dc726cd858c35fba12a193079394c1a99f8b3e603d1900187e29",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 61,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 20,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 24
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-shape/SKILL.md",
+    "relative_path": "writing-shape/SKILL.md",
+    "name": "writing-shape",
+    "frontmatter": {
+      "name": "writing-shape",
+      "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+      "disable-model-invocation": "true"
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 5916,
+    "sha256": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/writing-spec/SKILL.md",
+    "relative_path": "writing-spec/SKILL.md",
+    "name": "writing-spec",
+    "frontmatter": {
+      "name": "writing-spec",
+      "category": "documentation",
+      "description": ">"
+    },
+    "has_frontmatter": true,
+    "lines": 126,
+    "chars": 4222,
+    "sha256": "010032e90ba8b7c9f548903a7a10884d2b16e2abb2bea323563d4dd6fdeca113",
+    "references": [],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 53,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 0,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid version",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/youtube-full/SKILL.md",
+    "relative_path": "youtube-full/SKILL.md",
+    "name": "youtube-full",
+    "frontmatter": {
+      "name": "youtube-full",
+      "description": "Use when YouTube is or could be relevant — even if not mentioned: pasted video/channel/playlist links, video IDs, @handles, creator lookups, video summaries, quotes, translations, topic research, tutorials, talks, lectures, expert discussions, product reviews, how-to guides, new product announcements, first looks, or anything where video content is fresher or richer than text search. Covers transcripts, video/channel search, channel browsing, playlists, and within-channel search. Not for uploads, account management, or written-source-only research.",
+      "version": "1.6.2",
+      "user-invocable": "true",
+      "compatibility": "Requires internet access to reach transcriptapi.com. No additional runtimes or dependencies needed.",
+      "required_environment_variables": [
+        "name: TRANSCRIPT_API_KEY"
+      ],
+      "metadata": "{\"openclaw\":{\"emoji\":\"▶️\",\"requires\":{\"env\":[\"TRANSCRIPT_API_KEY\"]},\"primaryEnv\":\"TRANSCRIPT_API_KEY\",\"homepage\":\"https://transcriptapi.com\"},\"hermes\":{\"tags\":[\"youtube\",\"transcripts\",\"video\",\"search\",\"channels\",\"playlists\",\"captions\"],\"category\":\"media\"}}"
+    },
+    "has_frontmatter": true,
+    "lines": 293,
+    "chars": 12265,
+    "sha256": "99f23a2ddf946096659a6b2f9117d3c1806519326b3be8d7bac65646913eed88",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/youtube-full/references/auth-setup.md",
+        "lines": 137,
+        "chars": 7325,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/youtube-full/references/curl-examples.md",
+        "lines": 122,
+        "chars": 3894,
+        "substantive": true
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 59,
+    "rating": "FAIL",
+    "dimensions": {
+      "frontmatter": 6,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 18
+    },
+    "findings": [
+      "frontmatter: missing or invalid title",
+      "frontmatter: missing or invalid description",
+      "frontmatter: missing or invalid author",
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: not all reference types are present"
+    ],
+    "phase_count": 0,
+    "section_count": 21
+  }
+]

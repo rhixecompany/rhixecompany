@@ -1,0 +1,51 @@
+{
+  "dry_run": true,
+  "excluded_metadata_files": 4379,
+  "source": "/home/alexa/.hermes/skills",
+  "source_file_count": 4488,
+  "source_skill_count": 1246,
+  "targets": {
+    "codex": {
+      "backups": 0,
+      "new": 4488,
+      "replaced": 0,
+      "target": "/home/alexa/.codex/skills",
+      "unchanged": 0
+    },
+    "copilot": {
+      "backups": 0,
+      "new": 4488,
+      "replaced": 0,
+      "target": "/home/alexa/.copilot/skills",
+      "unchanged": 0
+    },
+    "cursor-agent": {
+      "backups": 0,
+      "new": 4488,
+      "replaced": 0,
+      "target": "/home/alexa/.cursor/skills",
+      "unchanged": 0
+    },
+    "grok": {
+      "backups": 0,
+      "new": 4385,
+      "replaced": 38,
+      "target": "/home/alexa/.grok/skills",
+      "unchanged": 65
+    },
+    "opencode": {
+      "backups": 0,
+      "new": 4488,
+      "replaced": 0,
+      "target": "/home/alexa/.config/opencode/skills",
+      "unchanged": 0
+    },
+    "shared-agents-alias": {
+      "backups": 0,
+      "new": 4385,
+      "replaced": 38,
+      "target": "/home/alexa/.agents/skills",
+      "unchanged": 65
+    }
+  }
+}

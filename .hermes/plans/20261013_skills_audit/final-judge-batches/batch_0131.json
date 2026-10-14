@@ -1,0 +1,327 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/sequential-thinking/SKILL.md",
+    "relative_path": "mcp/sequential-thinking/SKILL.md",
+    "name": "sequential-thinking",
+    "frontmatter": {
+      "name": "sequential-thinking",
+      "category": "agentic-coder",
+      "description": "MCP server for sequential-thinking. Use when you need sequential-thinking via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Sequential Thinking",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 3015,
+    "sha256": "a8ee2551c2d87a75cc69879d06d4fc9adf29041c435d68a2e9823befcf2aac16",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/smithery/SKILL.md",
+    "relative_path": "mcp/smithery/SKILL.md",
+    "name": "smithery",
+    "frontmatter": {
+      "name": "smithery",
+      "category": "agentic-coder",
+      "description": "MCP server for smithery. Use when you need smithery via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Smithery",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1142,
+    "sha256": "e5738f5e38d7c869961c509c1ab74b9094d6d2125c6859299126e142ed87c247",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/smithery-ai-cli/SKILL.md",
+    "relative_path": "mcp/smithery-ai-cli/SKILL.md",
+    "name": "smithery-ai-cli",
+    "frontmatter": {
+      "name": "smithery-ai-cli",
+      "title": "Smithery AI CLI",
+      "description": "Find, connect, and use MCP tools and skills via the Smithery CLI. Use when the user searches for new tools or skills, wants to discover integrations, connect to an MCP, install a skill, or wants to interact with an external service (email, Slack, Discord, GitHub, Jira, Notion, databases, cloud APIs, monitoring, etc.).",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[mcp, smithery, tools, skills, integration]",
+      "metadata": "{ \"openclaw\": { \"requires\": { \"bins\": [\"smithery\"] }, \"homepage\": \"https://smithery.ai\" } }"
+    },
+    "has_frontmatter": true,
+    "lines": 192,
+    "chars": 6744,
+    "sha256": "bf824c3435f6a29b37be37ab0edcf63b1dad8d6023b1ee734cf7a866bf31ba71",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Pitfalls",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 19
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/tavily/SKILL.md",
+    "relative_path": "mcp/tavily/SKILL.md",
+    "name": "tavily",
+    "frontmatter": {
+      "name": "tavily",
+      "category": "agentic-coder",
+      "description": "MCP server for tavily. Use when you need tavily via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Tavily",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 57,
+    "chars": 1150,
+    "sha256": "039068fa247e6d867ec96c465263701b8681856f53212830263cb71136a32b4b",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/telegram/SKILL.md",
+    "relative_path": "mcp/telegram/SKILL.md",
+    "name": "telegram",
+    "frontmatter": {
+      "name": "telegram",
+      "category": "agentic-coder",
+      "description": "MCP server for telegram. Use when you need telegram via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Telegram",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1142,
+    "sha256": "0ca8c9c65516f92ab2b8fd28bb5d6b08f8f343d108e23caf3486fa95b6883a41",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/twilio-docs/SKILL.md",
+    "relative_path": "mcp/twilio-docs/SKILL.md",
+    "name": "twilio-docs",
+    "frontmatter": {
+      "name": "twilio-docs",
+      "category": "documentation",
+      "description": "MCP server for twilio-docs. Use when you need twilio-docs via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Twilio Docs",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 60,
+    "chars": 1261,
+    "sha256": "6f156f39d68ed8e8ba7bf58402881dc546ad55a9320974be797e4ac5ab19d0b7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/mcp/vercel/SKILL.md",
+    "relative_path": "mcp/vercel/SKILL.md",
+    "name": "vercel",
+    "frontmatter": {
+      "name": "vercel",
+      "category": "agentic-coder",
+      "description": "MCP server for vercel. Use when you need vercel via MCP.",
+      "license": "Complete terms in LICENSE.txt",
+      "title": "Vercel",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "tags": "[hermes]"
+    },
+    "has_frontmatter": true,
+    "lines": 56,
+    "chars": 1122,
+    "sha256": "31fe0245d39b08b97d14e6c691a53fa46e2cceb69447f56ea351fadcfe8cc4c4",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 12,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "dry: repeated long paragraph(s)",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 11
+  }
+]

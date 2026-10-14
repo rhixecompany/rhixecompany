@@ -1,0 +1,328 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/analyze-prompt-library/SKILL.md",
+    "relative_path": "development/analyze-prompt-library/SKILL.md",
+    "name": "analyze-prompt-library",
+    "frontmatter": {
+      "name": "analyze-prompt-library",
+      "category": "agentic-coder",
+      "title": "Analyze Prompt Library",
+      "description": "Analyzes HuggingFace model metadata and configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2637,
+    "sha256": "123dd32eccf95ec534536a96f5f7548a818ff84e2b36ebcae295f0b87677fce8",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/analyze-prompt-library-v2/SKILL.md",
+    "relative_path": "development/analyze-prompt-library-v2/SKILL.md",
+    "name": "analyze-prompt-library-v2",
+    "frontmatter": {
+      "name": "analyze-prompt-library-v2",
+      "category": "agentic-coder",
+      "title": "Analyze Prompt Library V2",
+      "description": "Analyzes HuggingFace model metadata and configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2664,
+    "sha256": "ae4ddd39992dd232e81cca134d70fbc40b7f2765bd3a1cfcb4e995d98ed2a061",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/analyze-prompts/SKILL.md",
+    "relative_path": "development/analyze-prompts/SKILL.md",
+    "name": "analyze-prompts",
+    "frontmatter": {
+      "name": "analyze-prompts",
+      "category": "agentic-coder",
+      "title": "Analyze Prompts",
+      "description": "Analyzes HuggingFace model metadata and configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "prompts",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2574,
+    "sha256": "e28863a8168180c70a46740a6bc037dfdd0a69b14dd775f5919b0bbda4e58b58",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/analyze-skill-codeblocks/SKILL.md",
+    "relative_path": "development/analyze-skill-codeblocks/SKILL.md",
+    "name": "analyze-skill-codeblocks",
+    "frontmatter": {
+      "name": "analyze-skill-codeblocks",
+      "category": "agentic-coder",
+      "title": "Analyze Skill Codeblocks",
+      "description": "Analyzes HuggingFace model metadata and configurations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2654,
+    "sha256": "6ce5bd14a30304b1cb9fb0af8d7fe467f20842bb362fb36b11d599f33f0f0855",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/apple-appstore-reviewer/SKILL.md",
+    "relative_path": "development/apple-appstore-reviewer/SKILL.md",
+    "name": "apple-appstore-reviewer",
+    "frontmatter": {
+      "name": "apple-appstore-reviewer",
+      "category": "agentic-coder",
+      "title": "Apple Appstore Reviewer",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons."
+    },
+    "has_frontmatter": true,
+    "lines": 358,
+    "chars": 12675,
+    "sha256": "ab06f8276dc854a9bdd7e3d065aa8053d59bc6e307a36bc4e901182f0afe7a47",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 78,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 44
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/apply-pending-memory/SKILL.md",
+    "relative_path": "development/apply-pending-memory/SKILL.md",
+    "name": "apply-pending-memory",
+    "frontmatter": {
+      "name": "apply-pending-memory",
+      "category": "agentic-coder",
+      "title": "Apply Pending Memory",
+      "description": "Applies VS Code customizations from templates",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "memory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2609,
+    "sha256": "c1195b96e01aafea365fc97811924976df67211e49bec180a51f422f879c9c59",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/apply-pending-skills/SKILL.md",
+    "relative_path": "development/apply-pending-skills/SKILL.md",
+    "name": "apply-pending-skills",
+    "frontmatter": {
+      "name": "apply-pending-skills",
+      "category": "agentic-coder",
+      "title": "Apply Pending Skills",
+      "description": "Applies VS Code customizations from templates",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2609,
+    "sha256": "1b652febb497e5abe629222077108dfe2fa6c618728eaf62a6d01c1bb83e2a65",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

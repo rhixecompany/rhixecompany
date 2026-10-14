@@ -1,0 +1,448 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/full-health-check/SKILL.md",
+    "relative_path": "development/full-health-check/SKILL.md",
+    "name": "full-health-check",
+    "frontmatter": {
+      "name": "full-health-check",
+      "category": "agentic-coder",
+      "title": "Full Health Check",
+      "description": "Script for Full Health Check operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "bash",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2555,
+    "sha256": "713c69f34a51abce9c8ddbfc585080c8fb939c4650c604365f1adff6da156355",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/gen-specs-as-issues/SKILL.md",
+    "relative_path": "development/gen-specs-as-issues/SKILL.md",
+    "name": "gen-specs-as-issues",
+    "frontmatter": {
+      "name": "gen-specs-as-issues",
+      "category": "documentation",
+      "title": "Gen Specs As Issues",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation."
+    },
+    "has_frontmatter": true,
+    "lines": 200,
+    "chars": 6686,
+    "sha256": "48fddc2ae69f7a57e823686660e22734a4d068ecae264a26e8e01e67c05b70c0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 23
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/generate-context-files/SKILL.md",
+    "relative_path": "development/generate-context-files/SKILL.md",
+    "name": "generate-context-files",
+    "frontmatter": {
+      "name": "generate-context-files",
+      "category": "agentic-coder",
+      "title": "Generate Context Files",
+      "description": "Generates context files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "generation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2609,
+    "sha256": "e2ca6a0c0f7d64e0824f498347aa3fd8d299888e76fb64011f327b439cc3b884",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-context-files/references/overview.md",
+        "lines": 59,
+        "chars": 2495,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-context-files/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-context-files/templates/template.md",
+        "lines": 18,
+        "chars": 158,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-context-files/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/generate-custom-instructions-from-codebase/SKILL.md",
+    "relative_path": "development/generate-custom-instructions-from-codebase/SKILL.md",
+    "name": "generate-custom-instructions-from-codebase",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Analyze differences between two project versions (branches, commits, or releases) to generate migration instructions for GitHub Copilot. Use when performing technology migrations, major refactoring, or framework version upgrades to create precise instructions that maintain consistency during code evolution.",
+      "license": "MIT",
+      "metadata": [],
+      "name": "generate-custom-instructions-from-codebase",
+      "category": "agentic-coder",
+      "tags": [
+        "imported",
+        "migration",
+        "code-evolution",
+        "copilot",
+        "refactoring",
+        "scripts"
+      ],
+      "title": "Generate Custom Instructions From Codebase",
+      "version": "1.1.0"
+    },
+    "has_frontmatter": true,
+    "lines": 427,
+    "chars": 13057,
+    "sha256": "9e105b51c7f72d207d4aed72de4b035b0b2ec18f103ab9a95ebf87921f866b6a",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-custom-instructions-from-codebase/references/overview.md",
+        "lines": 9,
+        "chars": 1626,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-custom-instructions-from-codebase/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-custom-instructions-from-codebase/templates/template.md",
+        "lines": 35,
+        "chars": 1194,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-custom-instructions-from-codebase/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 62,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 16,
+      "content": 16,
+      "dry": 10,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: non-standard trigger field",
+      "structure: missing Pitfalls",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 10,
+    "section_count": 40
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/generate-session-report/SKILL.md",
+    "relative_path": "development/generate-session-report/SKILL.md",
+    "name": "generate-session-report",
+    "frontmatter": {
+      "name": "generate-session-report",
+      "category": "agentic-coder",
+      "title": "Generate Session Report",
+      "description": "Generates session report",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "generation",
+        "sessions",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2632,
+    "sha256": "49f87b12da5ec75eb4608de935124c0e15e1fb204cbd6364c768e3904b5b2d67",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/generate-skills/SKILL.md",
+    "relative_path": "development/generate-skills/SKILL.md",
+    "name": "generate-skills",
+    "frontmatter": {
+      "name": "generate-skills",
+      "category": "agentic-coder",
+      "title": "Generate Skills",
+      "description": "Generates skills",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "skills",
+        "generation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2550,
+    "sha256": "cf4a1b9eedf366182e96b1353f21cb44f8c38453ece6bb72660e3fd553048334",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-skills/references/overview.md",
+        "lines": 61,
+        "chars": 2866,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-skills/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-skills/templates/template.md",
+        "lines": 18,
+        "chars": 151,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-skills/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/generate-vscode-audit-report/SKILL.md",
+    "relative_path": "development/generate-vscode-audit-report/SKILL.md",
+    "name": "generate-vscode-audit-report",
+    "frontmatter": {
+      "name": "generate-vscode-audit-report",
+      "category": "audit",
+      "title": "Generate Vscode Audit Report",
+      "description": "Generates vscode audit report (VS Code / VS Code Insiders)",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "vscode",
+        "generation",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 80,
+    "chars": 2711,
+    "sha256": "85a754540883e469b8f37a55fa54f865cc6abd0716ed2ca9b886f0191ae2f5b7",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-audit-report/references/overview.md",
+        "lines": 60,
+        "chars": 2751,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-audit-report/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-audit-report/templates/template.md",
+        "lines": 18,
+        "chars": 164,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/generate-vscode-audit-report/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

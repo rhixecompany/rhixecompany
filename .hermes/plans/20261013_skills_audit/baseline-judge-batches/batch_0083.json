@@ -1,0 +1,622 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/skill-creator/SKILL.md",
+    "relative_path": "development/skill-creator/SKILL.md",
+    "name": "skill-creator",
+    "frontmatter": {
+      "name": "skill-creator",
+      "category": "agentic-coder",
+      "title": "Skill Creator",
+      "description": "Use when authoring, scaffolding, and validating in-repo SKILL.md files and skill assets.",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": "[skills, authoring, scaffolding, validation]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 116,
+    "chars": 6175,
+    "sha256": "dcedd1cd29905ad4ae8b2a7a4a745e6c7444ca20bbc9c284dc452fbfb079e6ea",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/frontmatter-corruption-repair.md",
+        "lines": 148,
+        "chars": 3920,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/frontmatter-corruption-repair.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/overview.md",
+        "lines": 31,
+        "chars": 661,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-frontmatter-template.md",
+        "lines": 37,
+        "chars": 1281,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-frontmatter-template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-library-standardization.md",
+        "lines": 28,
+        "chars": 1231,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-library-standardization.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-normalization-hermes-structure.md",
+        "lines": 57,
+        "chars": 1975,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-normalization-hermes-structure.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-refactor-workflow.md",
+        "lines": 32,
+        "chars": 2054,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/prompt-refactor-workflow.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/schemas.md",
+        "lines": 477,
+        "chars": 15738,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/references/schemas.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/templates/template.md",
+        "lines": 13,
+        "chars": 134,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/__init__.py",
+        "lines": 0,
+        "chars": 0,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/__init__.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/aggregate_benchmark.py",
+        "lines": 401,
+        "chars": 14284,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/aggregate_benchmark.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/generate_report.py",
+        "lines": 326,
+        "chars": 12837,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/generate_report.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/improve_description.py",
+        "lines": 247,
+        "chars": 11108,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/improve_description.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/package_skill.py",
+        "lines": 136,
+        "chars": 4214,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/package_skill.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/quick_validate.py",
+        "lines": 103,
+        "chars": 3972,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/quick_validate.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/run_eval.py",
+        "lines": 310,
+        "chars": 11464,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/run_eval.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/run_loop.py",
+        "lines": 328,
+        "chars": 13605,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/run_loop.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/utils.py",
+        "lines": 47,
+        "chars": 1661,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skill-creator/scripts/utils.py:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 20,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 4,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/skill-management/SKILL.md",
+    "relative_path": "development/skill-management/SKILL.md",
+    "name": "skill-management",
+    "frontmatter": {
+      "author": "Hermes Agent",
+      "description": "Discover, install, update, configure, and manage Hermes skills across profiles. This skill provides workflows for maintaining the skill library quality and organization. Also covers the skill-curator security gate (dangerous-findings / unloaded-SKILL.md) and how to re-enable skills blocked by it.",
+      "license": "MIT",
+      "metadata": [
+        "hermes-skills",
+        "skill-creator",
+        "skill-judge",
+        "hermes-setup",
+        "skills",
+        "management",
+        "configuration",
+        "hermes"
+      ],
+      "name": "skill-management",
+      "category": "agentic-coder",
+      "tags": [
+        "skills",
+        "management",
+        "configuration",
+        "hermes",
+        "scripts"
+      ],
+      "title": "Skill Management",
+      "version": "1.2.0"
+    },
+    "has_frontmatter": true,
+    "lines": 113,
+    "chars": 4064,
+    "sha256": "6ff6faaee5557a1210a06ff287ca2adb933f41f8c867b309a468314da80dff95",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/skills-audit/SKILL.md",
+    "relative_path": "development/skills-audit/SKILL.md",
+    "name": "skills-audit",
+    "frontmatter": {
+      "name": "skills-audit",
+      "category": "audit",
+      "title": "Skills Audit",
+      "description": "Performs audit on skill files",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "audit",
+        "skills",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2523,
+    "sha256": "9c23d0dae7369a04affc96193fb8dbdef8eb70610db25ae3bf9bff4c04a57510",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/skills-audit/references/async-script-patterns.md",
+        "lines": 119,
+        "chars": 3346,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skills-audit/references/async-script-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skills-audit/references/overview.md",
+        "lines": 29,
+        "chars": 515,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skills-audit/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skills-audit/templates/template.md",
+        "lines": 18,
+        "chars": 148,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/skills-audit/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/skills-bundle/SKILL.md",
+    "relative_path": "development/skills-bundle/SKILL.md",
+    "name": "skills-bundle",
+    "frontmatter": {
+      "name": "skills-bundle",
+      "category": "agentic-coder",
+      "title": "Feature Bundle Skill — Skills System",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "description": "Implements the feature documented at docs/features/skills.md by generating plan/spec/prompt/skill/script/result artifacts."
+    },
+    "has_frontmatter": true,
+    "lines": 43,
+    "chars": 1499,
+    "sha256": "0227b85c51792b182d401c421bada61ec73143fd17547587ea4c06375deaaf54",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 66,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 8,
+      "content": 8,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no error-handling guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/SKILL.md",
+    "relative_path": "development/slang-shader-engineer/SKILL.md",
+    "name": "slang-shader-engineer",
+    "frontmatter": {
+      "name": "slang-shader-engineer",
+      "category": "agentic-coder",
+      "title": "Slang Shader Engineer",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Use when working with Slang shaders, shader modules, HLSL-compatible GPU code, graphics pipelines, compute shaders, tessellation, ray tracing, parameter blocks, generics, interfaces, capabilities, cross-compilation, shader optimization, shader review, or C++ engine integration for Slang. Trigger on any mention of Slang, .slang files, slangc, SPIR-V from Slang, Slang modules, [shader(\"compute\")], [shader(\"vertex\")], or requests to write/review/refactor shader code with modern language features. Also trigger for Slang-to-HLSL/GLSL/Metal/CUDA cross-compile questions, or when the user says \"shader\" alongside \"generics\", \"interfaces\", \"parameter blocks\", \"autodiff\", or \"capabilities\"."
+    },
+    "has_frontmatter": true,
+    "lines": 190,
+    "chars": 8202,
+    "sha256": "e19f6d926221966c5fbf400beb04c93f08dad847217f48d5bea2779eb0b4724e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/references/language-reference.md",
+        "lines": 449,
+        "chars": 12817,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/references/language-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/references/rules-and-patterns.md",
+        "lines": 208,
+        "chars": 9560,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/references/rules-and-patterns.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/references/slang-documentation-full.md",
+        "lines": 1479,
+        "chars": 37807,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/slang-shader-engineer/references/slang-documentation-full.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 64,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/split-glued-headings/SKILL.md",
+    "relative_path": "development/split-glued-headings/SKILL.md",
+    "name": "split-glued-headings",
+    "frontmatter": {
+      "name": "split-glued-headings",
+      "category": "agentic-coder",
+      "title": "Split Glued Headings",
+      "description": "Script for Split Glued Headings operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2595,
+    "sha256": "8789fb3ef3c540312ee312f2e481ea9baa85e93252ccd97a90f88f25b4791bff",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sponsor-finder/SKILL.md",
+    "relative_path": "development/sponsor-finder/SKILL.md",
+    "name": "sponsor-finder",
+    "frontmatter": {
+      "name": "sponsor-finder",
+      "category": "agentic-coder",
+      "title": "Sponsor Finder",
+      "description": "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, RubyGems, Maven, and NuGet. Checks npm funding metadata, FUNDING.yml files, and web search. Verifies every link. Shows direct and transitive dependencies with OSSF Scorecard health data. Invoke with /sponsor followed by a GitHub owner/repo (e.g. \"/sponsor expressjs/express\").",
+      "version": "1.0.0",
+      "author": "Hermes Agent"
+    },
+    "has_frontmatter": true,
+    "lines": 295,
+    "chars": 12794,
+    "sha256": "5329db97f52f34de920144ef8f002781f6844bab36d025b52b5843d34f43c53c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 15,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid license",
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 27
+  }
+]

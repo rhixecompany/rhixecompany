@@ -1,0 +1,325 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/suggest-awesome-github-copilot-instructions/SKILL.md",
+    "relative_path": "development/suggest-awesome-github-copilot-instructions/SKILL.md",
+    "name": "suggest-awesome-github-copilot-instructions",
+    "frontmatter": {
+      "name": "suggest-awesome-github-copilot-instructions",
+      "category": "agentic-coder",
+      "title": "Suggest Awesome Github Copilot Instructions",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates."
+    },
+    "has_frontmatter": true,
+    "lines": 161,
+    "chars": 8641,
+    "sha256": "335cec13c91f7eabc52adc9916ae954f7d79b4e4366840a35b4ff358749c3b6f",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/suggest-awesome-github-copilot-skills/SKILL.md",
+    "relative_path": "development/suggest-awesome-github-copilot-skills/SKILL.md",
+    "name": "suggest-awesome-github-copilot-skills",
+    "frontmatter": {
+      "name": "suggest-awesome-github-copilot-skills",
+      "category": "agentic-coder",
+      "title": "Suggest Awesome Github Copilot Skills",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates."
+    },
+    "has_frontmatter": true,
+    "lines": 169,
+    "chars": 9086,
+    "sha256": "1789bc74ec96cf6b3e2d6316bf7789ba35f75fc81e60429bd506d23671383709",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 75,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 8
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/supermemory-integration/SKILL.md",
+    "relative_path": "development/supermemory-integration/SKILL.md",
+    "name": "supermemory-integration",
+    "frontmatter": {
+      "name": "supermemory-integration",
+      "category": "agentic-coder",
+      "title": "Supermemory integration",
+      "description": "Use when integrating Supermemory memory API into a project.",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT"
+    },
+    "has_frontmatter": true,
+    "lines": 52,
+    "chars": 3561,
+    "sha256": "b789c4b6b3fdbb267c3d0d67e8a6924a204a2c3c57803af85c9846030fb7aec7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 69,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 7
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sweep-corruption/SKILL.md",
+    "relative_path": "development/sweep-corruption/SKILL.md",
+    "name": "sweep-corruption",
+    "frontmatter": {
+      "name": "sweep-corruption",
+      "category": "agentic-coder",
+      "title": "Sweep Corruption",
+      "description": "Script for Sweep Corruption operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2555,
+    "sha256": "71e746300c5831fa912f40654df7638a2f814276c1c542119ddf9ebc1fdae4a5",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/swift-mcp-server-generator/SKILL.md",
+    "relative_path": "development/swift-mcp-server-generator/SKILL.md",
+    "name": "swift-mcp-server-generator",
+    "frontmatter": {
+      "name": "swift-mcp-server-generator",
+      "category": "agentic-coder",
+      "title": "Swift Mcp Server Generator",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package."
+    },
+    "has_frontmatter": true,
+    "lines": 708,
+    "chars": 18492,
+    "sha256": "70769e4a2d4f54d54e1566a142f4511414d29f221bf3abec1f9853b3541e8a3c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 4,
+      "content": 16,
+      "dry": 10,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: repeated long paragraph(s)",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 16
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sync/SKILL.md",
+    "relative_path": "development/sync/SKILL.md",
+    "name": "sync",
+    "frontmatter": {
+      "name": "sync",
+      "category": "agentic-coder",
+      "allowed-tools": "Bash, Read, Grep, Glob, Write, Edit, Agent",
+      "description": "Use when reconciling durable context after a change.",
+      "title": "Sync",
+      "version": "1.1.0",
+      "author": "Alexander E Iseghohi; Alexa",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "tags": "[sync, agents-md, scope, status]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 189,
+    "chars": 16416,
+    "sha256": "cbb0f8959cda34e6ed3be6ab9aca9c43374824e6d1aaa98368fc89295e1f719a",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 18
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/sync-profile-configs/SKILL.md",
+    "relative_path": "development/sync-profile-configs/SKILL.md",
+    "name": "sync-profile-configs",
+    "frontmatter": {
+      "name": "sync-profile-configs",
+      "category": "agentic-coder",
+      "title": "Sync Profile Configs",
+      "description": "Script for Sync Profile Configs operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "configuration",
+        "profiles",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 79,
+    "chars": 2626,
+    "sha256": "8ced697cb6257385512ca9e68aca705e78e216f00210a7fa385c6579a6c0fb0d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  }
+]

@@ -1,0 +1,387 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/devops/batch-files/SKILL.md",
+    "relative_path": "devops/batch-files/SKILL.md",
+    "name": "batch-files",
+    "frontmatter": {
+      "name": "batch-files",
+      "category": "agentic-coder",
+      "title": "Batch Files",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts. Use when asked to \"create a batch file\", \"write a .bat script\", \"automate a Windows task\", \"CMD scripting\", \"batch automation\", \"scheduled task script\", \"Windows shell script\", or when working with .bat/.cmd files in the workspace. Covers cmd.exe syntax, environment variables, control flow, string processing, error handling, and integration with system tools."
+    },
+    "has_frontmatter": true,
+    "lines": 576,
+    "chars": 17823,
+    "sha256": "2b9c2b5a3361337aa1d8c89ac796e34b441300710130f5ff99c68b82fdecd221",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 74,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 0,
+    "section_count": 28
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/bug-receipt/SKILL.md",
+    "relative_path": "devops/bug-receipt/SKILL.md",
+    "name": "bug-receipt",
+    "frontmatter": {
+      "name": "bug-receipt",
+      "category": "agentic-coder",
+      "title": "Bug Receipt",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Close defects and incidents with a BUG RECEIPT and VERIFIED, PARTIAL, or BLOCKED status after diagnosis, repair, or recovery.",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 117,
+    "chars": 5311,
+    "sha256": "0fd888502e73ecc4cedc8c7561767cff374a47f37e20ed285e701e85070ec89c",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 72,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid version",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 2
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/centos-linux-triage/SKILL.md",
+    "relative_path": "devops/centos-linux-triage/SKILL.md",
+    "name": "centos-linux-triage",
+    "frontmatter": {
+      "name": "centos-linux-triage",
+      "category": "agentic-coder",
+      "title": "Centos Linux Triage",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Triage and resolve CentOS issues using RHEL-compatible tooling, SELinux-aware practices, and firewalld."
+    },
+    "has_frontmatter": true,
+    "lines": 70,
+    "chars": 1939,
+    "sha256": "0b916476ce1d50c0cf46b4cf5c1c0b130232d0197164c19f8abcd067967d6ca0",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 79,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 12,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "content: no concrete example/template",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/ci-cd-best-practices/SKILL.md",
+    "relative_path": "devops/ci-cd-best-practices/SKILL.md",
+    "name": "ci-cd-best-practices",
+    "frontmatter": {
+      "name": "ci-cd-best-practices",
+      "category": "agentic-coder",
+      "version": "1.0.0",
+      "title": "Ci Cd Best Practices",
+      "author": "Hermes Skills Team",
+      "description": "CI/CD best practices for building automated pipelines, deployment strategies, testing, and DevOps workflows across platforms",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 568,
+    "chars": 11722,
+    "sha256": "ed11f2c154883351a908f750f043c7360045f2cb141451251601ed3f794eabf7",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 76,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "dry: SKILL.md is 250+ lines",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 42
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/ci-cd-pipeline-builder/SKILL.md",
+    "relative_path": "devops/ci-cd-pipeline-builder/SKILL.md",
+    "name": "ci-cd-pipeline-builder",
+    "frontmatter": {
+      "name": "ci-cd-pipeline-builder",
+      "category": "agentic-coder",
+      "title": "Ci Cd Pipeline Builder",
+      "author": "Hermes Agent",
+      "version": "1.0.0",
+      "description": "Generate pragmatic CI/CD pipelines from detected project stack signals — fast baseline generation, repeatable checks, environment-aware deployment stages. Use when setting up CI for a new project, refactoring existing pipelines, or standardizing deployment workflows across multiple repos.",
+      "license": "MIT",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 138,
+    "chars": 4958,
+    "sha256": "1b212f02028c10bb03e81fa9b2e5e45fa0ef5b39780083187531adc1c4ed6f5e",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 73,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 4,
+    "section_count": 6
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/cli/SKILL.md",
+    "relative_path": "devops/cli/SKILL.md",
+    "name": "inference-sh-cli",
+    "frontmatter": {
+      "name": "inference-sh-cli",
+      "category": "agentic-coder",
+      "title": "Inference Sh Cli",
+      "description": "Run 150+ AI apps via inference.sh CLI (infsh) — image generation, video creation, LLMs, search, 3D, social automation. Uses the terminal tool. Triggers: inference.sh, infsh, ai apps, flux, veo, image generation, video generation, seedream, seedance, tavily",
+      "version": "1.0.0",
+      "author": "okaris",
+      "license": "MIT",
+      "platforms": "[linux, macos, windows]",
+      "metadata": []
+    },
+    "has_frontmatter": true,
+    "lines": 177,
+    "chars": 5619,
+    "sha256": "7ec3e954b1323d4678023a1c05df9805910138db0e533981751c784ef7c38431",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/app-discovery.md",
+        "lines": 112,
+        "chars": 2120,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/app-discovery.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/authentication.md",
+        "lines": 59,
+        "chars": 1084,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/authentication.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/cli-reference.md",
+        "lines": 104,
+        "chars": 3181,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/cli-reference.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/running-apps.md",
+        "lines": 171,
+        "chars": 3705,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli/references/running-apps.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": true,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 65,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 8,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 22
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/devops/cli-brownfield-scoping/SKILL.md",
+    "relative_path": "devops/cli-brownfield-scoping/SKILL.md",
+    "name": "cli-brownfield-scoping",
+    "frontmatter": {
+      "name": "cli-brownfield-scoping",
+      "category": "agentic-coder",
+      "title": "Brownfield CLI Scoping with Design Integration",
+      "version": "1.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "description": "Brownfield CLI scope with Tracer Bullet, GA tier, design-md, repo-init fallback. Patient-teacher explanations with real file checks."
+    },
+    "has_frontmatter": true,
+    "lines": 75,
+    "chars": 7061,
+    "sha256": "e620a89ceb9b462cabcdca800ebb14d2e0ca1cc5d2924cd5183c0060ba93f13b",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli-brownfield-scoping/references/repo-init-fallback.md",
+        "lines": 11,
+        "chars": 1153,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/devops/cli-brownfield-scoping/references/repo-init-fallback.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 60,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 18,
+      "structure": 4,
+      "content": 20,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "frontmatter: missing or invalid tags",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "structure: missing Pitfalls",
+      "structure: missing Verification Checklist",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 9
+  }
+]

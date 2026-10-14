@@ -1,0 +1,395 @@
+[
+  {
+    "path": "/home/alexa/.hermes/skills/development/pester-should-migration/SKILL.md",
+    "relative_path": "development/pester-should-migration/SKILL.md",
+    "name": "pester-should-migration",
+    "frontmatter": {
+      "name": "pester-should-migration",
+      "category": "agentic-coder",
+      "title": "Pester Should Migration",
+      "version": "1.0.0",
+      "author": "Alexa",
+      "license": "MIT",
+      "tags": "[]",
+      "description": "Experimental (preview) Pester skill for migrating classic Should -Be (v5) assertion syntax to the new Should-* (v6) assertions (note the hyphen, no space), e.g. `Should -Be` -> `Should-Be`, `Should -Not -Be` -> `Should-NotBe`. Tracks Pester 6, which is still a release candidate, so this guidance may change; verified against Pester 6.0.0-rc2. Use when converting Pester v5 assertions to Pester v6 Should-* operators, modernizing a Pester test suite, or when a user asks to migrate, convert, or rewrite `Should -...` calls in .Tests.ps1 / PowerShell files.",
+      "argument-hint": "File, folder, or test suite to migrate"
+    },
+    "has_frontmatter": true,
+    "lines": 170,
+    "chars": 8484,
+    "sha256": "5e0a6144bcdb056fd039dca15d0a1b5957d6345d7b597141285afadfce37794e",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/pester-should-migration/references/assertion-map.md",
+        "lines": 187,
+        "chars": 9541,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/pester-should-migration/references/assertion-map.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 68,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 17,
+      "structure": 12,
+      "content": 16,
+      "dry": 15,
+      "references": 8
+    },
+    "findings": [
+      "frontmatter: missing or invalid description",
+      "structure: missing Skills Required table",
+      "structure: missing phased workflow",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 0,
+    "section_count": 14
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase1-inventory/SKILL.md",
+    "relative_path": "development/phase1-inventory/SKILL.md",
+    "name": "phase1-inventory",
+    "frontmatter": {
+      "name": "phase1-inventory",
+      "category": "agentic-coder",
+      "title": "Phase1 Inventory",
+      "description": "Script for Phase1 Inventory operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "inventory",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 78,
+    "chars": 2569,
+    "sha256": "4f012511b811d76704b7d311c0dd6b259a49ab87d6ef1f2126a453bc013e4b39",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase2-analysis/SKILL.md",
+    "relative_path": "development/phase2-analysis/SKILL.md",
+    "name": "phase2-analysis",
+    "frontmatter": {
+      "name": "phase2-analysis",
+      "category": "agentic-coder",
+      "title": "Phase2 Analysis",
+      "description": "Script for Phase2 Analysis operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2545,
+    "sha256": "838ce2b6880acd6eea429f52a9d6556627a4b6621a0ef813dece3b0b120eaa5d",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase3-changelog/SKILL.md",
+    "relative_path": "development/phase3-changelog/SKILL.md",
+    "name": "phase3-changelog",
+    "frontmatter": {
+      "name": "phase3-changelog",
+      "category": "agentic-coder",
+      "title": "Phase3 Changelog",
+      "description": "Script for Phase3 Changelog operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2555,
+    "sha256": "bd9393189322270504791f7980d420798f6d2ec0773d44ad90c010b274769e76",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase3-gate-check/SKILL.md",
+    "relative_path": "development/phase3-gate-check/SKILL.md",
+    "name": "phase3-gate-check",
+    "frontmatter": {
+      "name": "phase3-gate-check",
+      "category": "agentic-coder",
+      "title": "Phase3 Gate Check",
+      "description": "Script for Phase3 Gate Check operations",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "python",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 77,
+    "chars": 2565,
+    "sha256": "03c2418673236a1902ca2540f1d22d68469cc477821dec30951ef0eed976ba97",
+    "references": [],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 83,
+    "rating": "PASS",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 12,
+      "content": 16,
+      "dry": 20,
+      "references": 15
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "structure: no substantive support references",
+      "content: no resumability/entry-check guidance",
+      "references: no references/templates/scripts directory"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct/SKILL.md",
+    "relative_path": "development/phase4-reconstruct/SKILL.md",
+    "name": "phase4-reconstruct",
+    "frontmatter": {
+      "name": "phase4-reconstruct",
+      "category": "agentic-coder",
+      "title": "Phase4 Reconstruct",
+      "description": "Phase 4 reconstruction script for skill auditing",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 76,
+    "chars": 2602,
+    "sha256": "bf9056630f3e201ad82e3d6259fd5fed38e4ec5c74007d28240dc2a0de6f2f1d",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct/references/overview.md",
+        "lines": 29,
+        "chars": 816,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct/templates/template.md",
+        "lines": 13,
+        "chars": 139,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 11
+  },
+  {
+    "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct-cjs/SKILL.md",
+    "relative_path": "development/phase4-reconstruct-cjs/SKILL.md",
+    "name": "phase4-reconstruct-cjs",
+    "frontmatter": {
+      "name": "phase4-reconstruct-cjs",
+      "category": "agentic-coder",
+      "title": "Phase4 Reconstruct",
+      "description": "Phase 4 reconstruction script for skill auditing",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "tags": [
+        "javascript",
+        "scripts"
+      ]
+    },
+    "has_frontmatter": true,
+    "lines": 85,
+    "chars": 3051,
+    "sha256": "c3090b401e13c75a65fb090f51200a341403cc95ceca47b51b8e5758db0ad1ee",
+    "references": [
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct-cjs/references/overview.md",
+        "lines": 16,
+        "chars": 401,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct-cjs/references/overview.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct-cjs/templates/template.md",
+        "lines": 18,
+        "chars": 158,
+        "substantive": true
+      },
+      {
+        "path": "/home/alexa/.hermes/skills/development/phase4-reconstruct-cjs/templates/template.md:Zone.Identifier",
+        "lines": 2,
+        "chars": 24,
+        "substantive": false
+      }
+    ],
+    "classification": {
+      "duplicate_name": false,
+      "user_modified_bundled": false,
+      "backup_or_archive": false,
+      "protected": false
+    },
+    "score": 70,
+    "rating": "WARN",
+    "dimensions": {
+      "frontmatter": 20,
+      "structure": 16,
+      "content": 16,
+      "dry": 15,
+      "references": 3
+    },
+    "findings": [
+      "structure: missing Skills Required table",
+      "content: no resumability/entry-check guidance",
+      "dry: support references are not cited from the body",
+      "references: not all reference types are present",
+      "references: one or more support files are stubs",
+      "references: files are not cited from SKILL.md",
+      "references: orphaned support file(s)"
+    ],
+    "phase_count": 3,
+    "section_count": 12
+  }
+]
