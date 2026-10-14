@@ -7,8 +7,8 @@ candidate. No invented data: every field comes from the inventory record.
 """
 
 import json
-import re
 import os
+import re
 import sys
 
 INV = '/mnt/c/Users/Alexa/playgrounds/profile/docs/inventory'

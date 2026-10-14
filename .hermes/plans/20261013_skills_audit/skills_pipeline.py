@@ -10,7 +10,6 @@ import argparse
 import hashlib
 import json
 import re
-import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
@@ -326,9 +325,7 @@ def score_skill(row: dict[str, Any]) -> dict[str, Any]:
         findings.append("references: not all reference types are present")
     else:
         findings.append("references: no references/templates/scripts directory")
-    if refs and all(x.get("substantive") for x in refs):
-        reference_score += 5
-    elif not refs:
+    if (refs and all(x.get("substantive") for x in refs)) or not refs:
         reference_score += 5
     else:
         findings.append("references: one or more support files are stubs")

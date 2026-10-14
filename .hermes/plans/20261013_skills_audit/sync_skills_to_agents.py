@@ -6,7 +6,7 @@ import argparse
 import hashlib
 import json
 import shutil
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 SKIP_SUFFIXES = (":Zone.Identifier",)
@@ -96,7 +96,7 @@ def main() -> int:
         raise SystemExit(f"source skills directory not found: {source}")
     files, excluded = source_files(source)
     skill_count = sum(path.name == "SKILL.md" for path in files)
-    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
     backup_root = output / "backups" / timestamp
     results = {
         "source": str(source),

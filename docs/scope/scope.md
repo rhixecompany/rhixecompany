@@ -141,6 +141,31 @@ Contact form (`sendEmail`) renders `email_template.html`, sends via Django `Emai
 Spec (existing) · code in `base/views.py`, `base/templates/`
 Note: the GCS media layer (feature 1) requires a working email backend only if notifications are added; notifications are deferred, so the placeholder email settings are acceptable for now.
 
+## Phase 4: Technical Debt & Modernization
+
+*These are internal improvements that reduce risk and modernize the stack without changing user-facing behavior. They are planned after the core journeys complete.*
+
+### 8. CKEditor 4 → 5 migration · planned · needs a decision · GA · Needs spec: yes
+Migrate from `django-ckeditor` (CKEditor 4.22.1, end-of-life, security warnings) to `django-ckeditor-5`. CKEditor 4 bundles unsupported code with unfixed CVEs. The migration requires: package swap (`django-ckeditor-5`), model field change (`RichTextUploadingField` → `CKEditor5Field`), template/widget updates (`ckeditor/` templates, admin overrides), and GCS upload path compatibility (`CKEDITOR_UPLOAD_PATH` → `CKEDITOR_5_CONFIGS['default']['filebrowser']['uploadUrl']`).
+**Done when:** admin and post forms use CKEditor 5, uploads write to GCS, no CKEditor 4 assets remain, and the Django system check warning is resolved.
+- [ ] Design it (spec): `/architect CKEditor 4 to 5 migration`
+
+Note: this is a breaking change to the editor component; it needs a spec to capture widget configs, GCS integration, and any custom toolbar/plugins.
+
+### 9. Function-based views → Class-based views migration · planned · needs a decision · GA · Needs spec: yes
+Refactor the 13 function-based views in `base/views.py` (`home`, `posts`, `post`, `profile`, `createPost`, `updatePost`, `deletePost`, `sendEmail`, `loginPage`, `registerPage`, `logoutUser`, `userAccount`, `updateProfile`) to Django Class-Based Views (`ListView`, `DetailView`, `CreateView`, `UpdateView`, `DeleteView`, `FormView`, `LoginView`, `LogoutView`). Benefits: reduced boilerplate, built-in mixins (`LoginRequiredMixin`, `UserPassesTestMixin`), consistent pagination/filtering, and alignment with `base/AGENTS.md` and `copilot-instructions.md` conventions.
+**Done when:** all FBVs replaced with CBVs, URL routing unchanged, existing tests pass, and admin `@admin_only`/`@login_required` logic preserved via mixins.
+- [ ] Design it (spec): `/architect FBV to CBV migration`
+
+Note: this touches every request handler; it needs a spec to map each FBV to its CBV equivalent, define mixin strategy, and verify no behavior regressions.
+
+### 10. GCS → Cloudinary media storage migration · planned · needs a decision · GA · Needs spec: yes
+Migrate media and static file storage from Google Cloud Storage (`storages.backends.gcloud.GoogleCloudStorage`) to Cloudinary (`cloudinary_storage`). Cloudinary provides automatic image optimization, transformations, CDN delivery, and a generous free tier. Migration requires: package swap (`django-cloudinary-storage` replaces `django-storages[google]`), settings update (`DEFAULT_FILE_STORAGE`, `STATICFILES_STORAGE`), Cloudinary credentials configuration (`CLOUDINARY_URL` or `CLOUDINARY_CLOUD_NAME`/`API_KEY`/`API_SECRET`), and CKEditor 5 upload integration with Cloudinary. Existing GCS assets remain accessible via their URLs; new uploads go to Cloudinary.
+**Done when:** `DEFAULT_FILE_STORAGE` and `STATICFILES_STORAGE` use Cloudinary backend, uploads (thumbnails, CKEditor images) write to Cloudinary, existing GCS URLs still work, and no `storages.backends.gcloud` references remain in settings.
+- [ ] Design it (spec): `/architect GCS to Cloudinary migration`
+
+Note: this is a storage backend change with zero-downtime requirements (existing GCS URLs must remain accessible); it needs a spec to capture credential management, migration strategy, and CKEditor integration.
+
 ## Deferred
 
 Features out of scope for the current build pass, kept so the plan stays honest and does not grow unexpectedly.
